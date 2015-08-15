@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-30 18:06+0100\n"
+"POT-Creation-Date: 2015-08-15 11:20+0200\n"
 "PO-Revision-Date: 2012-10-01 15:09+0000\n"
 "Last-Translator: Ronaldo padilha <ronaldoflake@gmail.com>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Launchpad-Export-Date: 2013-10-12 07:28+0000\n"
 "X-Generator: Launchpad (build 16799)\n"
 
-#: ../../src/iwAction.cpp:234
+#: ingameWindows/iwAction.cpp:230
 msgid ""
 "\n"
 "Costs: "
@@ -26,285 +26,325 @@ msgstr ""
 "\n"
 "Custo: "
 
-#: ../../src/GameClient.cpp:610
+#: GameClient.cpp:681 GameServer.cpp:1743
 msgid " (AI)"
 msgstr " (IA)"
 
-#: ../../src/iwAction.cpp:236
+#: GameClient.cpp:686 GameServer.cpp:1750
+msgid " (easy)"
+msgstr ""
+
+#: GameClient.cpp:692 GameServer.cpp:1756
+msgid " (hard)"
+msgstr ""
+
+#: GameClient.cpp:689 GameServer.cpp:1753
+msgid " (medium)"
+msgstr ""
+
+#: ingameWindows/iwAction.cpp:232
 msgid " boards"
 msgstr " Tábuas de Madeira"
 
-#: ../../src/iwAction.cpp:241
+#: ingameWindows/iwAction.cpp:237
 msgid " stones"
 msgstr " Blocos de pedra"
 
-#. / Einstufung nur bei Lobbyspielen anzeigen @todo Einstufung ( "%d" )
-#. Ping ( "%d" )
-#: ../../src/dskHostGame.cpp:294 ../../src/dskHostGame.cpp:321
+#: desktops/dskHostGame.cpp:304 desktops/dskHostGame.cpp:331
+#: ingameWindows/iwWares.cpp:168 ingameWindows/iwWares.cpp:172
 #, c-format
 msgid "%d"
 msgstr "%d"
 
-#. Und Zeilen vorbereiten
-#: ../../src/dskSelectMap.cpp:417
+#: desktops/dskSelectMap.cpp:422
 #, c-format
 msgid "%d Player"
 msgstr "%d Jogador"
 
-#. Anzahl-Text
-#: ../../src/iwHQ.cpp:68
+#: ingameWindows/iwHQ.cpp:67
 #, c-format
 msgid "%u/%u"
 msgstr "%u/%u"
 
-#: ../../src/iwDirectIPCreate.cpp:83
+#: ingameWindows/iwDirectIPCreate.cpp:84
 msgid "'s Game"
 msgstr "'s Game"
 
-#: ../../src/GameWorldView.cpp:301
+#: GameWorldView.cpp:353
 #, c-format
 msgid "(%d soldiers)"
 msgstr "(%d soldados)"
 
-#: ../../src/GameWorldView.cpp:299
+#: GameWorldView.cpp:351
 msgid "(1 soldier)"
 msgstr "(1 soldado)"
 
-#: ../../src/GameWorldView.cpp:269
+#: GameWorldView.cpp:320 ingameWindows/iwBuilding.cpp:115
+#: ingameWindows/iwBuilding.cpp:212
 msgid "(House unoccupied)"
 msgstr "(Casa desocupada)"
 
-#: ../../src/dskGameInterface.cpp:249
+#: desktops/dskGameInterface.cpp:245
 #, c-format
 msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
 msgstr "(Modo-Replay) GF Actual: %u (Acaba em: %u) / Comprimento GF %u ms / Comprimento NWF %u gf (%u ms)"
 
-#: ../../src/GameWorldView.cpp:271
+#: GameWorldView.cpp:322
 msgid "(stopped)"
 msgstr "(parado)"
 
-#. Team
-#: ../../src/dskHostGame.cpp:193 ../../src/dskHostGame.cpp:304
-#: ../../src/dskHostGame.cpp:313
+#: addons/AddonBurnDuration.h:56
+msgid "+100%"
+msgstr ""
+
+#: addons/AddonBurnDuration.h:55
+msgid "+50%"
+msgstr ""
+
+#: desktops/dskHostGame.cpp:196 desktops/dskHostGame.cpp:314
+#: desktops/dskHostGame.cpp:323
 msgid "-"
 msgstr "-"
 
-#: ../../src/iwAction.cpp:123
+#: addons/AddonBurnDuration.h:51
+msgid "-25%"
+msgstr ""
+
+#: addons/AddonBurnDuration.h:52
+msgid "-50%"
+msgstr ""
+
+#: addons/AddonBurnDuration.h:53
+msgid "-75%"
+msgstr ""
+
+#: addons/AddonBurnDuration.h:54
+msgid "-90%"
+msgstr ""
+
+#: ingameWindows/iwAction.cpp:115
 msgid "-> Build castle"
 msgstr "-> Construir Castelo"
 
-#: ../../src/iwAction.cpp:102 ../../src/iwAction.cpp:116
-#: ../../src/iwAction.cpp:122
+#: ingameWindows/iwAction.cpp:102 ingameWindows/iwAction.cpp:113
 msgid "-> Build house"
 msgstr "-> Construir casa"
 
-#: ../../src/iwAction.cpp:111 ../../src/iwAction.cpp:115
-#: ../../src/iwAction.cpp:121
+#: ingameWindows/iwAction.cpp:111
 msgid "-> Build hut"
 msgstr "-> Construir cabana"
 
-#: ../../src/iwAction.cpp:127
+#: ingameWindows/iwAction.cpp:108
 msgid "-> Dig mines"
 msgstr "-> Escavar Minas"
 
-#: ../../src/iwMerchandiseStatistics.cpp:97
+#: ingameWindows/iwMerchandiseStatistics.cpp:97
+#: ingameWindows/iwStatistics.cpp:131
 msgid "1 h"
 msgstr "1 h"
 
-#: ../../src/AddonLimitCatapults.h:51
+#: addons/AddonLimitCatapults.h:52
 msgid "10 catapults"
 msgstr "10 Catapultas"
 
-#: ../../src/iwMerchandiseStatistics.cpp:96
+#: ingameWindows/iwMerchandiseStatistics.cpp:96
+#: ingameWindows/iwStatistics.cpp:130
 msgid "15 m"
 msgstr "15 m"
 
-#: ../../src/iwMerchandiseStatistics.cpp:99
+#: ingameWindows/iwMerchandiseStatistics.cpp:99
+#: ingameWindows/iwStatistics.cpp:133
 msgid "16 h"
 msgstr "16 h"
 
-#: ../../src/AddonLimitCatapults.h:52
+#: addons/AddonLimitCatapults.h:53
 msgid "20 catapults"
 msgstr "20 Catapultas"
 
-#: ../../src/AddonLimitCatapults.h:49
+#: addons/AddonLimitCatapults.h:50
 msgid "3 catapults"
 msgstr "3 Catapultas"
 
-#: ../../src/AddonLimitCatapults.h:53
+#: addons/AddonLimitCatapults.h:54
 msgid "30 catapults"
 msgstr "30 Catapultas"
 
-#: ../../src/iwMerchandiseStatistics.cpp:98
+#: ingameWindows/iwMerchandiseStatistics.cpp:98
+#: ingameWindows/iwStatistics.cpp:132
 msgid "4 h"
 msgstr "4 h"
 
-#: ../../src/AddonLimitCatapults.h:50
+#: addons/AddonLimitCatapults.h:51
 msgid "5 catapults"
 msgstr "5 Catapultas"
 
-#: ../../src/dskGameInterface.cpp:1040 ../../src/dskGameInterface.cpp:1090
-#: ../../src/dskGameInterface.cpp:1119
+#: desktops/dskGameInterface.cpp:1033 desktops/dskGameInterface.cpp:1083
+#: desktops/dskGameInterface.cpp:1112
 #, c-format
 msgid "<%s> "
 msgstr "<%s> "
 
-#: ../../src/dskGameInterface.cpp:1055
+#: desktops/dskGameInterface.cpp:1048
 msgid "A auto-savegame is created..."
 msgstr "O jogo foi salvado automáticamente..."
 
-#: ../../src/nobMilitary.cpp:1171
+#: buildings/nobMilitary.cpp:1244
 msgid "A catapult is firing upon us!"
 msgstr "Estamos a ser bombardeados por uma catapulta!"
 
-#: ../../src/BuildingConsts.h:357
+#: gameData/BuildingConsts.cpp:129
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
 msgstr "Uma mina de ouro permite que você mine depositos valiosos de ouro. Para isso, é necessário que todos os mineiros sejam providenciados com muitos alimentos."
 
-#: ../../src/dskHostGame.cpp:129
+#: desktops/dskHostGame.cpp:132
 msgid "A lot"
 msgstr "Muito"
 
-#: ../../src/noShipBuildingSite.cpp:138
+#: nodeObjs/noShipBuildingSite.cpp:138
 msgid "A new ship is ready"
 msgstr "Um novo navio está pronto!"
 
-#: ../../src/noShip.cpp:464
+#: nodeObjs/noShip.cpp:450
 msgid "A ship disovered an enemy territory"
 msgstr "Um navio descobriu território inimigo"
 
-#: ../../src/noShip.cpp:742
+#: nodeObjs/noShip.cpp:729
 msgid "A ship has reached the destination of its expedition."
 msgstr "Um navio chegou ao destino da expedição."
 
-#: ../../src/noShip.cpp:286
+#: nodeObjs/noShip.cpp:288
 msgid "A ship is ready for an expedition."
 msgstr "Um navio está pronto para uma expedição."
 
-#: ../../src/BuildingConsts.h:510
+#: gameData/BuildingConsts.cpp:282
 msgid "A well supplies water to the bakery, brewery, donkey breeder and pig farm."
 msgstr "Um poço abastece com água, a padaria, a cervejaria, o criador de burros e a pocilga."
 
-#: ../../src/BuildingConsts.h:382
+#: gameData/BuildingConsts.cpp:154
 msgid "A woodcutter provides the sawmill with logs. A forester is able to replant the depleted forest."
 msgstr "O lenhador fornece a serraria com troncos. O florestador é capaz de replantar a floresta cortada."
 
-#: ../../src/iwAIDebug.cpp:49
+#: ingameWindows/iwAIDebug.cpp:49
 msgid "AI Debug"
 msgstr "Debug IA"
 
-#: ../../src/iwMainMenu.cpp:97
+#: ingameWindows/iwMainMenu.cpp:97
 msgid "AI Debug Window"
 msgstr "Janela debug IA"
 
-#: ../../src/AddonAIDebugWindow.h:38
+#: addons/AddonAIDebugWindow.h:39
 msgid "AI Debugging Window"
 msgstr "Janela de Debug de IA"
 
-#: ../../src/AIPlayerJH.cpp:2094
-msgid "AI'm back"
-msgstr ""
-
-#: ../../src/iwMusicPlayer.cpp:45
+#: ingameWindows/iwMusicPlayer.cpp:49
 msgid "Abort"
 msgstr "Abortar"
 
-#: ../../src/AddonDemolitionProhibition.h:43
+#: addons/AddonDemolitionProhibition.h:44
 msgid "Active if attacked"
 msgstr "Activo se atacado"
 
-#: ../../src/AddonDemolitionProhibition.h:44
+#: addons/AddonDemolitionProhibition.h:45
 msgid "Active near frontiers"
 msgstr "Activo perto das fronteiras"
 
-#: ../../src/iwAction.cpp:69
+#: ingameWindows/iwAction.cpp:68 ingameWindows/iwRoadWindow.cpp:46
 msgid "Activity window"
 msgstr "Janela de Actividade"
 
-#: ../../src/iwMusicPlayer.cpp:76
+#: ingameWindows/iwMusicPlayer.cpp:80
 msgid "Add"
 msgstr "Adicionar"
 
-#. "Server hinzufügen"
-#: ../../src/dskLobby.cpp:74
+#: desktops/dskLobby.cpp:75
 msgid "Add Server"
 msgstr "Adicionar Servidor"
 
-#: ../../src/iwMusicPlayer.cpp:83 ../../src/iwMusicPlayer.cpp:218
+#: ingameWindows/iwMusicPlayer.cpp:87 ingameWindows/iwMusicPlayer.cpp:226
 msgid "Add directory of tracks"
 msgstr "Adicionar directório de pistas"
 
-#. AddTextButton(5,b1->GetX(false),320,button_width,22,TC_GREEN2,_("Save"),NormalFont);
-#. AddTextButton(6,b2->GetX(false),320,button_width,22,TC_GREEN2,_("Load"),NormalFont);
-#. Buttons fÃŒr die MusikstÃŒcke
-#: ../../src/iwMusicPlayer.cpp:82 ../../src/iwMusicPlayer.cpp:212
+#: ingameWindows/iwMusicPlayer.cpp:86 ingameWindows/iwMusicPlayer.cpp:220
 msgid "Add track"
 msgstr "Adicionar pista"
 
-#: ../../src/dskCredits.cpp:170
+#: desktops/dskCredits.cpp:181
 msgid "Additional Graphics:"
 msgstr "Gráficos Adicionais:"
 
-#: ../../src/dskCredits.cpp:156
+#: desktops/dskCredits.cpp:167
 msgid "Additional Programming:"
 msgstr "Programação Adicional:"
 
-#: ../../src/iwAddons.cpp:46
+#: ingameWindows/iwAddons.cpp:46
 msgid "Additional features:"
 msgstr "Caracteristicas Adicionais:"
 
-#: ../../src/dskCredits.cpp:140
+#: desktops/dskCredits.cpp:142
 msgid "Additional graphics"
 msgstr "Gráficos Adicionais:"
 
-#: ../../src/iwAddons.cpp:44
+#: ingameWindows/iwAddons.cpp:44
 msgid "Addon Settings"
 msgstr "Opções das Extensões"
 
-#: ../../src/dskOptions.cpp:80
+#: desktops/dskOptions.cpp:80
 msgid "Addons"
 msgstr "Extensões"
 
-#. "Enhancements"
-#: ../../src/dskHostGame.cpp:108
+#: desktops/dskHostGame.cpp:111
 msgid "Addons:"
 msgstr "Extensões:"
 
-#: ../../src/AddonCatapultGraphics.h:40
+#: addons/AddonMilitaryAid.h:41
+msgid "Adds military building indicators in construction aid mode."
+msgstr ""
+
+#: addons/AddonCatapultGraphics.h:41
 msgid "Adds new graphics for catapults to the game."
 msgstr "Adiciona novos gráficas para a catapulta no jogo."
 
-#: ../../src/AddonAdjustMilitaryStrength.h:47
+#: addons/AddonMilitaryControl.h:38
+msgid ""
+"Adds the 'send home' button to military buildings.\n"
+" Pressing this button will send all soldiers of the highest available rank to a warehouse \n"
+" (at least 1 Soldier will remain in the building)"
+msgstr ""
+
+#: addons/AddonAdjustMilitaryStrength.h:48
 msgid "Adjust military strength"
 msgstr "Ajusta a força militar"
 
-#. Advanced Options
-#: ../../src/iwOptionsWindow.cpp:105
+#: ingameWindows/iwOptionsWindow.cpp:107
 msgid "Advanced"
 msgstr "Configurações Avançadas"
 
-#. Volk
-#: ../../src/dskHostGame.cpp:300 ../../src/dskHostGame.cpp:309
-#: ../../src/dskHostGame.cpp:823
-msgid "Africans"
-msgstr "Africanos"
-
-#. "Reihenfolge der Auftraggebung"
-#: ../../src/iwBuildOrder.cpp:68
+#: ingameWindows/iwBuildOrder.cpp:67
 msgid "After the following order"
 msgstr "depois da seguinte ordem"
 
-#. "Alle"
-#: ../../src/iwAddons.cpp:59
+#: ingameWindows/iwAddons.cpp:59 ingameWindows/iwChat.cpp:54
 msgid "All"
 msgstr "Todos"
 
-#. "Verbündete"
-#: ../../src/iwChat.cpp:57
+#: addons/AddonNoAlliedPush.h:20
+msgid ""
+"Allied players can no longer push\n"
+"your borders back with new buildings."
+msgstr ""
+
+#: ingameWindows/iwChat.cpp:56 addons/AddonStatisticsVisibility.h:46
 msgid "Allies"
 msgstr "Aliados"
 
-#: ../../src/AddonCustomBuildSequence.h:38
+#: addons/AddonHalfCostMilEquip.h:36
+msgid ""
+"Allows a smith to create 1 shield & 1 sword\n"
+"\n"
+"for 1 iron + 1 coal instead of 2 iron + 2 coal"
+msgstr ""
+
+#: addons/AddonCustomBuildSequence.h:39
 msgid ""
 "Allows every player to control whether building sites\n"
 "should be supplied in sequence of given order or in a definable\n"
@@ -314,11 +354,11 @@ msgstr ""
 "ser fornecido em sequencia de uma ordem dada ou em uma\n"
 "sequência definida baseado no tipo de prédio."
 
-#: ../../src/AddonCharburner.h:37
+#: addons/AddonCharburner.h:38
 msgid "Allows to build the charburner."
 msgstr "Permite contruir o charburner"
 
-#: ../../src/AddonDefenderBehavior.h:39
+#: addons/AddonDefenderBehavior.h:40
 msgid ""
 "Allows to change the military setting 'defender'.\n"
 "\n"
@@ -331,11 +371,11 @@ msgstr ""
 "ou pode limitar o numero de tropas que irão reocupar\n"
 "(durente um ataque) de acordo com a definição de defesa."
 
-#: ../../src/AddonDemolitionProhibition.h:38
+#: addons/AddonDemolitionProhibition.h:39
 msgid "Allows to disable the demolition of military buildings under attack or near frontiers."
 msgstr "Permite desactivar a demolição de prédios militares sobre ataque ou perto de fronteiras."
 
-#: ../../src/AddonExhaustibleWells.h:38
+#: addons/AddonExhaustibleWells.h:39
 msgid ""
 "Allows to have limited water.\n"
 "\n"
@@ -345,7 +385,18 @@ msgstr ""
 "\n"
 "Poços também secam."
 
-#: ../../src/AddonInexhaustibleMines.h:38
+#: addons/AddonInexhaustibleGraniteMines.h:21
+#, fuzzy
+msgid ""
+"Allows to have unlimited Granite resources.\n"
+"\n"
+"Granite mines will never be depleted."
+msgstr ""
+"Permite ter recursos ilimitados\n"
+"\n"
+"Minas nuncam irão esgotar."
+
+#: addons/AddonInexhaustibleMines.h:39
 msgid ""
 "Allows to have unlimited resources.\n"
 "\n"
@@ -355,7 +406,11 @@ msgstr ""
 "\n"
 "Minas nuncam irão esgotar."
 
-#: ../../src/AddonChangeGoldDeposits.h:39
+#: addons/AddonToolOrdering.h:12
+msgid "Allows to order a specific amount of tools for priority production."
+msgstr ""
+
+#: addons/AddonChangeGoldDeposits.h:40
 msgid ""
 "Allows to play games without gold.\n"
 "\n"
@@ -373,11 +428,15 @@ msgstr ""
 "Irá provavelmente querer converter ouro em minério de ferro, ja que este (na maioria dos mapas)\n"
 "permite que você utiliza carvao adicional que não é preciso para fazer as moedas."
 
-#: ../../src/AddonTrade.h:37
+#: addons/AddonTrade.h:38
 msgid "Allows to send wares/figures to allied warehouses"
 msgstr "Permite mandar mercadoria/colonos especializados para armazens aliados"
 
-#: ../../src/AddonRefundOnEmergency.h:39
+#: addons/AddonMoreAnimals.h:39
+msgid "Allows you to adjust the percentage of trees that spawn animals."
+msgstr ""
+
+#: addons/AddonRefundOnEmergency.h:40
 msgid ""
 "Allows you to get building materials back if the building is destroyed\n"
 "and your emergency program is active."
@@ -385,11 +444,11 @@ msgstr ""
 "Permite reaver materiais de construção de um prédio se o mesmo for destruido\n"
 "e o protocolo de emergencia estiver activado."
 
-#: ../../src/AddonRefundMaterials.h:38
+#: addons/AddonRefundMaterials.h:39
 msgid "Allows you to get building materials back if the building is destroyed."
 msgstr "Permite reaver materiais de construção se prédio for destruido."
 
-#: ../../src/AddonManualRoadEnlargement.h:38
+#: addons/AddonManualRoadEnlargement.h:39
 msgid ""
 "Allows you to manually upgrade your roads\n"
 "and build donkey roads directly."
@@ -397,7 +456,7 @@ msgstr ""
 "Permite o upgrade manual de estradas\n"
 "e construir estradas melhoradas directamente."
 
-#: ../../src/AddonAdjustMilitaryStrength.h:48
+#: addons/AddonAdjustMilitaryStrength.h:49
 msgid ""
 "Allows you to modify the strength increase of military ranks\n"
 "\n"
@@ -405,386 +464,402 @@ msgstr ""
 "Permite que você modifque um aumento de força nos ranks militares\n"
 "\n"
 
-#: ../../src/SerializedGameData.cpp:235
+#: addons/AddonMaxRank.h:47
+msgid ""
+"Allows you to select the highest rank for soldiers\n"
+"\n"
+msgstr ""
+
+#: addons/AddonShipSpeed.h:37
+msgid ""
+"Allows you to set ship movement speed\n"
+"\n"
+msgstr ""
+
+#: SerializedGameData.cpp:238
 msgid "An error occured while saving which was suppressed!"
 msgstr "Um erro ocorreu enquanto salvava que foi suprimido!"
 
-#: ../../src/AIPlayerJH.cpp:78
-msgid "And I may crash your game sometimes..."
-msgstr "E eu posso bloquear o jogo algumas vezes...."
-
-#: ../../src/dskGameLoader.cpp:175
+#: desktops/dskGameLoader.cpp:176
 msgid "And let's go!"
 msgstr "E vamos lá!"
 
-#: ../../src/iwAddons.cpp:49
+#: ingameWindows/iwAddons.cpp:49
 msgid "Apply Changes"
 msgstr "Aplicar Alterações"
 
-#: ../../src/iwPlayReplay.cpp:93
+#: ingameWindows/iwPlayReplay.cpp:98
 msgid "Are you sure to remove all replays?"
 msgstr "Tem certeza de querer remover todos os replays?"
 
-#: ../../src/GameConsts.h:384
+#: gameTypes/JobTypes.h:83
 msgid "Armorer"
 msgstr "Armeiro"
 
-#. Schmiede
-#: ../../src/iwDistribution.cpp:106 ../../src/iwDistribution.cpp:116
+#: ingameWindows/iwDistribution.cpp:105 ingameWindows/iwDistribution.cpp:115
+#: gameTypes/BuildingTypes.h:154
 msgid "Armory"
 msgstr "Armeiro"
 
-#: ../../src/dskCredits.cpp:132
+#: desktops/dskCredits.cpp:134
 msgid "Artificial Intelligence (AI)"
 msgstr "Inteligência Artificial (IA)"
 
-#: ../../src/iwDiplomacy.cpp:194
+#: ingameWindows/iwDiplomacy.cpp:193
 msgid "As the teams are locked, you cannot make treaties of any kind."
 msgstr "Como as equipas estão fechadas, não pode fazer tratados de quaisquer tipo."
 
-#. Angriff nicht  mÃ¶glich!
-#: ../../src/iwAction.cpp:387
+#: addons/AddonAsyncDebug.h:36
+msgid "Async debugging (REALLY SLOW!)"
+msgstr ""
+
+#: ingameWindows/iwAction.cpp:384
 msgid "Attack not possible."
 msgstr "Ataque Impossivel"
 
-#: ../../src/iwAction.cpp:320 ../../src/iwAction.cpp:328
+#: ingameWindows/iwAction.cpp:316 ingameWindows/iwAction.cpp:324
 msgid "Attack options"
 msgstr "Opções de Ataque"
 
-#. Angriffsbutton
-#: ../../src/iwAction.cpp:412
+#: ingameWindows/iwAction.cpp:409
 msgid "Attack!"
 msgstr "Atacar!"
 
-#: ../../src/dskSelectMap.cpp:100
+#: desktops/dskSelectMap.cpp:105
 msgid "Author"
 msgstr "Autor"
 
-#: ../../src/GameClient.cpp:1416 ../../src/GameClient.cpp:1420
+#: GameClient.cpp:1580 GameClient.cpp:1585
 msgid "Auto-Save"
 msgstr "Salvar Automático"
 
-#. Autospeicherzeug
-#: ../../src/iwSave.cpp:196
+#: ingameWindows/iwSave.cpp:200
 msgid "Auto-Save every:"
 msgstr "Salvar Automáticamente todos:"
 
-#: ../../src/iwTools.cpp:51
+#: ingameWindows/iwTools.cpp:53 gameTypes/GoodTypes.h:75
 msgid "Axe"
 msgstr "Machado"
 
-#. "Zurück"
-#. ZurÃŒck
-#. "Zurück"
-#: ../../src/dskAboutRTTR.cpp:55 ../../src/dskCredits.cpp:69
-#: ../../src/dskDirectIP.cpp:65
+#: desktops/dskAboutRTTR.cpp:55 desktops/dskCredits.cpp:71
+#: desktops/dskDirectIP.cpp:66 desktops/dskIntro.cpp:55
+#: desktops/dskLobby.cpp:69 desktops/dskMultiPlayer.cpp:73
+#: desktops/dskOptions.cpp:73 desktops/dskSelectMap.cpp:111
+#: desktops/dskSinglePlayer.cpp:84 ingameWindows/iwDirectIPConnect.cpp:81
+#: ingameWindows/iwDirectIPCreate.cpp:82 ingameWindows/iwLobbyRanking.cpp:86
 msgid "Back"
 msgstr "Voltar"
 
-#: ../../src/GameConsts.h:375
+#: gameTypes/JobTypes.h:74
 msgid "Baker"
 msgstr "Padeiro"
 
-#. Bäckerei
-#: ../../src/iwDistribution.cpp:152
+#: ingameWindows/iwDistribution.cpp:151 gameTypes/BuildingTypes.h:162
 msgid "Bakery"
 msgstr "Padaria"
 
-#: ../../src/GameConsts.h:281
+#: gameTypes/BuildingTypes.h:131
 msgid "Barracks"
 msgstr "Quartel"
 
-#: ../../src/iwMerchandiseStatistics.cpp:76
+#: ingameWindows/iwMerchandiseStatistics.cpp:76
+#: ingameWindows/iwTransport.cpp:61 gameTypes/GoodTypes.h:72
 msgid "Beer"
 msgstr "Cerveja"
 
-#. Brettergruppe
-#: ../../src/iwDistribution.cpp:136
+#: ingameWindows/iwDistribution.cpp:135
+#: ingameWindows/iwMerchandiseStatistics.cpp:72
+#: ingameWindows/iwTransport.cpp:66 gameTypes/GoodTypes.h:95
 msgid "Boards"
 msgstr "Fórum"
 
-#. Bogen
-#. 15
-#: ../../src/GameConsts.h:205
+#: gameTypes/GoodTypes.h:87
 msgid "Boat"
 msgstr "Barco"
 
-#: ../../src/iwMerchandiseStatistics.cpp:86
+#: ingameWindows/iwMerchandiseStatistics.cpp:86
+#: ingameWindows/iwTransport.cpp:72
 msgid "Boats"
 msgstr "Barcos"
 
-#: ../../src/iwMilitary.cpp:58
+#: ingameWindows/iwMilitary.cpp:57
 msgid "Border areas"
 msgstr "Áreas Fronteiriças"
 
-#. Nach ganz unten
-#: ../../src/iwBuildOrder.cpp:61
+#: ingameWindows/iwBuildOrder.cpp:60 ingameWindows/iwTransport.cpp:96
 msgid "Bottom"
 msgstr "Em baixo"
 
-#: ../../src/iwTools.cpp:61
+#: ingameWindows/iwTools.cpp:63 gameTypes/GoodTypes.h:86
 msgid "Bow"
 msgstr "Arco"
 
-#. Fisch
-#. 20
-#: ../../src/GameConsts.h:210
+#: gameTypes/GoodTypes.h:92
 msgid "Bread"
 msgstr "Pão"
 
-#: ../../src/GameConsts.h:378
+#: gameTypes/JobTypes.h:77
 msgid "Brewer"
 msgstr "Cervejeiro"
 
-#. Brauerei
-#: ../../src/iwDistribution.cpp:96 ../../src/iwDistribution.cpp:155
+#: ingameWindows/iwDistribution.cpp:95 ingameWindows/iwDistribution.cpp:154
+#: gameTypes/BuildingTypes.h:153
 msgid "Brewery"
 msgstr "Cervejaria"
 
-#: ../../src/iwAction.cpp:264 ../../src/iwAction.cpp:271
-#: ../../src/iwAction.cpp:279 ../../src/iwAction.cpp:283
+#: ingameWindows/iwAction.cpp:260 ingameWindows/iwAction.cpp:267
+#: ingameWindows/iwAction.cpp:275 ingameWindows/iwAction.cpp:279
 msgid "Build road"
 msgstr "Construir estrada"
 
-#: ../../src/iwAction.cpp:272
+#: ingameWindows/iwAction.cpp:268
 msgid "Build waterway"
 msgstr "Construir Caminho Maritimo"
 
-#: ../../src/GameConsts.h:385
+#: gameTypes/JobTypes.h:84
 msgid "Builder"
 msgstr "Construtor"
 
-#: ../../src/iwBuildOrder.cpp:45 ../../src/iwMainMenu.cpp:90
+#: ingameWindows/iwBuildOrder.cpp:44 ingameWindows/iwMainMenu.cpp:90
 msgid "Building sequence"
 msgstr "Sequência de Construção"
 
-#. / Konstruktor von @p iwMilitary.
-#: ../../src/iwBuildings.cpp:79
+#: ingameWindows/iwBuildings.cpp:92 ingameWindows/iwMainMenu.cpp:76
+#: ingameWindows/iwStatistics.cpp:120 ingameWindows/iwStatistics.cpp:218
 msgid "Buildings"
 msgstr "Edifícios"
 
-#: ../../src/GameConsts.h:376
+#: gameTypes/JobTypes.h:75
 msgid "Butcher"
 msgstr "Talhante"
 
-#: ../../src/iwAction.cpp:266 ../../src/iwAction.cpp:274
+#: ingameWindows/iwAction.cpp:262 ingameWindows/iwAction.cpp:270
 msgid "Call in geologist"
 msgstr "Chamar Geólogo"
 
-#. "Kampagne"
-#: ../../src/dskSelectMap.cpp:122 ../../src/dskSinglePlayer.cpp:75
+#: desktops/dskSelectMap.cpp:127 desktops/dskSinglePlayer.cpp:78
 msgid "Campaign"
 msgstr "Campanha"
 
-#: ../../src/iwMsgbox.cpp:72 ../../src/iwMsgbox.cpp:87
+#: ingameWindows/iwMsgbox.cpp:72 ingameWindows/iwMsgbox.cpp:87
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: ../../src/iwHarborBuilding.cpp:91 ../../src/iwHarborBuilding.cpp:122
+#: ingameWindows/iwHarborBuilding.cpp:90
+#: ingameWindows/iwHarborBuilding.cpp:121
 msgid "Cancel expedition"
 msgstr "Cancelar expedição"
 
-#: ../../src/dskHostGame.cpp:584 ../../src/dskHostGame.cpp:808
+#: desktops/dskHostGame.cpp:597 desktops/dskHostGame.cpp:822
 msgid "Cancel start"
 msgstr "Cancelar inicio"
 
-#: ../../src/GameConsts.h:370
+#: gameTypes/JobTypes.h:69
 msgid "Carpenter"
 msgstr "Carpinteiro"
 
-#: ../../src/GameConsts.h:296
+#: gameTypes/BuildingTypes.h:146
 msgid "Catapult"
 msgstr "Catapulta"
 
-#: ../../src/iwMilitary.cpp:55
+#: ingameWindows/iwMilitary.cpp:54
 msgid "Center of country"
 msgstr "Centro do país"
 
-#: ../../src/dskHostGame.cpp:109
+#: desktops/dskHostGame.cpp:112
 msgid "Change Settings..."
 msgstr "Mudar a Configuração..."
 
-#: ../../src/AddonDefenderBehavior.h:38
+#: addons/AddonDefenderBehavior.h:39
 msgid "Change defender behavior"
 msgstr "Mudar o comportamento da defesa"
 
-#: ../../src/AddonChangeGoldDeposits.h:38
+#: addons/AddonChangeGoldDeposits.h:39
 msgid "Change gold deposits"
 msgstr "Mudar depositos de ouro"
 
-#: ../../src/AddonStatisticsVisibility.h:37
+#: addons/AddonMetalworksBehaviorOnZero.h:11
+#, fuzzy
+msgid "Change metalworks behavior on zero"
+msgstr "Mudar o comportamento da defesa"
+
+#: addons/AddonStatisticsVisibility.h:38
 msgid "Change the visibility of your ingame statistics"
 msgstr "Mudar a visibilidade das estatísticas dentro do jogo"
 
-#. Charburner
-#: ../../src/iwDistribution.cpp:99 ../../src/iwDistribution.cpp:132
+#: addons/AddonMetalworksBehaviorOnZero.h:12
+msgid ""
+"Change the working behavior of metalworks if all sliders in the tools window are set to zero.\n"
+"Produce random ware: S2-Default\n"
+"Produce nothing: RttR-Default"
+msgstr ""
+
+#: ingameWindows/iwDistribution.cpp:98 ingameWindows/iwDistribution.cpp:131
+#: gameTypes/BuildingTypes.h:157 gameTypes/JobTypes.h:96
 msgid "Charburner"
 msgstr "Charburner"
 
-#: ../../src/iwChat.cpp:48
+#: ingameWindows/iwChat.cpp:47
 msgid "Chat Window"
 msgstr "Janela de Conversação"
 
-#: ../../src/iwDirectIPConnect.cpp:281
+#: ingameWindows/iwDirectIPConnect.cpp:281
 msgid "Checking Map..."
 msgstr "Verificando Mapa...."
 
-#: ../../src/iwDirectIPConnect.cpp:280
+#: ingameWindows/iwDirectIPConnect.cpp:280
 msgid "Checking Password..."
 msgstr "Verificando Password..."
 
-#: ../../src/dskHostGame.cpp:119
+#: desktops/dskHostGame.cpp:122
 msgid "Classic (Settlers 2)"
 msgstr "Clássico (Settlers 2)"
 
-#. "Einstufung"
-#: ../../src/dskHostGame.cpp:64
+#: desktops/dskHostGame.cpp:67
 msgid "Classification"
 msgstr "Classificação"
 
-#. Aufräumen
-#. Sicherheitsabfrage, ob der Benutzer auch wirklich alle löschen möchte
-#: ../../src/iwPlayReplay.cpp:68 ../../src/iwPlayReplay.cpp:93
+#: ingameWindows/iwPlayReplay.cpp:73 ingameWindows/iwPlayReplay.cpp:98
 msgid "Clear"
 msgstr "Limpar"
 
-#: ../../src/iwTools.cpp:59
+#: ingameWindows/iwTools.cpp:61 gameTypes/GoodTypes.h:84
 msgid "Cleaver"
 msgstr "Cutelo"
 
-#: ../../src/iwAddons.cpp:51
+#: ingameWindows/iwAddons.cpp:51
 msgid "Close Without Saving"
 msgstr "Fechar Sem Salvar"
 
-#. Geschlossen
-#: ../../src/dskHostGame.cpp:265
+#: desktops/dskHostGame.cpp:275
 msgid "Closed"
 msgstr "Encerrado"
 
-#. Kohlegruppe
-#: ../../src/iwDistribution.cpp:113
+#: ingameWindows/iwDistribution.cpp:112
+#: ingameWindows/iwMerchandiseStatistics.cpp:77
+#: ingameWindows/iwTransport.cpp:65 gameTypes/GoodTypes.h:103
 msgid "Coal"
 msgstr "Carvão"
 
-#. Kohlebergwerk
-#: ../../src/iwDistribution.cpp:74
+#: ingameWindows/iwDistribution.cpp:73 gameTypes/BuildingTypes.h:141
 msgid "Coal mine"
 msgstr "Mina de carvão"
 
-#: ../../src/iwMerchandiseStatistics.cpp:83
+#: ingameWindows/iwMerchandiseStatistics.cpp:83
+#: ingameWindows/iwTransport.cpp:59 gameTypes/GoodTypes.h:100
 msgid "Coins"
 msgstr "Moedas"
 
-#. Einlagern
-#: ../../src/iwBaseWarehouse.cpp:62
+#: ingameWindows/iwBaseWarehouse.cpp:66
 msgid "Collect"
 msgstr "Recolher"
 
-#. "Farbe"
-#: ../../src/dskHostGame.cpp:68
+#: desktops/dskHostGame.cpp:71
 msgid "Color"
 msgstr "Côr"
 
-#. "Allgemein"
-#: ../../src/dskOptions.cpp:83
+#: desktops/dskOptions.cpp:83
 msgid "Common"
 msgstr "Comum"
 
-#: ../../src/GameClient.cpp:608
+#: figures/nofMetalworker.cpp:143
+msgid "Completed the ordered amount of tools."
+msgstr ""
+
+#: GameClient.cpp:679 GameServer.cpp:1740
 #, c-format
 msgid "Computer %u"
 msgstr "Computador %u"
 
-#: ../../src/iwDiplomacy.cpp:292
+#: ingameWindows/iwDiplomacy.cpp:291
 msgid "Confirm"
 msgstr "Confirmar"
 
-#. "Verbinden"
-#: ../../src/dskLobby.cpp:70
+#: desktops/dskLobby.cpp:71 ingameWindows/iwDirectIPConnect.cpp:78
+#: ingameWindows/iwLobbyConnect.cpp:85
 msgid "Connect"
 msgstr "Conectar"
 
-#: ../../src/iwLobbyConnect.cpp:50
+#: ingameWindows/iwLobbyConnect.cpp:50
 msgid "Connecting to Lobby"
 msgstr "Conectando a Sala Online"
 
-#. Text auf "Verbinde mit Host..." setzen und Button deaktivieren
-#: ../../src/iwDirectIPConnect.cpp:167 ../../src/iwLobbyConnect.cpp:207
+#: ingameWindows/iwDirectIPConnect.cpp:167
+#: ingameWindows/iwLobbyConnect.cpp:207
 msgid "Connecting with Host..."
 msgstr "Conectando a anfitrião"
 
-#. Text auf "Verbindung fehlgeschlagen" setzen und Button aktivieren
-#: ../../src/iwDirectIPConnect.cpp:173 ../../src/iwLobbyConnect.cpp:216
+#: ingameWindows/iwDirectIPConnect.cpp:173
+#: ingameWindows/iwLobbyConnect.cpp:216
 msgid "Connection failed!"
 msgstr "Conexão falhada!"
 
-#: ../../src/iwDirectIPConnect.cpp:261
+#: ingameWindows/iwDirectIPConnect.cpp:261
 msgid "Connection to Host closed!"
 msgstr "Conexão a anfitrião fechada!"
 
-#. Kein Spielziel
-#: ../../src/dskHostGame.cpp:135
+#: desktops/dskHostGame.cpp:138
 msgid "Conquer 3/4 of map"
 msgstr "Conquistar 3/4 do mapa"
 
-#. Baustellen
-#: ../../src/iwDistribution.cpp:139
+#: ingameWindows/iwDistribution.cpp:138
 msgid "Construction"
 msgstr "Construção"
 
-#: ../../src/dskGameInterface.cpp:109
+#: desktops/dskGameInterface.cpp:107
 msgid "Construction aid mode"
 msgstr "Modo ajuda de construção"
 
-#. "Kontinente"
-#: ../../src/dskSelectMap.cpp:120
+#: desktops/dskSelectMap.cpp:125
 msgid "Continents"
 msgstr "Continentes"
 
-#. "Weiter"
-#: ../../src/dskSelectMap.cpp:110
+#: desktops/dskSelectMap.cpp:115 ingameWindows/iwMissionStatement.cpp:78
 msgid "Continue"
 msgstr "Continuar"
 
-#: ../../src/iwDiplomacy.cpp:272
+#: ingameWindows/iwDiplomacy.cpp:271
 msgid "Contract type:"
 msgstr "Tipo de Contracto:"
 
-#: ../../src/AddonChangeGoldDeposits.h:50
+#: addons/AddonChangeGoldDeposits.h:51
 msgid "Convert to coal"
 msgstr "Converter para carvão"
 
-#: ../../src/AddonChangeGoldDeposits.h:51
+#: addons/AddonChangeGoldDeposits.h:52
 msgid "Convert to granite"
 msgstr "converter para granito"
 
-#: ../../src/AddonChangeGoldDeposits.h:49
+#: addons/AddonChangeGoldDeposits.h:50
 msgid "Convert to iron ore"
 msgstr "converter para minério de ferro"
 
-#: ../../src/dskDirectIP.cpp:61
+#: desktops/dskDirectIP.cpp:62 ingameWindows/iwDirectIPCreate.cpp:50
 msgid "Create Game"
 msgstr "Criar jogo"
 
-#. "Credits"
-#: ../../src/dskCredits.cpp:75
+#: desktops/dskCredits.cpp:77 desktops/dskMainMenu.cpp:87
 msgid "Credits"
 msgstr "Créditos:"
 
-#: ../../src/iwTools.cpp:56
+#: ingameWindows/iwTools.cpp:58 gameTypes/GoodTypes.h:79
 msgid "Crucible"
 msgstr "Cadinho"
 
-#: ../../src/dskGameInterface.cpp:251
+#: desktops/dskGameInterface.cpp:247
 #, c-format
 msgid "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
 msgstr "GF Actual: %u / Comprimento GF: %u ms / Comprimento NWF: %u GF (%u ms) / Ping: %u ms"
 
-#: ../../src/AddonCustomBuildSequence.h:37
+#: addons/AddonCustomBuildSequence.h:38
 msgid "Custom build sequence"
 msgstr "Sequência de construção personalizada"
 
-#: ../../src/AddonStatisticsVisibility.h:38
+#: addons/AddonInexhaustibleFish.h:21
+msgid "Deactivates reduction of fish population.\n"
+msgstr ""
+
+#: addons/AddonStatisticsVisibility.h:39
 msgid ""
 "Decides to whom your statistics is visible.\n"
 "\n"
@@ -794,156 +869,146 @@ msgstr ""
 "\n"
 "\"Aliados\" aplica-se a membros da equipa como aliados por tratado."
 
-#: ../../src/BuildingConsts.h:350
+#: gameData/BuildingConsts.cpp:122
 msgid "Deep within the mountains, miners dig for iron ore. They will obviously need a lot of food for the strenuous work."
 msgstr "No fundo das montanhas, os mineiros procuram de minério de ferro. Obviamente que irão precisar de muita comida para continuarem o seu trabalho esgotante."
 
-#. Standard
-#. Standardbelegung
-#: ../../src/iwBuildOrder.cpp:74 ../../src/iwDistribution.cpp:180
+#: ingameWindows/iwBuildOrder.cpp:73 ingameWindows/iwDistribution.cpp:179
+#: ingameWindows/iwMilitary.cpp:61 ingameWindows/iwTools.cpp:82
+#: ingameWindows/iwTransport.cpp:88 addons/AddonBurnDuration.h:50
+#: addons/AddonMaxWaterwayLength.h:51
 msgid "Default"
 msgstr "Predefinição"
 
-#. Mülleimer
-#: ../../src/iwMerchandiseStatistics.cpp:92
+#: ingameWindows/iwMerchandiseStatistics.cpp:92
 msgid "Delete all"
 msgstr "Eliminar tudo"
 
-#. Abreißen
-#: ../../src/iwAction.cpp:284 ../../src/iwBaseWarehouse.cpp:112
-#: ../../src/iwBuilding.cpp:88
+#: ingameWindows/iwAction.cpp:280 ingameWindows/iwBaseWarehouse.cpp:118
+#: ingameWindows/iwBuilding.cpp:90
 msgid "Demolish house"
 msgstr "Demolir Casa"
 
-#: ../../src/iwDemolishBuilding.cpp:43
+#: ingameWindows/iwDemolishBuilding.cpp:42
 msgid "Demolish?"
 msgstr "Demolir?"
 
-#: ../../src/iwMilitaryBuilding.cpp:177
+#: ingameWindows/iwMilitaryBuilding.cpp:209
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Demolição não é permitida dado que prédio está localizado em uma área fronteiriça!"
 
-#: ../../src/iwMilitaryBuilding.cpp:176
+#: ingameWindows/iwMilitaryBuilding.cpp:208
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "Demolição não é permitido porque o prédio está sobre ataque!"
 
-#: ../../src/iwMilitaryBuilding.cpp:180
+#: ingameWindows/iwMilitaryBuilding.cpp:212
 msgid "Demolition not possible"
 msgstr "Demolição não é possivel"
 
-#. Ok + Abbrennen
-#: ../../src/iwSurrender.cpp:54
+#: ingameWindows/iwSurrender.cpp:53
 msgid "Destroy all buildings and surrender"
 msgstr "Destruir todos os predios e render-se"
 
-#: ../../src/iwAction.cpp:308 ../../src/iwAction.cpp:315
+#: ingameWindows/iwAction.cpp:304 ingameWindows/iwAction.cpp:311
 msgid "Dig up road"
 msgstr "Destruir estrada"
 
-#. Diplomatie (todo: besseres Bild suchen)
-#: ../../src/iwDiplomacy.cpp:76 ../../src/iwMainMenu.cpp:93
+#: ingameWindows/iwDiplomacy.cpp:75 ingameWindows/iwMainMenu.cpp:93
 msgid "Diplomacy"
 msgstr "Diplomacia"
 
-#. "Direkte IP"
-#: ../../src/dskMultiPlayer.cpp:69
+#: desktops/dskMultiPlayer.cpp:71
 msgid "Direct IP"
 msgstr "IP Directo"
 
-#: ../../src/AddonDemolitionProhibition.h:37
+#: addons/AddonDemolitionProhibition.h:38
 msgid "Disable Demolition of military buildings"
 msgstr "Desativar demolição de prédios militares"
 
-#: ../../src/AddonNoCoinsDefault.h:19
+#: addons/AddonNoCoinsDefault.h:20
 msgid "Disable coins by default"
 msgstr "Desativar moedas por definição"
 
-#: ../../src/dskOptions.cpp:301
+#: desktops/dskOptions.cpp:307 ingameWindows/iwSave.cpp:204
 msgid "Disabled"
 msgstr "Desactivado"
 
-#: ../../src/AddonDefenderBehavior.h:47
+#: addons/AddonDefenderBehavior.h:48
 msgid "Disallow change"
 msgstr "Proibir mudança"
 
-#: ../../src/iwAction.cpp:339
+#: ingameWindows/iwAction.cpp:335
 msgid "Display options"
 msgstr "Opções de exibição"
 
-#. Verteilung
-#: ../../src/iwDistribution.cpp:57 ../../src/iwMainMenu.cpp:67
+#: ingameWindows/iwDistribution.cpp:56 ingameWindows/iwMainMenu.cpp:67
 msgid "Distribution of goods"
 msgstr "Distribuição de bens"
 
-#: ../../src/dskHostGame.cpp:641
+#: desktops/dskHostGame.cpp:654
 msgid "Don't forget to check the addon configuration!"
 msgstr "Não se esqueça de ver a configuração das extensões"
 
-#. Abbrechen
-#: ../../src/iwSurrender.cpp:56
+#: ingameWindows/iwSurrender.cpp:55
 msgid "Don't surrender"
 msgstr "Não se render"
 
-#: ../../src/dskCredits.cpp:190
+#: desktops/dskCredits.cpp:201
 msgid "Donators"
 msgstr "Doadores"
 
-#: ../../src/GameConsts.h:380
+#: gameTypes/JobTypes.h:79
 msgid "Donkey breeder"
 msgstr "Criador de Burros"
 
-#. Eselzucht
-#: ../../src/iwDistribution.cpp:93 ../../src/iwDistribution.cpp:161
+#: ingameWindows/iwDistribution.cpp:92 ingameWindows/iwDistribution.cpp:160
+#: gameTypes/BuildingTypes.h:168
 msgid "Donkey breeding"
 msgstr "Criador de burros"
 
-#. Runter
-#: ../../src/iwBuildOrder.cpp:59
+#: ingameWindows/iwBuildOrder.cpp:58 ingameWindows/iwTransport.cpp:94
 msgid "Down"
 msgstr "Baixo"
 
-#: ../../src/iwMusicPlayer.cpp:86
+#: ingameWindows/iwMusicPlayer.cpp:90
 msgid "Downwards"
 msgstr "Para Baixo"
 
-#: ../../src/GameClient.cpp:621
+#: GameClient.cpp:699 GameServer.cpp:1738
 #, c-format
 msgid "Dummy %u"
 msgstr "%u Boneco"
 
-#: ../../src/iwDiplomacy.cpp:276
+#: ingameWindows/iwDiplomacy.cpp:275
 msgid "Duration:"
 msgstr "Duração:"
 
-#: ../../src/PostMsg.cpp:122
+#: PostMsg.cpp:121
 #, c-format
 msgid "Duration: %u GF (%s)"
 msgstr "Duração: %u GF (%s)"
 
-#: ../../src/PostMsg.cpp:120
+#: PostMsg.cpp:119
 msgid "Duration: Forever"
 msgstr "Duração: Para Sempre"
 
-#: ../../src/dskOptions.cpp:307
+#: desktops/dskOptions.cpp:313
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr "Dinamico (Limita a taxa de actualização de imagem , funciona com a maioria das drivers)"
 
-#. "Wirtschaft"
-#: ../../src/iwAddons.cpp:63
+#: ingameWindows/iwAddons.cpp:63
 msgid "Economy"
 msgstr "Economia"
 
-#. Effekte
-#: ../../src/dskOptions.cpp:244
+#: desktops/dskOptions.cpp:250
 msgid "Effects"
 msgstr "Efeitos"
 
-#. Emailadresse
-#: ../../src/iwLobbyConnect.cpp:64
+#: ingameWindows/iwLobbyConnect.cpp:64
 msgid "Email Address:"
 msgstr "Endereço de E-mail:"
 
-#: ../../src/AddonAIDebugWindow.h:39
+#: addons/AddonAIDebugWindow.h:40
 msgid ""
 "Enable AI Debugging Window\n"
 "(possible cheating)"
@@ -951,506 +1016,551 @@ msgstr ""
 "Permitir Janela de Debug de IA\n"
 "(possivel batota)"
 
-#: ../../src/AddonCharburner.h:36
+#: addons/AddonBattlefieldPromotion.h:36
+msgid "Enable battlefield promotions"
+msgstr ""
+
+#: addons/AddonCharburner.h:37
 msgid "Enable charburner"
 msgstr "Permitir charburner"
 
-#. "Spiel beenden"
-#: ../../src/iwOptionsWindow.cpp:110
+#: addons/AddonAsyncDebug.h:37
+msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
+msgstr ""
+
+#: ingameWindows/iwOptionsWindow.cpp:112
 msgid "End game"
 msgstr "Terminar jogo"
 
-#: ../../src/iwEndgame.cpp:48
+#: ingameWindows/iwEndgame.cpp:48
 msgid "End game?"
 msgstr "Terminar Jogo?"
 
-#. "Feinde"
-#: ../../src/iwChat.cpp:59
+#: ingameWindows/iwChat.cpp:58
 msgid "Enemies"
 msgstr "Inimigos"
 
-#: ../../src/iwAction.cpp:258 ../../src/iwAction.cpp:292
-#: ../../src/iwAction.cpp:302
+#: ingameWindows/iwAction.cpp:254 ingameWindows/iwAction.cpp:288
+#: ingameWindows/iwAction.cpp:298 ingameWindows/iwRoadWindow.cpp:55
 msgid "Erect flag"
 msgstr "Colocar Bandeira"
 
-#: ../../src/dskGameLoader.cpp:199
+#: GameServer.cpp:1626 desktops/dskGameLoader.cpp:200
+#: desktops/dskHostGame.cpp:600 desktops/dskHostGame.cpp:1079
+#: desktops/dskHostGame.cpp:1108 desktops/dskLobby.cpp:334
+#: desktops/dskSelectMap.cpp:364 desktops/dskSelectMap.cpp:378
+#: desktops/dskSinglePlayer.cpp:151 desktops/dskSinglePlayer.cpp:156
+#: ingameWindows/iwLobbyConnect.cpp:222 ingameWindows/iwMusicPlayer.cpp:121
+#: ingameWindows/iwMusicPlayer.cpp:151 ingameWindows/iwMusicPlayer.cpp:194
+#: ingameWindows/iwMusicPlayer.cpp:343 ingameWindows/iwMusicPlayer.cpp:368
+#: main.cpp:146 main.cpp:161
 msgid "Error"
 msgstr "Erro!"
 
-#: ../../src/iwPlayReplay.cpp:119
+#: ingameWindows/iwPlayReplay.cpp:124 main.cpp:310
 msgid "Error while opening file!"
 msgstr "Erro ao abrir ficheiro!"
 
-#: ../../src/iwPlayReplay.cpp:118 ../../src/iwPlayReplay.cpp:128
+#: ingameWindows/iwPlayReplay.cpp:123 ingameWindows/iwPlayReplay.cpp:133
+#: main.cpp:309
 msgid "Error while playing replay!"
 msgstr "Erro ao ver replay!"
 
-#: ../../src/iwPlayReplay.cpp:121
+#: ingameWindows/iwPlayReplay.cpp:126 main.cpp:312
 msgid "Error: Replay is too old!"
 msgstr "Erro: Replay é demasiado antigo!"
 
-#. Option "ewig" noch hinzufügen
-#: ../../src/iwDiplomacy.cpp:290
+#: ingameWindows/iwDiplomacy.cpp:289
 msgid "Eternal"
 msgstr "Eterno"
 
-#: ../../src/AddonStatisticsVisibility.h:44
+#: addons/AddonStatisticsVisibility.h:45
 msgid "Everyone"
 msgstr "Todos"
 
-#: ../../src/AddonExhaustibleWells.h:37
+#: addons/AddonExhaustibleWells.h:38
 msgid "Exhaustible Wells"
 msgstr "Poços esgotáveis"
 
-#. "Expedition"-Ãberschrift
-#: ../../src/iwHarborBuilding.cpp:53
+#: ingameWindows/iwHarborBuilding.cpp:52
 msgid "Expedition"
 msgstr "Expedição"
 
-#. "Expedition"-Ãberschrift
-#: ../../src/iwHarborBuilding.cpp:60
+#: ingameWindows/iwHarborBuilding.cpp:59
 msgid "Exploration expedition"
 msgstr "Expedição Exploratória"
 
-#. umgedrehte Reihenfolge, damit die Listen nicht dahinter sind
-#. "Aufklärung"
-#: ../../src/dskHostGame.cpp:116
+#: desktops/dskHostGame.cpp:119
 msgid "Exploration:"
 msgstr "Exploração:"
 
-#: ../../src/dskGameLoader.cpp:148
+#: desktops/dskGameLoader.cpp:149
 msgid "Failed to load addon objects."
 msgstr "Falha no carregamento dos objectos do add-on."
 
-#: ../../src/dskGameLoader.cpp:140
+#: desktops/dskGameLoader.cpp:141
 msgid "Failed to load map objects."
 msgstr "Falha ao carregar objectos do mapa."
 
-#: ../../src/dskGameLoader.cpp:163
+#: desktops/dskGameLoader.cpp:164
 msgid "Failed to load terrain data."
 msgstr "Falha ao carregar dados do terreno."
 
-#: ../../src/GameConsts.h:317
+#: gameTypes/BuildingTypes.h:167
 msgid "Farm"
 msgstr "Quinta"
 
-#: ../../src/GameConsts.h:373
+#: gameTypes/JobTypes.h:72
 msgid "Farmer"
 msgstr "Agricultor"
 
-#. Normal
-#: ../../src/dskHostGame.cpp:155
+#: desktops/dskHostGame.cpp:158 addons/AddonShipSpeed.h:44
 msgid "Fast"
 msgstr "Rápido"
 
-#: ../../src/iwMilitary.cpp:52
+#: ingameWindows/iwMilitary.cpp:51
 msgid "Fewer defenders"
 msgstr "Menos defesas"
 
-#. Einzelne Balken
-#: ../../src/iwMilitary.cpp:50
+#: ingameWindows/iwMilitary.cpp:49
 msgid "Fewer recruits"
 msgstr "Menos recrutas"
 
-#: ../../src/iwPlayReplay.cpp:63 ../../src/iwSave.cpp:67
+#: ingameWindows/iwPlayReplay.cpp:68 ingameWindows/iwSave.cpp:68
 msgid "Filename"
 msgstr "Nome do Ficheiro"
 
-#. Mehl
-#. 19
-#: ../../src/GameConsts.h:209
+#: gameTypes/GoodTypes.h:91
 msgid "Fish"
 msgstr "Peixe"
 
-#: ../../src/GameConsts.h:368
+#: gameTypes/JobTypes.h:67
 msgid "Fisher"
 msgstr "Pescador"
 
-#: ../../src/GameConsts.h:298
+#: gameTypes/BuildingTypes.h:148
 msgid "Fishery"
 msgstr "Casa de Pesca"
 
-#. Eisen
-#. 18
-#: ../../src/GameConsts.h:208
+#: gameTypes/GoodTypes.h:90
 msgid "Flour"
 msgstr "Farinha"
 
-#: ../../src/dskHostGame.cpp:121
+#: desktops/dskHostGame.cpp:124
 msgid "FoW - all explored"
 msgstr "NdG - Tudo explorado"
 
-#: ../../src/dskHostGame.cpp:120
+#: desktops/dskHostGame.cpp:123
 msgid "Fog of War"
 msgstr "Nevoeiro de Guerra"
 
-#: ../../src/iwMerchandiseStatistics.cpp:74
+#: ingameWindows/iwMerchandiseStatistics.cpp:74
+#: ingameWindows/iwTransport.cpp:70
 msgid "Food"
 msgstr "Comida"
 
-#. Nahrungsgruppe
-#: ../../src/iwDistribution.cpp:69
+#: ingameWindows/iwDistribution.cpp:68
 msgid "Foodstuff"
 msgstr "Alimentos"
 
-#: ../../src/GameConsts.h:300
+#: gameTypes/BuildingTypes.h:150
 msgid "Forester"
 msgstr "Florestador"
 
-#: ../../src/GameConsts.h:289
+#: gameTypes/BuildingTypes.h:139
 msgid "Fortress"
 msgstr "Fortaleza"
 
-#: ../../src/nofGeologist.cpp:499
+#: figures/nofGeologist.cpp:495
 msgid "Found coal"
 msgstr "Carvão encontrado"
 
-#. "Gehe Zu Ort"
-#. Die Expeditionsweiterfahrbuttons
-#: ../../src/iwShip.cpp:72
+#: ingameWindows/iwShip.cpp:71
 msgid "Found colony"
 msgstr "Encontrou Colónia"
 
-#: ../../src/nofGeologist.cpp:497
+#: figures/nofGeologist.cpp:493
 msgid "Found gold"
 msgstr "Ouro encontrado"
 
-#: ../../src/nofGeologist.cpp:501
+#: figures/nofGeologist.cpp:497
 msgid "Found granite"
 msgstr "Granito encontrado"
 
-#: ../../src/nofGeologist.cpp:495
+#: figures/nofGeologist.cpp:491
 msgid "Found iron ore"
 msgstr "Ferro encontrado"
 
-#: ../../src/nofGeologist.cpp:503
+#: figures/nofGeologist.cpp:499
 msgid "Found water"
 msgstr "Água encontrada"
 
-#: ../../src/BuildingConsts.h:366
+#: gameData/BuildingConsts.cpp:138
 msgid "From the lookout tower you can see far into previously unexplored lands."
 msgstr "De uma torre de vigia, você pode ver mais longe para onde eram terras inexploradas."
 
-#: ../../src/dskOptions.cpp:182
+#: desktops/dskOptions.cpp:190 ingameWindows/iwSettings.cpp:64
 msgid "Fullscreen"
 msgstr "Ecrã total"
 
-#. "Auflösung"
-#: ../../src/dskOptions.cpp:176
+#: desktops/dskOptions.cpp:184 ingameWindows/iwSettings.cpp:56
 msgid "Fullscreen resolution:"
 msgstr "Resolução de Ecrã Total:"
 
-#: ../../src/dskHostGame.cpp:587
+#: desktops/dskHostGame.cpp:600
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
 msgstr "O jogo só pode ser iniciado quando todos os jogadores tiverem uma cor única, que todos tenham carregado em preparado e todas as vagas livres fechadas."
 
-#: ../../src/dskGameLoader.cpp:155
+#: desktops/dskGameLoader.cpp:156
 msgid "Game crate was picked and spread out..."
 msgstr "Caixa de Jogo foi apanhado e distribuido..."
 
-#: ../../src/iwOptionsWindow.cpp:59
+#: ingameWindows/iwOptionsWindow.cpp:61
 msgid "Game menu"
 msgstr "Menu de Jogo"
 
-#: ../../src/dskGameInterface.cpp:1091
+#: desktops/dskGameInterface.cpp:1084
 msgid "Game was paused."
 msgstr "O jogo foi pausado."
 
-#: ../../src/dskGameInterface.cpp:1120
+#: desktops/dskGameInterface.cpp:1113
 msgid "Game was resumed."
 msgstr "O jogo foi continuado."
 
-#. "Name des Spiels"
-#: ../../src/iwDirectIPCreate.cpp:55
+#: ingameWindows/iwDirectIPCreate.cpp:56
 msgid "Game's Name:"
 msgstr "Nome do Jogo:"
 
-#. "Spielverhalten"
-#: ../../src/iwAddons.cpp:65
+#: ingameWindows/iwAddons.cpp:65
 msgid "Gameplay"
 msgstr "Regras"
 
-#: ../../src/GameConsts.h:391
+#: gameTypes/JobTypes.h:90
 msgid "General"
 msgstr "General"
 
-#. Statistiken
-#: ../../src/iwMainMenu.cpp:74
+#: addons/AddonMaxRank.h:51
+#, fuzzy
+msgid "General (4)"
+msgstr "General"
+
+#: ingameWindows/iwMainMenu.cpp:74
 msgid "General statistics"
 msgstr "Estatisticas Gerais"
 
-#: ../../src/GameConsts.h:392
+#: gameTypes/JobTypes.h:91
 msgid "Geologist"
 msgstr "Geólogo"
 
-#: ../../src/AddonRefundMaterials.h:46
+#: addons/AddonRefundMaterials.h:47
 msgid "Get all back"
 msgstr "Ter tudo de volta"
 
-#: ../../src/iwAction.cpp:343
+#: ingameWindows/iwAction.cpp:339
 msgid "Go to headquarters"
 msgstr "Ir para Quartel-General"
 
-#. "Gehe Zu Ort"
-#. "Gehe Zum Ort"
-#. "Gehe Zu Ort"
-#: ../../src/iwBaseWarehouse.cpp:73 ../../src/iwBuilding.cpp:103
-#: ../../src/iwBuildingSite.cpp:65
+#: ingameWindows/iwBuilding.cpp:118
+msgid "Go to next building of same type"
+msgstr ""
+
+#: ingameWindows/iwMilitaryBuilding.cpp:77
+#, fuzzy
+msgid "Go to next military building"
+msgstr "Desativar demolição de prédios militares"
+
+#: ingameWindows/iwBaseWarehouse.cpp:79
+#, fuzzy
+msgid "Go to next warehouse"
+msgstr "Armazem"
+
+#: ingameWindows/iwBaseWarehouse.cpp:77 ingameWindows/iwBuilding.cpp:105
+#: ingameWindows/iwBuildingSite.cpp:65 ingameWindows/iwMilitaryBuilding.cpp:72
+#: ingameWindows/iwShip.cpp:68
 msgid "Go to place"
 msgstr "Ir para lugar"
 
-#. "Spielziel"
-#: ../../src/dskHostGame.cpp:132
+#: desktops/dskHostGame.cpp:135
 msgid "Goals:"
 msgstr "Objectivos:"
 
-#: ../../src/iwMerchandiseStatistics.cpp:81
+#: ingameWindows/iwMerchandiseStatistics.cpp:81
+#: ingameWindows/iwStatistics.cpp:124 ingameWindows/iwStatistics.cpp:234
+#: ingameWindows/iwTransport.cpp:63 gameTypes/GoodTypes.h:101
 msgid "Gold"
 msgstr "Ouro"
 
-#. Goldbergwerk
-#: ../../src/iwDistribution.cpp:80
+#: ingameWindows/iwDistribution.cpp:79 gameTypes/BuildingTypes.h:143
 msgid "Gold mine"
 msgstr "Mina de Ouro"
 
-#. "Waren zu Beginn"
-#: ../../src/dskHostGame.cpp:124
+#: desktops/dskHostGame.cpp:127
 msgid "Goods at start:"
 msgstr "Mantimentos ao inicio:"
 
-#. Getreidegruppe
-#: ../../src/iwDistribution.cpp:84
+#: ingameWindows/iwDistribution.cpp:83 gameTypes/GoodTypes.h:99
 msgid "Grain"
 msgstr "Cereais"
 
-#: ../../src/BuildingConsts.h:454
+#: gameData/BuildingConsts.cpp:226
 msgid "Grain and water are needed for rearing pigs. The meat thus obtained can then be processed by a butcher."
 msgstr "Cereais e água são necessários para a criança de porcos. A carne fornecida pode ser processada pelo talhante."
 
-#. Granitbergwerk
-#: ../../src/iwDistribution.cpp:71
+#: ingameWindows/iwDistribution.cpp:70 gameTypes/BuildingTypes.h:140
 msgid "Granite mine"
 msgstr "Mina de Granito"
 
-#. "Grafik"
-#: ../../src/dskOptions.cpp:85
+#: desktops/dskOptions.cpp:85
 msgid "Graphics"
 msgstr "Gráficos"
 
-#. "Grafiktreiber"
-#: ../../src/dskOptions.cpp:200
+#: desktops/dskOptions.cpp:208
 msgid "Graphics Driver"
 msgstr "Drivers da Placa de Gráficos"
 
-#: ../../src/dskSelectMap.cpp:422
+#: desktops/dskSelectMap.cpp:428
 msgid "Greenland"
 msgstr "Terra Verde"
 
-#: ../../src/GameConsts.h:282
+#: gameTypes/BuildingTypes.h:132
 msgid "Guardhouse"
 msgstr "Casa de Guarda"
 
-#. Fleisch
-#. 33
-#: ../../src/GameConsts.h:223
+#: addons/AddonHalfCostMilEquip.h:35
+#, fuzzy
+msgid "Half cost recruits"
+msgstr "Mais recrutas"
+
+#: gameTypes/GoodTypes.h:105
 msgid "Ham"
 msgstr "Presunto"
 
-#: ../../src/iwTools.cpp:54
+#: ingameWindows/iwTools.cpp:56 gameTypes/GoodTypes.h:74
 msgid "Hammer"
 msgstr "Martelo"
 
-#: ../../src/iwHarborBuilding.cpp:47
+#: ingameWindows/iwHarborBuilding.cpp:46 gameTypes/BuildingTypes.h:169
 msgid "Harbor building"
 msgstr "Porto"
 
-#. WindowManager::inst().Show(new iwTrade(gwv,this,gwv->GetSpecObj<nobHQ>(cselx,csely)));
-#: ../../src/dskGameInterface.cpp:403
+#: desktops/dskGameInterface.cpp:397 ingameWindows/iwBaseWarehouse.cpp:217
+#: gameTypes/BuildingTypes.h:130
 msgid "Headquarters"
 msgstr "Quartel-general"
 
-#. Info
-#. Hilfe-Button
-#: ../../src/iwBuilding.cpp:86 ../../src/iwBuildingProductivities.cpp:106
-#: ../../src/iwBuildings.cpp:92
+#: ingameWindows/iwBuilding.cpp:88
+#: ingameWindows/iwBuildingProductivities.cpp:109
+#: ingameWindows/iwBuildings.cpp:107 ingameWindows/iwDistribution.cpp:177
+#: ingameWindows/iwMerchandiseStatistics.cpp:89
+#: ingameWindows/iwMilitary.cpp:60 ingameWindows/iwStatistics.cpp:136
+#: ingameWindows/iwTools.cpp:80 ingameWindows/iwTransport.cpp:85
+#: ingameWindows/iwWares.cpp:192
 msgid "Help"
 msgstr "Ajuda"
 
-#: ../../src/GameConsts.h:366
+#: gameTypes/JobTypes.h:65
 msgid "Helper"
 msgstr "Ajudante"
 
-#: ../../src/AIPlayerJH.cpp:77
+#: ai/AIPlayerJH.cpp:117
 msgid "Hi, I'm an artifical player and I'm not very good yet!"
 msgstr "Olá, Eu sou um jogador de Inteligência Artificial e não sou muito bom ainda!"
 
-#: ../../src/iwLobbyServerInfo.cpp:79
+#: ingameWindows/iwLobbyServerInfo.cpp:79
 msgid "Host:"
 msgstr "Servidor:"
 
-#: ../../src/iwAction.cpp:342
+#: ingameWindows/iwAction.cpp:338
 msgid "House names"
 msgstr "Nomes das Casas"
 
-#: ../../src/GameConsts.h:302
+#: gameTypes/BuildingTypes.h:152
 msgid "Hunter"
 msgstr "Caçador"
 
-#: ../../src/GameConsts.h:372
+#: gameTypes/JobTypes.h:71
 msgid "Huntsman"
 msgstr "Caçador"
 
-#. Gameserver-Tabelle - "ID", "Server", "Karte", "Spieler", "Version", "Ping"
-#: ../../src/dskLobby.cpp:77
+#: desktops/dskLobby.cpp:78
 msgid "ID"
 msgstr "ID"
 
-#. "IP - Adresse vom Host"
-#: ../../src/iwDirectIPConnect.cpp:55
+#: ingameWindows/iwDirectIPConnect.cpp:55
 msgid "IP Address of Host:"
 msgstr "Endereço IP de Anfitrião"
 
-#: ../../src/dskOptions.cpp:130
+#: desktops/dskOptions.cpp:130 ingameWindows/iwDirectIPConnect.cpp:70
+#: ingameWindows/iwDirectIPCreate.cpp:71 ingameWindows/iwLobbyConnect.cpp:80
 msgid "IPv4"
 msgstr "IPv4"
 
-#: ../../src/dskOptions.cpp:129
+#: desktops/dskOptions.cpp:129 ingameWindows/iwDirectIPConnect.cpp:71
+#: ingameWindows/iwDirectIPCreate.cpp:72 ingameWindows/iwLobbyConnect.cpp:81
 msgid "IPv6"
 msgstr "IPv6"
 
-#: ../../src/dskSelectMap.cpp:353
+#: addons/AddonNoAlliedPush.h:19
+msgid "Improved Alliance"
+msgstr ""
+
+#: desktops/dskSelectMap.cpp:358
 msgid "Incomplete message was received!"
 msgstr "Mensagem incompleta foi recebida!"
 
-#: ../../src/AddonInexhaustibleMines.h:37
+#: addons/AddonMoreAnimals.h:45
+msgid "Increase 100%"
+msgstr ""
+
+#: addons/AddonMoreAnimals.h:48
+msgid "Increase 1000%"
+msgstr ""
+
+#: addons/AddonMoreAnimals.h:46
+msgid "Increase 200%"
+msgstr ""
+
+#: addons/AddonMoreAnimals.h:44
+msgid "Increase 50%"
+msgstr ""
+
+#: addons/AddonMoreAnimals.h:47
+msgid "Increase 500%"
+msgstr ""
+
+#: addons/AddonInexhaustibleFish.h:20
+#, fuzzy
+msgid "Inexhaustible Fish"
+msgstr "Mines inesgotáveis"
+
+#: addons/AddonInexhaustibleGraniteMines.h:20
+#, fuzzy
+msgid "Inexhaustible Granite Mines"
+msgstr "Mines inesgotáveis"
+
+#: addons/AddonInexhaustibleMines.h:38
 msgid "Inexhaustible Mines"
 msgstr "Mines inesgotáveis"
 
-#: ../../src/iwStatistics.cpp:118 ../../src/iwStatistics.cpp:219
+#: ingameWindows/iwStatistics.cpp:121 ingameWindows/iwStatistics.cpp:222
 msgid "Inhabitants"
 msgstr "habitantes"
 
-#: ../../src/iwMilitary.cpp:54
+#: ingameWindows/iwMilitary.cpp:53
 msgid "Interior"
 msgstr "Interior"
 
-#. "Internet - Lobby"
-#: ../../src/dskMultiPlayer.cpp:65
+#: desktops/dskMultiPlayer.cpp:67
 msgid "Internet Lobby"
 msgstr "Canal de Jogo Online"
 
-#. "Internet Ranking"
-#: ../../src/dskLobby.cpp:72
+#: desktops/dskLobby.cpp:73 ingameWindows/iwLobbyRanking.cpp:79
 msgid "Internet Ranking"
 msgstr "Posição Online"
 
-#. Bau abbrechen
-#: ../../src/iwRoadWindow.cpp:50
+#: ingameWindows/iwRoadWindow.cpp:50
 msgid "Interrupt road building"
 msgstr "Interromper construção de estrada"
 
-#. "Intro"
-#: ../../src/dskMainMenu.cpp:82
+#: desktops/dskMainMenu.cpp:83
 msgid "Intro"
 msgstr "Intro"
 
-#: ../../src/iwPlayReplay.cpp:120
+#: ingameWindows/iwPlayReplay.cpp:125 main.cpp:311
 msgid "Invalid Replay!"
 msgstr "Replay Inválido!"
 
-#: ../../src/iwDirectIPConnect.cpp:156 ../../src/iwDirectIPCreate.cpp:177
+#: ingameWindows/iwDirectIPConnect.cpp:156
+#: ingameWindows/iwDirectIPCreate.cpp:178
 msgid "Invalid port. The valid port-range is 1 to 65535!"
 msgstr "Port Inválida. Ports válidas variam de 1 a 65535!"
 
-#. Eisengruppe
-#: ../../src/iwDistribution.cpp:103
+#: ingameWindows/iwDistribution.cpp:102
+#: ingameWindows/iwMerchandiseStatistics.cpp:82
+#: ingameWindows/iwTransport.cpp:62 gameTypes/GoodTypes.h:89
 msgid "Iron"
 msgstr "Ferro"
 
-#: ../../src/GameConsts.h:381
+#: gameTypes/JobTypes.h:80
 msgid "Iron founder"
 msgstr "Fundador de Ferro"
 
-#. Eisenbergwerk
-#: ../../src/iwDistribution.cpp:77
+#: ingameWindows/iwDistribution.cpp:76 gameTypes/BuildingTypes.h:142
 msgid "Iron mine"
 msgstr "Mina de Ferro"
 
-#: ../../src/iwTransport.cpp:64
+#: ingameWindows/iwTransport.cpp:64 gameTypes/GoodTypes.h:102
 msgid "Iron ore"
 msgstr "Minério de ferro"
 
-#. Eisenschmelze
-#: ../../src/iwDistribution.cpp:119
+#: ingameWindows/iwDistribution.cpp:118 gameTypes/BuildingTypes.h:156
 msgid "Iron smelter"
 msgstr "Fundidor de Ferro"
 
-#. untere Reihe
-#: ../../src/iwMerchandiseStatistics.cpp:80
+#: ingameWindows/iwMerchandiseStatistics.cpp:80
 msgid "Ironore"
 msgstr "Minério de ferro"
 
-#: ../../src/BuildingConsts.h:516
+#: gameData/BuildingConsts.cpp:288
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
 msgstr "É possivel construir pequenos barcos de remo como grandes navios de carga no estaleiro naval. As tábuas de madeira são necessárias para que os constructores navais trabalhem habilidosamente."
 
-#: ../../src/dskHostGame.cpp:823
-msgid "Japaneses"
-msgstr "Japoneses"
-
-#: ../../src/dskDirectIP.cpp:62
+#: desktops/dskDirectIP.cpp:63 ingameWindows/iwDirectIPConnect.cpp:49
 msgid "Join Game"
 msgstr "Juntar-se ao Jogo"
 
-#: ../../src/dskGameInterface.cpp:624
+#: GameClient.cpp:1943
+#, c-format
+msgid "Jump finished (%.3f seconds)."
+msgstr ""
+
+#: desktops/dskGameInterface.cpp:616 desktops/dskOptions.cpp:660
+#: ingameWindows/iwOptionsWindow.cpp:75 ingameWindows/iwOptionsWindow.cpp:128
 msgid "Keyboard layout"
 msgstr "Disposição do teclado"
 
-#. Tastaturlayout
-#: ../../src/dskOptions.cpp:122
+#: desktops/dskOptions.cpp:122
 msgid "Keyboard layout:"
 msgstr "Disposição do teclado:"
 
-#. "Sprache"
-#: ../../src/dskOptions.cpp:103
+#: desktops/dskOptions.cpp:103
 msgid "Language:"
 msgstr "Idioma:"
 
-#: ../../src/iwPlayReplay.cpp:63
+#: ingameWindows/iwPlayReplay.cpp:68
 msgid "Length"
 msgstr "Comprimento"
 
-#: ../../src/ctrlProgress.cpp:75
+#: controls/ctrlProgress.cpp:78 ingameWindows/iwHQ.cpp:63
 msgid "Less"
 msgstr "Menos"
 
-#. Minus und Plus - Button
-#: ../../src/iwAction.cpp:394
+#: ingameWindows/iwAction.cpp:391 ingameWindows/iwMilitary.cpp:52
 msgid "Less attackers"
 msgstr "Menos Atacantes"
 
-#: ../../src/iwTools.cpp:50 ../../src/iwTools.cpp:51 ../../src/iwTools.cpp:52
-#: ../../src/iwTools.cpp:53 ../../src/iwTools.cpp:54 ../../src/iwTools.cpp:55
-#: ../../src/iwTools.cpp:56 ../../src/iwTools.cpp:57 ../../src/iwTools.cpp:58
-#: ../../src/iwTools.cpp:59 ../../src/iwTools.cpp:60 ../../src/iwTools.cpp:61
+#: ingameWindows/iwTools.cpp:52 ingameWindows/iwTools.cpp:53
+#: ingameWindows/iwTools.cpp:54 ingameWindows/iwTools.cpp:55
+#: ingameWindows/iwTools.cpp:56 ingameWindows/iwTools.cpp:57
+#: ingameWindows/iwTools.cpp:58 ingameWindows/iwTools.cpp:59
+#: ingameWindows/iwTools.cpp:60 ingameWindows/iwTools.cpp:61
+#: ingameWindows/iwTools.cpp:62 ingameWindows/iwTools.cpp:63
 msgid "Less often"
 msgstr "Com menos frequência"
 
-#: ../../src/iwMusicPlayer.cpp:88
+#: ingameWindows/iwMusicPlayer.cpp:92
 msgid "Less repeats"
 msgstr "Menos Repetição"
 
-#. "VSync"
-#: ../../src/dskOptions.cpp:186
+#: desktops/dskOptions.cpp:194
 msgid "Limit Framerate:"
 msgstr "Limitar Framerate:"
 
-#: ../../src/AddonLimitCatapults.h:37
+#: addons/AddonLimitCatapults.h:38
 msgid "Limit count of catapults"
 msgstr "Limitar numero de catapultas"
 
-#: ../../src/AddonLimitCatapults.h:38
+#: addons/AddonLimitCatapults.h:39
 msgid ""
 "Limits the count of catapults per player.\n"
 "\n"
@@ -1466,7 +1576,7 @@ msgstr ""
 "                   0.5 por torre de vigia militar (2 torres de vigia militar por catapulta)\n"
 "                   1 por fortaleza (1 fortaleza por catapulta)\n"
 
-#: ../../src/AddonMaxWaterwayLength.h:38
+#: addons/AddonMaxWaterwayLength.h:39
 msgid ""
 "Limits the distance settlers may travel per boat.\n"
 "\n"
@@ -1488,674 +1598,678 @@ msgstr ""
 "Ainda mais longo: 21 quadrados\n"
 "e ilimitado."
 
-#: ../../src/iwOptionsWindow.cpp:77
+#: ingameWindows/iwOptionsWindow.cpp:79
 msgid "Load 'ReadMe' file"
 msgstr "Carregar ficheiro 'Leia-me'"
 
-#. "Spiel laden"
-#: ../../src/dskSinglePlayer.cpp:79
+#: desktops/dskSinglePlayer.cpp:82
 msgid "Load game"
 msgstr "Carregar Jogo"
 
-#. /////////////////////////////////////////////////////////////////////////////
-#. *
-#. *
-#. *
-#. *  @author OLiver
-#. 
-#: ../../src/iwOptionsWindow.cpp:81 ../../src/iwSave.cpp:250
+#: ingameWindows/iwOptionsWindow.cpp:83 ingameWindows/iwSave.cpp:254
 msgid "Load game!"
 msgstr "Carrengado jogo!"
 
-#. "Spiel laden..."
-#: ../../src/dskSelectMap.cpp:108
+#: desktops/dskSelectMap.cpp:113
 msgid "Load game..."
 msgstr "Carregando jogo..."
 
-#. "Teams sperren"
-#: ../../src/dskHostGame.cpp:101
+#: desktops/dskHostGame.cpp:104
 msgid "Lock teams:"
 msgstr "Fechar Equipas:"
 
-#: ../../src/AddonMaxWaterwayLength.h:51
+#: addons/AddonMaxWaterwayLength.h:52
 msgid "Long"
 msgstr "Longo"
 
-#: ../../src/iwDiplomacy.cpp:252
+#: ingameWindows/iwDiplomacy.cpp:251
 msgid "Long-run"
 msgstr "Longo prazo"
 
-#: ../../src/AddonMaxWaterwayLength.h:52
+#: addons/AddonMaxWaterwayLength.h:53
 msgid "Longer"
 msgstr "Mais Longo"
 
-#: ../../src/GameConsts.h:294
+#: gameTypes/BuildingTypes.h:144
 msgid "Lookout tower"
 msgstr "Torre de Vigia"
 
-#: ../../src/nofScout_LookoutTower.cpp:83
+#: figures/nofScout_LookoutTower.cpp:83
 msgid "Lookout-tower occupied"
 msgstr "Torre de observação ocupada"
 
-#: ../../src/iwLobbyRanking.cpp:81
+#: ingameWindows/iwLobbyRanking.cpp:81
 msgid "Lost"
 msgstr "Perdido"
 
-#: ../../src/dskGameInterface.cpp:1151
+#: desktops/dskGameInterface.cpp:1144 desktops/dskLobby.cpp:334
 msgid "Lost connection to lobby!"
 msgstr "Conexão ao canal de jogo perdida!"
 
-#: ../../src/dskGameInterface.cpp:1138
+#: desktops/dskGameInterface.cpp:1131 desktops/dskHostGame.cpp:1079
+#: desktops/dskSelectMap.cpp:361
 msgid "Lost connection to server!"
 msgstr "Conexão ao servidor perdida!"
 
-#: ../../src/GameWorldGame.cpp:619
+#: GameWorldGame.cpp:633
 msgid "Lost land by this building"
 msgstr "Terra perdida devido a esta construção"
 
-#: ../../src/dskHostGame.cpp:127
+#: desktops/dskHostGame.cpp:130
 msgid "Low"
 msgstr "Baixo"
 
-#: ../../src/dskGameInterface.cpp:107
+#: desktops/dskGameInterface.cpp:105 ingameWindows/iwMainMenu.cpp:63
 msgid "Main selection"
 msgstr "Selecção principal"
 
-#: ../../src/AddonManualRoadEnlargement.h:37
+#: addons/AddonManualRoadEnlargement.h:38
 msgid "Manual road enlargement"
 msgstr "Alargamento manual de estrada"
 
-#: ../../src/dskGameInterface.cpp:105
+#: desktops/dskGameInterface.cpp:103 desktops/dskLobby.cpp:78
+#: ingameWindows/iwSave.cpp:68
 msgid "Map"
 msgstr "Mapa"
 
-#: ../../src/iwLobbyServerInfo.cpp:75
+#: ingameWindows/iwLobbyServerInfo.cpp:75
 msgid "Map Name:"
 msgstr "Nome do Mapa:"
 
-#: ../../src/dskGameLoader.cpp:122
+#: desktops/dskGameLoader.cpp:123
 msgid "Map was loaded and pinned at the wall..."
 msgstr "Mapa foi carregado e posto na parede...."
 
-#. Titel der Karte, Y-Position relativ je nach Höhe der Minimap festlegen, daher nochmals danach
-#. verschieben, da diese Position sonst skaliert wird!
-#: ../../src/dskHostGame.cpp:171 ../../src/dskSelectMap.cpp:133
+#: desktops/dskHostGame.cpp:174 desktops/dskSelectMap.cpp:138
 msgid "Map: "
 msgstr "Mapa: "
 
-#: ../../src/dskSelectMap.cpp:134
+#: desktops/dskSelectMap.cpp:139
 msgid "Mapfile: "
 msgstr "Ficheiro Mapa: "
 
-#: ../../src/dskCredits.cpp:123 ../../src/dskCredits.cpp:142
+#: desktops/dskCredits.cpp:125 desktops/dskCredits.cpp:144
 msgid "Mapping"
 msgstr "Mapeamento"
 
-#: ../../src/AddonAdjustMilitaryStrength.h:52
+#: addons/AddonAdjustMilitaryStrength.h:53
 msgid "Maximum strength"
 msgstr "Força máxima"
 
-#. Kohle
-#. 32
-#: ../../src/GameConsts.h:222
+#: gameTypes/GoodTypes.h:104
 msgid "Meat"
 msgstr "Carne"
 
-#: ../../src/BuildingConsts.h:417
+#: gameData/BuildingConsts.cpp:189
 msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "A carned que o caçador adquire, pode ser usada para alimentar os mineiros."
 
-#: ../../src/AddonAdjustMilitaryStrength.h:53
+#: addons/AddonAdjustMilitaryStrength.h:54
 msgid "Medium strength"
 msgstr "Força média"
 
-#: ../../src/iwDiplomacy.cpp:251
+#: ingameWindows/iwDiplomacy.cpp:250
 msgid "Medium-term"
 msgstr "Médio prazo"
 
-#: ../../src/iwMerchandiseStatistics.cpp:63
+#: ingameWindows/iwMerchandiseStatistics.cpp:63
+#: ingameWindows/iwStatistics.cpp:122 ingameWindows/iwStatistics.cpp:226
 msgid "Merchandise"
 msgstr "Mercadoria"
 
-#: ../../src/iwMainMenu.cpp:75
+#: ingameWindows/iwMainMenu.cpp:75
 msgid "Merchandise statistics"
 msgstr "Estatisticas de Mercadoria"
 
-#: ../../src/iwPostWindow.cpp:298
+#: ingameWindows/iwPostWindow.cpp:297
 msgid "Message"
 msgstr "Mensagem"
 
-#: ../../src/GameConsts.h:383
+#: gameTypes/JobTypes.h:82
 msgid "Metalworker"
 msgstr "Metalúrgico"
 
-#. Schlosserei
-#: ../../src/iwDistribution.cpp:109 ../../src/iwDistribution.cpp:142
+#: ingameWindows/iwDistribution.cpp:108 ingameWindows/iwDistribution.cpp:141
+#: gameTypes/BuildingTypes.h:155
 msgid "Metalworks"
 msgstr "Metalúrgica"
 
-#. "Militär"
-#: ../../src/iwAddons.cpp:61
+#: ingameWindows/iwAddons.cpp:61 ingameWindows/iwMainMenu.cpp:84
+#: ingameWindows/iwMilitary.cpp:45
 msgid "Military"
 msgstr "Exército"
 
-#: ../../src/nobMilitary.cpp:923
+#: addons/AddonMilitaryAid.h:40
+#, fuzzy
+msgid "Military Aid"
+msgstr "Exército"
+
+#: addons/AddonMilitaryControl.h:37
+#, fuzzy
+msgid "Military Control"
+msgstr "Força Militar"
+
+#: buildings/nobMilitary.cpp:999
 msgid "Military building captured"
 msgstr "Guardição militar capturado"
 
-#: ../../src/nobMilitary.cpp:920
+#: buildings/nobMilitary.cpp:996
 msgid "Military building lost"
 msgstr "Guardição Militar perdida"
 
-#: ../../src/nobMilitary.cpp:631
+#: buildings/nobMilitary.cpp:697
 msgid "Military building occupied"
 msgstr "Guardição Militar ocupada"
 
-#: ../../src/iwStatistics.cpp:120 ../../src/iwStatistics.cpp:227
+#: ingameWindows/iwStatistics.cpp:123 ingameWindows/iwStatistics.cpp:230
 msgid "Military strength"
 msgstr "Força Militar"
 
-#. Mühle
-#: ../../src/iwDistribution.cpp:87
+#: ingameWindows/iwDistribution.cpp:86 gameTypes/BuildingTypes.h:161
 msgid "Mill"
 msgstr "Moinho"
 
-#: ../../src/GameConsts.h:374
+#: gameTypes/JobTypes.h:73
 msgid "Miller"
 msgstr "Moleiro"
 
-#: ../../src/GameConsts.h:377
+#: gameTypes/JobTypes.h:76
 msgid "Miner"
 msgstr "Mineiro"
 
-#: ../../src/AddonAdjustMilitaryStrength.h:54
+#: addons/AddonAdjustMilitaryStrength.h:55
 msgid "Minimum strength"
 msgstr "Força mínima"
 
-#. Münzprägerei
-#: ../../src/iwDistribution.cpp:122
+#: ingameWindows/iwDistribution.cpp:121 gameTypes/BuildingTypes.h:164
 msgid "Mint"
 msgstr "Casa da Moeda"
 
-#: ../../src/GameConsts.h:382
+#: gameTypes/JobTypes.h:81
 msgid "Minter"
 msgstr "Ourives"
 
-#. "Vollbild"
-#: ../../src/dskOptions.cpp:180
+#: desktops/dskOptions.cpp:188 ingameWindows/iwSettings.cpp:57
 msgid "Mode:"
 msgstr "Modo:"
 
-#: ../../src/ctrlProgress.cpp:76
+#: controls/ctrlProgress.cpp:79 ingameWindows/iwHQ.cpp:65
 msgid "More"
 msgstr "Mais"
 
-#: ../../src/iwAction.cpp:395
+#: ingameWindows/iwAction.cpp:392 ingameWindows/iwMilitary.cpp:52
 msgid "More attackers"
 msgstr "Mais atacantes"
 
-#: ../../src/iwMilitary.cpp:52
+#: ingameWindows/iwMilitary.cpp:51
 msgid "More defenders"
 msgstr "Mais defesas"
 
-#: ../../src/iwTools.cpp:50 ../../src/iwTools.cpp:51 ../../src/iwTools.cpp:52
-#: ../../src/iwTools.cpp:53 ../../src/iwTools.cpp:54 ../../src/iwTools.cpp:55
-#: ../../src/iwTools.cpp:56 ../../src/iwTools.cpp:57 ../../src/iwTools.cpp:58
-#: ../../src/iwTools.cpp:59 ../../src/iwTools.cpp:60 ../../src/iwTools.cpp:61
+#: ingameWindows/iwTools.cpp:52 ingameWindows/iwTools.cpp:53
+#: ingameWindows/iwTools.cpp:54 ingameWindows/iwTools.cpp:55
+#: ingameWindows/iwTools.cpp:56 ingameWindows/iwTools.cpp:57
+#: ingameWindows/iwTools.cpp:58 ingameWindows/iwTools.cpp:59
+#: ingameWindows/iwTools.cpp:60 ingameWindows/iwTools.cpp:61
+#: ingameWindows/iwTools.cpp:62 ingameWindows/iwTools.cpp:63
 msgid "More often"
 msgstr "Com mais frequência"
 
-#: ../../src/iwMilitary.cpp:50
+#: ingameWindows/iwMilitary.cpp:49
 msgid "More recruits"
 msgstr "Mais recrutas"
 
-#: ../../src/iwMusicPlayer.cpp:89
+#: ingameWindows/iwMusicPlayer.cpp:93
 msgid "More repeats"
 msgstr "Mais repetições"
 
-#. "Mehrspieler"
-#: ../../src/dskMainMenu.cpp:78
+#: addons/AddonMoreAnimals.h:38
+msgid "More trees spawn animals"
+msgstr ""
+
+#: desktops/dskMainMenu.cpp:79
 msgid "Multiplayer"
 msgstr "Multi-jogador"
 
-#. Musik
-#: ../../src/dskOptions.cpp:235
+#: desktops/dskOptions.cpp:241
 msgid "Music"
 msgstr "Música"
 
-#. Musicplayer-Button
-#: ../../src/dskOptions.cpp:253
+#: desktops/dskOptions.cpp:259 ingameWindows/iwMusicPlayer.cpp:69
+#: ingameWindows/iwOptionsWindow.cpp:104
 msgid "Music player"
 msgstr "Reprodutor de música"
 
-#. Spieler-Tabelle - "Name", "Punkte", "Version"
-#. Die Tabelle für die Maps
-#: ../../src/dskLobby.cpp:79 ../../src/dskSelectMap.cpp:100
+#: desktops/dskLobby.cpp:80 desktops/dskSelectMap.cpp:105
+#: ingameWindows/iwLobbyRanking.cpp:81
 msgid "Name"
 msgstr "Nome"
 
-#. Allgemein
-#. {
-#. "Name"
-#: ../../src/dskOptions.cpp:98
+#: desktops/dskOptions.cpp:98
 msgid "Name in Game:"
 msgstr "Nome no Jogo:"
 
-#: ../../src/iwMilitary.cpp:56
+#: ingameWindows/iwMilitary.cpp:55
 msgid "Near harbor points"
 msgstr "Pontos perto do Porto"
 
-#. "Netzwerk / LAN"
-#: ../../src/dskMultiPlayer.cpp:67
+#: desktops/dskMultiPlayer.cpp:69
 msgid "Network/LAN"
 msgstr "Rede/LAN"
 
-#: ../../src/nobHarborBuilding.cpp:106
+#: buildings/nobHarborBuilding.cpp:108
 msgid "New harbor building finished"
 msgstr "Novo prédio maritico terminado"
 
-#. "Neue"
-#: ../../src/dskSelectMap.cpp:116
+#: desktops/dskSelectMap.cpp:121
 msgid "New maps"
 msgstr "Novos Mapas"
 
-#: ../../src/nobStorehouse.cpp:57
+#: buildings/nobStorehouse.cpp:57
 msgid "New storehouse finished"
 msgstr "Novo armazem terminado"
 
-#. "Blättern"
-#: ../../src/iwWares.cpp:188
+#: ingameWindows/iwWares.cpp:190
 msgid "Next page"
 msgstr "Página seguinte"
 
-#: ../../src/iwLobbyConnect.cpp:72
+#: ingameWindows/iwLobbyConnect.cpp:72 ingameWindows/iwMsgbox.cpp:79
+#: ingameWindows/iwMsgbox.cpp:86
 msgid "No"
 msgstr "Não"
 
-#: ../../src/dskOptions.cpp:146
+#: desktops/dskOptions.cpp:146
 msgid "No Proxy"
 msgstr "Sem Proxy"
 
-#: ../../src/AddonLimitCatapults.h:48
+#: addons/AddonLimitCatapults.h:49
 msgid "No catapults"
 msgstr "Sem catapultas"
 
-#: ../../src/AddonChangeGoldDeposits.h:47
+#: addons/AddonChangeGoldDeposits.h:48 addons/AddonDefenderBehavior.h:47
 msgid "No change"
 msgstr "Sem alterações"
 
-#: ../../src/iwAIDebug.cpp:148
+#: ingameWindows/iwAIDebug.cpp:151
 msgid "No current job"
 msgstr "Sem nenhum trabalho"
 
-#: ../../src/iwPostWindow.cpp:84 ../../src/iwPostWindow.cpp:275
+#: ingameWindows/iwPostWindow.cpp:83 ingameWindows/iwPostWindow.cpp:274
 msgid "No letters!"
 msgstr "Sem Cartas!"
 
-#: ../../src/nofFarmhand.cpp:209
+#: figures/nofFarmhand.cpp:210
 msgid "No more fishes in range"
 msgstr "Não existe mais peixes na área"
 
-#: ../../src/nofFarmhand.cpp:202
+#: figures/nofFarmhand.cpp:203
 msgid "No more stones in range"
 msgstr "Não existe mais pedras na área"
 
-#: ../../src/AddonRefundMaterials.h:42
+#: addons/AddonRefundMaterials.h:43
 msgid "No refund"
 msgstr "Sem reembolso"
 
-#: ../../src/iwShip.cpp:109
+#: ingameWindows/iwShip.cpp:108
 msgid "No ships available"
 msgstr "Sem barcos disponiveis"
 
-#: ../../src/AddonStatisticsVisibility.h:46
+#: addons/AddonStatisticsVisibility.h:47
 msgid "Nobody else but you"
 msgstr "Ninguem a não ser você"
 
-#: ../../src/iwDiplomacy.cpp:115
+#: ingameWindows/iwDiplomacy.cpp:114 gameTypes/PactTypes.h:37
 msgid "Non-aggression pact"
 msgstr "Pacto Não-Agressão"
 
-#: ../../src/dskHostGame.cpp:134
+#: desktops/dskHostGame.cpp:137
 msgid "None"
 msgstr "Nenhum"
 
-#. Langsam
-#: ../../src/dskHostGame.cpp:128 ../../src/dskHostGame.cpp:154
+#: desktops/dskHostGame.cpp:131 desktops/dskHostGame.cpp:157
+#: addons/AddonShipSpeed.h:43
 msgid "Normal"
 msgstr "Normal"
 
-#: ../../src/dskHostGame.cpp:810
+#: desktops/dskHostGame.cpp:824
 msgid "Not Ready"
 msgstr "Não está preparado"
 
-#. / @todo Hier dann Auswahl zwischen Kampagne(n) und "Freies Spiel"
-#: ../../src/dskSinglePlayer.cpp:162
+#: desktops/dskSinglePlayer.cpp:168
 msgid "Not available"
 msgstr "Não está disponível"
 
-#: ../../src/dskGameInterface.cpp:1027
+#: desktops/dskGameInterface.cpp:1020
 #, c-format
 msgid "Note: Game settings changed by the server%s"
 msgstr "Nota: Opções do jogo mudados por %s"
 
-#: ../../src/GameClientGF_Replay.cpp:122
+#: GameClientGF_Replay.cpp:129
+#, c-format
+msgid "Notice: Overall asynchronous frame count: %u"
+msgstr ""
+
+#: GameClientGF_Replay.cpp:120
 #, c-format
 msgid "Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, AVG_FPS: %u)"
 msgstr "Noticia: O Replay acabou. (Gf: %u, %dh %dmin %ds, TF:%u, AVG_FPS %u)"
 
-#: ../../src/iwAction.cpp:409
+#: ingameWindows/iwAction.cpp:340
+msgid "Notify allies of this location"
+msgstr ""
+
+#: ingameWindows/iwAction.cpp:406
 msgid "Number of attackers"
 msgstr "Numero de Atacantes"
 
-#. OK-Button
-#: ../../src/iwMsgbox.cpp:65 ../../src/iwMsgbox.cpp:71
-#: ../../src/iwMusicPlayer.cpp:44 ../../src/iwSkipGFs.cpp:54
+#: ingameWindows/iwMsgbox.cpp:65 ingameWindows/iwMsgbox.cpp:71
+#: ingameWindows/iwMusicPlayer.cpp:48 ingameWindows/iwSkipGFs.cpp:54
 msgid "OK"
 msgstr "Ok"
 
-#: ../../src/iwAction.cpp:341
+#: ingameWindows/iwAction.cpp:337 ingameWindows/iwObservate.cpp:48
 msgid "Observation window"
 msgstr "Janela de Observação"
 
-#: ../../src/dskOptions.cpp:165 ../../src/dskOptions.cpp:173
-#: ../../src/dskOptions.cpp:197 ../../src/dskOptions.cpp:217
-#: ../../src/dskOptions.cpp:238 ../../src/dskOptions.cpp:247
+#: desktops/dskOptions.cpp:165 desktops/dskOptions.cpp:172
+#: desktops/dskOptions.cpp:181 desktops/dskOptions.cpp:205
+#: desktops/dskOptions.cpp:224 desktops/dskOptions.cpp:244
+#: desktops/dskOptions.cpp:253 addons/AddonDemolitionProhibition.h:43
 msgid "Off"
 msgstr "Desligado"
 
-#: ../../src/dskHostGame.cpp:118
+#: desktops/dskHostGame.cpp:121
 msgid "Off (all visible)"
 msgstr "Desligado (Tudo Visivel)"
 
-#: ../../src/GameConsts.h:390
+#: gameTypes/JobTypes.h:89
 msgid "Officer"
 msgstr "Oficial"
 
-#. "Alte"
-#: ../../src/dskSelectMap.cpp:114
+#: addons/AddonMaxRank.h:52
+#, fuzzy
+msgid "Officer (3)"
+msgstr "Oficial"
+
+#: desktops/dskSelectMap.cpp:119
 msgid "Old maps"
 msgstr "Mapas Antigos"
 
-#: ../../src/dskOptions.cpp:164 ../../src/dskOptions.cpp:172
-#: ../../src/dskOptions.cpp:196 ../../src/dskOptions.cpp:216
-#: ../../src/dskOptions.cpp:237 ../../src/dskOptions.cpp:246
+#: desktops/dskOptions.cpp:164 desktops/dskOptions.cpp:173
+#: desktops/dskOptions.cpp:180 desktops/dskOptions.cpp:204
+#: desktops/dskOptions.cpp:223 desktops/dskOptions.cpp:243
+#: desktops/dskOptions.cpp:252
 msgid "On"
 msgstr "Ligado"
 
-#. Offen
-#: ../../src/dskHostGame.cpp:260
+#: desktops/dskHostGame.cpp:270
 msgid "Open"
 msgstr "Aberto"
 
-#: ../../src/dskOptions.cpp:213
+#: desktops/dskOptions.cpp:220
 msgid "Optimized Textures:"
 msgstr ""
 
-#. "Optionen"
-#: ../../src/dskMainMenu.cpp:80 ../../src/dskOptions.cpp:76
+#: desktops/dskMainMenu.cpp:81 desktops/dskOptions.cpp:76
+#: ingameWindows/iwMainMenu.cpp:100
 msgid "Options"
 msgstr "Opções"
 
-#. Gebäudename
-#: ../../src/iwBuildingSite.cpp:57
+#: ingameWindows/iwBuildingSite.cpp:57
 msgid "Order of building site"
 msgstr "Ordem de locais de construção"
 
-#. "Andere"
-#: ../../src/dskSelectMap.cpp:126
+#: desktops/dskSelectMap.cpp:131 ingameWindows/iwAddons.cpp:67
 msgid "Other"
 msgstr "Outro"
 
-#: ../../src/dskCredits.cpp:178
+#: desktops/dskCredits.cpp:189
 msgid "Other Support:"
 msgstr "Outros Apoios:"
 
-#: ../../src/nofAttacker.cpp:289
+#: figures/nofAttacker.cpp:282
 msgid "Our headquarters was destroyed!"
 msgstr "O nosso quartel-general foi destruido!"
 
-#: ../../src/iwMinimap.cpp:53
+#: ingameWindows/iwMinimap.cpp:53
 msgid "Outline map"
 msgstr "Mapa esboço"
 
-#. "Eigene"
-#: ../../src/dskSelectMap.cpp:118
+#: desktops/dskSelectMap.cpp:123
 msgid "Own maps"
 msgstr "Mapas próprios"
 
-#: ../../src/GameConsts.h:395
+#: gameTypes/JobTypes.h:94
 msgid "Pack donkey"
 msgstr "Burro de carga"
 
-#. "Passwort (falls vorhanden)"
-#: ../../src/iwDirectIPConnect.cpp:63
+#: ingameWindows/iwDirectIPConnect.cpp:63
 msgid "Password (if needed):"
 msgstr "Palavra-passe (se necessário):"
 
-#. "Passwort"
-#. Passwort
-#: ../../src/iwDirectIPCreate.cpp:63 ../../src/iwLobbyConnect.cpp:59
+#: ingameWindows/iwDirectIPCreate.cpp:64 ingameWindows/iwLobbyConnect.cpp:59
 msgid "Password:"
 msgstr "Palavra-passe:"
 
-#: ../../src/dskHostGame.cpp:84
+#: desktops/dskHostGame.cpp:87
 msgid "Past player"
 msgstr "Jogador anterior"
 
-#: ../../src/iwTools.cpp:53
+#: ingameWindows/iwTools.cpp:55 gameTypes/GoodTypes.h:77
 msgid "Pick-axe"
 msgstr "Picareta"
 
-#: ../../src/GameConsts.h:379
+#: gameTypes/JobTypes.h:78
 msgid "Pig breeder"
 msgstr "Criador de porcos"
 
-#. Schweinezucht
-#: ../../src/iwDistribution.cpp:90 ../../src/iwDistribution.cpp:158
+#: ingameWindows/iwDistribution.cpp:89 ingameWindows/iwDistribution.cpp:157
+#: gameTypes/BuildingTypes.h:158
 msgid "Pig farm"
 msgstr "Pocilga"
 
-#. "Ping"
-#: ../../src/dskHostGame.cpp:77 ../../src/dskLobby.cpp:77
+#: desktops/dskHostGame.cpp:80 desktops/dskLobby.cpp:78
+#: ingameWindows/iwDiplomacy.cpp:79
 msgid "Ping"
 msgstr "Ping"
 
-#: ../../src/GameConsts.h:386
+#: gameTypes/JobTypes.h:85
 msgid "Planer"
 msgstr "Nivelador"
 
-#. "Replay abspielen"
-#: ../../src/dskSinglePlayer.cpp:73
+#: desktops/dskSinglePlayer.cpp:76 ingameWindows/iwPlayReplay.cpp:66
 msgid "Play Replay"
 msgstr "Ver Replay"
 
-#: ../../src/iwMusicPlayer.cpp:90 ../../src/iwMusicPlayer.cpp:283
+#: ingameWindows/iwMusicPlayer.cpp:94 ingameWindows/iwMusicPlayer.cpp:291
 msgid "Playback in this order"
 msgstr "Reproduzir nesta ordem"
 
-#. "Heruntergeladene"
-#: ../../src/dskSelectMap.cpp:130
+#: desktops/dskSelectMap.cpp:135
 msgid "Played"
 msgstr "Reproduzido"
 
-#: ../../src/dskLobby.cpp:77 ../../src/dskSelectMap.cpp:100
+#: desktops/dskLobby.cpp:78 desktops/dskSelectMap.cpp:105
+#: ingameWindows/iwPlayReplay.cpp:68
 msgid "Player"
 msgstr "Jogador"
 
-#: ../../src/dskGameInterface.cpp:1321
+#: desktops/dskGameInterface.cpp:1313
 #, c-format
 msgid "Player '%s' is the winner!"
 msgstr "O jogador '%s' é o vencedor!"
 
-#. Im Spiel anzeigen, dass die KI das Spiel betreten hat
-#: ../../src/dskGameInterface.cpp:1013
+#: desktops/dskGameInterface.cpp:1006
 #, c-format
 msgid "Player '%s' joined the game!"
 msgstr "Jogador '%s' juntou-se ao jogo!"
 
-#: ../../src/dskGameInterface.cpp:1010
+#: desktops/dskGameInterface.cpp:1003
 #, c-format
 msgid "Player '%s' left the game!"
 msgstr "Jogador '%s' saiu do jogo!"
 
-#: ../../src/dskGameInterface.cpp:1175
+#: desktops/dskGameInterface.cpp:1168
 #, c-format
 msgid "Player '%s' switched to player '%s'"
 msgstr "Jogador '%s' mudou para jogador '%s'"
 
-#: ../../src/dskGameInterface.cpp:1198
+#: desktops/dskGameInterface.cpp:1191
 #, c-format
 msgid "Player '%s' was defeated!"
 msgstr "Jogador '%s' foi derrotado!"
 
-#. "Spielername"
-#: ../../src/dskHostGame.cpp:62
+#: desktops/dskHostGame.cpp:65
 msgid "Player Name"
 msgstr "Nome do Jogador"
 
-#: ../../src/iwMusicPlayer.cpp:70
+#: ingameWindows/iwMusicPlayer.cpp:74
 msgid "Playlist:"
 msgstr "Lista de Reprodução:"
 
-#: ../../src/iwDirectIPCreate.cpp:169
+#: ingameWindows/iwDirectIPCreate.cpp:170
 msgid "Please enter a name for the game"
 msgstr "Por favor, introduza um nome para o jogo"
 
-#: ../../src/dskSinglePlayer.cpp:162
+#: desktops/dskSinglePlayer.cpp:168
 msgid "Please use 'Unlimited Play' to create a Singleplayer game."
 msgstr "Por favor, use 'Jogo Ilimitado' para criar um jogo individual."
 
-#. /////////////////////////////////////////////////////////////////////////////
-#. *
-#. *  Konstruktor von @p iwPleaseWait.
-#. *
-#. *  Fenster wird modal geöffnet, damit man ggf. einen "Weiter"-Button nicht
-#. *  mehrfach betätigen kann.
-#. *
-#. *  @author OLiver
-#. 
-#: ../../src/iwPleaseWait.cpp:46 ../../src/iwPleaseWait.cpp:49
+#: ingameWindows/iwPleaseWait.cpp:47 ingameWindows/iwPleaseWait.cpp:50
 msgid "Please wait..."
 msgstr "Por favor aguarde..."
 
-#: ../../src/dskLobby.cpp:79
+#: desktops/dskLobby.cpp:80 ingameWindows/iwLobbyRanking.cpp:81
 msgid "Points"
 msgstr "Pontos"
 
-#: ../../src/dskGameInterface.cpp:111
+#: desktops/dskGameInterface.cpp:109 ingameWindows/iwPostWindow.cpp:48
 msgid "Post office"
 msgstr "Correio"
 
-#: ../../src/GameConsts.h:387
+#: gameTypes/JobTypes.h:86
 msgid "Private"
 msgstr "Raso"
 
-#: ../../src/GameConsts.h:388
+#: addons/AddonMaxRank.h:55
+#, fuzzy
+msgid "Private (0)"
+msgstr "Raso"
+
+#: gameTypes/JobTypes.h:87
 msgid "Private first class"
 msgstr "Alferes"
 
-#: ../../src/iwBuildingProductivities.cpp:85
+#: addons/AddonMaxRank.h:54
+#, fuzzy
+msgid "Privatefc (1)"
+msgstr "Raso"
+
+#: addons/AddonMetalworksBehaviorOnZero.h:19
+msgid "Produce nothing"
+msgstr ""
+
+#: addons/AddonMetalworksBehaviorOnZero.h:18
+msgid "Produce random ware"
+msgstr ""
+
+#: ingameWindows/iwBuildingProductivities.cpp:86
+#: ingameWindows/iwMainMenu.cpp:82 ingameWindows/iwStatistics.cpp:125
+#: ingameWindows/iwStatistics.cpp:238
 msgid "Productivity"
 msgstr "Produtividade"
 
-#: ../../src/iwPlayReplay.cpp:122
+#: ingameWindows/iwPlayReplay.cpp:127 main.cpp:313
 msgid "Program version is too old to play that replay!"
 msgstr "Versão do programa é demasiado antiga para este replay!"
 
-#: ../../src/dskCredits.cpp:83 ../../src/dskCredits.cpp:95
-#: ../../src/dskCredits.cpp:131 ../../src/dskCredits.cpp:150
+#: desktops/dskCredits.cpp:85 desktops/dskCredits.cpp:97
+#: desktops/dskCredits.cpp:133 desktops/dskCredits.cpp:152
+#: desktops/dskCredits.cpp:161
 msgid "Programming"
 msgstr "Desenvolvimento"
 
-#: ../../src/dskCredits.cpp:81 ../../src/dskCredits.cpp:94
+#: desktops/dskCredits.cpp:83 desktops/dskCredits.cpp:96
 msgid "Project management"
 msgstr "Gestão do projecto"
 
-#: ../../src/AddonLimitCatapults.h:47
+#: addons/AddonLimitCatapults.h:48
 msgid "Proportional"
 msgstr "Proporcional"
 
-#. Proxyserver
-#: ../../src/dskOptions.cpp:137
+#: desktops/dskOptions.cpp:137
 msgid "Proxyserver:"
 msgstr "Servidor Proxy:"
 
-#. Proxytyp
-#: ../../src/dskOptions.cpp:144
+#: desktops/dskOptions.cpp:144
 msgid "Proxytyp:"
 msgstr "Proxytyp:"
 
-#: ../../src/iwAction.cpp:265 ../../src/iwAction.cpp:273
+#: ingameWindows/iwAction.cpp:261 ingameWindows/iwAction.cpp:269
 msgid "Pull down flag"
 msgstr "Retirar Bandeira"
 
-#: ../../src/dskCredits.cpp:86 ../../src/dskCredits.cpp:96
-#: ../../src/dskCredits.cpp:114 ../../src/dskCredits.cpp:122
-#: ../../src/dskCredits.cpp:141 ../../src/dskCredits.cpp:151
+#: desktops/dskCredits.cpp:88 desktops/dskCredits.cpp:98
+#: desktops/dskCredits.cpp:116 desktops/dskCredits.cpp:124
+#: desktops/dskCredits.cpp:143 desktops/dskCredits.cpp:153
+#: desktops/dskCredits.cpp:162
 msgid "Quality Assurance"
 msgstr "Controlo de Qualidade"
 
-#: ../../src/GameConsts.h:299
+#: gameTypes/BuildingTypes.h:149
 msgid "Quarry"
 msgstr "Pedreira"
 
-#. "Programm verlassen"
-#: ../../src/dskMainMenu.cpp:88
+#: desktops/dskMainMenu.cpp:89
 msgid "Quit program"
 msgstr "Sair do Programa"
 
-#. "RTTR"
-#: ../../src/dskSelectMap.cpp:124
+#: desktops/dskSelectMap.cpp:129
 msgid "RTTR"
 msgstr "DVAO"
 
-#. "Volk"
-#: ../../src/dskHostGame.cpp:66
+#: desktops/dskHostGame.cpp:69
 msgid "Race"
 msgstr "Raça"
 
-#: ../../src/AddonCatapultGraphics.h:39
+#: addons/AddonCatapultGraphics.h:40
 msgid "Race specific catapult graphics"
 msgstr "Graphics de catapulta especficos para cada raça"
 
-#: ../../src/iwMusicPlayer.cpp:283
+#: ingameWindows/iwMusicPlayer.cpp:291
 msgid "Random playback"
 msgstr "Reprodução Aleatória"
 
-#. "Random Start Locations"
-#: ../../src/dskHostGame.cpp:105
+#: desktops/dskHostGame.cpp:108
 msgid "Random start locations"
 msgstr ""
 
-#: ../../src/GameConsts.h:369
+#: gameTypes/JobTypes.h:68
 msgid "Ranger"
 msgstr "Batetor"
 
-#: ../../src/BuildingConsts.h:442
+#: gameData/BuildingConsts.cpp:214
 msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
 msgstr "O minério de ferro é derretido pelos fundidores com a ajuda de carvão. O ferro já processado é então usado para fazer armas (no armador) e ferramentas (nas metalúrgicas)."
 
-#. "ReadMe"
-#: ../../src/dskMainMenu.cpp:84 ../../src/dskOptions.cpp:123
+#: desktops/dskMainMenu.cpp:85 desktops/dskOptions.cpp:123
 msgid "Readme"
 msgstr "Leia-me"
 
-#: ../../src/dskGameInterface.cpp:628
+#: desktops/dskGameInterface.cpp:620 desktops/dskMainMenu.cpp:165
+#: ingameWindows/iwOptionsWindow.cpp:132
 msgid "Readme!"
 msgstr "Leia-me!"
 
-#: ../../src/dskHostGame.cpp:95 ../../src/dskHostGame.cpp:594
-#: ../../src/dskHostGame.cpp:810
+#: desktops/dskHostGame.cpp:98 desktops/dskHostGame.cpp:607
+#: desktops/dskHostGame.cpp:824
 msgid "Ready"
 msgstr "Preparado"
 
-#. "Bereit"
-#: ../../src/dskHostGame.cpp:75
+#: desktops/dskHostGame.cpp:78
 msgid "Ready?"
 msgstr "Preparado?"
 
-#: ../../src/AddonNoCoinsDefault.h:20
+#: addons/AddonNoCoinsDefault.h:21
 msgid ""
 "Receiving coins is disabled\n"
 "for military buildings by default."
@@ -2163,902 +2277,893 @@ msgstr ""
 "Receber moedas para predios\n"
 "militares está desactivado por defeito."
 
-#: ../../src/AddonDefenderBehavior.h:48
+#: addons/AddonDefenderBehavior.h:49
 msgid "Reduce reoccupying troops accordingly"
 msgstr "Reduzir tropas de reocupação adequadamente"
 
-#: ../../src/AddonRefundMaterials.h:43
+#: addons/AddonRefundMaterials.h:44
 msgid "Refund 25%"
 msgstr "Reembolso de 25%"
 
-#: ../../src/AddonRefundMaterials.h:44
+#: addons/AddonRefundMaterials.h:45
 msgid "Refund 50%"
 msgstr "Reembolso de 50%"
 
-#: ../../src/AddonRefundMaterials.h:45
+#: addons/AddonRefundMaterials.h:46
 msgid "Refund 75%"
 msgstr "Reembolso de 75%"
 
-#: ../../src/AddonRefundMaterials.h:37
+#: addons/AddonRefundMaterials.h:38
 msgid "Refund materials when building is destroyed"
 msgstr "Reembolso de materiais quando o prédio é destruido"
 
-#: ../../src/AddonRefundOnEmergency.h:38
+#: addons/AddonRefundOnEmergency.h:39
 msgid "Refund materials when emergency program is active"
 msgstr "Reembolso de materiais quando o protocolo de emergência está activado"
 
-#. Registrieren
-#: ../../src/iwLobbyConnect.cpp:88
+#: ingameWindows/iwLobbyConnect.cpp:88
 msgid "Register"
 msgstr "Registar-se"
 
-#. Registrierung erfolgreich
-#: ../../src/iwLobbyConnect.cpp:319
+#: ingameWindows/iwLobbyConnect.cpp:319
 msgid "Registration successful!"
 msgstr "Registro Bem-sucedida!"
 
-#: ../../src/iwMusicPlayer.cpp:77
+#: ingameWindows/iwMusicPlayer.cpp:81
 msgid "Remove"
 msgstr "Remover"
 
-#: ../../src/AddonChangeGoldDeposits.h:48
+#: addons/AddonChangeGoldDeposits.h:49
 msgid "Remove gold completely"
 msgstr "Remover ouro completamente"
 
-#: ../../src/iwMusicPlayer.cpp:84
+#: ingameWindows/iwMusicPlayer.cpp:88
 msgid "Remove track"
 msgstr "Remover Pista"
 
-#. "Reserve"-Überschrift
-#: ../../src/iwHQ.cpp:52
+#: ingameWindows/iwHQ.cpp:51
 msgid "Reserve"
 msgstr "Reservar"
 
-#. "Letztes Spiel fortsetzen"
-#: ../../src/dskSinglePlayer.cpp:71
+#: desktops/dskSinglePlayer.cpp:74
 msgid "Resume last game"
 msgstr "Continuar ultimo jogo"
 
-#. "Zurück"
-#: ../../src/dskHostGame.cpp:98
+#: desktops/dskHostGame.cpp:101
 msgid "Return"
 msgstr "Recuar"
 
-#. "Die Siedler II.5 RTTR"
-#: ../../src/dskCredits.cpp:72
+#: desktops/dskCredits.cpp:74
 msgid "Return To The Roots"
 msgstr "De Volta Às Origens"
 
-#. Version
-#: ../../src/dskDirectIP.cpp:53
+#: desktops/dskDirectIP.cpp:54 desktops/dskLobby.cpp:62
+#: desktops/dskMainMenu.cpp:70 desktops/dskMultiPlayer.cpp:60
+#: desktops/dskSinglePlayer.cpp:67
 #, c-format
 msgid "Return To The Roots - v%s-%s"
 msgstr "De Volta Às Origens - v%s - %s"
 
-#. Expedition abbrechen
-#: ../../src/iwShip.cpp:80
+#: ingameWindows/iwOptionsWindow.cpp:69
+#, fuzzy, c-format
+msgid "Return To The Roots v%s-%s"
+msgstr "De Volta Às Origens - v%s - %s"
+
+#: ingameWindows/iwShip.cpp:79
 msgid "Return to harbor"
 msgstr "Regressar ao porto"
 
-#: ../../src/iwTools.cpp:57
+#: ingameWindows/iwTools.cpp:59 gameTypes/GoodTypes.h:80
 msgid "Rod and line"
 msgstr "Vara e Linha"
 
-#: ../../src/iwTools.cpp:60
+#: ingameWindows/iwTools.cpp:62 gameTypes/GoodTypes.h:85
 msgid "Rolling pin"
 msgstr "Rolo"
 
-#: ../../src/dskHostGame.cpp:823
-msgid "Romans"
-msgstr "Romanos"
-
-#: ../../src/main.cpp:167
+#: main.cpp:161
 msgid "RttR crashed. Please restart the application!"
 msgstr ""
 
-#: ../../src/main.cpp:151
+#: main.cpp:145
 msgid "RttR crashed. Would you like to send debug information to RttR to help us avoiding this crash in the future? Thank you very much!"
 msgstr "RAO caiu. Vai querer mandar a sua informação para a equipa de RAO para ajudar a evitar este tipo de erro no futuro? Muito obrigado!"
 
-#: ../../src/dskMainMenu.cpp:106
+#: desktops/dskMainMenu.cpp:107
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
 msgstr ""
 
-#: ../../src/dskGameInterface.cpp:1090 ../../src/dskGameInterface.cpp:1119
+#: desktops/dskGameInterface.cpp:1083 desktops/dskGameInterface.cpp:1112
 msgid "SYSTEM"
 msgstr "SISTEMA"
 
-#. Passwort speichern ja/nein
-#: ../../src/iwLobbyConnect.cpp:69
+#: ingameWindows/iwLobbyConnect.cpp:69
 msgid "Save Password?"
 msgstr "Salvar Palavra-passe?"
 
-#. /////////////////////////////////////////////////////////////////////////////
-#. *
-#. *
-#. *
-#. *  @author OLiver
-#. 
-#: ../../src/iwOptionsWindow.cpp:85 ../../src/iwSave.cpp:190
+#: ingameWindows/iwOptionsWindow.cpp:87 ingameWindows/iwSave.cpp:194
 msgid "Save game!"
 msgstr "Salvar Jogo!"
 
-#: ../../src/iwTools.cpp:52
+#: ingameWindows/iwTools.cpp:54 gameTypes/GoodTypes.h:76
 msgid "Saw"
 msgstr "Serra"
 
-#. Sawmill
-#: ../../src/iwDistribution.cpp:129
+#: ingameWindows/iwDistribution.cpp:128 gameTypes/BuildingTypes.h:163
 msgid "Sawmill"
 msgstr "Serralharia"
 
-#: ../../src/GameConsts.h:394
+#: gameTypes/JobTypes.h:93
 msgid "Scout"
 msgstr "Batedor"
 
-#: ../../src/iwTools.cpp:58
+#: ingameWindows/iwTools.cpp:60 gameTypes/GoodTypes.h:81
 msgid "Scythe"
 msgstr "Foice"
 
-#. "Andere"
-#: ../../src/dskSelectMap.cpp:128
+#: desktops/dskSelectMap.cpp:133
 msgid "Sea"
 msgstr "Mar"
 
-#. Alle auswählen bzw setzen!
-#: ../../src/iwBaseWarehouse.cpp:71
+#: addons/AddonSeaAttack.h:42
+#, fuzzy
+msgid "Sea attack settings"
+msgstr "Atacantes fracos"
+
+#: ingameWindows/iwBaseWarehouse.cpp:75
 msgid "Select all"
 msgstr "Selecionar tudo"
 
-#. "Karten Auswahl"
-#: ../../src/dskSelectMap.cpp:103
+#: desktops/dskSelectMap.cpp:108
 msgid "Selection of maps"
 msgstr "Selecção de Mapas"
 
-#: ../../src/iwTrade.cpp:98
+#: ingameWindows/iwTrade.cpp:97
 msgid "Send"
 msgstr "Enviar"
 
-#: ../../src/iwAction.cpp:267 ../../src/iwAction.cpp:275
+#: ingameWindows/iwMilitaryBuilding.cpp:80
+msgid "Send max rank soldiers to a warehouse"
+msgstr ""
+
+#: ingameWindows/iwAction.cpp:263 ingameWindows/iwAction.cpp:271
 msgid "Send out scout"
 msgstr "Mandar batedor"
 
-#: ../../src/iwBuildOrder.cpp:67
+#: ingameWindows/iwBuildOrder.cpp:66
 msgid "Sequence of given order"
 msgstr "Sequência da ordem dada"
 
-#: ../../src/GameConsts.h:389
+#: gameTypes/JobTypes.h:88
 msgid "Sergeant"
 msgstr "Sargento"
 
-#: ../../src/dskLobby.cpp:77
+#: addons/AddonMaxRank.h:53
+#, fuzzy
+msgid "Sergeant (2)"
+msgstr "Sargento"
+
+#: desktops/dskLobby.cpp:78
 msgid "Server"
 msgstr "Servidor"
 
-#: ../../src/iwLobbyServerInfo.cpp:73
+#: ingameWindows/iwLobbyServerInfo.cpp:73
 msgid "Server Information"
 msgstr "Informação de Servidor"
 
-#: ../../src/iwLobbyServerInfo.cpp:77
+#: ingameWindows/iwLobbyServerInfo.cpp:77
 msgid "Server Name:"
 msgstr "Nome do Servidor:"
 
-#: ../../src/dskCredits.cpp:82
+#: desktops/dskCredits.cpp:84
 msgid "Server management"
 msgstr "Gestão de Servidor"
 
-#. "Server-Port"
-#: ../../src/iwDirectIPConnect.cpp:59 ../../src/iwDirectIPCreate.cpp:59
+#: ingameWindows/iwDirectIPConnect.cpp:59
+#: ingameWindows/iwDirectIPCreate.cpp:60
 msgid "Server-Port:"
 msgstr "Port do Servidor:"
 
-#: ../../src/AddonMaxWaterwayLength.h:37
+#: addons/AddonBurnDuration.h:37
+msgid "Set duration fires burn"
+msgstr ""
+
+#: addons/AddonMaxRank.h:46
+msgid "Set max rank"
+msgstr ""
+
+#: addons/AddonMaxWaterwayLength.h:38
 msgid "Set maximum waterway length"
 msgstr "Limitar o numero máximo de caminhos maritimos"
 
-#: ../../src/iwSettings.cpp:53
+#: addons/AddonShipSpeed.h:36
+#, fuzzy
+msgid "Set ship speed"
+msgstr "Um novo navio está pronto!"
+
+#: ingameWindows/iwSettings.cpp:53
 msgid "Settings"
 msgstr "Configuração"
 
-#: ../../src/iwTrade.cpp:75
+#: ingameWindows/iwTrade.cpp:74
 msgid "Settlers"
 msgstr "Colonos"
 
-#. "Gemeinsame Team-Sicht"
-#: ../../src/dskHostGame.cpp:103
+#: desktops/dskHostGame.cpp:106
 msgid "Shared team view"
 msgstr "Visão aberta da equipa"
 
-#. Brot
-#. 21
-#: ../../src/GameConsts.h:211
+#: gameTypes/GoodTypes.h:93
 msgid "Shield"
 msgstr "Escudo"
 
-#. Schiffe
-#: ../../src/iwMainMenu.cpp:86
+#: ingameWindows/iwMainMenu.cpp:86 ingameWindows/iwShip.cpp:59
 msgid "Ship register"
 msgstr "Registro de Navios"
 
-#: ../../src/BuildingConsts.h:541
+#: gameData/BuildingConsts.cpp:313
 msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also be prepared here. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "Navios só podem ser carregados e descarregados no porto. Expedições podem tambem ser preparadas aqui. Para libertar certas mercadorias nos armazens, quando for preciso. Em alternativa, a função de armazenamento pode ser desactivada. Para fazer isto, escolhe-se o icon relevante seguido de qual a mercadoria ou profissão que quer desactivar."
 
-#: ../../src/GameConsts.h:393
+#: gameTypes/JobTypes.h:92
 msgid "Shipwright"
 msgstr "Construtor Naval"
 
-#. Werft
-#: ../../src/iwDistribution.cpp:145
+#: ingameWindows/iwDistribution.cpp:144 gameTypes/BuildingTypes.h:166
 msgid "Shipyard"
 msgstr "Estaleiro Naval"
 
-#: ../../src/AddonMaxWaterwayLength.h:49
+#: addons/AddonMaxWaterwayLength.h:50
 msgid "Short"
 msgstr "Pequeno"
 
-#: ../../src/iwDiplomacy.cpp:250
+#: ingameWindows/iwDiplomacy.cpp:249
 msgid "Short-run"
 msgstr "Curto prazo"
 
-#: ../../src/iwTools.cpp:55
+#: ingameWindows/iwTools.cpp:57 gameTypes/GoodTypes.h:78
 msgid "Shovel"
 msgstr "Pá"
 
-#. "Einzelspieler"
-#: ../../src/dskMainMenu.cpp:76
+#: desktops/dskMainMenu.cpp:77
 msgid "Singleplayer"
 msgstr "Jogo Individual"
 
-#: ../../src/dskSelectMap.cpp:100
+#: desktops/dskSelectMap.cpp:105
 msgid "Size"
 msgstr "Tamanho"
 
-#. Aktuelle Überschrift über der Statistik
-#: ../../src/iwStatistics.cpp:116 ../../src/iwStatistics.cpp:136
-#: ../../src/iwStatistics.cpp:211
+#: ingameWindows/iwStatistics.cpp:119 ingameWindows/iwStatistics.cpp:139
+#: ingameWindows/iwStatistics.cpp:214
 msgid "Size of country"
 msgstr "Tamanho do País"
 
-#: ../../src/iwSkipGFs.cpp:44
+#: ingameWindows/iwSkipGFs.cpp:44
 msgid "Skip GameFrames"
 msgstr "Saltar Frames de Jogo (GF)"
 
-#: ../../src/GameConsts.h:301
+#: gameTypes/BuildingTypes.h:151
 msgid "Slaughterhouse"
 msgstr "Talho"
 
-#. Sehr Langsam
-#: ../../src/dskHostGame.cpp:153
+#: desktops/dskHostGame.cpp:156 addons/AddonShipSpeed.h:42
 msgid "Slow"
 msgstr "Lento"
 
-#: ../../src/dskOptions.cpp:147
+#: desktops/dskOptions.cpp:147
 msgid "Socks v4"
 msgstr "Socks v4"
 
-#: ../../src/dskDirectIP.cpp:79
+#: addons/AddonBattlefieldPromotion.h:37
+msgid "Soldiers winning a fight increase in rank."
+msgstr ""
+
+#: desktops/dskDirectIP.cpp:80 desktops/dskLobby.cpp:149
+#: desktops/dskLobby.cpp:165 desktops/dskOptions.cpp:604
+#: desktops/dskOptions.cpp:619 desktops/dskOptions.cpp:627
 msgid "Sorry!"
 msgstr "Desculpe!"
 
-#. "Sound"
-#: ../../src/dskOptions.cpp:87
+#: desktops/dskOptions.cpp:87
 msgid "Sound/Music"
 msgstr "Som/Música"
 
-#. "Audiotreiber"
-#: ../../src/dskOptions.cpp:221
+#: desktops/dskOptions.cpp:228
 msgid "Sounddriver"
 msgstr "Driver de Som"
 
-#: ../../src/iwMusicPlayer.cpp:175
+#: ingameWindows/iwMusicPlayer.cpp:179
 msgid "Specify the playlist name"
 msgstr "Especificar o nome da lista"
 
-#. "Geschwindigkeit"
-#: ../../src/dskHostGame.cpp:150
+#: desktops/dskHostGame.cpp:153
 msgid "Speed:"
 msgstr "Velocidade:"
 
-#. "Starten"
-#: ../../src/iwDirectIPCreate.cpp:78
+#: ingameWindows/iwDirectIPCreate.cpp:79 ingameWindows/iwPlayReplay.cpp:71
 msgid "Start"
 msgstr "Iniciar"
 
-#: ../../src/iwSave.cpp:67
+#: ingameWindows/iwSave.cpp:68
 msgid "Start GF"
 msgstr "Iniciar GF"
 
-#: ../../src/dskHostGame.cpp:666
+#: desktops/dskHostGame.cpp:679
 msgid "Start aborted"
 msgstr "Inicio cancelado"
 
-#. Button zum Expedition starten
-#: ../../src/iwHarborBuilding.cpp:56 ../../src/iwHarborBuilding.cpp:96
-#: ../../src/iwHarborBuilding.cpp:127
+#: ingameWindows/iwHarborBuilding.cpp:55 ingameWindows/iwHarborBuilding.cpp:95
+#: ingameWindows/iwHarborBuilding.cpp:126
 msgid "Start expedition"
 msgstr "Iniciar expedição"
 
-#. Button zum Expedition starten
-#: ../../src/iwHarborBuilding.cpp:63
+#: ingameWindows/iwHarborBuilding.cpp:62
 msgid "Start exporation expedition"
 msgstr "Iniciar expedição de exploração"
 
-#. "Spiel starten"
-#: ../../src/dskHostGame.cpp:95 ../../src/dskHostGame.cpp:580
-#: ../../src/dskHostGame.cpp:808
+#: desktops/dskHostGame.cpp:98 desktops/dskHostGame.cpp:593
+#: desktops/dskHostGame.cpp:822
 msgid "Start game"
 msgstr "Começar jogo"
 
-#: ../../src/dskHostGame.cpp:648
+#: desktops/dskHostGame.cpp:661
 msgid "Starting game, please wait"
 msgstr "Começando jogo, por favor aguarde"
 
-#: ../../src/iwStatistics.cpp:46
+#: ingameWindows/iwStatistics.cpp:46
 msgid "Statistics"
 msgstr "Estatísticas"
 
-#: ../../src/iwSettings.cpp:58
+#: ingameWindows/iwSettings.cpp:58
 msgid "Statistics Scale"
 msgstr "Escala Estatistica"
 
-#. Inventur
-#: ../../src/iwInventory.cpp:46 ../../src/iwMainMenu.cpp:79
+#: ingameWindows/iwInventory.cpp:46 ingameWindows/iwMainMenu.cpp:79
 msgid "Stock"
 msgstr "Stock"
 
-#: ../../src/iwPlayReplay.cpp:63
+#: ingameWindows/iwPlayReplay.cpp:68
 msgid "Stocktaking date"
 msgstr "Data Inventário"
 
-#: ../../src/GameConsts.h:371
+#: gameTypes/JobTypes.h:70
 msgid "Stonemason"
 msgstr "Pedreiro"
 
-#: ../../src/iwMerchandiseStatistics.cpp:73
+#: ingameWindows/iwMerchandiseStatistics.cpp:73
+#: ingameWindows/iwTransport.cpp:67 gameTypes/GoodTypes.h:96
 msgid "Stones"
 msgstr "Pedra"
 
-#. Einlagern verbieten
-#: ../../src/iwBaseWarehouse.cpp:66
+#: ingameWindows/iwBaseWarehouse.cpp:70
 msgid "Stop storage"
 msgstr "Parar Armazenamento"
 
-#: ../../src/iwStorehouse.cpp:43
+#: ingameWindows/iwStorehouse.cpp:43 gameTypes/BuildingTypes.h:159
 msgid "Storehouse"
 msgstr "Armazem"
 
-#: ../../src/iwAction.cpp:400
+#: ingameWindows/iwAction.cpp:397
 msgid "Strong attackers"
 msgstr "Atacantes Fortes"
 
-#: ../../src/iwMilitary.cpp:51
+#: ingameWindows/iwMilitary.cpp:50
 msgid "Strong defense"
 msgstr "Defesa Forte"
 
-#. }
-#: ../../src/dskOptions.cpp:162
+#: desktops/dskOptions.cpp:162
 msgid "Submit debug data:"
 msgstr "Submeter dados debug:"
 
-#: ../../src/dskMainMenu.cpp:106
+#: desktops/dskMainMenu.cpp:107
 msgid "Submit debug data?"
 msgstr ""
 
-#: ../../src/iwDiplomacy.cpp:232
+#: ingameWindows/iwDiplomacy.cpp:231
 msgid "Suggest non-aggression pact"
 msgstr "Sugerir pacto de não-agressão"
 
-#: ../../src/iwDiplomacy.cpp:231
+#: ingameWindows/iwDiplomacy.cpp:230
 msgid "Suggest treaty of alliance"
 msgstr "Sugerir tratado de aliança"
 
-#. "Spiel aufgeben"
-#: ../../src/iwOptionsWindow.cpp:108
+#: ingameWindows/iwOptionsWindow.cpp:110 ingameWindows/iwSurrender.cpp:51
 msgid "Surrender"
 msgstr "Render-se"
 
-#: ../../src/iwSurrender.cpp:49
+#: ingameWindows/iwSurrender.cpp:48
 msgid "Surrender game?"
 msgstr "Render-se?"
 
-#: ../../src/dskHostGame.cpp:81
+#: desktops/dskHostGame.cpp:84
 msgid "Swap"
 msgstr ""
 
-#. Boot
-#. 16
-#: ../../src/GameConsts.h:206
+#: gameTypes/GoodTypes.h:88
 msgid "Sword"
 msgstr "Espada"
 
-#. Systemsprache hinzufügen
-#: ../../src/languages.cpp:71
+#: languages.cpp:74
 msgid "System language"
 msgstr "Linguagem do Sistema"
 
-#: ../../src/dskCredits.cpp:218
+#: desktops/dskCredits.cpp:229
 msgid "THE END"
 msgstr "FIM"
 
-#. Auslagern
-#: ../../src/iwBaseWarehouse.cpp:64
+#: ingameWindows/iwBaseWarehouse.cpp:68
 msgid "Take out of store"
 msgstr "Tirar de armazenamento"
 
-#. "Team"
-#: ../../src/dskHostGame.cpp:70
+#: desktops/dskHostGame.cpp:73
 msgid "Team"
 msgstr "Equipa"
 
-#: ../../src/dskGameInterface.cpp:1352
-#, c-format
+#: desktops/dskGameInterface.cpp:1344
 msgid "Team victory!"
 msgstr ""
 
-#: ../../src/dskGameInterface.cpp:1349
+#: desktops/dskGameInterface.cpp:1341
 #, c-format
 msgid "Team victory! '%s' and '%s' and '%s' and '%s' are the winners!"
 msgstr ""
 
-#: ../../src/dskGameInterface.cpp:1346
+#: desktops/dskGameInterface.cpp:1338
 #, c-format
 msgid "Team victory! '%s' and '%s' and '%s' are the winners!"
 msgstr ""
 
-#: ../../src/dskGameInterface.cpp:1343
+#: desktops/dskGameInterface.cpp:1335
 #, c-format
 msgid "Team victory! '%s' and '%s' are the winners!"
 msgstr ""
 
-#: ../../src/iwDiplomacy.cpp:194
+#: ingameWindows/iwDiplomacy.cpp:193
 msgid "Teams locked"
 msgstr "Equipas fechadas"
 
-#: ../../src/iwPlayReplay.cpp:124
+#: ingameWindows/iwPlayReplay.cpp:129 main.cpp:315
 msgid "Temporary map file was not found!"
 msgstr "Ficheiro de mapa temporário não encontrado!"
 
-#: ../../src/dskCredits.cpp:210
+#: desktops/dskCredits.cpp:221
 msgid "Thank you for your donations!"
 msgstr "Obrigado pelas suas doações!"
 
-#: ../../src/dskCredits.cpp:217
+#: desktops/dskCredits.cpp:228
 msgid "Thank you!"
 msgstr "Obrigado!"
 
-#: ../../src/BuildingConsts.h:375
+#: gameData/BuildingConsts.cpp:147
 msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
 msgstr "Graças á sua imensa força, as catapultas representa uma arma efectiva quando edificios militares inimigos."
 
-#: ../../src/PostMsg.cpp:160
+#: PostMsg.cpp:160
 #, c-format
 msgid "The %s between player '%s' and you has been cancelled."
 msgstr "O %s entre jogador '%s' e você foi cancelado."
 
-#: ../../src/PostMsg.cpp:157
+#: PostMsg.cpp:157
 #, c-format
 msgid "The %s between player '%s' and you has been concluded."
 msgstr "O %s entre jogador '%s' e você foi concluído."
 
-#: ../../src/dskGameInterface.cpp:1053
+#: GameClient.cpp:975 desktops/dskGameInterface.cpp:1046
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "O jogo não está sincronizado. A Verificação de alguns jogadores não correspondem."
 
-#: ../../src/BuildingConsts.h:429
+#: gameData/BuildingConsts.cpp:201
 msgid "The armory produces swords and strong shields. This equipment is vital for your soldiers."
 msgstr "O armador produz espadas e escudos fortes. Este equipamente é vital para os seus soldados."
 
-#: ../../src/BuildingConsts.h:276
+#: gameData/BuildingConsts.cpp:48
 msgid "The barracks is a very small hut which can be used by your soldiers as quarters. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "Os quarteis são casas pequenas que podem ser usadas como casamatas pelos seus soldados. Utilizando o botão da moeda para parar o fornecimento de moedas de ouro aos soldades postos na área. No entanto, sem moedas de ouro os soldados não podem treinar e melhorar as suas habilidades."
 
-#: ../../src/BuildingConsts.h:422
+#: gameData/BuildingConsts.cpp:194
 msgid "The brewer produces fine beer from grain and water. This drink is needed to fill the soldiers with courage."
 msgstr "O cervejeiro produz a melhor das cervejas através de cereais e água. Esta bebido é precisa para encher os soldados com coragem."
 
-#: ../../src/BuildingConsts.h:410
+#: gameData/BuildingConsts.cpp:182
 msgid "The butcher processes the livestock delivered into nutritious ham on which you miners are fed."
 msgstr "O talhante processa a pecuária que lhe é entregue em presunto delicioso do qual os seus mineiros se alimentam."
 
-#: ../../src/BuildingConsts.h:495
+#: gameData/BuildingConsts.cpp:267
 msgid "The carpenter turns the woodcutter's logs into made-to-measure planks. These form the basic for building houses and ships."
 msgstr "O carpinteiro transforma os troncos do lenhador em pranchas de madeira de excelente qualidade. Estes formam o basico preciso para construir prédios e navios."
 
-#: ../../src/BuildingConsts.h:435
+#: gameData/BuildingConsts.cpp:207
 msgid "The countless tools which your workers need are made in the metalworks. This requires boards and iron."
 msgstr "As inumeras ferramentas dos quais os vossos trabalhadores precisam são feitas na metalurgica. Este requere tábuas de madeira e ferro"
 
-#: ../../src/BuildingConsts.h:320
+#: gameData/BuildingConsts.cpp:92
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "As capacidades defensivas e o tamanho da fortaleza são sem igual. Esta fortaleza assegura que outros prédios valiosos e as suas comodidades são protegidas. Utilizando o botão da moeda para parar o fornecimento de moedas de ouro aos soldades postos na área. No entanto, sem moedas de ouro os soldados não podem treinar e melhorar as suas habilidades."
 
-#: ../../src/GameClientPlayer.cpp:2103
+#: GameClientPlayer.cpp:2338
 msgid "The emergency program has been activated."
 msgstr "O Protocolo de Emergência foi activado."
 
-#: ../../src/GameClientPlayer.cpp:2113
+#: GameClientPlayer.cpp:2348
 msgid "The emergency program has been deactivated."
 msgstr "O Protocolo de Emergência foi desactivado"
 
-#: ../../src/BuildingConsts.h:525
+#: gameData/BuildingConsts.cpp:297
 msgid "The farmer plants and harvests grain in the surrounding fields. A windmill then processes the harvested grain into flour or can be used to feed the pigs."
 msgstr "O agricultor planta e colhe os cereais nos campos adjacentes. O moinho assim processa os cereais colhidos e transforma em farinha ou pode ser utilizado para alimentar os porcos"
 
-#: ../../src/BuildingConsts.h:389
+#: gameData/BuildingConsts.cpp:161
 msgid "The fish man is responsible for finding water rich in fish. His fish feed a great many miners."
 msgstr "O pescador é responsável por encontrar peixe em água doce. O peixe é assim utilizado para alimentar os mineiros"
 
-#: ../../src/BuildingConsts.h:487
+#: gameData/BuildingConsts.cpp:259
 msgid "The flour produced at the windmill can be combined with water in the bakery to make oven-fresh bread. It's your miners' favorite!"
 msgstr "A farinha produzida no moinho pode ser combinado com água na padaria para fazer pão fresco. É o alimento favorito dos mineiros!"
 
-#: ../../src/GameServer.cpp:1512
+#: GameServer.cpp:1625
 msgid "The game clients are out of sync. Would you like to send debug information to RttR to help us avoiding this in the future? Thank you very much!"
 msgstr ""
 
-#: ../../src/BuildingConsts.h:480
+#: gameData/BuildingConsts.cpp:252
 msgid "The grain is ground in the windmill. The flour from the windmill is later used at the bakery to bake bread."
 msgstr "Os cereais são moidos no moinho. A farinha do moinho é mais tarde utilizada na padaria para fazer pão."
 
-#: ../../src/BuildingConsts.h:288
+#: gameData/BuildingConsts.cpp:60
 msgid "The guardhouse is a comfortable place for the military which is also protected by solid stone walls. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "A casa de guarda é um lugar confortavel para os militares do qual é tambem protegida por paredes sólidas de pedra. Utilizando o botão da moeda para parar o fornecimento de moedas de ouro aos soldades postos na área. No entanto, sem moedas de ouro os soldados não podem treinar e melhorar as suas habilidades."
 
-#: ../../src/BuildingConsts.h:253
+#: gameData/BuildingConsts.cpp:25
 msgid "The headquarters represents the center of your realm. The large amount of storage space available means a great many things can be safely stored here. You can release certain merchandise from the headquarters, as and when required or stop its storage. To do this, first choose the corresponding icon followed by the desired merchandise or job symbol. On the third page, you can adjust the number of reserve soldiers who are responsible for guarding the headquarters. There are two values given: the first value indicates the current number of men, the second value indicates the desired number. "
 msgstr "O quartel-general representa o centro do seu reino.A grande poder de armazenamento disponivel significa que um grande numero de itens pode ser facilmente armazenado aqui. Você pode liberar certas mercadorias do quartel-general, tambem quando o for preciso ou parar o armazenamento dos mesmos. Para fazer isto, primeiro escolhe o icon correspondente da mercadoria desejada ou do simbolo da profissão. Na terceira página, pode-se ajustar o numero de soldados de reserva que são responsáveis por guardar o quartel-general. Existe dois tipos de valores dados: O primeiro valor indica o numero actual de individuos, e o segundo o numero desejo. "
 
-#: ../../src/BuildingConsts.h:343
+#: gameData/BuildingConsts.cpp:115
 msgid "The mining of coal supports the metalworks and smithy. This hard work requires an adequate supply of food."
 msgstr "Minar carvão apoia as metalurgicas e os ferreiros. Este trabalho dificil requer um fornecimento adequado de comida."
 
-#: ../../src/BuildingConsts.h:503
+#: gameData/BuildingConsts.cpp:275
 msgid "The mint is responsible for producing valuable gold coins. These precious objects are produced using coal and gold."
 msgstr "A casa da moeda é responsavel por produzir moedas de ouro valiosas. Estes objectos preciosos são produzidos utilizando carvão e ouro."
 
-#: ../../src/BuildingConsts.h:533
+#: gameData/BuildingConsts.cpp:305
 msgid "The pack donkeys bred here are used to transport your merchandise more efficiently. They are reared on water and grain."
 msgstr "O conjunto de burros criados aqui são usados para o transporte de mercadorias mais eficiente. Eles são criados com uma base de água e grão"
 
-#: ../../src/PostMsg.cpp:115
+#: PostMsg.cpp:114
 #, c-format
 msgid "The player '%s' offers you a %s."
 msgstr "O jogador '%s' faz-lhe uma oferenda de %s"
 
-#: ../../src/PostMsg.cpp:134
+#: PostMsg.cpp:133
 #, c-format
 msgid "The player '%s' want to cancel the '%s' between you both primaturely. Do you agree?"
 msgstr "O jogador '%s' quer cancelar o '%s' entre ambas prematuramente. Você concorda?"
 
-#: ../../src/BuildingConsts.h:335
+#: gameData/BuildingConsts.cpp:107
 msgid "The quarrying of stone in a granite mine guarantees the supply of stone for buildings. However, even a granite mine has to feed its workers."
 msgstr "As pedreiras e minas de granito garatem um fornecimento de pedra para a construção de prédios. No entanto, até a minha de granito tem que alimentar os seus trabalhadores."
 
-#. immer noch nichts gefunden? --> Dann Fehlermeldung
-#: ../../src/iwTextfile.cpp:72
+#: ingameWindows/iwTextfile.cpp:76
 msgid "The readme file was not found!"
 msgstr "O ficheiro leia-me não foi encontrado!"
 
-#: ../../src/dskSinglePlayer.cpp:146 ../../src/dskSinglePlayer.cpp:150
+#: desktops/dskSinglePlayer.cpp:151 desktops/dskSinglePlayer.cpp:156
+#: ingameWindows/iwMusicPlayer.cpp:151
 msgid "The specified file couldn't be loaded!"
 msgstr "O ficheiro especificado não pode ser carregado!"
 
-#: ../../src/iwMusicPlayer.cpp:335
+#: ingameWindows/iwMusicPlayer.cpp:343
 msgid "The specified file couldn't be opened!"
 msgstr "Ficheiro especificado não pode ser aberto!"
 
-#: ../../src/iwMusicPlayer.cpp:117 ../../src/iwMusicPlayer.cpp:360
+#: ingameWindows/iwMusicPlayer.cpp:121 ingameWindows/iwMusicPlayer.cpp:368
 msgid "The specified file couldn't be saved!"
 msgstr "Ficheiro especificado não pode ser salvo!"
 
-#: ../../src/BuildingConsts.h:395
+#: gameData/BuildingConsts.cpp:167
 msgid "The stonemason works the stone near his quarry into bricks. These are needed mainly for building houses and as ammunition for catapults."
 msgstr "O pedreiro trabalha com pedra perto da sua pedreira e transforma em tijolo. Estes são necessarios principalmente para a construção de casas e como munição para catapultas"
 
-#: ../../src/BuildingConsts.h:461
+#: gameData/BuildingConsts.cpp:233
 msgid "The storehouse can help reduce long transportation journeys and is suited to the temporary storage of merchandise and inhabitants. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "Os armazens podem ajudar a reduzir os caminhos de transporte de materiais e são ideias para armazenar temporariamente mercadorias e habitantes. Você pode libertar certas mercadorias do armazem, quando e se for necessário. Alternadamente, a função de armazenamento pode ser desactivada. Para fazer isto, primeiro é preciso escolher o icon relevante seguido pelo simbolo da mercadoria ou trabalho desejado"
 
-#: ../../src/BuildingConsts.h:304
+#: gameData/BuildingConsts.cpp:76
 msgid "The watchtower with its large amount of space is best suited for stationing a large number of your troops. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "A torre de vigia militar com o seu amplo espaço é adequado para estacionar um grande numero das suas tropas. Utilizando o botão da moeda para parar o fornecimento de moedas de ouro aos soldades postos na área. No entanto, sem moedas de ouro os soldados não podem treinar e melhorar as suas habilidades."
 
-#: ../../src/iwDirectIPConnect.cpp:258
+#: ingameWindows/iwDirectIPConnect.cpp:258
 msgid "This Server is full!"
 msgstr "Este servidor está cheio!"
 
-#: ../../src/nofAttacker.cpp:292
+#: figures/nofAttacker.cpp:285
 msgid "This harbor building was destroyed"
 msgstr "Este prédio maritimo foi destruido"
 
-#: ../../src/nofBuildingWorker.cpp:404
+#: figures/nofBuildingWorker.cpp:414
 msgid "This mine is exhausted"
 msgstr "Esta mina esgotou"
 
-#: ../../src/nofBuildingWorker.cpp:406
+#: figures/nofBuildingWorker.cpp:416
 msgid "This well is dried out"
 msgstr "Este poço secou"
 
-#: ../../src/iwSave.cpp:67
+#: ingameWindows/iwSave.cpp:68
 msgid "Time"
 msgstr "Tempo"
 
-#: ../../src/iwDiplomacy.cpp:274
+#: ingameWindows/iwDiplomacy.cpp:273
 msgid "To player:"
 msgstr "Para jogador:"
 
-#: ../../src/iwLobbyConnect.cpp:222
+#: ingameWindows/iwLobbyConnect.cpp:222
 msgid "To register, you have to create a valid board account at http://forum.siedler25.org at the moment.\n"
 msgstr "Para registar-se,  precisa de criar uma conta válida no forum em http://forum.siedler25.org neste momento.\n"
 
-#. Einzelne Balken
-#: ../../src/iwTools.cpp:50
+#: ingameWindows/iwTools.cpp:52 gameTypes/GoodTypes.h:73
 msgid "Tongs"
 msgstr "Tenaz"
 
-#: ../../src/iwDirectIPConnect.cpp:262
+#: ingameWindows/iwDirectIPConnect.cpp:262
 msgid "Too short Message received!"
 msgstr "Mensagem demasiado pequena recebida!"
 
-#. Werkzeugproduktion
-#: ../../src/iwMainMenu.cpp:71
+#: addons/AddonToolOrdering.h:11
+msgid "Tool ordering"
+msgstr ""
+
+#: ingameWindows/iwMainMenu.cpp:71
+#: ingameWindows/iwMerchandiseStatistics.cpp:84 ingameWindows/iwTools.cpp:48
+#: ingameWindows/iwTransport.cpp:71
 msgid "Tools"
 msgstr "Ferramentas"
 
-#. Nach ganz oben
-#: ../../src/iwBuildOrder.cpp:55
+#: ingameWindows/iwBuildOrder.cpp:54 ingameWindows/iwTransport.cpp:90
 msgid "Top"
 msgstr "Topo"
 
-#. Besitz 3/4 des Landes
-#: ../../src/dskHostGame.cpp:136
+#: desktops/dskHostGame.cpp:139
 msgid "Total domination"
 msgstr "Dominação Total"
 
-#: ../../src/dskHostGame.cpp:144
+#: desktops/dskHostGame.cpp:147
 #, c-format
 msgid "Tournament: %u minutes"
 msgstr "Tourneio: %u minutos"
 
-#: ../../src/iwTrade.cpp:59
+#: ingameWindows/iwTrade.cpp:58 addons/AddonTrade.h:37
 msgid "Trade"
 msgstr "Negociar"
 
-#: ../../src/iwTrade.cpp:64
+#: ingameWindows/iwTrade.cpp:63
 #, c-format
 msgid "Trade with %s"
 msgstr "Negociar com %s"
 
-#. Transport
-#: ../../src/iwMainMenu.cpp:69
+#: ingameWindows/iwMainMenu.cpp:69 ingameWindows/iwTransport.cpp:82
 msgid "Transport"
 msgstr "Transporte"
 
-#: ../../src/iwDiplomacy.cpp:81
+#: ingameWindows/iwDiplomacy.cpp:80
 msgid "Treaties"
 msgstr "Tratados"
 
-#: ../../src/iwDiplomacy.cpp:106
+#: ingameWindows/iwDiplomacy.cpp:105 gameTypes/PactTypes.h:36
 msgid "Treaty of alliance"
 msgstr "Tratado de Aliança"
 
-#: ../../src/dskGameLoader.cpp:132
+#: desktops/dskGameLoader.cpp:133
 msgid "Tribal chiefs assembled around the table..."
 msgstr "Os chefes tribais reunem-se à volta da mesa..."
 
-#: ../../src/dskSelectMap.cpp:100
+#: desktops/dskSelectMap.cpp:105
 msgid "Type"
 msgstr "Tipo"
 
-#: ../../src/AddonLimitCatapults.h:46 ../../src/AddonMaxWaterwayLength.h:54
+#: addons/AddonLimitCatapults.h:47 addons/AddonMaxWaterwayLength.h:55
 msgid "Unlimited"
 msgstr "Ilimitado"
 
-#. "Freies Spiel"
-#: ../../src/dskSinglePlayer.cpp:77 ../../src/dskSinglePlayer.cpp:182
-#: ../../src/dskSinglePlayer.cpp:194
+#: desktops/dskSinglePlayer.cpp:80 desktops/dskSinglePlayer.cpp:188
+#: desktops/dskSinglePlayer.cpp:201 main.cpp:289
 msgid "Unlimited Play"
 msgstr "Jogo Ilimitado"
 
-#. Hoch
-#: ../../src/iwBuildOrder.cpp:57
+#: ingameWindows/iwBuildOrder.cpp:56 ingameWindows/iwTransport.cpp:92
 msgid "Up"
 msgstr "Cima"
 
-#: ../../src/iwAction.cpp:367
+#: ingameWindows/iwAction.cpp:364
 msgid "Upgrade to donkey road"
 msgstr "Melhorar estafeta"
 
-#: ../../src/iwMusicPlayer.cpp:85
+#: ingameWindows/iwMusicPlayer.cpp:89
 msgid "Upwards"
 msgstr "Para Cima"
 
-#: ../../src/Addons.cpp:168
+#: addons/Addons.cpp:168
 msgid "Use"
 msgstr "Usar"
 
-#. IPv4/6
-#: ../../src/dskOptions.cpp:126
+#: desktops/dskOptions.cpp:126 ingameWindows/iwDirectIPConnect.cpp:67
+#: ingameWindows/iwDirectIPCreate.cpp:68 ingameWindows/iwLobbyConnect.cpp:77
 msgid "Use IPv6:"
 msgstr "IPv4/6"
 
-#: ../../src/iwAddons.cpp:54
+#: ingameWindows/iwAddons.cpp:54
 msgid "Use S2 Defaults"
 msgstr "Usar Definição S2"
 
-#. Benutzername
-#: ../../src/iwLobbyConnect.cpp:53
+#: desktops/dskOptions.cpp:170
+msgid "Use UPnP"
+msgstr ""
+
+#: ingameWindows/iwLobbyConnect.cpp:53
 msgid "Username:"
 msgstr "Nome de utilizador:"
 
-#: ../../src/iwStatistics.cpp:123 ../../src/iwStatistics.cpp:239
+#: ingameWindows/iwStatistics.cpp:126 ingameWindows/iwStatistics.cpp:242
 msgid "Vanquished enemies"
 msgstr "Inimigos Eliminados"
 
-#: ../../src/dskLobby.cpp:77 ../../src/dskLobby.cpp:79
+#: desktops/dskLobby.cpp:78 desktops/dskLobby.cpp:80
 msgid "Version"
 msgstr "Versão"
 
-#: ../../src/iwLobbyServerInfo.cpp:81
+#: ingameWindows/iwLobbyServerInfo.cpp:81
 msgid "Version:"
 msgstr "Versão:"
 
-#. "VBO"
-#: ../../src/dskOptions.cpp:190
+#: desktops/dskOptions.cpp:198
 msgid "Vertex Buffer Objects:"
 msgstr "VBO"
 
-#: ../../src/dskHostGame.cpp:126
+#: desktops/dskHostGame.cpp:129
 msgid "Very Low"
 msgstr "Muito Baixo"
 
-#. Schnell
-#: ../../src/dskHostGame.cpp:156
+#: desktops/dskHostGame.cpp:159 addons/AddonShipSpeed.h:45
 msgid "Very fast"
 msgstr "Muito Rápido"
 
-#: ../../src/AddonMaxWaterwayLength.h:53
+#: addons/AddonMaxWaterwayLength.h:54
 msgid "Very long"
 msgstr "Ainda mais longe"
 
-#: ../../src/dskHostGame.cpp:152
+#: desktops/dskHostGame.cpp:155 addons/AddonShipSpeed.h:41
 msgid "Very slow"
 msgstr "Muito lento"
 
-#: ../../src/dskHostGame.cpp:109
+#: desktops/dskHostGame.cpp:112
 msgid "View Settings..."
 msgstr "Ver Opções...."
 
-#: ../../src/dskHostGame.cpp:823
-msgid "Vikings"
-msgstr "Vikings"
-
-#: ../../src/iwDirectIPConnect.cpp:282
+#: ingameWindows/iwDirectIPConnect.cpp:282
 msgid "Waiting for Playerinfo..."
 msgstr "Esperando informação do Jogador...."
 
-#: ../../src/iwDirectIPConnect.cpp:279 ../../src/iwLobbyConnect.cpp:332
+#: ingameWindows/iwDirectIPConnect.cpp:279
+#: ingameWindows/iwLobbyConnect.cpp:332
 msgid "Waiting for Reply..."
 msgstr "Esperando resposta..."
 
-#: ../../src/iwTrade.cpp:94
+#: ingameWindows/iwTrade.cpp:93
 msgid "Ware you like to trade"
 msgstr "Mercadoria desejada para trocar"
 
-#. Ware or figure?
-#: ../../src/iwTrade.cpp:74
+#: ingameWindows/iwTrade.cpp:73
 msgid "Wares"
 msgstr "Mercadorias"
 
-#: ../../src/GameClientGF_Replay.cpp:81
+#: GameClientGF_Replay.cpp:83
 #, c-format
 msgid "Warning: The played replay is not in sync with the original match. (GF: %u)"
 msgstr "Perigo: O replay que está a correr não está em sincronia com o jogo original. (GF %u)"
 
-#: ../../src/dskSelectMap.cpp:423
+#: desktops/dskSelectMap.cpp:429
 msgid "Wasteland"
 msgstr "Terreno Perdido"
 
-#: ../../src/GameConsts.h:284
+#: gameTypes/BuildingTypes.h:134
 msgid "Watchtower"
 msgstr "Torre de Vigia Militar"
 
-#. Wasserbüffel äh -gruppe ;-)
-#: ../../src/iwDistribution.cpp:149
+#: ingameWindows/iwDistribution.cpp:148
+#: ingameWindows/iwMerchandiseStatistics.cpp:75
+#: ingameWindows/iwTransport.cpp:69 gameTypes/GoodTypes.h:82
+#: gameTypes/GoodTypes.h:83
 msgid "Water"
 msgstr "Água"
 
-#: ../../src/nofAttacker.cpp:654
+#: figures/nofAttacker.cpp:650
 msgid "We are under attack!"
 msgstr "Estamos a ser atacados!"
 
-#: ../../src/dskCredits.cpp:215
+#: desktops/dskCredits.cpp:226
 msgid "We hope you enjoy playing Return To The Roots!"
 msgstr "Esperamos que goste de jogar De Volta Às Origens!"
 
-#: ../../src/iwAction.cpp:399
+#: ingameWindows/iwAction.cpp:396
 msgid "Weak attackers"
 msgstr "Atacantes fracos"
 
-#. pitch: 4, 4
-#: ../../src/iwMilitary.cpp:51
+#: ingameWindows/iwMilitary.cpp:50
 msgid "Weak defense"
 msgstr "Defesa fraca"
 
-#: ../../src/iwMerchandiseStatistics.cpp:85
+#: ingameWindows/iwMerchandiseStatistics.cpp:85
+#: ingameWindows/iwTransport.cpp:60
 msgid "Weapons"
 msgstr "Armas"
 
-#: ../../src/dskCredits.cpp:84 ../../src/dskCredits.cpp:104
-#: ../../src/dskCredits.cpp:113
+#: desktops/dskCredits.cpp:86 desktops/dskCredits.cpp:106
+#: desktops/dskCredits.cpp:115
 msgid "Website Administration"
 msgstr "Administração do Site"
 
-#: ../../src/dskCredits.cpp:85 ../../src/dskCredits.cpp:105
+#: desktops/dskCredits.cpp:87 desktops/dskCredits.cpp:107
 msgid "Website Programming"
 msgstr "Desenvolvimento do Site"
 
-#: ../../src/GameConsts.h:315
+#: gameTypes/BuildingTypes.h:165
 msgid "Well"
 msgstr "Poço"
 
-#: ../../src/dskOptions.cpp:183
+#: desktops/dskOptions.cpp:191 ingameWindows/iwSettings.cpp:65
 msgid "Windowed"
 msgstr "Em Janela"
 
-#: ../../src/dskSelectMap.cpp:424
+#: desktops/dskSelectMap.cpp:430
 msgid "Winter world"
 msgstr "Terreno Nórdico"
 
-#: ../../src/BuildingConsts.h:403
+#: gameData/BuildingConsts.cpp:175
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
 msgstr "Dentro da floresta, o florestador certifica-se da sobrevivencia da floresta. Ele planta todo o tipo de árvores."
 
-#: ../../src/iwLobbyRanking.cpp:81
+#: ingameWindows/iwLobbyRanking.cpp:81
 msgid "Won"
 msgstr "Ganho"
 
-#. Wood group
-#: ../../src/iwDistribution.cpp:126
+#: ingameWindows/iwDistribution.cpp:125
+#: ingameWindows/iwMerchandiseStatistics.cpp:71
+#: ingameWindows/iwTransport.cpp:68 gameTypes/GoodTypes.h:94
 msgid "Wood"
 msgstr "Madeira"
 
-#: ../../src/GameConsts.h:367
+#: gameTypes/JobTypes.h:66
 msgid "Woodchopper"
 msgstr "Lenhador"
 
-#: ../../src/GameConsts.h:297
+#: gameTypes/BuildingTypes.h:147
 msgid "Woodcutter"
 msgstr "Lenhador"
 
-#. TODO: richtige Messages senden, um das zu laden /*GetMap()->GenerateOpenGL();*/
-#: ../../src/dskGameLoader.cpp:169
+#: desktops/dskGameLoader.cpp:170
 msgid "World was put together and glued..."
 msgstr "As partes do mundo foram juntadas e coladas..."
 
-#: ../../src/iwDirectIPConnect.cpp:259
+#: ingameWindows/iwDirectIPConnect.cpp:259
 msgid "Wrong Password!"
 msgstr "Password Errada!"
 
-#: ../../src/iwDirectIPConnect.cpp:263
+#: ingameWindows/iwDirectIPConnect.cpp:263
 msgid "Wrong Server Type!"
 msgstr "Diferente Tipo de Servidor!"
 
-#: ../../src/iwDirectIPConnect.cpp:260
+#: ingameWindows/iwDirectIPConnect.cpp:260
 msgid "Wrong client version"
 msgstr "Versão de cliente errada"
 
-#. nein
-#: ../../src/iwLobbyConnect.cpp:73
+#: ingameWindows/iwLobbyConnect.cpp:73 ingameWindows/iwMsgbox.cpp:78
+#: ingameWindows/iwMsgbox.cpp:85
 msgid "Yes"
 msgstr "Sim"
 
-#: ../../src/iwMusicPlayer.cpp:190
+#: ingameWindows/iwMusicPlayer.cpp:194
 msgid "You are not allowed to delete the standard playlist!"
 msgstr "Não está premitido eliminar a lista pre-definida"
 
-#: ../../src/dskDirectIP.cpp:79
+#: desktops/dskDirectIP.cpp:80 desktops/dskLobby.cpp:165
 msgid ""
 "You can't create a game while a proxy server is active\n"
 "Disable the use of a proxy server first!"
@@ -3066,69 +3171,130 @@ msgstr ""
 "Não consegue criar um jogo se o servidor proxy está activo.\n"
 "Desligue o seu servidor proxy primeiro!"
 
-#: ../../src/dskHostGame.cpp:640
+#: desktops/dskLobby.cpp:149
+msgid "You can't join that game with your version!"
+msgstr ""
+
+#: desktops/dskHostGame.cpp:653
 msgid "You have 10 seconds until game starts"
 msgstr "Tem 10 segundos até o jogo começar"
 
-#: ../../src/dskOptions.cpp:590 ../../src/dskOptions.cpp:605
+#: desktops/dskOptions.cpp:604 desktops/dskOptions.cpp:619
 msgid "You need to restart your game to change the screen resolution!"
 msgstr "Precisa de reiniciar o jogo antes de mudar a resolução do ecran!"
 
-#: ../../src/dskOptions.cpp:613
+#: desktops/dskOptions.cpp:627
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "Você precisa de reiniciar o jogo para mudar as drivers de video ou de audio!"
 
-#: ../../src/AIPlayerJH.cpp:293
+#: ai/AIPlayerJH.cpp:304
 msgid "You win"
 msgstr "Você Venceu"
 
-#. text oben noch hinschreiben
-#: ../../src/GameClient.cpp:1742
+#: GameClientPlayer.cpp:1867
+msgid "Your ally wishes to notify you of this location"
+msgstr ""
+
+#: addons/AddonBurnDuration.h:38
+msgid ""
+"adjusts how long a building will burn for when it is destroyed.\n"
+"\n"
+"Possible values are:\n"
+"Default\n"
+"Reduced by 25%\n"
+"Reduced by 50%\n"
+"Reduced by 75%\n"
+"Reduced by 90%\n"
+"Increased by 50%\n"
+"Increased by 100%\n"
+msgstr ""
+
+#: GameClient.cpp:1931
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "GF Actual: %u - Ainda em modo rápido: %d Faltam (%d %%) GF"
 
-#. URL
-#: ../../src/dskDirectIP.cpp:56
+#: addons/AddonMoreAnimals.h:43
+#, fuzzy
+msgid "default"
+msgstr "Predefinição"
+
+#: addons/AddonSeaAttack.h:48
+msgid "enemy harbors block"
+msgstr ""
+
+#: addons/AddonSeaAttack.h:47
+msgid "enemy harbors don't block"
+msgstr ""
+
+#: desktops/dskDirectIP.cpp:57 desktops/dskLobby.cpp:64
+#: desktops/dskMainMenu.cpp:72 desktops/dskMultiPlayer.cpp:62
+#: desktops/dskSinglePlayer.cpp:69
 msgid "http://www.siedler25.org"
 msgstr "http://www.siedler25.org"
 
-#: ../../src/dskHostGame.cpp:294
+#: desktops/dskHostGame.cpp:304
 msgid "n/a"
 msgstr "n/d (não disponível)"
 
-#: ../../src/PostMsg.cpp:105
+#: addons/AddonSeaAttack.h:49
+#, fuzzy
+msgid "no sea attacks"
+msgstr "Mais atacantes"
+
+#: PostMsg.cpp:104
 msgid "non-aggression pact"
 msgstr "pacto de não-agressão"
 
-#. VBO unterstützt?
-#: ../../src/dskOptions.cpp:170 ../../src/dskOptions.cpp:194
+#: desktops/dskOptions.cpp:178 desktops/dskOptions.cpp:202
 msgid "not supported"
 msgstr "não suportada"
 
-#: ../../src/iwPostWindow.cpp:298
+#: ingameWindows/iwPostWindow.cpp:297
 msgid "of"
 msgstr "de"
 
-#. Text vor Editfeld
-#: ../../src/iwSkipGFs.cpp:47
+#: addons/AddonSeaAttack.h:43
+msgid ""
+"set restriction level for sea attacks\n"
+"\n"
+msgstr ""
+
+#: ingameWindows/iwSkipGFs.cpp:47
 msgid "to GameFrame:"
 msgstr "para Frame de Jogo (GF):"
 
-#: ../../src/PostMsg.cpp:104
+#: PostMsg.cpp:103
 msgid "treaty of alliance"
 msgstr "tratado de aliança"
 
-#: ../../src/dskCredits.cpp:192
+#: desktops/dskCredits.cpp:203
 msgid "various anonymous donators"
 msgstr "vários doadores anónimos"
 
-#. Copyright
-#: ../../src/dskDirectIP.cpp:59
-msgid "© 2005 - 2011 Settlers Freaks"
+#: desktops/dskDirectIP.cpp:60
+#, fuzzy, c-format
+msgid "© 2005 - %s Settlers Freaks"
 msgstr "© 2005 - 2011 Settlers Freaks"
 
-#. Copyright
-#: ../../src/dskMainMenu.cpp:73
-msgid "© 2005 - 2012 Settlers Freaks"
-msgstr ""
+#: desktops/dskLobby.cpp:66 desktops/dskMainMenu.cpp:74
+#: desktops/dskMultiPlayer.cpp:64 desktops/dskSinglePlayer.cpp:71
+#: ingameWindows/iwOptionsWindow.cpp:71
+#, fuzzy, c-format
+msgid "Â© 2005 - %s Settlers Freaks"
+msgstr "© 2005 - 2011 Settlers Freaks"
+
+#~ msgid "Africans"
+#~ msgstr "Africanos"
+
+#~ msgid "And I may crash your game sometimes..."
+#~ msgstr "E eu posso bloquear o jogo algumas vezes...."
+
+#~ msgid "Japaneses"
+#~ msgstr "Japoneses"
+
+#~ msgid "Romans"
+#~ msgstr "Romanos"
+
+#~ msgid "Vikings"
+#~ msgstr "Vikings"
