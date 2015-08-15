@@ -1,3 +1,7 @@
 # Return To The Roots
 
-Language Files for s25client
+Language files for s25client
+
+## Updating/Changing them
+
+Use poedit (https://poedit.net) to edit .po files
