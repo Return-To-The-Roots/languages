@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: Siedler II.5 RttR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-06 11:51+0200\n"
-"PO-Revision-Date: 2016-03-31 09:31+0000\n"
-"Last-Translator: Alex Grund <a.grund@hzdr.de>\n"
+"PO-Revision-Date: 2016-04-06 14:16+0200\n"
+"Last-Translator: Flamefire\n"
 "Language-Team: Siedler II.5 RttR <sf-team@siedler25.org>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2016-04-06 10:57+0000\n"
-"X-Generator: Launchpad (build 17972)\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -95,13 +95,12 @@ msgid "+100%"
 msgstr "+100%"
 
 #: addons/AddonMoreAnimals.h:46
-#, fuzzy
 msgid "+1000%"
-msgstr "+100%"
+msgstr "+1000%"
 
 #: addons/AddonMoreAnimals.h:44
 msgid "+200%"
-msgstr ""
+msgstr "+200%"
 
 #: addons/AddonBurnDuration.h:45 addons/AddonMoreAnimals.h:42
 msgid "+50%"
@@ -109,7 +108,7 @@ msgstr "+50%"
 
 #: addons/AddonMoreAnimals.h:45
 msgid "+500%"
-msgstr ""
+msgstr "+500%"
 
 #: desktops/dskHostGame.cpp:204 desktops/dskHostGame.cpp:320
 #: desktops/dskHostGame.cpp:329
@@ -310,18 +309,19 @@ msgstr "Erweiterungen:"
 
 #: addons/AddonMilitaryAid.h:39
 msgid "Adds military building indicators in construction aid mode."
-msgstr ""
+msgstr "Fügt Militärgebäude-Icons im Bauhilfe-Modus hinzu"
 
 #: addons/AddonCatapultGraphics.h:39
-#, fuzzy
 msgid "Adds new race-specific graphics for catapults to the game."
-msgstr "Fügt neue Katapultgrafiken in das Spiel ein"
+msgstr "Fügt volkspezifische Katapultgrafiken in das Spiel ein"
 
 #: addons/AddonMilitaryControl.h:38
 msgid ""
 "Adds the 'send home' button to military buildings.\n"
 "Pressing this button will send all soldiers of the highest available rank to a warehouse (at least 1 Soldier will remain in the building)"
 msgstr ""
+"Fügt einen \"Schicke zurück\" Button zu Militärgebäuden hinzu\n"
+"Dieser schickt alle Soldaten mit dem höchstmöglichen Rang zum Warenhaus (min. 1 Soldat bleibt im Gebäude)"
 
 #: addons/AddonAdjustMilitaryStrength.h:48
 msgid "Adjust military strength"
@@ -329,12 +329,11 @@ msgstr "Stärke des Militärs anpassen"
 
 #: addons/AddonMoreAnimals.h:37
 msgid "Adjust the fraction of trees that spawn animals."
-msgstr ""
+msgstr "Verändert den Teil der Bäume, die Tiere spawnen"
 
 #: addons/AddonBurnDuration.h:36
-#, fuzzy
 msgid "Adjusts how long a building will burn for when it is destroyed"
-msgstr "Erlaubt es Rohstoffe zurück zu bekommen wenn Gebäude abgerissen werden."
+msgstr "Legt fest, wie lange zerstörte Gebäude brennen"
 
 #: ingameWindows/iwOptionsWindow.cpp:100
 msgid "Advanced"
@@ -354,19 +353,15 @@ msgstr "Alle"
 
 #: addons/AddonNoAlliedPush.h:20
 msgid "Allied players can no longer push your borders back with new buildings."
-msgstr ""
+msgstr "Verbündete können deine Grenzen nicht mit Gebäuden verkleinern."
 
 #: ingameWindows/iwChat.cpp:50 addons/AddonStatisticsVisibility.h:43
 msgid "Allies"
 msgstr "Verbündete"
 
 #: addons/AddonCustomBuildSequence.h:37
-#, fuzzy
 msgid "Allows every player to control whether building sites should be supplied in sequence of given order or in a definable sequence based on the building type."
-msgstr ""
-"Erlaubt jedem Spieler selbst zu entscheiden,\n"
-"ob die Gebäude in Reihenfolge der Aufträge\n"
-"oder nach Prioritätsliste gebaut werden."
+msgstr "Erlaubt jedem Spieler zu entscheiden, ob die Gebäude in Reihenfolge der Aufträge oder nach Prioritätsliste gebaut werden."
 
 #: addons/AddonCharburner.h:36
 msgid "Allows to build the charburner."
@@ -382,7 +377,7 @@ msgstr "Erlaubt es, Waren/Figuren an verbündete Lagerhäuser zu senden"
 
 #: ingameWindows/iwMapDebug.cpp:88
 msgid "Altitude"
-msgstr ""
+msgstr "Höhe"
 
 #: SerializedGameData.cpp:262
 msgid "An error occured while saving which was suppressed!"
@@ -397,18 +392,16 @@ msgid "Apply Changes"
 msgstr "Änderungen übernehmen"
 
 #: ingameWindows/iwPlayReplay.cpp:155
-#, fuzzy
 msgid "Are you sure to remove all invalid replays?"
-msgstr "Sind Sie sicher, dass Sie alle Replays löschen möchten?"
+msgstr "Sind Sie sicher, dass Sie alle ungültigen Replays löschen möchten?"
 
 #: ingameWindows/iwPlayReplay.cpp:142
 msgid "Are you sure to remove all replays?"
 msgstr "Sind Sie sicher, dass Sie alle Replays löschen möchten?"
 
 #: ingameWindows/iwPlayReplay.cpp:148
-#, fuzzy
 msgid "Are you sure you want to remove the selected replay?"
-msgstr "Sind Sie sicher, dass Sie alle Replays löschen möchten?"
+msgstr "Sind Sie sicher, dass Sie das ausgewählte Replay löschen möchten?"
 
 #: gameData/JobConsts.cpp:45
 msgid "Armorer"
@@ -461,7 +454,7 @@ msgstr "Axt"
 
 #: gameData/NationConsts.h:43
 msgid "Babylonians"
-msgstr ""
+msgstr "Babylonier"
 
 #: desktops/dskAboutRTTR.cpp:48 desktops/dskCredits.cpp:64
 #: desktops/dskDirectIP.cpp:59 desktops/dskIntro.cpp:48 desktops/dskLAN.cpp:62
@@ -606,24 +599,22 @@ msgid "Change metalworks behavior on zero"
 msgstr "Ändere das Verhalten des Schlossers bei Null"
 
 #: addons/AddonDefenderBehavior.h:38
-#, fuzzy
 msgid ""
 "Change the military setting 'defender'.\n"
 "\n"
 "You can choose to disallow any changes to that setting or you can limit the amount of reoccupying troops (during an attack) according to the defender setting."
 msgstr ""
-"Hiermit kann das Verteidigungsverhalten\n"
-"deiner Soldaten bestimmt werden.\n"
+"Verteidigungsverhalten der Soldaten ändern.\n"
 "\n"
-"So kann zwischen dem \"Verbot jeglicher Änderung\"\n"
-"oder einer \"Reduzierung der Trupperstärke\" zur\n"
-"Rückeroberung im Angriffsfall gewählt werden"
+"So kann zwischen dem \"Verbot jeglicher Änderung\" oder einer \"Reduzierung der Trupperstärke\" zur Rückeroberung im Angriffsfall gewählt werden"
 
 #: addons/AddonNumScoutsExploration.h:37
 msgid ""
 "Change the required number of scouts for an exploration via ship\n"
 "Note: Setting this to low might make some maps imbalanced!"
 msgstr ""
+"Ändert die Anzahl der benötigten Erkunder für eine Schiffs-Erkundung\n"
+"Hinweis: Eine zu niedrige Einstellung kann einige Maps unausgeglichen machen."
 
 #: addons/AddonStatisticsVisibility.h:36
 msgid "Change the visibility of your ingame statistics"
@@ -641,7 +632,7 @@ msgstr ""
 
 #: addons/AddonShipSpeed.h:37
 msgid "Changes the ship movement speed"
-msgstr ""
+msgstr "Ändert die Schiffsgeschwindigkeit"
 
 #: gameData/JobConsts.cpp:58 ingameWindows/iwDistribution.cpp:94
 #: ingameWindows/iwDistribution.cpp:127 gameTypes/BuildingTypes.h:145
@@ -787,7 +778,7 @@ msgstr "In Eisen umwandeln"
 #: Loader.cpp:1199
 #, c-format
 msgid "Could not determine type of path %s\n"
-msgstr ""
+msgstr "Konnte Typ des Pfades \"%s\" nicht ermitteln\n"
 
 #: desktops/dskDirectIP.cpp:55 ingameWindows/iwDirectIPCreate.cpp:43
 msgid "Create Game"
@@ -811,12 +802,10 @@ msgid "Custom build sequence"
 msgstr "Eigene Baureihenfolge"
 
 #: addons/AddonInexhaustibleFish.h:21
-#, fuzzy
 msgid "Deactivates reduction of fish population."
-msgstr "Deaktiviert das Verbrauchen der Fisch-Population.\n"
+msgstr "Deaktiviert das Verbrauchen der Fisch-Population."
 
 #: addons/AddonStatisticsVisibility.h:37
-#, fuzzy
 msgid ""
 "Decides to whom your statistics are visible.\n"
 "\n"
@@ -838,18 +827,17 @@ msgid "Default"
 msgstr "Standard"
 
 #: ingameWindows/iwPlayReplay.cpp:128
-#, fuzzy, c-format
+#, c-format
 msgid "Delete Invalid (%u)"
-msgstr "Alle löschen"
+msgstr "Ungültige (%u) löschen"
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:90
 msgid "Delete all"
 msgstr "Alle löschen"
 
 #: ingameWindows/iwPlayReplay.cpp:56 ingameWindows/iwPlayReplay.cpp:148
-#, fuzzy
 msgid "Delete selected"
-msgstr "Alle löschen"
+msgstr "Ausgewählte löschen"
 
 #: ingameWindows/iwAction.cpp:276 ingameWindows/iwBaseWarehouse.cpp:89
 #: ingameWindows/iwBuilding.cpp:80
@@ -897,7 +885,6 @@ msgid "Disable coins by default"
 msgstr "Standardmäßig keine Münzannahme"
 
 #: addons/AddonDemolitionProhibition.h:37
-#, fuzzy
 msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr "Verhindert die Zerstörung militärischer Gebäude während eines Angriffs."
 
@@ -914,9 +901,8 @@ msgid "Display options"
 msgstr "Darstellungsmodus"
 
 #: addons/AddonMilitaryHitpoints.h:36
-#, fuzzy
 msgid "Display the hitpoints of units in military buildings."
-msgstr "Verhindert die Zerstörung militärischer Gebäude"
+msgstr "Zeige die Lebenspunkte von Einheiten in Militärgebäuden"
 
 #: ingameWindows/iwDistribution.cpp:52 ingameWindows/iwMainMenu.cpp:60
 msgid "Distribution of goods"
@@ -931,6 +917,8 @@ msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
 msgstr ""
+"Bewege Cursor nicht automatisch\n"
+"Nützlich z.B. für Splitscreen / Dual-Maus Multiplayer (s. Wiki)"
 
 #: ingameWindows/iwSurrender.cpp:43
 msgid "Don't surrender"
@@ -1025,11 +1013,11 @@ msgstr "Feinde"
 
 #: addons/AddonSeaAttack.h:48
 msgid "Enemy harbors block"
-msgstr ""
+msgstr "Gegnerische Häfen blockieren"
 
 #: addons/AddonSeaAttack.h:47
 msgid "Enemy harbors don't block"
-msgstr ""
+msgstr "Gegnerische Häfen blockieren nicht"
 
 #: ingameWindows/iwAction.cpp:250 ingameWindows/iwAction.cpp:284
 #: ingameWindows/iwAction.cpp:294 ingameWindows/iwRoadWindow.cpp:48
@@ -1058,9 +1046,8 @@ msgid "Error while playing replay!"
 msgstr "Fehler bei Replaywiedergabe"
 
 #: Loader.cpp:1390
-#, fuzzy
 msgid "Error while replacing a BOB file\n"
-msgstr "Es trat ein Fehler beim Öffnen der Datei auf!"
+msgstr "Fehler beim Öffnen einer BOB Datei\n"
 
 #: QuickStartGame.cpp:62 ingameWindows/iwPlayReplay.cpp:182
 msgid "Error: Replay is too old!"
@@ -1091,9 +1078,9 @@ msgid "Exploration:"
 msgstr "Aufklärung:"
 
 #: Loader.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to load %s\n"
-msgstr "Kartenobjekte konnten nicht geladen werden."
+msgstr "Konnte %s nicht laden\n"
 
 #: desktops/dskGameLoader.cpp:141
 msgid "Failed to load addon objects."
@@ -1120,9 +1107,8 @@ msgid "Fast"
 msgstr "Schnell"
 
 #: addons/AddonNumScoutsExploration.h:42
-#, fuzzy
 msgid "Fewer"
-msgstr "Brauer"
+msgstr "Weniger"
 
 #: ingameWindows/iwMilitary.cpp:43
 msgid "Fewer defenders"
@@ -1135,7 +1121,7 @@ msgstr "Weniger Rekruten"
 #: Loader.cpp:128 Loader.cpp:1192
 #, c-format
 msgid "File or directory does not exist: %s\n"
-msgstr ""
+msgstr "Datei oder Ordner nicht gefunden: %s\n"
 
 #: ingameWindows/iwPlayReplay.cpp:52 ingameWindows/iwSave.cpp:63
 msgid "Filename"
@@ -1267,16 +1253,12 @@ msgid "Get all back"
 msgstr "Erstatte 100%"
 
 #: addons/AddonRefundOnEmergency.h:38
-#, fuzzy
 msgid "Get building materials back when a building is destroyed and your emergency program is active."
-msgstr ""
-"Erlaubt die Rückerstattung von Baumaterialien, wenn ein Gebäude\n"
-"abgerissen wird während das Notfallprogramm aktiv ist."
+msgstr "Erstatte Baumaterialien, wenn ein Gebäude abgerissen wird und das Notfallprogramm aktiv ist."
 
 #: addons/AddonRefundMaterials.h:37
-#, fuzzy
 msgid "Get building materials back when a building is destroyed."
-msgstr "Erlaubt es Rohstoffe zurück zu bekommen wenn Gebäude abgerissen werden."
+msgstr "Erstatte Rohstoffe zurück wenn Gebäude abgerissen werden."
 
 #: ingameWindows/iwAction.cpp:335
 msgid "Go to headquarters"
@@ -1331,12 +1313,8 @@ msgid "Granite mine"
 msgstr "Granitbergwerk"
 
 #: addons/AddonInexhaustibleGraniteMines.h:21
-#, fuzzy
 msgid "Granite mines will never be depleted."
-msgstr ""
-"Erlaubt unbegrenzte Rohstoffe.\n"
-"\n"
-"Minen sind niemals erschöpft."
+msgstr "Granitminen werden nie erschöpfen."
 
 #: desktops/dskOptions.cpp:85
 msgid "Graphics"
@@ -1429,7 +1407,7 @@ msgstr "IPv6"
 
 #: addons/AddonNoAlliedPush.h:19
 msgid "Improved Alliance"
-msgstr ""
+msgstr "Verbesserte Allianz"
 
 #: desktops/dskSelectMap.cpp:345
 msgid "Incomplete message was received!"
@@ -1511,7 +1489,6 @@ msgid "It is possible to build small rowing boats as well as huge cargo ships in
 msgstr "Der Bau kleiner Ruderboote sowie riesiger Transportschiffe ist nur in einer Werft möglich. Die dazu benötigten Bretter werden mit handwerklichem Geschick vom Schiffbauer verarbeitet."
 
 #: gameData/NationConsts.h:40
-#, fuzzy
 msgid "Japanese"
 msgstr "Japaner"
 
@@ -1567,13 +1544,12 @@ msgid "Limit Framerate:"
 msgstr "Begrenze Framerate:"
 
 #: addons/AddonLimitCatapults.h:36
-#, fuzzy
 msgid "Limit number of catapults"
 msgstr "Begrenze die Anzahl der Katapulte"
 
 #: addons/AddonMaxRank.h:47
 msgid "Limit the rank for soldiers"
-msgstr ""
+msgstr "Limitiere den Rang der Soldaten"
 
 #: addons/AddonMaxWaterwayLength.h:37
 msgid ""
@@ -1607,6 +1583,13 @@ msgid ""
 "Watchtower: 2\n"
 "Fortress: 1"
 msgstr ""
+"Limitiert die Anzahl der Katapulte pro Spieler.\n"
+"\n"
+"Proportional benutzt folgende Verhältnisse von Militärgebäuden zu Katapulten:\n"
+"Baracke: 8\n"
+"Wachstube: 4\n"
+"Wachturm: 2\n"
+"Festung: 1"
 
 #: ingameWindows/iwOptionsWindow.cpp:70
 msgid "Load 'ReadMe' file"
@@ -1627,17 +1610,17 @@ msgstr "Spiel laden..."
 #: Loader.cpp:287 Loader.cpp:1161
 #, c-format
 msgid "Loading \"%s\": "
-msgstr ""
+msgstr "Lade \"%s\":"
 
 #: Loader.cpp:137
 #, c-format
 msgid "Loading LST,BOB,IDX,BMP,TXT,GER,ENG,INI files from \"%s\"\n"
-msgstr ""
+msgstr "Lade LST,BOB,IDX,BMP,TXT,GER,ENG,INI Dateien aus \"%s\"\n"
 
 #: Loader.cpp:1203
 #, c-format
 msgid "Loading directory %s\n"
-msgstr ""
+msgstr "Lade Ordner %s\n"
 
 #: desktops/dskHostGame.cpp:112
 msgid "Lock teams:"
@@ -1693,11 +1676,8 @@ msgid "Manual road enlargement"
 msgstr "Manueller Straßenausbau"
 
 #: addons/AddonManualRoadEnlargement.h:37
-#, fuzzy
 msgid "Manually upgrade your roads and directly build donkey roads."
-msgstr ""
-"Ermöglicht das manuelle Aufwerten der Straßen\n"
-"und das direkte Bauen von Eselstraßen."
+msgstr "Ermöglicht das manuelle Aufwerten der Straßen und das direkte Bauen von Eselstraßen."
 
 #: desktops/dskGameInterface.cpp:97 desktops/dskLAN.cpp:65
 #: desktops/dskLobby.cpp:76 ingameWindows/iwSave.cpp:63
@@ -1705,9 +1685,8 @@ msgid "Map"
 msgstr "Karte"
 
 #: ingameWindows/iwMapDebug.cpp:78
-#, fuzzy
 msgid "Map Debug"
-msgstr "KI Debug"
+msgstr "Karten-Debugging"
 
 #: ingameWindows/iwLobbyServerInfo.cpp:64
 msgid "Map Name:"
@@ -1730,9 +1709,8 @@ msgid "Mapping"
 msgstr "Kartengestaltung"
 
 #: addons/AddonNumScoutsExploration.h:45
-#, fuzzy
 msgid "Max"
-msgstr "Karte"
+msgstr "Max"
 
 #: addons/AddonAdjustMilitaryStrength.h:52
 msgid "Maximum strength"
@@ -1783,16 +1761,15 @@ msgstr "Militär"
 
 #: addons/AddonMilitaryAid.h:38
 msgid "Military Aid"
-msgstr ""
+msgstr "Militärhilfe"
 
 #: addons/AddonMilitaryControl.h:37
 msgid "Military Control"
-msgstr ""
+msgstr "Militärskontrolle"
 
 #: addons/AddonMilitaryHitpoints.h:35
-#, fuzzy
 msgid "Military Hitpoints"
-msgstr "Militärmacht"
+msgstr "Soldaten Lebenspunkte"
 
 #: buildings/nobMilitary.cpp:1021
 msgid "Military building captured"
@@ -1823,16 +1800,12 @@ msgid "Miner"
 msgstr "Bergarbeiter"
 
 #: addons/AddonInexhaustibleMines.h:37
-#, fuzzy
 msgid "Mines will never be depleted."
-msgstr ""
-"Erlaubt unbegrenzte Rohstoffe.\n"
-"\n"
-"Minen sind niemals erschöpft."
+msgstr "Minen sind niemals erschöpft."
 
 #: addons/AddonNumScoutsExploration.h:41
 msgid "Minimal"
-msgstr ""
+msgstr "Minimal"
 
 #: addons/AddonAdjustMilitaryStrength.h:54
 msgid "Minimum strength"
@@ -1851,11 +1824,8 @@ msgid "Mode:"
 msgstr "Darstellung:"
 
 #: addons/AddonAdjustMilitaryStrength.h:49
-#, fuzzy
 msgid "Modify the strength increase of military ranks"
-msgstr ""
-"Erlaubt, die Stärke der einzelnen militärischen Ränge anzupassen.\n"
-"\n"
+msgstr "Passe die Stärke der einzelnen militärischen Ränge an"
 
 #: controls/ctrlProgress.cpp:73 ingameWindows/iwHQ.cpp:60
 #: addons/AddonNumScoutsExploration.h:44
@@ -1889,7 +1859,7 @@ msgstr "Mehr Wiederholungen"
 
 #: addons/AddonMoreAnimals.h:36
 msgid "More trees spawn animals"
-msgstr ""
+msgstr "Mehr Bäume erzeugen Tiere"
 
 #: desktops/dskMainMenu.cpp:70
 msgid "Multiplayer"
@@ -1975,9 +1945,8 @@ msgid "No refund"
 msgstr "Keine Erstattung"
 
 #: addons/AddonSeaAttack.h:49
-#, fuzzy
 msgid "No sea attacks"
-msgstr "Mehr Angreifer"
+msgstr "Keine Seeangriffe"
 
 #: ingameWindows/iwShip.cpp:94
 msgid "No ships available"
@@ -2015,7 +1984,7 @@ msgstr "Achtung: Spiel Optionen vom Server %s geändert."
 
 #: ingameWindows/iwMapDebug.cpp:86
 msgid "Nothing"
-msgstr ""
+msgstr "Nichts"
 
 #: GameClientGF_Replay.cpp:114
 #, c-format
@@ -2036,9 +2005,8 @@ msgid "Number of attackers"
 msgstr "Anzahl der Angreifer"
 
 #: addons/AddonNumScoutsExploration.h:36
-#, fuzzy
 msgid "Number of scouts required for exploration expedition"
-msgstr "Starte Erkundungsmission"
+msgstr "Anzahl der Erkunder für Erkundungs-Expedition"
 
 #: ingameWindows/iwMsgbox.cpp:55 ingameWindows/iwMsgbox.cpp:61
 #: ingameWindows/iwMusicPlayer.cpp:49 ingameWindows/iwSkipGFs.cpp:48
@@ -2153,7 +2121,7 @@ msgstr "Ping"
 
 #: desktops/dskOptions.cpp:181
 msgid "Place cursor on default button for new dialogs / action windows (default)"
-msgstr ""
+msgstr "Setze Cursor auf Standard Button bei neuen Dialogen / Aktionsfenster (Standard)"
 
 #: gameData/JobConsts.cpp:47
 msgid "Planer"
@@ -2346,11 +2314,8 @@ msgid "Ready?"
 msgstr "Bereit?"
 
 #: addons/AddonNoCoinsDefault.h:21
-#, fuzzy
 msgid "Receiving coins is disabled for military buildings by default."
-msgstr ""
-"Münzannahme ist standardmäßig\\n\n"
-"bei militärischen Gebäuden deaktiviert"
+msgstr "Münzannahme ist standardmäßig bei militärischen Gebäuden deaktiviert"
 
 #: addons/AddonDefenderBehavior.h:47
 msgid "Reduce reoccupying troops accordingly"
@@ -2369,12 +2334,10 @@ msgid "Refund 75%"
 msgstr "Erstatte 75%"
 
 #: addons/AddonRefundMaterials.h:36
-#, fuzzy
 msgid "Refund materials for destroyed buildings"
 msgstr "Erstatte Rohstoffe wenn ein Gebäude abgerissen wird"
 
 #: addons/AddonRefundOnEmergency.h:37
-#, fuzzy
 msgid "Refund materials in emergency program"
 msgstr "Erstatte Ressourcen zurück, wenn das Notfallprogramm aktiv ist"
 
@@ -2400,30 +2363,29 @@ msgstr "Titel entfernen"
 
 #: ingameWindows/iwPlayReplay.cpp:55
 msgid "Removes all replays that cannot be loaded with the current game version"
-msgstr ""
+msgstr "Entfernt alle Replays, die nicht mit dieser Spielversion geladen werden können"
 
 #: Loader.cpp:1378
 #, c-format
 msgid "Replacing entries of previously loaded file '%s'\n"
-msgstr ""
+msgstr "Ersetze Eintrage der zuvor geladenen Datei '%s'\n"
 
 #: Loader.cpp:1403
 #, c-format
 msgid "Replacing entry %d with %s\n"
-msgstr ""
+msgstr "Ersetze Eintrag %d mit %s\n"
 
 #: ingameWindows/iwHQ.cpp:46
 msgid "Reserve"
 msgstr "Reserve"
 
 #: ingameWindows/iwMapDebug.cpp:87
-#, fuzzy
 msgid "Reserved"
-msgstr "Reserve"
+msgstr "Reserviert"
 
 #: ingameWindows/iwMapDebug.cpp:89
 msgid "Resources"
-msgstr ""
+msgstr "Ressourcen"
 
 #: desktops/dskSinglePlayer.cpp:69
 msgid "Resume last game"
@@ -2511,7 +2473,7 @@ msgstr "Meer"
 
 #: ingameWindows/iwMapDebug.cpp:90
 msgid "Sea Id"
-msgstr ""
+msgstr "Meeres ID"
 
 #: addons/AddonSeaAttack.h:42
 msgid "Sea attack settings"
@@ -2584,11 +2546,11 @@ msgstr "Maximale Länge von Wasserwegen"
 
 #: addons/AddonSeaAttack.h:43
 msgid "Set restriction level for sea attacks"
-msgstr ""
+msgstr "Setze Beschränkung für Seeangriffe"
 
 #: addons/AddonShipSpeed.h:36
 msgid "Set ship speed"
-msgstr ""
+msgstr "Schiffsgeschwindigkeit"
 
 #: ingameWindows/iwSettings.cpp:44
 msgid "Settings"
@@ -2636,7 +2598,7 @@ msgstr "Schaufel"
 
 #: ingameWindows/iwMapDebug.cpp:83
 msgid "Show coordinates"
-msgstr ""
+msgstr "Zeige Koordinaten"
 
 #: desktops/dskMainMenu.cpp:68
 msgid "Singleplayer"
@@ -2658,7 +2620,7 @@ msgstr "GameFrames überspringen"
 #: Loader.cpp:1256
 #, c-format
 msgid "Skipping %s\n"
-msgstr ""
+msgstr "Überspringe %s\n"
 
 #: gameTypes/BuildingTypes.h:139
 msgid "Slaughterhouse"
@@ -2670,15 +2632,11 @@ msgstr "Langsam"
 
 #: desktops/dskOptions.cpp:176
 msgid "Smart Cursor"
-msgstr ""
+msgstr "Smart Cursor"
 
 #: addons/AddonHalfCostMilEquip.h:36
-#, fuzzy
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
-msgstr ""
-"Erlaubt dem Schmied ein Schield und Schwert\n"
-"\n"
-"für nur ein Eisen und eine Kohle statt zwei Eisen und zwei Kohle zu erstellen"
+msgstr "Schmied kann 1 Schield und Schwert für nur 1 Eisen und 1 Kohle statt 2 Eisen und 2 Kohle herstellen"
 
 #: desktops/dskOptions.cpp:147
 msgid "Socks v4"
@@ -2739,7 +2697,7 @@ msgstr "Spiel starten"
 
 #: Loader.cpp:264
 msgid "Starting Sound-Converter ..."
-msgstr ""
+msgstr "Starte Sound-Converter..."
 
 #: desktops/dskHostGame.cpp:672
 msgid "Starting game, please wait"
@@ -2909,7 +2867,7 @@ msgstr "Im Sägewerk werden die vom Holzfäller gelieferten Stämme zu maßgefer
 
 #: gameData/BuildingConsts.cpp:227
 msgid "The charburner stacks up piles of wood and straw which is then burned to create charcoal. This can be used just like the coal from the mine without any loss in quality."
-msgstr ""
+msgstr "Der Köhler stapelt Holz und Stroh auf einen Haufen, und verbrennt diesen zu Holzkohle. Diese kann genau wie die Kohle aus den Minen verwendet werden."
 
 #: gameData/BuildingConsts.cpp:211
 msgid "The countless tools which your workers need are made in the metalworks. This requires boards and iron."
@@ -2973,7 +2931,7 @@ msgid "The player '%s' offers you a %s."
 msgstr "Der Spieler '%s' bietet ihnen einen %s an."
 
 #: PostMsg.cpp:129
-#, fuzzy, c-format
+#, c-format
 msgid "The player '%s' want to cancel the '%s' between you both prematurely. Do you agree?"
 msgstr "%s möchte euren %s vor Ablauf beenden. Einverstanden?"
 
@@ -3023,9 +2981,8 @@ msgid "This mine is exhausted"
 msgstr "Dieses Bergwerk ist verbraucht"
 
 #: figures/nofBuildingWorker.cpp:413
-#, fuzzy
 msgid "This well has dried out"
-msgstr "Dieser Brunnen ist erschöpft!"
+msgstr "Dieser Brunnen ist erschöpft"
 
 #: ingameWindows/iwSave.cpp:63
 msgid "Time"
@@ -3254,7 +3211,7 @@ msgstr "Brunnen"
 
 #: addons/AddonExhaustibleWells.h:37
 msgid "Wells will now dry out, limiting the available water"
-msgstr ""
+msgstr "Brunnen können austrocknen, wodurch das verfügbare Wasser begrenzt wird."
 
 #: desktops/dskOptions.cpp:198 ingameWindows/iwSettings.cpp:54
 msgid "Windowed"
@@ -3293,7 +3250,7 @@ msgstr "Welt zusammengesteckt und verklebt..."
 #: Loader.cpp:388
 #, c-format
 msgid "Writing \"%s\": "
-msgstr ""
+msgstr "Schreibe \"%s\";"
 
 #: ingameWindows/iwDirectIPConnect.cpp:266
 msgid "Wrong Password!"
@@ -3317,21 +3274,16 @@ msgid "You are not allowed to delete the standard playlist!"
 msgstr "Sie dürfen die Standard-Playlist nicht löschen!"
 
 #: addons/AddonChangeGoldDeposits.h:38
-#, fuzzy
 msgid ""
 "You can remove gold resources completely or convert them into iron ore, coal or granite.\n"
 "\n"
 "You'll probably want to convert gold to iron ore, as this (on most maps)\n"
 "allows you to utilize the additional coal not needed for minting anymore."
 msgstr ""
-"Erlaubt Spiele ohne Gold.\n"
+"Du kannst Goldadern vollständig entfernen oder in Eisen, Kohle oder Granit umwandeln\n"
 "\n"
-"Du kannst wählen ob Goldadern vollständig entfernt \n"
-"oder in Eisen, Kohle oder Granit umgewandelt werden.\n"
-"\n"
-"Es ist sinnvoll Gold durch Eisen zu ersetzen, da die \n"
-"überschüßige Kohle, auf den meisten Karten, dann \n"
-"für die Herstellung von Waffen verwendet werden kann."
+"Es ist sinnvoll Gold durch Eisen zu ersetzen, da die überschüssige Kohle, auf den meisten Karten,\n"
+"dann für die Herstellung von Waffen verwendet werden kann."
 
 #: desktops/dskDirectIP.cpp:73 desktops/dskLAN.cpp:100
 #: desktops/dskLobby.cpp:136
@@ -3378,20 +3330,20 @@ msgstr "Standard"
 #: Loader.cpp:1170
 #, c-format
 msgid "done in %ums\n"
-msgstr ""
+msgstr "fertig in %ums\n"
 
 #: Loader.cpp:290 Loader.cpp:1166
 msgid "failed\n"
-msgstr ""
+msgstr "fehlgeschlagen\n"
 
 #: Loader.cpp:293 Loader.cpp:397
 msgid "finished\n"
-msgstr ""
+msgstr "fertig\n"
 
 #: Loader.cpp:153
 #, c-format
 msgid "finished in %ums\n"
-msgstr ""
+msgstr "fertig in %ums\n"
 
 #: desktops/dskDirectIP.cpp:50 desktops/dskLAN.cpp:53 desktops/dskLobby.cpp:62
 #: desktops/dskMainMenu.cpp:63 desktops/dskMultiPlayer.cpp:56
