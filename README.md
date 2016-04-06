@@ -14,7 +14,9 @@ Language files for s25client
     - Click "Catalog"->"Update from POT file" (`rttr.pot`)
     - Check and fix auto-translations
     - Remove unused translations (Validate, that they are actually unused)
-    - Save and commit. (Note: Better do this after each step so changes are easier to see)
+    - Save
+    - Run `make -B translations` in the build directory to have gettext sort the translations. Alternatively run `msgmerge --sort-output --no-wrap --quiet --update --backup=none -s <abspath-to-file>.po <abspath-to-rttr.pot>rttr.pot` on every po-file
+    - commit
 - Create a pull request with the change
 
 ## Updating/Changing po files (Translations)
