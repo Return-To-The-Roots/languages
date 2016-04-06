@@ -6,10 +6,10 @@ msgstr ""
 "PO-Revision-Date: 2015-09-16 11:48+0200\n"
 "Last-Translator: Guillaume Arino <mrguigeek@gmail.com>\n"
 "Language-Team: Siedler II.5 RttR <sf-team@siedler25.org>\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_FR\n"
 "X-Launchpad-Export-Date: 2013-10-12 07:28+0000\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
@@ -616,7 +616,8 @@ msgstr "Campagne"
 msgid "Cancel"
 msgstr "Annuler"
 
-#: ingameWindows/iwHarborBuilding.cpp:90 ingameWindows/iwHarborBuilding.cpp:121
+#: ingameWindows/iwHarborBuilding.cpp:90
+#: ingameWindows/iwHarborBuilding.cpp:121
 msgid "Cancel expedition"
 msgstr "Annuler l'expédition"
 
@@ -753,11 +754,13 @@ msgstr "Connexion"
 msgid "Connecting to Lobby"
 msgstr "Connexion au salon"
 
-#: ingameWindows/iwDirectIPConnect.cpp:167 ingameWindows/iwLobbyConnect.cpp:207
+#: ingameWindows/iwDirectIPConnect.cpp:167
+#: ingameWindows/iwLobbyConnect.cpp:207
 msgid "Connecting with Host..."
 msgstr "Connexion à l'hôte"
 
-#: ingameWindows/iwDirectIPConnect.cpp:173 ingameWindows/iwLobbyConnect.cpp:216
+#: ingameWindows/iwDirectIPConnect.cpp:173
+#: ingameWindows/iwLobbyConnect.cpp:216
 msgid "Connection failed!"
 msgstr "Connexion échouée"
 
@@ -1309,9 +1312,10 @@ msgstr "Quartier général"
 #: ingameWindows/iwBuilding.cpp:88
 #: ingameWindows/iwBuildingProductivities.cpp:109
 #: ingameWindows/iwBuildings.cpp:107 ingameWindows/iwDistribution.cpp:177
-#: ingameWindows/iwMerchandiseStatistics.cpp:89 ingameWindows/iwMilitary.cpp:60
-#: ingameWindows/iwStatistics.cpp:136 ingameWindows/iwTools.cpp:80
-#: ingameWindows/iwTransport.cpp:85 ingameWindows/iwWares.cpp:192
+#: ingameWindows/iwMerchandiseStatistics.cpp:89
+#: ingameWindows/iwMilitary.cpp:60 ingameWindows/iwStatistics.cpp:136
+#: ingameWindows/iwTools.cpp:80 ingameWindows/iwTransport.cpp:85
+#: ingameWindows/iwWares.cpp:192
 msgid "Help"
 msgstr "Aide"
 
@@ -2393,7 +2397,8 @@ msgstr ""
 msgid "Server management"
 msgstr ""
 
-#: ingameWindows/iwDirectIPConnect.cpp:59 ingameWindows/iwDirectIPCreate.cpp:60
+#: ingameWindows/iwDirectIPConnect.cpp:59
+#: ingameWindows/iwDirectIPCreate.cpp:60
 msgid "Server-Port:"
 msgstr ""
 
@@ -2817,7 +2822,7 @@ msgid "This mine is exhausted"
 msgstr ""
 
 #: figures/nofBuildingWorker.cpp:416
-msgid "This well has dried out"
+msgid "This well is dried out"
 msgstr ""
 
 #: ingameWindows/iwSave.cpp:68
@@ -2844,8 +2849,9 @@ msgstr ""
 msgid "Tool ordering"
 msgstr ""
 
-#: ingameWindows/iwMainMenu.cpp:71 ingameWindows/iwMerchandiseStatistics.cpp:84
-#: ingameWindows/iwTools.cpp:48 ingameWindows/iwTransport.cpp:71
+#: ingameWindows/iwMainMenu.cpp:71
+#: ingameWindows/iwMerchandiseStatistics.cpp:84 ingameWindows/iwTools.cpp:48
+#: ingameWindows/iwTransport.cpp:71
 msgid "Tools"
 msgstr "Outils"
 
@@ -2973,7 +2979,8 @@ msgstr "Afficher les paramètres…"
 msgid "Waiting for Playerinfo..."
 msgstr ""
 
-#: ingameWindows/iwDirectIPConnect.cpp:279 ingameWindows/iwLobbyConnect.cpp:332
+#: ingameWindows/iwDirectIPConnect.cpp:279
+#: ingameWindows/iwLobbyConnect.cpp:332
 msgid "Waiting for Reply..."
 msgstr ""
 
