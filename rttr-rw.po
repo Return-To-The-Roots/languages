@@ -1,17 +1,17 @@
-# Turkish translation for s25rttr
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# Kinyarwanda translation for s25rttr
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
 # This file is distributed under the same license as the s25rttr package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-15 11:20+0200\n"
-"PO-Revision-Date: 2015-12-31 08:49+0000\n"
-"Last-Translator: Alex G <Unknown>\n"
-"Language-Team: Turkish <tr@li.org>\n"
-"Language: tr\n"
+"PO-Revision-Date: 2012-03-13 20:49+0000\n"
+"Last-Translator: Nasenbaer <Unknown>\n"
+"Language-Team: Kinyarwanda <rw@li.org>\n"
+"Language: rw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,12 +23,10 @@ msgid ""
 "\n"
 "Costs: "
 msgstr ""
-"\n"
-"Fiyat: "
 
 #: GameClient.cpp:681 GameServer.cpp:1743
 msgid " (AI)"
-msgstr " (yapay zeka)"
+msgstr ""
 
 #: GameClient.cpp:686 GameServer.cpp:1750
 msgid " (easy)"
@@ -44,54 +42,54 @@ msgstr ""
 
 #: ingameWindows/iwAction.cpp:232
 msgid " boards"
-msgstr " tahta"
+msgstr ""
 
 #: ingameWindows/iwAction.cpp:237
 msgid " stones"
-msgstr " taş"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:304 desktops/dskHostGame.cpp:331
 #: ingameWindows/iwWares.cpp:168 ingameWindows/iwWares.cpp:172
 #, c-format
 msgid "%d"
-msgstr "%d"
+msgstr ""
 
 #: desktops/dskSelectMap.cpp:422
 #, c-format
 msgid "%d Player"
-msgstr "%d oyuncu"
+msgstr ""
 
 #: ingameWindows/iwHQ.cpp:67
 #, c-format
 msgid "%u/%u"
-msgstr "%u/%u"
+msgstr ""
 
 #: ingameWindows/iwDirectIPCreate.cpp:84
 msgid "'s Game"
-msgstr "'in oyunu"
+msgstr ""
 
 #: GameWorldView.cpp:353
 #, c-format
 msgid "(%d soldiers)"
-msgstr "(%d asker)"
+msgstr ""
 
 #: GameWorldView.cpp:351
 msgid "(1 soldier)"
-msgstr "(1 asker)"
+msgstr ""
 
 #: GameWorldView.cpp:320 ingameWindows/iwBuilding.cpp:115
 #: ingameWindows/iwBuilding.cpp:212
 msgid "(House unoccupied)"
-msgstr "(Ev kuşatılmadı)"
+msgstr ""
 
 #: desktops/dskGameInterface.cpp:245
 #, c-format
 msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
-msgstr "(Tekrar-Oynama-Modu) Mevcut GF: %u (Bitiş: %u) / GF uzunluğu: %u ms / NWF uzunluğu: %u gf (%u ms)"
+msgstr ""
 
 #: GameWorldView.cpp:322
 msgid "(stopped)"
-msgstr "(durdu)"
+msgstr ""
 
 #: addons/AddonBurnDuration.h:56
 msgid "+100%"
@@ -104,7 +102,7 @@ msgstr ""
 #: desktops/dskHostGame.cpp:196 desktops/dskHostGame.cpp:314
 #: desktops/dskHostGame.cpp:323
 msgid "-"
-msgstr "-"
+msgstr ""
 
 #: addons/AddonBurnDuration.h:51
 msgid "-25%"
@@ -124,42 +122,42 @@ msgstr ""
 
 #: ingameWindows/iwAction.cpp:115
 msgid "-> Build castle"
-msgstr "-> Kale inşa et"
+msgstr ""
 
 #: ingameWindows/iwAction.cpp:102 ingameWindows/iwAction.cpp:113
 msgid "-> Build house"
-msgstr "-> Ev inşa et"
+msgstr ""
 
 #: ingameWindows/iwAction.cpp:111
 msgid "-> Build hut"
-msgstr "-> Kulübe inşa et"
+msgstr ""
 
 #: ingameWindows/iwAction.cpp:108
 msgid "-> Dig mines"
-msgstr "-> Madeni kaz"
+msgstr ""
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:97
 #: ingameWindows/iwStatistics.cpp:131
 msgid "1 h"
-msgstr "1 sa"
+msgstr ""
 
 #: addons/AddonLimitCatapults.h:52
 msgid "10 catapults"
-msgstr "10 fırlatma"
+msgstr ""
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:96
 #: ingameWindows/iwStatistics.cpp:130
 msgid "15 m"
-msgstr "15 dk"
+msgstr ""
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:99
 #: ingameWindows/iwStatistics.cpp:133
 msgid "16 h"
-msgstr "16 sa"
+msgstr ""
 
 #: addons/AddonLimitCatapults.h:53
 msgid "20 catapults"
-msgstr "20 fırlatma"
+msgstr ""
 
 #: addons/AddonLimitCatapults.h:50
 msgid "3 catapults"
@@ -167,12 +165,12 @@ msgstr ""
 
 #: addons/AddonLimitCatapults.h:54
 msgid "30 catapults"
-msgstr "30 fırlatma"
+msgstr ""
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:98
 #: ingameWindows/iwStatistics.cpp:132
 msgid "4 h"
-msgstr "4 sa"
+msgstr ""
 
 #: addons/AddonLimitCatapults.h:51
 msgid "5 catapults"
@@ -182,7 +180,7 @@ msgstr ""
 #: desktops/dskGameInterface.cpp:1112
 #, c-format
 msgid "<%s> "
-msgstr "<%s> "
+msgstr ""
 
 #: desktops/dskGameInterface.cpp:1048
 msgid "A auto-savegame is created..."
@@ -202,7 +200,7 @@ msgstr ""
 
 #: nodeObjs/noShipBuildingSite.cpp:138
 msgid "A new ship is ready"
-msgstr "Yeni bir gemi hazır"
+msgstr ""
 
 #: nodeObjs/noShip.cpp:450
 msgid "A ship disovered an enemy territory"
@@ -226,11 +224,11 @@ msgstr ""
 
 #: ingameWindows/iwAIDebug.cpp:49
 msgid "AI Debug"
-msgstr "YZ Onarma"
+msgstr ""
 
 #: ingameWindows/iwMainMenu.cpp:97
 msgid "AI Debug Window"
-msgstr "YZ onarma penceresi"
+msgstr ""
 
 #: addons/AddonAIDebugWindow.h:39
 msgid "AI Debugging Window"
@@ -238,35 +236,35 @@ msgstr ""
 
 #: ingameWindows/iwMusicPlayer.cpp:49
 msgid "Abort"
-msgstr "Yoksay"
+msgstr ""
 
 #: addons/AddonDemolitionProhibition.h:44
 msgid "Active if attacked"
-msgstr "Saldırıldığında aktif"
+msgstr ""
 
 #: addons/AddonDemolitionProhibition.h:45
 msgid "Active near frontiers"
-msgstr "Sınırlara yakınken aktif"
+msgstr ""
 
 #: ingameWindows/iwAction.cpp:68 ingameWindows/iwRoadWindow.cpp:46
 msgid "Activity window"
-msgstr "Etkinlik penceresi"
+msgstr ""
 
 #: ingameWindows/iwMusicPlayer.cpp:80
 msgid "Add"
-msgstr "Ekle"
+msgstr ""
 
 #: desktops/dskLobby.cpp:75
 msgid "Add Server"
-msgstr "Sunucu Ekle"
+msgstr ""
 
 #: ingameWindows/iwMusicPlayer.cpp:87 ingameWindows/iwMusicPlayer.cpp:226
 msgid "Add directory of tracks"
-msgstr "Parça dizini ekle"
+msgstr ""
 
 #: ingameWindows/iwMusicPlayer.cpp:86 ingameWindows/iwMusicPlayer.cpp:220
 msgid "Add track"
-msgstr "Parça ekle"
+msgstr ""
 
 #: desktops/dskCredits.cpp:181
 msgid "Additional Graphics:"
@@ -274,11 +272,11 @@ msgstr ""
 
 #: desktops/dskCredits.cpp:167
 msgid "Additional Programming:"
-msgstr "Ek Programlama:"
+msgstr ""
 
 #: ingameWindows/iwAddons.cpp:46
 msgid "Additional features:"
-msgstr "Ek özellikler:"
+msgstr ""
 
 #: desktops/dskCredits.cpp:142
 msgid "Additional graphics"
@@ -493,7 +491,7 @@ msgstr ""
 
 #: ingameWindows/iwAction.cpp:409
 msgid "Attack!"
-msgstr "Saldır!"
+msgstr ""
 
 #: desktops/dskSelectMap.cpp:105
 msgid "Author"
@@ -566,7 +564,7 @@ msgstr ""
 
 #: gameTypes/GoodTypes.h:92
 msgid "Bread"
-msgstr "Ekmek"
+msgstr "umugati"
 
 #: gameTypes/JobTypes.h:77
 msgid "Brewer"
@@ -601,7 +599,7 @@ msgstr ""
 
 #: gameTypes/JobTypes.h:75
 msgid "Butcher"
-msgstr "Kasap"
+msgstr ""
 
 #: ingameWindows/iwAction.cpp:262 ingameWindows/iwAction.cpp:270
 msgid "Call in geologist"
@@ -613,7 +611,7 @@ msgstr ""
 
 #: ingameWindows/iwMsgbox.cpp:72 ingameWindows/iwMsgbox.cpp:87
 msgid "Cancel"
-msgstr "İptal"
+msgstr ""
 
 #: ingameWindows/iwHarborBuilding.cpp:90
 #: ingameWindows/iwHarborBuilding.cpp:121
@@ -626,7 +624,7 @@ msgstr ""
 
 #: gameTypes/JobTypes.h:69
 msgid "Carpenter"
-msgstr "Marangoz"
+msgstr ""
 
 #: gameTypes/BuildingTypes.h:146
 msgid "Catapult"
@@ -690,7 +688,7 @@ msgstr ""
 
 #: ingameWindows/iwPlayReplay.cpp:73 ingameWindows/iwPlayReplay.cpp:98
 msgid "Clear"
-msgstr "Temizle"
+msgstr ""
 
 #: ingameWindows/iwTools.cpp:61 gameTypes/GoodTypes.h:84
 msgid "Cleaver"
@@ -725,7 +723,7 @@ msgstr ""
 
 #: desktops/dskHostGame.cpp:71
 msgid "Color"
-msgstr "Renk"
+msgstr ""
 
 #: desktops/dskOptions.cpp:83
 msgid "Common"
@@ -747,7 +745,7 @@ msgstr ""
 #: desktops/dskLobby.cpp:71 ingameWindows/iwDirectIPConnect.cpp:78
 #: ingameWindows/iwLobbyConnect.cpp:85
 msgid "Connect"
-msgstr "Bağlan"
+msgstr ""
 
 #: ingameWindows/iwLobbyConnect.cpp:50
 msgid "Connecting to Lobby"
@@ -844,7 +842,7 @@ msgstr ""
 #: ingameWindows/iwTransport.cpp:88 addons/AddonBurnDuration.h:50
 #: addons/AddonMaxWaterwayLength.h:51
 msgid "Default"
-msgstr "Varsayılan"
+msgstr ""
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:92
 msgid "Delete all"
@@ -934,7 +932,7 @@ msgstr ""
 
 #: ingameWindows/iwBuildOrder.cpp:58 ingameWindows/iwTransport.cpp:94
 msgid "Down"
-msgstr "Aşağı"
+msgstr ""
 
 #: ingameWindows/iwMusicPlayer.cpp:90
 msgid "Downwards"
@@ -972,7 +970,7 @@ msgstr ""
 
 #: ingameWindows/iwLobbyConnect.cpp:64
 msgid "Email Address:"
-msgstr "E-posta Adresi:"
+msgstr ""
 
 #: addons/AddonAIDebugWindow.h:40
 msgid ""
@@ -998,7 +996,7 @@ msgstr ""
 
 #: ingameWindows/iwEndgame.cpp:48
 msgid "End game?"
-msgstr "Oyunu sonlandır?"
+msgstr ""
 
 #: ingameWindows/iwChat.cpp:58
 msgid "Enemies"
@@ -1019,7 +1017,7 @@ msgstr ""
 #: ingameWindows/iwMusicPlayer.cpp:343 ingameWindows/iwMusicPlayer.cpp:368
 #: main.cpp:146 main.cpp:161
 msgid "Error"
-msgstr "Hata"
+msgstr ""
 
 #: ingameWindows/iwPlayReplay.cpp:124 main.cpp:310
 msgid "Error while opening file!"
@@ -1076,7 +1074,7 @@ msgstr ""
 
 #: gameTypes/JobTypes.h:72
 msgid "Farmer"
-msgstr "Çiftçi"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:158 addons/AddonShipSpeed.h:44
 msgid "Fast"
@@ -1096,7 +1094,7 @@ msgstr ""
 
 #: gameTypes/GoodTypes.h:91
 msgid "Fish"
-msgstr "Balık"
+msgstr ""
 
 #: gameTypes/JobTypes.h:67
 msgid "Fisher"
@@ -1249,7 +1247,7 @@ msgstr ""
 #: ingameWindows/iwStatistics.cpp:124 ingameWindows/iwStatistics.cpp:234
 #: ingameWindows/iwTransport.cpp:63 gameTypes/GoodTypes.h:101
 msgid "Gold"
-msgstr "Altın"
+msgstr ""
 
 #: ingameWindows/iwDistribution.cpp:79 gameTypes/BuildingTypes.h:143
 msgid "Gold mine"
@@ -1316,7 +1314,7 @@ msgstr ""
 #: ingameWindows/iwTools.cpp:80 ingameWindows/iwTransport.cpp:85
 #: ingameWindows/iwWares.cpp:192
 msgid "Help"
-msgstr "Yardım"
+msgstr ""
 
 #: gameTypes/JobTypes.h:65
 msgid "Helper"
@@ -1437,7 +1435,7 @@ msgstr ""
 #: ingameWindows/iwMerchandiseStatistics.cpp:82
 #: ingameWindows/iwTransport.cpp:62 gameTypes/GoodTypes.h:89
 msgid "Iron"
-msgstr "Demir"
+msgstr ""
 
 #: gameTypes/JobTypes.h:80
 msgid "Iron founder"
@@ -1449,7 +1447,7 @@ msgstr ""
 
 #: ingameWindows/iwTransport.cpp:64 gameTypes/GoodTypes.h:102
 msgid "Iron ore"
-msgstr "Demir madeni"
+msgstr ""
 
 #: ingameWindows/iwDistribution.cpp:118 gameTypes/BuildingTypes.h:156
 msgid "Iron smelter"
@@ -1483,7 +1481,7 @@ msgstr ""
 
 #: desktops/dskOptions.cpp:103
 msgid "Language:"
-msgstr "Dil:"
+msgstr ""
 
 #: ingameWindows/iwPlayReplay.cpp:68
 msgid "Length"
@@ -1613,11 +1611,11 @@ msgstr ""
 #: desktops/dskGameInterface.cpp:103 desktops/dskLobby.cpp:78
 #: ingameWindows/iwSave.cpp:68
 msgid "Map"
-msgstr "Harita"
+msgstr ""
 
 #: ingameWindows/iwLobbyServerInfo.cpp:75
 msgid "Map Name:"
-msgstr "Harita adı:"
+msgstr ""
 
 #: desktops/dskGameLoader.cpp:123
 msgid "Map was loaded and pinned at the wall..."
@@ -1625,7 +1623,7 @@ msgstr ""
 
 #: desktops/dskHostGame.cpp:174 desktops/dskSelectMap.cpp:138
 msgid "Map: "
-msgstr "Harita: "
+msgstr ""
 
 #: desktops/dskSelectMap.cpp:139
 msgid "Mapfile: "
@@ -1641,7 +1639,7 @@ msgstr ""
 
 #: gameTypes/GoodTypes.h:104
 msgid "Meat"
-msgstr "Et"
+msgstr ""
 
 #: gameData/BuildingConsts.cpp:189
 msgid "Meat the hunter acquires is used to feed the miners."
@@ -1716,7 +1714,7 @@ msgstr ""
 
 #: gameTypes/JobTypes.h:76
 msgid "Miner"
-msgstr "Madenci"
+msgstr ""
 
 #: addons/AddonAdjustMilitaryStrength.h:55
 msgid "Minimum strength"
@@ -1773,7 +1771,7 @@ msgstr ""
 
 #: desktops/dskOptions.cpp:241
 msgid "Music"
-msgstr "Müzik"
+msgstr ""
 
 #: desktops/dskOptions.cpp:259 ingameWindows/iwMusicPlayer.cpp:69
 #: ingameWindows/iwOptionsWindow.cpp:104
@@ -1803,7 +1801,7 @@ msgstr ""
 
 #: desktops/dskSelectMap.cpp:121
 msgid "New maps"
-msgstr "Yeni haritalar"
+msgstr ""
 
 #: buildings/nobStorehouse.cpp:57
 msgid "New storehouse finished"
@@ -1811,12 +1809,12 @@ msgstr ""
 
 #: ingameWindows/iwWares.cpp:190
 msgid "Next page"
-msgstr "Sonraki sayfa"
+msgstr ""
 
 #: ingameWindows/iwLobbyConnect.cpp:72 ingameWindows/iwMsgbox.cpp:79
 #: ingameWindows/iwMsgbox.cpp:86
 msgid "No"
-msgstr "Hayır"
+msgstr ""
 
 #: desktops/dskOptions.cpp:146
 msgid "No Proxy"
@@ -1869,7 +1867,7 @@ msgstr ""
 #: desktops/dskHostGame.cpp:131 desktops/dskHostGame.cpp:157
 #: addons/AddonShipSpeed.h:43
 msgid "Normal"
-msgstr "Normal"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:824
 msgid "Not Ready"
@@ -1905,7 +1903,7 @@ msgstr ""
 #: ingameWindows/iwMsgbox.cpp:65 ingameWindows/iwMsgbox.cpp:71
 #: ingameWindows/iwMusicPlayer.cpp:48 ingameWindows/iwSkipGFs.cpp:54
 msgid "OK"
-msgstr "Tamam"
+msgstr ""
 
 #: ingameWindows/iwAction.cpp:337 ingameWindows/iwObservate.cpp:48
 msgid "Observation window"
@@ -1952,7 +1950,7 @@ msgstr ""
 #: desktops/dskMainMenu.cpp:81 desktops/dskOptions.cpp:76
 #: ingameWindows/iwMainMenu.cpp:100
 msgid "Options"
-msgstr "Seçenekler"
+msgstr ""
 
 #: ingameWindows/iwBuildingSite.cpp:57
 msgid "Order of building site"
@@ -1960,7 +1958,7 @@ msgstr ""
 
 #: desktops/dskSelectMap.cpp:131 ingameWindows/iwAddons.cpp:67
 msgid "Other"
-msgstr "Diğer"
+msgstr ""
 
 #: desktops/dskCredits.cpp:189
 msgid "Other Support:"
@@ -1988,7 +1986,7 @@ msgstr ""
 
 #: ingameWindows/iwDirectIPCreate.cpp:64 ingameWindows/iwLobbyConnect.cpp:59
 msgid "Password:"
-msgstr "Şifre:"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:87
 msgid "Past player"
@@ -2076,7 +2074,7 @@ msgstr ""
 
 #: ingameWindows/iwPleaseWait.cpp:47 ingameWindows/iwPleaseWait.cpp:50
 msgid "Please wait..."
-msgstr "Lütfen bekleyin..."
+msgstr ""
 
 #: desktops/dskLobby.cpp:80 ingameWindows/iwLobbyRanking.cpp:81
 msgid "Points"
@@ -2247,7 +2245,7 @@ msgstr ""
 
 #: ingameWindows/iwMusicPlayer.cpp:81
 msgid "Remove"
-msgstr "Kaldır"
+msgstr ""
 
 #: addons/AddonChangeGoldDeposits.h:49
 msgid "Remove gold completely"
@@ -2347,7 +2345,7 @@ msgstr ""
 
 #: ingameWindows/iwBaseWarehouse.cpp:75
 msgid "Select all"
-msgstr "Hepsini seç"
+msgstr ""
 
 #: desktops/dskSelectMap.cpp:108
 msgid "Selection of maps"
@@ -2379,15 +2377,15 @@ msgstr ""
 
 #: desktops/dskLobby.cpp:78
 msgid "Server"
-msgstr "Sunucu"
+msgstr ""
 
 #: ingameWindows/iwLobbyServerInfo.cpp:73
 msgid "Server Information"
-msgstr "Sunucu Bilgisi"
+msgstr ""
 
 #: ingameWindows/iwLobbyServerInfo.cpp:77
 msgid "Server Name:"
-msgstr "Sunucu Adı:"
+msgstr ""
 
 #: desktops/dskCredits.cpp:84
 msgid "Server management"
@@ -2428,7 +2426,7 @@ msgstr ""
 
 #: gameTypes/GoodTypes.h:93
 msgid "Shield"
-msgstr "Kalkan"
+msgstr ""
 
 #: ingameWindows/iwMainMenu.cpp:86 ingameWindows/iwShip.cpp:59
 msgid "Ship register"
@@ -2464,7 +2462,7 @@ msgstr ""
 
 #: desktops/dskSelectMap.cpp:105
 msgid "Size"
-msgstr "Boyut"
+msgstr ""
 
 #: ingameWindows/iwStatistics.cpp:119 ingameWindows/iwStatistics.cpp:139
 #: ingameWindows/iwStatistics.cpp:214
@@ -2481,7 +2479,7 @@ msgstr ""
 
 #: desktops/dskHostGame.cpp:156 addons/AddonShipSpeed.h:42
 msgid "Slow"
-msgstr "Yavaş"
+msgstr ""
 
 #: desktops/dskOptions.cpp:147
 msgid "Socks v4"
@@ -2499,7 +2497,7 @@ msgstr ""
 
 #: desktops/dskOptions.cpp:87
 msgid "Sound/Music"
-msgstr "Ses/Müzik"
+msgstr ""
 
 #: desktops/dskOptions.cpp:228
 msgid "Sounddriver"
@@ -2511,11 +2509,11 @@ msgstr ""
 
 #: desktops/dskHostGame.cpp:153
 msgid "Speed:"
-msgstr "Hız:"
+msgstr ""
 
 #: ingameWindows/iwDirectIPCreate.cpp:79 ingameWindows/iwPlayReplay.cpp:71
 msgid "Start"
-msgstr "Başla"
+msgstr ""
 
 #: ingameWindows/iwSave.cpp:68
 msgid "Start GF"
@@ -2537,7 +2535,7 @@ msgstr ""
 #: desktops/dskHostGame.cpp:98 desktops/dskHostGame.cpp:593
 #: desktops/dskHostGame.cpp:822
 msgid "Start game"
-msgstr "Oyunu başlat"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:661
 msgid "Starting game, please wait"
@@ -2848,7 +2846,7 @@ msgstr ""
 #: ingameWindows/iwMerchandiseStatistics.cpp:84 ingameWindows/iwTools.cpp:48
 #: ingameWindows/iwTransport.cpp:71
 msgid "Tools"
-msgstr "Araçlar"
+msgstr ""
 
 #: ingameWindows/iwBuildOrder.cpp:54 ingameWindows/iwTransport.cpp:90
 msgid "Top"
@@ -2903,7 +2901,7 @@ msgstr ""
 
 #: ingameWindows/iwBuildOrder.cpp:56 ingameWindows/iwTransport.cpp:92
 msgid "Up"
-msgstr "Yukarı"
+msgstr ""
 
 #: ingameWindows/iwAction.cpp:364
 msgid "Upgrade to donkey road"
@@ -2940,7 +2938,7 @@ msgstr ""
 
 #: desktops/dskLobby.cpp:78 desktops/dskLobby.cpp:80
 msgid "Version"
-msgstr "Sürüm"
+msgstr ""
 
 #: ingameWindows/iwLobbyServerInfo.cpp:81
 msgid "Version:"
@@ -2964,7 +2962,7 @@ msgstr ""
 
 #: desktops/dskHostGame.cpp:155 addons/AddonShipSpeed.h:41
 msgid "Very slow"
-msgstr "Çok yavaş"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:112
 msgid "View Settings..."
@@ -3005,7 +3003,7 @@ msgstr ""
 #: ingameWindows/iwTransport.cpp:69 gameTypes/GoodTypes.h:82
 #: gameTypes/GoodTypes.h:83
 msgid "Water"
-msgstr "Su"
+msgstr ""
 
 #: figures/nofAttacker.cpp:650
 msgid "We are under attack!"
@@ -3026,7 +3024,7 @@ msgstr ""
 #: ingameWindows/iwMerchandiseStatistics.cpp:85
 #: ingameWindows/iwTransport.cpp:60
 msgid "Weapons"
-msgstr "Silahlar"
+msgstr ""
 
 #: desktops/dskCredits.cpp:86 desktops/dskCredits.cpp:106
 #: desktops/dskCredits.cpp:115
@@ -3077,7 +3075,7 @@ msgstr ""
 
 #: ingameWindows/iwDirectIPConnect.cpp:259
 msgid "Wrong Password!"
-msgstr "Hatalı Şifre!"
+msgstr ""
 
 #: ingameWindows/iwDirectIPConnect.cpp:263
 msgid "Wrong Server Type!"
@@ -3090,7 +3088,7 @@ msgstr ""
 #: ingameWindows/iwLobbyConnect.cpp:73 ingameWindows/iwMsgbox.cpp:78
 #: ingameWindows/iwMsgbox.cpp:85
 msgid "Yes"
-msgstr "Evet"
+msgstr ""
 
 #: ingameWindows/iwMusicPlayer.cpp:194
 msgid "You are not allowed to delete the standard playlist!"
@@ -3161,7 +3159,7 @@ msgstr ""
 #: desktops/dskMainMenu.cpp:72 desktops/dskMultiPlayer.cpp:62
 #: desktops/dskSinglePlayer.cpp:69
 msgid "http://www.siedler25.org"
-msgstr "http://www.siedler25.org"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:304
 msgid "n/a"
@@ -3212,6 +3210,3 @@ msgstr ""
 #, c-format
 msgid "Â© 2005 - %s Settlers Freaks"
 msgstr ""
-
-#~ msgid "Vikings"
-#~ msgstr "Vikingler"

@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-15 11:20+0200\n"
-"PO-Revision-Date: 2012-03-08 17:59+0000\n"
-"Last-Translator: Martin \"sachy\" Šácha <cored.coder@gmail.com>\n"
+"PO-Revision-Date: 2015-12-31 08:48+0000\n"
+"Last-Translator: Martin sachy Šácha <Unknown>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-12 07:28+0000\n"
-"X-Generator: Launchpad (build 16799)\n"
+"X-Launchpad-Export-Date: 2016-04-06 10:56+0000\n"
+"X-Generator: Launchpad (build 17972)\n"
 "X-Poedit-Country: CZECH REPUBLIC\n"
 "X-Poedit-Language: Czech\n"
 
@@ -352,6 +352,9 @@ msgid ""
 "should be supplied in sequence of given order or in a definable\n"
 "sequence based on the building type."
 msgstr ""
+"Umožňuje každému hráči nastavit, jestli staveniště\n"
+"budou zásobovány v pořadí dle vydání příkazu nebo v definovatelné\n"
+"řadě dle druhu budovy."
 
 #: addons/AddonCharburner.h:38
 msgid "Allows to build the charburner."
@@ -365,6 +368,11 @@ msgid ""
 "or you can limit the amount of reoccupying troops\n"
 "(during an attack) according to the defender setting."
 msgstr ""
+"Povolí změnit armádní nastavení \"obrana\".\n"
+"\n"
+"Můžete zakázat jakékoliv změny tohoto nastavení,\n"
+"nebo zvolit limit množství vojáků pro znovuobsazení\n"
+"(během útoku) podle obranných nastavení."
 
 #: addons/AddonDemolitionProhibition.h:39
 msgid "Allows to disable the demolition of military buildings under attack or near frontiers."
@@ -381,15 +389,11 @@ msgstr ""
 "Studnu bude nyní možno vyčerpat."
 
 #: addons/AddonInexhaustibleGraniteMines.h:21
-#, fuzzy
 msgid ""
 "Allows to have unlimited Granite resources.\n"
 "\n"
 "Granite mines will never be depleted."
 msgstr ""
-"Povolit nekonečné zásoby rudy.\n"
-"\n"
-"Doly nikdy nebudou vytěženy."
 
 #: addons/AddonInexhaustibleMines.h:39
 msgid ""
@@ -502,7 +506,7 @@ msgstr "Umělá Inteligence (UI)"
 
 #: ingameWindows/iwDiplomacy.cpp:193
 msgid "As the teams are locked, you cannot make treaties of any kind."
-msgstr ""
+msgstr "Když jsou týmy zamknuté, nemůžete uzavírat žádné dohody."
 
 #: addons/AddonAsyncDebug.h:36
 msgid "Async debugging (REALLY SLOW!)"
@@ -674,9 +678,8 @@ msgid "Change gold deposits"
 msgstr "Změna zásob zlata"
 
 #: addons/AddonMetalworksBehaviorOnZero.h:11
-#, fuzzy
 msgid "Change metalworks behavior on zero"
-msgstr "Změnit obranné chování"
+msgstr ""
 
 #: addons/AddonStatisticsVisibility.h:38
 msgid "Change the visibility of your ingame statistics"
@@ -860,6 +863,9 @@ msgid ""
 "\n"
 "\"Allies\" applies to team members as well as to allies by treaty."
 msgstr ""
+"Určuje, kdo uvidí Vaše statistiky.\n"
+"\n"
+"\"Spojenci\" označuje spoluhráče v týmu a hráče s uzavřeným spojenectvím."
 
 #: gameData/BuildingConsts.cpp:122
 msgid "Deep within the mountains, miners dig for iron ore. They will obviously need a lot of food for the strenuous work."
@@ -1232,9 +1238,8 @@ msgid "General"
 msgstr "Generál"
 
 #: addons/AddonMaxRank.h:51
-#, fuzzy
 msgid "General (4)"
-msgstr "Generál"
+msgstr ""
 
 #: ingameWindows/iwMainMenu.cpp:74
 msgid "General statistics"
@@ -1257,14 +1262,12 @@ msgid "Go to next building of same type"
 msgstr ""
 
 #: ingameWindows/iwMilitaryBuilding.cpp:77
-#, fuzzy
 msgid "Go to next military building"
-msgstr "Znemožnit zničení vojenských budov"
+msgstr ""
 
 #: ingameWindows/iwBaseWarehouse.cpp:79
-#, fuzzy
 msgid "Go to next warehouse"
-msgstr "Skladiště"
+msgstr ""
 
 #: ingameWindows/iwBaseWarehouse.cpp:77 ingameWindows/iwBuilding.cpp:105
 #: ingameWindows/iwBuildingSite.cpp:65 ingameWindows/iwMilitaryBuilding.cpp:72
@@ -1319,9 +1322,8 @@ msgid "Guardhouse"
 msgstr "Strážnice"
 
 #: addons/AddonHalfCostMilEquip.h:35
-#, fuzzy
 msgid "Half cost recruits"
-msgstr "Více rekrutů"
+msgstr ""
 
 #: gameTypes/GoodTypes.h:105
 msgid "Ham"
@@ -1421,14 +1423,12 @@ msgid "Increase 500%"
 msgstr ""
 
 #: addons/AddonInexhaustibleFish.h:20
-#, fuzzy
 msgid "Inexhaustible Fish"
-msgstr "Nekonečná ruda"
+msgstr ""
 
 #: addons/AddonInexhaustibleGraniteMines.h:20
-#, fuzzy
 msgid "Inexhaustible Granite Mines"
-msgstr "Nekonečná ruda"
+msgstr ""
 
 #: addons/AddonInexhaustibleMines.h:38
 msgid "Inexhaustible Mines"
@@ -1732,14 +1732,12 @@ msgid "Military"
 msgstr "Armáda"
 
 #: addons/AddonMilitaryAid.h:40
-#, fuzzy
 msgid "Military Aid"
-msgstr "Armáda"
+msgstr ""
 
 #: addons/AddonMilitaryControl.h:37
-#, fuzzy
 msgid "Military Control"
-msgstr "Síla armády"
+msgstr ""
 
 #: buildings/nobMilitary.cpp:999
 msgid "Military building captured"
@@ -1978,9 +1976,8 @@ msgid "Officer"
 msgstr "Plukovník"
 
 #: addons/AddonMaxRank.h:52
-#, fuzzy
 msgid "Officer (3)"
-msgstr "Plukovník"
+msgstr ""
 
 #: desktops/dskSelectMap.cpp:119
 msgid "Old maps"
@@ -1999,7 +1996,7 @@ msgstr "Otevřený"
 
 #: desktops/dskOptions.cpp:220
 msgid "Optimized Textures:"
-msgstr ""
+msgstr "Optimalizované textury:"
 
 #: desktops/dskMainMenu.cpp:81 desktops/dskOptions.cpp:76
 #: ingameWindows/iwMainMenu.cpp:100
@@ -2143,18 +2140,16 @@ msgid "Private"
 msgstr "Vojín"
 
 #: addons/AddonMaxRank.h:55
-#, fuzzy
 msgid "Private (0)"
-msgstr "Vojín"
+msgstr ""
 
 #: gameTypes/JobTypes.h:87
 msgid "Private first class"
 msgstr "Desátník"
 
 #: addons/AddonMaxRank.h:54
-#, fuzzy
 msgid "Privatefc (1)"
-msgstr "Vojín"
+msgstr ""
 
 #: addons/AddonMetalworksBehaviorOnZero.h:19
 msgid "Produce nothing"
@@ -2233,7 +2228,7 @@ msgstr "Přehrávat náhodně"
 
 #: desktops/dskHostGame.cpp:108
 msgid "Random start locations"
-msgstr ""
+msgstr "Náhodná startovní umístění"
 
 #: gameTypes/JobTypes.h:68
 msgid "Ranger"
@@ -2271,7 +2266,7 @@ msgstr ""
 
 #: addons/AddonDefenderBehavior.h:49
 msgid "Reduce reoccupying troops accordingly"
-msgstr ""
+msgstr "Snížit obsazenost vojáky podle"
 
 #: addons/AddonRefundMaterials.h:44
 msgid "Refund 25%"
@@ -2337,9 +2332,9 @@ msgid "Return To The Roots - v%s-%s"
 msgstr "Návrat ke kořenům - v%s-%s"
 
 #: ingameWindows/iwOptionsWindow.cpp:69
-#, fuzzy, c-format
+#, c-format
 msgid "Return To The Roots v%s-%s"
-msgstr "Návrat ke kořenům - v%s-%s"
+msgstr ""
 
 #: ingameWindows/iwShip.cpp:79
 msgid "Return to harbor"
@@ -2355,15 +2350,15 @@ msgstr "Váleček"
 
 #: main.cpp:161
 msgid "RttR crashed. Please restart the application!"
-msgstr ""
+msgstr "RttR spadnulo. Prosím restartujte aplikaci!"
 
 #: main.cpp:145
 msgid "RttR crashed. Would you like to send debug information to RttR to help us avoiding this crash in the future? Thank you very much!"
-msgstr ""
+msgstr "RttR spadnulo. Nechtěli byste nám poslat ladící informace, abychom tomu mohli v budoucnu zabránit? Děkujeme!"
 
 #: desktops/dskMainMenu.cpp:107
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
-msgstr ""
+msgstr "RttR nyní podporuje odesílání ladících dat. Chcete nám pomoci zlepšit hru zasíláním těchto dat?"
 
 #: desktops/dskGameInterface.cpp:1083 desktops/dskGameInterface.cpp:1112
 msgid "SYSTEM"
@@ -2398,9 +2393,8 @@ msgid "Sea"
 msgstr "Moře"
 
 #: addons/AddonSeaAttack.h:42
-#, fuzzy
 msgid "Sea attack settings"
-msgstr "Slabí útočníci"
+msgstr ""
 
 #: ingameWindows/iwBaseWarehouse.cpp:75
 msgid "Select all"
@@ -2431,9 +2425,8 @@ msgid "Sergeant"
 msgstr "Seržant"
 
 #: addons/AddonMaxRank.h:53
-#, fuzzy
 msgid "Sergeant (2)"
-msgstr "Seržant"
+msgstr ""
 
 #: desktops/dskLobby.cpp:78
 msgid "Server"
@@ -2469,9 +2462,8 @@ msgid "Set maximum waterway length"
 msgstr "Nastavit maximální délku vodní cesty"
 
 #: addons/AddonShipSpeed.h:36
-#, fuzzy
 msgid "Set ship speed"
-msgstr "Nová loď je připravena"
+msgstr ""
 
 #: ingameWindows/iwSettings.cpp:53
 msgid "Settings"
@@ -2645,11 +2637,11 @@ msgstr "Silná obrana"
 
 #: desktops/dskOptions.cpp:162
 msgid "Submit debug data:"
-msgstr ""
+msgstr "Odeslat ladící data:"
 
 #: desktops/dskMainMenu.cpp:107
 msgid "Submit debug data?"
-msgstr ""
+msgstr "Odeslat ladící data?"
 
 #: ingameWindows/iwDiplomacy.cpp:231
 msgid "Suggest non-aggression pact"
@@ -2669,7 +2661,7 @@ msgstr "Vzdát hru?"
 
 #: desktops/dskHostGame.cpp:84
 msgid "Swap"
-msgstr ""
+msgstr "Zaměnit"
 
 #: gameTypes/GoodTypes.h:88
 msgid "Sword"
@@ -2693,22 +2685,22 @@ msgstr "Tým"
 
 #: desktops/dskGameInterface.cpp:1344
 msgid "Team victory!"
-msgstr ""
+msgstr "Týmové vítězství!"
 
 #: desktops/dskGameInterface.cpp:1341
 #, c-format
 msgid "Team victory! '%s' and '%s' and '%s' and '%s' are the winners!"
-msgstr ""
+msgstr "Týmové vítězství! '%s' a '%s' a '%s' a '%s' zvítězili!"
 
 #: desktops/dskGameInterface.cpp:1338
 #, c-format
 msgid "Team victory! '%s' and '%s' and '%s' are the winners!"
-msgstr ""
+msgstr "Týmové vítězství! '%s' a '%s' a '%s' zvítězili!"
 
 #: desktops/dskGameInterface.cpp:1335
 #, c-format
 msgid "Team victory! '%s' and '%s' are the winners!"
-msgstr ""
+msgstr "Týmové vítězství! '%s' a '%s' zvítězili!"
 
 #: ingameWindows/iwDiplomacy.cpp:193
 msgid "Teams locked"
@@ -2794,7 +2786,7 @@ msgstr "Pekárna se zásobuje moukou z mlýna a vodou ze studny. Vyrábí se zde
 
 #: GameServer.cpp:1625
 msgid "The game clients are out of sync. Would you like to send debug information to RttR to help us avoiding this in the future? Thank you very much!"
-msgstr ""
+msgstr "Herní klienti nejsou synchronizovaní. Nechtěli byste nám poslat ladící informace, abychom tomu mohli v budoucnu zabránit? Děkujeme!"
 
 #: gameData/BuildingConsts.cpp:252
 msgid "The grain is ground in the windmill. The flour from the windmill is later used at the bakery to bake bread."
@@ -2876,7 +2868,6 @@ msgid "This mine is exhausted"
 msgstr "Důl je vytěžen"
 
 #: figures/nofBuildingWorker.cpp:416
-#, fuzzy
 msgid "This well is dried out"
 msgstr "Studna je bez vody"
 
@@ -2921,7 +2912,7 @@ msgstr "Úplná převaha"
 #: desktops/dskHostGame.cpp:147
 #, c-format
 msgid "Tournament: %u minutes"
-msgstr ""
+msgstr "Turnaj:  %u minut"
 
 #: ingameWindows/iwTrade.cpp:58 addons/AddonTrade.h:37
 msgid "Trade"
@@ -3182,7 +3173,7 @@ msgstr "Aby se uplatnila změna audio nebo video ovladače, je nutné hru restar
 
 #: ai/AIPlayerJH.cpp:304
 msgid "You win"
-msgstr ""
+msgstr "Vyhrál jsi"
 
 #: GameClientPlayer.cpp:1867
 msgid "Your ally wishes to notify you of this location"
@@ -3208,9 +3199,8 @@ msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "aktuální GF: %u - stále rychle převíjím: %d GFs zbývá (%d %%)"
 
 #: addons/AddonMoreAnimals.h:43
-#, fuzzy
 msgid "default"
-msgstr "Výchozí"
+msgstr ""
 
 #: addons/AddonSeaAttack.h:48
 msgid "enemy harbors block"
@@ -3231,9 +3221,8 @@ msgid "n/a"
 msgstr "není k dispozici"
 
 #: addons/AddonSeaAttack.h:49
-#, fuzzy
 msgid "no sea attacks"
-msgstr "Více útočníků"
+msgstr ""
 
 #: PostMsg.cpp:104
 msgid "non-aggression pact"
@@ -3266,16 +3255,16 @@ msgid "various anonymous donators"
 msgstr "mnoho anonymních dárců"
 
 #: desktops/dskDirectIP.cpp:60
-#, fuzzy, c-format
+#, c-format
 msgid "© 2005 - %s Settlers Freaks"
-msgstr "© 2005 - 2011 Settlers Freaks"
+msgstr ""
 
 #: desktops/dskLobby.cpp:66 desktops/dskMainMenu.cpp:74
 #: desktops/dskMultiPlayer.cpp:64 desktops/dskSinglePlayer.cpp:71
 #: ingameWindows/iwOptionsWindow.cpp:71
-#, fuzzy, c-format
+#, c-format
 msgid "Â© 2005 - %s Settlers Freaks"
-msgstr "© 2005 - 2011 Settlers Freaks"
+msgstr ""
 
 #~ msgid "Africans"
 #~ msgstr "Afričané"

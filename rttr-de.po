@@ -3,18 +3,18 @@ msgstr ""
 "Project-Id-Version: Siedler II.5 RttR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-15 11:20+0200\n"
-"PO-Revision-Date: 2015-08-15 11:22+0200\n"
-"Last-Translator: FloSoft <Unknown>\n"
+"PO-Revision-Date: 2016-03-31 09:31+0000\n"
+"Last-Translator: Alex Grund <a.grund@hzdr.de>\n"
 "Language-Team: Siedler II.5 RttR <sf-team@siedler25.org>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-12 07:28+0000\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Launchpad-Export-Date: 2016-04-06 10:57+0000\n"
+"X-Generator: Launchpad (build 17972)\n"
+"X-Poedit-SearchPath-0: /storage/RTTR/svn/trunk/src\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
 "X-Poedit-Basepath: /storage/RTTR/svn/trunk/src\n"
-"X-Poedit-SearchPath-0: /storage/RTTR/svn/trunk/src\n"
 
 #: ingameWindows/iwAction.cpp:230
 msgid ""
@@ -93,11 +93,11 @@ msgstr "(gestoppt)"
 
 #: addons/AddonBurnDuration.h:56
 msgid "+100%"
-msgstr ""
+msgstr "+100%"
 
 #: addons/AddonBurnDuration.h:55
 msgid "+50%"
-msgstr ""
+msgstr "+50%"
 
 #: desktops/dskHostGame.cpp:196 desktops/dskHostGame.cpp:314
 #: desktops/dskHostGame.cpp:323
@@ -106,19 +106,19 @@ msgstr "-"
 
 #: addons/AddonBurnDuration.h:51
 msgid "-25%"
-msgstr ""
+msgstr "-25%"
 
 #: addons/AddonBurnDuration.h:52
 msgid "-50%"
-msgstr ""
+msgstr "-50%"
 
 #: addons/AddonBurnDuration.h:53
 msgid "-75%"
-msgstr ""
+msgstr "-75%"
 
 #: addons/AddonBurnDuration.h:54
 msgid "-90%"
-msgstr ""
+msgstr "-90%"
 
 #: ingameWindows/iwAction.cpp:115
 msgid "-> Build castle"
@@ -470,7 +470,9 @@ msgstr ""
 msgid ""
 "Allows you to select the highest rank for soldiers\n"
 "\n"
-msgstr "Erlaubt es den maximal Rang der Soldaten festzulegen.\n"
+msgstr ""
+"Erlaubt es den maximal Rang der Soldaten festzulegen.\n"
+"\n"
 
 #: addons/AddonShipSpeed.h:37
 msgid ""
@@ -513,7 +515,7 @@ msgstr "Die Teams sind gesperrt, du kannst keine Verträge schließen!"
 
 #: addons/AddonAsyncDebug.h:36
 msgid "Async debugging (REALLY SLOW!)"
-msgstr ""
+msgstr "Async debugging (SEHR LANGSAM!)"
 
 #: ingameWindows/iwAction.cpp:384
 msgid "Attack not possible."
@@ -768,7 +770,7 @@ msgstr "Allgemein"
 
 #: figures/nofMetalworker.cpp:143
 msgid "Completed the ordered amount of tools."
-msgstr ""
+msgstr "Werkzeugbestellung fertiggestellt"
 
 #: GameClient.cpp:679 GameServer.cpp:1740
 #, c-format
@@ -1022,7 +1024,7 @@ msgstr ""
 
 #: addons/AddonBattlefieldPromotion.h:36
 msgid "Enable battlefield promotions"
-msgstr ""
+msgstr "Aktiviere Schlachtbeförderungen"
 
 #: addons/AddonCharburner.h:37
 msgid "Enable charburner"
@@ -1030,7 +1032,7 @@ msgstr "Köhlerei hinzufügen"
 
 #: addons/AddonAsyncDebug.h:37
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
-msgstr ""
+msgstr "Aktiviert extra Zeug zum debuggen von Asyncs. Nicht aktivieren außer wenn man weiß was man tut!"
 
 #: ingameWindows/iwOptionsWindow.cpp:112
 msgid "End game"
@@ -1265,15 +1267,15 @@ msgstr "Zum Hauptquartier"
 
 #: ingameWindows/iwBuilding.cpp:118
 msgid "Go to next building of same type"
-msgstr ""
+msgstr "Springe zum nächsten Gebäude dieses Typs"
 
 #: ingameWindows/iwMilitaryBuilding.cpp:77
 msgid "Go to next military building"
-msgstr ""
+msgstr "Springe zum nächsten Militärgebäude"
 
 #: ingameWindows/iwBaseWarehouse.cpp:79
 msgid "Go to next warehouse"
-msgstr ""
+msgstr "Springe zum nächsten Lagerhaus"
 
 #: ingameWindows/iwBaseWarehouse.cpp:77 ingameWindows/iwBuilding.cpp:105
 #: ingameWindows/iwBuildingSite.cpp:65 ingameWindows/iwMilitaryBuilding.cpp:72
@@ -1410,23 +1412,23 @@ msgstr "Unvollständige Nachricht wurde empfangen!"
 
 #: addons/AddonMoreAnimals.h:45
 msgid "Increase 100%"
-msgstr ""
+msgstr "Um 100% erhöhen"
 
 #: addons/AddonMoreAnimals.h:48
 msgid "Increase 1000%"
-msgstr ""
+msgstr "Um 1000% erhöhen"
 
 #: addons/AddonMoreAnimals.h:46
 msgid "Increase 200%"
-msgstr ""
+msgstr "Um 200% erhöhen"
 
 #: addons/AddonMoreAnimals.h:44
 msgid "Increase 50%"
-msgstr ""
+msgstr "Um 50% erhöhen"
 
 #: addons/AddonMoreAnimals.h:47
 msgid "Increase 500%"
-msgstr ""
+msgstr "Um 500% erhöhen"
 
 #: addons/AddonInexhaustibleFish.h:20
 msgid "Inexhaustible Fish"
@@ -1834,7 +1836,7 @@ msgstr "Musik"
 #: desktops/dskOptions.cpp:259 ingameWindows/iwMusicPlayer.cpp:69
 #: ingameWindows/iwOptionsWindow.cpp:104
 msgid "Music player"
-msgstr "Musik-Spieler"
+msgstr "Musikwiedergabe"
 
 #: desktops/dskLobby.cpp:80 desktops/dskSelectMap.cpp:105
 #: ingameWindows/iwLobbyRanking.cpp:81
@@ -1943,7 +1945,7 @@ msgstr "Achtung: Spiel Optionen vom Server %s geändert."
 #: GameClientGF_Replay.cpp:129
 #, c-format
 msgid "Notice: Overall asynchronous frame count: %u"
-msgstr ""
+msgstr "Hinweis: Gesammtzahl synchroner Frames: %u"
 
 #: GameClientGF_Replay.cpp:120
 #, c-format
@@ -1952,7 +1954,7 @@ msgstr "Anmerkung. Das Replay endet hier. (GF: %u, %dh %dmin %ds, TF: %u, AVG_FP
 
 #: ingameWindows/iwAction.cpp:340
 msgid "Notify allies of this location"
-msgstr ""
+msgstr "Benachrichtige Verbündete an dieser Position"
 
 #: ingameWindows/iwAction.cpp:406
 msgid "Number of attackers"
@@ -2341,7 +2343,7 @@ msgstr "Return To The Roots - v%s-%s"
 #: ingameWindows/iwOptionsWindow.cpp:69
 #, c-format
 msgid "Return To The Roots v%s-%s"
-msgstr ""
+msgstr "Return To The Roots v%s-%s"
 
 #: ingameWindows/iwShip.cpp:79
 msgid "Return to harbor"
@@ -2401,7 +2403,7 @@ msgstr "Meer"
 
 #: addons/AddonSeaAttack.h:42
 msgid "Sea attack settings"
-msgstr ""
+msgstr "Seeschlacht Einstellungen"
 
 #: ingameWindows/iwBaseWarehouse.cpp:75
 msgid "Select all"
@@ -2417,7 +2419,7 @@ msgstr "Senden"
 
 #: ingameWindows/iwMilitaryBuilding.cpp:80
 msgid "Send max rank soldiers to a warehouse"
-msgstr ""
+msgstr "Schicke Soldaten mit höchstem Rang ins Lagerhaus"
 
 #: ingameWindows/iwAction.cpp:263 ingameWindows/iwAction.cpp:271
 msgid "Send out scout"
@@ -2458,7 +2460,7 @@ msgstr "Server-Port:"
 
 #: addons/AddonBurnDuration.h:37
 msgid "Set duration fires burn"
-msgstr ""
+msgstr "Setze Brenndauer der Feuer"
 
 #: addons/AddonMaxRank.h:46
 msgid "Set max rank"
@@ -2547,7 +2549,7 @@ msgstr "Socks v4"
 
 #: addons/AddonBattlefieldPromotion.h:37
 msgid "Soldiers winning a fight increase in rank."
-msgstr ""
+msgstr "Soldaten, die einen Kampf gewinnen, steigen im Rang auf."
 
 #: desktops/dskDirectIP.cpp:80 desktops/dskLobby.cpp:149
 #: desktops/dskLobby.cpp:165 desktops/dskOptions.cpp:604
@@ -2875,7 +2877,6 @@ msgid "This mine is exhausted"
 msgstr "Dieses Bergwerk ist verbraucht"
 
 #: figures/nofBuildingWorker.cpp:416
-#, fuzzy
 msgid "This well is dried out"
 msgstr "Dieser Brunnen ist erschöpft!"
 
@@ -2987,7 +2988,7 @@ msgstr "Verwende S2 Vorgaben"
 
 #: desktops/dskOptions.cpp:170
 msgid "Use UPnP"
-msgstr ""
+msgstr "Benutze UPnP"
 
 #: ingameWindows/iwLobbyConnect.cpp:53
 msgid "Username:"
@@ -3165,7 +3166,7 @@ msgstr ""
 
 #: desktops/dskLobby.cpp:149
 msgid "You can't join that game with your version!"
-msgstr ""
+msgstr "Mit deiner Version kannst du diesem Spiel nicht beitreten"
 
 #: desktops/dskHostGame.cpp:653
 msgid "You have 10 seconds until game starts"
@@ -3185,7 +3186,7 @@ msgstr "Ihr habt gewonnen."
 
 #: GameClientPlayer.cpp:1867
 msgid "Your ally wishes to notify you of this location"
-msgstr ""
+msgstr "Dein Verbündeter möchte dich auf diese Position hinweisen"
 
 #: addons/AddonBurnDuration.h:38
 msgid ""
@@ -3208,7 +3209,7 @@ msgstr "Momentaner GF: %u - Schnellvorlauf: %d GFs verbleibend (%d %%)"
 
 #: addons/AddonMoreAnimals.h:43
 msgid "default"
-msgstr ""
+msgstr "Standard"
 
 #: addons/AddonSeaAttack.h:48
 msgid "enemy harbors block"
@@ -3274,9 +3275,6 @@ msgstr "© 2005 - %s Settlers Freaks"
 msgid "Â© 2005 - %s Settlers Freaks"
 msgstr "Â© 2005 - %s Settlers Freaks"
 
-#~ msgid "AI'm back"
-#~ msgstr "AI'm back"
-
 #~ msgid "Africans"
 #~ msgstr "Nubier"
 
@@ -3291,9 +3289,3 @@ msgstr "Â© 2005 - %s Settlers Freaks"
 
 #~ msgid "Vikings"
 #~ msgstr "Wikinger"
-
-#~ msgid "© 2005 - 2011 Settlers Freaks"
-#~ msgstr "© 2005 - 2011 Settlers Freaks"
-
-#~ msgid "© 2005 - 2012 Settlers Freaks"
-#~ msgstr "© 2005 - 2012 Settlers Freaks"

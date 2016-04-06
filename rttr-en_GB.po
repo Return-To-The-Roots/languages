@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: Siedler II.5 RttR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-15 11:20+0200\n"
-"PO-Revision-Date: 2013-08-10 16:29+0000\n"
+"PO-Revision-Date: 2015-12-31 08:49+0000\n"
 "Last-Translator: Szekta <szekta@o2.pl>\n"
 "Language-Team: Siedler II.5 RttR <sf-team@siedler25.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-10-12 07:28+0000\n"
-"X-Generator: Launchpad (build 16799)\n"
+"X-Launchpad-Export-Date: 2016-04-06 10:57+0000\n"
+"X-Generator: Launchpad (build 17972)\n"
 "X-Poedit-Country: UNITED KINGDOM\n"
 "X-Poedit-Language: English\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
@@ -32,15 +32,15 @@ msgstr " (AI)"
 
 #: GameClient.cpp:686 GameServer.cpp:1750
 msgid " (easy)"
-msgstr ""
+msgstr " (easy)"
 
 #: GameClient.cpp:692 GameServer.cpp:1756
 msgid " (hard)"
-msgstr ""
+msgstr " (hard)"
 
 #: GameClient.cpp:689 GameServer.cpp:1753
 msgid " (medium)"
-msgstr ""
+msgstr " (medium)"
 
 #: ingameWindows/iwAction.cpp:232
 msgid " boards"
@@ -95,11 +95,11 @@ msgstr "(stopped)"
 
 #: addons/AddonBurnDuration.h:56
 msgid "+100%"
-msgstr ""
+msgstr "+100%"
 
 #: addons/AddonBurnDuration.h:55
 msgid "+50%"
-msgstr ""
+msgstr "+50%"
 
 #: desktops/dskHostGame.cpp:196 desktops/dskHostGame.cpp:314
 #: desktops/dskHostGame.cpp:323
@@ -108,19 +108,19 @@ msgstr "-"
 
 #: addons/AddonBurnDuration.h:51
 msgid "-25%"
-msgstr ""
+msgstr "-25%"
 
 #: addons/AddonBurnDuration.h:52
 msgid "-50%"
-msgstr ""
+msgstr "-50%"
 
 #: addons/AddonBurnDuration.h:53
 msgid "-75%"
-msgstr ""
+msgstr "-75%"
 
 #: addons/AddonBurnDuration.h:54
 msgid "-90%"
-msgstr ""
+msgstr "-90%"
 
 #: ingameWindows/iwAction.cpp:115
 msgid "-> Build castle"
@@ -298,7 +298,7 @@ msgstr "Add-ons:"
 
 #: addons/AddonMilitaryAid.h:41
 msgid "Adds military building indicators in construction aid mode."
-msgstr ""
+msgstr "Adds military building indicators in construction aid mode."
 
 #: addons/AddonCatapultGraphics.h:41
 msgid "Adds new graphics for catapults to the game."
@@ -310,6 +310,9 @@ msgid ""
 " Pressing this button will send all soldiers of the highest available rank to a warehouse \n"
 " (at least 1 Soldier will remain in the building)"
 msgstr ""
+"Adds the 'send home' button to military buildings.\n"
+" Pressing this button will send all soldiers of the highest available rank to a warehouse \n"
+" (at least 1 Soldier will remain in the building)"
 
 #: addons/AddonAdjustMilitaryStrength.h:48
 msgid "Adjust military strength"
@@ -332,6 +335,8 @@ msgid ""
 "Allied players can no longer push\n"
 "your borders back with new buildings."
 msgstr ""
+"Allied players can no longer push\n"
+"your borders back with new buildings."
 
 #: ingameWindows/iwChat.cpp:56 addons/AddonStatisticsVisibility.h:46
 msgid "Allies"
@@ -343,6 +348,9 @@ msgid ""
 "\n"
 "for 1 iron + 1 coal instead of 2 iron + 2 coal"
 msgstr ""
+"Allows a smith to create 1 shield & 1 sword\n"
+"\n"
+"for 1 iron + 1 coal instead of 2 iron + 2 coal"
 
 #: addons/AddonCustomBuildSequence.h:39
 msgid ""
@@ -387,15 +395,14 @@ msgstr ""
 "Wells will now dry out."
 
 #: addons/AddonInexhaustibleGraniteMines.h:21
-#, fuzzy
 msgid ""
 "Allows to have unlimited Granite resources.\n"
 "\n"
 "Granite mines will never be depleted."
 msgstr ""
-"Allows to have unlimited resources.\n"
+"Allows to have unlimited Granite resources.\n"
 "\n"
-"Mines will never be depleted."
+"Granite mines will never be depleted."
 
 #: addons/AddonInexhaustibleMines.h:39
 msgid ""
@@ -409,7 +416,7 @@ msgstr ""
 
 #: addons/AddonToolOrdering.h:12
 msgid "Allows to order a specific amount of tools for priority production."
-msgstr ""
+msgstr "Allows to order a specific amount of tools for priority production."
 
 #: addons/AddonChangeGoldDeposits.h:40
 msgid ""
@@ -435,7 +442,7 @@ msgstr "Allows to send wares/figures to allied warehouses"
 
 #: addons/AddonMoreAnimals.h:39
 msgid "Allows you to adjust the percentage of trees that spawn animals."
-msgstr ""
+msgstr "Allows you to adjust the percentage of trees that spawn animals."
 
 #: addons/AddonRefundOnEmergency.h:40
 msgid ""
@@ -470,12 +477,16 @@ msgid ""
 "Allows you to select the highest rank for soldiers\n"
 "\n"
 msgstr ""
+"Allows you to select the highest rank for soldiers\n"
+"\n"
 
 #: addons/AddonShipSpeed.h:37
 msgid ""
 "Allows you to set ship movement speed\n"
 "\n"
 msgstr ""
+"Allows you to set ship movement speed\n"
+"\n"
 
 #: SerializedGameData.cpp:238
 msgid "An error occured while saving which was suppressed!"
@@ -512,7 +523,7 @@ msgstr "As the teams are locked, you cannot make treaties of any kind."
 
 #: addons/AddonAsyncDebug.h:36
 msgid "Async debugging (REALLY SLOW!)"
-msgstr ""
+msgstr "Async debugging (REALLY SLOW!)"
 
 #: ingameWindows/iwAction.cpp:384
 msgid "Attack not possible."
@@ -680,9 +691,8 @@ msgid "Change gold deposits"
 msgstr "Change gold deposits"
 
 #: addons/AddonMetalworksBehaviorOnZero.h:11
-#, fuzzy
 msgid "Change metalworks behavior on zero"
-msgstr "Change defender behaviour"
+msgstr "Change metalworks behaviour on zero"
 
 #: addons/AddonStatisticsVisibility.h:38
 msgid "Change the visibility of your ingame statistics"
@@ -694,6 +704,9 @@ msgid ""
 "Produce random ware: S2-Default\n"
 "Produce nothing: RttR-Default"
 msgstr ""
+"Change the working behaviour of metalworks if all sliders in the tools window are set to zero.\n"
+"Produce random ware: S2-Default\n"
+"Produce nothing: RttR-Default"
 
 #: ingameWindows/iwDistribution.cpp:98 ingameWindows/iwDistribution.cpp:131
 #: gameTypes/BuildingTypes.h:157 gameTypes/JobTypes.h:96
@@ -765,7 +778,7 @@ msgstr "Common"
 
 #: figures/nofMetalworker.cpp:143
 msgid "Completed the ordered amount of tools."
-msgstr ""
+msgstr "Completed the ordered amount of tools."
 
 #: GameClient.cpp:679 GameServer.cpp:1740
 #, c-format
@@ -858,7 +871,7 @@ msgstr "Custom build sequence"
 
 #: addons/AddonInexhaustibleFish.h:21
 msgid "Deactivates reduction of fish population.\n"
-msgstr ""
+msgstr "Deactivates reduction of fish population.\n"
 
 #: addons/AddonStatisticsVisibility.h:39
 msgid ""
@@ -1019,7 +1032,7 @@ msgstr ""
 
 #: addons/AddonBattlefieldPromotion.h:36
 msgid "Enable battlefield promotions"
-msgstr ""
+msgstr "Enable battlefield promotions"
 
 #: addons/AddonCharburner.h:37
 msgid "Enable charburner"
@@ -1027,7 +1040,7 @@ msgstr "Enable char-burner"
 
 #: addons/AddonAsyncDebug.h:37
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
-msgstr ""
+msgstr "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
 
 #: ingameWindows/iwOptionsWindow.cpp:112
 msgid "End game"
@@ -1241,9 +1254,8 @@ msgid "General"
 msgstr "General"
 
 #: addons/AddonMaxRank.h:51
-#, fuzzy
 msgid "General (4)"
-msgstr "General"
+msgstr "General (4)"
 
 #: ingameWindows/iwMainMenu.cpp:74
 msgid "General statistics"
@@ -1263,17 +1275,15 @@ msgstr "Go to headquarters"
 
 #: ingameWindows/iwBuilding.cpp:118
 msgid "Go to next building of same type"
-msgstr ""
+msgstr "Go to next building of same type"
 
 #: ingameWindows/iwMilitaryBuilding.cpp:77
-#, fuzzy
 msgid "Go to next military building"
-msgstr "Disable Demolition of military buildings"
+msgstr "Go to next military building"
 
 #: ingameWindows/iwBaseWarehouse.cpp:79
-#, fuzzy
 msgid "Go to next warehouse"
-msgstr "Storehouse"
+msgstr "Go to next warehouse"
 
 #: ingameWindows/iwBaseWarehouse.cpp:77 ingameWindows/iwBuilding.cpp:105
 #: ingameWindows/iwBuildingSite.cpp:65 ingameWindows/iwMilitaryBuilding.cpp:72
@@ -1328,9 +1338,8 @@ msgid "Guardhouse"
 msgstr "Guardhouse"
 
 #: addons/AddonHalfCostMilEquip.h:35
-#, fuzzy
 msgid "Half cost recruits"
-msgstr "More recruits"
+msgstr "Half cost recruits"
 
 #: gameTypes/GoodTypes.h:105
 msgid "Ham"
@@ -1403,7 +1412,7 @@ msgstr "IPv6"
 
 #: addons/AddonNoAlliedPush.h:19
 msgid "Improved Alliance"
-msgstr ""
+msgstr "Improved Alliance"
 
 #: desktops/dskSelectMap.cpp:358
 msgid "Incomplete message was received!"
@@ -1411,33 +1420,31 @@ msgstr "Incomplete message was received!"
 
 #: addons/AddonMoreAnimals.h:45
 msgid "Increase 100%"
-msgstr ""
+msgstr "Increase by 100%"
 
 #: addons/AddonMoreAnimals.h:48
 msgid "Increase 1000%"
-msgstr ""
+msgstr "Increase by 1000%"
 
 #: addons/AddonMoreAnimals.h:46
 msgid "Increase 200%"
-msgstr ""
+msgstr "Increase by 200%"
 
 #: addons/AddonMoreAnimals.h:44
 msgid "Increase 50%"
-msgstr ""
+msgstr "Increase by 50%"
 
 #: addons/AddonMoreAnimals.h:47
 msgid "Increase 500%"
-msgstr ""
+msgstr "Increase by 500%"
 
 #: addons/AddonInexhaustibleFish.h:20
-#, fuzzy
 msgid "Inexhaustible Fish"
-msgstr "Inexhaustible Mines"
+msgstr "Inexhaustible Fish"
 
 #: addons/AddonInexhaustibleGraniteMines.h:20
-#, fuzzy
 msgid "Inexhaustible Granite Mines"
-msgstr "Inexhaustible Mines"
+msgstr "Inexhaustible Granite Mines"
 
 #: addons/AddonInexhaustibleMines.h:38
 msgid "Inexhaustible Mines"
@@ -1513,7 +1520,7 @@ msgstr "Join Game"
 #: GameClient.cpp:1943
 #, c-format
 msgid "Jump finished (%.3f seconds)."
-msgstr ""
+msgstr "Jump finished (%.3f seconds)."
 
 #: desktops/dskGameInterface.cpp:616 desktops/dskOptions.cpp:660
 #: ingameWindows/iwOptionsWindow.cpp:75 ingameWindows/iwOptionsWindow.cpp:128
@@ -1741,14 +1748,12 @@ msgid "Military"
 msgstr "Military"
 
 #: addons/AddonMilitaryAid.h:40
-#, fuzzy
 msgid "Military Aid"
-msgstr "Military"
+msgstr "Military Aid"
 
 #: addons/AddonMilitaryControl.h:37
-#, fuzzy
 msgid "Military Control"
-msgstr "Military strength"
+msgstr "Military Control"
 
 #: buildings/nobMilitary.cpp:999
 msgid "Military building captured"
@@ -1825,7 +1830,7 @@ msgstr "More repeats"
 
 #: addons/AddonMoreAnimals.h:38
 msgid "More trees spawn animals"
-msgstr ""
+msgstr "More trees spawn animals"
 
 #: desktops/dskMainMenu.cpp:79
 msgid "Multiplayer"
@@ -1947,7 +1952,7 @@ msgstr "Note: Game settings changed by the server%s"
 #: GameClientGF_Replay.cpp:129
 #, c-format
 msgid "Notice: Overall asynchronous frame count: %u"
-msgstr ""
+msgstr "Notice: Overall asynchronous frame count: %u"
 
 #: GameClientGF_Replay.cpp:120
 #, c-format
@@ -1956,7 +1961,7 @@ msgstr "Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, AVG
 
 #: ingameWindows/iwAction.cpp:340
 msgid "Notify allies of this location"
-msgstr ""
+msgstr "Notify allies of this location"
 
 #: ingameWindows/iwAction.cpp:406
 msgid "Number of attackers"
@@ -1987,9 +1992,8 @@ msgid "Officer"
 msgstr "Officer"
 
 #: addons/AddonMaxRank.h:52
-#, fuzzy
 msgid "Officer (3)"
-msgstr "Officer"
+msgstr "Officer (3)"
 
 #: desktops/dskSelectMap.cpp:119
 msgid "Old maps"
@@ -2152,26 +2156,24 @@ msgid "Private"
 msgstr "Private"
 
 #: addons/AddonMaxRank.h:55
-#, fuzzy
 msgid "Private (0)"
-msgstr "Private"
+msgstr "Private (0)"
 
 #: gameTypes/JobTypes.h:87
 msgid "Private first class"
 msgstr "Private first class"
 
 #: addons/AddonMaxRank.h:54
-#, fuzzy
 msgid "Privatefc (1)"
-msgstr "Private"
+msgstr "Privatefc (1)"
 
 #: addons/AddonMetalworksBehaviorOnZero.h:19
 msgid "Produce nothing"
-msgstr ""
+msgstr "Produce nothing"
 
 #: addons/AddonMetalworksBehaviorOnZero.h:18
 msgid "Produce random ware"
-msgstr ""
+msgstr "Produce random ware"
 
 #: ingameWindows/iwBuildingProductivities.cpp:86
 #: ingameWindows/iwMainMenu.cpp:82 ingameWindows/iwStatistics.cpp:125
@@ -2250,7 +2252,7 @@ msgstr "Ranger"
 
 #: gameData/BuildingConsts.cpp:214
 msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
-msgstr "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armoury) and tools (in the metalworks)."
+msgstr "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to make weapons (in the Armoury) and tools (in the metalworks)."
 
 #: desktops/dskMainMenu.cpp:85 desktops/dskOptions.cpp:123
 msgid "Readme"
@@ -2346,9 +2348,9 @@ msgid "Return To The Roots - v%s-%s"
 msgstr "Return To The Roots - v%s-%s"
 
 #: ingameWindows/iwOptionsWindow.cpp:69
-#, fuzzy, c-format
+#, c-format
 msgid "Return To The Roots v%s-%s"
-msgstr "Return To The Roots - v%s-%s"
+msgstr "Return To The Roots v%s-%s"
 
 #: ingameWindows/iwShip.cpp:79
 msgid "Return to harbor"
@@ -2407,9 +2409,8 @@ msgid "Sea"
 msgstr "Sea"
 
 #: addons/AddonSeaAttack.h:42
-#, fuzzy
 msgid "Sea attack settings"
-msgstr "Weak attackers"
+msgstr "Sea attack settings"
 
 #: ingameWindows/iwBaseWarehouse.cpp:75
 msgid "Select all"
@@ -2425,7 +2426,7 @@ msgstr "Send"
 
 #: ingameWindows/iwMilitaryBuilding.cpp:80
 msgid "Send max rank soldiers to a warehouse"
-msgstr ""
+msgstr "Send max rank soldiers to a warehouse"
 
 #: ingameWindows/iwAction.cpp:263 ingameWindows/iwAction.cpp:271
 msgid "Send out scout"
@@ -2440,9 +2441,8 @@ msgid "Sergeant"
 msgstr "Sergeant"
 
 #: addons/AddonMaxRank.h:53
-#, fuzzy
 msgid "Sergeant (2)"
-msgstr "Sergeant"
+msgstr "Sergeant (2)"
 
 #: desktops/dskLobby.cpp:78
 msgid "Server"
@@ -2467,20 +2467,19 @@ msgstr "Server port:"
 
 #: addons/AddonBurnDuration.h:37
 msgid "Set duration fires burn"
-msgstr ""
+msgstr "Set duration fires burn"
 
 #: addons/AddonMaxRank.h:46
 msgid "Set max rank"
-msgstr ""
+msgstr "Set max rank"
 
 #: addons/AddonMaxWaterwayLength.h:38
 msgid "Set maximum waterway length"
 msgstr "Set maximum waterway length"
 
 #: addons/AddonShipSpeed.h:36
-#, fuzzy
 msgid "Set ship speed"
-msgstr "A new ship is ready"
+msgstr "Set ship speed"
 
 #: ingameWindows/iwSettings.cpp:53
 msgid "Settings"
@@ -2557,7 +2556,7 @@ msgstr "Socks v4"
 
 #: addons/AddonBattlefieldPromotion.h:37
 msgid "Soldiers winning a fight increase in rank."
-msgstr ""
+msgstr "Soldiers winning a fight increase in rank."
 
 #: desktops/dskDirectIP.cpp:80 desktops/dskLobby.cpp:149
 #: desktops/dskLobby.cpp:165 desktops/dskOptions.cpp:604
@@ -2885,9 +2884,8 @@ msgid "This mine is exhausted"
 msgstr "This mine is exhausted"
 
 #: figures/nofBuildingWorker.cpp:416
-#, fuzzy
 msgid "This well is dried out"
-msgstr "This well has dried out"
+msgstr "This well is dried out"
 
 #: ingameWindows/iwSave.cpp:68
 msgid "Time"
@@ -2907,11 +2905,11 @@ msgstr "Tongs"
 
 #: ingameWindows/iwDirectIPConnect.cpp:262
 msgid "Too short Message received!"
-msgstr "Too short message received!"
+msgstr "Too short a message received!"
 
 #: addons/AddonToolOrdering.h:11
 msgid "Tool ordering"
-msgstr ""
+msgstr "Tool ordering"
 
 #: ingameWindows/iwMainMenu.cpp:71
 #: ingameWindows/iwMerchandiseStatistics.cpp:84 ingameWindows/iwTools.cpp:48
@@ -2997,7 +2995,7 @@ msgstr "Use S2 Defaults"
 
 #: desktops/dskOptions.cpp:170
 msgid "Use UPnP"
-msgstr ""
+msgstr "Use UPnP"
 
 #: ingameWindows/iwLobbyConnect.cpp:53
 msgid "Username:"
@@ -3175,7 +3173,7 @@ msgstr ""
 
 #: desktops/dskLobby.cpp:149
 msgid "You can't join that game with your version!"
-msgstr ""
+msgstr "You can't join that game with your version!"
 
 #: desktops/dskHostGame.cpp:653
 msgid "You have 10 seconds until game starts"
@@ -3195,7 +3193,7 @@ msgstr "You've won"
 
 #: GameClientPlayer.cpp:1867
 msgid "Your ally wishes to notify you of this location"
-msgstr ""
+msgstr "Your ally wishes to notify you of this location"
 
 #: addons/AddonBurnDuration.h:38
 msgid ""
@@ -3210,6 +3208,16 @@ msgid ""
 "Increased by 50%\n"
 "Increased by 100%\n"
 msgstr ""
+"adjusts how long a building will burn for when it is destroyed.\n"
+"\n"
+"Possible values are:\n"
+"Default\n"
+"Reduced by 25%\n"
+"Reduced by 50%\n"
+"Reduced by 75%\n"
+"Reduced by 90%\n"
+"Increased by 50%\n"
+"Increased by 100%\n"
 
 #: GameClient.cpp:1931
 #, c-format
@@ -3217,17 +3225,16 @@ msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 
 #: addons/AddonMoreAnimals.h:43
-#, fuzzy
 msgid "default"
-msgstr "Default"
+msgstr "default"
 
 #: addons/AddonSeaAttack.h:48
 msgid "enemy harbors block"
-msgstr ""
+msgstr "enemy harbours block"
 
 #: addons/AddonSeaAttack.h:47
 msgid "enemy harbors don't block"
-msgstr ""
+msgstr "enemy harbours don't block"
 
 #: desktops/dskDirectIP.cpp:57 desktops/dskLobby.cpp:64
 #: desktops/dskMainMenu.cpp:72 desktops/dskMultiPlayer.cpp:62
@@ -3240,9 +3247,8 @@ msgid "n/a"
 msgstr "n/a"
 
 #: addons/AddonSeaAttack.h:49
-#, fuzzy
 msgid "no sea attacks"
-msgstr "More attackers"
+msgstr "no sea attacks"
 
 #: PostMsg.cpp:104
 msgid "non-aggression pact"
@@ -3261,6 +3267,8 @@ msgid ""
 "set restriction level for sea attacks\n"
 "\n"
 msgstr ""
+"set restriction level for sea attacks\n"
+"\n"
 
 #: ingameWindows/iwSkipGFs.cpp:47
 msgid "to GameFrame:"
@@ -3275,19 +3283,16 @@ msgid "various anonymous donators"
 msgstr "Various anonymous donators"
 
 #: desktops/dskDirectIP.cpp:60
-#, fuzzy, c-format
+#, c-format
 msgid "© 2005 - %s Settlers Freaks"
-msgstr "© 2005 - 2011 Settlers Freaks"
+msgstr "© 2005 - %s Settlers Freaks"
 
 #: desktops/dskLobby.cpp:66 desktops/dskMainMenu.cpp:74
 #: desktops/dskMultiPlayer.cpp:64 desktops/dskSinglePlayer.cpp:71
 #: ingameWindows/iwOptionsWindow.cpp:71
-#, fuzzy, c-format
+#, c-format
 msgid "Â© 2005 - %s Settlers Freaks"
-msgstr "© 2005 - 2011 Settlers Freaks"
-
-#~ msgid "AI'm back"
-#~ msgstr "AI'm back"
+msgstr "Â© 2005 - %s Settlers Freaks"
 
 #~ msgid "Africans"
 #~ msgstr "Africans"
@@ -3303,6 +3308,3 @@ msgstr "© 2005 - 2011 Settlers Freaks"
 
 #~ msgid "Vikings"
 #~ msgstr "Vikings"
-
-#~ msgid "© 2005 - 2012 Settlers Freaks"
-#~ msgstr "© 2005 - 2012 Settlers Freaks"
