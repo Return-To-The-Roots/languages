@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-07-19 18:36+0000\n"
-"X-Generator: Launchpad (build 18147)\n"
+"X-Launchpad-Export-Date: 2016-07-27 10:36+0000\n"
+"X-Generator: Launchpad (build 18153)\n"
 "X-Poedit-Country: CZECH REPUBLIC\n"
 "X-Poedit-Language: Czech\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -948,9 +948,9 @@ msgid "Duration:"
 msgstr "Délka:"
 
 #: postSystem/DiplomacyPostQuestion.cpp:35
-#, fuzzy, c-format
+#, c-format
 msgid "Duration: %d GF (%s)"
-msgstr "Délka: %u GF (%s)"
+msgstr ""
 
 #: postSystem/DiplomacyPostQuestion.cpp:32
 msgid "Duration: Forever"
@@ -1030,19 +1030,17 @@ msgid "Error"
 msgstr "Chyba"
 
 #: GameClient.cpp:1494
-#, fuzzy
 msgid "Error decompressing lua file"
-msgstr "Chyba při otvírání souboru!"
+msgstr ""
 
 #: GameClient.cpp:1483
-#, fuzzy
 msgid "Error decompressing map file"
-msgstr "Chyba při otvírání souboru!"
+msgstr ""
 
 #: GameClient.cpp:1516
-#, fuzzy, c-format
+#, c-format
 msgid "Error when loading game from replay: %s\n"
-msgstr "Při přehrávání replaye se vyskytla chyba!"
+msgstr ""
 
 #: ingameWindows/iwPlayReplay.cpp:190
 msgid "Error while playing replay!"
@@ -3359,9 +3357,9 @@ msgid "You can't join that game with your version!"
 msgstr ""
 
 #: desktops/dskHostGame.cpp:682
-#, fuzzy, c-format
+#, c-format
 msgid "You have %u seconds until game starts"
-msgstr "Hra začne za 10 sekund"
+msgstr ""
 
 #: desktops/dskOptions.cpp:567 desktops/dskOptions.cpp:581
 msgid "You need to restart your game to change the screen resolution!"
@@ -3442,18 +3440,3 @@ msgstr "mnoho anonymních dárců"
 #, c-format
 msgid "Â© 2005 - %s Settlers Freaks"
 msgstr ""
-
-#~ msgid "Error: Replay is too old!"
-#~ msgstr "Chyba: Replay je příliš starý!"
-
-#~ msgid "Program version is too old to play that replay!"
-#~ msgstr "Verze programu je příliš zastaralá k přehrání replaye!"
-
-#~ msgid "Temporary map file was not found!"
-#~ msgstr "Dočasný soubor s mapou nebyl nalezen!"
-
-#~ msgid "non-aggression pact"
-#~ msgstr "pakt o neútočení"
-
-#~ msgid "treaty of alliance"
-#~ msgstr "spojenecká smlouva"

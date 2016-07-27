@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-07-19 18:36+0000\n"
-"X-Generator: Launchpad (build 18147)\n"
+"X-Launchpad-Export-Date: 2016-07-27 10:36+0000\n"
+"X-Generator: Launchpad (build 18153)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -946,9 +946,9 @@ msgid "Duration:"
 msgstr "Trukmė:"
 
 #: postSystem/DiplomacyPostQuestion.cpp:35
-#, fuzzy, c-format
+#, c-format
 msgid "Duration: %d GF (%s)"
-msgstr "Trukmė:"
+msgstr ""
 
 #: postSystem/DiplomacyPostQuestion.cpp:32
 msgid "Duration: Forever"
@@ -1026,19 +1026,17 @@ msgid "Error"
 msgstr "Klaida"
 
 #: GameClient.cpp:1494
-#, fuzzy
 msgid "Error decompressing lua file"
-msgstr "Klaida atidarant failą!"
+msgstr ""
 
 #: GameClient.cpp:1483
-#, fuzzy
 msgid "Error decompressing map file"
-msgstr "Klaida atidarant failą!"
+msgstr ""
 
 #: GameClient.cpp:1516
-#, fuzzy, c-format
+#, c-format
 msgid "Error when loading game from replay: %s\n"
-msgstr "Klaida žaidžiant pakartojimą!"
+msgstr ""
 
 #: ingameWindows/iwPlayReplay.cpp:190
 msgid "Error while playing replay!"
@@ -3346,9 +3344,9 @@ msgid "You can't join that game with your version!"
 msgstr ""
 
 #: desktops/dskHostGame.cpp:682
-#, fuzzy, c-format
+#, c-format
 msgid "You have %u seconds until game starts"
-msgstr "Tu turi 10 sekundžių kol žaidimas prasidės"
+msgstr ""
 
 #: desktops/dskOptions.cpp:567 desktops/dskOptions.cpp:581
 msgid "You need to restart your game to change the screen resolution!"
@@ -3429,15 +3427,3 @@ msgstr "Įvairus anoniminiai mecenatai"
 #, c-format
 msgid "Â© 2005 - %s Settlers Freaks"
 msgstr ""
-
-#~ msgid "Error: Replay is too old!"
-#~ msgstr "Klaida: Pakartojimas per senas!"
-
-#~ msgid "Program version is too old to play that replay!"
-#~ msgstr "Programos versija per sena norint žaisti pakartojima!"
-
-#~ msgid "non-aggression pact"
-#~ msgstr "nepuolimo sutartis"
-
-#~ msgid "treaty of alliance"
-#~ msgstr "Alijanso sutartis"

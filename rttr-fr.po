@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-07-19 18:37+0000\n"
-"X-Generator: Launchpad (build 18147)\n"
+"X-Launchpad-Export-Date: 2016-07-27 10:36+0000\n"
+"X-Generator: Launchpad (build 18153)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -941,9 +941,9 @@ msgid "Duration:"
 msgstr "Durée :"
 
 #: postSystem/DiplomacyPostQuestion.cpp:35
-#, fuzzy, c-format
+#, c-format
 msgid "Duration: %d GF (%s)"
-msgstr "Durée : %u GF (%s)"
+msgstr ""
 
 #: postSystem/DiplomacyPostQuestion.cpp:32
 msgid "Duration: Forever"
@@ -1021,19 +1021,17 @@ msgid "Error"
 msgstr "Erreur"
 
 #: GameClient.cpp:1494
-#, fuzzy
 msgid "Error decompressing lua file"
-msgstr "Erreur d'ouverture du fichier"
+msgstr ""
 
 #: GameClient.cpp:1483
-#, fuzzy
 msgid "Error decompressing map file"
-msgstr "Erreur d'ouverture du fichier"
+msgstr ""
 
 #: GameClient.cpp:1516
-#, fuzzy, c-format
+#, c-format
 msgid "Error when loading game from replay: %s\n"
-msgstr "Erreur de lecture du replay"
+msgstr ""
 
 #: ingameWindows/iwPlayReplay.cpp:190
 msgid "Error while playing replay!"
@@ -3341,9 +3339,9 @@ msgid "You can't join that game with your version!"
 msgstr "Vous nes pouvez pas rejoindre la partie avec votre version !"
 
 #: desktops/dskHostGame.cpp:682
-#, fuzzy, c-format
+#, c-format
 msgid "You have %u seconds until game starts"
-msgstr "Vous disposez de 10 secondes, avant que ce jeu commence."
+msgstr ""
 
 #: desktops/dskOptions.cpp:567 desktops/dskOptions.cpp:581
 msgid "You need to restart your game to change the screen resolution!"
@@ -3424,12 +3422,3 @@ msgstr "divers donateurs anonymes"
 #, c-format
 msgid "Â© 2005 - %s Settlers Freaks"
 msgstr "Â© 2005 - %s Settlers Freaks"
-
-#~ msgid "Error: Replay is too old!"
-#~ msgstr "Erreur: ce replay est trop vieux !"
-
-#~ msgid "non-aggression pact"
-#~ msgstr "pacte de non agression"
-
-#~ msgid "treaty of alliance"
-#~ msgstr "traité d'alliance"
