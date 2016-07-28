@@ -2,6 +2,14 @@
 
 Language files for s25client
 
+## Importing translations from launchpad
+
+- Checkout current master branch (`git checkout master && git pull origin`)
+- Request export from launchpad (PO format): https://translations.launchpad.net/s25rttr/s25client/+export
+- Put downloaded files into RTTR/languages overwriting existing ones
+- IMPORTANT: Run `make -B translations` in the build directory of rttr so PO files get sorted. Check the diff that there are only minor changes/updates, no complete reordering.
+- Commit and create a pull request with the change
+
 ## Updating po template (rttr.pot)
 
 - Checkout current master branch
