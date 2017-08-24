@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: Siedler II.5 RttR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-19 22:56+0200\n"
-"PO-Revision-Date: 2017-03-11 18:03-0500\n"
+"PO-Revision-Date: 2017-08-24 12:54+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Siedler II.5 RttR <sf-team@siedler25.org>\n"
-"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-07-27 10:36+0000\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Launchpad-Export-Date: 2017-08-24 13:01+0000\n"
+"X-Generator: Launchpad (build 18446)\n"
+"Language: fr_FR\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -65,7 +65,7 @@ msgstr "%u/%u"
 
 #: ingameWindows/iwDirectIPCreate.cpp:66
 msgid "'s Game"
-msgstr " est hôte"
+msgstr "est hôte"
 
 #: world/GameWorldView.cpp:365
 #, c-format
@@ -726,11 +726,13 @@ msgstr "Connexion"
 msgid "Connecting to Lobby"
 msgstr "Connexion au salon"
 
-#: ingameWindows/iwDirectIPConnect.cpp:136 ingameWindows/iwLobbyConnect.cpp:165
+#: ingameWindows/iwDirectIPConnect.cpp:136
+#: ingameWindows/iwLobbyConnect.cpp:165
 msgid "Connecting with Host..."
 msgstr "Connexion à l'hôte"
 
-#: ingameWindows/iwDirectIPConnect.cpp:142 ingameWindows/iwLobbyConnect.cpp:174
+#: ingameWindows/iwDirectIPConnect.cpp:142
+#: ingameWindows/iwLobbyConnect.cpp:174
 msgid "Connection failed!"
 msgstr "Connexion échouée !"
 
@@ -900,9 +902,8 @@ msgid "Display options"
 msgstr "Options d'affichage"
 
 #: addons/AddonMilitaryHitpoints.h:33
-#, fuzzy
 msgid "Display the hitpoints of units in military buildings."
-msgstr "Afficher les impacts des unités dans les bâtiments militaires."
+msgstr ""
 
 #: ingameWindows/iwDistribution.cpp:45 ingameWindows/iwMainMenu.cpp:51
 msgid "Distribution of goods"
@@ -1005,7 +1006,7 @@ msgstr "Quitter la partie"
 
 #: ingameWindows/iwEndgame.cpp:27
 msgid "End game?"
-msgstr "Fin du jeu ?"
+msgstr "Terminer la partie ?"
 
 #: ingameWindows/iwChat.cpp:41
 msgid "Enemies"
@@ -1304,6 +1305,10 @@ msgstr "Objectifs :"
 msgid "Gold"
 msgstr "Or"
 
+#: ingameWindows/iwMilitaryBuilding.cpp:60
+msgid "Gold delivery"
+msgstr "Livraison d'or"
+
 #: gameData/BuildingConsts.cpp:37 ingameWindows/iwDistribution.cpp:65
 msgid "Gold mine"
 msgstr "Mine d'or"
@@ -1367,10 +1372,10 @@ msgstr "Quartier général"
 
 #: ingameWindows/iwBuilding.cpp:68 ingameWindows/iwBuildingSite.cpp:40
 #: ingameWindows/iwBuildings.cpp:109 ingameWindows/iwDistribution.cpp:156
-#: ingameWindows/iwMerchandiseStatistics.cpp:77 ingameWindows/iwMilitary.cpp:46
-#: ingameWindows/iwMilitaryBuilding.cpp:53 ingameWindows/iwStatistics.cpp:127
-#: ingameWindows/iwTools.cpp:61 ingameWindows/iwTransport.cpp:52
-#: ingameWindows/iwWares.cpp:176
+#: ingameWindows/iwMerchandiseStatistics.cpp:77
+#: ingameWindows/iwMilitary.cpp:46 ingameWindows/iwMilitaryBuilding.cpp:53
+#: ingameWindows/iwStatistics.cpp:127 ingameWindows/iwTools.cpp:61
+#: ingameWindows/iwTransport.cpp:52 ingameWindows/iwWares.cpp:176
 msgid "Help"
 msgstr "Aide"
 
@@ -1485,7 +1490,7 @@ msgstr "Minerai de fer"
 
 #: gameData/JobConsts.cpp:39
 msgid "Iron founder"
-msgstr "Fondeur"
+msgstr "Fonderie"
 
 #: gameData/BuildingConsts.cpp:36 ingameWindows/iwDistribution.cpp:62
 msgid "Iron mine"
@@ -1624,7 +1629,7 @@ msgstr "Charger une partie..."
 #: Loader.cpp:256 Loader.cpp:1096
 #, c-format
 msgid "Loading \"%s\": "
-msgstr "Chargement de « %s » :"
+msgstr "Chargement de « %s » : "
 
 #: Loader.cpp:115
 #, c-format
@@ -1794,9 +1799,8 @@ msgid "Military Control"
 msgstr "Contrôle militaire"
 
 #: addons/AddonMilitaryHitpoints.h:32
-#, fuzzy
 msgid "Military Hitpoints"
-msgstr "Impact militaire"
+msgstr ""
 
 #: buildings/nobMilitary.cpp:1002
 msgid "Military building captured"
@@ -2173,8 +2177,8 @@ msgstr "Jouer dans cet ordre"
 msgid "Played"
 msgstr "Joué"
 
-#: desktops/dskLAN.cpp:60 desktops/dskLobby.cpp:63 desktops/dskSelectMap.cpp:81
-#: ingameWindows/iwPlayReplay.cpp:65
+#: desktops/dskLAN.cpp:60 desktops/dskLobby.cpp:63
+#: desktops/dskSelectMap.cpp:81 ingameWindows/iwPlayReplay.cpp:65
 msgid "Player"
 msgstr "Joueur"
 
@@ -2229,7 +2233,7 @@ msgstr "Points"
 
 #: desktops/dskGameInterface.cpp:109 ingameWindows/iwPostWindow.cpp:65
 msgid "Post office"
-msgstr "Courrier"
+msgstr "Bureau de poste"
 
 #: gameData/JobConsts.cpp:45
 msgid "Private"
@@ -2254,6 +2258,10 @@ msgstr "Production oui/non"
 #: addons/AddonMetalworksBehaviorOnZero.h:18
 msgid "Produce random ware"
 msgstr "Production aléatoire"
+
+#: ingameWindows/iwBuilding.cpp:73
+msgid "Production on/off"
+msgstr "Production oui/non"
 
 #: ingameWindows/iwBuildingProductivities.cpp:83
 #: ingameWindows/iwMainMenu.cpp:66 ingameWindows/iwStatistics.cpp:116
@@ -2567,7 +2575,8 @@ msgstr "Nom du serveur :"
 msgid "Server management"
 msgstr "Gestion du serveur"
 
-#: ingameWindows/iwDirectIPConnect.cpp:45 ingameWindows/iwDirectIPCreate.cpp:42
+#: ingameWindows/iwDirectIPConnect.cpp:45
+#: ingameWindows/iwDirectIPCreate.cpp:42
 msgid "Server-Port:"
 msgstr "Port du serveur :"
 
@@ -2760,9 +2769,8 @@ msgid "Stock"
 msgstr "Stock"
 
 #: ingameWindows/iwPlayReplay.cpp:65
-#, fuzzy
 msgid "Stocktaking date"
-msgstr "Date de stockage"
+msgstr ""
 
 #: gameData/JobConsts.cpp:29
 msgid "Stonemason"
@@ -2967,7 +2975,7 @@ msgstr ""
 "\n"
 "Vous pouvez décider en cas de nécessité de déstocker ou de stopper l'entreposage de certaines marchandises ou le transit de certaines populations. Pour cela, sélectionnez le bouton correspondant puis l'icône représentant le produit ou le corps de métier souhaité.\n"
 "\n"
-"La troisième page vous permet de déterminer le nombre de soldats assignés à la surveillance du Quartier général. Le premier chiffre indique leur nombre actuel et le second l'effectif souhaitable."
+"La troisième page vous permet de déterminer le nombre de soldats assignés à la surveillance du Quartier général. Le premier chiffre indique leur nombre actuel et le second l'effectif souhaitable. "
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:116
 msgid "The merchandise statistics window allows you to check the quantities of your merchandise. By clicking the left mouse button you can switch the display of individual goods on and off. These can displayed over four different time periods. To delete all displays, click on the wastebasket button."
@@ -3106,8 +3114,9 @@ msgstr "Message trop court reçu !"
 msgid "Tool ordering"
 msgstr "Ordre des outils"
 
-#: ingameWindows/iwMainMenu.cpp:55 ingameWindows/iwMerchandiseStatistics.cpp:72
-#: ingameWindows/iwTools.cpp:39 ingameWindows/iwTransport.cpp:44
+#: ingameWindows/iwMainMenu.cpp:55
+#: ingameWindows/iwMerchandiseStatistics.cpp:72 ingameWindows/iwTools.cpp:39
+#: ingameWindows/iwTransport.cpp:44
 msgid "Tools"
 msgstr "Outils"
 
@@ -3239,7 +3248,8 @@ msgstr "Vikings"
 msgid "Waiting for Playerinfo..."
 msgstr "En attente des informations du joueur..."
 
-#: ingameWindows/iwDirectIPConnect.cpp:229 ingameWindows/iwLobbyConnect.cpp:272
+#: ingameWindows/iwDirectIPConnect.cpp:229
+#: ingameWindows/iwLobbyConnect.cpp:272
 msgid "Waiting for Reply..."
 msgstr "Attente d'une réponse..."
 
@@ -3384,7 +3394,8 @@ msgstr ""
 "\n"
 "Vous préférerez probablement les convertir en fer, de manière à pouvoir utiliser le charbon en trop (sur la plupart des cartes), non utilisé dans l'Hôtel des monnaies."
 
-#: desktops/dskDirectIP.cpp:62 desktops/dskLAN.cpp:95 desktops/dskLobby.cpp:123
+#: desktops/dskDirectIP.cpp:62 desktops/dskLAN.cpp:95
+#: desktops/dskLobby.cpp:123
 msgid ""
 "You can't create a game while a proxy server is active\n"
 "Disable the use of a proxy server first!"
@@ -3420,14 +3431,6 @@ msgstr "Votre allié veut vous informer de cette position."
 #: ingameWindows/iwTools.cpp:63
 msgid "Zero all production"
 msgstr "Couper la production"
-
-#: ingameWindows/iwBuilding.cpp:73
-msgid "Production on/off"
-msgstr "Production oui/non"
-
-#: ingameWindows/iwMilitaryBuilding.cpp:60
-msgid "Gold delivery"
-msgstr "Livraison d'or"
 
 #: GameClient.cpp:1612
 #, c-format

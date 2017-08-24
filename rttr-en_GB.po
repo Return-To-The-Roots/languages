@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: Siedler II.5 RttR\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-19 22:56+0200\n"
-"PO-Revision-Date: 2016-07-25 09:01+0000\n"
-"Last-Translator: Marcus <Unknown>\n"
+"PO-Revision-Date: 2017-08-24 12:57+0000\n"
+"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Siedler II.5 RttR <sf-team@siedler25.org>\n"
-"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-07-27 10:36+0000\n"
-"X-Generator: Launchpad (build 18153)\n"
+"X-Launchpad-Export-Date: 2017-08-24 13:00+0000\n"
+"X-Generator: Launchpad (build 18446)\n"
 "X-Poedit-Country: UNITED KINGDOM\n"
+"Language: en_GB\n"
 "X-Poedit-Language: English\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -1307,6 +1307,10 @@ msgstr "Goals:"
 msgid "Gold"
 msgstr "Gold"
 
+#: ingameWindows/iwMilitaryBuilding.cpp:60
+msgid "Gold delivery"
+msgstr "Gold delivery"
+
 #: gameData/BuildingConsts.cpp:37 ingameWindows/iwDistribution.cpp:65
 msgid "Gold mine"
 msgstr "Gold mine"
@@ -2256,6 +2260,10 @@ msgstr "Produce nothing"
 #: addons/AddonMetalworksBehaviorOnZero.h:18
 msgid "Produce random ware"
 msgstr "Produce random ware"
+
+#: ingameWindows/iwBuilding.cpp:73
+msgid "Production on/off"
+msgstr "Production on/off"
 
 #: ingameWindows/iwBuildingProductivities.cpp:83
 #: ingameWindows/iwMainMenu.cpp:66 ingameWindows/iwStatistics.cpp:116
@@ -3401,14 +3409,6 @@ msgstr "Your ally wishes to notify you of this location"
 #: ingameWindows/iwTools.cpp:63
 msgid "Zero all production"
 msgstr "Zero all production"
-
-#: ingameWindows/iwBuilding.cpp:73
-msgid "Production on/off"
-msgstr "Production on/off"
-
-#: ingameWindows/iwMilitaryBuilding.cpp:60
-msgid "Gold delivery"
-msgstr "Gold delivery"
 
 #: GameClient.cpp:1612
 #, c-format

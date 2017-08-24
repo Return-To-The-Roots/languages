@@ -6,13 +6,13 @@ msgstr ""
 "PO-Revision-Date: 2016-04-07 00:30+0000\n"
 "Last-Translator: Gabe Stylez <zorg@atw.hu>\n"
 "Language-Team: Siedler II.5 RttR <sf-team@siedler25.org>\n"
-"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2016-07-27 10:36+0000\n"
-"X-Generator: Launchpad (build 18153)\n"
+"X-Launchpad-Export-Date: 2017-08-24 13:01+0000\n"
+"X-Generator: Launchpad (build 18446)\n"
 "X-Poedit-Country: Hungary\n"
+"Language: hu\n"
 "X-Poedit-Language: Hungarian\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -1290,6 +1290,10 @@ msgstr "Célok:"
 msgid "Gold"
 msgstr "Arany"
 
+#: ingameWindows/iwMilitaryBuilding.cpp:60
+msgid "Gold delivery"
+msgstr ""
+
 #: gameData/BuildingConsts.cpp:37 ingameWindows/iwDistribution.cpp:65
 msgid "Gold mine"
 msgstr "Aranybánya"
@@ -2231,6 +2235,10 @@ msgstr ""
 
 #: addons/AddonMetalworksBehaviorOnZero.h:18
 msgid "Produce random ware"
+msgstr ""
+
+#: ingameWindows/iwBuilding.cpp:73
+msgid "Production on/off"
 msgstr ""
 
 #: ingameWindows/iwBuildingProductivities.cpp:83
@@ -3372,14 +3380,6 @@ msgstr ""
 
 #: ingameWindows/iwTools.cpp:63
 msgid "Zero all production"
-msgstr ""
-
-#: ingameWindows/iwBuilding.cpp:73
-msgid "Production on/off"
-msgstr ""
-
-#: ingameWindows/iwMilitaryBuilding.cpp:60
-msgid "Gold delivery"
 msgstr ""
 
 #: GameClient.cpp:1612
