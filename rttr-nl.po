@@ -6,13 +6,13 @@ msgstr ""
 "PO-Revision-Date: 2016-04-07 00:31+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Siedler II.5 RttR <sf-team@siedler25.org>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-08-24 13:01+0000\n"
 "X-Generator: Launchpad (build 18446)\n"
 "X-Poedit-Country: NETHERLANDS\n"
-"Language: nl\n"
 "X-Poedit-Language: Dutch\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -718,13 +718,11 @@ msgstr "Verbind"
 msgid "Connecting to Lobby"
 msgstr "Met Internet-Lobby verbinden"
 
-#: ingameWindows/iwDirectIPConnect.cpp:136
-#: ingameWindows/iwLobbyConnect.cpp:165
+#: ingameWindows/iwDirectIPConnect.cpp:136 ingameWindows/iwLobbyConnect.cpp:165
 msgid "Connecting with Host..."
 msgstr "Verbinden met Host..."
 
-#: ingameWindows/iwDirectIPConnect.cpp:142
-#: ingameWindows/iwLobbyConnect.cpp:174
+#: ingameWindows/iwDirectIPConnect.cpp:142 ingameWindows/iwLobbyConnect.cpp:174
 msgid "Connection failed!"
 msgstr "Verbinding mislukt!"
 
@@ -1359,10 +1357,10 @@ msgstr "Hoofdkwartier"
 
 #: ingameWindows/iwBuilding.cpp:68 ingameWindows/iwBuildingSite.cpp:40
 #: ingameWindows/iwBuildings.cpp:109 ingameWindows/iwDistribution.cpp:156
-#: ingameWindows/iwMerchandiseStatistics.cpp:77
-#: ingameWindows/iwMilitary.cpp:46 ingameWindows/iwMilitaryBuilding.cpp:53
-#: ingameWindows/iwStatistics.cpp:127 ingameWindows/iwTools.cpp:61
-#: ingameWindows/iwTransport.cpp:52 ingameWindows/iwWares.cpp:176
+#: ingameWindows/iwMerchandiseStatistics.cpp:77 ingameWindows/iwMilitary.cpp:46
+#: ingameWindows/iwMilitaryBuilding.cpp:53 ingameWindows/iwStatistics.cpp:127
+#: ingameWindows/iwTools.cpp:61 ingameWindows/iwTransport.cpp:52
+#: ingameWindows/iwWares.cpp:176
 msgid "Help"
 msgstr "Help"
 
@@ -2148,8 +2146,8 @@ msgstr "Speel af in deze volgorde"
 msgid "Played"
 msgstr "Gespeeld"
 
-#: desktops/dskLAN.cpp:60 desktops/dskLobby.cpp:63
-#: desktops/dskSelectMap.cpp:81 ingameWindows/iwPlayReplay.cpp:65
+#: desktops/dskLAN.cpp:60 desktops/dskLobby.cpp:63 desktops/dskSelectMap.cpp:81
+#: ingameWindows/iwPlayReplay.cpp:65
 msgid "Player"
 msgstr "Speler"
 
@@ -2546,8 +2544,7 @@ msgstr "Servernaam:"
 msgid "Server management"
 msgstr "Server management"
 
-#: ingameWindows/iwDirectIPConnect.cpp:45
-#: ingameWindows/iwDirectIPCreate.cpp:42
+#: ingameWindows/iwDirectIPConnect.cpp:45 ingameWindows/iwDirectIPCreate.cpp:42
 msgid "Server-Port:"
 msgstr "Serverpoort:"
 
@@ -3060,9 +3057,8 @@ msgstr "Te kort bericht ontvangen!"
 msgid "Tool ordering"
 msgstr ""
 
-#: ingameWindows/iwMainMenu.cpp:55
-#: ingameWindows/iwMerchandiseStatistics.cpp:72 ingameWindows/iwTools.cpp:39
-#: ingameWindows/iwTransport.cpp:44
+#: ingameWindows/iwMainMenu.cpp:55 ingameWindows/iwMerchandiseStatistics.cpp:72
+#: ingameWindows/iwTools.cpp:39 ingameWindows/iwTransport.cpp:44
 msgid "Tools"
 msgstr "Gereedschappen"
 
@@ -3194,8 +3190,7 @@ msgstr "Vikingen"
 msgid "Waiting for Playerinfo..."
 msgstr "Wachten op Spelersinfo..."
 
-#: ingameWindows/iwDirectIPConnect.cpp:229
-#: ingameWindows/iwLobbyConnect.cpp:272
+#: ingameWindows/iwDirectIPConnect.cpp:229 ingameWindows/iwLobbyConnect.cpp:272
 msgid "Waiting for Reply..."
 msgstr "Wachten op antwoord..."
 
@@ -3337,8 +3332,7 @@ msgid ""
 "allows you to utilize the additional coal not needed for minting anymore."
 msgstr ""
 
-#: desktops/dskDirectIP.cpp:62 desktops/dskLAN.cpp:95
-#: desktops/dskLobby.cpp:123
+#: desktops/dskDirectIP.cpp:62 desktops/dskLAN.cpp:95 desktops/dskLobby.cpp:123
 msgid ""
 "You can't create a game while a proxy server is active\n"
 "Disable the use of a proxy server first!"

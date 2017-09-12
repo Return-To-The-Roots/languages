@@ -6,12 +6,12 @@ msgstr ""
 "PO-Revision-Date: 2017-08-24 12:54+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Siedler II.5 RttR <sf-team@siedler25.org>\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-08-24 13:00+0000\n"
 "X-Generator: Launchpad (build 18446)\n"
-"Language: de_DE\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -728,13 +728,11 @@ msgstr "Verbinde..."
 msgid "Connecting to Lobby"
 msgstr "Mit Internet-Lobby verbinden"
 
-#: ingameWindows/iwDirectIPConnect.cpp:136
-#: ingameWindows/iwLobbyConnect.cpp:165
+#: ingameWindows/iwDirectIPConnect.cpp:136 ingameWindows/iwLobbyConnect.cpp:165
 msgid "Connecting with Host..."
 msgstr "Verbinde mit Host..."
 
-#: ingameWindows/iwDirectIPConnect.cpp:142
-#: ingameWindows/iwLobbyConnect.cpp:174
+#: ingameWindows/iwDirectIPConnect.cpp:142 ingameWindows/iwLobbyConnect.cpp:174
 msgid "Connection failed!"
 msgstr "Verbindung fehlgeschlagen!"
 
@@ -1374,10 +1372,10 @@ msgstr "Hauptquartier"
 
 #: ingameWindows/iwBuilding.cpp:68 ingameWindows/iwBuildingSite.cpp:40
 #: ingameWindows/iwBuildings.cpp:109 ingameWindows/iwDistribution.cpp:156
-#: ingameWindows/iwMerchandiseStatistics.cpp:77
-#: ingameWindows/iwMilitary.cpp:46 ingameWindows/iwMilitaryBuilding.cpp:53
-#: ingameWindows/iwStatistics.cpp:127 ingameWindows/iwTools.cpp:61
-#: ingameWindows/iwTransport.cpp:52 ingameWindows/iwWares.cpp:176
+#: ingameWindows/iwMerchandiseStatistics.cpp:77 ingameWindows/iwMilitary.cpp:46
+#: ingameWindows/iwMilitaryBuilding.cpp:53 ingameWindows/iwStatistics.cpp:127
+#: ingameWindows/iwTools.cpp:61 ingameWindows/iwTransport.cpp:52
+#: ingameWindows/iwWares.cpp:176
 msgid "Help"
 msgstr "Kurzhilfe"
 
@@ -2179,8 +2177,8 @@ msgstr "Wiedergabe in dieser Reihenfolge"
 msgid "Played"
 msgstr "Gespielte"
 
-#: desktops/dskLAN.cpp:60 desktops/dskLobby.cpp:63
-#: desktops/dskSelectMap.cpp:81 ingameWindows/iwPlayReplay.cpp:65
+#: desktops/dskLAN.cpp:60 desktops/dskLobby.cpp:63 desktops/dskSelectMap.cpp:81
+#: ingameWindows/iwPlayReplay.cpp:65
 msgid "Player"
 msgstr "Spieler"
 
@@ -2577,8 +2575,7 @@ msgstr "Servername:"
 msgid "Server management"
 msgstr "Server Verwaltung"
 
-#: ingameWindows/iwDirectIPConnect.cpp:45
-#: ingameWindows/iwDirectIPCreate.cpp:42
+#: ingameWindows/iwDirectIPConnect.cpp:45 ingameWindows/iwDirectIPCreate.cpp:42
 msgid "Server-Port:"
 msgstr "Server-Port:"
 
@@ -3054,11 +3051,11 @@ msgstr "Dieses Hafengebäude wurde zerstört!"
 #: ingameWindows/iwMilitary.cpp:118
 msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
 msgstr ""
-"Hier können sämtliche Einstellungen militärischer Angelegenheiten vorgenommen werden. \r\n"
-"Der oberste Wert entspricht der Rekrutierungsrate Ihrer Armee. Je höher sie ist, desto mehr Einwohner werden zu Soldaten rekrutiert.\r\n"
-"Darunter befindet sich die Einstellung zur Verteidigung Ihrer Hütten. Steht dieser Wert auf dem Maximum, werden Ihre Hütten durch die stärkste Einheit vor Ort verteidigt. \r\n"
-"Um die Anzahl der Angreifer, die pro Angriff ihre Hütten verlassen, zu erhöhen, wählen Sie die nächste Einstellung.\r\n"
-"Die Anzahl der Verteidiger, die im Falle eines Angriffes dem Gegner entgegenläuft, wird durch die vierte Anzeige dargestellt.\r\n"
+"Hier können sämtliche Einstellungen militärischer Angelegenheiten vorgenommen werden. \n"
+"Der oberste Wert entspricht der Rekrutierungsrate Ihrer Armee. Je höher sie ist, desto mehr Einwohner werden zu Soldaten rekrutiert.\n"
+"Darunter befindet sich die Einstellung zur Verteidigung Ihrer Hütten. Steht dieser Wert auf dem Maximum, werden Ihre Hütten durch die stärkste Einheit vor Ort verteidigt. \n"
+"Um die Anzahl der Angreifer, die pro Angriff ihre Hütten verlassen, zu erhöhen, wählen Sie die nächste Einstellung.\n"
+"Die Anzahl der Verteidiger, die im Falle eines Angriffes dem Gegner entgegenläuft, wird durch die vierte Anzeige dargestellt.\n"
 "Die letzten drei Werte entsprechen der Besetzung Ihrer Wachhütten im Landesinneren, in der Landesmitte und in den Grenzgebieten."
 
 #: figures/nofBuildingWorker.cpp:406
@@ -3097,9 +3094,8 @@ msgstr "Zu kurze Nachricht eingetroffen!"
 msgid "Tool ordering"
 msgstr "Werkzeug Bestellungen"
 
-#: ingameWindows/iwMainMenu.cpp:55
-#: ingameWindows/iwMerchandiseStatistics.cpp:72 ingameWindows/iwTools.cpp:39
-#: ingameWindows/iwTransport.cpp:44
+#: ingameWindows/iwMainMenu.cpp:55 ingameWindows/iwMerchandiseStatistics.cpp:72
+#: ingameWindows/iwTools.cpp:39 ingameWindows/iwTransport.cpp:44
 msgid "Tools"
 msgstr "Werkzeuge"
 
@@ -3231,8 +3227,7 @@ msgstr "Wikinger"
 msgid "Waiting for Playerinfo..."
 msgstr "Warte auf Spielerinfo..."
 
-#: ingameWindows/iwDirectIPConnect.cpp:229
-#: ingameWindows/iwLobbyConnect.cpp:272
+#: ingameWindows/iwDirectIPConnect.cpp:229 ingameWindows/iwLobbyConnect.cpp:272
 msgid "Waiting for Reply..."
 msgstr "Warten auf Antwort..."
 
@@ -3378,8 +3373,7 @@ msgstr ""
 "Es ist sinnvoll Gold durch Eisen zu ersetzen, da dann die überschüssige Kohle auf den meisten Karten\n"
 "für die Herstellung von Waffen verwendet werden kann."
 
-#: desktops/dskDirectIP.cpp:62 desktops/dskLAN.cpp:95
-#: desktops/dskLobby.cpp:123
+#: desktops/dskDirectIP.cpp:62 desktops/dskLAN.cpp:95 desktops/dskLobby.cpp:123
 msgid ""
 "You can't create a game while a proxy server is active\n"
 "Disable the use of a proxy server first!"
