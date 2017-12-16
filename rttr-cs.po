@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-29 10:27+0100\n"
-"PO-Revision-Date: 2016-04-07 00:29+0000\n"
-"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
+"PO-Revision-Date: 2017-11-20 13:07+0000\n"
+"Last-Translator: Miroslav Slovacek <Unknown>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-08-24 13:01+0000\n"
-"X-Generator: Launchpad (build 18446)\n"
+"X-Launchpad-Export-Date: 2017-12-16 20:00+0000\n"
+"X-Generator: Launchpad (build 18511)\n"
 "X-Poedit-Country: CZECH REPUBLIC\n"
 "X-Poedit-Language: Czech\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -31,11 +31,10 @@ msgstr ""
 "Náklady: "
 
 #: GameManager.cpp:87
-#, fuzzy
 msgid ""
 "\n"
 "Starting the game\n"
-msgstr "Start hry"
+msgstr ""
 
 #: Loader.cpp:1073
 msgid "  Loading %1% entries: "
@@ -47,15 +46,15 @@ msgstr " (AI)"
 
 #: JoinPlayerInfo.cpp:91
 msgid " (easy)"
-msgstr ""
+msgstr " (lehká)"
 
 #: JoinPlayerInfo.cpp:93
 msgid " (hard)"
-msgstr ""
+msgstr " (těžká)"
 
 #: JoinPlayerInfo.cpp:92
 msgid " (medium)"
-msgstr ""
+msgstr " (střední)"
 
 #: desktops/dskLobby.cpp:378
 msgid " (playing)"
@@ -70,9 +69,8 @@ msgid " stones"
 msgstr " kameny"
 
 #: ingameWindows/iwMapGenerator.cpp:58
-#, fuzzy
 msgid "%1% players"
-msgstr "%d Hráč"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:373 desktops/dskHostGame.cpp:417
 #: ingameWindows/iwWares.cpp:153 ingameWindows/iwWares.cpp:156
@@ -119,15 +117,15 @@ msgstr "(zastaveno)"
 
 #: addons/AddonBurnDuration.h:40 addons/AddonMoreAnimals.h:37
 msgid "+100%"
-msgstr ""
+msgstr "+100%"
 
 #: addons/AddonMoreAnimals.h:40
 msgid "+1000%"
-msgstr ""
+msgstr "+1000%"
 
 #: addons/AddonMoreAnimals.h:38
 msgid "+200%"
-msgstr ""
+msgstr "+200%"
 
 #: addons/AddonBurnDuration.h:39 addons/AddonMoreAnimals.h:36
 msgid "+50%"
@@ -135,7 +133,7 @@ msgstr ""
 
 #: addons/AddonMoreAnimals.h:39
 msgid "+500%"
-msgstr ""
+msgstr "+500%"
 
 #: desktops/dskHostGame.cpp:267 desktops/dskHostGame.cpp:407
 #: desktops/dskHostGame.cpp:409
@@ -144,11 +142,11 @@ msgstr "-"
 
 #: addons/AddonBurnDuration.h:35
 msgid "-25%"
-msgstr ""
+msgstr "-25%"
 
 #: addons/AddonBurnDuration.h:36
 msgid "-50%"
-msgstr ""
+msgstr "-50%"
 
 #: addons/AddonBurnDuration.h:37
 msgid "-75%"
@@ -156,7 +154,7 @@ msgstr ""
 
 #: addons/AddonBurnDuration.h:38
 msgid "-90%"
-msgstr ""
+msgstr "-90%"
 
 #: ingameWindows/iwAction.cpp:110
 msgid "-> Build castle"
@@ -347,7 +345,7 @@ msgstr ""
 
 #: addons/AddonCatapultGraphics.h:35
 msgid "Adds new race-specific graphics for catapults to the game."
-msgstr ""
+msgstr "Upraví vzhled katapultů v závislosti na národnosti"
 
 #: addons/AddonMilitaryControl.h:34
 msgid ""
@@ -365,7 +363,7 @@ msgstr ""
 
 #: addons/AddonBurnDuration.h:32
 msgid "Adjusts how long a building will burn for when it is destroyed"
-msgstr ""
+msgstr "Možnost nastavit, jak dlouho bude budova hořet, když je zbořena"
 
 #: ingameWindows/iwOptionsWindow.cpp:86
 msgid "Advanced"
@@ -413,7 +411,7 @@ msgstr "Povolí posílat zásoby/profese do spojeneckých skladišť"
 
 #: ingameWindows/iwMapDebug.cpp:99
 msgid "Altitude"
-msgstr ""
+msgstr "Nadmořská výška"
 
 #: SerializedGameData.cpp:296
 msgid "An error occured while saving which was suppressed!"
@@ -433,7 +431,7 @@ msgstr "Použít změny"
 
 #: ingameWindows/iwPlayReplay.cpp:165
 msgid "Are you sure to remove all invalid replays?"
-msgstr ""
+msgstr "Jsi si jistý, že chceš smazat všechny špatné replaye?"
 
 #: ingameWindows/iwPlayReplay.cpp:152
 msgid "Are you sure to remove all replays?"
@@ -441,7 +439,7 @@ msgstr "Chcete opravdu smazat všechny replaye?"
 
 #: ingameWindows/iwPlayReplay.cpp:158
 msgid "Are you sure you want to remove the selected replay?"
-msgstr ""
+msgstr "Jsi si jistý, že chceš smazat vybrané replaye?"
 
 #: gameData/JobConsts.cpp:40
 msgid "Armorer"
@@ -469,7 +467,7 @@ msgstr ""
 
 #: addons/AddonAsyncDebug.h:29
 msgid "Async debugging (REALLY SLOW!)"
-msgstr ""
+msgstr "Asynchronní ladění (OPRAVDU POMALÉ!)"
 
 #: network/GameServer.cpp:1358
 #, c-format
@@ -500,9 +498,8 @@ msgid "Attack!"
 msgstr "Útok!"
 
 #: GameManager.cpp:76
-#, fuzzy
 msgid "Audio driver couldn't be loaded!\n"
-msgstr "Vybraný soubor není možné načíst!"
+msgstr ""
 
 #: desktops/dskSelectMap.cpp:87
 msgid "Author"
@@ -522,7 +519,7 @@ msgstr "Sekera"
 
 #: gameData/NationConsts.h:28
 msgid "Babylonians"
-msgstr ""
+msgstr "Babylóňané"
 
 #: desktops/dskAboutRTTR.cpp:34 desktops/dskCredits.cpp:47
 #: desktops/dskDirectIP.cpp:39 desktops/dskIntro.cpp:34 desktops/dskLAN.cpp:53
@@ -694,7 +691,7 @@ msgstr ""
 
 #: addons/AddonShipSpeed.h:31
 msgid "Changes the ship movement speed"
-msgstr ""
+msgstr "Změnit rychlost lodi"
 
 #: gameData/BuildingConsts.cpp:50 gameData/JobConsts.cpp:53
 msgid "Charburner"
@@ -730,9 +727,8 @@ msgid "Cleaver"
 msgstr "Sekáček"
 
 #: ingameWindows/iwMapGenerator.cpp:79
-#, fuzzy
 msgid "Close"
-msgstr "Uzavřen"
+msgstr ""
 
 #: ingameWindows/iwAddons.cpp:41
 msgid "Close Without Saving"
@@ -752,9 +748,8 @@ msgid "Coal mine"
 msgstr "Uhelný důl"
 
 #: ingameWindows/iwMapGenerator.cpp:95
-#, fuzzy
 msgid "Coal:"
-msgstr "Uhlí"
+msgstr ""
 
 #: gameTypes/GoodTypes.h:98 ingameWindows/iwMerchandiseStatistics.cpp:72
 #: ingameWindows/iwTransport.cpp:32
@@ -820,9 +815,8 @@ msgid "Construction aid mode"
 msgstr "Pomoc při stavbě"
 
 #: ingameWindows/iwMapGenerator.cpp:62
-#, fuzzy
 msgid "Continent"
-msgstr "Kontinenty"
+msgstr ""
 
 #: desktops/dskSelectMap.cpp:118
 msgid "Continents"
@@ -903,7 +897,7 @@ msgstr "Výchozí"
 #: ingameWindows/iwPlayReplay.cpp:140
 #, c-format
 msgid "Delete Invalid (%u)"
-msgstr ""
+msgstr "Smazat špatné (%u)"
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:81
 msgid "Delete all"
@@ -911,7 +905,7 @@ msgstr "Odstranit vše"
 
 #: ingameWindows/iwPlayReplay.cpp:65 ingameWindows/iwPlayReplay.cpp:158
 msgid "Delete selected"
-msgstr ""
+msgstr "Odstranit vybrané"
 
 #: ingameWindows/iwAction.cpp:271 ingameWindows/iwBaseWarehouse.cpp:98
 #: ingameWindows/iwBuilding.cpp:74 ingameWindows/iwBuildingSite.cpp:43
@@ -1033,7 +1027,7 @@ msgstr "Délka:"
 #: postSystem/DiplomacyPostQuestion.cpp:33
 #, c-format
 msgid "Duration: %d GF (%s)"
-msgstr ""
+msgstr "Délka: %d GF (%s)"
 
 #: postSystem/DiplomacyPostQuestion.cpp:31
 msgid "Duration: Forever"
@@ -1116,16 +1110,16 @@ msgstr "Chyba"
 
 #: network/GameClient.cpp:1388
 msgid "Error decompressing lua file"
-msgstr ""
+msgstr "Chyba při rozbalování lau souboru"
 
 #: network/GameClient.cpp:1379
 msgid "Error decompressing map file"
-msgstr ""
+msgstr "Chyba při rozbalování mapového souboru"
 
 #: network/GameClient.cpp:1407
 #, c-format
 msgid "Error when loading game from replay: %s\n"
-msgstr ""
+msgstr "Chyba při nahrávání hry z replaye: %s\n"
 
 #: ingameWindows/iwPlayReplay.cpp:187
 msgid "Error while playing replay!"
@@ -1133,7 +1127,7 @@ msgstr "Při přehrávání replaye se vyskytla chyba!"
 
 #: Loader.cpp:1137
 msgid "Error while replacing a BOB file\n"
-msgstr ""
+msgstr "Chyba při nahrazování BOB souboru\n"
 
 #: ingameWindows/iwDiplomacy.cpp:254
 msgid "Eternal"
@@ -1152,14 +1146,12 @@ msgid "Everyone"
 msgstr "Všichni"
 
 #: addons/AddonExhaustibleWater.h:37
-#, fuzzy
 msgid "Exhaustible"
-msgstr "Studnu je možné vyčerpat"
+msgstr ""
 
 #: addons/AddonExhaustibleWater.h:32
-#, fuzzy
 msgid "Exhaustible Water"
-msgstr "Studnu je možné vyčerpat"
+msgstr ""
 
 #: ingameWindows/iwHarborBuilding.cpp:36
 msgid "Expedition"
@@ -1176,7 +1168,7 @@ msgstr "Prozkoumané území:"
 #: Loader.cpp:163
 #, c-format
 msgid "Failed to load %s\n"
-msgstr ""
+msgstr "Nepodařilo se nahrát %s\n"
 
 #: desktops/dskGameLoader.cpp:128
 msgid "Failed to load addon objects."
@@ -1200,9 +1192,8 @@ msgid "Failed to save async log at \"%s\"\n"
 msgstr ""
 
 #: ingameWindows/iwMapGenerator.cpp:81
-#, fuzzy
 msgid "Far"
-msgstr "Farma"
+msgstr ""
 
 #: gameData/BuildingConsts.cpp:60
 msgid "Farm"
@@ -1218,7 +1209,7 @@ msgstr "Rychle"
 
 #: addons/AddonNumScoutsExploration.h:39
 msgid "Fewer"
-msgstr ""
+msgstr "Méně"
 
 #: ingameWindows/iwMilitary.cpp:44
 msgid "Fewer defenders"
@@ -1229,9 +1220,8 @@ msgid "Fewer recruits"
 msgstr "Méně rekrutů"
 
 #: Replay.cpp:120
-#, fuzzy
 msgid "File could not be opened."
-msgstr "Vybraný soubor není možné otevřít!"
+msgstr ""
 
 #: SavedFile.cpp:85
 msgid "File has an old version and cannot be used (version: %1%, expected: %2%)!"
@@ -1244,7 +1234,7 @@ msgstr ""
 #: Loader.cpp:111 Loader.cpp:1059
 #, c-format
 msgid "File or directory does not exist: %s\n"
-msgstr ""
+msgstr "Soubor nebo adresář neexistuje: %s\n"
 
 #: SavedFile.cpp:86
 msgid "File was created with more recent program and cannot be used (version: %1%, expected: %2%)!"
@@ -1377,7 +1367,7 @@ msgstr "Generál"
 
 #: addons/AddonMaxRank.h:43
 msgid "General (4)"
-msgstr ""
+msgstr "Generál (4)"
 
 #: ingameWindows/iwMainMenu.cpp:58
 msgid "General statistics"
@@ -1405,15 +1395,15 @@ msgstr "Jít do hlavní budovy"
 
 #: ingameWindows/iwBuilding.cpp:104
 msgid "Go to next building of same type"
-msgstr ""
+msgstr "Jdi do další budovy stejného typu"
 
 #: ingameWindows/iwMilitaryBuilding.cpp:70
 msgid "Go to next military building"
-msgstr ""
+msgstr "Jdi do další vojenské budovy"
 
 #: ingameWindows/iwBaseWarehouse.cpp:86
 msgid "Go to next warehouse"
-msgstr ""
+msgstr "Jít do dalšího skladiště"
 
 #: ingameWindows/iwBaseWarehouse.cpp:84 ingameWindows/iwBuilding.cpp:90
 #: ingameWindows/iwBuildingSite.cpp:46 ingameWindows/iwDemolishBuilding.cpp:38
@@ -1434,16 +1424,15 @@ msgstr "Zlato"
 
 #: ingameWindows/iwMilitaryBuilding.cpp:63
 msgid "Gold delivery"
-msgstr ""
+msgstr "Doručování zlata"
 
 #: gameData/BuildingConsts.cpp:36
 msgid "Gold mine"
 msgstr "Zlatý důl"
 
 #: ingameWindows/iwMapGenerator.cpp:91
-#, fuzzy
 msgid "Gold:"
-msgstr "Zlato"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:191
 msgid "Goods at start:"
@@ -1466,9 +1455,8 @@ msgid "Granite mines will never be depleted."
 msgstr ""
 
 #: ingameWindows/iwMapGenerator.cpp:97
-#, fuzzy
 msgid "Granite:"
-msgstr "Kamenný důl"
+msgstr ""
 
 #: desktops/dskOptions.cpp:71
 msgid "Graphics"
@@ -1571,13 +1559,12 @@ msgid "Improved Alliance"
 msgstr ""
 
 #: addons/AddonExhaustibleWater.h:35
-#, fuzzy
 msgid "Inexhaustible"
-msgstr "Nekonečná ruda"
+msgstr ""
 
 #: addons/AddonInexhaustibleFish.h:16
 msgid "Inexhaustible Fish"
-msgstr ""
+msgstr "Ryby není možné"
 
 #: addons/AddonInexhaustibleGraniteMines.h:16
 msgid "Inexhaustible Granite Mines"
@@ -1588,9 +1575,8 @@ msgid "Inexhaustible Mines"
 msgstr "Nekonečná ruda"
 
 #: addons/AddonExhaustibleWater.h:36
-#, fuzzy
 msgid "Inexhaustible and water everywhere"
-msgstr "Nekonečná ruda"
+msgstr ""
 
 #: ingameWindows/iwStatistics.cpp:129 ingameWindows/iwStatistics.cpp:220
 msgid "Inhabitants"
@@ -1622,12 +1608,11 @@ msgstr "Úvod"
 
 #: drivers/DriverWrapper.cpp:144
 msgid "Invalid API version!"
-msgstr ""
+msgstr "Špatná verze API!"
 
 #: ingameWindows/iwPlayReplay.cpp:100 network/GameClient.cpp:1328
-#, fuzzy
 msgid "Invalid Replay %1%! Reason: %2%\n"
-msgstr "Neplatný replay!"
+msgstr ""
 
 #: ingameWindows/iwPlayReplay.cpp:187
 msgid "Invalid Replay!"
@@ -1676,18 +1661,16 @@ msgid "Iron smelter"
 msgstr "Slévárna"
 
 #: ingameWindows/iwMapGenerator.cpp:93
-#, fuzzy
 msgid "Iron:"
-msgstr "Železo"
+msgstr ""
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:69
 msgid "Ironore"
 msgstr "Železná ruda"
 
 #: ingameWindows/iwMapGenerator.cpp:61
-#, fuzzy
 msgid "Islands"
-msgstr "Pustina"
+msgstr ""
 
 #: gameData/BuildingConsts.cpp:276
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
@@ -1695,7 +1678,7 @@ msgstr "V loděnici se vyrábějí malé čluny i velké plachetnice. Loděnice 
 
 #: gameData/NationConsts.h:28
 msgid "Japanese"
-msgstr ""
+msgstr "Japonština"
 
 #: desktops/dskDirectIP.cpp:36 ingameWindows/iwDirectIPConnect.cpp:36
 msgid "Join Game"
@@ -1807,17 +1790,17 @@ msgstr "Nahrát hru..."
 #: Loader.cpp:253 Loader.cpp:1031
 #, c-format
 msgid "Loading \"%s\": "
-msgstr ""
+msgstr "Nahrávám \"%s\": "
 
 #: Loader.cpp:120
 #, c-format
 msgid "Loading LST,BOB,IDX,BMP,TXT,GER,ENG,INI files from \"%s\"\n"
-msgstr ""
+msgstr "Nahrávám LST,BOB,IDX,BMP,TXT,GER,ENG,INI soubory z \"%s\"\n"
 
 #: Loader.cpp:1070
 #, c-format
 msgid "Loading directory %s\n"
-msgstr ""
+msgstr "Načítám adresář %s\n"
 
 #: desktops/dskHostGame.cpp:147
 msgid "Lobby Chat"
@@ -1911,12 +1894,11 @@ msgstr "Mapa"
 
 #: ingameWindows/iwMapDebug.cpp:87
 msgid "Map Debug"
-msgstr ""
+msgstr "Debugovat mapu"
 
 #: ingameWindows/iwMapGenerator.cpp:49
-#, fuzzy
 msgid "Map Generator"
-msgstr "Generál"
+msgstr ""
 
 #: ingameWindows/iwLobbyServerInfo.cpp:47
 msgid "Map Name:"
@@ -1944,7 +1926,7 @@ msgstr "Mapování"
 
 #: addons/AddonNumScoutsExploration.h:42
 msgid "Maximal"
-msgstr ""
+msgstr "Nejvýše"
 
 #: addons/AddonAdjustMilitaryStrength.h:47
 msgid "Maximum strength"
@@ -1959,9 +1941,8 @@ msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "Maso ulovené lovcem je obživa pro horníky."
 
 #: ingameWindows/iwMapGenerator.cpp:80
-#, fuzzy
 msgid "Medium"
-msgstr "Střednědobý"
+msgstr ""
 
 #: addons/AddonAdjustMilitaryStrength.h:48
 msgid "Medium strength"
@@ -1993,9 +1974,8 @@ msgid "Metalworks"
 msgstr "Nářaďovna"
 
 #: ingameWindows/iwMapGenerator.cpp:64
-#, fuzzy
 msgid "Migration"
-msgstr "Délka:"
+msgstr ""
 
 #: ingameWindows/iwAddons.cpp:52 ingameWindows/iwMainMenu.cpp:68
 #: ingameWindows/iwMilitary.cpp:34
@@ -2048,7 +2028,7 @@ msgstr ""
 
 #: addons/AddonNumScoutsExploration.h:38
 msgid "Minimal"
-msgstr ""
+msgstr "Minimální"
 
 #: addons/AddonAdjustMilitaryStrength.h:49
 msgid "Minimum strength"
@@ -2064,7 +2044,7 @@ msgstr "Mincovník"
 
 #: drivers/DriverWrapper.cpp:162
 msgid "Missing required API function"
-msgstr ""
+msgstr "Chybí potřebné API funkce"
 
 #: desktops/dskOptions.cpp:175 ingameWindows/iwSettings.cpp:35
 msgid "Mode:"
@@ -2134,9 +2114,8 @@ msgid "Network/LAN"
 msgstr "Network/LAN"
 
 #: lua/LuaPlayer.cpp:76
-#, fuzzy
 msgid "New building type:"
-msgstr "Staveniště"
+msgstr ""
 
 #: buildings/nobHarborBuilding.cpp:94
 msgid "New harbor building finished"
@@ -2193,7 +2172,7 @@ msgstr "Bez náhrady"
 
 #: addons/AddonSeaAttack.h:42
 msgid "No sea attacks"
-msgstr ""
+msgstr "Bez útoků z moře"
 
 #: ingameWindows/iwShip.cpp:84
 msgid "No ships available"
@@ -2235,7 +2214,7 @@ msgstr "Poznámka: Nastavení hry bylo změněno serverem %s"
 
 #: ingameWindows/iwMapDebug.cpp:97
 msgid "Nothing"
-msgstr ""
+msgstr "Nic"
 
 #: network/GameClientGF_Replay.cpp:102
 #, c-format
@@ -2249,7 +2228,7 @@ msgstr "Oznámení: Přehrávaný replay zkončil. (GF: %u, %dh %dmin %ds, TF: %
 
 #: ingameWindows/iwAction.cpp:338
 msgid "Notify allies of this location"
-msgstr ""
+msgstr "Oznámit tuto pozici spojencům"
 
 #: ingameWindows/iwAction.cpp:409
 msgid "Number of attackers"
@@ -2285,7 +2264,7 @@ msgstr "Plukovník"
 
 #: addons/AddonMaxRank.h:44
 msgid "Officer (3)"
-msgstr ""
+msgstr "Poručík (3)"
 
 #: desktops/dskSelectMap.cpp:109
 msgid "Old maps"
@@ -2337,7 +2316,7 @@ msgstr "Vlastní mapy"
 
 #: ingameWindows/iwMapDebug.cpp:102
 msgid "Owner"
-msgstr ""
+msgstr "Vlastník"
 
 #: gameData/JobConsts.cpp:51
 msgid "Pack donkey"
@@ -2398,14 +2377,13 @@ msgid "Player"
 msgstr "Hráč"
 
 #: ingameWindows/iwMapDebug.cpp:110
-#, fuzzy
 msgid "Player %1%"
-msgstr "Hráč"
+msgstr ""
 
 #: world/MapLoader.cpp:394
 #, c-format
 msgid "Player %u does not have a valid start position!"
-msgstr ""
+msgstr "Hráč %u nemá platnou startovní pozici!"
 
 #: desktops/dskGameInterface.cpp:1254
 #, c-format
@@ -2428,9 +2406,8 @@ msgid "Player '%s' was defeated!"
 msgstr "Hráč '%s' byl poražen!"
 
 #: ingameWindows/iwMapGenerator.cpp:76
-#, fuzzy
 msgid "Player Distribution"
-msgstr "Distribuce zboží"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:116
 msgid "Player Name"
@@ -2466,7 +2443,7 @@ msgstr "Vojín"
 
 #: addons/AddonMaxRank.h:47
 msgid "Private (0)"
-msgstr ""
+msgstr "Dřevák (1)"
 
 #: gameData/JobConsts.cpp:44
 msgid "Private first class"
@@ -2474,7 +2451,7 @@ msgstr "Desátník"
 
 #: addons/AddonMaxRank.h:46
 msgid "Privatefc (1)"
-msgstr ""
+msgstr "Desátník (1)"
 
 #: addons/AddonMetalworksBehaviorOnZero.h:17
 msgid "Produce nothing"
@@ -2486,7 +2463,7 @@ msgstr ""
 
 #: ingameWindows/iwBuilding.cpp:78
 msgid "Production on/off"
-msgstr ""
+msgstr "Produkce vypnuta/zapnuta"
 
 #: ingameWindows/iwBuildingProductivities.cpp:54
 #: ingameWindows/iwMainMenu.cpp:66 ingameWindows/iwStatistics.cpp:133
@@ -2552,9 +2529,8 @@ msgid "Random"
 msgstr ""
 
 #: desktops/dskSelectMap.cpp:101
-#, fuzzy
 msgid "Random Map"
-msgstr "Přehrávat náhodně"
+msgstr ""
 
 #: ingameWindows/iwMusicPlayer.cpp:279
 msgid "Random playback"
@@ -2620,11 +2596,11 @@ msgstr "Navrácení 75%"
 
 #: addons/AddonRefundMaterials.h:32
 msgid "Refund materials for destroyed buildings"
-msgstr ""
+msgstr "Navrácení materiálu za zbourané budovy"
 
 #: addons/AddonRefundOnEmergency.h:33
 msgid "Refund materials in emergency program"
-msgstr ""
+msgstr "Navrácení materiálu během nouzového programu"
 
 #: ingameWindows/iwLobbyConnect.cpp:88
 msgid "Register"
@@ -2648,7 +2624,7 @@ msgstr "Odstranit skladbu"
 
 #: ingameWindows/iwPlayReplay.cpp:64
 msgid "Removes all replays that cannot be loaded with the current game version"
-msgstr ""
+msgstr "Odebere všechny replaye, které nemohou být přehrány současnou verzí hry"
 
 #: Loader.cpp:1125
 #, c-format
@@ -2670,7 +2646,7 @@ msgstr "Rezervy"
 
 #: ingameWindows/iwMapDebug.cpp:98
 msgid "Reserved"
-msgstr ""
+msgstr "Vyhrazeno"
 
 #: ingameWindows/iwObservate.cpp:62
 msgid "Resize window"
@@ -2678,7 +2654,7 @@ msgstr ""
 
 #: ingameWindows/iwMapDebug.cpp:100
 msgid "Resources"
-msgstr ""
+msgstr "Suroviny"
 
 #: ingameWindows/iwMapDebug.cpp:103
 msgid "Restricted area"
@@ -2697,9 +2673,8 @@ msgid "Return To The Roots"
 msgstr "Návrat ke kořenům"
 
 #: desktops/dskMenuBase.cpp:37 ingameWindows/iwOptionsWindow.cpp:45
-#, fuzzy
 msgid "Return To The Roots - %1%"
-msgstr "Návrat ke kořenům - v%s-%s"
+msgstr ""
 
 #: ingameWindows/iwShip.cpp:61
 msgid "Return to harbor"
@@ -2723,7 +2698,7 @@ msgstr "Váleček"
 
 #: gameData/NationConsts.h:28
 msgid "Romans"
-msgstr "Řimané"
+msgstr "Římané"
 
 #: s25client/s25client.cpp:124
 msgid "RttR crashed. Please restart the application!"
@@ -2770,9 +2745,8 @@ msgid "Save game!"
 msgstr "Uložit hru!"
 
 #: Replay.cpp:136 Replay.cpp:181
-#, fuzzy
 msgid "Savegame error: "
-msgstr "Uložit hru!"
+msgstr ""
 
 #: gameTypes/GoodTypes.h:74
 msgid "Saw"
@@ -2800,12 +2774,12 @@ msgstr ""
 
 #: addons/AddonSeaAttack.h:38
 msgid "Sea attack settings"
-msgstr ""
+msgstr "Nastavení útoků z moře"
 
 #: drivers/DriverWrapper.cpp:188
 #, c-format
 msgid "Searching for drivers in %s\n"
-msgstr ""
+msgstr "Hlehám ovladače v %s\n"
 
 #: ingameWindows/iwBaseWarehouse.cpp:81
 msgid "Select all"
@@ -2841,7 +2815,7 @@ msgstr "Seržant"
 
 #: addons/AddonMaxRank.h:45
 msgid "Sergeant (2)"
-msgstr ""
+msgstr "Seržant (2)"
 
 #: desktops/dskLAN.cpp:56 desktops/dskLobby.cpp:58
 msgid "Server"
@@ -2865,7 +2839,7 @@ msgstr "Port:"
 
 #: addons/AddonBurnDuration.h:31
 msgid "Set duration fires burn"
-msgstr ""
+msgstr "Nastavit délku hoření ohně"
 
 #: addons/AddonMaxRank.h:41
 msgid "Set max rank"
@@ -2877,11 +2851,11 @@ msgstr "Nastavit maximální délku vodní cesty"
 
 #: addons/AddonSeaAttack.h:38
 msgid "Set restriction level for sea attacks"
-msgstr ""
+msgstr "Nastavit úroveň omezení útoků z moře"
 
 #: addons/AddonShipSpeed.h:31
 msgid "Set ship speed"
-msgstr ""
+msgstr "Nastavit rychlost lodi"
 
 #: ingameWindows/iwSettings.cpp:32
 msgid "Settings"
@@ -2929,7 +2903,7 @@ msgstr "Lopata"
 
 #: ingameWindows/iwMapDebug.cpp:92
 msgid "Show coordinates"
-msgstr ""
+msgstr "Zobrazit souřadnice"
 
 #: desktops/dskMainMenu.cpp:57
 msgid "Singleplayer"
@@ -2963,7 +2937,7 @@ msgstr "Pomalu"
 
 #: desktops/dskOptions.cpp:162
 msgid "Smart Cursor"
-msgstr ""
+msgstr "Smart Cursor"
 
 #: addons/AddonHalfCostMilEquip.h:32
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
@@ -2975,7 +2949,7 @@ msgstr "Socks v4"
 
 #: addons/AddonBattlefieldPromotion.h:30
 msgid "Soldiers winning a fight increase in rank."
-msgstr ""
+msgstr "Vojákům, kteří vyhrají souboj je zvýšena hodnost"
 
 #: desktops/dskSplash.cpp:81
 msgid ""
@@ -3347,7 +3321,7 @@ msgstr "Důl je vytěžen"
 
 #: buildings/nobUsual.cpp:540
 msgid "This well has dried out"
-msgstr ""
+msgstr "Tato studna již vyschla"
 
 #: ingameWindows/iwStatistics.cpp:194
 msgid "This window allows a direct comparison with the enemies. Factors such as the wealth, territorial area, inhabitants, etc. of all parties can be compared. This data can be shown over four different time periods."
@@ -3375,7 +3349,7 @@ msgstr "Byla obdržena neúplná odpověď."
 
 #: addons/AddonToolOrdering.h:10
 msgid "Tool ordering"
-msgstr ""
+msgstr "Pořadí nástrojů"
 
 #: ingameWindows/iwMainMenu.cpp:55 ingameWindows/iwMerchandiseStatistics.cpp:73
 #: ingameWindows/iwTools.cpp:43 ingameWindows/iwTransport.cpp:35
@@ -3497,7 +3471,7 @@ msgstr "Použít základní nastavení S2"
 
 #: desktops/dskOptions.cpp:156
 msgid "Use UPnP"
-msgstr ""
+msgstr "Použít UPnP"
 
 #: ingameWindows/iwLobbyConnect.cpp:58
 msgid "Username:"
@@ -3520,14 +3494,12 @@ msgid "Vertex Buffer Objects:"
 msgstr "Vertex Buffer Objects:"
 
 #: ingameWindows/iwMapGenerator.cpp:78
-#, fuzzy
 msgid "Very Close"
-msgstr "Velmi dlouho"
+msgstr ""
 
 #: ingameWindows/iwMapGenerator.cpp:82
-#, fuzzy
 msgid "Very Far"
-msgstr "Velmi rychle"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:193
 msgid "Very Low"
@@ -3546,9 +3518,8 @@ msgid "Very slow"
 msgstr "Velmi pomalu"
 
 #: GameManager.cpp:64
-#, fuzzy
 msgid "Video driver couldn't be loaded!\n"
-msgstr "Vybraný soubor není možné načíst!"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:175
 msgid "View Settings..."
@@ -3629,7 +3600,7 @@ msgstr "Studna"
 
 #: ingameWindows/iwHelp.cpp:30
 msgid "What is this?"
-msgstr ""
+msgstr "Co je toto?"
 
 #: desktops/dskOptions.cpp:178 ingameWindows/iwSettings.cpp:42
 msgid "Windowed"
@@ -3640,9 +3611,8 @@ msgid "Winter world"
 msgstr "Zimní svět"
 
 #: ingameWindows/iwMapGenerator.cpp:88
-#, fuzzy
 msgid "Winterworld"
-msgstr "Zimní svět"
+msgstr ""
 
 #: gameData/BuildingConsts.cpp:189
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
@@ -3716,12 +3686,12 @@ msgstr ""
 
 #: desktops/dskLAN.cpp:170 desktops/dskLobby.cpp:239
 msgid "You can't join that game with your version!"
-msgstr ""
+msgstr "S tvojí verzí hry se není možné připojit do hry!"
 
 #: desktops/dskHostGame.cpp:686
 #, c-format
 msgid "You have %u seconds until game starts"
-msgstr ""
+msgstr "Do začátku hry zbývá %u sekund"
 
 #: desktops/dskOptions.cpp:577
 msgid "You need to restart your game to change the screen resolution!"
@@ -3741,7 +3711,7 @@ msgstr ""
 
 #: ingameWindows/iwTools.cpp:69
 msgid "Zero all production"
-msgstr ""
+msgstr "Vynulovat veškerou produkci"
 
 #: ingameWindows/iwObservate.cpp:53
 msgid "Zoom"
@@ -3754,12 +3724,12 @@ msgstr "aktuální GF: %u - stále rychle převíjím: %d GFs zbývá (%d %%)"
 
 #: addons/AddonMoreAnimals.h:35
 msgid "default"
-msgstr ""
+msgstr "výchozí"
 
 #: Loader.cpp:260 Loader.cpp:1040 Loader.cpp:1079
 #, c-format
 msgid "done in %ums\n"
-msgstr ""
+msgstr "hotovo za %ums\n"
 
 #: Loader.cpp:257 Loader.cpp:1036 Loader.cpp:1076
 msgid "failed: %1%\n"
@@ -3768,7 +3738,7 @@ msgstr ""
 #: Loader.cpp:137
 #, c-format
 msgid "finished in %ums\n"
-msgstr ""
+msgstr "dokončeno za %ums\n"
 
 #: desktops/dskMenuBase.cpp:40
 msgid "http://www.siedler25.org"
@@ -3817,10 +3787,4 @@ msgstr "mnoho anonymních dárců"
 #: desktops/dskMenuBase.cpp:41 ingameWindows/iwOptionsWindow.cpp:48
 #, c-format
 msgid "Â© 2005 - %s Settlers Freaks"
-msgstr ""
-
-#~ msgid "Connection to Host closed!"
-#~ msgstr "Spojení s hostitelem bylo ukončeno!"
-
-#~ msgid "Incomplete message was received!"
-#~ msgstr "Byla přijata nekompletní zpráva!"
+msgstr "Â© 2005 - %s Settlers Freaks"

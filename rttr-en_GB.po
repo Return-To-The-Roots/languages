@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-29 10:27+0100\n"
-"PO-Revision-Date: 2017-08-24 12:57+0000\n"
-"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
+"PO-Revision-Date: 2017-12-16 01:26+0000\n"
+"Last-Translator: Andi Chandler <Unknown>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-08-24 13:00+0000\n"
-"X-Generator: Launchpad (build 18446)\n"
+"X-Launchpad-Export-Date: 2017-12-16 20:00+0000\n"
+"X-Generator: Launchpad (build 18511)\n"
 "X-Poedit-Country: UNITED KINGDOM\n"
 "X-Poedit-Language: English\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -26,16 +26,16 @@ msgstr ""
 "Costs: "
 
 #: GameManager.cpp:87
-#, fuzzy
 msgid ""
 "\n"
 "Starting the game\n"
-msgstr "Start game"
+msgstr ""
+"\n"
+"Starting the game\n"
 
 #: Loader.cpp:1073
-#, fuzzy
 msgid "  Loading %1% entries: "
-msgstr "Loading \"%s\": "
+msgstr "  Loading %1% entries: "
 
 #: JoinPlayerInfo.cpp:85
 msgid " (AI)"
@@ -66,9 +66,8 @@ msgid " stones"
 msgstr " stones"
 
 #: ingameWindows/iwMapGenerator.cpp:58
-#, fuzzy
 msgid "%1% players"
-msgstr "%d Player"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:373 desktops/dskHostGame.cpp:417
 #: ingameWindows/iwWares.cpp:153 ingameWindows/iwWares.cpp:156
@@ -323,7 +322,7 @@ msgstr "Additional graphics"
 #: GlobalGameSettings.cpp:265
 #, c-format
 msgid "Addon %1$#x not found!\n"
-msgstr ""
+msgstr "Addon %1$#x not found!\n"
 
 #: ingameWindows/iwAddons.cpp:31
 msgid "Addon Settings"
@@ -498,9 +497,8 @@ msgid "Attack!"
 msgstr "Attack!"
 
 #: GameManager.cpp:76
-#, fuzzy
 msgid "Audio driver couldn't be loaded!\n"
-msgstr "The specified file couldn't be loaded!"
+msgstr "Audio driver couldn't be loaded!\n"
 
 #: desktops/dskSelectMap.cpp:87
 msgid "Author"
@@ -636,7 +634,7 @@ msgstr "Cancel start"
 
 #: EventManager.cpp:185
 msgid "Cannot deserialize event manager when there are still events active!"
-msgstr ""
+msgstr "Cannot deserialise event manager when there are still events active!"
 
 #: gameData/JobConsts.cpp:26
 msgid "Carpenter"
@@ -736,9 +734,8 @@ msgid "Cleaver"
 msgstr "Cleaver"
 
 #: ingameWindows/iwMapGenerator.cpp:79
-#, fuzzy
 msgid "Close"
-msgstr "Closed"
+msgstr ""
 
 #: ingameWindows/iwAddons.cpp:41
 msgid "Close Without Saving"
@@ -758,9 +755,8 @@ msgid "Coal mine"
 msgstr "Coal mine"
 
 #: ingameWindows/iwMapGenerator.cpp:95
-#, fuzzy
 msgid "Coal:"
-msgstr "Coal"
+msgstr ""
 
 #: gameTypes/GoodTypes.h:98 ingameWindows/iwMerchandiseStatistics.cpp:72
 #: ingameWindows/iwTransport.cpp:32
@@ -826,9 +822,8 @@ msgid "Construction aid mode"
 msgstr "Construction aid mode"
 
 #: ingameWindows/iwMapGenerator.cpp:62
-#, fuzzy
 msgid "Continent"
-msgstr "Continents"
+msgstr ""
 
 #: desktops/dskSelectMap.cpp:118
 msgid "Continents"
@@ -1152,25 +1147,23 @@ msgstr "Eternal"
 
 #: EventManager.cpp:172
 msgid "Event count mismatch. Found events: %1%. Expected: %2%.\n"
-msgstr ""
+msgstr "Event count mismatch. Found events: %1%. Expected: %2%.\n"
 
 #: EventManager.cpp:196
 msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
-msgstr ""
+msgstr "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 
 #: addons/AddonStatisticsVisibility.h:37
 msgid "Everyone"
 msgstr "Everyone"
 
 #: addons/AddonExhaustibleWater.h:37
-#, fuzzy
 msgid "Exhaustible"
-msgstr "Exhaustible Wells"
+msgstr ""
 
 #: addons/AddonExhaustibleWater.h:32
-#, fuzzy
 msgid "Exhaustible Water"
-msgstr "Exhaustible Wells"
+msgstr "Exhaustible Water"
 
 #: ingameWindows/iwHarborBuilding.cpp:36
 msgid "Expedition"
@@ -1206,14 +1199,13 @@ msgid "Failed to load terrain data."
 msgstr "Failed to load terrain data."
 
 #: network/GameServer.cpp:1362
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to save async log at \"%s\"\n"
-msgstr "Failed to load %s\n"
+msgstr ""
 
 #: ingameWindows/iwMapGenerator.cpp:81
-#, fuzzy
 msgid "Far"
-msgstr "Farm"
+msgstr ""
 
 #: gameData/BuildingConsts.cpp:60
 msgid "Farm"
@@ -1240,17 +1232,16 @@ msgid "Fewer recruits"
 msgstr "Fewer recruits"
 
 #: Replay.cpp:120
-#, fuzzy
 msgid "File could not be opened."
-msgstr "The specified file couldn't be opened!"
+msgstr "File could not be opened."
 
 #: SavedFile.cpp:85
 msgid "File has an old version and cannot be used (version: %1%, expected: %2%)!"
-msgstr ""
+msgstr "File has an old version and cannot be used (version: %1%, expected: %2%)!"
 
 #: SavedFile.cpp:76
 msgid "File is not in a valid format!"
-msgstr ""
+msgstr "File is not in a valid format!"
 
 #: Loader.cpp:111 Loader.cpp:1059
 #, c-format
@@ -1259,7 +1250,7 @@ msgstr "File or directory does not exist: %s\n"
 
 #: SavedFile.cpp:86
 msgid "File was created with more recent program and cannot be used (version: %1%, expected: %2%)!"
-msgstr ""
+msgstr "File was created with more recent program and cannot be used (version: %1%, expected: %2%)!"
 
 #: ingameWindows/iwPlayReplay.cpp:58 ingameWindows/iwSave.cpp:47
 msgid "Filename"
@@ -1452,9 +1443,8 @@ msgid "Gold mine"
 msgstr "Gold mine"
 
 #: ingameWindows/iwMapGenerator.cpp:91
-#, fuzzy
 msgid "Gold:"
-msgstr "Gold"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:191
 msgid "Goods at start:"
@@ -1477,9 +1467,8 @@ msgid "Granite mines will never be depleted."
 msgstr "Granite mines will never be depleted."
 
 #: ingameWindows/iwMapGenerator.cpp:97
-#, fuzzy
 msgid "Granite:"
-msgstr "Granite mine"
+msgstr ""
 
 #: desktops/dskOptions.cpp:71
 msgid "Graphics"
@@ -1582,9 +1571,8 @@ msgid "Improved Alliance"
 msgstr "Improved Alliance"
 
 #: addons/AddonExhaustibleWater.h:35
-#, fuzzy
 msgid "Inexhaustible"
-msgstr "Inexhaustible Fish"
+msgstr ""
 
 #: addons/AddonInexhaustibleFish.h:16
 msgid "Inexhaustible Fish"
@@ -1599,9 +1587,8 @@ msgid "Inexhaustible Mines"
 msgstr "Inexhaustible Mines"
 
 #: addons/AddonExhaustibleWater.h:36
-#, fuzzy
 msgid "Inexhaustible and water everywhere"
-msgstr "Inexhaustible Granite Mines"
+msgstr ""
 
 #: ingameWindows/iwStatistics.cpp:129 ingameWindows/iwStatistics.cpp:220
 msgid "Inhabitants"
@@ -1636,9 +1623,8 @@ msgid "Invalid API version!"
 msgstr "Invalid API version!"
 
 #: ingameWindows/iwPlayReplay.cpp:100 network/GameClient.cpp:1328
-#, fuzzy
 msgid "Invalid Replay %1%! Reason: %2%\n"
-msgstr "Invalid replay!"
+msgstr ""
 
 #: ingameWindows/iwPlayReplay.cpp:187
 msgid "Invalid Replay!"
@@ -1654,7 +1640,7 @@ msgstr ""
 
 #: EventManager.cpp:205
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
-msgstr ""
+msgstr "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
 
 #: world/GameWorld.cpp:128
 msgid "Invalid id for lua data"
@@ -1687,18 +1673,16 @@ msgid "Iron smelter"
 msgstr "Iron smelter"
 
 #: ingameWindows/iwMapGenerator.cpp:93
-#, fuzzy
 msgid "Iron:"
-msgstr "Iron"
+msgstr ""
 
 #: ingameWindows/iwMerchandiseStatistics.cpp:69
 msgid "Ironore"
 msgstr "Ironore"
 
 #: ingameWindows/iwMapGenerator.cpp:61
-#, fuzzy
 msgid "Islands"
-msgstr "Wasteland"
+msgstr ""
 
 #: gameData/BuildingConsts.cpp:276
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
@@ -1713,9 +1697,9 @@ msgid "Join Game"
 msgstr "Join Game"
 
 #: network/GameClient.cpp:1506
-#, fuzzy, c-format
+#, c-format
 msgid "Jump finished (%1$.3g seconds)."
-msgstr "Jump finished (%.3f seconds)."
+msgstr ""
 
 #: desktops/dskGameInterface.cpp:652 desktops/dskOptions.cpp:610
 #: ingameWindows/iwOptionsWindow.cpp:54 ingameWindows/iwOptionsWindow.cpp:106
@@ -1899,9 +1883,8 @@ msgid "Lua script failed to load."
 msgstr ""
 
 #: desktops/dskHostGame.cpp:95
-#, fuzzy
 msgid "Lua script uses a different version and cannot be used. Map might not work as expected!"
-msgstr "Lua script was found but failed to load. Map might not work as expected!"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:89
 msgid "Lua script was found but failed to load. Map might not work as expected!"
@@ -1933,9 +1916,8 @@ msgid "Map Debug"
 msgstr "Map Debug"
 
 #: ingameWindows/iwMapGenerator.cpp:49
-#, fuzzy
 msgid "Map Generator"
-msgstr "General"
+msgstr ""
 
 #: ingameWindows/iwLobbyServerInfo.cpp:47
 msgid "Map Name:"
@@ -1978,9 +1960,8 @@ msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "The hunter is acquiring meat to feed the miners."
 
 #: ingameWindows/iwMapGenerator.cpp:80
-#, fuzzy
 msgid "Medium"
-msgstr "Medium-term"
+msgstr ""
 
 #: addons/AddonAdjustMilitaryStrength.h:48
 msgid "Medium strength"
@@ -2012,9 +1993,8 @@ msgid "Metalworks"
 msgstr "Metalworks"
 
 #: ingameWindows/iwMapGenerator.cpp:64
-#, fuzzy
 msgid "Migration"
-msgstr "Duration:"
+msgstr ""
 
 #: ingameWindows/iwAddons.cpp:52 ingameWindows/iwMainMenu.cpp:68
 #: ingameWindows/iwMilitary.cpp:34
@@ -2153,9 +2133,8 @@ msgid "Network/LAN"
 msgstr "Network/LAN"
 
 #: lua/LuaPlayer.cpp:76
-#, fuzzy
 msgid "New building type:"
-msgstr "Order of building site"
+msgstr ""
 
 #: buildings/nobHarborBuilding.cpp:94
 msgid "New harbor building finished"
@@ -2417,9 +2396,8 @@ msgid "Player"
 msgstr "Player"
 
 #: ingameWindows/iwMapDebug.cpp:110
-#, fuzzy
 msgid "Player %1%"
-msgstr "Player"
+msgstr ""
 
 #: world/MapLoader.cpp:394
 #, c-format
@@ -2447,9 +2425,8 @@ msgid "Player '%s' was defeated!"
 msgstr "Player '%s' has been defeated!"
 
 #: ingameWindows/iwMapGenerator.cpp:76
-#, fuzzy
 msgid "Player Distribution"
-msgstr "Distribution of goods"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:116
 msgid "Player Name"
@@ -2571,9 +2548,8 @@ msgid "Random"
 msgstr ""
 
 #: desktops/dskSelectMap.cpp:101
-#, fuzzy
 msgid "Random Map"
-msgstr "Random playback"
+msgstr ""
 
 #: ingameWindows/iwMusicPlayer.cpp:279
 msgid "Random playback"
@@ -2716,9 +2692,8 @@ msgid "Return To The Roots"
 msgstr "Return To The Roots"
 
 #: desktops/dskMenuBase.cpp:37 ingameWindows/iwOptionsWindow.cpp:45
-#, fuzzy
 msgid "Return To The Roots - %1%"
-msgstr "Return To The Roots - v%s-%s"
+msgstr ""
 
 #: ingameWindows/iwShip.cpp:61
 msgid "Return to harbor"
@@ -2789,9 +2764,8 @@ msgid "Save game!"
 msgstr "Save game!"
 
 #: Replay.cpp:136 Replay.cpp:181
-#, fuzzy
 msgid "Savegame error: "
-msgstr "Save game!"
+msgstr "Savegame error: "
 
 #: gameTypes/GoodTypes.h:74
 msgid "Saw"
@@ -2968,9 +2942,9 @@ msgid "Skip GameFrames"
 msgstr "Skip GameFrames"
 
 #: drivers/DriverWrapper.cpp:211
-#, fuzzy, c-format
+#, c-format
 msgid "Skipping %s: %s\n"
-msgstr "Skipping %s: %s"
+msgstr ""
 
 #: gameData/BuildingConsts.cpp:44
 msgid "Slaughterhouse"
@@ -3539,14 +3513,12 @@ msgid "Vertex Buffer Objects:"
 msgstr "Vertex Buffer Objects:"
 
 #: ingameWindows/iwMapGenerator.cpp:78
-#, fuzzy
 msgid "Very Close"
-msgstr "Very long"
+msgstr ""
 
 #: ingameWindows/iwMapGenerator.cpp:82
-#, fuzzy
 msgid "Very Far"
-msgstr "Very fast"
+msgstr ""
 
 #: desktops/dskHostGame.cpp:193
 msgid "Very Low"
@@ -3565,9 +3537,8 @@ msgid "Very slow"
 msgstr "Very slow"
 
 #: GameManager.cpp:64
-#, fuzzy
 msgid "Video driver couldn't be loaded!\n"
-msgstr "The specified file couldn't be loaded!"
+msgstr "Video driver couldn't be loaded!\n"
 
 #: desktops/dskHostGame.cpp:175
 msgid "View Settings..."
@@ -3659,9 +3630,8 @@ msgid "Winter world"
 msgstr "Winter world"
 
 #: ingameWindows/iwMapGenerator.cpp:88
-#, fuzzy
 msgid "Winterworld"
-msgstr "Winter world"
+msgstr ""
 
 #: gameData/BuildingConsts.cpp:189
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
@@ -3785,9 +3755,8 @@ msgid "done in %ums\n"
 msgstr "done in %ums\n"
 
 #: Loader.cpp:257 Loader.cpp:1036 Loader.cpp:1076
-#, fuzzy
 msgid "failed: %1%\n"
-msgstr "failed\n"
+msgstr "failed: %1%\n"
 
 #: Loader.cpp:137
 #, c-format
@@ -3801,22 +3770,22 @@ msgstr "http://www.siedler25.org"
 #: GameManager.cpp:198
 #, c-format
 msgid "jump to gf %i complete \n"
-msgstr ""
+msgstr "jump to gf %i complete \n"
 
 #: GameManager.cpp:194
 #, c-format
 msgid "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
-msgstr ""
+msgstr "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
 
 #: GameManager.cpp:183
 #, c-format
 msgid "jumping to gf %i, now at gf %i \n"
-msgstr ""
+msgstr "jumping to gf %i, now at gf %i \n"
 
 #: GameManager.cpp:179
 #, c-format
 msgid "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time %.3f ms \n"
-msgstr ""
+msgstr "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time %.3f ms \n"
 
 #: desktops/dskHostGame.cpp:373
 msgid "n/a"
@@ -3842,24 +3811,3 @@ msgstr "Various anonymous donators"
 #, c-format
 msgid "Â© 2005 - %s Settlers Freaks"
 msgstr "Â© 2005 - %s Settlers Freaks"
-
-#~ msgid "Connection to Host closed!"
-#~ msgstr "Connection to host closed!"
-
-#~ msgid "Incomplete message was received!"
-#~ msgstr "Incomplete message was received!"
-
-#~ msgid "Return To The Roots v%s-%s"
-#~ msgstr "Return To The Roots v%s-%s"
-
-#~ msgid "Skipping %s\n"
-#~ msgstr "Skipping %s\n"
-
-#~ msgid "Wells will now dry out, limiting the available water"
-#~ msgstr "Wells will now dry out, limiting the available water"
-
-#~ msgid "Writing \"%s\": "
-#~ msgstr "Writing \"%s\": "
-
-#~ msgid "finished\n"
-#~ msgstr "finished\n"
