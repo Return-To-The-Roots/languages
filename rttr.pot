@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-21 19:02+0100\n"
+"POT-Creation-Date: 2017-12-21 19:38+0100\n"
 "PO-Revision-Date: 2012-09-30 18:07+0100\n"
 "Last-Translator: Florian Doersch <sf-team@siedler25.org>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -14,9 +14,21 @@ msgstr ""
 "X-Generator: Poedit 2.0.4\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
 "X-Poedit-Basepath: ../..\n"
-"X-Poedit-KeywordsList: _;gettext_noop\n"
+"X-Poedit-KeywordsList: _;gettext_noop;__\n"
 "X-Poedit-SearchPath-0: src\n"
 "X-Poedit-SearchPath-1: RTTR/gamedata\n"
+
+#: RTTR/gamedata/world/greenland.lua:3
+msgid "greenland"
+msgstr ""
+
+#: RTTR/gamedata/world/wasteland.lua:2
+msgid "wasteland"
+msgstr ""
+
+#: RTTR/gamedata/world/winterworld.lua:2
+msgid "winterworld"
+msgstr ""
 
 #: src/EventManager.cpp:172
 msgid "Event count mismatch. Found events: %1%. Expected: %2%.\n"
@@ -180,7 +192,8 @@ msgstr ""
 msgid "Replacing entry %d with %s\n"
 msgstr ""
 
-#: src/PreviewMinimap.cpp:56 src/world/MapSerializer.cpp:75
+#: src/PreviewMinimap.cpp:54 src/desktops/dskSelectMap.cpp:71
+#: src/world/MapSerializer.cpp:73
 msgid "Failed to load game data!"
 msgstr ""
 
@@ -881,11 +894,11 @@ msgstr ""
 #: src/desktops/dskDirectIP.cpp:39 src/desktops/dskIntro.cpp:34
 #: src/desktops/dskLAN.cpp:53 src/desktops/dskLobby.cpp:49
 #: src/desktops/dskMultiPlayer.cpp:45 src/desktops/dskOptions.cpp:59
-#: src/desktops/dskSelectMap.cpp:94 src/desktops/dskSinglePlayer.cpp:56
+#: src/desktops/dskSelectMap.cpp:87 src/desktops/dskSinglePlayer.cpp:56
 #: src/desktops/dskTest.cpp:108 src/ingameWindows/iwDirectIPConnect.cpp:69
 #: src/ingameWindows/iwDirectIPCreate.cpp:67
 #: src/ingameWindows/iwLobbyRanking.cpp:60
-#: src/ingameWindows/iwMapGenerator.cpp:53
+#: src/ingameWindows/iwMapGenerator.cpp:60
 #: src/ingameWindows/iwPlayReplay.cpp:66
 msgid "Back"
 msgstr ""
@@ -1033,13 +1046,13 @@ msgid "Tournament finished"
 msgstr ""
 
 #: src/desktops/dskGameInterface.cpp:655 src/desktops/dskOptions.cpp:610
-#: src/ingameWindows/iwOptionsWindow.cpp:54
-#: src/ingameWindows/iwOptionsWindow.cpp:106
+#: src/ingameWindows/iwOptionsWindow.cpp:56
+#: src/ingameWindows/iwOptionsWindow.cpp:108
 msgid "Keyboard layout"
 msgstr ""
 
 #: src/desktops/dskGameInterface.cpp:658 src/desktops/dskMainMenu.cpp:138
-#: src/ingameWindows/iwOptionsWindow.cpp:111
+#: src/ingameWindows/iwOptionsWindow.cpp:113
 msgid "Readme!"
 msgstr ""
 
@@ -1155,9 +1168,9 @@ msgstr ""
 #: src/desktops/dskHostGame.cpp:88 src/desktops/dskHostGame.cpp:95
 #: src/desktops/dskHostGame.cpp:234 src/desktops/dskHostGame.cpp:716
 #: src/desktops/dskHostGame.cpp:1001 src/desktops/dskHostGame.cpp:1021
-#: src/desktops/dskLobby.cpp:258 src/desktops/dskSelectMap.cpp:199
-#: src/desktops/dskSelectMap.cpp:373 src/desktops/dskSelectMap.cpp:381
-#: src/desktops/dskSelectMap.cpp:393 src/desktops/dskSinglePlayer.cpp:114
+#: src/desktops/dskLobby.cpp:258 src/desktops/dskSelectMap.cpp:192
+#: src/desktops/dskSelectMap.cpp:366 src/desktops/dskSelectMap.cpp:374
+#: src/desktops/dskSelectMap.cpp:386 src/desktops/dskSinglePlayer.cpp:114
 #: src/desktops/dskSinglePlayer.cpp:117
 #: src/ingameWindows/iwLobbyConnect.cpp:188
 #: src/ingameWindows/iwMusicPlayer.cpp:116
@@ -1328,11 +1341,11 @@ msgstr ""
 msgid "Speed:"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:234 src/desktops/dskSelectMap.cpp:196
+#: src/desktops/dskHostGame.cpp:234 src/desktops/dskSelectMap.cpp:189
 msgid "Could not load map:\n"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:243 src/desktops/dskSelectMap.cpp:135
+#: src/desktops/dskHostGame.cpp:243 src/desktops/dskSelectMap.cpp:128
 msgid "Map: "
 msgstr ""
 
@@ -1409,7 +1422,7 @@ msgid "Server"
 msgstr ""
 
 #: src/desktops/dskLAN.cpp:57 src/desktops/dskLobby.cpp:59
-#: src/desktops/dskSelectMap.cpp:87 src/ingameWindows/iwPlayReplay.cpp:59
+#: src/desktops/dskSelectMap.cpp:80 src/ingameWindows/iwPlayReplay.cpp:59
 msgid "Player"
 msgstr ""
 
@@ -1426,7 +1439,7 @@ msgstr ""
 msgid "Internet Ranking"
 msgstr ""
 
-#: src/desktops/dskLobby.cpp:62 src/desktops/dskSelectMap.cpp:86
+#: src/desktops/dskLobby.cpp:62 src/desktops/dskSelectMap.cpp:79
 #: src/ingameWindows/iwLobbyRanking.cpp:55
 msgid "Name"
 msgstr ""
@@ -1472,19 +1485,6 @@ msgstr ""
 msgid ""
 "RttR now supports sending debug data. Would you like to help us improving "
 "this game by sending debug data?"
-msgstr ""
-
-#: src/desktops/dskMenuBase.cpp:37 src/ingameWindows/iwOptionsWindow.cpp:45
-msgid "Return To The Roots - %1%"
-msgstr ""
-
-#: src/desktops/dskMenuBase.cpp:40
-msgid "http://www.siedler25.org"
-msgstr ""
-
-#: src/desktops/dskMenuBase.cpp:41 src/ingameWindows/iwOptionsWindow.cpp:48
-#, c-format
-msgid "Â© 2005 - %s Settlers Freaks"
 msgstr ""
 
 #: src/desktops/dskMultiPlayer.cpp:39
@@ -1640,7 +1640,7 @@ msgid "Effects"
 msgstr ""
 
 #: src/desktops/dskOptions.cpp:245 src/ingameWindows/iwMusicPlayer.cpp:64
-#: src/ingameWindows/iwOptionsWindow.cpp:83
+#: src/ingameWindows/iwOptionsWindow.cpp:85
 msgid "Music player"
 msgstr ""
 
@@ -1660,100 +1660,87 @@ msgstr ""
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:86
+#: src/desktops/dskSelectMap.cpp:79
 msgid "Author"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:87
+#: src/desktops/dskSelectMap.cpp:80
 msgid "Type"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:87
+#: src/desktops/dskSelectMap.cpp:80
 msgid "Size"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:91
+#: src/desktops/dskSelectMap.cpp:84
 msgid "Selection of maps"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:96
+#: src/desktops/dskSelectMap.cpp:89
 msgid "Load game..."
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:98 src/ingameWindows/iwMissionStatement.cpp:55
+#: src/desktops/dskSelectMap.cpp:91 src/ingameWindows/iwMissionStatement.cpp:55
 msgid "Continue"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:100
+#: src/desktops/dskSelectMap.cpp:93
 msgid "Random Map"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:102
+#: src/desktops/dskSelectMap.cpp:95
 msgid "..."
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:108
+#: src/desktops/dskSelectMap.cpp:101
 msgid "Old maps"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:111
+#: src/desktops/dskSelectMap.cpp:104
 msgid "New maps"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:114
+#: src/desktops/dskSelectMap.cpp:107
 msgid "Own maps"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:117
+#: src/desktops/dskSelectMap.cpp:110
 msgid "Continents"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:120 src/desktops/dskSinglePlayer.cpp:49
+#: src/desktops/dskSelectMap.cpp:113 src/desktops/dskSinglePlayer.cpp:49
 msgid "Campaign"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:123
+#: src/desktops/dskSelectMap.cpp:116
 msgid "RTTR"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:126 src/ingameWindows/iwAddons.cpp:58
+#: src/desktops/dskSelectMap.cpp:119 src/ingameWindows/iwAddons.cpp:58
 msgid "Other"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:129
+#: src/desktops/dskSelectMap.cpp:122
 msgid "Sea"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:132
+#: src/desktops/dskSelectMap.cpp:125
 msgid "Played"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:136
+#: src/desktops/dskSelectMap.cpp:129
 msgid "Mapfile: "
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:392
+#: src/desktops/dskSelectMap.cpp:385
 msgid ""
 "Failed to generate random map.\n"
 "Reason: "
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:423
+#: src/desktops/dskSelectMap.cpp:416
 #, c-format
 msgid "%d Player"
-msgstr ""
-
-#: src/desktops/dskSelectMap.cpp:427 src/ingameWindows/iwMapGenerator.cpp:63
-#: src/ingameWindows/iwMapGenerator.cpp:87
-msgid "Greenland"
-msgstr ""
-
-#: src/desktops/dskSelectMap.cpp:427 src/ingameWindows/iwMapGenerator.cpp:89
-msgid "Wasteland"
-msgstr ""
-
-#: src/desktops/dskSelectMap.cpp:427
-msgid "Winter world"
 msgstr ""
 
 #: src/desktops/dskSinglePlayer.cpp:46
@@ -2646,7 +2633,7 @@ msgstr ""
 msgid "Additional features:"
 msgstr ""
 
-#: src/ingameWindows/iwAddons.cpp:39 src/ingameWindows/iwMapGenerator.cpp:54
+#: src/ingameWindows/iwAddons.cpp:39 src/ingameWindows/iwMapGenerator.cpp:61
 msgid "Apply"
 msgstr ""
 
@@ -3124,87 +3111,87 @@ msgstr ""
 msgid "Player %1%"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:49
+#: src/ingameWindows/iwMapGenerator.cpp:48
 msgid "Map Generator"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:58
+#: src/ingameWindows/iwMapGenerator.cpp:65
 msgid "%1% players"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:61
+#: src/ingameWindows/iwMapGenerator.cpp:68
 msgid "Islands"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:62
+#: src/ingameWindows/iwMapGenerator.cpp:69
 msgid "Continent"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:64
+#: src/ingameWindows/iwMapGenerator.cpp:70
+msgid "Greenland"
+msgstr ""
+
+#: src/ingameWindows/iwMapGenerator.cpp:71
 msgid "Migration"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:65
+#: src/ingameWindows/iwMapGenerator.cpp:72
 msgid "Riverland"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:66
+#: src/ingameWindows/iwMapGenerator.cpp:73
 msgid "Ringland"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:67
+#: src/ingameWindows/iwMapGenerator.cpp:74
 msgid "Random"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:76
+#: src/ingameWindows/iwMapGenerator.cpp:83
 msgid "Player Distribution"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:78
+#: src/ingameWindows/iwMapGenerator.cpp:85
 msgid "Very Close"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:79
+#: src/ingameWindows/iwMapGenerator.cpp:86
 msgid "Close"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:80
+#: src/ingameWindows/iwMapGenerator.cpp:87
 msgid "Medium"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:81
+#: src/ingameWindows/iwMapGenerator.cpp:88
 msgid "Far"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:82
+#: src/ingameWindows/iwMapGenerator.cpp:89
 msgid "Very Far"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:83
+#: src/ingameWindows/iwMapGenerator.cpp:90
 msgid "Furthest apart"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:85
+#: src/ingameWindows/iwMapGenerator.cpp:92
 msgid "Landscape"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:88
-msgid "Winterworld"
-msgstr ""
-
-#: src/ingameWindows/iwMapGenerator.cpp:91
+#: src/ingameWindows/iwMapGenerator.cpp:97
 msgid "Gold:"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:93
+#: src/ingameWindows/iwMapGenerator.cpp:99
 msgid "Iron:"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:95
+#: src/ingameWindows/iwMapGenerator.cpp:101
 msgid "Coal:"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:97
+#: src/ingameWindows/iwMapGenerator.cpp:103
 msgid "Granite:"
 msgstr ""
 
@@ -3440,24 +3427,24 @@ msgstr ""
 msgid "Game menu"
 msgstr ""
 
-#: src/ingameWindows/iwOptionsWindow.cpp:58
+#: src/ingameWindows/iwOptionsWindow.cpp:60
 msgid "Load 'ReadMe' file"
 msgstr ""
 
-#: src/ingameWindows/iwOptionsWindow.cpp:68 src/ingameWindows/iwSave.cpp:130
+#: src/ingameWindows/iwOptionsWindow.cpp:70 src/ingameWindows/iwSave.cpp:130
 msgid "Save game!"
 msgstr ""
 
-#: src/ingameWindows/iwOptionsWindow.cpp:86
+#: src/ingameWindows/iwOptionsWindow.cpp:88
 msgid "Advanced"
 msgstr ""
 
-#: src/ingameWindows/iwOptionsWindow.cpp:89
+#: src/ingameWindows/iwOptionsWindow.cpp:91
 #: src/ingameWindows/iwSurrender.cpp:28
 msgid "Surrender"
 msgstr ""
 
-#: src/ingameWindows/iwOptionsWindow.cpp:91
+#: src/ingameWindows/iwOptionsWindow.cpp:93
 msgid "End game"
 msgstr ""
 
@@ -3979,35 +3966,35 @@ msgstr ""
 msgid "(%d soldiers)"
 msgstr ""
 
-#: src/world/MapLoader.cpp:232
+#: src/world/MapLoader.cpp:230
 msgid "Unknown tree1-4 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:248
+#: src/world/MapLoader.cpp:246
 msgid "Unknown tree5-8 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:258
+#: src/world/MapLoader.cpp:256
 msgid "Unknown tree9 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:328
+#: src/world/MapLoader.cpp:326
 msgid "Unknown nature object at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:338 src/world/MapLoader.cpp:348
+#: src/world/MapLoader.cpp:336 src/world/MapLoader.cpp:346
 msgid "Unknown granite type2 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:358
+#: src/world/MapLoader.cpp:356
 msgid "Unknown object at %1%: (0x%2$x: 0x%3$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:392
+#: src/world/MapLoader.cpp:390
 msgid "Unknown animal species at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:427
+#: src/world/MapLoader.cpp:425
 #, c-format
 msgid "Player %u does not have a valid start position!"
 msgstr ""

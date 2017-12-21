@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-21 19:02+0100\n"
+"POT-Creation-Date: 2017-12-21 19:38+0100\n"
 "PO-Revision-Date: 2016-04-07 00:30+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -63,7 +63,7 @@ msgstr " brädor"
 msgid " stones"
 msgstr " stenar"
 
-#: src/ingameWindows/iwMapGenerator.cpp:58
+#: src/ingameWindows/iwMapGenerator.cpp:65
 msgid "%1% players"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgstr ""
 msgid "%d"
 msgstr "%d"
 
-#: src/desktops/dskSelectMap.cpp:423
+#: src/desktops/dskSelectMap.cpp:416
 #, c-format
 msgid "%d Player"
 msgstr "%d spelare"
@@ -167,7 +167,7 @@ msgstr "Bygg hydda"
 msgid "-> Dig mines"
 msgstr "-> Gräva gruva"
 
-#: src/desktops/dskSelectMap.cpp:102
+#: src/desktops/dskSelectMap.cpp:95
 msgid "..."
 msgstr ""
 
@@ -367,7 +367,7 @@ msgstr ""
 msgid "Adjusts how long a building will burn for when it is destroyed"
 msgstr ""
 
-#: src/ingameWindows/iwOptionsWindow.cpp:86
+#: src/ingameWindows/iwOptionsWindow.cpp:88
 msgid "Advanced"
 msgstr "Avancerat"
 
@@ -423,7 +423,7 @@ msgstr "Fel vid sparning som hoppats över!"
 msgid "And let's go!"
 msgstr "Nu kör vi!"
 
-#: src/ingameWindows/iwAddons.cpp:39 src/ingameWindows/iwMapGenerator.cpp:54
+#: src/ingameWindows/iwAddons.cpp:39 src/ingameWindows/iwMapGenerator.cpp:61
 msgid "Apply"
 msgstr ""
 
@@ -503,7 +503,7 @@ msgstr "Angrepp!"
 msgid "Audio driver couldn't be loaded!\n"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:86
+#: src/desktops/dskSelectMap.cpp:79
 msgid "Author"
 msgstr "Författare"
 
@@ -527,11 +527,11 @@ msgstr ""
 #: src/desktops/dskDirectIP.cpp:39 src/desktops/dskIntro.cpp:34
 #: src/desktops/dskLAN.cpp:53 src/desktops/dskLobby.cpp:49
 #: src/desktops/dskMultiPlayer.cpp:45 src/desktops/dskOptions.cpp:59
-#: src/desktops/dskSelectMap.cpp:94 src/desktops/dskSinglePlayer.cpp:56
+#: src/desktops/dskSelectMap.cpp:87 src/desktops/dskSinglePlayer.cpp:56
 #: src/desktops/dskTest.cpp:108 src/ingameWindows/iwDirectIPConnect.cpp:69
 #: src/ingameWindows/iwDirectIPCreate.cpp:67
 #: src/ingameWindows/iwLobbyRanking.cpp:60
-#: src/ingameWindows/iwMapGenerator.cpp:53
+#: src/ingameWindows/iwMapGenerator.cpp:60
 #: src/ingameWindows/iwPlayReplay.cpp:66
 msgid "Back"
 msgstr "Tillbaka"
@@ -624,7 +624,7 @@ msgstr "Slaktare"
 msgid "Call in geologist"
 msgstr "Kalla på en geolog"
 
-#: src/desktops/dskSelectMap.cpp:120 src/desktops/dskSinglePlayer.cpp:49
+#: src/desktops/dskSelectMap.cpp:113 src/desktops/dskSinglePlayer.cpp:49
 msgid "Campaign"
 msgstr "Fälttåg"
 
@@ -734,7 +734,7 @@ msgstr "Töm"
 msgid "Cleaver"
 msgstr "Köttyxa"
 
-#: src/ingameWindows/iwMapGenerator.cpp:79
+#: src/ingameWindows/iwMapGenerator.cpp:86
 msgid "Close"
 msgstr ""
 
@@ -756,7 +756,7 @@ msgstr "Kol"
 msgid "Coal mine"
 msgstr "Kolgruva"
 
-#: src/ingameWindows/iwMapGenerator.cpp:95
+#: src/ingameWindows/iwMapGenerator.cpp:101
 msgid "Coal:"
 msgstr ""
 
@@ -827,15 +827,15 @@ msgstr "Byggplatser"
 msgid "Construction aid mode"
 msgstr "Byggningshjälp"
 
-#: src/ingameWindows/iwMapGenerator.cpp:62
+#: src/ingameWindows/iwMapGenerator.cpp:69
 msgid "Continent"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:117
+#: src/desktops/dskSelectMap.cpp:110
 msgid "Continents"
 msgstr "Världsdelar"
 
-#: src/desktops/dskSelectMap.cpp:98 src/ingameWindows/iwMissionStatement.cpp:55
+#: src/desktops/dskSelectMap.cpp:91 src/ingameWindows/iwMissionStatement.cpp:55
 msgid "Continue"
 msgstr "Fortsätt"
 
@@ -860,7 +860,7 @@ msgstr "Omvandla till järnmalm"
 msgid "Could not determine type of path %s\n"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:234 src/desktops/dskSelectMap.cpp:196
+#: src/desktops/dskHostGame.cpp:234 src/desktops/dskSelectMap.cpp:189
 msgid "Could not load map:\n"
 msgstr ""
 
@@ -1082,7 +1082,7 @@ msgstr "Använd kolarbostad."
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
 msgstr ""
 
-#: src/ingameWindows/iwOptionsWindow.cpp:91
+#: src/ingameWindows/iwOptionsWindow.cpp:93
 msgid "End game"
 msgstr "Avsluta spelet"
 
@@ -1111,9 +1111,9 @@ msgstr "Sätta fana"
 #: src/desktops/dskHostGame.cpp:88 src/desktops/dskHostGame.cpp:95
 #: src/desktops/dskHostGame.cpp:234 src/desktops/dskHostGame.cpp:716
 #: src/desktops/dskHostGame.cpp:1001 src/desktops/dskHostGame.cpp:1021
-#: src/desktops/dskLobby.cpp:258 src/desktops/dskSelectMap.cpp:199
-#: src/desktops/dskSelectMap.cpp:373 src/desktops/dskSelectMap.cpp:381
-#: src/desktops/dskSelectMap.cpp:393 src/desktops/dskSinglePlayer.cpp:114
+#: src/desktops/dskLobby.cpp:258 src/desktops/dskSelectMap.cpp:192
+#: src/desktops/dskSelectMap.cpp:366 src/desktops/dskSelectMap.cpp:374
+#: src/desktops/dskSelectMap.cpp:386 src/desktops/dskSinglePlayer.cpp:114
 #: src/desktops/dskSinglePlayer.cpp:117
 #: src/ingameWindows/iwLobbyConnect.cpp:188
 #: src/ingameWindows/iwMusicPlayer.cpp:116
@@ -1182,7 +1182,7 @@ msgstr "Upptäcksresa"
 msgid "Exploration:"
 msgstr "Sikte:"
 
-#: src/desktops/dskSelectMap.cpp:392
+#: src/desktops/dskSelectMap.cpp:385
 msgid ""
 "Failed to generate random map.\n"
 "Reason: "
@@ -1201,7 +1201,8 @@ msgstr ""
 msgid "Failed to load addon objects."
 msgstr "Misslyckades med att ladda tilläggsobjekt."
 
-#: src/PreviewMinimap.cpp:56 src/world/MapSerializer.cpp:75
+#: src/PreviewMinimap.cpp:54 src/desktops/dskSelectMap.cpp:71
+#: src/world/MapSerializer.cpp:73
 #, fuzzy
 msgid "Failed to load game data!"
 msgstr "Fel vid laddning av landskapsinformationen."
@@ -1219,7 +1220,7 @@ msgstr "Fel vid laddning av kartobjekterna."
 msgid "Failed to save async log at \"%s\"\n"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:81
+#: src/ingameWindows/iwMapGenerator.cpp:88
 msgid "Far"
 msgstr ""
 
@@ -1353,7 +1354,7 @@ msgstr "Hela bildskärmen"
 msgid "Fullscreen resolution:"
 msgstr "Upplösning vid helskärm:"
 
-#: src/ingameWindows/iwMapGenerator.cpp:83
+#: src/ingameWindows/iwMapGenerator.cpp:90
 msgid "Furthest apart"
 msgstr ""
 
@@ -1460,7 +1461,7 @@ msgstr ""
 msgid "Gold mine"
 msgstr "Guldgruva"
 
-#: src/ingameWindows/iwMapGenerator.cpp:91
+#: src/ingameWindows/iwMapGenerator.cpp:97
 msgid "Gold:"
 msgstr ""
 
@@ -1484,7 +1485,7 @@ msgstr "Granitgruva"
 msgid "Granite mines will never be depleted."
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:97
+#: src/ingameWindows/iwMapGenerator.cpp:103
 msgid "Granite:"
 msgstr ""
 
@@ -1496,8 +1497,8 @@ msgstr "Grafik"
 msgid "Graphics Driver"
 msgstr "Drivrutin:"
 
-#: src/desktops/dskSelectMap.cpp:427 src/ingameWindows/iwMapGenerator.cpp:63
-#: src/ingameWindows/iwMapGenerator.cpp:87
+#: src/ingameWindows/iwMapGenerator.cpp:70
+#, fuzzy
 msgid "Greenland"
 msgstr "Gröna ängar"
 
@@ -1695,7 +1696,7 @@ msgstr "Järnmalm"
 msgid "Iron smelter"
 msgstr "Smältverk"
 
-#: src/ingameWindows/iwMapGenerator.cpp:93
+#: src/ingameWindows/iwMapGenerator.cpp:99
 msgid "Iron:"
 msgstr ""
 
@@ -1703,7 +1704,7 @@ msgstr ""
 msgid "Ironore"
 msgstr "Järnmalm"
 
-#: src/ingameWindows/iwMapGenerator.cpp:61
+#: src/ingameWindows/iwMapGenerator.cpp:68
 msgid "Islands"
 msgstr ""
 
@@ -1725,8 +1726,8 @@ msgid "Jump finished (%1$.3g seconds)."
 msgstr ""
 
 #: src/desktops/dskGameInterface.cpp:655 src/desktops/dskOptions.cpp:610
-#: src/ingameWindows/iwOptionsWindow.cpp:54
-#: src/ingameWindows/iwOptionsWindow.cpp:106
+#: src/ingameWindows/iwOptionsWindow.cpp:56
+#: src/ingameWindows/iwOptionsWindow.cpp:108
 msgid "Keyboard layout"
 msgstr "Tangentbordslayout"
 
@@ -1734,7 +1735,7 @@ msgstr "Tangentbordslayout"
 msgid "Keyboard layout:"
 msgstr "Tangentbordslayout:"
 
-#: src/ingameWindows/iwMapGenerator.cpp:85
+#: src/ingameWindows/iwMapGenerator.cpp:92
 msgid "Landscape"
 msgstr ""
 
@@ -1807,7 +1808,7 @@ msgid ""
 "Fortress: 1"
 msgstr ""
 
-#: src/ingameWindows/iwOptionsWindow.cpp:58
+#: src/ingameWindows/iwOptionsWindow.cpp:60
 msgid "Load 'ReadMe' file"
 msgstr "Ladda 'läs mig'-fil"
 
@@ -1819,7 +1820,7 @@ msgstr "Ladda spel"
 msgid "Load game!"
 msgstr "Ladda spel!"
 
-#: src/desktops/dskSelectMap.cpp:96
+#: src/desktops/dskSelectMap.cpp:89
 msgid "Load game..."
 msgstr "Ladda ett spel..."
 
@@ -1932,7 +1933,7 @@ msgstr "Karta"
 msgid "Map Debug"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:49
+#: src/ingameWindows/iwMapGenerator.cpp:48
 msgid "Map Generator"
 msgstr ""
 
@@ -1952,11 +1953,11 @@ msgstr ""
 msgid "Map was loaded and pinned at the wall..."
 msgstr "Kartan laddad och upprollad..."
 
-#: src/desktops/dskHostGame.cpp:243 src/desktops/dskSelectMap.cpp:135
+#: src/desktops/dskHostGame.cpp:243 src/desktops/dskSelectMap.cpp:128
 msgid "Map: "
 msgstr "Karta: "
 
-#: src/desktops/dskSelectMap.cpp:136
+#: src/desktops/dskSelectMap.cpp:129
 msgid "Mapfile: "
 msgstr "Kartfil: "
 
@@ -1980,7 +1981,7 @@ msgstr "Kött"
 msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "Dina gruvarbetare älskar köttet som jägaren skaffar."
 
-#: src/ingameWindows/iwMapGenerator.cpp:80
+#: src/ingameWindows/iwMapGenerator.cpp:87
 msgid "Medium"
 msgstr ""
 
@@ -2014,7 +2015,7 @@ msgstr "Verktygssmed"
 msgid "Metalworks"
 msgstr "Verktygssmedja"
 
-#: src/ingameWindows/iwMapGenerator.cpp:64
+#: src/ingameWindows/iwMapGenerator.cpp:71
 msgid "Migration"
 msgstr ""
 
@@ -2134,11 +2135,11 @@ msgid "Music"
 msgstr "Musik:"
 
 #: src/desktops/dskOptions.cpp:245 src/ingameWindows/iwMusicPlayer.cpp:64
-#: src/ingameWindows/iwOptionsWindow.cpp:83
+#: src/ingameWindows/iwOptionsWindow.cpp:85
 msgid "Music player"
 msgstr "Musikspelare"
 
-#: src/desktops/dskLobby.cpp:62 src/desktops/dskSelectMap.cpp:86
+#: src/desktops/dskLobby.cpp:62 src/desktops/dskSelectMap.cpp:79
 #: src/ingameWindows/iwLobbyRanking.cpp:55
 msgid "Name"
 msgstr "Namn"
@@ -2163,7 +2164,7 @@ msgstr ""
 msgid "New harbor building finished"
 msgstr "Ny hamnanläggning färdig"
 
-#: src/desktops/dskSelectMap.cpp:111
+#: src/desktops/dskSelectMap.cpp:104
 msgid "New maps"
 msgstr "Nya kartor"
 
@@ -2310,7 +2311,7 @@ msgstr "Officer"
 msgid "Officer (3)"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:108
+#: src/desktops/dskSelectMap.cpp:101
 msgid "Old maps"
 msgstr "Gamla kartor"
 
@@ -2338,7 +2339,7 @@ msgstr "Alternativ"
 msgid "Order of building site"
 msgstr "Uppdrag för byggning"
 
-#: src/desktops/dskSelectMap.cpp:126 src/ingameWindows/iwAddons.cpp:58
+#: src/desktops/dskSelectMap.cpp:119 src/ingameWindows/iwAddons.cpp:58
 msgid "Other"
 msgstr "Övriga"
 
@@ -2354,7 +2355,7 @@ msgstr "Vårt högkvarter förstördes!"
 msgid "Outline map"
 msgstr "Översiktskarta"
 
-#: src/desktops/dskSelectMap.cpp:114
+#: src/desktops/dskSelectMap.cpp:107
 msgid "Own maps"
 msgstr "Egna kartor"
 
@@ -2413,12 +2414,12 @@ msgstr "Visa replay"
 msgid "Playback in this order"
 msgstr "Spela upp i denna ordning"
 
-#: src/desktops/dskSelectMap.cpp:132
+#: src/desktops/dskSelectMap.cpp:125
 msgid "Played"
 msgstr "Spelat"
 
 #: src/desktops/dskLAN.cpp:57 src/desktops/dskLobby.cpp:59
-#: src/desktops/dskSelectMap.cpp:87 src/ingameWindows/iwPlayReplay.cpp:59
+#: src/desktops/dskSelectMap.cpp:80 src/ingameWindows/iwPlayReplay.cpp:59
 msgid "Player"
 msgstr "Spelare"
 
@@ -2426,7 +2427,7 @@ msgstr "Spelare"
 msgid "Player %1%"
 msgstr ""
 
-#: src/world/MapLoader.cpp:427
+#: src/world/MapLoader.cpp:425
 #, c-format
 msgid "Player %u does not have a valid start position!"
 msgstr ""
@@ -2451,7 +2452,7 @@ msgstr "Spelare '%s' lämnade spelet!"
 msgid "Player '%s' was defeated!"
 msgstr "Spelare '%s' besegrades!"
 
-#: src/ingameWindows/iwMapGenerator.cpp:76
+#: src/ingameWindows/iwMapGenerator.cpp:83
 msgid "Player Distribution"
 msgstr ""
 
@@ -2558,7 +2559,7 @@ msgstr "Stenbrott"
 msgid "Quit program"
 msgstr "Avsluta"
 
-#: src/desktops/dskSelectMap.cpp:123
+#: src/desktops/dskSelectMap.cpp:116
 msgid "RTTR"
 msgstr "RTTR"
 
@@ -2570,11 +2571,11 @@ msgstr "Folk"
 msgid "Race specific catapult graphics"
 msgstr "Kulturspecifik katapultgrafik"
 
-#: src/ingameWindows/iwMapGenerator.cpp:67
+#: src/ingameWindows/iwMapGenerator.cpp:74
 msgid "Random"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:100
+#: src/desktops/dskSelectMap.cpp:93
 msgid "Random Map"
 msgstr ""
 
@@ -2599,7 +2600,7 @@ msgid "Readme"
 msgstr "Läs mig"
 
 #: src/desktops/dskGameInterface.cpp:658 src/desktops/dskMainMenu.cpp:138
-#: src/ingameWindows/iwOptionsWindow.cpp:111
+#: src/ingameWindows/iwOptionsWindow.cpp:113
 msgid "Readme!"
 msgstr "Läs mig!"
 
@@ -2718,19 +2719,15 @@ msgstr "Tillbaka"
 msgid "Return To The Roots"
 msgstr "Return To The Roots"
 
-#: src/desktops/dskMenuBase.cpp:37 src/ingameWindows/iwOptionsWindow.cpp:45
-msgid "Return To The Roots - %1%"
-msgstr ""
-
 #: src/ingameWindows/iwShip.cpp:61
 msgid "Return to harbor"
 msgstr "Återvänd till hamnen"
 
-#: src/ingameWindows/iwMapGenerator.cpp:66
+#: src/ingameWindows/iwMapGenerator.cpp:73
 msgid "Ringland"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:65
+#: src/ingameWindows/iwMapGenerator.cpp:72
 msgid "Riverland"
 msgstr ""
 
@@ -2787,7 +2784,7 @@ msgstr "SYSTEM"
 msgid "Save Password?"
 msgstr "Spara lösenord?"
 
-#: src/ingameWindows/iwOptionsWindow.cpp:68 src/ingameWindows/iwSave.cpp:130
+#: src/ingameWindows/iwOptionsWindow.cpp:70 src/ingameWindows/iwSave.cpp:130
 msgid "Save game!"
 msgstr "Spara spel!"
 
@@ -2811,7 +2808,7 @@ msgstr "Spejare"
 msgid "Scythe"
 msgstr "Lie"
 
-#: src/desktops/dskSelectMap.cpp:129
+#: src/desktops/dskSelectMap.cpp:122
 msgid "Sea"
 msgstr "Hav"
 
@@ -2832,7 +2829,7 @@ msgstr ""
 msgid "Select all"
 msgstr "Välj ut alla"
 
-#: src/desktops/dskSelectMap.cpp:91
+#: src/desktops/dskSelectMap.cpp:84
 msgid "Selection of maps"
 msgstr "Val av karta"
 
@@ -2957,7 +2954,7 @@ msgstr ""
 msgid "Singleplayer"
 msgstr "En spelare"
 
-#: src/desktops/dskSelectMap.cpp:87
+#: src/desktops/dskSelectMap.cpp:80
 msgid "Size"
 msgstr "Storlek"
 
@@ -3124,7 +3121,7 @@ msgstr "Föreslå icke-angreppspakt"
 msgid "Suggest treaty of alliance"
 msgstr "Föreslå alliansfördrag"
 
-#: src/ingameWindows/iwOptionsWindow.cpp:89
+#: src/ingameWindows/iwOptionsWindow.cpp:91
 #: src/ingameWindows/iwSurrender.cpp:28
 msgid "Surrender"
 msgstr "Ge upp"
@@ -3455,7 +3452,7 @@ msgstr "Alliansfördrag"
 msgid "Tribal chiefs assembled around the table..."
 msgstr "Hövdingarna samlade runt bordet..."
 
-#: src/desktops/dskSelectMap.cpp:87
+#: src/desktops/dskSelectMap.cpp:80
 msgid "Type"
 msgstr "Typ"
 
@@ -3464,7 +3461,7 @@ msgstr "Typ"
 msgid "Unknown"
 msgstr ""
 
-#: src/world/MapLoader.cpp:392
+#: src/world/MapLoader.cpp:390
 msgid "Unknown animal species at %1%: (0x%2$x)\n"
 msgstr ""
 
@@ -3472,27 +3469,27 @@ msgstr ""
 msgid "Unknown error!"
 msgstr ""
 
-#: src/world/MapLoader.cpp:338 src/world/MapLoader.cpp:348
+#: src/world/MapLoader.cpp:336 src/world/MapLoader.cpp:346
 msgid "Unknown granite type2 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:328
+#: src/world/MapLoader.cpp:326
 msgid "Unknown nature object at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:358
+#: src/world/MapLoader.cpp:356
 msgid "Unknown object at %1%: (0x%2$x: 0x%3$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:232
+#: src/world/MapLoader.cpp:230
 msgid "Unknown tree1-4 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:248
+#: src/world/MapLoader.cpp:246
 msgid "Unknown tree5-8 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:258
+#: src/world/MapLoader.cpp:256
 msgid "Unknown tree9 at %1%: (0x%2$x)\n"
 msgstr ""
 
@@ -3557,11 +3554,11 @@ msgstr "Version:"
 msgid "Vertex Buffer Objects:"
 msgstr "Vertex Buffer Objects:"
 
-#: src/ingameWindows/iwMapGenerator.cpp:78
+#: src/ingameWindows/iwMapGenerator.cpp:85
 msgid "Very Close"
 msgstr ""
 
-#: src/ingameWindows/iwMapGenerator.cpp:82
+#: src/ingameWindows/iwMapGenerator.cpp:89
 msgid "Very Far"
 msgstr ""
 
@@ -3615,10 +3612,6 @@ msgstr "Varor"
 msgid "Warning: The played replay is not in sync with the original match. (GF: %u)"
 msgstr "Varning: Replayet är inte synchroniserad med ursprungliga spelet. (GF: %u)"
 
-#: src/desktops/dskSelectMap.cpp:427 src/ingameWindows/iwMapGenerator.cpp:89
-msgid "Wasteland"
-msgstr "Öken"
-
 #: src/gameData/BuildingConsts.cpp:27
 msgid "Watchtower"
 msgstr "Vakttorn"
@@ -3670,14 +3663,6 @@ msgstr ""
 #: src/desktops/dskOptions.cpp:178 src/ingameWindows/iwSettings.cpp:42
 msgid "Windowed"
 msgstr "I fönster"
-
-#: src/desktops/dskSelectMap.cpp:427
-msgid "Winter world"
-msgstr "Winterlandskap"
-
-#: src/ingameWindows/iwMapGenerator.cpp:88
-msgid "Winterworld"
-msgstr ""
 
 #: src/gameData/BuildingConsts.cpp:189
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
@@ -3808,9 +3793,9 @@ msgstr ""
 msgid "finished in %ums\n"
 msgstr ""
 
-#: src/desktops/dskMenuBase.cpp:40
-msgid "http://www.siedler25.org"
-msgstr "http://www.siedler25.org"
+#: RTTR/gamedata/world/greenland.lua:3
+msgid "greenland"
+msgstr "Gröna ängar"
 
 #: src/GameManager.cpp:198
 #, c-format
@@ -3852,11 +3837,17 @@ msgstr "till GF:"
 msgid "various anonymous donators"
 msgstr "olika anonyma gåvor"
 
-#: src/desktops/dskMenuBase.cpp:41 src/ingameWindows/iwOptionsWindow.cpp:48
-#, c-format
-msgid "Â© 2005 - %s Settlers Freaks"
-msgstr ""
+#: RTTR/gamedata/world/wasteland.lua:2
+msgid "wasteland"
+msgstr "Öken"
+
+#: RTTR/gamedata/world/winterworld.lua:2
+msgid "winterworld"
+msgstr "Winterlandskap"
 
 #, fuzzy
 #~ msgid "Could not load game data"
 #~ msgstr "Fel vid laddning av landskapsinformationen."
+
+#~ msgid "http://www.siedler25.org"
+#~ msgstr "http://www.siedler25.org"
