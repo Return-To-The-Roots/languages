@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-21 19:38+0100\n"
+"POT-Creation-Date: 2018-11-04 16:59+0100\n"
 "PO-Revision-Date: 2012-09-30 18:07+0100\n"
 "Last-Translator: Florian Doersch <sf-team@siedler25.org>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -11,22 +11,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2017-12-16 20:00+0000\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-KeywordsList: _;gettext_noop;__\n"
 "X-Poedit-SearchPath-0: src\n"
 "X-Poedit-SearchPath-1: RTTR/gamedata\n"
 
-#: RTTR/gamedata/world/greenland.lua:3
+#: RTTR/gamedata/world/greenland.lua:5
 msgid "greenland"
 msgstr ""
 
-#: RTTR/gamedata/world/wasteland.lua:2
+#: RTTR/gamedata/world/wasteland.lua:4
 msgid "wasteland"
 msgstr ""
 
-#: RTTR/gamedata/world/winterworld.lua:2
+#: RTTR/gamedata/world/winterworld.lua:4
 msgid "winterworld"
 msgstr ""
 
@@ -46,56 +46,51 @@ msgstr ""
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
 msgstr ""
 
-#: src/GameManager.cpp:64
+#: src/GameManager.cpp:59
 msgid "Video driver couldn't be loaded!\n"
 msgstr ""
 
-#: src/GameManager.cpp:76
+#: src/GameManager.cpp:71
 msgid "Audio driver couldn't be loaded!\n"
 msgstr ""
 
-#: src/GameManager.cpp:87
+#: src/GameManager.cpp:82
 msgid ""
 "\n"
 "Starting the game\n"
 msgstr ""
 
-#: src/GameManager.cpp:179
+#: src/GameManager.cpp:130
 #, c-format
 msgid ""
 "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time "
 "%.3f ms \n"
 msgstr ""
 
-#: src/GameManager.cpp:183
+#: src/GameManager.cpp:133
 #, c-format
 msgid "jumping to gf %i, now at gf %i \n"
 msgstr ""
 
-#: src/GameManager.cpp:194
+#: src/GameManager.cpp:144
 #, c-format
 msgid ""
 "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
 msgstr ""
 
-#: src/GameManager.cpp:198
-#, c-format
-msgid "jump to gf %i complete \n"
-msgstr ""
-
-#: src/GamePlayer.cpp:1614
+#: src/GamePlayer.cpp:1626
 msgid "Your ally wishes to notify you of this location"
 msgstr ""
 
-#: src/GamePlayer.cpp:2036
+#: src/GamePlayer.cpp:2066
 msgid "The emergency program has been activated."
 msgstr ""
 
-#: src/GamePlayer.cpp:2045
+#: src/GamePlayer.cpp:2075
 msgid "The emergency program has been deactivated."
 msgstr ""
 
-#: src/GlobalGameSettings.cpp:265
+#: src/GlobalGameSettings.cpp:263
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr ""
@@ -126,73 +121,88 @@ msgstr ""
 msgid " (hard)"
 msgstr ""
 
-#: src/Loader.cpp:111 src/Loader.cpp:961
-#, c-format
-msgid "File or directory does not exist: %s\n"
+#: src/Loader.cpp:245
+msgid "Starting Sound-Converter...\n"
 msgstr ""
 
-#: src/Loader.cpp:120
-#, c-format
-msgid "Loading LST,BOB,IDX,BMP,TXT,GER,ENG,INI files from \"%s\"\n"
+#: src/Loader.cpp:292
+msgid ""
+"WARNING: Did not find the music files.\n"
+"\tYou have to run the updater once or copy the .ogg files manually to \"%1%"
+"\" or you won't be able to hear the music.\n"
 msgstr ""
 
-#: src/Loader.cpp:137
-#, c-format
-msgid "finished in %ums\n"
-msgstr ""
-
-#: src/Loader.cpp:163
+#: src/Loader.cpp:418
 #, c-format
 msgid "Failed to load %s\n"
 msgstr ""
 
-#: src/Loader.cpp:230
-msgid "Starting Sound-Converter...\n"
+#: src/Loader.cpp:913
+msgid "Failed to merge entry %1%. Archive expected!\n"
 msgstr ""
 
-#: src/Loader.cpp:253 src/Loader.cpp:933
+#: src/Loader.cpp:977
 #, c-format
-msgid "Loading \"%s\": "
+msgid "File or directory does not exist: %s\n"
 msgstr ""
 
-#: src/Loader.cpp:257 src/Loader.cpp:938 src/Loader.cpp:978
-msgid "failed: %1%\n"
-msgstr ""
-
-#: src/Loader.cpp:260 src/Loader.cpp:942 src/Loader.cpp:981
-#, c-format
-msgid "done in %ums\n"
-msgstr ""
-
-#: src/Loader.cpp:968
+#: src/Loader.cpp:984
 #, c-format
 msgid "Could not determine type of path %s\n"
 msgstr ""
 
-#: src/Loader.cpp:972
+#: src/Loader.cpp:988
 #, c-format
 msgid "Loading directory %s\n"
 msgstr ""
 
-#: src/Loader.cpp:975
+#: src/Loader.cpp:991
 msgid "  Loading %1% entries: "
 msgstr ""
 
-#: src/Loader.cpp:1026
+#: src/Loader.cpp:994 src/Loader.cpp:1022
+msgid "failed: %1%\n"
+msgstr ""
+
+#: src/Loader.cpp:997 src/Loader.cpp:1026
 #, c-format
-msgid "Replacing entries of previously loaded file '%s'\n"
+msgid "done in %ums\n"
 msgstr ""
 
-#: src/Loader.cpp:1038
-msgid "Error while replacing a BOB file\n"
-msgstr ""
-
-#: src/Loader.cpp:1051
+#: src/Loader.cpp:1017 src/MusicPlayer.cpp:245
 #, c-format
-msgid "Replacing entry %d with %s\n"
+msgid "Loading \"%s\": "
 msgstr ""
 
-#: src/PreviewMinimap.cpp:54 src/desktops/dskSelectMap.cpp:71
+#: src/Loader.cpp:1035
+#, c-format
+msgid "Directory does not exist: %s\n"
+msgstr ""
+
+#: src/Loader.cpp:1042
+#, c-format
+msgid "Loading LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI files from \"%s\"\n"
+msgstr ""
+
+#: src/Loader.cpp:1060
+#, c-format
+msgid "finished in %ums\n"
+msgstr ""
+
+#: src/MusicPlayer.cpp:106
+#, c-format
+msgid "Loading \"%s\"\n"
+msgstr ""
+
+#: src/MusicPlayer.cpp:250
+msgid "Error: %1%\n"
+msgstr ""
+
+#: src/MusicPlayer.cpp:254
+msgid "OK\n"
+msgstr ""
+
+#: src/PreviewMinimap.cpp:54 src/desktops/dskSelectMap.cpp:72
 #: src/world/MapSerializer.cpp:73
 msgid "Failed to load game data!"
 msgstr ""
@@ -225,8 +235,16 @@ msgid ""
 "expected: %2%)!"
 msgstr ""
 
-#: src/SerializedGameData.cpp:297
+#: src/SerializedGameData.cpp:300
 msgid "An error occured while saving which was suppressed!"
+msgstr ""
+
+#: src/WindowManager.cpp:871
+msgid "Error writing screenshot: %1%\n"
+msgstr ""
+
+#: src/WindowManager.cpp:873
+msgid "Screenshot saved to %1%\n"
 msgstr ""
 
 #: src/addons/AddonAIDebugWindow.h:33
@@ -292,7 +310,7 @@ msgstr ""
 #: src/addons/AddonBurnDuration.h:34 src/addons/AddonMaxWaterwayLength.h:47
 #: src/ingameWindows/iwAddons.cpp:44 src/ingameWindows/iwBuildOrder.cpp:61
 #: src/ingameWindows/iwDistribution.cpp:86 src/ingameWindows/iwMilitary.cpp:59
-#: src/ingameWindows/iwTools.cpp:72 src/ingameWindows/iwTransport.cpp:44
+#: src/ingameWindows/iwTools.cpp:74 src/ingameWindows/iwTransport.cpp:44
 msgid "Default"
 msgstr ""
 
@@ -370,6 +388,26 @@ msgstr ""
 msgid "Allows to build the charburner."
 msgstr ""
 
+#: src/addons/AddonCoinsCapturedBld.h:33
+msgid "Coins on captured buildings"
+msgstr ""
+
+#: src/addons/AddonCoinsCapturedBld.h:34
+msgid "Change the coin setting for captured military buildings."
+msgstr ""
+
+#: src/addons/AddonCoinsCapturedBld.h:36
+msgid "Keep setting"
+msgstr ""
+
+#: src/addons/AddonCoinsCapturedBld.h:37
+msgid "Enable"
+msgstr ""
+
+#: src/addons/AddonCoinsCapturedBld.h:38
+msgid "Disable"
+msgstr ""
+
 #: src/addons/AddonCustomBuildSequence.h:32
 msgid "Custom build sequence"
 msgstr ""
@@ -402,6 +440,16 @@ msgstr ""
 msgid "Reduce reoccupying troops accordingly"
 msgstr ""
 
+#: src/addons/AddonDemolishBldWORes.h:29
+msgid "Demolish building when out of resources"
+msgstr ""
+
+#: src/addons/AddonDemolishBldWORes.h:30
+msgid ""
+"Automatically demolish a resource gathering building, like a mine, if it "
+"runs permanently out of resources."
+msgstr ""
+
 #: src/addons/AddonDemolitionProhibition.h:32
 msgid "Disable Demolition of military buildings"
 msgstr ""
@@ -411,10 +459,10 @@ msgid ""
 "Disable the demolition of military buildings under attack or near frontiers."
 msgstr ""
 
-#: src/addons/AddonDemolitionProhibition.h:35 src/desktops/dskOptions.cpp:151
-#: src/desktops/dskOptions.cpp:158 src/desktops/dskOptions.cpp:164
-#: src/desktops/dskOptions.cpp:192 src/desktops/dskOptions.cpp:211
-#: src/desktops/dskOptions.cpp:230 src/desktops/dskOptions.cpp:239
+#: src/addons/AddonDemolitionProhibition.h:35 src/desktops/dskOptions.cpp:146
+#: src/desktops/dskOptions.cpp:153 src/desktops/dskOptions.cpp:159
+#: src/desktops/dskOptions.cpp:184 src/desktops/dskOptions.cpp:203
+#: src/desktops/dskOptions.cpp:222 src/desktops/dskOptions.cpp:231
 msgid "Off"
 msgstr ""
 
@@ -446,6 +494,16 @@ msgstr ""
 
 #: src/addons/AddonExhaustibleWater.h:38
 msgid "Exhaustible"
+msgstr ""
+
+#: src/addons/AddonFrontierDistanceReachable.h:30
+msgid "Frontier Distance checks reachability"
+msgstr ""
+
+#: src/addons/AddonFrontierDistanceReachable.h:31
+msgid ""
+"Military building counts as interior if an attack is permanently impossible. "
+"(Path blocked by terrain like sea, lava, etc.)"
 msgstr ""
 
 #: src/addons/AddonHalfCostMilEquip.h:31
@@ -850,19 +908,19 @@ msgstr ""
 msgid "New harbor building finished"
 msgstr ""
 
-#: src/buildings/nobMilitary.cpp:688
+#: src/buildings/nobMilitary.cpp:683
 msgid "Military building occupied"
 msgstr ""
 
-#: src/buildings/nobMilitary.cpp:987
+#: src/buildings/nobMilitary.cpp:983
 msgid "Military building lost"
 msgstr ""
 
-#: src/buildings/nobMilitary.cpp:989
+#: src/buildings/nobMilitary.cpp:985
 msgid "Military building captured"
 msgstr ""
 
-#: src/buildings/nobMilitary.cpp:1214
+#: src/buildings/nobMilitary.cpp:1226
 msgid "A catapult is firing upon us!"
 msgstr ""
 
@@ -870,19 +928,19 @@ msgstr ""
 msgid "New storehouse finished"
 msgstr ""
 
-#: src/buildings/nobUsual.cpp:540
+#: src/buildings/nobUsual.cpp:542
 msgid "This well has dried out"
 msgstr ""
 
-#: src/buildings/nobUsual.cpp:542
+#: src/buildings/nobUsual.cpp:544
 msgid "This mine is exhausted"
 msgstr ""
 
-#: src/buildings/nobUsual.cpp:544
+#: src/buildings/nobUsual.cpp:546
 msgid "No more stones in range"
 msgstr ""
 
-#: src/buildings/nobUsual.cpp:546
+#: src/buildings/nobUsual.cpp:548
 msgid "No more fishes in range"
 msgstr ""
 
@@ -890,12 +948,12 @@ msgstr ""
 msgid "Less"
 msgstr ""
 
-#: src/desktops/dskAboutRTTR.cpp:34 src/desktops/dskCredits.cpp:47
-#: src/desktops/dskDirectIP.cpp:39 src/desktops/dskIntro.cpp:34
-#: src/desktops/dskLAN.cpp:53 src/desktops/dskLobby.cpp:49
-#: src/desktops/dskMultiPlayer.cpp:45 src/desktops/dskOptions.cpp:59
-#: src/desktops/dskSelectMap.cpp:87 src/desktops/dskSinglePlayer.cpp:56
-#: src/desktops/dskTest.cpp:108 src/ingameWindows/iwDirectIPConnect.cpp:69
+#: src/desktops/dskCredits.cpp:48 src/desktops/dskDirectIP.cpp:39
+#: src/desktops/dskIntro.cpp:34 src/desktops/dskLAN.cpp:53
+#: src/desktops/dskLobby.cpp:49 src/desktops/dskMultiPlayer.cpp:45
+#: src/desktops/dskOptions.cpp:54 src/desktops/dskSelectMap.cpp:88
+#: src/desktops/dskSinglePlayer.cpp:56 src/desktops/dskTextureTest.cpp:49
+#: src/ingameWindows/iwDirectIPConnect.cpp:69
 #: src/ingameWindows/iwDirectIPCreate.cpp:67
 #: src/ingameWindows/iwLobbyRanking.cpp:60
 #: src/ingameWindows/iwMapGenerator.cpp:60
@@ -903,89 +961,89 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:49
+#: src/desktops/dskCredits.cpp:50
 msgid "Return To The Roots"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:52 src/desktops/dskMainMenu.cpp:67
+#: src/desktops/dskCredits.cpp:53 src/desktops/dskMainMenu.cpp:67
 msgid "Credits"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:55 src/desktops/dskCredits.cpp:64
+#: src/desktops/dskCredits.cpp:56 src/desktops/dskCredits.cpp:65
 msgid "Project management"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:56
+#: src/desktops/dskCredits.cpp:57
 msgid "Server management"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:57 src/desktops/dskCredits.cpp:65
-#: src/desktops/dskCredits.cpp:85 src/desktops/dskCredits.cpp:96
-#: src/desktops/dskCredits.cpp:101
+#: src/desktops/dskCredits.cpp:58 src/desktops/dskCredits.cpp:66
+#: src/desktops/dskCredits.cpp:86 src/desktops/dskCredits.cpp:97
+#: src/desktops/dskCredits.cpp:102
 msgid "Programming"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:58 src/desktops/dskCredits.cpp:70
-#: src/desktops/dskCredits.cpp:75
+#: src/desktops/dskCredits.cpp:59 src/desktops/dskCredits.cpp:71
+#: src/desktops/dskCredits.cpp:76
 msgid "Website Administration"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:59 src/desktops/dskCredits.cpp:71
+#: src/desktops/dskCredits.cpp:60 src/desktops/dskCredits.cpp:72
 msgid "Website Programming"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:60 src/desktops/dskCredits.cpp:66
-#: src/desktops/dskCredits.cpp:76 src/desktops/dskCredits.cpp:80
-#: src/desktops/dskCredits.cpp:91 src/desktops/dskCredits.cpp:97
-#: src/desktops/dskCredits.cpp:102
+#: src/desktops/dskCredits.cpp:61 src/desktops/dskCredits.cpp:67
+#: src/desktops/dskCredits.cpp:77 src/desktops/dskCredits.cpp:81
+#: src/desktops/dskCredits.cpp:92 src/desktops/dskCredits.cpp:98
+#: src/desktops/dskCredits.cpp:103
 msgid "Quality Assurance"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:81 src/desktops/dskCredits.cpp:92
+#: src/desktops/dskCredits.cpp:82 src/desktops/dskCredits.cpp:93
 msgid "Mapping"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:86
+#: src/desktops/dskCredits.cpp:87
 msgid "Artificial Intelligence (AI)"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:90
+#: src/desktops/dskCredits.cpp:91
 msgid "Additional graphics"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:105
+#: src/desktops/dskCredits.cpp:106
 msgid "Additional Programming:"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:115
+#: src/desktops/dskCredits.cpp:116
 msgid "Additional Graphics:"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:119
+#: src/desktops/dskCredits.cpp:120
 msgid "Other Support:"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:127
+#: src/desktops/dskCredits.cpp:128
 msgid "Donators"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:127
+#: src/desktops/dskCredits.cpp:128
 msgid "Thank you for your donations!"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:128
+#: src/desktops/dskCredits.cpp:129
 msgid "various anonymous donators"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:148
+#: src/desktops/dskCredits.cpp:149
 msgid "We hope you enjoy playing Return To The Roots!"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:148
+#: src/desktops/dskCredits.cpp:149
 msgid "THE END"
 msgstr ""
 
-#: src/desktops/dskCredits.cpp:149
+#: src/desktops/dskCredits.cpp:150
 msgid "Thank you!"
 msgstr ""
 
@@ -999,8 +1057,8 @@ msgstr ""
 
 #: src/desktops/dskDirectIP.cpp:53 src/desktops/dskLAN.cpp:91
 #: src/desktops/dskLAN.cpp:170 src/desktops/dskLobby.cpp:135
-#: src/desktops/dskLobby.cpp:239 src/desktops/dskOptions.cpp:577
-#: src/desktops/dskOptions.cpp:584
+#: src/desktops/dskLobby.cpp:239 src/desktops/dskOptions.cpp:526
+#: src/desktops/dskOptions.cpp:533
 msgid "Sorry!"
 msgstr ""
 
@@ -1011,178 +1069,170 @@ msgid ""
 "Disable the use of a proxy server first!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:122 src/desktops/dskLAN.cpp:57
+#: src/desktops/dskGameInterface.cpp:123 src/desktops/dskLAN.cpp:57
 #: src/desktops/dskLobby.cpp:59 src/ingameWindows/iwSave.cpp:46
 msgid "Map"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:124 src/ingameWindows/iwMainMenu.cpp:46
+#: src/desktops/dskGameInterface.cpp:125 src/ingameWindows/iwMainMenu.cpp:46
 msgid "Main selection"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:126
+#: src/desktops/dskGameInterface.cpp:127
 msgid "Construction aid mode"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:129 src/ingameWindows/iwPostWindow.cpp:69
+#: src/desktops/dskGameInterface.cpp:130 src/ingameWindows/iwPostWindow.cpp:69
 msgid "Post office"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:290
+#: src/desktops/dskGameInterface.cpp:295
 #, c-format
 msgid ""
 "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: "
 "%u gf (%u ms)"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:294
+#: src/desktops/dskGameInterface.cpp:299
 #, c-format
 msgid ""
 "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:306
+#: src/desktops/dskGameInterface.cpp:311
 msgid "Tournament finished"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:655 src/desktops/dskOptions.cpp:610
+#: src/desktops/dskGameInterface.cpp:657 src/desktops/dskOptions.cpp:559
 #: src/ingameWindows/iwOptionsWindow.cpp:56
 #: src/ingameWindows/iwOptionsWindow.cpp:108
 msgid "Keyboard layout"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:658 src/desktops/dskMainMenu.cpp:138
+#: src/desktops/dskGameInterface.cpp:660 src/desktops/dskMainMenu.cpp:138
 #: src/ingameWindows/iwOptionsWindow.cpp:113
 msgid "Readme!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1036
+#: src/desktops/dskGameInterface.cpp:1062
 #, c-format
 msgid "Player '%s' left the game!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1039
+#: src/desktops/dskGameInterface.cpp:1065
 #, c-format
 msgid "Player '%s' joined the game!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1047
+#: src/desktops/dskGameInterface.cpp:1073
 #, c-format
 msgid "Note: Game settings changed by the server%s"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1054
-#: src/desktops/dskGameInterface.cpp:1078
-#: src/desktops/dskGameInterface.cpp:1097
+#: src/desktops/dskGameInterface.cpp:1080
+#: src/desktops/dskGameInterface.cpp:1104
+#: src/desktops/dskGameInterface.cpp:1123
 #, c-format
 msgid "<%s> "
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1060 src/network/GameClient.cpp:827
+#: src/desktops/dskGameInterface.cpp:1086 src/network/GameClient.cpp:829
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1062
+#: src/desktops/dskGameInterface.cpp:1088
 msgid "A auto-savegame is created..."
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1078
-#: src/desktops/dskGameInterface.cpp:1097
+#: src/desktops/dskGameInterface.cpp:1104
+#: src/desktops/dskGameInterface.cpp:1123
 msgid "SYSTEM"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1079
+#: src/desktops/dskGameInterface.cpp:1105
 msgid "Game was paused."
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1098
+#: src/desktops/dskGameInterface.cpp:1124
 msgid "Game was resumed."
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1112 src/desktops/dskLobby.cpp:258
+#: src/desktops/dskGameInterface.cpp:1138 src/desktops/dskLobby.cpp:258
 msgid "Lost connection to lobby!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1148
+#: src/desktops/dskGameInterface.cpp:1174
 #, c-format
 msgid "Player '%s' was defeated!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1248
+#: src/desktops/dskGameInterface.cpp:1274
 #, c-format
 msgid "Player '%s' is the winner!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1268
+#: src/desktops/dskGameInterface.cpp:1294
 #, c-format
 msgid "Team victory! '%s' and '%s' are the winners!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1272
+#: src/desktops/dskGameInterface.cpp:1298
 #, c-format
 msgid "Team victory! '%s' and '%s' and '%s' are the winners!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1277
+#: src/desktops/dskGameInterface.cpp:1303
 #, c-format
 msgid "Team victory! '%s' and '%s' and '%s' and '%s' are the winners!"
 msgstr ""
 
-#: src/desktops/dskGameInterface.cpp:1281
+#: src/desktops/dskGameInterface.cpp:1307
 msgid "Team victory!"
 msgstr ""
 
-#: src/desktops/dskGameLoader.cpp:101
+#: src/desktops/dskGameLoader.cpp:93
 msgid "Map was loaded and pinned at the wall..."
 msgstr ""
 
-#: src/desktops/dskGameLoader.cpp:110
+#: src/desktops/dskGameLoader.cpp:99
 msgid "Tribal chiefs assembled around the table..."
 msgstr ""
 
-#: src/desktops/dskGameLoader.cpp:116
-msgid "Failed to load map objects."
-msgstr ""
-
-#: src/desktops/dskGameLoader.cpp:124
-msgid "Failed to load addon objects."
-msgstr ""
-
-#: src/desktops/dskGameLoader.cpp:131
+#: src/desktops/dskGameLoader.cpp:107
 msgid "Game crate was picked and spread out..."
 msgstr ""
 
-#: src/desktops/dskGameLoader.cpp:141
+#: src/desktops/dskGameLoader.cpp:117
 msgid "Failed to init GUI: "
 msgstr ""
 
-#: src/desktops/dskGameLoader.cpp:149
+#: src/desktops/dskGameLoader.cpp:125
 msgid "World was put together and glued..."
 msgstr ""
 
-#: src/desktops/dskGameLoader.cpp:153
+#: src/desktops/dskGameLoader.cpp:129
 msgid "And let's go!"
 msgstr ""
 
-#: src/desktops/dskGameLoader.cpp:167 src/desktops/dskGameLoader.cpp:180
+#: src/desktops/dskGameLoader.cpp:143 src/desktops/dskGameLoader.cpp:155
 #: src/desktops/dskHostGame.cpp:88 src/desktops/dskHostGame.cpp:95
-#: src/desktops/dskHostGame.cpp:234 src/desktops/dskHostGame.cpp:716
-#: src/desktops/dskHostGame.cpp:1001 src/desktops/dskHostGame.cpp:1021
-#: src/desktops/dskLobby.cpp:258 src/desktops/dskSelectMap.cpp:192
-#: src/desktops/dskSelectMap.cpp:366 src/desktops/dskSelectMap.cpp:374
-#: src/desktops/dskSelectMap.cpp:386 src/desktops/dskSinglePlayer.cpp:114
-#: src/desktops/dskSinglePlayer.cpp:117
-#: src/ingameWindows/iwLobbyConnect.cpp:188
+#: src/desktops/dskHostGame.cpp:234 src/desktops/dskHostGame.cpp:325
+#: src/desktops/dskHostGame.cpp:724 src/desktops/dskHostGame.cpp:1009
+#: src/desktops/dskHostGame.cpp:1029 src/desktops/dskLobby.cpp:258
+#: src/desktops/dskSelectMap.cpp:207 src/desktops/dskSelectMap.cpp:376
+#: src/desktops/dskSelectMap.cpp:384 src/desktops/dskSelectMap.cpp:396
+#: src/desktops/dskSinglePlayer.cpp:114 src/desktops/dskSinglePlayer.cpp:117
+#: src/desktops/dskTextureTest.cpp:58 src/ingameWindows/iwLobbyConnect.cpp:188
 #: src/ingameWindows/iwMusicPlayer.cpp:116
 #: src/ingameWindows/iwMusicPlayer.cpp:146
 #: src/ingameWindows/iwMusicPlayer.cpp:187
 #: src/ingameWindows/iwMusicPlayer.cpp:328
 #: src/ingameWindows/iwMusicPlayer.cpp:354 src/network/GameServer.cpp:1489
-#: src/s25client/s25client.cpp:123 src/s25client/s25client.cpp:136
+#: src/s25client/s25client.cpp:125 src/s25client/s25client.cpp:138
 msgid "Error"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:89
+#: src/desktops/dskHostGame.cpp:89 src/desktops/dskHostGame.cpp:325
 msgid ""
 "Lua script was found but failed to load. Map might not work as expected!"
 msgstr ""
@@ -1242,13 +1292,13 @@ msgstr ""
 msgid "Lobby Chat"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:161 src/desktops/dskHostGame.cpp:638
-#: src/desktops/dskHostGame.cpp:853
+#: src/desktops/dskHostGame.cpp:161 src/desktops/dskHostGame.cpp:646
+#: src/desktops/dskHostGame.cpp:861
 msgid "Start game"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:161 src/desktops/dskHostGame.cpp:644
-#: src/desktops/dskHostGame.cpp:855
+#: src/desktops/dskHostGame.cpp:161 src/desktops/dskHostGame.cpp:652
+#: src/desktops/dskHostGame.cpp:863
 msgid "Ready"
 msgstr ""
 
@@ -1341,65 +1391,65 @@ msgstr ""
 msgid "Speed:"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:234 src/desktops/dskSelectMap.cpp:189
+#: src/desktops/dskHostGame.cpp:234 src/desktops/dskSelectMap.cpp:204
 msgid "Could not load map:\n"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:243 src/desktops/dskSelectMap.cpp:128
+#: src/desktops/dskHostGame.cpp:243 src/desktops/dskSelectMap.cpp:129
 msgid "Map: "
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:267 src/desktops/dskHostGame.cpp:407
-#: src/desktops/dskHostGame.cpp:409
+#: src/desktops/dskHostGame.cpp:267 src/desktops/dskHostGame.cpp:415
+#: src/desktops/dskHostGame.cpp:417
 msgid "-"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:343
+#: src/desktops/dskHostGame.cpp:351
 msgid "Open"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:344
+#: src/desktops/dskHostGame.cpp:352
 msgid "Closed"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:373 src/desktops/dskHostGame.cpp:417
+#: src/desktops/dskHostGame.cpp:381 src/desktops/dskHostGame.cpp:425
 #: src/ingameWindows/iwWares.cpp:153 src/ingameWindows/iwWares.cpp:156
 #, c-format
 msgid "%d"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:373
+#: src/desktops/dskHostGame.cpp:381
 msgid "n/a"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:687
+#: src/desktops/dskHostGame.cpp:695
 #, c-format
 msgid "You have %u seconds until game starts"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:689
+#: src/desktops/dskHostGame.cpp:697
 msgid "Don't forget to check the addon configuration!"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:698
+#: src/desktops/dskHostGame.cpp:706
 msgid "Starting game, please wait"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:708
+#: src/desktops/dskHostGame.cpp:716
 msgid "Start aborted"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:717
+#: src/desktops/dskHostGame.cpp:725
 msgid ""
 "Game can only be started as soon as everybody has a unique color,everyone is "
 "ready and all free slots are closed."
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:853
+#: src/desktops/dskHostGame.cpp:861
 msgid "Cancel start"
 msgstr ""
 
-#: src/desktops/dskHostGame.cpp:855
+#: src/desktops/dskHostGame.cpp:863
 msgid "Not Ready"
 msgstr ""
 
@@ -1422,7 +1472,7 @@ msgid "Server"
 msgstr ""
 
 #: src/desktops/dskLAN.cpp:57 src/desktops/dskLobby.cpp:59
-#: src/desktops/dskSelectMap.cpp:80 src/ingameWindows/iwPlayReplay.cpp:59
+#: src/desktops/dskSelectMap.cpp:81 src/ingameWindows/iwPlayReplay.cpp:59
 msgid "Player"
 msgstr ""
 
@@ -1439,7 +1489,7 @@ msgstr ""
 msgid "Internet Ranking"
 msgstr ""
 
-#: src/desktops/dskLobby.cpp:62 src/desktops/dskSelectMap.cpp:79
+#: src/desktops/dskLobby.cpp:62 src/desktops/dskSelectMap.cpp:80
 #: src/ingameWindows/iwLobbyRanking.cpp:55
 msgid "Name"
 msgstr ""
@@ -1460,7 +1510,7 @@ msgstr ""
 msgid "Multiplayer"
 msgstr ""
 
-#: src/desktops/dskMainMenu.cpp:61 src/desktops/dskOptions.cpp:62
+#: src/desktops/dskMainMenu.cpp:61 src/desktops/dskOptions.cpp:57
 #: src/ingameWindows/iwMainMenu.cpp:88
 msgid "Options"
 msgstr ""
@@ -1469,7 +1519,7 @@ msgstr ""
 msgid "Intro"
 msgstr ""
 
-#: src/desktops/dskMainMenu.cpp:65 src/desktops/dskOptions.cpp:109
+#: src/desktops/dskMainMenu.cpp:65 src/desktops/dskOptions.cpp:104
 msgid "Readme"
 msgstr ""
 
@@ -1499,246 +1549,242 @@ msgstr ""
 msgid "Direct IP"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:66
+#: src/desktops/dskOptions.cpp:61
 msgid "Addons"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:69
+#: src/desktops/dskOptions.cpp:64
 msgid "Common"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:71
+#: src/desktops/dskOptions.cpp:66
 msgid "Graphics"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:73
+#: src/desktops/dskOptions.cpp:68
 msgid "Sound/Music"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:84
+#: src/desktops/dskOptions.cpp:79
 msgid "Name in Game:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:89
+#: src/desktops/dskOptions.cpp:84
 msgid "Language:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:108
+#: src/desktops/dskOptions.cpp:103
 msgid "Keyboard layout:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:112 src/ingameWindows/iwDirectIPConnect.cpp:55
+#: src/desktops/dskOptions.cpp:107 src/ingameWindows/iwDirectIPConnect.cpp:55
 #: src/ingameWindows/iwDirectIPCreate.cpp:53
 #: src/ingameWindows/iwLobbyConnect.cpp:79
 msgid "Use IPv6:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:115 src/ingameWindows/iwDirectIPConnect.cpp:59
+#: src/desktops/dskOptions.cpp:110 src/ingameWindows/iwDirectIPConnect.cpp:59
 #: src/ingameWindows/iwDirectIPCreate.cpp:57
 #: src/ingameWindows/iwLobbyConnect.cpp:83
 msgid "IPv6"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:116 src/ingameWindows/iwDirectIPConnect.cpp:58
+#: src/desktops/dskOptions.cpp:111 src/ingameWindows/iwDirectIPConnect.cpp:58
 #: src/ingameWindows/iwDirectIPCreate.cpp:56
 #: src/ingameWindows/iwLobbyConnect.cpp:82
 msgid "IPv4"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:123
+#: src/desktops/dskOptions.cpp:118
 msgid "Proxyserver:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:130
+#: src/desktops/dskOptions.cpp:125
 msgid "Proxytyp:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:132
+#: src/desktops/dskOptions.cpp:127
 msgid "No Proxy"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:133
+#: src/desktops/dskOptions.cpp:128
 msgid "Socks v4"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:148
+#: src/desktops/dskOptions.cpp:143
 msgid "Submit debug data:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:150 src/desktops/dskOptions.cpp:159
-#: src/desktops/dskOptions.cpp:166 src/desktops/dskOptions.cpp:191
-#: src/desktops/dskOptions.cpp:210 src/desktops/dskOptions.cpp:229
-#: src/desktops/dskOptions.cpp:238
+#: src/desktops/dskOptions.cpp:145 src/desktops/dskOptions.cpp:154
+#: src/desktops/dskOptions.cpp:161 src/desktops/dskOptions.cpp:183
+#: src/desktops/dskOptions.cpp:202 src/desktops/dskOptions.cpp:221
+#: src/desktops/dskOptions.cpp:230
 msgid "On"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:156
+#: src/desktops/dskOptions.cpp:151
 msgid "Use UPnP"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:162
+#: src/desktops/dskOptions.cpp:157
 msgid "Smart Cursor"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:165
+#: src/desktops/dskOptions.cpp:160
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:167
+#: src/desktops/dskOptions.cpp:162
 msgid ""
 "Place cursor on default button for new dialogs / action windows (default)"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:171 src/ingameWindows/iwSettings.cpp:34
+#: src/desktops/dskOptions.cpp:166 src/ingameWindows/iwSettings.cpp:34
 msgid "Fullscreen resolution:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:175 src/ingameWindows/iwSettings.cpp:35
+#: src/desktops/dskOptions.cpp:170 src/ingameWindows/iwSettings.cpp:35
 msgid "Mode:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:177 src/ingameWindows/iwSettings.cpp:41
+#: src/desktops/dskOptions.cpp:172 src/ingameWindows/iwSettings.cpp:41
 msgid "Fullscreen"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:178 src/ingameWindows/iwSettings.cpp:42
+#: src/desktops/dskOptions.cpp:173 src/ingameWindows/iwSettings.cpp:42
 msgid "Windowed"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:181
+#: src/desktops/dskOptions.cpp:176
 msgid "Limit Framerate:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:185
+#: src/desktops/dskOptions.cpp:180
 msgid "Vertex Buffer Objects:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:189
-msgid "not supported"
-msgstr ""
-
-#: src/desktops/dskOptions.cpp:195
+#: src/desktops/dskOptions.cpp:187
 msgid "Graphics Driver"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:207
+#: src/desktops/dskOptions.cpp:199
 msgid "Optimized Textures:"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:214
+#: src/desktops/dskOptions.cpp:206
 msgid "Sounddriver"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:227
+#: src/desktops/dskOptions.cpp:219
 msgid "Music"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:236
+#: src/desktops/dskOptions.cpp:228
 msgid "Effects"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:245 src/ingameWindows/iwMusicPlayer.cpp:64
+#: src/desktops/dskOptions.cpp:237 src/ingameWindows/iwMusicPlayer.cpp:64
 #: src/ingameWindows/iwOptionsWindow.cpp:85
 msgid "Music player"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:288 src/ingameWindows/iwSave.cpp:140
-msgid "Disabled"
-msgstr ""
-
-#: src/desktops/dskOptions.cpp:295
+#: src/desktops/dskOptions.cpp:275
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:577
+#: src/desktops/dskOptions.cpp:279 src/ingameWindows/iwSave.cpp:140
+msgid "Disabled"
+msgstr ""
+
+#: src/desktops/dskOptions.cpp:526
 msgid "You need to restart your game to change the screen resolution!"
 msgstr ""
 
-#: src/desktops/dskOptions.cpp:584
+#: src/desktops/dskOptions.cpp:533
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:79
+#: src/desktops/dskSelectMap.cpp:80
 msgid "Author"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:80
+#: src/desktops/dskSelectMap.cpp:81
 msgid "Type"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:80
+#: src/desktops/dskSelectMap.cpp:81
 msgid "Size"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:84
+#: src/desktops/dskSelectMap.cpp:85
 msgid "Selection of maps"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:89
+#: src/desktops/dskSelectMap.cpp:90
 msgid "Load game..."
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:91 src/ingameWindows/iwMissionStatement.cpp:55
+#: src/desktops/dskSelectMap.cpp:92 src/ingameWindows/iwMissionStatement.cpp:55
 msgid "Continue"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:93
+#: src/desktops/dskSelectMap.cpp:94
 msgid "Random Map"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:95
+#: src/desktops/dskSelectMap.cpp:96
 msgid "..."
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:101
+#: src/desktops/dskSelectMap.cpp:102
 msgid "Old maps"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:104
+#: src/desktops/dskSelectMap.cpp:105
 msgid "New maps"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:107
+#: src/desktops/dskSelectMap.cpp:108
 msgid "Own maps"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:110
+#: src/desktops/dskSelectMap.cpp:111
 msgid "Continents"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:113 src/desktops/dskSinglePlayer.cpp:49
+#: src/desktops/dskSelectMap.cpp:114 src/desktops/dskSinglePlayer.cpp:49
 msgid "Campaign"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:116
+#: src/desktops/dskSelectMap.cpp:117
 msgid "RTTR"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:119 src/ingameWindows/iwAddons.cpp:58
+#: src/desktops/dskSelectMap.cpp:120 src/ingameWindows/iwAddons.cpp:58
 msgid "Other"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:122
+#: src/desktops/dskSelectMap.cpp:123
 msgid "Sea"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:125
+#: src/desktops/dskSelectMap.cpp:126
 msgid "Played"
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:129
+#: src/desktops/dskSelectMap.cpp:130
 msgid "Mapfile: "
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:385
+#: src/desktops/dskSelectMap.cpp:395
 msgid ""
 "Failed to generate random map.\n"
 "Reason: "
 msgstr ""
 
-#: src/desktops/dskSelectMap.cpp:416
+#: src/desktops/dskSelectMap.cpp:426
 #, c-format
 msgid "%d Player"
 msgstr ""
@@ -1772,15 +1818,19 @@ msgstr ""
 msgid "Please use 'Unlimited Play' to create a Singleplayer game."
 msgstr ""
 
-#: src/desktops/dskSplash.cpp:81
+#: src/desktops/dskSplash.cpp:90
 msgid ""
 "Some files failed to load.\n"
 "Please ensure that the Settlers 2 Gold-Edition is installed \n"
 "in the same directory as Return to the Roots."
 msgstr ""
 
-#: src/desktops/dskTest.cpp:56
+#: src/desktops/dskTest.cpp:60
 msgid "Internal test screen for developers"
+msgstr ""
+
+#: src/drivers/AudioDriverWrapper.cpp:115
+msgid "Loaded audio driver \"%1%\"\n"
 msgstr ""
 
 #: src/drivers/DriverWrapper.cpp:131
@@ -1807,6 +1857,20 @@ msgstr ""
 #: src/drivers/DriverWrapper.cpp:211
 #, c-format
 msgid "Skipping %s: %s\n"
+msgstr ""
+
+#: src/drivers/VideoDriverWrapper.cpp:88
+msgid "Loaded video driver \"%1%\"\n"
+msgstr ""
+
+#: src/drivers/VideoDriverWrapper.cpp:453
+msgid "OpenGL %1%.%2% supported\n"
+msgstr ""
+
+#: src/drivers/VideoDriverWrapper.cpp:456
+msgid ""
+"OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or "
+"hardware!"
 msgstr ""
 
 #: src/figures/nofAttacker.cpp:269
@@ -1841,12 +1905,17 @@ msgstr ""
 msgid "Found water"
 msgstr ""
 
-#: src/figures/nofMetalworker.cpp:186
+#: src/figures/nofMetalworker.cpp:183
 msgid "Completed the ordered amount of tools."
 msgstr ""
 
 #: src/figures/nofScout_LookoutTower.cpp:63
 msgid "Lookout-tower occupied"
+msgstr ""
+
+#: src/figures/nofTradeLeader.cpp:72
+#, c-format
+msgid "Trade caravan with %s %s arrives from player '%s'."
 msgstr ""
 
 #: src/gameData/BuildingConsts.cpp:23 src/ingameWindows/iwHQ.cpp:28
@@ -2731,7 +2800,7 @@ msgstr ""
 #: src/ingameWindows/iwMerchandiseStatistics.cpp:78
 #: src/ingameWindows/iwMilitary.cpp:58
 #: src/ingameWindows/iwMilitaryBuilding.cpp:58
-#: src/ingameWindows/iwStatistics.cpp:144 src/ingameWindows/iwTools.cpp:67
+#: src/ingameWindows/iwStatistics.cpp:144 src/ingameWindows/iwTools.cpp:69
 #: src/ingameWindows/iwTransport.cpp:41 src/ingameWindows/iwWares.cpp:163
 msgid "Help"
 msgstr ""
@@ -2741,7 +2810,7 @@ msgid "Production on/off"
 msgstr ""
 
 #: src/ingameWindows/iwBuilding.cpp:101 src/ingameWindows/iwBuilding.cpp:197
-#: src/world/GameWorldView.cpp:381
+#: src/world/GameWorldView.cpp:396
 msgid "(House unoccupied)"
 msgstr ""
 
@@ -2773,7 +2842,7 @@ msgid ""
 "currently under construction."
 msgstr ""
 
-#: src/ingameWindows/iwChat.cpp:30
+#: src/ingameWindows/iwChat.cpp:29
 msgid "Chat Window"
 msgstr ""
 
@@ -3047,7 +3116,7 @@ msgstr ""
 
 #: src/ingameWindows/iwMainMenu.cpp:54
 #: src/ingameWindows/iwMerchandiseStatistics.cpp:73
-#: src/ingameWindows/iwTools.cpp:43 src/ingameWindows/iwTransport.cpp:35
+#: src/ingameWindows/iwTools.cpp:44 src/ingameWindows/iwTransport.cpp:35
 msgid "Tools"
 msgstr ""
 
@@ -3473,12 +3542,12 @@ msgstr ""
 msgid "Delete selected"
 msgstr ""
 
-#: src/ingameWindows/iwPlayReplay.cpp:100 src/network/GameClient.cpp:1379
+#: src/ingameWindows/iwPlayReplay.cpp:100 src/network/GameClient.cpp:1397
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr ""
 
 #: src/ingameWindows/iwPlayReplay.cpp:101 src/ingameWindows/iwSave.cpp:85
-#: src/network/GameClient.cpp:1380
+#: src/network/GameClient.cpp:1398
 msgid "Unknown"
 msgstr ""
 
@@ -3522,15 +3591,15 @@ msgstr ""
 msgid "Diary"
 msgstr ""
 
-#: src/ingameWindows/iwPostWindow.cpp:262
+#: src/ingameWindows/iwPostWindow.cpp:265
 msgid "No letters!"
 msgstr ""
 
-#: src/ingameWindows/iwPostWindow.cpp:276
+#: src/ingameWindows/iwPostWindow.cpp:279
 msgid "Message"
 msgstr ""
 
-#: src/ingameWindows/iwPostWindow.cpp:276
+#: src/ingameWindows/iwPostWindow.cpp:279
 msgid "of"
 msgstr ""
 
@@ -3641,19 +3710,19 @@ msgstr ""
 msgid "The readme file was not found!"
 msgstr ""
 
-#: src/ingameWindows/iwTools.cpp:69
+#: src/ingameWindows/iwTools.cpp:71
 msgid "Zero all production"
 msgstr ""
 
-#: src/ingameWindows/iwTools.cpp:86
+#: src/ingameWindows/iwTools.cpp:88
 msgid "Less often"
 msgstr ""
 
-#: src/ingameWindows/iwTools.cpp:86
+#: src/ingameWindows/iwTools.cpp:88
 msgid "More often"
 msgstr ""
 
-#: src/ingameWindows/iwTools.cpp:163
+#: src/ingameWindows/iwTools.cpp:193
 msgid ""
 "These settings control the tool production of your metalworks. The higher "
 "the value, the more likely this tool is to be produced."
@@ -3701,7 +3770,7 @@ msgstr ""
 msgid "System language"
 msgstr ""
 
-#: src/lua/LuaInterfaceBase.cpp:54
+#: src/libGamedata/lua/LuaInterfaceBase.cpp:56
 #, c-format
 msgid "Lua error: %s\n"
 msgstr ""
@@ -3716,7 +3785,7 @@ msgid ""
 "probably outdated.\n"
 msgstr ""
 
-#: src/lua/LuaPlayer.cpp:76
+#: src/lua/LuaPlayer.cpp:83
 msgid "New building type:"
 msgstr ""
 
@@ -3756,40 +3825,46 @@ msgstr ""
 msgid "Unknown error!"
 msgstr ""
 
-#: src/network/GameClient.cpp:842
+#: src/network/GameClient.cpp:844
 #, c-format
 msgid ""
 "Async log saved at \"%s\",\n"
 "game saved at \"%s\"\n"
 msgstr ""
 
-#: src/network/GameClient.cpp:1298 src/network/GameClient.cpp:1303
+#: src/network/GameClient.cpp:1284
+msgid ""
+"Error during execution of lua script: %1\n"
+"Game stopped!"
+msgstr ""
+
+#: src/network/GameClient.cpp:1311 src/network/GameClient.cpp:1316
 msgid "Auto-Save"
 msgstr ""
 
-#: src/network/GameClient.cpp:1366
+#: src/network/GameClient.cpp:1384
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr ""
 
-#: src/network/GameClient.cpp:1430
+#: src/network/GameClient.cpp:1448
 msgid "Error decompressing map file"
 msgstr ""
 
-#: src/network/GameClient.cpp:1439
+#: src/network/GameClient.cpp:1457
 msgid "Error decompressing lua file"
 msgstr ""
 
-#: src/network/GameClient.cpp:1458
+#: src/network/GameClient.cpp:1476
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr ""
 
-#: src/network/GameClient.cpp:1555
+#: src/network/GameClient.cpp:1573
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr ""
 
-#: src/network/GameClient.cpp:1566
+#: src/network/GameClient.cpp:1584
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr ""
@@ -3800,14 +3875,14 @@ msgid ""
 "Warning: The played replay is not in sync with the original match. (GF: %u)"
 msgstr ""
 
-#: src/network/GameClientGF_Replay.cpp:95
+#: src/network/GameClientGF_Replay.cpp:103
 #, c-format
 msgid ""
 "Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, "
 "AVG_FPS: %u)"
 msgstr ""
 
-#: src/network/GameClientGF_Replay.cpp:105
+#: src/network/GameClientGF_Replay.cpp:113
 #, c-format
 msgid "Notice: Overall asynchronous frame count: %u"
 msgstr ""
@@ -3923,78 +3998,90 @@ msgstr ""
 msgid "The %s between player '%s' and you has been cancelled."
 msgstr ""
 
-#: src/s25client/s25client.cpp:125
+#: src/s25client/s25client.cpp:127
 msgid ""
 "RttR crashed. Would you like to send debug information to RttR to help us "
 "avoiding this crash in the future? Thank you very much!"
 msgstr ""
 
-#: src/s25client/s25client.cpp:134
+#: src/s25client/s25client.cpp:136
 msgid "RttR crashed. Please restart the application!"
 msgstr ""
 
-#: src/world/GameWorld.cpp:109
+#: src/world/GameWorld.cpp:85 src/world/GameWorld.cpp:88
+msgid "Failed to save lua state!"
+msgstr ""
+
+#: src/world/GameWorld.cpp:88 src/world/GameWorld.cpp:134
+msgid "Error: "
+msgstr ""
+
+#: src/world/GameWorld.cpp:107
 msgid "Invalid id for lua data"
 msgstr ""
 
-#: src/world/GameWorld.cpp:116
+#: src/world/GameWorld.cpp:114
 msgid "Invalid end-id for lua data"
 msgstr ""
 
-#: src/world/GameWorld.cpp:123
+#: src/world/GameWorld.cpp:121
 msgid "Lua script failed to load."
 msgstr ""
 
-#: src/world/GameWorld.cpp:128
+#: src/world/GameWorld.cpp:126
 msgid "Wrong version for lua script."
 msgstr ""
 
-#: src/world/GameWorldGame.cpp:514
+#: src/world/GameWorld.cpp:131 src/world/GameWorld.cpp:134
+msgid "Failed to load lua state!"
+msgstr ""
+
+#: src/world/GameWorldGame.cpp:535
 msgid "Lost land by this building"
 msgstr ""
 
-#: src/world/GameWorldView.cpp:383
+#: src/world/GameWorldView.cpp:398
 msgid "(stopped)"
 msgstr ""
 
-#: src/world/GameWorldView.cpp:406
+#: src/world/GameWorldView.cpp:421
 msgid "(1 soldier)"
 msgstr ""
 
-#: src/world/GameWorldView.cpp:408
+#: src/world/GameWorldView.cpp:423
 #, c-format
 msgid "(%d soldiers)"
 msgstr ""
 
-#: src/world/MapLoader.cpp:230
+#: src/world/MapLoader.cpp:232
 msgid "Unknown tree1-4 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:246
+#: src/world/MapLoader.cpp:248
 msgid "Unknown tree5-8 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:256
+#: src/world/MapLoader.cpp:258
 msgid "Unknown tree9 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:326
+#: src/world/MapLoader.cpp:328
 msgid "Unknown nature object at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:336 src/world/MapLoader.cpp:346
+#: src/world/MapLoader.cpp:338 src/world/MapLoader.cpp:348
 msgid "Unknown granite type2 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:356
+#: src/world/MapLoader.cpp:358
 msgid "Unknown object at %1%: (0x%2$x: 0x%3$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:390
+#: src/world/MapLoader.cpp:392
 msgid "Unknown animal species at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: src/world/MapLoader.cpp:425
+#: src/world/MapLoader.cpp:426
 #, c-format
 msgid "Player %u does not have a valid start position!"
 msgstr ""
