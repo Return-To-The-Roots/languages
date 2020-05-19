@@ -542,6 +542,9 @@ msgstr "Autospeichern alle:"
 #: libs/s25main/addons/AddonDemolishBldWORes.h:30
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
 msgstr ""
+"Reißt automatisch ressourcenabbauende Gebäude ab, falls sie dauerhaft keine Ressourcen mehr haben. (Bergwerke, Steinmetze, usw.)\n"
+"\n"
+"Gilt nicht für Holzfäller, da diese durch einen Förster neue Ressourcen erhalten können."
 
 #: libs/s25main/gameTypes/GoodTypes.h:75
 msgid "Axe"
@@ -717,7 +720,7 @@ msgstr "Ändere das Verhalten des Schlossers bei Null"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:34
 msgid "Change the coin setting for captured military buildings."
-msgstr ""
+msgstr "Aktiviert oder deaktiviert die Münzannahme bei gerade eroberten Gebäuden, anstatt die Einstellung des vorherigen Besitzers beizubehalten."
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:34
 msgid ""
@@ -824,7 +827,7 @@ msgstr "Münzen"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:33
 msgid "Coins on captured buildings"
-msgstr ""
+msgstr "Münzannahme bei eroberten Gebäuden"
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:73
 msgid "Collect"
@@ -998,7 +1001,7 @@ msgstr "Ausgewählte löschen"
 
 #: libs/s25main/addons/AddonDemolishBldWORes.h:29
 msgid "Demolish building when out of resources"
-msgstr ""
+msgstr "Reiße ressourcenlose Gebäude ab"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:271
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:98
@@ -1053,7 +1056,7 @@ msgstr ""
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:38
 msgid "Disable"
-msgstr ""
+msgstr "Deaktivieren"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:32
 msgid "Disable Demolition of military buildings"
@@ -1061,7 +1064,7 @@ msgstr "Verhindert die Zerstörung militärischer Gebäude"
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:16
 msgid "Disable coins by default"
-msgstr "Münzannahme standardmäßig deaktiviert."
+msgstr "Münzannahme standardmäßig deaktiviert"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:33
 msgid "Disable the demolition of military buildings under attack or near frontiers."
@@ -1158,7 +1161,7 @@ msgstr "Effekte"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:37
 msgid "Enable"
-msgstr ""
+msgstr "Aktivieren"
 
 #: libs/s25main/addons/AddonAIDebugWindow.h:34
 msgid ""
@@ -1492,7 +1495,7 @@ msgstr "Der Spähturm bietet eine weite Aussicht in unerforschte Gebiete."
 
 #: libs/s25main/addons/AddonFrontierDistanceReachable.h:30
 msgid "Frontier Distance checks reachability"
-msgstr ""
+msgstr "Grenzentfernung prüft Erreichbarkeit"
 
 #: libs/s25main/desktops/dskOptions.cpp:180
 #: libs/s25main/ingameWindows/iwSettings.cpp:42
@@ -1566,7 +1569,7 @@ msgstr "Erstatte Baumaterialien, wenn ein Gebäude abgerissen wird und das Notfa
 
 #: libs/s25main/addons/AddonRefundMaterials.h:33
 msgid "Get building materials back when a building is destroyed."
-msgstr "Erstatte Rohstoffe zurück wenn Gebäude abgerissen werden."
+msgstr "Erstatte Baumaterial zurück, wenn Gebäude abgerissen werden."
 
 #: libs/s25main/QuickStartGame.cpp:49
 #, fuzzy
@@ -1669,7 +1672,7 @@ msgstr "50% Kosten für Rekruten"
 
 #: libs/s25main/gameTypes/GoodTypes.h:105
 msgid "Ham"
-msgstr "Schinken"
+msgstr "Fleisch"
 
 #: libs/s25main/gameTypes/GoodTypes.h:74
 msgid "Hammer"
@@ -1751,7 +1754,7 @@ msgstr "IPv6"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:34
 msgid "If Water is exhaustible wells will now dry out. If water everywhere is enabled, a geologist will not notify for water"
-msgstr "Wenn das Wasser erschöpflich ist, werden Brunnen austrocknen. Bei \"Wasser überall\" wird zusätzlich die Geologen-Meldung für Wasser deaktiviert."
+msgstr "Wenn das Wasser erschöpflich ist, werden Brunnen austrocknen. Bei \"Wasser überall\" wird zusätzlich die Gelehrten-Meldung für Wasser deaktiviert."
 
 #: libs/s25main/addons/AddonNoAlliedPush.h:15
 msgid "Improved Alliance"
@@ -1898,7 +1901,7 @@ msgstr "Schnellvorlauf beendet (%1$.3g Sekunden)."
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:36
 msgid "Keep setting"
-msgstr ""
+msgstr "Einstellung beibehalten"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:689
 #: libs/s25main/desktops/dskOptions.cpp:586
@@ -2188,7 +2191,7 @@ msgstr "Maximale Stärke"
 
 #: libs/s25main/gameTypes/GoodTypes.h:104
 msgid "Meat"
-msgstr "Fleisch"
+msgstr "Schinken"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:199
 msgid "Meat the hunter acquires is used to feed the miners."
@@ -2256,7 +2259,7 @@ msgstr "Militärgebäude eingenommen"
 
 #: libs/s25main/addons/AddonFrontierDistanceReachable.h:31
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
-msgstr ""
+msgstr "Militärische Gebäude zählen zum Landesinneren, falls sie dauerhaft unangreifbar sind. (Weg blockiert durch Gelände wie See, Lava, usw.)"
 
 #: libs/s25main/buildings/nobMilitary.cpp:985
 msgid "Military building lost"
@@ -2838,7 +2841,7 @@ msgstr "Rassenspezifische Katapultgrafiken"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:72
 msgid "Random"
-msgstr ""
+msgstr "Zufall"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:99
 msgid "Random Map"
@@ -2911,11 +2914,11 @@ msgstr "Erstatte 75%"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:32
 msgid "Refund materials for destroyed buildings"
-msgstr "Erstatte Rohstoffe wenn ein Gebäude abgerissen wird"
+msgstr "Erstatte Baumaterial bei Gebäudeabriss"
 
 #: libs/s25main/addons/AddonRefundOnEmergency.h:33
 msgid "Refund materials in emergency program"
-msgstr "Erstatte Baumaterial nur bei aktivem Notfallprogramm"
+msgstr "Notfallprogramm erstattet Baumaterial"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:94
 msgid "Register"
@@ -3532,7 +3535,7 @@ msgstr "Die Wachstube ist ein recht komfortabler Platz für das Militär und zud
 
 #: libs/s25main/gameData/BuildingConsts.cpp:67
 msgid "The headquarters represents the center of your realm. The large amount of storage space available means a great many things can be safely stored here. You can release certain merchandise from the headquarters, as and when required or stop its storage. To do this, first choose the corresponding icon followed by the desired merchandise or job symbol. On the third page, you can adjust the number of reserve soldiers who are responsible for guarding the headquarters. There are two values given: the first value indicates the current number of men, the second value indicates the desired number. "
-msgstr "Das Hauptquartier stellt das Zentrum Ihres Reiches dar. Durch das große Angebot an Lagerraum lassen sich hier viele Dinge sicher aufbewahren. Sie können bei Bedarf bestimmte Waren aus dem Hauptquartier entfernen lassen oder deren Einlagerung stoppen. Wählen Sie dazu zuerst den entsprechenden Button, dann das gewünschte Waren- oder Berufssymbol.Auf der dritten Seite stellen Sie die Reserve an Soldaten ein, die das Hauptquartier bewachen sollen. Der erste Wert gibt die momentane, der zweite Wert die gewünschte Besetzung an. "
+msgstr "Das Hauptquartier stellt das Zentrum Ihres Reiches dar. Durch das große Angebot an Lagerraum lassen sich hier viele Dinge sicher aufbewahren. Sie können bei Bedarf bestimmte Waren aus dem Hauptquartier entfernen lassen oder deren Einlagerung stoppen. Wählen Sie dazu zuerst den entsprechenden Button, dann das gewünschte Waren- oder Berufssymbol. Auf der dritten Seite stellen Sie die Reserve an Soldaten ein, die das Hauptquartier bewachen sollen. Der erste Wert gibt die momentane, der zweite Wert die gewünschte Besetzung an. "
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:112
 msgid "The merchandise statistics window allows you to check the quantities of your merchandise. By clicking the left mouse button you can switch the display of individual goods on and off. These can displayed over four different time periods. To delete all displays, click on the wastebasket button."
@@ -3553,7 +3556,7 @@ msgstr "Die hier aufgezogenen Lastesel dienen dem Transport Ihrer Waren. Die Auf
 #: libs/s25main/postSystem/DiplomacyPostQuestion.cpp:29
 #, c-format
 msgid "The player '%s' offers you a %s."
-msgstr "Der Spieler '%s' bietet ihnen einen %s an."
+msgstr "Der Spieler '%s' bietet Ihnen einen %s an."
 
 #: libs/s25main/postSystem/DiplomacyPostQuestion.cpp:41
 #, c-format
@@ -3711,7 +3714,7 @@ msgstr "Handel"
 #: libs/s25main/figures/nofTradeLeader.cpp:75
 #, c-format
 msgid "Trade caravan with %s %s arrives from player '%s'."
-msgstr ""
+msgstr "%s %s von '%s' erhalten"
 
 #: libs/s25main/ingameWindows/iwTrade.cpp:44
 #, c-format
