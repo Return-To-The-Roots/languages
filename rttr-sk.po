@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-10 20:11+0100\n"
-"PO-Revision-Date: 2016-04-07 00:31+0000\n"
+"POT-Creation-Date: 2020-05-19 10:28+0200\n"
+"PO-Revision-Date: 2019-02-11 01:49+0000\n"
 "Last-Translator: NoLiFe <no.live.forever@gmail.com>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-12-16 20:00+0000\n"
-"X-Generator: Launchpad (build 18511)\n"
+"X-Launchpad-Export-Date: 2020-05-19 08:04+0000\n"
+"X-Generator: Launchpad (build 0385b538081bc4718df6fb844a3afc89729c94ce)\n"
 "X-Poedit-Country: SLOVAKIA\n"
 "X-Poedit-Language: Slovak\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -29,27 +29,27 @@ msgid ""
 "Starting the game\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:992
+#: libs/s25main/Loader.cpp:996
 msgid "  Loading %1% entries: "
 msgstr ""
 
-#: libs/s25main/JoinPlayerInfo.cpp:85
+#: libs/s25main/JoinPlayerInfo.cpp:79
 msgid " (AI)"
 msgstr " (AI)"
 
-#: libs/s25main/JoinPlayerInfo.cpp:91
+#: libs/s25main/JoinPlayerInfo.cpp:85
 msgid " (easy)"
 msgstr ""
 
-#: libs/s25main/JoinPlayerInfo.cpp:93
+#: libs/s25main/JoinPlayerInfo.cpp:87
 msgid " (hard)"
 msgstr ""
 
-#: libs/s25main/JoinPlayerInfo.cpp:92
+#: libs/s25main/JoinPlayerInfo.cpp:86
 msgid " (medium)"
 msgstr ""
 
-#: libs/s25main/desktops/dskLobby.cpp:369
+#: libs/s25main/desktops/dskLobby.cpp:382
 msgid " (playing)"
 msgstr ""
 
@@ -69,7 +69,7 @@ msgstr ""
 msgid "%1% are the winners!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:65
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:63
 msgid "%1% players"
 msgstr ""
 
@@ -81,7 +81,7 @@ msgstr ""
 msgid "%d"
 msgstr "%d"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:432
+#: libs/s25main/desktops/dskSelectMap.cpp:438
 #, c-format
 msgid "%d Player"
 msgstr "%d Hráč"
@@ -91,31 +91,31 @@ msgstr "%d Hráč"
 msgid "%u/%u"
 msgstr "%u/%u"
 
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:69
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:68
 msgid "'s Game"
 msgstr "'s hra"
 
-#: libs/s25main/world/GameWorldView.cpp:422
+#: libs/s25main/world/GameWorldView.cpp:420
 #, c-format
 msgid "(%d soldiers)"
 msgstr "(%d vojakov)"
 
-#: libs/s25main/world/GameWorldView.cpp:420
+#: libs/s25main/world/GameWorldView.cpp:418
 msgid "(1 soldier)"
 msgstr "(1 vojak)"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:101
-#: libs/s25main/ingameWindows/iwBuilding.cpp:198
-#: libs/s25main/world/GameWorldView.cpp:395
+#: libs/s25main/ingameWindows/iwBuilding.cpp:103
+#: libs/s25main/ingameWindows/iwBuilding.cpp:200
+#: libs/s25main/world/GameWorldView.cpp:393
 msgid "(House unoccupied)"
 msgstr "(Neobsadená budova)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:309
+#: libs/s25main/desktops/dskGameInterface.cpp:310
 #, c-format
 msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
 msgstr "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
 
-#: libs/s25main/world/GameWorldView.cpp:397
+#: libs/s25main/world/GameWorldView.cpp:395
 msgid "(stopped)"
 msgstr "(zastavené)"
 
@@ -141,7 +141,7 @@ msgstr ""
 msgid "+500%"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:269
+#: libs/s25main/desktops/dskHostGame.cpp:268
 #: libs/s25main/desktops/dskHostGame.cpp:419
 #: libs/s25main/desktops/dskHostGame.cpp:421
 msgid "-"
@@ -163,79 +163,77 @@ msgstr ""
 msgid "-90%"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:110
+#: libs/s25main/ingameWindows/iwAction.cpp:109
 msgid "-> Build castle"
 msgstr "-> Postaviť hrad"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:97
-#: libs/s25main/ingameWindows/iwAction.cpp:108
+#: libs/s25main/ingameWindows/iwAction.cpp:96
+#: libs/s25main/ingameWindows/iwAction.cpp:107
 msgid "-> Build house"
 msgstr "-> Postaviť dom"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:106
+#: libs/s25main/ingameWindows/iwAction.cpp:105
 msgid "-> Build hut"
 msgstr "-> Postaviť chatrč"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:103
+#: libs/s25main/ingameWindows/iwAction.cpp:102
 msgid "-> Dig mines"
 msgstr "-> Postaviť baňu"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:95
+#: libs/s25main/desktops/dskSelectMap.cpp:101
 msgid "..."
-msgstr ""
-
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:86
-#: libs/s25main/ingameWindows/iwStatistics.cpp:139
-msgid "1 h"
-msgstr "1 h"
-
-#: libs/s25main/addons/AddonLimitCatapults.h:46
-msgid "10 catapults"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:85
 #: libs/s25main/ingameWindows/iwStatistics.cpp:138
+msgid "1 h"
+msgstr "1 h"
+
+#: libs/s25main/addons/AddonLimitCatapults.h:45
+msgid "10 catapults"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:84
+#: libs/s25main/ingameWindows/iwStatistics.cpp:137
 msgid "15 m"
 msgstr "15 m"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:88
-#: libs/s25main/ingameWindows/iwStatistics.cpp:141
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:87
+#: libs/s25main/ingameWindows/iwStatistics.cpp:140
 msgid "16 h"
 msgstr "16 h"
 
-#: libs/s25main/addons/AddonLimitCatapults.h:47
+#: libs/s25main/addons/AddonLimitCatapults.h:46
 msgid "20 catapults"
 msgstr ""
 
-#: libs/s25main/addons/AddonLimitCatapults.h:44
+#: libs/s25main/addons/AddonLimitCatapults.h:43
 msgid "3 catapults"
 msgstr ""
 
-#: libs/s25main/addons/AddonLimitCatapults.h:48
+#: libs/s25main/addons/AddonLimitCatapults.h:47
 msgid "30 catapults"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:87
-#: libs/s25main/ingameWindows/iwStatistics.cpp:140
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:86
+#: libs/s25main/ingameWindows/iwStatistics.cpp:139
 msgid "4 h"
 msgstr "4 h"
 
-#: libs/s25main/addons/AddonLimitCatapults.h:45
+#: libs/s25main/addons/AddonLimitCatapults.h:44
 msgid "5 catapults"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1100
-#: libs/s25main/desktops/dskGameInterface.cpp:1124
-#: libs/s25main/desktops/dskGameInterface.cpp:1143
+#: libs/s25main/Messenger.cpp:93
 #, c-format
 msgid "<%s> "
 msgstr "<%s> "
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1108
+#: libs/s25main/desktops/dskGameInterface.cpp:1115
 msgid "A auto-savegame is created..."
 msgstr "auto-save je vytvorená..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1226
+#: libs/s25main/buildings/nobMilitary.cpp:1227
 msgid "A catapult is firing upon us!"
 msgstr ""
 
@@ -243,23 +241,23 @@ msgstr ""
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:198
+#: libs/s25main/desktops/dskHostGame.cpp:199
 msgid "A lot"
 msgstr "Veľa"
 
-#: libs/s25main/nodeObjs/noShipBuildingSite.cpp:112
+#: libs/s25main/nodeObjs/noShipBuildingSite.cpp:111
 msgid "A new ship is ready"
 msgstr ""
 
-#: libs/s25main/nodeObjs/noShip.cpp:389
+#: libs/s25main/nodeObjs/noShip.cpp:388
 msgid "A ship disovered an enemy territory"
 msgstr ""
 
-#: libs/s25main/nodeObjs/noShip.cpp:688
+#: libs/s25main/nodeObjs/noShip.cpp:687
 msgid "A ship has reached the destination of its expedition."
 msgstr ""
 
-#: libs/s25main/nodeObjs/noShip.cpp:252
+#: libs/s25main/nodeObjs/noShip.cpp:251
 msgid "A ship is ready for an expedition."
 msgstr ""
 
@@ -287,8 +285,8 @@ msgstr ""
 msgid "AI Debugging Window"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:41
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:47
+#: libs/s25main/ingameWindows/iwAddons.cpp:57
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:46
 msgid "Abort"
 msgstr "Ukončiť"
 
@@ -300,25 +298,25 @@ msgstr ""
 msgid "Active near frontiers"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:61
+#: libs/s25main/ingameWindows/iwAction.cpp:60
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:28
 msgid "Activity window"
 msgstr "Okno úloh"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:74
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:73
 msgid "Add"
 msgstr "Vložiť"
 
-#: libs/s25main/desktops/dskLAN.cpp:49 libs/s25main/desktops/dskLobby.cpp:54
+#: libs/s25main/desktops/dskLAN.cpp:49 libs/s25main/desktops/dskLobby.cpp:55
 msgid "Add Server"
 msgstr "Pridať server"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:81
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:80
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:217
 msgid "Add directory of tracks"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:80
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:79
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:210
 msgid "Add track"
 msgstr "Vložiť záznam"
@@ -331,7 +329,7 @@ msgstr ""
 msgid "Additional Programming:"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:35
+#: libs/s25main/ingameWindows/iwAddons.cpp:51
 msgid "Additional features:"
 msgstr ""
 
@@ -339,20 +337,20 @@ msgstr ""
 msgid "Additional graphics"
 msgstr ""
 
-#: libs/s25main/GlobalGameSettings.cpp:262
+#: libs/s25main/GlobalGameSettings.cpp:259
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:31
+#: libs/s25main/ingameWindows/iwAddons.cpp:47
 msgid "Addon Settings"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:59
+#: libs/s25main/desktops/dskOptions.cpp:64
 msgid "Addons"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:176
+#: libs/s25main/desktops/dskHostGame.cpp:177
 msgid "Addons:"
 msgstr ""
 
@@ -382,7 +380,7 @@ msgstr ""
 msgid "Adjusts how long a building will burn for when it is destroyed"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:88
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:107
 msgid "Advanced"
 msgstr ""
 
@@ -394,12 +392,12 @@ msgstr "Afričania"
 msgid "After the following order"
 msgstr "After the following order"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:50
+#: libs/s25main/ingameWindows/iwAddons.cpp:66
 #: libs/s25main/ingameWindows/iwChat.cpp:37
 msgid "All"
 msgstr "Pre všetkých"
 
-#: libs/s25main/ingameWindows/iwPostWindow.cpp:116
+#: libs/s25main/ingameWindows/iwPostWindow.cpp:114
 msgid "All important messages are collected in this window and sorted into groups. If this window is not open, the dove symbol at the bottom of the screen indicates the arrival of a new message."
 msgstr ""
 
@@ -407,7 +405,7 @@ msgstr ""
 msgid "Allied players can no longer push your borders back with new buildings."
 msgstr ""
 
-#: libs/s25main/addons/AddonStatisticsVisibility.h:38
+#: libs/s25main/addons/AddonStatisticsVisibility.h:37
 #: libs/s25main/ingameWindows/iwChat.cpp:39
 msgid "Allies"
 msgstr "Pre spojencov"
@@ -428,7 +426,7 @@ msgstr ""
 msgid "Allows to send wares/figures to allied warehouses"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:99
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:98
 msgid "Altitude"
 msgstr ""
 
@@ -436,28 +434,28 @@ msgstr ""
 msgid "An error occured while saving which was suppressed!"
 msgstr "Vyskytla sa chyba pri ukladaní!"
 
-#: libs/s25main/desktops/dskGameLoader.cpp:129
+#: libs/s25main/desktops/dskGameLoader.cpp:130
 msgid "And let's go!"
 msgstr "Do toho!"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:39
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:61
+#: libs/s25main/ingameWindows/iwAddons.cpp:55
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:59
 msgid "Apply"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:39
+#: libs/s25main/ingameWindows/iwAddons.cpp:55
 msgid "Apply Changes"
 msgstr "Použit zmeny"
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:164
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:168
 msgid "Are you sure to remove all invalid replays?"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:151
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:156
 msgid "Are you sure to remove all replays?"
 msgstr "Vážne chceš odstrániť všetky záznamy?"
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:157
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:163
 msgid "Are you sure you want to remove the selected replay?"
 msgstr ""
 
@@ -477,7 +475,7 @@ msgstr ""
 msgid "As the teams are locked, you cannot make treaties of any kind."
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:686
+#: libs/s25main/network/GameServer.cpp:681
 msgid ""
 "Async at GF %1% of player %2% vs %3%. Checksums:\n"
 "%4%\n"
@@ -489,19 +487,19 @@ msgstr ""
 msgid "Async debugging (REALLY SLOW!)"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1470
+#: libs/s25main/network/GameServer.cpp:1465
 #, c-format
 msgid "Async log saved at \"%s\"\n"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:842
+#: libs/s25main/network/GameClient.cpp:836
 #, c-format
 msgid ""
 "Async log saved at \"%s\",\n"
 "game saved at \"%s\"\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1225
+#: libs/s25main/network/GameServer.cpp:1220
 msgid "Async logs received completely.\n"
 msgstr ""
 
@@ -522,16 +520,16 @@ msgstr "Útok!"
 msgid "Audio driver couldn't be loaded!\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskSelectMap.cpp:79
+#: libs/s25main/desktops/dskSelectMap.cpp:83
 msgid "Author"
 msgstr "Autor"
 
-#: libs/s25main/network/GameClient.cpp:1310
-#: libs/s25main/network/GameClient.cpp:1315
+#: libs/s25main/network/GameClient.cpp:1304
+#: libs/s25main/network/GameClient.cpp:1309
 msgid "Auto-Save"
 msgstr "Automatické ukladanie"
 
-#: libs/s25main/ingameWindows/iwSave.cpp:136
+#: libs/s25main/ingameWindows/iwSave.cpp:139
 msgid "Auto-Save every:"
 msgstr "Automaticky uložiť každých:"
 
@@ -539,7 +537,7 @@ msgstr "Automaticky uložiť každých:"
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:73
+#: libs/s25main/gameTypes/GoodTypes.h:75
 msgid "Axe"
 msgstr "Sekera"
 
@@ -548,19 +546,19 @@ msgid "Babylonians"
 msgstr ""
 
 #: libs/s25main/desktops/dskCredits.cpp:48
-#: libs/s25main/desktops/dskDirectIP.cpp:39
+#: libs/s25main/desktops/dskDirectIP.cpp:36
 #: libs/s25main/desktops/dskIntro.cpp:34 libs/s25main/desktops/dskLAN.cpp:53
-#: libs/s25main/desktops/dskLobby.cpp:48
+#: libs/s25main/desktops/dskLobby.cpp:49
 #: libs/s25main/desktops/dskMultiPlayer.cpp:45
-#: libs/s25main/desktops/dskOptions.cpp:52
-#: libs/s25main/desktops/dskSelectMap.cpp:87
-#: libs/s25main/desktops/dskSinglePlayer.cpp:62
+#: libs/s25main/desktops/dskOptions.cpp:57
+#: libs/s25main/desktops/dskSelectMap.cpp:93
+#: libs/s25main/desktops/dskSinglePlayer.cpp:61
 #: libs/s25main/desktops/dskTextureTest.cpp:49
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:71
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:67
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:59
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:60
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:65
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:66
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:63
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:58
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:69
 msgid "Back"
 msgstr "Späť"
 
@@ -576,23 +574,23 @@ msgstr "Pekáreň"
 msgid "Barracks"
 msgstr "Barracks"
 
-#: libs/s25main/gameTypes/GoodTypes.h:70
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:65
-#: libs/s25main/ingameWindows/iwTransport.cpp:32
+#: libs/s25main/gameTypes/GoodTypes.h:72
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:64
+#: libs/s25main/ingameWindows/iwTransport.cpp:33
 msgid "Beer"
 msgstr "Pivo"
 
-#: libs/s25main/gameTypes/GoodTypes.h:93
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:61
-#: libs/s25main/ingameWindows/iwTransport.cpp:33
+#: libs/s25main/gameTypes/GoodTypes.h:95
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:60
+#: libs/s25main/ingameWindows/iwTransport.cpp:34
 msgid "Boards"
 msgstr "Dosky"
 
-#: libs/s25main/gameTypes/GoodTypes.h:85
+#: libs/s25main/gameTypes/GoodTypes.h:87
 msgid "Boat"
 msgstr "Čln"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:75
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:74
 #: libs/s25main/ingameWindows/iwTransport.cpp:35
 msgid "Boats"
 msgstr "Člny"
@@ -607,11 +605,11 @@ msgstr "Hranice"
 msgid "Bottom"
 msgstr "Naspodok"
 
-#: libs/s25main/gameTypes/GoodTypes.h:84
+#: libs/s25main/gameTypes/GoodTypes.h:86
 msgid "Bow"
 msgstr "Luk"
 
-#: libs/s25main/gameTypes/GoodTypes.h:90
+#: libs/s25main/gameTypes/GoodTypes.h:92
 msgid "Bread"
 msgstr "Chlieb"
 
@@ -643,10 +641,10 @@ msgstr "Staviteľ"
 msgid "Building sequence"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwBuildings.cpp:65
+#: libs/s25main/ingameWindows/iwBuildings.cpp:61
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:59
-#: libs/s25main/ingameWindows/iwStatistics.cpp:128
-#: libs/s25main/ingameWindows/iwStatistics.cpp:216
+#: libs/s25main/ingameWindows/iwStatistics.cpp:127
+#: libs/s25main/ingameWindows/iwStatistics.cpp:215
 msgid "Buildings"
 msgstr "Budovy"
 
@@ -659,8 +657,8 @@ msgstr "Mäsiar"
 msgid "Call in geologist"
 msgstr "Zavolať geológa"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:113
-#: libs/s25main/desktops/dskSinglePlayer.cpp:55
+#: libs/s25main/desktops/dskSelectMap.cpp:119
+#: libs/s25main/desktops/dskSinglePlayer.cpp:54
 msgid "Campaign"
 msgstr "Kampaň"
 
@@ -674,7 +672,7 @@ msgstr "Zrušiť"
 msgid "Cancel expedition"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:865
+#: libs/s25main/desktops/dskHostGame.cpp:866
 msgid "Cancel start"
 msgstr ""
 
@@ -695,7 +693,7 @@ msgstr "Katapult"
 msgid "Center of country"
 msgstr "Centrum krajiny"
 
-#: libs/s25main/desktops/dskHostGame.cpp:177
+#: libs/s25main/desktops/dskHostGame.cpp:178
 msgid "Change Settings..."
 msgstr "Zmenit Nastavenia..."
 
@@ -739,7 +737,7 @@ msgid ""
 "Produce nothing: RttR-Default"
 msgstr ""
 
-#: libs/s25main/addons/AddonShipSpeed.h:31
+#: libs/s25main/addons/AddonShipSpeed.h:32
 msgid "Changes the ship movement speed"
 msgstr ""
 
@@ -760,29 +758,29 @@ msgstr "Overujem mapu..."
 msgid "Checking Password..."
 msgstr "Overujem heslo..."
 
-#: libs/s25main/desktops/dskHostGame.cpp:188
+#: libs/s25main/desktops/dskHostGame.cpp:189
 msgid "Classic (Settlers 2)"
 msgstr "Klasické (Settlers 2)"
 
-#: libs/s25main/desktops/dskHostGame.cpp:120
+#: libs/s25main/desktops/dskHostGame.cpp:121
 msgid "Classification"
 msgstr "Klasifikácia"
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:61
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:151
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:164
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:65
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:156
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:168
 msgid "Clear"
 msgstr "Čistý"
 
-#: libs/s25main/gameTypes/GoodTypes.h:82
+#: libs/s25main/gameTypes/GoodTypes.h:84
 msgid "Cleaver"
 msgstr "Sekáčik"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:86
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:84
 msgid "Close"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:41
+#: libs/s25main/ingameWindows/iwAddons.cpp:57
 msgid "Close Without Saving"
 msgstr ""
 
@@ -790,9 +788,9 @@ msgstr ""
 msgid "Closed"
 msgstr "Zatvorené"
 
-#: libs/s25main/gameTypes/GoodTypes.h:101
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:66
-#: libs/s25main/ingameWindows/iwTransport.cpp:33
+#: libs/s25main/gameTypes/GoodTypes.h:103
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:65
+#: libs/s25main/ingameWindows/iwTransport.cpp:34
 msgid "Coal"
 msgstr "Uhlie"
 
@@ -800,13 +798,13 @@ msgstr "Uhlie"
 msgid "Coal mine"
 msgstr "Uhoľná baňa"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:101
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:99
 msgid "Coal:"
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:98
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:72
-#: libs/s25main/ingameWindows/iwTransport.cpp:32
+#: libs/s25main/gameTypes/GoodTypes.h:100
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:71
+#: libs/s25main/ingameWindows/iwTransport.cpp:33
 msgid "Coins"
 msgstr "Mince"
 
@@ -818,56 +816,56 @@ msgstr ""
 msgid "Collect"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:124
+#: libs/s25main/desktops/dskHostGame.cpp:125
 msgid "Color"
 msgstr "Farba"
 
-#: libs/s25main/desktops/dskSinglePlayer.cpp:55
+#: libs/s25main/desktops/dskSinglePlayer.cpp:54
 msgid "Coming soon"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:62
+#: libs/s25main/desktops/dskOptions.cpp:67
 msgid "Common"
 msgstr "Všeobecné"
 
-#: libs/s25main/figures/nofMetalworker.cpp:178
+#: libs/s25main/figures/nofMetalworker.cpp:175
 msgid "Completed the ordered amount of tools."
 msgstr ""
 
-#: libs/s25main/JoinPlayerInfo.cpp:82
+#: libs/s25main/JoinPlayerInfo.cpp:78
 #, c-format
 msgid "Computer %u"
 msgstr "Počítač %u"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:250
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:251
 msgid "Confirm"
 msgstr "Potvrdiť"
 
-#: libs/s25main/desktops/dskLAN.cpp:51 libs/s25main/desktops/dskLobby.cpp:50
+#: libs/s25main/desktops/dskLAN.cpp:51 libs/s25main/desktops/dskLobby.cpp:51
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:68
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:87
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:93
 msgid "Connect"
 msgstr "Pripojiť"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:55
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:63
 msgid "Connecting to Lobby"
 msgstr "Prípájam sa do miestnosti"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:140
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:170
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:163
 msgid "Connecting with Host..."
 msgstr "Pripájam sa k hostiteľovi..."
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:146
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:180
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:173
 msgid "Connection failed!"
 msgstr "Spojenie zlyhalo!"
 
-#: libs/s25main/desktops/dskHostGame.cpp:204
+#: libs/s25main/desktops/dskHostGame.cpp:205
 msgid "Conquer 3/4 of map"
 msgstr "Dobyť 3/4 mapy"
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:216
+#: libs/s25main/ingameWindows/iwDistribution.cpp:217
 msgid "Construction"
 msgstr "Postaviť"
 
@@ -875,65 +873,64 @@ msgstr "Postaviť"
 msgid "Construction aid mode"
 msgstr "Podpora výstavby"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:69
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:67
 msgid "Continent"
 msgstr ""
 
-#: libs/s25main/desktops/dskSelectMap.cpp:110
+#: libs/s25main/desktops/dskSelectMap.cpp:116
 msgid "Continents"
 msgstr "Kontinenty"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:91
+#: libs/s25main/desktops/dskSelectMap.cpp:97
 #: libs/s25main/ingameWindows/iwMissionStatement.cpp:54
 msgid "Continue"
 msgstr "Pokračovať"
 
-#: libs/s25main/ingameWindows/iwVictory.cpp:55
-#, fuzzy
+#: libs/s25main/ingameWindows/iwVictory.cpp:57
 msgid "Continue game"
-msgstr "Pokračovať"
+msgstr ""
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:230
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:233
 msgid "Contract type:"
 msgstr ""
 
-#: libs/s25main/addons/AddonChangeGoldDeposits.h:42
+#: libs/s25main/addons/AddonChangeGoldDeposits.h:41
 msgid "Convert to coal"
 msgstr ""
 
-#: libs/s25main/addons/AddonChangeGoldDeposits.h:43
+#: libs/s25main/addons/AddonChangeGoldDeposits.h:42
 msgid "Convert to granite"
 msgstr ""
 
-#: libs/s25main/addons/AddonChangeGoldDeposits.h:41
+#: libs/s25main/addons/AddonChangeGoldDeposits.h:40
 msgid "Convert to iron ore"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:985
+#: libs/s25main/Loader.cpp:989
 #, c-format
 msgid "Could not determine type of path %s\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:236
-#: libs/s25main/desktops/dskSelectMap.cpp:203
+#: libs/s25main/desktops/dskHostGame.cpp:235
+#: libs/s25main/desktops/dskSelectMap.cpp:455
 msgid "Could not load map:\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskDirectIP.cpp:35
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:34
+#: libs/s25main/desktops/dskDirectIP.cpp:32
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:33
 msgid "Create Game"
 msgstr "Vytvoriť hru"
 
 #: libs/s25main/desktops/dskCredits.cpp:53
-#: libs/s25main/desktops/dskMainMenu.cpp:67
+#: libs/s25main/desktops/dskMainMenu.cpp:66
 msgid "Credits"
 msgstr "Autori"
 
-#: libs/s25main/gameTypes/GoodTypes.h:77
+#: libs/s25main/gameTypes/GoodTypes.h:79
 msgid "Crucible"
 msgstr "Kelímok"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:313
+#: libs/s25main/desktops/dskGameInterface.cpp:314
 #, c-format
 msgid "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
 msgstr "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) / Ping: %u ms"
@@ -958,27 +955,27 @@ msgid "Deep within the mountains, miners dig for iron ore. They will obviously n
 msgstr ""
 
 #: libs/s25main/addons/AddonBurnDuration.h:34
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:47
-#: libs/s25main/ingameWindows/iwAddons.cpp:44
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:46
+#: libs/s25main/ingameWindows/iwAddons.cpp:60
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:61
-#: libs/s25main/ingameWindows/iwDistribution.cpp:85
+#: libs/s25main/ingameWindows/iwDistribution.cpp:86
 #: libs/s25main/ingameWindows/iwMilitary.cpp:59
 #: libs/s25main/ingameWindows/iwTools.cpp:73
 #: libs/s25main/ingameWindows/iwTransport.cpp:44
 msgid "Default"
 msgstr "Základné"
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:139
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:143
 #, c-format
 msgid "Delete Invalid (%u)"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:81
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:80
 msgid "Delete all"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:64
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:157
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:68
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:163
 msgid "Delete selected"
 msgstr ""
 
@@ -988,25 +985,25 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwAction.cpp:271
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:98
-#: libs/s25main/ingameWindows/iwBuilding.cpp:74
-#: libs/s25main/ingameWindows/iwBuildingSite.cpp:43
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:59
+#: libs/s25main/ingameWindows/iwBuilding.cpp:76
+#: libs/s25main/ingameWindows/iwBuildingSite.cpp:45
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:60
 msgid "Demolish house"
 msgstr "Zničiť budovu"
 
-#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:30
+#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:31
 msgid "Demolish?"
 msgstr "Zničiť?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:238
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:232
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Zničenie nie je možné, budova sa nachádza neďaleko hraníc!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:237
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:231
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "Zničenie nie je možné, budova je pod útokom!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:241
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:235
 msgid "Demolition not possible"
 msgstr "Zničenie nie je možné"
 
@@ -1014,7 +1011,7 @@ msgstr "Zničenie nie je možné"
 msgid "Destroy all buildings and surrender"
 msgstr "Zničiť všetky budovy a vzdať sa"
 
-#: libs/s25main/ingameWindows/iwPostWindow.cpp:129
+#: libs/s25main/ingameWindows/iwPostWindow.cpp:127
 msgid "Diary"
 msgstr ""
 
@@ -1023,7 +1020,7 @@ msgstr ""
 msgid "Dig up road"
 msgstr "Odstrániť cestu"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:60
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:59
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:76
 msgid "Diplomacy"
 msgstr "Diplomacia"
@@ -1032,15 +1029,14 @@ msgstr "Diplomacia"
 msgid "Direct IP"
 msgstr "Direct IP"
 
-#: libs/s25main/Loader.cpp:1036
+#: libs/s25main/Loader.cpp:1040
 #, c-format
 msgid "Directory does not exist: %s\n"
 msgstr ""
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:38
-#, fuzzy
 msgid "Disable"
-msgstr "Zablokované"
+msgstr ""
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:32
 msgid "Disable Demolition of military buildings"
@@ -1054,12 +1050,12 @@ msgstr ""
 msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:282
-#: libs/s25main/ingameWindows/iwSave.cpp:140
+#: libs/s25main/desktops/dskOptions.cpp:287
+#: libs/s25main/ingameWindows/iwSave.cpp:143
 msgid "Disabled"
 msgstr "Zablokované"
 
-#: libs/s25main/addons/AddonDefenderBehavior.h:41
+#: libs/s25main/addons/AddonDefenderBehavior.h:40
 msgid "Disallow change"
 msgstr ""
 
@@ -1071,16 +1067,16 @@ msgstr "Zobraziť nastavenia"
 msgid "Display the hitpoints of units in military buildings."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:48
+#: libs/s25main/ingameWindows/iwDistribution.cpp:49
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:50
 msgid "Distribution of goods"
 msgstr "Preprava tovaru"
 
-#: libs/s25main/desktops/dskHostGame.cpp:701
+#: libs/s25main/desktops/dskHostGame.cpp:706
 msgid "Don't forget to check the addon configuration!"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:163
+#: libs/s25main/desktops/dskOptions.cpp:168
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
@@ -1107,16 +1103,16 @@ msgstr "Chov somárov"
 msgid "Down"
 msgstr "Nižšie"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:84
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:83
 msgid "Downwards"
 msgstr "Nadol"
 
-#: libs/s25main/JoinPlayerInfo.cpp:80
+#: libs/s25main/JoinPlayerInfo.cpp:78
 #, c-format
 msgid "Dummy %u"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:234
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:237
 msgid "Duration:"
 msgstr "Trvanie:"
 
@@ -1129,21 +1125,17 @@ msgstr ""
 msgid "Duration: Forever"
 msgstr "Trvání: Navždy"
 
-#: libs/s25main/desktops/dskOptions.cpp:278
+#: libs/s25main/desktops/dskOptions.cpp:283
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:54
+#: libs/s25main/ingameWindows/iwAddons.cpp:71
 msgid "Economy"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:231
+#: libs/s25main/desktops/dskOptions.cpp:236
 msgid "Effects"
 msgstr "Efekty"
-
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:67
-msgid "Email Address:"
-msgstr "E-mail adresa:"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:37
 msgid "Enable"
@@ -1167,8 +1159,8 @@ msgstr ""
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:93
-#: libs/s25main/ingameWindows/iwVictory.cpp:56
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:109
+#: libs/s25main/ingameWindows/iwVictory.cpp:58
 msgid "End game"
 msgstr "Ukončiť hru"
 
@@ -1176,10 +1168,9 @@ msgstr "Ukončiť hru"
 msgid "End game?"
 msgstr "Koniec hry?"
 
-#: libs/s25main/ingameWindows/iwVictory.cpp:39
-#, fuzzy
+#: libs/s25main/ingameWindows/iwVictory.cpp:37
 msgid "End of game"
-msgstr "Ukončiť hru"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwChat.cpp:41
 msgid "Enemies"
@@ -1200,73 +1191,71 @@ msgstr ""
 msgid "Erect flag"
 msgstr "Vztýčiť vlajku"
 
-#: libs/s25client/s25client.cpp:124 libs/s25client/s25client.cpp:137
-#: libs/s25main/desktops/dskGameLoader.cpp:143
-#: libs/s25main/desktops/dskGameLoader.cpp:155
-#: libs/s25main/desktops/dskHostGame.cpp:90
-#: libs/s25main/desktops/dskHostGame.cpp:97
-#: libs/s25main/desktops/dskHostGame.cpp:236
-#: libs/s25main/desktops/dskHostGame.cpp:328
-#: libs/s25main/desktops/dskHostGame.cpp:728
-#: libs/s25main/desktops/dskHostGame.cpp:1013
-#: libs/s25main/desktops/dskHostGame.cpp:1033
-#: libs/s25main/desktops/dskLobby.cpp:258
-#: libs/s25main/desktops/dskOptions.cpp:515
-#: libs/s25main/desktops/dskSelectMap.cpp:206
-#: libs/s25main/desktops/dskSelectMap.cpp:382
-#: libs/s25main/desktops/dskSelectMap.cpp:390
-#: libs/s25main/desktops/dskSelectMap.cpp:402
-#: libs/s25main/desktops/dskSinglePlayer.cpp:113
-#: libs/s25main/desktops/dskSinglePlayer.cpp:117
-#: libs/s25main/desktops/dskTextureTest.cpp:58
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:188
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:117
+#: libs/s25client/s25client.cpp:109 libs/s25client/s25client.cpp:126
+#: libs/s25main/desktops/dskGameLoader.cpp:144
+#: libs/s25main/desktops/dskGameLoader.cpp:156
+#: libs/s25main/desktops/dskHostGame.cpp:92
+#: libs/s25main/desktops/dskHostGame.cpp:98
+#: libs/s25main/desktops/dskHostGame.cpp:235
+#: libs/s25main/desktops/dskHostGame.cpp:327
+#: libs/s25main/desktops/dskHostGame.cpp:729
+#: libs/s25main/desktops/dskHostGame.cpp:1014
+#: libs/s25main/desktops/dskHostGame.cpp:1034
+#: libs/s25main/desktops/dskLobby.cpp:271
+#: libs/s25main/desktops/dskOptions.cpp:520
+#: libs/s25main/desktops/dskSelectMap.cpp:387
+#: libs/s25main/desktops/dskSelectMap.cpp:395
+#: libs/s25main/desktops/dskSelectMap.cpp:408
+#: libs/s25main/desktops/dskSelectMap.cpp:456
+#: libs/s25main/desktops/dskSinglePlayer.cpp:111
+#: libs/s25main/desktops/dskSinglePlayer.cpp:116
+#: libs/s25main/desktops/dskTextureTest.cpp:61
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:181
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:116
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:147
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:188
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:329
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:355
-#: libs/s25main/network/GameServer.cpp:1488
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:316
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:343
+#: libs/s25main/network/GameServer.cpp:1483
 msgid "Error"
 msgstr "Chyba"
 
-#: libs/s25main/network/GameClient.cpp:1456
+#: libs/s25main/network/GameClient.cpp:1450
 msgid "Error decompressing lua file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1447
+#: libs/s25main/network/GameClient.cpp:1441
 msgid "Error decompressing map file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1282
+#: libs/s25main/network/GameClient.cpp:1276
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1475
+#: libs/s25main/network/GameClient.cpp:1469
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:186
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:192
 msgid "Error while playing replay!"
 msgstr "Chyba pri prehrávaní záznamu!"
 
-#: libs/s25main/WindowManager.cpp:853
+#: libs/s25main/WindowManager.cpp:781
 msgid "Error writing screenshot: %1%\n"
 msgstr ""
 
-#: libs/s25main/world/GameWorld.cpp:88 libs/s25main/world/GameWorld.cpp:134
-#, fuzzy
+#: libs/s25main/world/GameWorld.cpp:85 libs/s25main/world/GameWorld.cpp:131
 msgid "Error: "
-msgstr "Chyba"
+msgstr ""
 
-#: libs/s25main/MusicPlayer.cpp:250
-#, fuzzy
+#: libs/s25main/MusicPlayer.cpp:86
 msgid "Error: %1%\n"
-msgstr "Chyba"
+msgstr ""
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:248
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:249
 msgid "Eternal"
 msgstr ""
 
@@ -1278,7 +1267,7 @@ msgstr ""
 msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 msgstr ""
 
-#: libs/s25main/addons/AddonStatisticsVisibility.h:37
+#: libs/s25main/addons/AddonStatisticsVisibility.h:36
 msgid "Everyone"
 msgstr ""
 
@@ -1298,55 +1287,60 @@ msgstr ""
 msgid "Exploration expedition"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:185
+#: libs/s25main/desktops/dskHostGame.cpp:186
 msgid "Exploration:"
 msgstr "Odhalenie:"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:401
+#: libs/s25main/desktops/dskSelectMap.cpp:406
 msgid ""
 "Failed to generate random map.\n"
 "Reason: "
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLoader.cpp:117
+#: libs/s25main/desktops/dskGameLoader.cpp:118
 msgid "Failed to init GUI: "
 msgstr ""
 
-#: libs/s25main/Loader.cpp:416
+#: libs/s25main/Loader.cpp:421
 #, c-format
 msgid "Failed to load %s\n"
 msgstr ""
 
-#: libs/s25main/PreviewMinimap.cpp:54 libs/s25main/desktops/dskSelectMap.cpp:71
+#: libs/s25main/PreviewMinimap.cpp:55 libs/s25main/desktops/dskSelectMap.cpp:72
 #: libs/s25main/world/MapSerializer.cpp:73
-#, fuzzy
 msgid "Failed to load game data!"
-msgstr "Chyba pri nahrávaní terénu."
+msgstr ""
 
-#: libs/s25main/drivers/DriverWrapper.cpp:131
+#: libs/s25main/drivers/DriverWrapper.cpp:107
 msgid "Failed to load library. Check dependencies!"
 msgstr ""
 
-#: libs/s25main/world/GameWorld.cpp:131 libs/s25main/world/GameWorld.cpp:134
-#, fuzzy
-msgid "Failed to load lua state!"
-msgstr "Chyba pri nahrávaní terénu."
+#: libs/libGamedata/lua/LuaInterfaceBase.cpp:82
+msgid "Failed to load lua file '%1%'\n"
+msgstr ""
 
-#: libs/s25main/Loader.cpp:914
+#: libs/s25main/world/GameWorld.cpp:128 libs/s25main/world/GameWorld.cpp:131
+msgid "Failed to load lua state!"
+msgstr ""
+
+#: libs/s25main/Loader.cpp:917
 msgid "Failed to merge entry %1%. Archive expected!\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1474
+#: libs/libGamedata/lua/LuaInterfaceBase.cpp:74
+msgid "Failed to read lua file '%1%'\n"
+msgstr ""
+
+#: libs/s25main/network/GameServer.cpp:1469
 #, c-format
 msgid "Failed to save async log at \"%s\"\n"
 msgstr ""
 
-#: libs/s25main/world/GameWorld.cpp:85 libs/s25main/world/GameWorld.cpp:88
-#, fuzzy
+#: libs/s25main/world/GameWorld.cpp:82 libs/s25main/world/GameWorld.cpp:85
 msgid "Failed to save lua state!"
-msgstr "Chyba pri nahrávaní terénu."
+msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:88
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:86
 msgid "Far"
 msgstr ""
 
@@ -1358,8 +1352,8 @@ msgstr "Farma"
 msgid "Farmer"
 msgstr "Farmár"
 
-#: libs/s25main/addons/AddonShipSpeed.h:36
-#: libs/s25main/desktops/dskHostGame.cpp:224
+#: libs/s25main/addons/AddonShipSpeed.h:37
+#: libs/s25main/desktops/dskHostGame.cpp:223
 msgid "Fast"
 msgstr "Rýchlo"
 
@@ -1379,29 +1373,28 @@ msgstr "Menej nováčikov"
 msgid "File could not be opened."
 msgstr ""
 
-#: libs/s25main/SavedFile.cpp:87
+#: libs/s25main/SavedFile.cpp:88
 msgid "File has an old version and cannot be used (version: %1%, expected: %2%)!"
 msgstr ""
 
-#: libs/s25main/SavedFile.cpp:77
+#: libs/s25main/SavedFile.cpp:78
 msgid "File is not in a valid format!"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:978
+#: libs/s25main/Loader.cpp:982
 #, c-format
 msgid "File or directory does not exist: %s\n"
 msgstr ""
 
-#: libs/s25main/SavedFile.cpp:88
+#: libs/s25main/SavedFile.cpp:89
 msgid "File was created with more recent program and cannot be used (version: %1%, expected: %2%)!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:57
-#: libs/s25main/ingameWindows/iwSave.cpp:46
+#: libs/s25main/ingameWindows/iwSave.cpp:48
 msgid "Filename"
 msgstr "Názov súboru"
 
-#: libs/s25main/gameTypes/GoodTypes.h:89
+#: libs/s25main/gameTypes/GoodTypes.h:91
 msgid "Fish"
 msgstr "Ryby"
 
@@ -1413,28 +1406,28 @@ msgstr "Rybár"
 msgid "Fishery"
 msgstr "Rybárska chatrč"
 
-#: libs/s25main/gameTypes/GoodTypes.h:88
+#: libs/s25main/gameTypes/GoodTypes.h:90
 msgid "Flour"
 msgstr "Múka"
 
-#: libs/s25main/desktops/dskHostGame.cpp:190
+#: libs/s25main/desktops/dskHostGame.cpp:191
 msgid "FoW - all explored"
 msgstr "FoW - všetko preskúmané"
 
-#: libs/s25main/desktops/dskHostGame.cpp:189
+#: libs/s25main/desktops/dskHostGame.cpp:190
 msgid "Fog of War"
 msgstr "Nejasná situácia"
 
-#: libs/s25main/ingameWindows/iwObservate.cpp:56
+#: libs/s25main/ingameWindows/iwObservate.cpp:55
 msgid "Follow object"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:63
-#: libs/s25main/ingameWindows/iwTransport.cpp:34
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:62
+#: libs/s25main/ingameWindows/iwTransport.cpp:35
 msgid "Food"
 msgstr "Jedlo"
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:198
+#: libs/s25main/ingameWindows/iwDistribution.cpp:199
 msgid "Foodstuff"
 msgstr "Potraviny"
 
@@ -1446,7 +1439,7 @@ msgstr "Lesnícka búda"
 msgid "Fortress"
 msgstr "Pevnosť"
 
-#: libs/s25main/figures/nofGeologist.cpp:448
+#: libs/s25main/figures/nofGeologist.cpp:447
 msgid "Found coal"
 msgstr ""
 
@@ -1454,19 +1447,19 @@ msgstr ""
 msgid "Found colony"
 msgstr ""
 
-#: libs/s25main/figures/nofGeologist.cpp:447
+#: libs/s25main/figures/nofGeologist.cpp:446
 msgid "Found gold"
 msgstr ""
 
-#: libs/s25main/figures/nofGeologist.cpp:449
+#: libs/s25main/figures/nofGeologist.cpp:448
 msgid "Found granite"
 msgstr ""
 
-#: libs/s25main/figures/nofGeologist.cpp:446
+#: libs/s25main/figures/nofGeologist.cpp:445
 msgid "Found iron ore"
 msgstr ""
 
-#: libs/s25main/figures/nofGeologist.cpp:450
+#: libs/s25main/figures/nofGeologist.cpp:449
 msgid "Found water"
 msgstr "Nalezena voda"
 
@@ -1478,49 +1471,49 @@ msgstr "Z pozorovateľne dovidíš na miesta ktoré ešte neboli preskúmané."
 msgid "Frontier Distance checks reachability"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:175
-#: libs/s25main/ingameWindows/iwSettings.cpp:41
+#: libs/s25main/desktops/dskOptions.cpp:180
+#: libs/s25main/ingameWindows/iwSettings.cpp:42
 msgid "Fullscreen"
 msgstr "Celá obrazovka"
 
-#: libs/s25main/desktops/dskOptions.cpp:169
-#: libs/s25main/ingameWindows/iwSettings.cpp:34
+#: libs/s25main/desktops/dskOptions.cpp:174
+#: libs/s25main/ingameWindows/iwSettings.cpp:35
 msgid "Fullscreen resolution:"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:90
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:88
 msgid "Furthest apart"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:148
+#: libs/s25main/desktops/dskHostGame.cpp:149
 msgid "Game Chat"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:729
+#: libs/s25main/desktops/dskHostGame.cpp:730
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
 msgstr "Hra môže byť spustená iba v prípade že, každý hráč bude mať jedinečnú farbu, každý hráč bude pripravený a všetky voľné sloty budú uzatvorené."
 
-#: libs/s25main/desktops/dskGameLoader.cpp:107
+#: libs/s25main/desktops/dskGameLoader.cpp:108
 msgid "Game crate was picked and spread out..."
 msgstr "The Game crate was picked and spread out..."
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:39
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:63
 msgid "Game menu"
 msgstr "Game menu"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1125
+#: libs/s25main/desktops/dskGameInterface.cpp:1130
 msgid "Game was paused."
 msgstr "Hra bola pozastavená."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1144
+#: libs/s25main/desktops/dskGameInterface.cpp:1147
 msgid "Game was resumed."
 msgstr "Hra bola obnovená."
 
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:41
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:40
 msgid "Game's Name:"
 msgstr "Názov hry:"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:56
+#: libs/s25main/ingameWindows/iwAddons.cpp:73
 msgid "Gameplay"
 msgstr ""
 
@@ -1528,7 +1521,7 @@ msgstr ""
 msgid "General"
 msgstr "Generál"
 
-#: libs/s25main/addons/AddonMaxRank.h:43
+#: libs/s25main/addons/AddonMaxRank.h:44
 msgid "General (4)"
 msgstr ""
 
@@ -1552,15 +1545,19 @@ msgstr ""
 msgid "Get building materials back when a building is destroyed."
 msgstr ""
 
+#: libs/s25main/QuickStartGame.cpp:49
+msgid "Given map or replay (%1%) does not exist!"
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwAction.cpp:336
 msgid "Go to headquarters"
 msgstr "Choď do základne"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:104
+#: libs/s25main/ingameWindows/iwBuilding.cpp:106
 msgid "Go to next building of same type"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:69
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:70
 msgid "Go to next military building"
 msgstr ""
 
@@ -1569,28 +1566,28 @@ msgid "Go to next warehouse"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:84
-#: libs/s25main/ingameWindows/iwBuilding.cpp:90
-#: libs/s25main/ingameWindows/iwBuildingSite.cpp:46
-#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:38
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:64
-#: libs/s25main/ingameWindows/iwObservate.cpp:59
+#: libs/s25main/ingameWindows/iwBuilding.cpp:92
+#: libs/s25main/ingameWindows/iwBuildingSite.cpp:48
+#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:40
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:65
+#: libs/s25main/ingameWindows/iwObservate.cpp:58
 #: libs/s25main/ingameWindows/iwShip.cpp:53
 msgid "Go to place"
 msgstr "Choď"
 
-#: libs/s25main/desktops/dskHostGame.cpp:201
+#: libs/s25main/desktops/dskHostGame.cpp:202
 msgid "Goals:"
 msgstr "Ciele:"
 
-#: libs/s25main/gameTypes/GoodTypes.h:99
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:70
-#: libs/s25main/ingameWindows/iwStatistics.cpp:132
-#: libs/s25main/ingameWindows/iwStatistics.cpp:232
+#: libs/s25main/gameTypes/GoodTypes.h:101
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:69
+#: libs/s25main/ingameWindows/iwStatistics.cpp:131
+#: libs/s25main/ingameWindows/iwStatistics.cpp:231
 #: libs/s25main/ingameWindows/iwTransport.cpp:33
 msgid "Gold"
 msgstr "Zlato"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:62
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:63
 msgid "Gold delivery"
 msgstr ""
 
@@ -1598,15 +1595,15 @@ msgstr ""
 msgid "Gold mine"
 msgstr "Zlatá baňa"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:97
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:95
 msgid "Gold:"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:193
+#: libs/s25main/desktops/dskHostGame.cpp:194
 msgid "Goods at start:"
 msgstr "Počiatočné suroviny:"
 
-#: libs/s25main/gameTypes/GoodTypes.h:97
+#: libs/s25main/gameTypes/GoodTypes.h:99
 msgid "Grain"
 msgstr "Obilie"
 
@@ -1622,20 +1619,19 @@ msgstr "Granitová baňa"
 msgid "Granite mines will never be depleted."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:103
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:101
 msgid "Granite:"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:64
+#: libs/s25main/desktops/dskOptions.cpp:69
 msgid "Graphics"
 msgstr "Grafické nastavenia"
 
-#: libs/s25main/desktops/dskOptions.cpp:190
+#: libs/s25main/desktops/dskOptions.cpp:195
 msgid "Graphics Driver"
 msgstr "Grafický ovládač"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:70
-#, fuzzy
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:68
 msgid "Greenland"
 msgstr "Grónsko"
 
@@ -1647,11 +1643,11 @@ msgstr "Strážnica"
 msgid "Half cost recruits"
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:103
+#: libs/s25main/gameTypes/GoodTypes.h:105
 msgid "Ham"
 msgstr "Prasatá"
 
-#: libs/s25main/gameTypes/GoodTypes.h:72
+#: libs/s25main/gameTypes/GoodTypes.h:74
 msgid "Hammer"
 msgstr "Kladivo"
 
@@ -1665,14 +1661,14 @@ msgstr "Harbour Building"
 msgid "Headquarters"
 msgstr "Hlavný stan"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:72
-#: libs/s25main/ingameWindows/iwBuildingSite.cpp:41
-#: libs/s25main/ingameWindows/iwBuildings.cpp:89
-#: libs/s25main/ingameWindows/iwDistribution.cpp:83
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:78
+#: libs/s25main/ingameWindows/iwBuilding.cpp:74
+#: libs/s25main/ingameWindows/iwBuildingSite.cpp:43
+#: libs/s25main/ingameWindows/iwBuildings.cpp:85
+#: libs/s25main/ingameWindows/iwDistribution.cpp:84
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwMilitary.cpp:58
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:57
-#: libs/s25main/ingameWindows/iwStatistics.cpp:144
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:58
+#: libs/s25main/ingameWindows/iwStatistics.cpp:143
 #: libs/s25main/ingameWindows/iwTools.cpp:68
 #: libs/s25main/ingameWindows/iwTransport.cpp:41
 #: libs/s25main/ingameWindows/iwWares.cpp:163
@@ -1687,7 +1683,7 @@ msgstr "Pomocník"
 msgid "Here you will find a list of your entire stores of merchandise and all the inhabitants of your realm."
 msgstr ""
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:195
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:194
 msgid "Hi, I'm an artifical player and I'm not very good yet!"
 msgstr "Ahoj, som počitač a ešte nie som moc dobrý."
 
@@ -1707,7 +1703,7 @@ msgstr "Polovník"
 msgid "Huntsman"
 msgstr "Poľovník"
 
-#: libs/s25main/desktops/dskLAN.cpp:56 libs/s25main/desktops/dskLobby.cpp:57
+#: libs/s25main/desktops/dskLAN.cpp:58 libs/s25main/desktops/dskLobby.cpp:60
 msgid "ID"
 msgstr "ID"
 
@@ -1715,17 +1711,17 @@ msgstr "ID"
 msgid "IP Address of Host:"
 msgstr "IP adresa hostiteľa"
 
-#: libs/s25main/desktops/dskOptions.cpp:114
+#: libs/s25main/desktops/dskOptions.cpp:119
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:60
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:56
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:82
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:55
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:86
 msgid "IPv4"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:113
+#: libs/s25main/desktops/dskOptions.cpp:118
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:61
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:57
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:83
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:56
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:87
 msgid "IPv6"
 msgstr ""
 
@@ -1757,8 +1753,8 @@ msgstr ""
 msgid "Inexhaustible and water everywhere"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:129
-#: libs/s25main/ingameWindows/iwStatistics.cpp:220
+#: libs/s25main/ingameWindows/iwStatistics.cpp:128
+#: libs/s25main/ingameWindows/iwStatistics.cpp:219
 msgid "Inhabitants"
 msgstr "Obyvateľov"
 
@@ -1775,8 +1771,8 @@ msgstr ""
 msgid "Internet Lobby"
 msgstr "Internetová miestnosť"
 
-#: libs/s25main/desktops/dskLobby.cpp:52
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:51
+#: libs/s25main/desktops/dskLobby.cpp:53
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:52
 msgid "Internet Ranking"
 msgstr "Hodnotenie"
 
@@ -1784,28 +1780,28 @@ msgstr "Hodnotenie"
 msgid "Interrupt road building"
 msgstr "Prerušená stavba cesty"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:63
+#: libs/s25main/desktops/dskMainMenu.cpp:62
 msgid "Intro"
 msgstr "Intro"
 
-#: libs/s25main/drivers/DriverWrapper.cpp:144
+#: libs/s25main/drivers/DriverWrapper.cpp:119
 msgid "Invalid API version!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:99
-#: libs/s25main/network/GameClient.cpp:1396
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:103
+#: libs/s25main/network/GameClient.cpp:1390
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:186
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:192
 msgid "Invalid Replay!"
 msgstr "Neplatný Záznam!"
 
-#: libs/s25main/ingameWindows/iwSave.cpp:84
+#: libs/s25main/ingameWindows/iwSave.cpp:88
 msgid "Invalid Savegame %1%! Reason: %2%\n"
 msgstr ""
 
-#: libs/s25main/world/GameWorld.cpp:114
+#: libs/s25main/world/GameWorld.cpp:111
 msgid "Invalid end-id for lua data"
 msgstr ""
 
@@ -1813,19 +1809,19 @@ msgstr ""
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
 msgstr ""
 
-#: libs/s25main/world/GameWorld.cpp:107
+#: libs/s25main/world/GameWorld.cpp:104
 msgid "Invalid id for lua data"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:515
+#: libs/s25main/desktops/dskOptions.cpp:520
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:129
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:153
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:152
 msgid "Invalid port. The valid port-range is 1 to 65535!"
 msgstr "Neplatný port. Port musí byť v rozsahu 1 až 65535!"
 
-#: libs/s25main/gameTypes/GoodTypes.h:87
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:71
-#: libs/s25main/ingameWindows/iwTransport.cpp:32
+#: libs/s25main/gameTypes/GoodTypes.h:89
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:70
+#: libs/s25main/ingameWindows/iwTransport.cpp:33
 msgid "Iron"
 msgstr "Železo"
 
@@ -1837,8 +1833,8 @@ msgstr "Hútnik"
 msgid "Iron mine"
 msgstr "Železorudná baňa"
 
-#: libs/s25main/gameTypes/GoodTypes.h:100
-#: libs/s25main/ingameWindows/iwTransport.cpp:33
+#: libs/s25main/gameTypes/GoodTypes.h:102
+#: libs/s25main/ingameWindows/iwTransport.cpp:34
 msgid "Iron ore"
 msgstr "Železná ruda"
 
@@ -1846,15 +1842,15 @@ msgstr "Železná ruda"
 msgid "Iron smelter"
 msgstr "Zlievareň"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:99
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:97
 msgid "Iron:"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:69
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:68
 msgid "Ironore"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:68
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:66
 msgid "Islands"
 msgstr ""
 
@@ -1866,12 +1862,12 @@ msgstr "V lodenici sa vyrábajú člnky a veľké prepravné lode.Pre výrobu č
 msgid "Japanese"
 msgstr ""
 
-#: libs/s25main/desktops/dskDirectIP.cpp:36
+#: libs/s25main/desktops/dskDirectIP.cpp:33
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:38
 msgid "Join Game"
 msgstr "Pripojiť sa"
 
-#: libs/s25main/network/GameClient.cpp:1583
+#: libs/s25main/network/GameClient.cpp:1577
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr ""
@@ -1880,30 +1876,30 @@ msgstr ""
 msgid "Keep setting"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:679
-#: libs/s25main/desktops/dskOptions.cpp:578
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:56
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:108
+#: libs/s25main/desktops/dskGameInterface.cpp:689
+#: libs/s25main/desktops/dskOptions.cpp:586
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:77
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:121
 msgid "Keyboard layout"
 msgstr "Klávesové skratky"
 
-#: libs/s25main/desktops/dskOptions.cpp:101
+#: libs/s25main/desktops/dskOptions.cpp:106
 msgid "Keyboard layout:"
 msgstr "Klávesové skratky:"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:92
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:90
 msgid "Landscape"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:82
+#: libs/s25main/desktops/dskOptions.cpp:87
 msgid "Language:"
 msgstr "Jazyk:"
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:58
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:62
 msgid "Length"
 msgstr "Dľžka"
 
-#: libs/s25main/controls/ctrlProgress.cpp:49
+#: libs/s25main/controls/ctrlProgress.cpp:48
 #: libs/s25main/ingameWindows/iwHQ.cpp:48
 msgid "Less"
 msgstr "Menej"
@@ -1917,11 +1913,11 @@ msgstr "Menej útočníkov"
 msgid "Less often"
 msgstr "Menej často"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:86
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:85
 msgid "Less repeats"
 msgstr "Zriedkavejšie"
 
-#: libs/s25main/desktops/dskOptions.cpp:179
+#: libs/s25main/desktops/dskOptions.cpp:184
 msgid "Limit Framerate:"
 msgstr ""
 
@@ -1929,7 +1925,7 @@ msgstr ""
 msgid "Limit number of catapults"
 msgstr ""
 
-#: libs/s25main/addons/AddonMaxRank.h:41
+#: libs/s25main/addons/AddonMaxRank.h:42
 msgid "Limit the rank for soldiers"
 msgstr ""
 
@@ -1957,71 +1953,76 @@ msgid ""
 "Fortress: 1"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:60
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:79
 msgid "Load 'ReadMe' file"
 msgstr "Načitať 'ReadMe' súbor"
 
-#: libs/s25main/desktops/dskSinglePlayer.cpp:53
+#: libs/s25main/desktops/dskSinglePlayer.cpp:52
 msgid "Load game"
 msgstr "Načitať hru"
 
-#: libs/s25main/ingameWindows/iwSave.cpp:179
+#: libs/s25main/ingameWindows/iwSave.cpp:182
 msgid "Load game!"
 msgstr "Načitať hru!"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:89
+#: libs/s25main/desktops/dskSelectMap.cpp:95
 msgid "Load game..."
 msgstr "Načítavam hru..."
 
-#: libs/s25main/drivers/AudioDriverWrapper.cpp:118
+#: libs/s25main/drivers/AudioDriverWrapper.cpp:95
 msgid "Loaded audio driver \"%1%\"\n"
 msgstr ""
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:87
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:63
 msgid "Loaded video driver \"%1%\"\n"
 msgstr ""
 
-#: libs/s25main/MusicPlayer.cpp:106
+#: libs/s25main/Playlist.cpp:107
 #, c-format
 msgid "Loading \"%s\"\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:1018 libs/s25main/MusicPlayer.cpp:245
+#: libs/s25main/Loader.cpp:1022 libs/s25main/MusicPlayer.cpp:81
 #, c-format
 msgid "Loading \"%s\": "
 msgstr ""
 
-#: libs/s25main/Loader.cpp:1043
+#: libs/s25main/Loader.cpp:1047
 #, c-format
 msgid "Loading LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI files from \"%s\"\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:989
+#: libs/s25main/Loader.cpp:993
 #, c-format
 msgid "Loading directory %s\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:149
+#: libs/s25main/QuickStartGame.cpp:63
+#, fuzzy
+msgid "Loading game...\n"
+msgstr "Načítavam hru..."
+
+#: libs/s25main/desktops/dskHostGame.cpp:150
 msgid "Lobby Chat"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:104
+#: libs/s25main/desktops/dskOptions.cpp:109
 msgid "Local Port:"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:169
+#: libs/s25main/desktops/dskHostGame.cpp:170
 msgid "Lock teams:"
 msgstr "Uzamknúť tímy:"
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:48
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:47
 msgid "Long"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:211
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:214
 msgid "Long-run"
 msgstr ""
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:49
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:48
 msgid "Longer"
 msgstr ""
 
@@ -2029,16 +2030,16 @@ msgstr ""
 msgid "Lookout tower"
 msgstr "Pozorovateľňa"
 
-#: libs/s25main/figures/nofScout_LookoutTower.cpp:63
+#: libs/s25main/figures/nofScout_LookoutTower.cpp:62
 msgid "Lookout-tower occupied"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:55
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:59
 msgid "Lost"
 msgstr "Prehral"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1158
-#: libs/s25main/desktops/dskLobby.cpp:258
+#: libs/s25main/desktops/dskGameInterface.cpp:1161
+#: libs/s25main/desktops/dskLobby.cpp:271
 msgid "Lost connection to lobby!"
 msgstr "Zlyhalo spojenie s miestnosťou!"
 
@@ -2046,15 +2047,15 @@ msgstr "Zlyhalo spojenie s miestnosťou!"
 msgid "Lost connection to server!"
 msgstr "Zlyhalo spojenie so serverom!"
 
-#: libs/s25main/world/GameWorldGame.cpp:529
+#: libs/s25main/world/GameWorldGame.cpp:486
 msgid "Lost land by this building"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:196
+#: libs/s25main/desktops/dskHostGame.cpp:197
 msgid "Low"
 msgstr "Málo"
 
-#: libs/libGamedata/lua/LuaInterfaceBase.cpp:54
+#: libs/libGamedata/lua/LuaInterfaceBase.cpp:57
 #, c-format
 msgid "Lua error: %s\n"
 msgstr ""
@@ -2063,20 +2064,20 @@ msgstr ""
 msgid "Lua script did not provide the function getRequiredLuaVersion()! It is probably outdated.\n"
 msgstr ""
 
-#: libs/s25main/world/GameWorld.cpp:121
+#: libs/s25main/world/GameWorld.cpp:118
 msgid "Lua script failed to load."
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:97
+#: libs/s25main/desktops/dskHostGame.cpp:98
 msgid "Lua script uses a different version and cannot be used. Map might not work as expected!"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:91
+#: libs/s25main/desktops/dskHostGame.cpp:92
 #: libs/s25main/desktops/dskHostGame.cpp:328
 msgid "Lua script was found but failed to load. Map might not work as expected!"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:103
+#: libs/s25main/desktops/dskHostGame.cpp:104
 msgid "Lua was disabled by the script itself\n"
 msgstr ""
 
@@ -2094,16 +2095,16 @@ msgid "Manually upgrade your roads and directly build donkey roads."
 msgstr ""
 
 #: libs/s25main/desktops/dskGameInterface.cpp:120
-#: libs/s25main/desktops/dskLAN.cpp:57 libs/s25main/desktops/dskLobby.cpp:58
-#: libs/s25main/ingameWindows/iwSave.cpp:46
+#: libs/s25main/desktops/dskLAN.cpp:60 libs/s25main/desktops/dskLobby.cpp:62
+#: libs/s25main/ingameWindows/iwSave.cpp:49
 msgid "Map"
 msgstr "Mapa"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:87
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:86
 msgid "Map Debug"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:48
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:46
 msgid "Map Generator"
 msgstr ""
 
@@ -2119,16 +2120,16 @@ msgstr ""
 msgid "Map transmission was corrupt!"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLoader.cpp:93
+#: libs/s25main/desktops/dskGameLoader.cpp:94
 msgid "Map was loaded and pinned at the wall..."
 msgstr "Mapa bola načítaná a je pripravená..."
 
-#: libs/s25main/desktops/dskHostGame.cpp:245
-#: libs/s25main/desktops/dskSelectMap.cpp:128
+#: libs/s25main/desktops/dskHostGame.cpp:244
+#: libs/s25main/desktops/dskSelectMap.cpp:134
 msgid "Map: "
 msgstr "Mapa: "
 
-#: libs/s25main/desktops/dskSelectMap.cpp:129
+#: libs/s25main/desktops/dskSelectMap.cpp:135
 msgid "Mapfile: "
 msgstr "Soubor s mapou: "
 
@@ -2145,7 +2146,7 @@ msgstr ""
 msgid "Maximum strength"
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:102
+#: libs/s25main/gameTypes/GoodTypes.h:104
 msgid "Meat"
 msgstr "Mäso"
 
@@ -2153,7 +2154,7 @@ msgstr "Mäso"
 msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "Poľovník loví divú zver z ktoréj získava mäso."
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:87
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
 msgid "Medium"
 msgstr ""
 
@@ -2161,13 +2162,13 @@ msgstr ""
 msgid "Medium strength"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:211
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:213
 msgid "Medium-term"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:50
-#: libs/s25main/ingameWindows/iwStatistics.cpp:130
-#: libs/s25main/ingameWindows/iwStatistics.cpp:224
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:49
+#: libs/s25main/ingameWindows/iwStatistics.cpp:129
+#: libs/s25main/ingameWindows/iwStatistics.cpp:223
 msgid "Merchandise"
 msgstr "Tovar"
 
@@ -2175,7 +2176,7 @@ msgstr "Tovar"
 msgid "Merchandise statistics"
 msgstr "Štatistika výrobkov"
 
-#: libs/s25main/ingameWindows/iwPostWindow.cpp:279
+#: libs/s25main/ingameWindows/iwPostWindow.cpp:277
 msgid "Message"
 msgstr "Správa"
 
@@ -2187,11 +2188,11 @@ msgstr "Kováč"
 msgid "Metalworks"
 msgstr "Kovodieľňa"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:71
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:69
 msgid "Migration"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:52
+#: libs/s25main/ingameWindows/iwAddons.cpp:68
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:67
 #: libs/s25main/ingameWindows/iwMilitary.cpp:34
 msgid "Military"
@@ -2209,7 +2210,7 @@ msgstr ""
 msgid "Military Hitpoints"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:985
+#: libs/s25main/buildings/nobMilitary.cpp:987
 msgid "Military building captured"
 msgstr "Vojenská budova zajata"
 
@@ -2217,16 +2218,16 @@ msgstr "Vojenská budova zajata"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:983
+#: libs/s25main/buildings/nobMilitary.cpp:985
 msgid "Military building lost"
 msgstr "Vojenská budova ztracena"
 
-#: libs/s25main/buildings/nobMilitary.cpp:682
+#: libs/s25main/buildings/nobMilitary.cpp:683
 msgid "Military building occupied"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:131
-#: libs/s25main/ingameWindows/iwStatistics.cpp:228
+#: libs/s25main/ingameWindows/iwStatistics.cpp:130
+#: libs/s25main/ingameWindows/iwStatistics.cpp:227
 msgid "Military strength"
 msgstr "Vojenská sila"
 
@@ -2262,12 +2263,12 @@ msgstr "Mincovňa"
 msgid "Minter"
 msgstr "Zlatník"
 
-#: libs/s25main/drivers/DriverWrapper.cpp:162
+#: libs/s25main/drivers/DriverWrapper.cpp:137
 msgid "Missing required API function"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:173
-#: libs/s25main/ingameWindows/iwSettings.cpp:35
+#: libs/s25main/desktops/dskOptions.cpp:178
+#: libs/s25main/ingameWindows/iwSettings.cpp:36
 msgid "Mode:"
 msgstr "Spôsob zobrazenia"
 
@@ -2276,7 +2277,7 @@ msgid "Modify the strength increase of military ranks"
 msgstr ""
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:41
-#: libs/s25main/controls/ctrlProgress.cpp:51
+#: libs/s25main/controls/ctrlProgress.cpp:50
 #: libs/s25main/ingameWindows/iwHQ.cpp:51
 msgid "More"
 msgstr "Viac"
@@ -2298,7 +2299,7 @@ msgstr "Častejšie"
 msgid "More recruits"
 msgstr "Viac nováčikov"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:87
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:86
 msgid "More repeats"
 msgstr "Častejšie"
 
@@ -2306,27 +2307,27 @@ msgstr "Častejšie"
 msgid "More trees spawn animals"
 msgstr ""
 
-#: libs/s25main/desktops/dskMainMenu.cpp:59
+#: libs/s25main/desktops/dskMainMenu.cpp:58
 msgid "Multiplayer"
 msgstr "Viac hráčov"
 
-#: libs/s25main/desktops/dskOptions.cpp:222
+#: libs/s25main/desktops/dskOptions.cpp:227
 msgid "Music"
 msgstr "Hudba"
 
-#: libs/s25main/desktops/dskOptions.cpp:240
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:64
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:85
+#: libs/s25main/desktops/dskOptions.cpp:245
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:63
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:106
 msgid "Music player"
 msgstr "Hudobný prehrávač"
 
-#: libs/s25main/desktops/dskLobby.cpp:61
-#: libs/s25main/desktops/dskSelectMap.cpp:79
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:54
+#: libs/s25main/desktops/dskLobby.cpp:68
+#: libs/s25main/desktops/dskSelectMap.cpp:82
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:59
 msgid "Name"
 msgstr "Názov"
 
-#: libs/s25main/desktops/dskOptions.cpp:77
+#: libs/s25main/desktops/dskOptions.cpp:82
 msgid "Name in Game:"
 msgstr "Prezývka"
 
@@ -2338,7 +2339,7 @@ msgstr ""
 msgid "Network/LAN"
 msgstr "Internet/LAN"
 
-#: libs/s25main/lua/LuaPlayer.cpp:83
+#: libs/s25main/lua/LuaPlayer.cpp:82
 msgid "New building type:"
 msgstr ""
 
@@ -2346,11 +2347,11 @@ msgstr ""
 msgid "New harbor building finished"
 msgstr ""
 
-#: libs/s25main/desktops/dskSelectMap.cpp:104
+#: libs/s25main/desktops/dskSelectMap.cpp:110
 msgid "New maps"
 msgstr "Nové mapy"
 
-#: libs/s25main/buildings/nobStorehouse.cpp:36
+#: libs/s25main/buildings/nobStorehouse.cpp:33
 msgid "New storehouse finished"
 msgstr ""
 
@@ -2358,23 +2359,23 @@ msgstr ""
 msgid "Next page"
 msgstr "Ďalšia strana"
 
-#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:36
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:75
+#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:38
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:79
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:92
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:98
 msgid "No"
 msgstr "Nie"
 
-#: libs/s25main/desktops/dskOptions.cpp:131
+#: libs/s25main/desktops/dskOptions.cpp:136
 msgid "No Proxy"
 msgstr ""
 
-#: libs/s25main/addons/AddonLimitCatapults.h:43
+#: libs/s25main/addons/AddonLimitCatapults.h:42
 msgid "No catapults"
 msgstr ""
 
-#: libs/s25main/addons/AddonChangeGoldDeposits.h:39
-#: libs/s25main/addons/AddonDefenderBehavior.h:40
+#: libs/s25main/addons/AddonChangeGoldDeposits.h:38
+#: libs/s25main/addons/AddonDefenderBehavior.h:39
 msgid "No change"
 msgstr ""
 
@@ -2382,15 +2383,15 @@ msgstr ""
 msgid "No current job"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwPostWindow.cpp:265
+#: libs/s25main/ingameWindows/iwPostWindow.cpp:263
 msgid "No letters!"
 msgstr "Žiadne správy!"
 
-#: libs/s25main/buildings/nobUsual.cpp:547
+#: libs/s25main/buildings/nobUsual.cpp:544
 msgid "No more fishes in range"
 msgstr ""
 
-#: libs/s25main/buildings/nobUsual.cpp:545
+#: libs/s25main/buildings/nobUsual.cpp:542
 msgid "No more stones in range"
 msgstr ""
 
@@ -2402,35 +2403,35 @@ msgstr ""
 msgid "No sea attacks"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwShip.cpp:85
+#: libs/s25main/ingameWindows/iwShip.cpp:86
 msgid "No ships available"
 msgstr ""
 
-#: libs/s25main/addons/AddonStatisticsVisibility.h:39
+#: libs/s25main/addons/AddonStatisticsVisibility.h:38
 msgid "Nobody else but you"
 msgstr ""
 
 #: libs/s25main/gameTypes/PactTypes.cpp:22
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:102
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:101
 msgid "Non-aggression pact"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:203
+#: libs/s25main/desktops/dskHostGame.cpp:204
 msgid "None"
 msgstr "Nič"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:40
-#: libs/s25main/addons/AddonShipSpeed.h:35
-#: libs/s25main/desktops/dskHostGame.cpp:197
-#: libs/s25main/desktops/dskHostGame.cpp:223
+#: libs/s25main/addons/AddonShipSpeed.h:36
+#: libs/s25main/desktops/dskHostGame.cpp:198
+#: libs/s25main/desktops/dskHostGame.cpp:222
 msgid "Normal"
 msgstr "Normal"
 
-#: libs/s25main/desktops/dskHostGame.cpp:867
+#: libs/s25main/desktops/dskHostGame.cpp:868
 msgid "Not Ready"
 msgstr ""
 
-#: libs/s25main/drivers/DriverWrapper.cpp:139
+#: libs/s25main/drivers/DriverWrapper.cpp:114
 msgid "Not a RTTR driver library!"
 msgstr ""
 
@@ -2438,21 +2439,21 @@ msgstr ""
 msgid "Not available"
 msgstr "nie je k dispozícii"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1093
+#: libs/s25main/desktops/dskGameInterface.cpp:1102
 #, c-format
 msgid "Note: Game settings changed by the server%s"
 msgstr "Poznámka: Nastavenia hry boli pozmenené serverom %s."
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:97
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:96
 msgid "Nothing"
 msgstr ""
 
-#: libs/s25main/network/GameClientGF_Replay.cpp:114
+#: libs/s25main/network/GameClientGF_Replay.cpp:115
 #, c-format
 msgid "Notice: Overall asynchronous frame count: %u"
 msgstr ""
 
-#: libs/s25main/network/GameClientGF_Replay.cpp:104
+#: libs/s25main/network/GameClientGF_Replay.cpp:103
 #, c-format
 msgid "Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, AVG_FPS: %u)"
 msgstr ""
@@ -2471,15 +2472,14 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:80
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:85
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:46
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:45
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:39
 msgid "OK"
 msgstr "Ok"
 
-#: libs/s25main/MusicPlayer.cpp:254
-#, fuzzy
+#: libs/s25main/MusicPlayer.cpp:90
 msgid "OK\n"
-msgstr "Ok"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAction.cpp:332
 #: libs/s25main/ingameWindows/iwObservate.cpp:41
@@ -2487,17 +2487,17 @@ msgid "Observation window"
 msgstr "Okno sledovania"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:35
-#: libs/s25main/desktops/dskOptions.cpp:149
-#: libs/s25main/desktops/dskOptions.cpp:156
-#: libs/s25main/desktops/dskOptions.cpp:162
-#: libs/s25main/desktops/dskOptions.cpp:187
-#: libs/s25main/desktops/dskOptions.cpp:206
-#: libs/s25main/desktops/dskOptions.cpp:225
-#: libs/s25main/desktops/dskOptions.cpp:234
+#: libs/s25main/desktops/dskOptions.cpp:154
+#: libs/s25main/desktops/dskOptions.cpp:161
+#: libs/s25main/desktops/dskOptions.cpp:167
+#: libs/s25main/desktops/dskOptions.cpp:192
+#: libs/s25main/desktops/dskOptions.cpp:211
+#: libs/s25main/desktops/dskOptions.cpp:230
+#: libs/s25main/desktops/dskOptions.cpp:239
 msgid "Off"
 msgstr "Vypnuté"
 
-#: libs/s25main/desktops/dskHostGame.cpp:187
+#: libs/s25main/desktops/dskHostGame.cpp:188
 msgid "Off (all visible)"
 msgstr "Vypnuté (všetko viditeľné)"
 
@@ -2505,21 +2505,21 @@ msgstr "Vypnuté (všetko viditeľné)"
 msgid "Officer"
 msgstr "Dôstojník"
 
-#: libs/s25main/addons/AddonMaxRank.h:44
+#: libs/s25main/addons/AddonMaxRank.h:45
 msgid "Officer (3)"
 msgstr ""
 
-#: libs/s25main/desktops/dskSelectMap.cpp:101
+#: libs/s25main/desktops/dskSelectMap.cpp:107
 msgid "Old maps"
 msgstr "Staré mapy"
 
-#: libs/s25main/desktops/dskOptions.cpp:148
-#: libs/s25main/desktops/dskOptions.cpp:157
-#: libs/s25main/desktops/dskOptions.cpp:164
-#: libs/s25main/desktops/dskOptions.cpp:186
-#: libs/s25main/desktops/dskOptions.cpp:205
-#: libs/s25main/desktops/dskOptions.cpp:224
-#: libs/s25main/desktops/dskOptions.cpp:233
+#: libs/s25main/desktops/dskOptions.cpp:153
+#: libs/s25main/desktops/dskOptions.cpp:162
+#: libs/s25main/desktops/dskOptions.cpp:169
+#: libs/s25main/desktops/dskOptions.cpp:191
+#: libs/s25main/desktops/dskOptions.cpp:210
+#: libs/s25main/desktops/dskOptions.cpp:229
+#: libs/s25main/desktops/dskOptions.cpp:238
 msgid "On"
 msgstr "Zapnuté"
 
@@ -2527,30 +2527,30 @@ msgstr "Zapnuté"
 msgid "Open"
 msgstr "Otvoriť"
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:451
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:383
 msgid "OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or hardware!"
 msgstr ""
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:448
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:380
 msgid "OpenGL %1%.%2% supported\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:202
+#: libs/s25main/desktops/dskOptions.cpp:207
 msgid "Optimized Textures:"
 msgstr ""
 
-#: libs/s25main/desktops/dskMainMenu.cpp:61
-#: libs/s25main/desktops/dskOptions.cpp:55
+#: libs/s25main/desktops/dskMainMenu.cpp:60
+#: libs/s25main/desktops/dskOptions.cpp:60
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:88
 msgid "Options"
 msgstr "Nastavenia"
 
-#: libs/s25main/ingameWindows/iwBuildingSite.cpp:38
+#: libs/s25main/ingameWindows/iwBuildingSite.cpp:40
 msgid "Order of building site"
 msgstr ""
 
-#: libs/s25main/desktops/dskSelectMap.cpp:119
-#: libs/s25main/ingameWindows/iwAddons.cpp:58
+#: libs/s25main/desktops/dskSelectMap.cpp:125
+#: libs/s25main/ingameWindows/iwAddons.cpp:76
 msgid "Other"
 msgstr "Ostatné"
 
@@ -2558,7 +2558,7 @@ msgstr "Ostatné"
 msgid "Other Support:"
 msgstr ""
 
-#: libs/s25main/figures/nofAttacker.cpp:268
+#: libs/s25main/figures/nofAttacker.cpp:263
 msgid "Our headquarters was destroyed!"
 msgstr ""
 
@@ -2566,11 +2566,11 @@ msgstr ""
 msgid "Outline map"
 msgstr "Náhľad"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:107
+#: libs/s25main/desktops/dskSelectMap.cpp:113
 msgid "Own maps"
 msgstr "Vlastné mapy"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:102
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:101
 msgid "Owner"
 msgstr ""
 
@@ -2582,16 +2582,16 @@ msgstr "Somár-nosič"
 msgid "Password (if needed):"
 msgstr "Heslo (ak je potrebné):"
 
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:63
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:48
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:71
 msgid "Password:"
 msgstr "Heslo:"
 
-#: libs/s25main/desktops/dskHostGame.cpp:140
+#: libs/s25main/desktops/dskHostGame.cpp:141
 msgid "Past player"
 msgstr "Poslední hráč"
 
-#: libs/s25main/gameTypes/GoodTypes.h:75
+#: libs/s25main/gameTypes/GoodTypes.h:77
 msgid "Pick-axe"
 msgstr "Krompáč"
 
@@ -2603,13 +2603,13 @@ msgstr "Chovateľ prasiat"
 msgid "Pig farm"
 msgstr "Chov prasiat"
 
-#: libs/s25main/desktops/dskHostGame.cpp:133
-#: libs/s25main/desktops/dskLobby.cpp:59
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:65
+#: libs/s25main/desktops/dskHostGame.cpp:134
+#: libs/s25main/desktops/dskLobby.cpp:65
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:64
 msgid "Ping"
 msgstr "Odozva"
 
-#: libs/s25main/desktops/dskOptions.cpp:165
+#: libs/s25main/desktops/dskOptions.cpp:170
 msgid "Place cursor on default button for new dialogs / action windows (default)"
 msgstr ""
 
@@ -2617,31 +2617,31 @@ msgstr ""
 msgid "Planer"
 msgstr "Geodet"
 
-#: libs/s25main/desktops/dskSinglePlayer.cpp:60
+#: libs/s25main/desktops/dskSinglePlayer.cpp:59
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:55
 msgid "Play Replay"
 msgstr "Prehrať záznam"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:88
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:87
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:280
 msgid "Playback in this order"
 msgstr "Playback in this order"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:125
+#: libs/s25main/desktops/dskSelectMap.cpp:131
 msgid "Played"
 msgstr "Posledná hra"
 
-#: libs/s25main/desktops/dskLAN.cpp:57 libs/s25main/desktops/dskLobby.cpp:58
-#: libs/s25main/desktops/dskSelectMap.cpp:80
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:58
+#: libs/s25main/desktops/dskLAN.cpp:61 libs/s25main/desktops/dskLobby.cpp:63
+#: libs/s25main/desktops/dskSelectMap.cpp:84
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:61
 msgid "Player"
 msgstr "Hráč"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:110
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:109
 msgid "Player %1%"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:423
+#: libs/s25main/world/MapLoader.cpp:419
 #, c-format
 msgid "Player %u does not have a valid start position!"
 msgstr ""
@@ -2651,34 +2651,34 @@ msgstr ""
 msgid "Player '%s' is the winner!"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1085
+#: libs/s25main/desktops/dskGameInterface.cpp:1095
 #, c-format
 msgid "Player '%s' joined the game!"
 msgstr "Hráč '%s' sa pripojil do hry!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1082
+#: libs/s25main/desktops/dskGameInterface.cpp:1092
 #, c-format
 msgid "Player '%s' left the game!"
 msgstr "Hráč '%s' opustil hru!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1194
+#: libs/s25main/desktops/dskGameInterface.cpp:1196
 #, c-format
 msgid "Player '%s' was defeated!"
 msgstr "Hráč '%s' bol porazený!"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:83
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:81
 msgid "Player Distribution"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:118
+#: libs/s25main/desktops/dskHostGame.cpp:119
 msgid "Player Name"
 msgstr "Názov hráča"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:68
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:67
 msgid "Playlist:"
 msgstr "Playlist:"
 
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:144
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:143
 msgid "Please enter a name for the game"
 msgstr "Prosím vložte názov hry."
 
@@ -2691,13 +2691,13 @@ msgstr ""
 msgid "Please wait..."
 msgstr "Prosim počkajte..."
 
-#: libs/s25main/desktops/dskLobby.cpp:61
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:54
+#: libs/s25main/desktops/dskLobby.cpp:68
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:59
 msgid "Points"
 msgstr "Body"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:127
-#: libs/s25main/ingameWindows/iwPostWindow.cpp:69
+#: libs/s25main/ingameWindows/iwPostWindow.cpp:67
 msgid "Post office"
 msgstr "Poštová schránka"
 
@@ -2705,7 +2705,7 @@ msgstr "Poštová schránka"
 msgid "Private"
 msgstr "Vojak"
 
-#: libs/s25main/addons/AddonMaxRank.h:47
+#: libs/s25main/addons/AddonMaxRank.h:48
 msgid "Private (0)"
 msgstr ""
 
@@ -2713,26 +2713,26 @@ msgstr ""
 msgid "Private first class"
 msgstr "Slobodník"
 
-#: libs/s25main/addons/AddonMaxRank.h:46
+#: libs/s25main/addons/AddonMaxRank.h:47
 msgid "Privatefc (1)"
 msgstr ""
 
-#: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:17
+#: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:16
 msgid "Produce nothing"
 msgstr ""
 
-#: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:16
+#: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:15
 msgid "Produce random ware"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:78
+#: libs/s25main/ingameWindows/iwBuilding.cpp:80
 msgid "Production on/off"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwBuildingProductivities.cpp:54
+#: libs/s25main/ingameWindows/iwBuildingProductivities.cpp:51
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:65
-#: libs/s25main/ingameWindows/iwStatistics.cpp:133
-#: libs/s25main/ingameWindows/iwStatistics.cpp:236
+#: libs/s25main/ingameWindows/iwStatistics.cpp:132
+#: libs/s25main/ingameWindows/iwStatistics.cpp:235
 msgid "Productivity"
 msgstr "Produktivita"
 
@@ -2749,15 +2749,15 @@ msgstr "Naprogramovali"
 msgid "Project management"
 msgstr ""
 
-#: libs/s25main/addons/AddonLimitCatapults.h:42
+#: libs/s25main/addons/AddonLimitCatapults.h:41
 msgid "Proportional"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:121
+#: libs/s25main/desktops/dskOptions.cpp:126
 msgid "Proxyserver:"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:129
+#: libs/s25main/desktops/dskOptions.cpp:134
 msgid "Proxytyp:"
 msgstr ""
 
@@ -2780,15 +2780,15 @@ msgstr ""
 msgid "Quarry"
 msgstr "Kameňolom"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:69
+#: libs/s25main/desktops/dskMainMenu.cpp:68
 msgid "Quit program"
 msgstr "Skončiť program"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:116
+#: libs/s25main/desktops/dskSelectMap.cpp:122
 msgid "RTTR"
 msgstr "RTTR"
 
-#: libs/s25main/desktops/dskHostGame.cpp:122
+#: libs/s25main/desktops/dskHostGame.cpp:123
 msgid "Race"
 msgstr "Rasa"
 
@@ -2796,11 +2796,11 @@ msgstr "Rasa"
 msgid "Race specific catapult graphics"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:74
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:72
 msgid "Random"
 msgstr ""
 
-#: libs/s25main/desktops/dskSelectMap.cpp:93
+#: libs/s25main/desktops/dskSelectMap.cpp:99
 msgid "Random Map"
 msgstr ""
 
@@ -2808,7 +2808,7 @@ msgstr ""
 msgid "Random playback"
 msgstr "Náhodný záznam"
 
-#: libs/s25main/desktops/dskHostGame.cpp:173
+#: libs/s25main/desktops/dskHostGame.cpp:174
 msgid "Random start locations"
 msgstr ""
 
@@ -2820,32 +2820,32 @@ msgstr "Lesník"
 msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
 msgstr ""
 
-#: libs/s25main/desktops/dskMainMenu.cpp:65
-#: libs/s25main/desktops/dskOptions.cpp:102
+#: libs/s25main/desktops/dskMainMenu.cpp:64
+#: libs/s25main/desktops/dskOptions.cpp:107
 msgid "Readme"
 msgstr "Čítaj ma"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:682
-#: libs/s25main/desktops/dskMainMenu.cpp:138
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:113
+#: libs/s25main/desktops/dskGameInterface.cpp:692
+#: libs/s25main/desktops/dskMainMenu.cpp:137
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:123
 msgid "Readme!"
 msgstr "Čítaj ma!"
 
-#: libs/s25main/desktops/dskHostGame.cpp:163
+#: libs/s25main/desktops/dskHostGame.cpp:164
 #: libs/s25main/desktops/dskHostGame.cpp:656
-#: libs/s25main/desktops/dskHostGame.cpp:867
+#: libs/s25main/desktops/dskHostGame.cpp:868
 msgid "Ready"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:131
+#: libs/s25main/desktops/dskHostGame.cpp:132
 msgid "Ready?"
 msgstr "Pripravený?"
 
-#: libs/s25main/network/GameServer.cpp:1214
+#: libs/s25main/network/GameServer.cpp:1209
 msgid "Received async log from %1%, but did not expect it!\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1208
+#: libs/s25main/network/GameServer.cpp:1203
 msgid "Received async logs from %1% (%2% entries).\n"
 msgstr ""
 
@@ -2853,7 +2853,7 @@ msgstr ""
 msgid "Receiving coins is disabled for military buildings by default."
 msgstr ""
 
-#: libs/s25main/addons/AddonDefenderBehavior.h:42
+#: libs/s25main/addons/AddonDefenderBehavior.h:41
 msgid "Reduce reoccupying troops accordingly"
 msgstr ""
 
@@ -2877,31 +2877,31 @@ msgstr ""
 msgid "Refund materials in emergency program"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:88
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:94
 msgid "Register"
 msgstr "Registrovať"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:278
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:260
 msgid "Registration successful!"
 msgstr "Registrácia prebehla v poriadku!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:75
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:74
 msgid "Remove"
 msgstr "Odstrániť"
 
-#: libs/s25main/addons/AddonChangeGoldDeposits.h:40
+#: libs/s25main/addons/AddonChangeGoldDeposits.h:39
 msgid "Remove gold completely"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:82
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:81
 msgid "Remove track"
 msgstr "Odstrániť záznam"
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:63
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:67
 msgid "Removes all replays that cannot be loaded with the current game version"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1383
+#: libs/s25main/network/GameClient.cpp:1377
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr ""
 
@@ -2909,27 +2909,27 @@ msgstr ""
 msgid "Reserve"
 msgstr "Rezerva"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:98
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:97
 msgid "Reserved"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwObservate.cpp:62
+#: libs/s25main/ingameWindows/iwObservate.cpp:61
 msgid "Resize window"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:100
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:99
 msgid "Resources"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:103
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:102
 msgid "Restricted area"
 msgstr ""
 
-#: libs/s25main/desktops/dskSinglePlayer.cpp:52
+#: libs/s25main/desktops/dskSinglePlayer.cpp:51
 msgid "Resume last game"
 msgstr "Obnoviť poslednú hru"
 
-#: libs/s25main/desktops/dskHostGame.cpp:166
+#: libs/s25main/desktops/dskHostGame.cpp:167
 msgid "Return"
 msgstr "Návrat"
 
@@ -2941,19 +2941,19 @@ msgstr ""
 msgid "Return to harbor"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:73
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:71
 msgid "Ringland"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:72
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:70
 msgid "Riverland"
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:78
+#: libs/s25main/gameTypes/GoodTypes.h:80
 msgid "Rod and line"
 msgstr "Udica"
 
-#: libs/s25main/gameTypes/GoodTypes.h:83
+#: libs/s25main/gameTypes/GoodTypes.h:85
 msgid "Rolling pin"
 msgstr "Valček"
 
@@ -2961,49 +2961,49 @@ msgstr "Valček"
 msgid "Romans"
 msgstr "Rimania"
 
-#: libs/s25client/s25client.cpp:135
+#: libs/s25client/s25client.cpp:124
 msgid "RttR crashed. Please restart the application!"
 msgstr ""
 
-#: libs/s25client/s25client.cpp:126
+#: libs/s25client/s25client.cpp:111
 msgid "RttR crashed. Would you like to send debug information to RttR to help us avoiding this crash in the future? Thank you very much!"
 msgstr ""
 
-#: libs/s25main/desktops/dskMainMenu.cpp:87
+#: libs/s25main/desktops/dskMainMenu.cpp:86
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:658
+#: libs/s25main/network/GameServer.cpp:653
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:569
+#: libs/s25main/network/GameServer.cpp:564
 msgid "SERVER: Error on socket of player %1%, bye bye!\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:703
+#: libs/s25main/network/GameServer.cpp:698
 msgid "SERVER: Kicking player %1% in %2% seconds\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:782
+#: libs/s25main/network/GameServer.cpp:777
 msgid "SERVER: Receiving Message for player %1% failed, kicking...\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:579
+#: libs/s25main/network/GameServer.cpp:574
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1124
-#: libs/s25main/desktops/dskGameInterface.cpp:1143
+#: libs/s25main/desktops/dskGameInterface.cpp:1130
+#: libs/s25main/desktops/dskGameInterface.cpp:1147
 msgid "SYSTEM"
 msgstr "SYSTEM"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:71
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:75
 msgid "Save Password?"
 msgstr "Uložiť heslo?"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:70
-#: libs/s25main/ingameWindows/iwSave.cpp:130
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:89
+#: libs/s25main/ingameWindows/iwSave.cpp:133
 msgid "Save game!"
 msgstr "Uložiť hru!"
 
@@ -3011,7 +3011,7 @@ msgstr "Uložiť hru!"
 msgid "Savegame error: "
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:74
+#: libs/s25main/gameTypes/GoodTypes.h:76
 msgid "Saw"
 msgstr "Pílka"
 
@@ -3023,19 +3023,19 @@ msgstr "Píla"
 msgid "Scout"
 msgstr "Skaut"
 
-#: libs/s25main/WindowManager.cpp:855
+#: libs/s25main/WindowManager.cpp:778
 msgid "Screenshot saved to %1%\n"
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:79
+#: libs/s25main/gameTypes/GoodTypes.h:81
 msgid "Scythe"
 msgstr "Kosa"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:122
+#: libs/s25main/desktops/dskSelectMap.cpp:128
 msgid "Sea"
 msgstr "More"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:101
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:100
 msgid "Sea Id"
 msgstr ""
 
@@ -3043,7 +3043,7 @@ msgstr ""
 msgid "Sea attack settings"
 msgstr ""
 
-#: libs/s25main/drivers/DriverWrapper.cpp:188
+#: libs/s25main/drivers/DriverWrapper.cpp:161
 #, c-format
 msgid "Searching for drivers in %s\n"
 msgstr ""
@@ -3052,7 +3052,7 @@ msgstr ""
 msgid "Select all"
 msgstr "Vybrať všetko"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:84
+#: libs/s25main/desktops/dskSelectMap.cpp:90
 msgid "Selection of maps"
 msgstr "Výber mapy"
 
@@ -3060,7 +3060,7 @@ msgstr "Výber mapy"
 msgid "Send"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:73
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:74
 msgid "Send max rank soldiers to a warehouse"
 msgstr ""
 
@@ -3069,7 +3069,7 @@ msgstr ""
 msgid "Send out scout"
 msgstr "Vyslať skauta"
 
-#: libs/s25main/network/GameServer.cpp:1494
+#: libs/s25main/network/GameServer.cpp:1489
 msgid "Sending async logs %1%.\n"
 msgstr ""
 
@@ -3081,11 +3081,11 @@ msgstr ""
 msgid "Sergeant"
 msgstr "Seržant"
 
-#: libs/s25main/addons/AddonMaxRank.h:45
+#: libs/s25main/addons/AddonMaxRank.h:46
 msgid "Sergeant (2)"
 msgstr ""
 
-#: libs/s25main/desktops/dskLAN.cpp:56 libs/s25main/desktops/dskLobby.cpp:57
+#: libs/s25main/desktops/dskLAN.cpp:59 libs/s25main/desktops/dskLobby.cpp:61
 msgid "Server"
 msgstr "Server"
 
@@ -3102,7 +3102,7 @@ msgid "Server management"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:49
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:45
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:44
 msgid "Server-Port:"
 msgstr "Číslo portu:"
 
@@ -3110,7 +3110,7 @@ msgstr "Číslo portu:"
 msgid "Set duration fires burn"
 msgstr ""
 
-#: libs/s25main/addons/AddonMaxRank.h:41
+#: libs/s25main/addons/AddonMaxRank.h:42
 msgid "Set max rank"
 msgstr ""
 
@@ -3122,11 +3122,11 @@ msgstr ""
 msgid "Set restriction level for sea attacks"
 msgstr ""
 
-#: libs/s25main/addons/AddonShipSpeed.h:31
+#: libs/s25main/addons/AddonShipSpeed.h:32
 msgid "Set ship speed"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwSettings.cpp:32
+#: libs/s25main/ingameWindows/iwSettings.cpp:33
 msgid "Settings"
 msgstr ""
 
@@ -3134,11 +3134,11 @@ msgstr ""
 msgid "Settlers"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:171
+#: libs/s25main/desktops/dskHostGame.cpp:172
 msgid "Shared team view"
 msgstr "Tímové odhalenie:"
 
-#: libs/s25main/gameTypes/GoodTypes.h:91
+#: libs/s25main/gameTypes/GoodTypes.h:93
 msgid "Shield"
 msgstr "Štít"
 
@@ -3159,33 +3159,33 @@ msgstr "Staviteľ lodí"
 msgid "Shipyard"
 msgstr "Lodenica"
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:46
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:45
 msgid "Short"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:211
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:213
 msgid "Short-run"
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:76
+#: libs/s25main/gameTypes/GoodTypes.h:78
 msgid "Shovel"
 msgstr "Lopata"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:92
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:91
 msgid "Show coordinates"
 msgstr ""
 
-#: libs/s25main/desktops/dskMainMenu.cpp:57
+#: libs/s25main/desktops/dskMainMenu.cpp:56
 msgid "Singleplayer"
 msgstr "Jeden hráč"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:80
+#: libs/s25main/desktops/dskSelectMap.cpp:86
 msgid "Size"
 msgstr "Rozmer"
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:127
-#: libs/s25main/ingameWindows/iwStatistics.cpp:147
-#: libs/s25main/ingameWindows/iwStatistics.cpp:212
+#: libs/s25main/ingameWindows/iwStatistics.cpp:126
+#: libs/s25main/ingameWindows/iwStatistics.cpp:146
+#: libs/s25main/ingameWindows/iwStatistics.cpp:211
 msgid "Size of country"
 msgstr "Veľkosť krajiny"
 
@@ -3193,7 +3193,7 @@ msgstr "Veľkosť krajiny"
 msgid "Skip GameFrames"
 msgstr ""
 
-#: libs/s25main/drivers/DriverWrapper.cpp:211
+#: libs/s25main/drivers/DriverWrapper.cpp:182
 #, c-format
 msgid "Skipping %s: %s\n"
 msgstr ""
@@ -3202,12 +3202,12 @@ msgstr ""
 msgid "Slaughterhouse"
 msgstr "Mäsiareň"
 
-#: libs/s25main/addons/AddonShipSpeed.h:34
-#: libs/s25main/desktops/dskHostGame.cpp:222
+#: libs/s25main/addons/AddonShipSpeed.h:35
+#: libs/s25main/desktops/dskHostGame.cpp:221
 msgid "Slow"
 msgstr "Pomaly"
 
-#: libs/s25main/desktops/dskOptions.cpp:160
+#: libs/s25main/desktops/dskOptions.cpp:165
 msgid "Smart Cursor"
 msgstr ""
 
@@ -3215,7 +3215,7 @@ msgstr ""
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:132
+#: libs/s25main/desktops/dskOptions.cpp:137
 msgid "Socks v4"
 msgstr ""
 
@@ -3223,26 +3223,28 @@ msgstr ""
 msgid "Soldiers winning a fight increase in rank."
 msgstr ""
 
-#: libs/s25main/desktops/dskSplash.cpp:90
+#: libs/s25main/desktops/dskSplash.cpp:91
 msgid ""
 "Some files failed to load.\n"
 "Please ensure that the Settlers 2 Gold-Edition is installed \n"
 "in the same directory as Return to the Roots."
 msgstr ""
 
-#: libs/s25main/desktops/dskDirectIP.cpp:53 libs/s25main/desktops/dskLAN.cpp:91
-#: libs/s25main/desktops/dskLAN.cpp:170 libs/s25main/desktops/dskLobby.cpp:135
-#: libs/s25main/desktops/dskLobby.cpp:239
-#: libs/s25main/desktops/dskOptions.cpp:545
-#: libs/s25main/desktops/dskOptions.cpp:552
+#: libs/s25main/desktops/dskDirectIP.cpp:50 libs/s25main/desktops/dskLAN.cpp:95
+#: libs/s25main/desktops/dskLAN.cpp:176 libs/s25main/desktops/dskLobby.cpp:141
+#: libs/s25main/desktops/dskLobby.cpp:237
+#: libs/s25main/desktops/dskLobby.cpp:251
+#: libs/s25main/desktops/dskOptions.cpp:551
+#: libs/s25main/desktops/dskOptions.cpp:559
+#: libs/s25main/ingameWindows/iwSettings.cpp:86
 msgid "Sorry!"
 msgstr "Prepáčte!"
 
-#: libs/s25main/desktops/dskOptions.cpp:66
+#: libs/s25main/desktops/dskOptions.cpp:71
 msgid "Sound/Music"
 msgstr "Zvuky/Hudba"
 
-#: libs/s25main/desktops/dskOptions.cpp:209
+#: libs/s25main/desktops/dskOptions.cpp:214
 msgid "Sounddriver"
 msgstr "Zvukový ovládač"
 
@@ -3250,20 +3252,20 @@ msgstr "Zvukový ovládač"
 msgid "Specify the playlist name"
 msgstr "Názov playlistu"
 
-#: libs/s25main/desktops/dskHostGame.cpp:219
+#: libs/s25main/desktops/dskHostGame.cpp:218
 msgid "Speed:"
 msgstr "Rýchlosť:"
 
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:64
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:66
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:63
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:70
 msgid "Start"
 msgstr "Štart"
 
-#: libs/s25main/ingameWindows/iwSave.cpp:47
+#: libs/s25main/ingameWindows/iwSave.cpp:51
 msgid "Start GF"
 msgstr "Start GF"
 
-#: libs/s25main/desktops/dskHostGame.cpp:720
+#: libs/s25main/desktops/dskHostGame.cpp:721
 msgid "Start aborted"
 msgstr ""
 
@@ -3277,25 +3279,25 @@ msgstr ""
 msgid "Start exporation expedition"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:163
+#: libs/s25main/desktops/dskHostGame.cpp:164
 #: libs/s25main/desktops/dskHostGame.cpp:650
-#: libs/s25main/desktops/dskHostGame.cpp:865
+#: libs/s25main/desktops/dskHostGame.cpp:866
 msgid "Start game"
 msgstr "Spustiť hru"
 
-#: libs/s25main/Loader.cpp:243
-msgid "Starting Sound-Converter...\n"
-msgstr ""
-
-#: libs/s25main/desktops/dskHostGame.cpp:710
+#: libs/s25main/desktops/dskHostGame.cpp:711
 msgid "Starting game, please wait"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:38
+#: libs/s25main/Loader.cpp:242
+msgid "Starting sound conversion..."
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwStatistics.cpp:37
 msgid "Statistics"
 msgstr "Štatistiky"
 
-#: libs/s25main/ingameWindows/iwSettings.cpp:36
+#: libs/s25main/ingameWindows/iwSettings.cpp:37
 msgid "Statistics Scale"
 msgstr ""
 
@@ -3304,7 +3306,7 @@ msgstr ""
 msgid "Stock"
 msgstr "Sklad"
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:58
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:60
 msgid "Stocktaking date"
 msgstr ""
 
@@ -3312,8 +3314,8 @@ msgstr ""
 msgid "Stonemason"
 msgstr "Kamenár"
 
-#: libs/s25main/gameTypes/GoodTypes.h:94
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:62
+#: libs/s25main/gameTypes/GoodTypes.h:96
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:61
 #: libs/s25main/ingameWindows/iwTransport.cpp:34
 msgid "Stones"
 msgstr "Kamene"
@@ -3334,23 +3336,23 @@ msgstr "Silní útočníci"
 msgid "Strong defense"
 msgstr "Silná obrana"
 
-#: libs/s25main/desktops/dskOptions.cpp:146
+#: libs/s25main/desktops/dskOptions.cpp:151
 msgid "Submit debug data:"
 msgstr ""
 
-#: libs/s25main/desktops/dskMainMenu.cpp:86
+#: libs/s25main/desktops/dskMainMenu.cpp:85
 msgid "Submit debug data?"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:202
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:204
 msgid "Suggest non-aggression pact"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:202
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:203
 msgid "Suggest treaty of alliance"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:91
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:108
 #: libs/s25main/ingameWindows/iwSurrender.cpp:28
 msgid "Surrender"
 msgstr "Kapitulovať"
@@ -3359,15 +3361,15 @@ msgstr "Kapitulovať"
 msgid "Surrender game?"
 msgstr "Kapitulovať?"
 
-#: libs/s25main/desktops/dskHostGame.cpp:137
+#: libs/s25main/desktops/dskHostGame.cpp:138
 msgid "Swap"
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:86
+#: libs/s25main/gameTypes/GoodTypes.h:88
 msgid "Sword"
 msgstr "Meč"
 
-#: libs/s25main/languages.cpp:63
+#: libs/s25main/languages.cpp:64
 msgid "System language"
 msgstr "Systémový jazyk"
 
@@ -3379,11 +3381,11 @@ msgstr ""
 msgid "Take out of store"
 msgstr "Von zo skladu"
 
-#: libs/s25main/desktops/dskHostGame.cpp:126
+#: libs/s25main/desktops/dskHostGame.cpp:127
 msgid "Team"
 msgstr "Tím"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:167
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:166
 msgid "Teams locked"
 msgstr ""
 
@@ -3399,18 +3401,18 @@ msgstr ""
 msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
 msgstr "Sila katapultu je nesporná. Katapult je efektívna zbran proti nepriateľským budovám."
 
-#: libs/s25main/postSystem/PostMsg.cpp:42
+#: libs/s25main/postSystem/PostMsg.cpp:43
 #, c-format
 msgid "The %s between player '%s' and you has been cancelled."
 msgstr ""
 
-#: libs/s25main/postSystem/PostMsg.cpp:38
+#: libs/s25main/postSystem/PostMsg.cpp:39
 #, c-format
 msgid "The %s between player '%s' and you has been concluded."
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1106
-#: libs/s25main/network/GameClient.cpp:827
+#: libs/s25main/desktops/dskGameInterface.cpp:1113
+#: libs/s25main/network/GameClient.cpp:821
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "Kontrolný súčet jedného z hráčov je neplatný, hra je nesynchronizovaná."
 
@@ -3426,7 +3428,7 @@ msgstr "Kasárne su veľmi malé, pojmú len dvoch vojakov. Ich výhodou je, že
 msgid "The brewer produces fine beer from grain and water. This drink is needed to fill the soldiers with courage."
 msgstr "Pivovárník vo svojom pivovare vyrába výborné pivo z obilia a vody. Pivo, meč a štít  sú potrebné na vytrénovanie nového vojaka."
 
-#: libs/s25main/ingameWindows/iwBuildings.cpp:121
+#: libs/s25main/ingameWindows/iwBuildings.cpp:117
 msgid "The building statistics window gives you an insight into the number of buildings you have, by type. The number on the left is the total number of this type of building completed, the number on the right shows how many are currently under construction."
 msgstr ""
 
@@ -3450,17 +3452,22 @@ msgstr "Nástroje potrebné v daľších pracovných odvetviach vyrábá kováč
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:2065
+#: libs/s25main/GamePlayer.cpp:2055
 msgid "The emergency program has been activated."
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:2074
+#: libs/s25main/GamePlayer.cpp:2064
 msgid "The emergency program has been deactivated."
 msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:283
 msgid "The farmer plants and harvests grain in the surrounding fields. A windmill then processes the harvested grain into flour or can be used to feed the pigs."
 msgstr "Farmár vysadí v okoli svojej farmy políčka obilia, ktoré po čase skosí. Oblie sa používa buď ako potrava pre prasatá a somáre, na výrobu piva v pivovare alebo sa pomelie v mlyne na múku."
+
+#: libs/s25main/ingameWindows/iwTextfile.cpp:58
+#, fuzzy
+msgid "The file was not found!"
+msgstr "Súbor \"Čítaj Ma\" sa nenašiel!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:179
 msgid "The fish man is responsible for finding water rich in fish. His fish feed a great many miners."
@@ -3470,7 +3477,7 @@ msgstr "Rybár loví čerstvé ryby z riek a morí. Ryby su vynikajúca potrava 
 msgid "The flour produced at the windmill can be combined with water in the bakery to make oven-fresh bread. It's your miners' favorite!"
 msgstr "Pekár z múky ktorá sa pomelie v mlyne a z vody ktorú dodá studňa dokáže upiecť čerstvý chlieb. Chlieb slúži ako potrava pre baníkov."
 
-#: libs/s25main/network/GameServer.cpp:1485
+#: libs/s25main/network/GameServer.cpp:1480
 msgid "The game clients are out of sync. Would you like to send debug information to RttR to help us avoiding this in the future? Thank you very much!"
 msgstr ""
 
@@ -3486,7 +3493,7 @@ msgstr "Strážnica obsahuje 3 miest pre vašich vojakov. Použitím tlačitka m
 msgid "The headquarters represents the center of your realm. The large amount of storage space available means a great many things can be safely stored here. You can release certain merchandise from the headquarters, as and when required or stop its storage. To do this, first choose the corresponding icon followed by the desired merchandise or job symbol. On the third page, you can adjust the number of reserve soldiers who are responsible for guarding the headquarters. There are two values given: the first value indicates the current number of men, the second value indicates the desired number. "
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:113
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:112
 msgid "The merchandise statistics window allows you to check the quantities of your merchandise. By clicking the left mouse button you can switch the display of individual goods on and off. These can displayed over four different time periods. To delete all displays, click on the wastebasket button."
 msgstr ""
 
@@ -3512,7 +3519,7 @@ msgstr "Hráč '%s' nabízí %s."
 msgid "The player '%s' want to cancel the '%s' between you both prematurely. Do you agree?"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:169
+#: libs/s25main/ingameWindows/iwDistribution.cpp:170
 msgid "The priority of goods for the individual buildings can be set here. The higher the value, the quicker the required goods are delivered to the building concerned."
 msgstr ""
 
@@ -3520,26 +3527,27 @@ msgstr ""
 msgid "The quarrying of stone in a granite mine guarantees the supply of stone for buildings. However, even a granite mine has to feed its workers."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwTextfile.cpp:55
-msgid "The readme file was not found!"
+#: libs/s25main/desktops/dskLobby.cpp:237
+#, fuzzy
+msgid "The selected game was not found anymore."
 msgstr "Súbor \"Čítaj Ma\" sa nenašiel!"
 
-#: libs/s25main/ingameWindows/iwShip.cpp:124
+#: libs/s25main/ingameWindows/iwShip.cpp:125
 msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
 msgstr ""
 
-#: libs/s25main/desktops/dskSinglePlayer.cpp:113
-#: libs/s25main/desktops/dskSinglePlayer.cpp:117
+#: libs/s25main/desktops/dskSinglePlayer.cpp:111
+#: libs/s25main/desktops/dskSinglePlayer.cpp:116
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:147
 msgid "The specified file couldn't be loaded!"
 msgstr "Určený súbor nemôže byť načítaný!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:329
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:316
 msgid "The specified file couldn't be opened!"
 msgstr "Určený súbor nemôže byť otvorený!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:117
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:355
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:116
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:343
 msgid "The specified file couldn't be saved!"
 msgstr "Určený súbor nemôže byť uložený!"
 
@@ -3551,7 +3559,7 @@ msgstr "Kamenár získava kamene z priľahlého lomu. Kamene sú potrebné pre v
 msgid "The storehouse can help reduce long transportation journeys and is suited to the temporary storage of merchandise and inhabitants. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwTransport.cpp:112
+#: libs/s25main/ingameWindows/iwTransport.cpp:124
 msgid "The transport priority of a type of merchandise can be determined here.The higher the priority of an item in the list, the quicker it is transported by helpers."
 msgstr ""
 
@@ -3559,19 +3567,19 @@ msgstr ""
 msgid "The watchtower with its large amount of space is best suited for stationing a large number of your troops. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "Strážna veža obsahuje 6 miest pre vašich vojakov. Použitím tlačitka mince sa zastaví alebo povolí prísun mincí do strážnice, prísunom mincí zvyšuje úroveň vaších vojakov."
 
-#: libs/s25main/ingameWindows/iwVictory.cpp:41
+#: libs/s25main/ingameWindows/iwVictory.cpp:39
 msgid "The winner:"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwVictory.cpp:41
+#: libs/s25main/ingameWindows/iwVictory.cpp:39
 msgid "The winners:"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1435
+#: libs/s25main/network/GameServer.cpp:1430
 msgid "There are %1% identical async log entries.\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwTools.cpp:192
+#: libs/s25main/ingameWindows/iwTools.cpp:193
 msgid "These settings control the tool production of your metalworks. The higher the value, the more likely this tool is to be produced."
 msgstr ""
 
@@ -3579,39 +3587,39 @@ msgstr ""
 msgid "This Server is full!"
 msgstr "Server je plný!"
 
-#: libs/s25main/figures/nofAttacker.cpp:269
+#: libs/s25main/figures/nofAttacker.cpp:264
 msgid "This harbor building was destroyed"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:129
+#: libs/s25main/ingameWindows/iwMilitary.cpp:135
 msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
 msgstr ""
 
-#: libs/s25main/buildings/nobUsual.cpp:543
+#: libs/s25main/buildings/nobUsual.cpp:540
 msgid "This mine is exhausted"
 msgstr "Tento důl je vytěžený"
 
-#: libs/s25main/buildings/nobUsual.cpp:541
+#: libs/s25main/buildings/nobUsual.cpp:538
 msgid "This well has dried out"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:194
+#: libs/s25main/ingameWindows/iwStatistics.cpp:193
 msgid "This window allows a direct comparison with the enemies. Factors such as the wealth, territorial area, inhabitants, etc. of all parties can be compared. This data can be shown over four different time periods."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwSave.cpp:47
+#: libs/s25main/ingameWindows/iwSave.cpp:50
 msgid "Time"
 msgstr "Čas"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:232
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:235
 msgid "To player:"
 msgstr "Pre hráča:"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:188
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:181
 msgid "To register, you have to create a valid board account at http://forum.siedler25.org at the moment.\n"
 msgstr ""
 
-#: libs/s25main/gameTypes/GoodTypes.h:71
+#: libs/s25main/gameTypes/GoodTypes.h:73
 msgid "Tongs"
 msgstr "Kliešte"
 
@@ -3624,7 +3632,7 @@ msgid "Tool ordering"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:54
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:73
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:72
 #: libs/s25main/ingameWindows/iwTools.cpp:43
 #: libs/s25main/ingameWindows/iwTransport.cpp:35
 msgid "Tools"
@@ -3635,11 +3643,11 @@ msgstr "Nástroje"
 msgid "Top"
 msgstr "Navrch"
 
-#: libs/s25main/desktops/dskHostGame.cpp:205
+#: libs/s25main/desktops/dskHostGame.cpp:206
 msgid "Total domination"
 msgstr "Totálne ovládnutie"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:325
+#: libs/s25main/desktops/dskGameInterface.cpp:326
 msgid "Tournament finished"
 msgstr ""
 
@@ -3649,11 +3657,11 @@ msgid "Tournament: %u minutes"
 msgstr ""
 
 #: libs/s25main/addons/AddonTrade.h:26
-#: libs/s25main/ingameWindows/iwTrade.cpp:40
+#: libs/s25main/ingameWindows/iwTrade.cpp:39
 msgid "Trade"
 msgstr ""
 
-#: libs/s25main/figures/nofTradeLeader.cpp:73
+#: libs/s25main/figures/nofTradeLeader.cpp:75
 #, c-format
 msgid "Trade caravan with %s %s arrives from player '%s'."
 msgstr ""
@@ -3668,70 +3676,79 @@ msgstr ""
 msgid "Transport"
 msgstr "Preprava"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:66
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:65
 msgid "Treaties"
 msgstr ""
 
 #: libs/s25main/gameTypes/PactTypes.cpp:22
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:93
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:92
 msgid "Treaty of alliance"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLoader.cpp:99
+#: libs/s25main/desktops/dskGameLoader.cpp:100
 msgid "Tribal chiefs assembled around the table..."
 msgstr "Náčelníci národov sa zhromaždili okolo stola...."
 
-#: libs/s25main/desktops/dskSelectMap.cpp:80
+#: libs/s25main/desktops/dskSelectMap.cpp:85
 msgid "Type"
 msgstr "Typ"
 
-#: libs/s25main/ingameWindows/iwPlayReplay.cpp:100
-#: libs/s25main/ingameWindows/iwSave.cpp:85
-#: libs/s25main/network/GameClient.cpp:1397
+#: libs/s25main/Loader.cpp:288
+msgid "Unable to load font at index %1%\n"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwPlayReplay.cpp:104
+#: libs/s25main/ingameWindows/iwSave.cpp:89
+#: libs/s25main/network/GameClient.cpp:1391
 msgid "Unknown"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:389
+#: libs/s25main/world/MapLoader.cpp:386
 msgid "Unknown animal species at %1%: (0x%2$x)\n"
+msgstr ""
+
+#: libs/libGamedata/lua/LuaInterfaceBase.cpp:57
+#: libs/libGamedata/lua/LuaInterfaceBase.cpp:64
+msgid "Unknown error"
 msgstr ""
 
 #: libs/s25main/network/ClientError.cpp:34
 msgid "Unknown error!"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:336 libs/s25main/world/MapLoader.cpp:346
+#: libs/s25main/world/MapLoader.cpp:333 libs/s25main/world/MapLoader.cpp:343
 msgid "Unknown granite type2 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:326
+#: libs/s25main/world/MapLoader.cpp:323
 msgid "Unknown nature object at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:356
+#: libs/s25main/world/MapLoader.cpp:353
 msgid "Unknown object at %1%: (0x%2$x: 0x%3$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:230
+#: libs/s25main/world/MapLoader.cpp:227
 msgid "Unknown tree1-4 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:246
+#: libs/s25main/world/MapLoader.cpp:243
 msgid "Unknown tree5-8 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:256
+#: libs/s25main/world/MapLoader.cpp:253
 msgid "Unknown tree9 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: libs/s25main/addons/AddonLimitCatapults.h:41
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:51
+#: libs/s25main/addons/AddonLimitCatapults.h:40
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:50
 msgid "Unlimited"
 msgstr ""
 
-#: libs/s25main/QuickStartGame.cpp:44
-#: libs/s25main/desktops/dskSinglePlayer.cpp:58
-#: libs/s25main/desktops/dskSinglePlayer.cpp:152
-#: libs/s25main/desktops/dskSinglePlayer.cpp:157
+#: libs/s25main/QuickStartGame.cpp:61
+#: libs/s25main/desktops/dskSinglePlayer.cpp:57
+#: libs/s25main/desktops/dskSinglePlayer.cpp:151
+#: libs/s25main/desktops/dskSinglePlayer.cpp:156
 msgid "Unlimited Play"
 msgstr ""
 
@@ -3744,40 +3761,40 @@ msgstr "Hore"
 msgid "Upgrade to donkey road"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:83
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:82
 msgid "Upwards"
 msgstr "Vyžšie"
 
-#: libs/s25main/addons/AddonBool.cpp:41
+#: libs/s25main/addons/AddonBool.cpp:40
 msgid "Use"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:110
+#: libs/s25main/desktops/dskOptions.cpp:115
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:57
-#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:53
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:79
+#: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:52
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:83
 msgid "Use IPv6:"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:44
+#: libs/s25main/ingameWindows/iwAddons.cpp:60
 msgid "Use S2 Defaults"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:154
+#: libs/s25main/desktops/dskOptions.cpp:159
 msgid "Use UPnP"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:58
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:66
 msgid "Username:"
 msgstr "Meno uživateľa:"
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:134
-#: libs/s25main/ingameWindows/iwStatistics.cpp:240
+#: libs/s25main/ingameWindows/iwStatistics.cpp:133
+#: libs/s25main/ingameWindows/iwStatistics.cpp:239
 msgid "Vanquished enemies"
 msgstr "Porazených nepriateľov"
 
-#: libs/s25main/desktops/dskLAN.cpp:57 libs/s25main/desktops/dskLobby.cpp:58
-#: libs/s25main/desktops/dskLobby.cpp:62
+#: libs/s25main/desktops/dskLAN.cpp:62 libs/s25main/desktops/dskLobby.cpp:64
+#: libs/s25main/desktops/dskLobby.cpp:68
 msgid "Version"
 msgstr "Verzia"
 
@@ -3785,41 +3802,41 @@ msgstr "Verzia"
 msgid "Version:"
 msgstr "Verzia:"
 
-#: libs/s25main/desktops/dskOptions.cpp:183
+#: libs/s25main/desktops/dskOptions.cpp:188
 msgid "Vertex Buffer Objects:"
 msgstr "Vertex Buffer Objects:"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:83
 msgid "Very Close"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:89
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:87
 msgid "Very Far"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:195
+#: libs/s25main/desktops/dskHostGame.cpp:196
 msgid "Very Low"
 msgstr ""
 
-#: libs/s25main/addons/AddonShipSpeed.h:37
-#: libs/s25main/desktops/dskHostGame.cpp:225
+#: libs/s25main/addons/AddonShipSpeed.h:38
+#: libs/s25main/desktops/dskHostGame.cpp:224
 msgid "Very fast"
 msgstr "Veľmi rýchlo"
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:50
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:49
 msgid "Very long"
 msgstr ""
 
-#: libs/s25main/addons/AddonShipSpeed.h:33
-#: libs/s25main/desktops/dskHostGame.cpp:221
+#: libs/s25main/addons/AddonShipSpeed.h:34
+#: libs/s25main/desktops/dskHostGame.cpp:220
 msgid "Very slow"
 msgstr "Veľmi pomaly"
 
-#: libs/s25main/GameManager.cpp:58
+#: libs/s25main/GameManager.cpp:56
 msgid "Video driver couldn't be loaded!\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:177
+#: libs/s25main/desktops/dskHostGame.cpp:178
 msgid "View Settings..."
 msgstr "Pozriet si Nastavenia...."
 
@@ -3827,10 +3844,14 @@ msgstr "Pozriet si Nastavenia...."
 msgid "Vikings"
 msgstr "Vikingovia"
 
-#: libs/s25main/Loader.cpp:290
+#: libs/s25main/Loader.cpp:269
 msgid ""
 "WARNING: Did not find the music files.\n"
 "\tYou have to run the updater once or copy the .ogg files manually to \"%1%\" or you won't be able to hear the music.\n"
+msgstr ""
+
+#: libs/s25main/Loader.cpp:263
+msgid "WARNING: Found invalid music item for %1%"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:221
@@ -3838,7 +3859,7 @@ msgid "Waiting for Playerinfo..."
 msgstr "Čakám na info o hráčovi..."
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:218
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:290
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:270
 msgid "Waiting for Reply..."
 msgstr "Čakám na odpoveď..."
 
@@ -3850,7 +3871,7 @@ msgstr ""
 msgid "Wares"
 msgstr ""
 
-#: libs/s25main/network/GameClientGF_Replay.cpp:69
+#: libs/s25main/network/GameClientGF_Replay.cpp:70
 #, c-format
 msgid "Warning: The played replay is not in sync with the original match. (GF: %u)"
 msgstr "Upozornenie: Prehrávaný záznam nie je totožný s originálnym zápasom. (GF: %u)"
@@ -3859,13 +3880,13 @@ msgstr "Upozornenie: Prehrávaný záznam nie je totožný s originálnym zápas
 msgid "Watchtower"
 msgstr "Strážna veža"
 
-#: libs/s25main/gameTypes/GoodTypes.h:80 libs/s25main/gameTypes/GoodTypes.h:81
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:64
-#: libs/s25main/ingameWindows/iwTransport.cpp:34
+#: libs/s25main/gameTypes/GoodTypes.h:82 libs/s25main/gameTypes/GoodTypes.h:83
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:63
+#: libs/s25main/ingameWindows/iwTransport.cpp:35
 msgid "Water"
 msgstr "Voda"
 
-#: libs/s25main/figures/nofAttacker.cpp:603
+#: libs/s25main/figures/nofAttacker.cpp:598
 msgid "We are under attack!"
 msgstr "Útočí na nás!"
 
@@ -3881,8 +3902,8 @@ msgstr "Slabí útočníci"
 msgid "Weak defense"
 msgstr "Slabá obrana"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:74
-#: libs/s25main/ingameWindows/iwTransport.cpp:32
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:73
+#: libs/s25main/ingameWindows/iwTransport.cpp:33
 msgid "Weapons"
 msgstr "Zbrane"
 
@@ -3901,12 +3922,12 @@ msgstr ""
 msgid "Well"
 msgstr "Studňa"
 
-#: libs/s25main/ingameWindows/iwHelp.cpp:30
+#: libs/s25main/ingameWindows/iwHelp.cpp:31
 msgid "What is this?"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:176
-#: libs/s25main/ingameWindows/iwSettings.cpp:42
+#: libs/s25main/desktops/dskOptions.cpp:181
+#: libs/s25main/ingameWindows/iwSettings.cpp:43
 msgid "Windowed"
 msgstr "Okno"
 
@@ -3914,12 +3935,12 @@ msgstr "Okno"
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
 msgstr "Lesník vysádza nové stromčeky v okolí lesníckej búdy."
 
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:55
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:59
 msgid "Won"
 msgstr "Vyhral"
 
-#: libs/s25main/gameTypes/GoodTypes.h:92
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:60
+#: libs/s25main/gameTypes/GoodTypes.h:94
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:59
 #: libs/s25main/ingameWindows/iwTransport.cpp:34
 msgid "Wood"
 msgstr "Polená"
@@ -3932,7 +3953,7 @@ msgstr "Drevorubač"
 msgid "Woodcutter"
 msgstr "Horáreň"
 
-#: libs/s25main/desktops/dskGameLoader.cpp:125
+#: libs/s25main/desktops/dskGameLoader.cpp:126
 msgid "World was put together and glued..."
 msgstr "Svet bol vytvorený a je pripravený..."
 
@@ -3952,12 +3973,12 @@ msgstr "Zlá verzia klienta!"
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
 msgstr ""
 
-#: libs/s25main/world/GameWorld.cpp:126
+#: libs/s25main/world/GameWorld.cpp:123
 msgid "Wrong version for lua script."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:34
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:76
+#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:36
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:80
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:91
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:97
 msgid "Yes"
@@ -3975,35 +3996,36 @@ msgid ""
 "allows you to utilize the additional coal not needed for minting anymore."
 msgstr ""
 
-#: libs/s25main/desktops/dskDirectIP.cpp:53 libs/s25main/desktops/dskLAN.cpp:91
-#: libs/s25main/desktops/dskLobby.cpp:135
+#: libs/s25main/desktops/dskDirectIP.cpp:50 libs/s25main/desktops/dskLAN.cpp:95
+#: libs/s25main/desktops/dskLobby.cpp:141
 msgid ""
 "You can't create a game while a proxy server is active\n"
 "Disable the use of a proxy server first!"
 msgstr ""
 
-#: libs/s25main/desktops/dskLAN.cpp:170 libs/s25main/desktops/dskLobby.cpp:239
+#: libs/s25main/desktops/dskLAN.cpp:176 libs/s25main/desktops/dskLobby.cpp:251
 msgid "You can't join that game with your version!"
 msgstr ""
 
-#: libs/s25main/desktops/dskHostGame.cpp:699
+#: libs/s25main/desktops/dskHostGame.cpp:704
 #, c-format
 msgid "You have %u seconds until game starts"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:545
+#: libs/s25main/desktops/dskOptions.cpp:552
+#: libs/s25main/ingameWindows/iwSettings.cpp:86
 msgid "You need to restart your game to change the screen resolution!"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:552
+#: libs/s25main/desktops/dskOptions.cpp:560
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr ""
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:335
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:334
 msgid "You win"
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:1625
+#: libs/s25main/GamePlayer.cpp:1628
 msgid "Your ally wishes to notify you of this location"
 msgstr ""
 
@@ -4011,11 +4033,11 @@ msgstr ""
 msgid "Zero all production"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwObservate.cpp:53
+#: libs/s25main/ingameWindows/iwObservate.cpp:52
 msgid "Zoom"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1572
+#: libs/s25main/network/GameClient.cpp:1566
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr ""
@@ -4024,16 +4046,21 @@ msgstr ""
 msgid "default"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:998 libs/s25main/Loader.cpp:1027
+#: libs/s25main/Loader.cpp:248 libs/s25main/Loader.cpp:1002
+#: libs/s25main/Loader.cpp:1031
 #, c-format
 msgid "done in %ums\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:995 libs/s25main/Loader.cpp:1023
+#: libs/s25main/Loader.cpp:245
+msgid "failed\n"
+msgstr ""
+
+#: libs/s25main/Loader.cpp:999 libs/s25main/Loader.cpp:1027
 msgid "failed: %1%\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:1061
+#: libs/s25main/Loader.cpp:1065
 #, c-format
 msgid "finished in %ums\n"
 msgstr ""
@@ -4042,17 +4069,21 @@ msgstr ""
 msgid "greenland"
 msgstr "Grónsko"
 
+#: libs/s25main/GameManager.cpp:150
+msgid "jump to gf %1% complete\n"
+msgstr ""
+
 #: libs/s25main/GameManager.cpp:145
 #, c-format
 msgid "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
 msgstr ""
 
-#: libs/s25main/GameManager.cpp:135
+#: libs/s25main/GameManager.cpp:133
 #, c-format
 msgid "jumping to gf %i, now at gf %i \n"
 msgstr ""
 
-#: libs/s25main/GameManager.cpp:132
+#: libs/s25main/GameManager.cpp:130
 #, c-format
 msgid "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time %.3f ms \n"
 msgstr ""
@@ -4061,7 +4092,7 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwPostWindow.cpp:279
+#: libs/s25main/ingameWindows/iwPostWindow.cpp:277
 msgid "of"
 msgstr "z"
 
@@ -4081,15 +4112,5 @@ msgstr "Pustatina"
 msgid "winterworld"
 msgstr "Zimný svet"
 
-#, fuzzy
-#~ msgid "Could not load game data"
-#~ msgstr "Chyba pri nahrávaní terénu."
-
-#~ msgid "Failed to load map objects."
-#~ msgstr "Chyba pri nahrávaní objektov."
-
-#~ msgid "http://www.siedler25.org"
-#~ msgstr "http://www.siedler25.org"
-
-#~ msgid "not supported"
-#~ msgstr "nepodporované"
+#~ msgid "Email Address:"
+#~ msgstr "E-mail adresa:"
