@@ -36,4 +36,4 @@ Language files for s25client
     - Save and commit
 
 2. Translate online via https://translations.launchpad.net/s25rttr (could take longer to get into release)   
-You can drop us a hint on IRC if you did a larger translation.
+You can drop us a hint on Discord (https://discord.gg/kyTQsSx) if you did a larger translation.
