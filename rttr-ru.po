@@ -34,7 +34,7 @@ msgstr ""
 
 #: libs/s25main/Loader.cpp:996
 msgid "  Loading %1% entries: "
-msgstr "  Загрузка% 1% записей: "
+msgstr "  Загрузка %1% записей: "
 
 #: libs/s25main/JoinPlayerInfo.cpp:79
 msgid " (AI)"
@@ -1285,11 +1285,11 @@ msgstr "Вечный"
 
 #: libs/s25main/EventManager.cpp:170
 msgid "Event count mismatch. Found events: %1%. Expected: %2%.\n"
-msgstr "Несоответствие количества событий. Найденные события:% 1%. Ожидается:% 2%.\n"
+msgstr "Несоответствие количества событий. Найденные события: %1%. Ожидается: %2%.\n"
 
 #: libs/s25main/EventManager.cpp:194
 msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
-msgstr "Несоответствие количества событий. Прочитанные события:% 1%. Ожидается:% 2%.\n"
+msgstr "Несоответствие количества событий. Прочитанные события: %1%. Ожидается: %2%.\n"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:36
 msgid "Everyone"
@@ -1350,7 +1350,7 @@ msgstr ""
 
 #: libs/s25main/Loader.cpp:917
 msgid "Failed to merge entry %1%. Archive expected!\n"
-msgstr "Не удалось объединить запись% 1%. Архив ожидается!\n"
+msgstr "Не удалось объединить запись %1%. Архив ожидается!\n"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:74
 #, fuzzy
@@ -1818,7 +1818,7 @@ msgstr "Неверная версия API!"
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:103
 #: libs/s25main/network/GameClient.cpp:1390
 msgid "Invalid Replay %1%! Reason: %2%\n"
-msgstr "Недопустимое воспроизведение% 1%! Причина:% 2%\n"
+msgstr "Недопустимое воспроизведение %1%! Причина: %2%\n"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:192
 msgid "Invalid Replay!"
@@ -1826,7 +1826,7 @@ msgstr "Неправильный повтор!"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:88
 msgid "Invalid Savegame %1%! Reason: %2%\n"
-msgstr "Недействительный Savegame% 1%! Причина:% 2%\n"
+msgstr "Недействительный Savegame %1%! Причина: %2%\n"
 
 #: libs/s25main/world/GameWorld.cpp:111
 msgid "Invalid end-id for lua data"
@@ -1834,7 +1834,7 @@ msgstr "Неверное завершение идентификатора да�
 
 #: libs/s25main/EventManager.cpp:203
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
-msgstr "Недопустимый [ID] экземпляра события. Найдено:% 1%. Ожидается менее% 2%.\n"
+msgstr "Недопустимый [ID] экземпляра события. Найдено: %1%. Ожидается менее %2%.\n"
 
 #: libs/s25main/world/GameWorld.cpp:104
 msgid "Invalid id for lua data"
@@ -3896,7 +3896,9 @@ msgstr "Викинги"
 msgid ""
 "WARNING: Did not find the music files.\n"
 "\tYou have to run the updater once or copy the .ogg files manually to \"%1%\" or you won't be able to hear the music.\n"
-msgstr "ВНИМАНИЕ: Не найдено музыкальных файлов.\n"
+msgstr ""
+"ВНИМАНИЕ: Не найдено музыкальных файлов.\n"
+"\tВам нужно запустить программу обновления один раз или скопировать файлы .ogg вручную в \"%1%\", иначе вы не сможете услышать музыку.\n"
 
 #: libs/s25main/Loader.cpp:263
 msgid "WARNING: Found invalid music item for %1%"
@@ -4019,7 +4021,7 @@ msgstr "Неверная версия клиента"
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:62
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
-msgstr "Неверная версия скрипта lua:% 1%. Текущая версия:% 2%.% 3%\n"
+msgstr "Неверная версия скрипта lua: %1%. Текущая версия: %2%.%3%\n"
 
 #: libs/s25main/world/GameWorld.cpp:123
 msgid "Wrong version for lua script."
@@ -4109,11 +4111,11 @@ msgstr "Завершено за %ums\n"
 #: libs/s25main/Loader.cpp:245
 #, fuzzy
 msgid "failed\n"
-msgstr "не удалось:% 1%\n"
+msgstr "не удалось: %1%\n"
 
 #: libs/s25main/Loader.cpp:999 libs/s25main/Loader.cpp:1027
 msgid "failed: %1%\n"
-msgstr "не удалось:% 1%\n"
+msgstr "не удалось: %1%\n"
 
 #: libs/s25main/Loader.cpp:1065
 #, c-format
