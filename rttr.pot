@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-11 18:18+0100\n"
+"POT-Creation-Date: 2020-12-20 16:23+0100\n"
 "PO-Revision-Date: 2012-09-30 18:07+0100\n"
 "Last-Translator: Florian Doersch <sf-team@siedler25.org>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-05-19 08:04+0000\n"
-"X-Generator: Poedit 2.3\n"
+"X-Launchpad-Export-Date: 2020-12-20 13:56+0000\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-KeywordsList: _;gettext_noop;__\n"
@@ -50,8 +50,8 @@ msgid "Failed to load lua file '%1%'\n"
 msgstr ""
 
 #: libs/s25client/s25client.cpp:133 libs/s25client/s25client.cpp:151
-#: libs/s25main/desktops/dskCredits.cpp:64
-#: libs/s25main/desktops/dskCredits.cpp:74
+#: libs/s25main/desktops/dskCredits.cpp:277
+#: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:146
 #: libs/s25main/desktops/dskHostGame.cpp:91
 #: libs/s25main/desktops/dskHostGame.cpp:97
@@ -1125,100 +1125,113 @@ msgstr ""
 msgid "Credits"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:64
-msgid "Failed to load game data"
-msgstr ""
-
-#: libs/s25main/desktops/dskCredits.cpp:74
-#: libs/s25main/desktops/dskGameLoader.cpp:108
-msgid "Failed to load game resources"
-msgstr ""
-
-#: libs/s25main/desktops/dskCredits.cpp:79
-#: libs/s25main/desktops/dskCredits.cpp:88
-msgid "Project management"
-msgstr ""
-
-#: libs/s25main/desktops/dskCredits.cpp:80
-msgid "Server management"
-msgstr ""
-
-#: libs/s25main/desktops/dskCredits.cpp:81
-#: libs/s25main/desktops/dskCredits.cpp:89
-#: libs/s25main/desktops/dskCredits.cpp:109
-#: libs/s25main/desktops/dskCredits.cpp:120
-#: libs/s25main/desktops/dskCredits.cpp:125
+#: libs/s25main/desktops/dskCredits.cpp:59
+#: libs/s25main/desktops/dskCredits.cpp:69
+#: libs/s25main/desktops/dskCredits.cpp:85
+#: libs/s25main/desktops/dskCredits.cpp:98
+#: libs/s25main/desktops/dskCredits.cpp:106
 msgid "Programming"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:82
-#: libs/s25main/desktops/dskCredits.cpp:94
-#: libs/s25main/desktops/dskCredits.cpp:99
-msgid "Website Administration"
-msgstr ""
-
-#: libs/s25main/desktops/dskCredits.cpp:83
-#: libs/s25main/desktops/dskCredits.cpp:95
-msgid "Website Programming"
-msgstr ""
-
-#: libs/s25main/desktops/dskCredits.cpp:84
+#: libs/s25main/desktops/dskCredits.cpp:60
+#: libs/s25main/desktops/dskCredits.cpp:65
+#: libs/s25main/desktops/dskCredits.cpp:75
+#: libs/s25main/desktops/dskCredits.cpp:86
 #: libs/s25main/desktops/dskCredits.cpp:90
-#: libs/s25main/desktops/dskCredits.cpp:100
-#: libs/s25main/desktops/dskCredits.cpp:104
-#: libs/s25main/desktops/dskCredits.cpp:115
-#: libs/s25main/desktops/dskCredits.cpp:121
-#: libs/s25main/desktops/dskCredits.cpp:126
+#: libs/s25main/desktops/dskCredits.cpp:99
+#: libs/s25main/desktops/dskCredits.cpp:109
 msgid "Quality Assurance"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:105
-#: libs/s25main/desktops/dskCredits.cpp:116
-msgid "Mapping"
+#: libs/s25main/desktops/dskCredits.cpp:64
+#: libs/s25main/desktops/dskCredits.cpp:80
+#: libs/s25main/desktops/dskCredits.cpp:107
+msgid "Website Administration"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:110
+#: libs/s25main/desktops/dskCredits.cpp:70
 msgid "Artificial Intelligence (AI)"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:114
+#: libs/s25main/desktops/dskCredits.cpp:74
 msgid "Additional graphics"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:129
+#: libs/s25main/desktops/dskCredits.cpp:76
+#: libs/s25main/desktops/dskCredits.cpp:91
+msgid "Mapping"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:81
+#: libs/s25main/desktops/dskCredits.cpp:108
+msgid "Website Programming"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:96
+#: libs/s25main/desktops/dskCredits.cpp:103
+msgid "Project founder"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:97
+#: libs/s25main/desktops/dskCredits.cpp:104
+msgid "Project management"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:105
+msgid "Server management"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:110
+msgid "Finances"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:114
 msgid "Additional Programming:"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:139
+#: libs/s25main/desktops/dskCredits.cpp:123
+msgid "all developers who contributed via Github"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:127
 msgid "Additional Graphics:"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:143
-msgid "Other Support:"
+#: libs/s25main/desktops/dskCredits.cpp:132
+msgid "Additional Support:"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:151
-msgid "Donators"
-msgstr ""
-
-#: libs/s25main/desktops/dskCredits.cpp:151
-msgid "Thank you for your donations!"
-msgstr ""
-
-#: libs/s25main/desktops/dskCredits.cpp:152
+#: libs/s25main/desktops/dskCredits.cpp:141
 msgid "various anonymous donators"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:172
+#: libs/s25main/desktops/dskCredits.cpp:244
+msgid "Donators"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:244
+msgid "Thank you for your donations!"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:268
 msgid "We hope you enjoy playing Return To The Roots!"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:172
+#: libs/s25main/desktops/dskCredits.cpp:268
 msgid "THE END"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:173
+#: libs/s25main/desktops/dskCredits.cpp:269
 msgid "Thank you!"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:277
+msgid "Failed to load game data"
+msgstr ""
+
+#: libs/s25main/desktops/dskCredits.cpp:287
+#: libs/s25main/desktops/dskGameLoader.cpp:108
+msgid "Failed to load game resources"
 msgstr ""
 
 #: libs/s25main/desktops/dskDirectIP.cpp:31

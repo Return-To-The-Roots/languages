@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-11 18:18+0100\n"
-"PO-Revision-Date: 2020-12-12 02:17+0100\n"
+"POT-Creation-Date: 2020-12-20 16:23+0100\n"
+"PO-Revision-Date: 2020-12-20 16:29+0100\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-05-19 08:04+0000\n"
-"X-Generator: Poedit 2.3\n"
+"X-Launchpad-Export-Date: 2020-12-20 13:56+0000\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -57,7 +57,7 @@ msgstr ""
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1334
 msgid " and "
-msgstr ""
+msgstr " und "
 
 #: libs/s25main/ingameWindows/iwAction.cpp:219
 msgid " boards"
@@ -191,7 +191,7 @@ msgstr "-> Minen bauen"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:106
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:96
 #: libs/s25main/ingameWindows/iwStatistics.cpp:144
@@ -332,19 +332,23 @@ msgstr ""
 msgid "Add track"
 msgstr "Titel hinzufügen"
 
-#: libs/s25main/desktops/dskCredits.cpp:139
+#: libs/s25main/desktops/dskCredits.cpp:127
 msgid "Additional Graphics:"
 msgstr "Zusätzliche Grafiken:"
 
-#: libs/s25main/desktops/dskCredits.cpp:129
+#: libs/s25main/desktops/dskCredits.cpp:114
 msgid "Additional Programming:"
 msgstr "Weitere Programmierer:"
+
+#: libs/s25main/desktops/dskCredits.cpp:132
+msgid "Additional Support:"
+msgstr "Zusätzliche Unterstützer:"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:52
 msgid "Additional features:"
 msgstr "Zusätzliche Funktionen:"
 
-#: libs/s25main/desktops/dskCredits.cpp:114
+#: libs/s25main/desktops/dskCredits.cpp:74
 msgid "Additional graphics"
 msgstr "Zusätzliche Grafiken"
 
@@ -480,7 +484,7 @@ msgstr "Schmied"
 msgid "Armory"
 msgstr "Schmiede"
 
-#: libs/s25main/desktops/dskCredits.cpp:110
+#: libs/s25main/desktops/dskCredits.cpp:70
 msgid "Artificial Intelligence (AI)"
 msgstr "Künstliche Intelligenz (KI)"
 
@@ -918,7 +922,7 @@ msgstr "Weiter"
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:58
 msgid "Continue game"
-msgstr ""
+msgstr "Spiel fortsetzen"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:236
 msgid "Contract type:"
@@ -1072,12 +1076,12 @@ msgstr "Direkte IP"
 #: libs/s25main/Loader.cpp:186
 #, c-format
 msgid "Directory does not exist: %s"
-msgstr ""
+msgstr "Verzeichnis '%s' existiert nicht"
 
 #: libs/s25main/Loader.cpp:1166
 #, c-format
 msgid "Directory does not exist: %s\n"
-msgstr ""
+msgstr "Verzeichnis '%s' existiert nicht\n"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:35
 msgid "Disable"
@@ -1133,7 +1137,7 @@ msgstr ""
 msgid "Don't surrender"
 msgstr "Nicht aufgeben"
 
-#: libs/s25main/desktops/dskCredits.cpp:151
+#: libs/s25main/desktops/dskCredits.cpp:244
 msgid "Donators"
 msgstr "Spender"
 
@@ -1219,7 +1223,7 @@ msgstr "Spiel beenden?"
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:37
 msgid "End of game"
-msgstr ""
+msgstr "Spielende"
 
 #: libs/s25main/ingameWindows/iwChat.cpp:40
 msgid "Enemies"
@@ -1241,8 +1245,8 @@ msgid "Erect flag"
 msgstr "Fahne setzen"
 
 #: libs/s25client/s25client.cpp:133 libs/s25client/s25client.cpp:151
-#: libs/s25main/desktops/dskCredits.cpp:64
-#: libs/s25main/desktops/dskCredits.cpp:74
+#: libs/s25main/desktops/dskCredits.cpp:277
+#: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:146
 #: libs/s25main/desktops/dskHostGame.cpp:91
 #: libs/s25main/desktops/dskHostGame.cpp:97
@@ -1300,11 +1304,11 @@ msgstr ""
 
 #: libs/s25main/world/GameWorld.cpp:86 libs/s25main/world/GameWorld.cpp:132
 msgid "Error: "
-msgstr ""
+msgstr "Fehler: "
 
 #: libs/s25main/MusicPlayer.cpp:81
 msgid "Error: %1%\n"
-msgstr ""
+msgstr "Fehler: %1%\n"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:252
 msgid "Eternal"
@@ -1357,28 +1361,27 @@ msgstr ""
 msgid "Failed to load %s\n"
 msgstr "Konnte %s nicht laden\n"
 
-#: libs/s25main/desktops/dskCredits.cpp:64
+#: libs/s25main/desktops/dskCredits.cpp:277
 msgid "Failed to load game data"
-msgstr ""
+msgstr "Spieldaten konnten nicht geladen werden!"
 
 #: libs/s25main/PreviewMinimap.cpp:55 libs/s25main/desktops/dskSelectMap.cpp:77
 #: libs/s25main/world/MapSerializer.cpp:74
 msgid "Failed to load game data!"
 msgstr "Spieldaten konnten nicht geladen werden!"
 
-#: libs/s25main/desktops/dskCredits.cpp:74
+#: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:108
 msgid "Failed to load game resources"
-msgstr ""
+msgstr "Spielresourcen konnten nicht geladen werden!"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:107
 msgid "Failed to load library. Check dependencies!"
 msgstr "Fehler beim Laden der Bibliothek. Überprüfen Sie die Abhängigkeiten!"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:82
-#, fuzzy
 msgid "Failed to load lua file '%1%'\n"
-msgstr "Konnte %s nicht laden\n"
+msgstr "Lua Datei '%1%' konnte nicht geladen werden\n"
 
 #: libs/s25main/world/GameWorld.cpp:129 libs/s25main/world/GameWorld.cpp:132
 msgid "Failed to load lua state!"
@@ -1386,16 +1389,15 @@ msgstr ""
 
 #: libs/s25main/desktops/dskSelectMap.cpp:459
 msgid "Failed to load map %1%: %2%\n"
-msgstr ""
+msgstr "Konnte Karte '%1%' nicht laden: %2%\n"
 
 #: libs/s25main/Loader.cpp:998
 msgid "Failed to merge entry %1%. Archive expected!\n"
 msgstr ""
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:74
-#, fuzzy
 msgid "Failed to read lua file '%1%'\n"
-msgstr "Konnte %s nicht laden\n"
+msgstr "Lua Datei '%1%' konnte nicht gelesen werden\n"
 
 #: libs/s25main/network/GameServer.cpp:1481
 #, c-format
@@ -1459,6 +1461,10 @@ msgstr "Datei wurde mit einer neueren Version erstellt und kann nicht verwendet 
 #: libs/s25main/ingameWindows/iwSave.cpp:49
 msgid "Filename"
 msgstr "Dateiname"
+
+#: libs/s25main/desktops/dskCredits.cpp:110
+msgid "Finances"
+msgstr "Finanzen"
 
 #: libs/s25main/gameTypes/GoodTypes.h:92
 msgid "Fish"
@@ -1601,7 +1607,7 @@ msgstr "Gelehrter"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:32
 msgid "Geologist sign durability"
-msgstr "Haltbarkeit von Gelehrtenschildern"
+msgstr ""
 
 #: libs/s25main/addons/AddonRefundMaterials.h:37
 msgid "Get all back"
@@ -1616,9 +1622,8 @@ msgid "Get building materials back when a building is destroyed."
 msgstr "Erstatte Baumaterial zurück, wenn Gebäude abgerissen werden."
 
 #: libs/s25main/QuickStartGame.cpp:52
-#, fuzzy
 msgid "Given map or replay (%1%) does not exist!"
-msgstr "Datei oder Ordner nicht gefunden: %s\n"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAction.cpp:349
 msgid "Go to headquarters"
@@ -1805,7 +1810,7 @@ msgstr "Verbesserte Allianz"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:33
 msgid "Increase the durability of geologist signs by a factor."
-msgstr "Verlängere die Haltbarkeitkeit der Geologenschilder um einen Faktor"
+msgstr ""
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:34
 msgid "Inexhaustible"
@@ -2085,9 +2090,8 @@ msgid "Loading directory %s\n"
 msgstr "Lade Ordner %s\n"
 
 #: libs/s25main/QuickStartGame.cpp:67
-#, fuzzy
 msgid "Loading game...\n"
-msgstr "Spiel laden..."
+msgstr "Lade Spiel...\n"
 
 #: libs/s25main/desktops/dskHostGame.cpp:150
 msgid "Lobby Chat"
@@ -2145,7 +2149,7 @@ msgstr "Wenig"
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:57
 #, c-format
 msgid "Lua error: %s\n"
-msgstr ""
+msgstr "Lua Fehler: %s\n"
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:66
 msgid "Lua script did not provide the function getRequiredLuaVersion()! It is probably outdated.\n"
@@ -2228,8 +2232,8 @@ msgstr "Karte: "
 msgid "Mapfile: "
 msgstr "Dateiname der Karte: "
 
-#: libs/s25main/desktops/dskCredits.cpp:105
-#: libs/s25main/desktops/dskCredits.cpp:116
+#: libs/s25main/desktops/dskCredits.cpp:76
+#: libs/s25main/desktops/dskCredits.cpp:91
 msgid "Mapping"
 msgstr "Kartengestaltung"
 
@@ -2504,7 +2508,7 @@ msgstr "Keine Schiffe verfügbar"
 
 #: libs/s25main/addons/AddonPeacefulMode.h:30
 msgid "Nobody can attack anyone."
-msgstr "Niemand kann jemanden angreifen."
+msgstr ""
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:37
 msgid "Nobody else but you"
@@ -2578,7 +2582,7 @@ msgstr "OK"
 
 #: libs/s25main/MusicPlayer.cpp:85
 msgid "OK\n"
-msgstr ""
+msgstr "OK\n"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:345
 #: libs/s25main/ingameWindows/iwObservate.cpp:40
@@ -2657,10 +2661,6 @@ msgstr "Auftrag der Baustelle"
 msgid "Other"
 msgstr "Andere"
 
-#: libs/s25main/desktops/dskCredits.cpp:143
-msgid "Other Support:"
-msgstr "Weiterer Support:"
-
 #: libs/s25main/figures/nofAttacker.cpp:264
 msgid "Our headquarters was destroyed!"
 msgstr "Unser Hauptquartier wurde zerstört!"
@@ -2696,7 +2696,7 @@ msgstr "Ehemaliger Spieler"
 
 #: libs/s25main/addons/AddonPeacefulMode.h:29
 msgid "Peaceful"
-msgstr "Friedlich"
+msgstr ""
 
 #: libs/s25main/gameTypes/GoodTypes.h:78
 msgid "Pick-axe"
@@ -2843,16 +2843,21 @@ msgstr "Produktion an/aus"
 msgid "Productivity"
 msgstr "Produktivität"
 
-#: libs/s25main/desktops/dskCredits.cpp:81
-#: libs/s25main/desktops/dskCredits.cpp:89
-#: libs/s25main/desktops/dskCredits.cpp:109
-#: libs/s25main/desktops/dskCredits.cpp:120
-#: libs/s25main/desktops/dskCredits.cpp:125
+#: libs/s25main/desktops/dskCredits.cpp:59
+#: libs/s25main/desktops/dskCredits.cpp:69
+#: libs/s25main/desktops/dskCredits.cpp:85
+#: libs/s25main/desktops/dskCredits.cpp:98
+#: libs/s25main/desktops/dskCredits.cpp:106
 msgid "Programming"
 msgstr "Programmierung"
 
-#: libs/s25main/desktops/dskCredits.cpp:79
-#: libs/s25main/desktops/dskCredits.cpp:88
+#: libs/s25main/desktops/dskCredits.cpp:96
+#: libs/s25main/desktops/dskCredits.cpp:103
+msgid "Project founder"
+msgstr "Projektgründer"
+
+#: libs/s25main/desktops/dskCredits.cpp:97
+#: libs/s25main/desktops/dskCredits.cpp:104
 msgid "Project management"
 msgstr "Projekt Verwaltung"
 
@@ -2873,13 +2878,13 @@ msgstr "Proxytyp:"
 msgid "Pull down flag"
 msgstr "Fahne abreißen"
 
-#: libs/s25main/desktops/dskCredits.cpp:84
+#: libs/s25main/desktops/dskCredits.cpp:60
+#: libs/s25main/desktops/dskCredits.cpp:65
+#: libs/s25main/desktops/dskCredits.cpp:75
+#: libs/s25main/desktops/dskCredits.cpp:86
 #: libs/s25main/desktops/dskCredits.cpp:90
-#: libs/s25main/desktops/dskCredits.cpp:100
-#: libs/s25main/desktops/dskCredits.cpp:104
-#: libs/s25main/desktops/dskCredits.cpp:115
-#: libs/s25main/desktops/dskCredits.cpp:121
-#: libs/s25main/desktops/dskCredits.cpp:126
+#: libs/s25main/desktops/dskCredits.cpp:99
+#: libs/s25main/desktops/dskCredits.cpp:109
 msgid "Quality Assurance"
 msgstr "Qualitätssicherung"
 
@@ -3116,7 +3121,7 @@ msgstr "Spiel speichern!"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:126
 msgid "Save playlist"
-msgstr ""
+msgstr "Playlist speichern"
 
 #: libs/s25main/Replay.cpp:136 libs/s25main/Replay.cpp:185
 msgid "Savegame error: "
@@ -3208,7 +3213,7 @@ msgstr "Serverinformationen"
 msgid "Server Name:"
 msgstr "Servername:"
 
-#: libs/s25main/desktops/dskCredits.cpp:80
+#: libs/s25main/desktops/dskCredits.cpp:105
 msgid "Server management"
 msgstr "Server Verwaltung"
 
@@ -3410,7 +3415,7 @@ msgstr "Starte Spiel, bitte warten..."
 
 #: libs/s25main/Loader.cpp:271
 msgid "Starting sound conversion: "
-msgstr ""
+msgstr "Starte Konvertierung der Tondaten:"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:36
 msgid "Statistics"
@@ -3491,7 +3496,7 @@ msgstr "Schwert"
 msgid "System language"
 msgstr "Systemsprache"
 
-#: libs/s25main/desktops/dskCredits.cpp:172
+#: libs/s25main/desktops/dskCredits.cpp:268
 msgid "THE END"
 msgstr "ENDE"
 
@@ -3507,11 +3512,11 @@ msgstr "Team"
 msgid "Teams locked"
 msgstr "Teams gesperrt"
 
-#: libs/s25main/desktops/dskCredits.cpp:151
+#: libs/s25main/desktops/dskCredits.cpp:244
 msgid "Thank you for your donations!"
 msgstr "Vielen Dank an alle Spender!"
 
-#: libs/s25main/desktops/dskCredits.cpp:173
+#: libs/s25main/desktops/dskCredits.cpp:269
 msgid "Thank you!"
 msgstr "Vielen Dank!"
 
@@ -3583,9 +3588,8 @@ msgid "The farmer plants and harvests grain in the surrounding fields. A windmil
 msgstr "Der Bauer pflanzt und erntet Getreide auf den umliegenden Äckern. Eine Windmühle kann dann das geerntete Korn zu Mehl verarbeiten."
 
 #: libs/s25main/ingameWindows/iwTextfile.cpp:59
-#, fuzzy
 msgid "The file was not found!"
-msgstr "Die Liesmich Datei wurde nicht gefunden!"
+msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:178
 msgid "The fish man is responsible for finding water rich in fish. His fish feed a great many miners."
@@ -3650,9 +3654,8 @@ msgid "The quarrying of stone in a granite mine guarantees the supply of stone f
 msgstr "Der Abbau von Steinen in einem Granitbergwerk sichert den Bedarf an Baumaterial. Doch auch ein Granitbergwerk muss seine Arbeiter mit Nahrung versorgen."
 
 #: libs/s25main/desktops/dskLobby.cpp:240
-#, fuzzy
 msgid "The selected game was not found anymore."
-msgstr "Die Liesmich Datei wurde nicht gefunden!"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwShip.cpp:138
 msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
@@ -3823,7 +3826,7 @@ msgstr "Typ"
 
 #: libs/s25main/Loader.cpp:326
 msgid "Unable to load font at index %1%\n"
-msgstr ""
+msgstr "Schriftart an Index %1% konnte nicht geladen werden\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:204
 msgid "Unexpected dynamic type of map"
@@ -3833,7 +3836,7 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwSave.cpp:90
 #: libs/s25main/network/GameClient.cpp:1385
 msgid "Unknown"
-msgstr ""
+msgstr "Unbekannt"
 
 #: libs/s25main/world/MapLoader.cpp:376
 msgid "Unknown animal species at %1%: (0x%2$x)\n"
@@ -3841,9 +3844,8 @@ msgstr ""
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:57
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:64
-#, fuzzy
 msgid "Unknown error"
-msgstr "Unbekannter Fehler!"
+msgstr "Unbekannter Fehler"
 
 #: libs/s25main/network/ClientError.cpp:33
 msgid "Unknown error!"
@@ -3985,7 +3987,7 @@ msgstr ""
 
 #: libs/s25main/Loader.cpp:295
 msgid "WARNING: Found invalid music item for %1%\n"
-msgstr ""
+msgstr "WARNUNG: Ungültiges Musik Element für %1% gefunden\n"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:228
 msgid "Waiting for Playerinfo..."
@@ -4022,7 +4024,7 @@ msgstr "Wasser"
 msgid "We are under attack!"
 msgstr "Wir werden angegriffen!"
 
-#: libs/s25main/desktops/dskCredits.cpp:172
+#: libs/s25main/desktops/dskCredits.cpp:268
 msgid "We hope you enjoy playing Return To The Roots!"
 msgstr "Wir hoffen, dass du Spaß an Return to the Roots hast!"
 
@@ -4039,14 +4041,14 @@ msgstr "Schwache Verteidigung"
 msgid "Weapons"
 msgstr "Waffen"
 
-#: libs/s25main/desktops/dskCredits.cpp:82
-#: libs/s25main/desktops/dskCredits.cpp:94
-#: libs/s25main/desktops/dskCredits.cpp:99
+#: libs/s25main/desktops/dskCredits.cpp:64
+#: libs/s25main/desktops/dskCredits.cpp:80
+#: libs/s25main/desktops/dskCredits.cpp:107
 msgid "Website Administration"
 msgstr "Webseiten Administration"
 
-#: libs/s25main/desktops/dskCredits.cpp:83
-#: libs/s25main/desktops/dskCredits.cpp:95
+#: libs/s25main/desktops/dskCredits.cpp:81
+#: libs/s25main/desktops/dskCredits.cpp:108
 msgid "Website Programming"
 msgstr "Webseiten Programmierung"
 
@@ -4172,7 +4174,11 @@ msgstr "Produktion für alle Werkzeuge auf Null setzen."
 
 #: libs/s25main/ingameWindows/iwObservate.cpp:54
 msgid "Zoom"
-msgstr ""
+msgstr "Vergrößerung"
+
+#: libs/s25main/desktops/dskCredits.cpp:123
+msgid "all developers who contributed via Github"
+msgstr "Alle Entwickler die etwas bei Github beigesteuert haben"
 
 #: libs/s25main/network/GameClient.cpp:1561
 #, c-format
@@ -4230,7 +4236,7 @@ msgstr "von"
 msgid "to GameFrame:"
 msgstr "zu GF:"
 
-#: libs/s25main/desktops/dskCredits.cpp:152
+#: libs/s25main/desktops/dskCredits.cpp:141
 msgid "various anonymous donators"
 msgstr "diverse anonyme Spenden"
 
@@ -4241,3 +4247,15 @@ msgstr "Ödland"
 #: data/RTTR/gamedata/world/winterworld.lua:4
 msgid "winterworld"
 msgstr "Winterwelt"
+
+#~ msgid "Classification"
+#~ msgstr "Einstufung"
+
+#~ msgid "Other Support:"
+#~ msgstr "Weiterer Support:"
+
+#~ msgid "failed\n"
+#~ msgstr "fehlgeschlagen\n"
+
+#~ msgid "n/a"
+#~ msgstr "n/v"
