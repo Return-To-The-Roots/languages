@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-20 16:34+0100\n"
-"PO-Revision-Date: 2020-08-04 08:09+0000\n"
+"PO-Revision-Date: 2020-12-21 08:05+0000\n"
 "Last-Translator: Thomas van de Bovenkamp <Unknown>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-12-20 13:56+0000\n"
+"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
 "X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
@@ -73,7 +73,7 @@ msgstr "%1% zijn de winnaars!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:184
 msgid "%1% map(s) could not be loaded. Check the log for details"
-msgstr ""
+msgstr "%1% wereld(en) konden niet worden geladen. Bekijk het logboek voor meer details"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:62
 msgid "%1% players"
@@ -83,7 +83,7 @@ msgstr "%1% spelers"
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:37
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:38
 msgid "%1%x"
-msgstr ""
+msgstr "%1%x"
 
 #: libs/s25main/desktops/dskHostGame.cpp:422
 #, c-format
@@ -195,7 +195,7 @@ msgstr "..."
 
 #: libs/s25main/desktops/dskCredits.cpp:240
 msgid "... and many more"
-msgstr ""
+msgstr "... en nog veel meer"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:96
 #: libs/s25main/ingameWindows/iwStatistics.cpp:144
@@ -343,9 +343,8 @@ msgid "Additional Programming:"
 msgstr "Extra programmeerwerk:"
 
 #: libs/s25main/desktops/dskCredits.cpp:132
-#, fuzzy
 msgid "Additional Support:"
-msgstr "Toegevoegde functies:"
+msgstr "Extra ondersteuning:"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:52
 msgid "Additional features:"
@@ -569,11 +568,11 @@ msgstr "Bijl"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:168
 msgid "BQ check disabled"
-msgstr ""
+msgstr "BQ check uitgeschakeld"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:171
 msgid "BQ check every %1%ms"
-msgstr ""
+msgstr "BA check elke %1%ms"
 
 #: libs/s25main/gameData/NationConsts.h:27
 msgid "Babylonians"
@@ -624,7 +623,7 @@ msgstr "Boot"
 
 #: libs/s25main/gameData/JobConsts.cpp:62
 msgid "Boat carrier"
-msgstr ""
+msgstr "Bootdrager"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:85
 msgid "Boats"
@@ -633,7 +632,7 @@ msgstr "Boten"
 #: libs/s25main/Loader.cpp:1028
 #, c-format
 msgid "Bob-like file contained multiple text entries: %s\n"
-msgstr ""
+msgstr "Bob-achtige bestand bevatte meerdere tekst inzendingen: %s\n"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:55
 msgid "Border areas"
@@ -956,12 +955,14 @@ msgid "Could not load map:\n"
 msgstr "Kon de map niet laden:\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:246
-#, fuzzy
 msgid ""
 "Could not load map:\n"
 "%1%\n"
 "%2%"
-msgstr "Kon de map niet laden:\n"
+msgstr ""
+"Kon de wereld niet laden:\n"
+"%1%\n"
+"%2%"
 
 #: libs/s25main/desktops/dskDirectIP.cpp:31
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:32
@@ -1081,9 +1082,9 @@ msgid "Direct IP"
 msgstr "Direct IP"
 
 #: libs/s25main/Loader.cpp:186
-#, fuzzy, c-format
+#, c-format
 msgid "Directory does not exist: %s"
-msgstr "Map bestaat niet: %s\n"
+msgstr "Bibliotheek bestaat niet: %s"
 
 #: libs/s25main/Loader.cpp:1166
 #, c-format
@@ -1371,9 +1372,8 @@ msgid "Failed to load %s\n"
 msgstr "Kon het volgende niet laden %s\n"
 
 #: libs/s25main/desktops/dskCredits.cpp:277
-#, fuzzy
 msgid "Failed to load game data"
-msgstr "Laden van game data mislukt!"
+msgstr "Laden van speldata niet gelukt"
 
 #: libs/s25main/PreviewMinimap.cpp:55 libs/s25main/desktops/dskSelectMap.cpp:77
 #: libs/s25main/world/MapSerializer.cpp:74
@@ -1382,9 +1382,8 @@ msgstr "Laden van game data mislukt!"
 
 #: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:108
-#, fuzzy
 msgid "Failed to load game resources"
-msgstr "Laden van game data mislukt!"
+msgstr "Laden van spelbestanden niet gelukt."
 
 #: libs/s25main/drivers/DriverWrapper.cpp:107
 msgid "Failed to load library. Check dependencies!"
@@ -1399,9 +1398,8 @@ msgid "Failed to load lua state!"
 msgstr "Kon de lua-state niet laden!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:459
-#, fuzzy
 msgid "Failed to load map %1%: %2%\n"
-msgstr "Kon het volgende niet laden %s\n"
+msgstr "Laden van de wereld mislukt %1%: %2%\n"
 
 #: libs/s25main/Loader.cpp:998
 msgid "Failed to merge entry %1%. Archive expected!\n"
@@ -1476,7 +1474,7 @@ msgstr "Bestandsnaam"
 
 #: libs/s25main/desktops/dskCredits.cpp:110
 msgid "Finances"
-msgstr ""
+msgstr "Financiën"
 
 #: libs/s25main/gameTypes/GoodTypes.h:92
 msgid "Fish"
@@ -1619,7 +1617,7 @@ msgstr "Geoloog"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:32
 msgid "Geologist sign durability"
-msgstr ""
+msgstr "Duurzaamheid borden van geologen."
 
 #: libs/s25main/addons/AddonRefundMaterials.h:37
 msgid "Get all back"
@@ -1822,7 +1820,7 @@ msgstr "Verbeterde alliantie"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:33
 msgid "Increase the durability of geologist signs by a factor."
-msgstr ""
+msgstr "Duurzaamheid van borden geologen toenemen met een factor."
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:34
 msgid "Inexhaustible"
@@ -2217,11 +2215,11 @@ msgstr "Naam wereld:"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:208
 msgid "Map has more than %1% players"
-msgstr ""
+msgstr "Wereld heeft meer dan %1% spelers"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:206
 msgid "Map is bigger than allowed size of %1% nodes"
-msgstr ""
+msgstr "Wereld is groter dan de toegestane grootte van node %1%"
 
 #: libs/s25main/network/ClientError.cpp:32
 msgid "Map is invalid or failed to load properly!"
@@ -2520,7 +2518,7 @@ msgstr "Geen schepen beschikbaar"
 
 #: libs/s25main/addons/AddonPeacefulMode.h:30
 msgid "Nobody can attack anyone."
-msgstr ""
+msgstr "Niemand mag aanvallen."
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:37
 msgid "Nobody else but you"
@@ -2626,7 +2624,7 @@ msgstr "Officier (3)"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:351
 msgid "Ok"
-msgstr ""
+msgstr "Oké"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:112
 msgid "Old maps"
@@ -2708,7 +2706,7 @@ msgstr "Vorige speler"
 
 #: libs/s25main/addons/AddonPeacefulMode.h:29
 msgid "Peaceful"
-msgstr ""
+msgstr "Vredig"
 
 #: libs/s25main/gameTypes/GoodTypes.h:78
 msgid "Pick-axe"
@@ -2865,9 +2863,8 @@ msgstr "Programmering"
 
 #: libs/s25main/desktops/dskCredits.cpp:96
 #: libs/s25main/desktops/dskCredits.cpp:103
-#, fuzzy
 msgid "Project founder"
-msgstr "Ijzersmelter"
+msgstr "Oprichter van het project"
 
 #: libs/s25main/desktops/dskCredits.cpp:97
 #: libs/s25main/desktops/dskCredits.cpp:104
@@ -3133,9 +3130,8 @@ msgid "Save game!"
 msgstr "Sla spel op!"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:126
-#, fuzzy
 msgid "Save playlist"
-msgstr "Afspeellijst:"
+msgstr "Afspeellijst opslaan"
 
 #: libs/s25main/Replay.cpp:136 libs/s25main/Replay.cpp:185
 msgid "Savegame error: "
@@ -3330,7 +3326,7 @@ msgstr "Overslaan: %s: %s\n"
 
 #: libs/s25main/Loader.cpp:969
 msgid "Skipping duplicate override file %1% for %2%\n"
-msgstr ""
+msgstr "Dubbel bestand %1% overslaan voor %2%\n"
 
 #: libs/s25main/Loader.cpp:966
 msgid "Skipping removed file %1% when checking for files to load for %2%\n"
@@ -3431,9 +3427,8 @@ msgid "Starting game, please wait"
 msgstr "Spel wordt gestart, wacht a.u.b. een moment"
 
 #: libs/s25main/Loader.cpp:271
-#, fuzzy
 msgid "Starting sound conversion: "
-msgstr "Geluid converteren starten..."
+msgstr "Geluidsconverter starten: "
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:36
 msgid "Statistics"
@@ -3661,7 +3656,7 @@ msgstr "De speler '%s' wil de '%s' tussen jullie beiden voortijdig verbreken. Be
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:351
 msgid "The playlist was saved!"
-msgstr ""
+msgstr "De afspeellijst is opgeslagen!"
 
 #: libs/s25main/ingameWindows/iwDistribution.cpp:173
 msgid "The priority of goods for the individual buildings can be set here. The higher the value, the quicker the required goods are delivered to the building concerned."
@@ -3842,7 +3837,7 @@ msgstr "Het font laden is mislukt bij index %1%\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:204
 msgid "Unexpected dynamic type of map"
-msgstr ""
+msgstr "Onverwachte dynamische type van de wereld."
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:108
 #: libs/s25main/ingameWindows/iwSave.cpp:90
@@ -4000,9 +3995,8 @@ msgstr ""
 "\t Je moet de updater eenmalig gebruiken of de .ogg bestanden handmatig kopiëren naar \"%1%\" anders kunt u de muziek niet horen.\n"
 
 #: libs/s25main/Loader.cpp:295
-#, fuzzy
 msgid "WARNING: Found invalid music item for %1%\n"
-msgstr "WAARSCHUWING: Invalide muziekitem gevonden bij %1%"
+msgstr "WAARSCHUWING: Invalide item voor muziek voor %1%\n"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:228
 msgid "Waiting for Playerinfo..."
@@ -4193,7 +4187,7 @@ msgstr "In-/uitzoomen"
 
 #: libs/s25main/desktops/dskCredits.cpp:123
 msgid "all developers who contributed via Github"
-msgstr ""
+msgstr "Alle ontwikkelaars die hebben bijgedragen via Github"
 
 #: libs/s25main/network/GameClient.cpp:1561
 #, c-format
@@ -4262,15 +4256,3 @@ msgstr "wildernis"
 #: data/RTTR/gamedata/world/winterworld.lua:4
 msgid "winterworld"
 msgstr "winterwereld"
-
-#~ msgid "Classification"
-#~ msgstr "Indeling"
-
-#~ msgid "Other Support:"
-#~ msgstr "Overige Ondersteuning:"
-
-#~ msgid "failed\n"
-#~ msgstr "gefaald\n"
-
-#~ msgid "n/a"
-#~ msgstr "n/a"

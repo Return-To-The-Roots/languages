@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-20 16:34+0100\n"
-"PO-Revision-Date: 2020-09-28 11:49+0000\n"
-"Last-Translator: Arthur Novotny <Unknown>\n"
+"PO-Revision-Date: 2020-12-20 20:12+0000\n"
+"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-12-20 13:56+0000\n"
+"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
 "X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
 "X-Poedit-Country: CZECH REPUBLIC\n"
 "X-Poedit-Language: Czech\n"
@@ -350,9 +350,8 @@ msgid "Additional Programming:"
 msgstr "Další programátoři:"
 
 #: libs/s25main/desktops/dskCredits.cpp:132
-#, fuzzy
 msgid "Additional Support:"
-msgstr "Další vlastnosti:"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:52
 msgid "Additional features:"
@@ -954,12 +953,11 @@ msgid "Could not load map:\n"
 msgstr "Mapu se nepodařilo načíst:\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:246
-#, fuzzy
 msgid ""
 "Could not load map:\n"
 "%1%\n"
 "%2%"
-msgstr "Mapu se nepodařilo načíst:\n"
+msgstr ""
 
 #: libs/s25main/desktops/dskDirectIP.cpp:31
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:32
@@ -1076,9 +1074,9 @@ msgid "Direct IP"
 msgstr "Přímá IP"
 
 #: libs/s25main/Loader.cpp:186
-#, fuzzy, c-format
+#, c-format
 msgid "Directory does not exist: %s"
-msgstr "Adresář nenalezen: %s\n"
+msgstr ""
 
 #: libs/s25main/Loader.cpp:1166
 #, c-format
@@ -1368,9 +1366,8 @@ msgid "Failed to load %s\n"
 msgstr "Nepodařilo se nahrát %s\n"
 
 #: libs/s25main/desktops/dskCredits.cpp:277
-#, fuzzy
 msgid "Failed to load game data"
-msgstr "Načtení herních dat se nezdařilo!"
+msgstr ""
 
 #: libs/s25main/PreviewMinimap.cpp:55 libs/s25main/desktops/dskSelectMap.cpp:77
 #: libs/s25main/world/MapSerializer.cpp:74
@@ -1379,9 +1376,8 @@ msgstr "Načtení herních dat se nezdařilo!"
 
 #: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:108
-#, fuzzy
 msgid "Failed to load game resources"
-msgstr "Načtení herních dat se nezdařilo!"
+msgstr ""
 
 #: libs/s25main/drivers/DriverWrapper.cpp:107
 msgid "Failed to load library. Check dependencies!"
@@ -1396,9 +1392,8 @@ msgid "Failed to load lua state!"
 msgstr ""
 
 #: libs/s25main/desktops/dskSelectMap.cpp:459
-#, fuzzy
 msgid "Failed to load map %1%: %2%\n"
-msgstr "Nepodařilo se nahrát %s\n"
+msgstr ""
 
 #: libs/s25main/Loader.cpp:998
 msgid "Failed to merge entry %1%. Archive expected!\n"
@@ -2862,9 +2857,8 @@ msgstr "Programování"
 
 #: libs/s25main/desktops/dskCredits.cpp:96
 #: libs/s25main/desktops/dskCredits.cpp:103
-#, fuzzy
 msgid "Project founder"
-msgstr "Slévač železa"
+msgstr ""
 
 #: libs/s25main/desktops/dskCredits.cpp:97
 #: libs/s25main/desktops/dskCredits.cpp:104
@@ -3130,9 +3124,8 @@ msgid "Save game!"
 msgstr "Uložit hru!"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:126
-#, fuzzy
 msgid "Save playlist"
-msgstr "Seznam skladeb:"
+msgstr ""
 
 #: libs/s25main/Replay.cpp:136 libs/s25main/Replay.cpp:185
 msgid "Savegame error: "
@@ -3436,9 +3429,8 @@ msgid "Starting game, please wait"
 msgstr "Spouštím hru, prosím počkejte"
 
 #: libs/s25main/Loader.cpp:271
-#, fuzzy
 msgid "Starting sound conversion: "
-msgstr "Spouští se převod zvuku ..."
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:36
 msgid "Statistics"
@@ -4009,9 +4001,8 @@ msgstr ""
 "\tMusíš spustit aktualizaci znovu nebo zkopírovat .ogg soubor ručně do \"%1%\" nebo nebude možné poslouchat hudbu.\n"
 
 #: libs/s25main/Loader.cpp:295
-#, fuzzy
 msgid "WARNING: Found invalid music item for %1%\n"
-msgstr "UPOZORNĚNÍ: Nalezena neplatná hudební položka pro %1%"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:228
 msgid "Waiting for Playerinfo..."
@@ -4270,15 +4261,3 @@ msgstr "Pustina"
 #: data/RTTR/gamedata/world/winterworld.lua:4
 msgid "winterworld"
 msgstr "Zimní svět"
-
-#~ msgid "Classification"
-#~ msgstr "Klasifikace"
-
-#~ msgid "Other Support:"
-#~ msgstr "Jiná podpora:"
-
-#~ msgid "failed\n"
-#~ msgstr "selhání\n"
-
-#~ msgid "n/a"
-#~ msgstr "není k dispozici"

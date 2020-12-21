@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-20 16:34+0100\n"
-"PO-Revision-Date: 2020-05-21 15:36+0000\n"
+"PO-Revision-Date: 2020-12-20 20:13+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-12-20 13:56+0000\n"
+"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
 "X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-Language: Russian\n"
@@ -344,9 +344,8 @@ msgid "Additional Programming:"
 msgstr "Прочие програмисты:"
 
 #: libs/s25main/desktops/dskCredits.cpp:132
-#, fuzzy
 msgid "Additional Support:"
-msgstr "Дополнительные особенности:"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:52
 msgid "Additional features:"
@@ -953,12 +952,11 @@ msgid "Could not load map:\n"
 msgstr "Не удалось загрузить карту:\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:246
-#, fuzzy
 msgid ""
 "Could not load map:\n"
 "%1%\n"
 "%2%"
-msgstr "Не удалось загрузить карту:\n"
+msgstr ""
 
 #: libs/s25main/desktops/dskDirectIP.cpp:31
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:32
@@ -1078,9 +1076,9 @@ msgid "Direct IP"
 msgstr "Direct IP"
 
 #: libs/s25main/Loader.cpp:186
-#, fuzzy, c-format
+#, c-format
 msgid "Directory does not exist: %s"
-msgstr "Каталог не существует:% s\n"
+msgstr ""
 
 #: libs/s25main/Loader.cpp:1166
 #, c-format
@@ -1368,9 +1366,8 @@ msgid "Failed to load %s\n"
 msgstr "Не удалось загрузить %s\n"
 
 #: libs/s25main/desktops/dskCredits.cpp:277
-#, fuzzy
 msgid "Failed to load game data"
-msgstr "Не удалось загрузить данные игры!"
+msgstr ""
 
 #: libs/s25main/PreviewMinimap.cpp:55 libs/s25main/desktops/dskSelectMap.cpp:77
 #: libs/s25main/world/MapSerializer.cpp:74
@@ -1379,9 +1376,8 @@ msgstr "Не удалось загрузить данные игры!"
 
 #: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:108
-#, fuzzy
 msgid "Failed to load game resources"
-msgstr "Не удалось загрузить данные игры!"
+msgstr ""
 
 #: libs/s25main/drivers/DriverWrapper.cpp:107
 msgid "Failed to load library. Check dependencies!"
@@ -1396,9 +1392,8 @@ msgid "Failed to load lua state!"
 msgstr ""
 
 #: libs/s25main/desktops/dskSelectMap.cpp:459
-#, fuzzy
 msgid "Failed to load map %1%: %2%\n"
-msgstr "Не удалось загрузить %1%: %2%\n"
+msgstr ""
 
 #: libs/s25main/Loader.cpp:998
 msgid "Failed to merge entry %1%. Archive expected!\n"
@@ -2552,9 +2547,9 @@ msgid "Not available"
 msgstr "Не доступно"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1121
-#, fuzzy, c-format
+#, c-format
 msgid "Note: Game settings changed by the server%s"
-msgstr "Примечание: Игровые настройки изменены сервером %s"
+msgstr "Примечание: Игровые настройки изменены сервером%s"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:179
 msgid "Nothing"
@@ -2862,9 +2857,8 @@ msgstr "Программирование"
 
 #: libs/s25main/desktops/dskCredits.cpp:96
 #: libs/s25main/desktops/dskCredits.cpp:103
-#, fuzzy
 msgid "Project founder"
-msgstr "Сталевар"
+msgstr ""
 
 #: libs/s25main/desktops/dskCredits.cpp:97
 #: libs/s25main/desktops/dskCredits.cpp:104
@@ -3130,9 +3124,8 @@ msgid "Save game!"
 msgstr "Сохранить игру!"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:126
-#, fuzzy
 msgid "Save playlist"
-msgstr "Список воспроизведения:"
+msgstr ""
 
 #: libs/s25main/Replay.cpp:136 libs/s25main/Replay.cpp:185
 msgid "Savegame error: "
@@ -4255,12 +4248,3 @@ msgstr "Пустошь"
 #: data/RTTR/gamedata/world/winterworld.lua:4
 msgid "winterworld"
 msgstr "Снежный мир"
-
-#~ msgid "Classification"
-#~ msgstr "Классификация"
-
-#~ msgid "Other Support:"
-#~ msgstr "Другая поддержка:"
-
-#~ msgid "n/a"
-#~ msgstr "недоступно"

@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-20 16:34+0100\n"
-"PO-Revision-Date: 2020-12-20 16:35+0100\n"
-"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
+"PO-Revision-Date: 2020-12-21 13:05+0000\n"
+"Last-Translator: FloSoft <Unknown>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-12-20 13:56+0000\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
+"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -53,7 +53,7 @@ msgstr " (mittel)"
 
 #: libs/s25main/desktops/dskLobby.cpp:385
 msgid " (playing)"
-msgstr ""
+msgstr " (wird gespielt)"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1334
 msgid " and "
@@ -69,11 +69,11 @@ msgstr " Steine"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1334
 msgid "%1% are the winners!"
-msgstr ""
+msgstr "%1% sind die Sieger!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:184
 msgid "%1% map(s) could not be loaded. Check the log for details"
-msgstr ""
+msgstr "%1% Karte(n) konnte(n) nicht geladen werden. Für Details bitte ins Log sehen"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:62
 msgid "%1% players"
@@ -284,7 +284,7 @@ msgstr "Ein Holzfäller versorgt das Sägewerk mit Baumstämmen. Ein Förster is
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:91
 msgid "AI"
-msgstr ""
+msgstr "KI"
 
 #: libs/s25main/ingameWindows/iwAIDebug.cpp:85
 msgid "AI Debug"
@@ -503,6 +503,10 @@ msgid ""
 "%5%\n"
 "\n"
 msgstr ""
+"Async bei GF %1% durch Spieler %2% zu %3%. Prüfsummen:\n"
+"%4%\n"
+"%5%\n"
+"\n"
 
 #: libs/s25main/addons/AddonAsyncDebug.h:29
 msgid "Async debugging (REALLY SLOW!)"
@@ -511,7 +515,7 @@ msgstr "Async debugging (SEHR LANGSAM!)"
 #: libs/s25main/network/GameServer.cpp:1477
 #, c-format
 msgid "Async log saved at \"%s\"\n"
-msgstr ""
+msgstr "Async-Log nach \"%s\" gespeichert\n"
 
 #: libs/s25main/network/GameClient.cpp:836
 #, c-format
@@ -519,10 +523,12 @@ msgid ""
 "Async log saved at \"%s\",\n"
 "game saved at \"%s\"\n"
 msgstr ""
+"Async log nach \"%s\" gespeichert,\n"
+"Spiel nach \"%s\" gespeichert\n"
 
 #: libs/s25main/network/GameServer.cpp:1230
 msgid "Async logs received completely.\n"
-msgstr ""
+msgstr "Alle Async-Logs empfangen.\n"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:396
 msgid "Attack not possible."
@@ -567,11 +573,11 @@ msgstr "Axt"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:168
 msgid "BQ check disabled"
-msgstr ""
+msgstr "BQ Test deaktiviert"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:171
 msgid "BQ check every %1%ms"
-msgstr ""
+msgstr "BQ Test alle %1%ms"
 
 #: libs/s25main/gameData/NationConsts.h:27
 msgid "Babylonians"
@@ -622,7 +628,7 @@ msgstr "Boot"
 
 #: libs/s25main/gameData/JobConsts.cpp:62
 msgid "Boat carrier"
-msgstr ""
+msgstr "Bootsträger"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:85
 msgid "Boats"
@@ -631,7 +637,7 @@ msgstr "Boote"
 #: libs/s25main/Loader.cpp:1028
 #, c-format
 msgid "Bob-like file contained multiple text entries: %s\n"
-msgstr ""
+msgstr "Bob-like Datei enthielt mehrere Texteinträge: %s\n"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:55
 msgid "Border areas"
@@ -715,7 +721,7 @@ msgstr "Start abbrechen"
 
 #: libs/s25main/EventManager.cpp:184
 msgid "Cannot deserialize event manager when there are still events active!"
-msgstr ""
+msgstr "Kann Event Manager nicht auspacken solange Ereignisse aktiv sind."
 
 #: libs/s25main/gameData/JobConsts.cpp:36
 msgid "Carpenter"
@@ -860,7 +866,7 @@ msgstr "Farbe"
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:56
 msgid "Coming soon"
-msgstr ""
+msgstr "Kommt Bald"
 
 #: libs/s25main/desktops/dskOptions.cpp:81
 msgid "Common"
@@ -951,7 +957,7 @@ msgstr "Konnte Typ des Pfades \"%s\" nicht ermitteln\n"
 
 #: libs/s25main/desktops/dskHostGame.cpp:238
 msgid "Could not load map:\n"
-msgstr ""
+msgstr "Kann Karte nicht laden:\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:246
 msgid ""
@@ -959,6 +965,9 @@ msgid ""
 "%1%\n"
 "%2%"
 msgstr ""
+"Konnte Karte nicht laden:\n"
+"%1%\n"
+"%2%"
 
 #: libs/s25main/desktops/dskDirectIP.cpp:31
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:32
@@ -1292,6 +1301,8 @@ msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
 msgstr ""
+"Fehler beim Ausführen des LUA scripts: %1\n"
+"Spiel angehalten!"
 
 #: libs/s25main/network/GameClient.cpp:1463
 #, c-format
@@ -1304,7 +1315,7 @@ msgstr "Fehler bei Replaywiedergabe!"
 
 #: libs/s25main/WindowManager.cpp:804
 msgid "Error writing screenshot: %1%\n"
-msgstr ""
+msgstr "Fehler beim Schreiben des Screenshots : %1%\n"
 
 #: libs/s25main/world/GameWorld.cpp:86 libs/s25main/world/GameWorld.cpp:132
 msgid "Error: "
@@ -1320,11 +1331,11 @@ msgstr "Ewig"
 
 #: libs/s25main/EventManager.cpp:171
 msgid "Event count mismatch. Found events: %1%. Expected: %2%.\n"
-msgstr ""
+msgstr "Diskrepanz in der Ereignisanzahl: %1% Ereignisse gefunden. Erwartet: %2%.\n"
 
 #: libs/s25main/EventManager.cpp:195
 msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
-msgstr ""
+msgstr "Diskrepanz in der Ereignisanzahl: %1% Ereignisse gelesen. Erwartet: %2%.\n"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:35
 msgid "Everyone"
@@ -1355,10 +1366,12 @@ msgid ""
 "Failed to generate random map.\n"
 "Reason: "
 msgstr ""
+"Fehler beim generieren einer Zufallskarte.\n"
+"Begründung: "
 
 #: libs/s25main/desktops/dskGameLoader.cpp:123
 msgid "Failed to init GUI: "
-msgstr ""
+msgstr "Fehler beim initialisieren der GUI: "
 
 #: libs/s25main/Loader.cpp:475
 #, c-format
@@ -1389,7 +1402,7 @@ msgstr "Lua Datei '%1%' konnte nicht geladen werden\n"
 
 #: libs/s25main/world/GameWorld.cpp:129 libs/s25main/world/GameWorld.cpp:132
 msgid "Failed to load lua state!"
-msgstr ""
+msgstr "Laden des LUA Zustands fehlgeschlagen!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:459
 msgid "Failed to load map %1%: %2%\n"
@@ -1397,7 +1410,7 @@ msgstr "Konnte Karte '%1%' nicht laden: %2%\n"
 
 #: libs/s25main/Loader.cpp:998
 msgid "Failed to merge entry %1%. Archive expected!\n"
-msgstr ""
+msgstr "Eintrag %1% konnte nicht zusammengeführt werden. Archiv erwartet!\n"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:74
 msgid "Failed to read lua file '%1%'\n"
@@ -1410,7 +1423,7 @@ msgstr "Konnte async log nicht unter \"%s\" speichern\n"
 
 #: libs/s25main/world/GameWorld.cpp:83 libs/s25main/world/GameWorld.cpp:86
 msgid "Failed to save lua state!"
-msgstr ""
+msgstr "Fehler beim Speichern des LUA Zustands!"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
 msgid "Far"
@@ -1451,7 +1464,7 @@ msgstr "Datei ist für eine ältere Version und kann nicht verwendet werden (Ver
 
 #: libs/s25main/SavedFile.cpp:77
 msgid "File is not in a valid format!"
-msgstr ""
+msgstr "Datei hat kein gültiges Format!"
 
 #: libs/s25main/Loader.cpp:1111
 #, c-format
@@ -1496,7 +1509,7 @@ msgstr "Nebel des Krieges"
 
 #: libs/s25main/ingameWindows/iwObservate.cpp:57
 msgid "Follow object"
-msgstr ""
+msgstr "Objekt folgen"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:64
 #: libs/s25main/ingameWindows/iwTransport.cpp:63
@@ -1611,7 +1624,7 @@ msgstr "Gelehrter"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:32
 msgid "Geologist sign durability"
-msgstr ""
+msgstr "Haltbarkeit der Gelehrtenschilder"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:37
 msgid "Get all back"
@@ -1627,7 +1640,7 @@ msgstr "Erstatte Baumaterial zurück, wenn Gebäude abgerissen werden."
 
 #: libs/s25main/QuickStartGame.cpp:52
 msgid "Given map or replay (%1%) does not exist!"
-msgstr ""
+msgstr "Angegebene Karte oder Replay (%1%) existiert nicht!"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:349
 msgid "Go to headquarters"
@@ -1814,7 +1827,7 @@ msgstr "Verbesserte Allianz"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:33
 msgid "Increase the durability of geologist signs by a factor."
-msgstr ""
+msgstr "Haltbarkeit der Gelehrtenschilder per Faktor erhöhen"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:34
 msgid "Inexhaustible"
@@ -1847,7 +1860,7 @@ msgstr "Landesinnere"
 
 #: libs/s25main/desktops/dskTest.cpp:58
 msgid "Internal test screen for developers"
-msgstr ""
+msgstr "Interner Entwickler-Testdesktop"
 
 #: libs/s25main/desktops/dskMultiPlayer.cpp:38
 msgid "Internet Lobby"
@@ -1885,15 +1898,15 @@ msgstr "Ungültiges Savegame %1%! Grund: %2%\n"
 
 #: libs/s25main/world/GameWorld.cpp:112
 msgid "Invalid end-id for lua data"
-msgstr ""
+msgstr "Ungültige Ende-ID für LUA Daten"
 
 #: libs/s25main/EventManager.cpp:204
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
-msgstr ""
+msgstr "Ungültige Ereignis Instanz ID. %1% gefunden, Wert kleiner %2% erwartet.\n"
 
 #: libs/s25main/world/GameWorld.cpp:105
 msgid "Invalid id for lua data"
-msgstr ""
+msgstr "Ungültige ID für LUA Daten"
 
 #: libs/s25main/desktops/dskOptions.cpp:538
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:132
@@ -1969,7 +1982,7 @@ msgstr "Tastaturbelegung:"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:89
 msgid "Landscape"
-msgstr ""
+msgstr "Landschaft"
 
 #: libs/s25main/desktops/dskOptions.cpp:101
 msgid "Language:"
@@ -2067,11 +2080,11 @@ msgstr "Spiel laden..."
 
 #: libs/s25main/drivers/AudioDriverWrapper.cpp:95
 msgid "Loaded audio driver \"%1%\"\n"
-msgstr ""
+msgstr "Audiotreiber \"%1%\" geladen\n"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:63
 msgid "Loaded video driver \"%1%\"\n"
-msgstr ""
+msgstr "Videotreiber \"%1%\" geladen\n"
 
 #: libs/s25main/Playlist.cpp:89
 #, c-format
@@ -2086,7 +2099,7 @@ msgstr "Lade \"%s\": "
 #: libs/s25main/Loader.cpp:1172
 #, c-format
 msgid "Loading LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI files from \"%s\"\n"
-msgstr ""
+msgstr "Lade LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI Dateien aus \"%s\"\n"
 
 #: libs/s25main/Loader.cpp:1117
 #, c-format
@@ -2103,7 +2116,7 @@ msgstr "Lobby-Chat"
 
 #: libs/s25main/desktops/dskOptions.cpp:123
 msgid "Local Port:"
-msgstr ""
+msgstr "Lokaler Port:"
 
 #: libs/s25main/desktops/dskHostGame.cpp:172
 msgid "Lock teams:"
@@ -2157,11 +2170,11 @@ msgstr "Lua Fehler: %s\n"
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:66
 msgid "Lua script did not provide the function getRequiredLuaVersion()! It is probably outdated.\n"
-msgstr ""
+msgstr "LUA script hat nicht die notwendige Funktion getRequiredLuaVersion() bereitgestellt! Vermutlich ist es veraltet.\n"
 
 #: libs/s25main/world/GameWorld.cpp:119
 msgid "Lua script failed to load."
-msgstr ""
+msgstr "Laden des LUA scripts fehlgeschlagen."
 
 #: libs/s25main/desktops/dskHostGame.cpp:97
 msgid "Lua script uses a different version and cannot be used. Map might not work as expected!"
@@ -2174,7 +2187,7 @@ msgstr "Das Lua-Skript wurde gefunden, konnte aber nicht geladen werden. Die Kar
 
 #: libs/s25main/desktops/dskHostGame.cpp:104
 msgid "Lua was disabled by the script itself\n"
-msgstr ""
+msgstr "LUA wurde durch das Script selbst deaktiviert.\n"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:121
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:46
@@ -2209,15 +2222,15 @@ msgstr "Kartename:"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:208
 msgid "Map has more than %1% players"
-msgstr ""
+msgstr "Karte hat mehr als %1% Spieler"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:206
 msgid "Map is bigger than allowed size of %1% nodes"
-msgstr ""
+msgstr "Karte ist größer als die erlaubte Größe von %1% Knoten"
 
 #: libs/s25main/network/ClientError.cpp:32
 msgid "Map is invalid or failed to load properly!"
-msgstr ""
+msgstr "Karte ist ungültigt oder konnte nicht vollständig geladen werden!"
 
 #: libs/s25main/network/ClientError.cpp:30
 msgid "Map transmission was corrupt!"
@@ -2512,7 +2525,7 @@ msgstr "Keine Schiffe verfügbar"
 
 #: libs/s25main/addons/AddonPeacefulMode.h:30
 msgid "Nobody can attack anyone."
-msgstr ""
+msgstr "Niemand kann angreifen oder angegriffen werden."
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:37
 msgid "Nobody else but you"
@@ -2640,11 +2653,11 @@ msgstr "Offen"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:383
 msgid "OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or hardware!"
-msgstr ""
+msgstr "OpenGL %1% %2%.%3% ist nicht unterstützt. Bitte GPU-Treiber/Hardware aktualisieren!"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:380
 msgid "OpenGL %1%.%2% supported\n"
-msgstr ""
+msgstr "OpenGL %1%.%2% wird unterstützt\n"
 
 #: libs/s25main/desktops/dskOptions.cpp:222
 msgid "Optimized Textures:"
@@ -2700,7 +2713,7 @@ msgstr "Ehemaliger Spieler"
 
 #: libs/s25main/addons/AddonPeacefulMode.h:29
 msgid "Peaceful"
-msgstr ""
+msgstr "Friedlich"
 
 #: libs/s25main/gameTypes/GoodTypes.h:78
 msgid "Pick-axe"
@@ -2959,11 +2972,11 @@ msgstr "Bereit?"
 
 #: libs/s25main/network/GameServer.cpp:1219
 msgid "Received async log from %1%, but did not expect it!\n"
-msgstr ""
+msgstr "Unerwartete Async-Logs von %1% empfangen!\n"
 
 #: libs/s25main/network/GameServer.cpp:1212
 msgid "Received async logs from %1% (%2% entries).\n"
-msgstr ""
+msgstr "Async-Logs von %1% empfangen (%2% Einträge).\n"
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:14
 msgid "Receiving coins is disabled for military buildings by default."
@@ -3019,7 +3032,7 @@ msgstr "Entfernt alle Replays, die nicht mit dieser Spielversion geladen werden 
 
 #: libs/s25main/network/GameClient.cpp:1371
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
-msgstr ""
+msgstr "Replayfile konnte nicht geöffnet werden. Replay wird nicht aufgenommen\n"
 
 #: libs/s25main/ingameWindows/iwHQ.cpp:35
 msgid "Reserve"
@@ -3031,7 +3044,7 @@ msgstr "Reserviert"
 
 #: libs/s25main/ingameWindows/iwObservate.cpp:63
 msgid "Resize window"
-msgstr ""
+msgstr "Fenstergröße ändern"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:182
 msgid "Resources"
@@ -3039,7 +3052,7 @@ msgstr "Ressourcen"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:185
 msgid "Restricted area"
-msgstr ""
+msgstr "Sperrgebiet"
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:52
 msgid "Resume last game"
@@ -3059,7 +3072,7 @@ msgstr "Zurück zum Hafen"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:70
 msgid "Ringland"
-msgstr ""
+msgstr "Ringland"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:69
 msgid "Riverland"
@@ -3091,23 +3104,23 @@ msgstr "RttR unterstützt nun das Senden von Debug-Daten. Wollen Sie uns helfen,
 
 #: libs/s25main/network/GameServer.cpp:656
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
-msgstr ""
+msgstr "SERVER: GF %1%: Geschwindigkeit von %2% zu %3% geändert. NWF %4%\n"
 
 #: libs/s25main/network/GameServer.cpp:566
 msgid "SERVER: Error on socket of player %1%, bye bye!\n"
-msgstr ""
+msgstr "SERVER: Fehler bei der Spielerverbindung %1%, Auf Wiedersehen!\n"
 
 #: libs/s25main/network/GameServer.cpp:704
 msgid "SERVER: Kicking player %1% in %2% seconds\n"
-msgstr ""
+msgstr "SERVER: Trenne Verbindung zu Spieler %1% in %2% Sekunden\n"
 
 #: libs/s25main/network/GameServer.cpp:783
 msgid "SERVER: Receiving Message for player %1% failed, kicking...\n"
-msgstr ""
+msgstr "SERVER: Empfang von Nachrichten des Spielers %1% fehlgeschlagen. Trenne Verbindung ...\n"
 
 #: libs/s25main/network/GameServer.cpp:576
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
-msgstr ""
+msgstr "SERVER: Reservierter Eintrag %1% auf Grund von Timeout freigegeben\n"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1151
 #: libs/s25main/desktops/dskGameInterface.cpp:1168
@@ -3145,7 +3158,7 @@ msgstr "Erkunder"
 
 #: libs/s25main/WindowManager.cpp:801
 msgid "Screenshot saved to %1%\n"
-msgstr ""
+msgstr "Screenshot nach %1% gespeichert\n"
 
 #: libs/s25main/gameTypes/GoodTypes.h:82
 msgid "Scythe"
@@ -3191,7 +3204,7 @@ msgstr "Erkunder aussenden"
 
 #: libs/s25main/network/GameServer.cpp:1502
 msgid "Sending async logs %1%.\n"
-msgstr ""
+msgstr "Sende Async-Logs zu %1%.\n"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:54
 msgid "Sequence of given order"
@@ -3320,11 +3333,11 @@ msgstr "Überspringe %s: %s\n"
 
 #: libs/s25main/Loader.cpp:969
 msgid "Skipping duplicate override file %1% for %2%\n"
-msgstr ""
+msgstr "Überspringe doppelte Überschreibungsdatei %1% für %2%\n"
 
 #: libs/s25main/Loader.cpp:966
 msgid "Skipping removed file %1% when checking for files to load for %2%\n"
-msgstr ""
+msgstr "Entfernte Datei %1% während der Ladeprüfung für %2% übersprungen\n"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:43
 msgid "Slaughterhouse"
@@ -3357,6 +3370,9 @@ msgid ""
 "Please ensure that the Settlers 2 Gold-Edition is installed \n"
 "in the same directory as Return to the Roots."
 msgstr ""
+"Einige Dateien konnten nicht geladen werden.\n"
+"Bitte prüfe ob Die Siedler II Gold-Edition im gleichen \n"
+"Verzeichnis wie Return to the Roots installiert ist."
 
 #: libs/s25main/desktops/dskDirectIP.cpp:49 libs/s25main/desktops/dskLAN.cpp:94
 #: libs/s25main/desktops/dskLAN.cpp:175 libs/s25main/desktops/dskLobby.cpp:142
@@ -3419,7 +3435,7 @@ msgstr "Starte Spiel, bitte warten..."
 
 #: libs/s25main/Loader.cpp:271
 msgid "Starting sound conversion: "
-msgstr "Starte Konvertierung der Tondaten:"
+msgstr "Starte Konvertierung der Tondaten: "
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:36
 msgid "Statistics"
@@ -3593,7 +3609,7 @@ msgstr "Der Bauer pflanzt und erntet Getreide auf den umliegenden Äckern. Eine 
 
 #: libs/s25main/ingameWindows/iwTextfile.cpp:59
 msgid "The file was not found!"
-msgstr ""
+msgstr "Die Datei wurde nicht gefunden!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:178
 msgid "The fish man is responsible for finding water rich in fish. His fish feed a great many miners."
@@ -3647,7 +3663,7 @@ msgstr "%s möchte euren %s vor Ablauf beenden. Einverstanden?"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:351
 msgid "The playlist was saved!"
-msgstr ""
+msgstr "Die Playlist wurde gespeichert!"
 
 #: libs/s25main/ingameWindows/iwDistribution.cpp:173
 msgid "The priority of goods for the individual buildings can be set here. The higher the value, the quicker the required goods are delivered to the building concerned."
@@ -3659,7 +3675,7 @@ msgstr "Der Abbau von Steinen in einem Granitbergwerk sichert den Bedarf an Baum
 
 #: libs/s25main/desktops/dskLobby.cpp:240
 msgid "The selected game was not found anymore."
-msgstr ""
+msgstr "Das ausgewählte Spiel konnte nicht mehr gefunden werden."
 
 #: libs/s25main/ingameWindows/iwShip.cpp:138
 msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
@@ -3698,15 +3714,15 @@ msgstr "Der Wachturm mit seinem großzügigem Platzangebot ist bestens für die 
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:40
 msgid "The winner:"
-msgstr ""
+msgstr "Der Sieger:"
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:40
 msgid "The winners:"
-msgstr ""
+msgstr "Die Sieger:"
 
 #: libs/s25main/network/GameServer.cpp:1440
 msgid "There are %1% identical async log entries.\n"
-msgstr ""
+msgstr "Es existieren %1% identische Async-Log Einträge.\n"
 
 #: libs/s25main/ingameWindows/iwTools.cpp:201
 msgid "These settings control the tool production of your metalworks. The higher the value, the more likely this tool is to be produced."
@@ -3834,7 +3850,7 @@ msgstr "Schriftart an Index %1% konnte nicht geladen werden\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:204
 msgid "Unexpected dynamic type of map"
-msgstr ""
+msgstr "Karte hat unerwarteten dynamic-Typ"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:108
 #: libs/s25main/ingameWindows/iwSave.cpp:90
@@ -3844,7 +3860,7 @@ msgstr "Unbekannt"
 
 #: libs/s25main/world/MapLoader.cpp:376
 msgid "Unknown animal species at %1%: (0x%2$x)\n"
-msgstr ""
+msgstr "Unbekanntes Tier bei %1%: (0x%2$x)\n"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:57
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:64
@@ -3857,27 +3873,27 @@ msgstr "Unbekannter Fehler!"
 
 #: libs/s25main/world/MapLoader.cpp:324 libs/s25main/world/MapLoader.cpp:334
 msgid "Unknown granite type2 at %1%: (0x%2$x)\n"
-msgstr ""
+msgstr "Unbekannter Granit Typ2 bei %1%: (0x%2$x)\n"
 
 #: libs/s25main/world/MapLoader.cpp:314
 msgid "Unknown nature object at %1%: (0x%2$x)\n"
-msgstr ""
+msgstr "Unbekanntes Naturobjekt bei %1%: (0x%2$x)\n"
 
 #: libs/s25main/world/MapLoader.cpp:344
 msgid "Unknown object at %1%: (0x%2$x: 0x%3$x)\n"
-msgstr ""
+msgstr "Unbekanntes Objekt bei %1%: (0x%2$x: 0x%3$x)\n"
 
 #: libs/s25main/world/MapLoader.cpp:227
 msgid "Unknown tree1-4 at %1%: (0x%2$x)\n"
-msgstr ""
+msgstr "Unbekannter Baum1-4 bei %1%: (0x%2$x)\n"
 
 #: libs/s25main/world/MapLoader.cpp:243
 msgid "Unknown tree5-8 at %1%: (0x%2$x)\n"
-msgstr ""
+msgstr "Unbekannter Baum5-8 bei %1%: (0x%2$x)\n"
 
 #: libs/s25main/world/MapLoader.cpp:253
 msgid "Unknown tree9 at %1%: (0x%2$x)\n"
-msgstr ""
+msgstr "Unbekannter Baum9 bei %1%: (0x%2$x)\n"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:38
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:49
@@ -3988,6 +4004,8 @@ msgid ""
 "WARNING: Did not find the music files.\n"
 "\tYou have to run the updater once or copy the .ogg files manually to \"%1%\" or you won't be able to hear the music.\n"
 msgstr ""
+"WARNUNG: Konnte keine Musikdateien finden.\n"
+"\tMan muss mindestens einmal das Updateprogramm starten oder die .ogg Dateien manuell nach \"%1% kopieren. Ansonsten kann man keine Musik hören.\n"
 
 #: libs/s25main/Loader.cpp:295
 msgid "WARNING: Found invalid music item for %1%\n"
@@ -4108,11 +4126,11 @@ msgstr "Falsche Clientversion"
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:60
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
-msgstr ""
+msgstr "Falsche LUA script version: %1%. Aktuelle version: %2%.%3%\n"
 
 #: libs/s25main/world/GameWorld.cpp:124
 msgid "Wrong version for lua script."
-msgstr ""
+msgstr "Das LUA Script hat die falsche Version."
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:35
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:80
@@ -4215,22 +4233,22 @@ msgstr "Grünland"
 
 #: libs/s25main/GameManager.cpp:154
 msgid "jump to gf %1% complete\n"
-msgstr ""
+msgstr "Sprung zu GF %1% abgeschlossen\n"
 
 #: libs/s25main/GameManager.cpp:149
 #, c-format
 msgid "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
-msgstr ""
+msgstr "Sprung zu GF %i abgeschlossen, Zeiten für letzte %i GF: %.3f s, durchschnittliche GF Zeit: %.3f ms \n"
 
 #: libs/s25main/GameManager.cpp:137
 #, c-format
 msgid "jumping to gf %i, now at gf %i \n"
-msgstr ""
+msgstr "Springe zu GF %i, aktuell bei GF %i \n"
 
 #: libs/s25main/GameManager.cpp:134
 #, c-format
 msgid "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time %.3f ms \n"
-msgstr ""
+msgstr "Springe zu GF %i, aktuell bei GF %i , Zeit für letzte 5k GFs: %.3f s, durchschnittliche GF Zeit: %.3f ms \n"
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:294
 msgid "of"
@@ -4251,15 +4269,3 @@ msgstr "Ödland"
 #: data/RTTR/gamedata/world/winterworld.lua:4
 msgid "winterworld"
 msgstr "Winterwelt"
-
-#~ msgid "Classification"
-#~ msgstr "Einstufung"
-
-#~ msgid "Other Support:"
-#~ msgstr "Weiterer Support:"
-
-#~ msgid "failed\n"
-#~ msgstr "fehlgeschlagen\n"
-
-#~ msgid "n/a"
-#~ msgstr "n/v"
