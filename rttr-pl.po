@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-20 16:34+0100\n"
-"PO-Revision-Date: 2021-01-18 22:51+0100\n"
+"PO-Revision-Date: 2021-01-19 08:53+0100\n"
 "Last-Translator: Krystian Safjan <ksafjan@gmail.com>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "Language: pl\n"
@@ -543,6 +543,10 @@ msgid ""
 "%5%\n"
 "\n"
 msgstr ""
+"Async przy GF %1% gracza %2% vs %3%. Sumy kontrolne:\n"
+"%4% \n"
+"%5% \n"
+"\n"
 
 #: libs/s25main/addons/AddonAsyncDebug.h:29
 msgid "Async debugging (REALLY SLOW!)"
@@ -551,7 +555,7 @@ msgstr "Asynchroniczne debugowanie (BARDZO WOLNE!)"
 #: libs/s25main/network/GameServer.cpp:1477
 #, c-format
 msgid "Async log saved at \"%s\"\n"
-msgstr ""
+msgstr "Async log zapisany w \"%s\"\n"
 
 #: libs/s25main/network/GameClient.cpp:836
 #, c-format
@@ -559,10 +563,12 @@ msgid ""
 "Async log saved at \"%s\",\n"
 "game saved at \"%s\"\n"
 msgstr ""
+"log async zapisany w \"% s\",\n"
+"gra zapisana w \"% s\"\n"
 
 #: libs/s25main/network/GameServer.cpp:1230
 msgid "Async logs received completely.\n"
-msgstr ""
+msgstr "Logi async odebrane w całości.\n"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:396
 msgid "Attack not possible."
@@ -1460,11 +1466,11 @@ msgstr "Nie udało się załadować biblioteki. Sprawdź zależności!"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:82
 msgid "Failed to load lua file '%1%'\n"
-msgstr ""
+msgstr "Nie udało się załadować pliku Lua '%1%'\n"
 
 #: libs/s25main/world/GameWorld.cpp:129 libs/s25main/world/GameWorld.cpp:132
 msgid "Failed to load lua state!"
-msgstr ""
+msgstr "Nie udało się załadować stanu Lua!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:459
 msgid "Failed to load map %1%: %2%\n"
@@ -1472,20 +1478,20 @@ msgstr "Nie udało się załadować mapy %1%:%2%\n"
 
 #: libs/s25main/Loader.cpp:998
 msgid "Failed to merge entry %1%. Archive expected!\n"
-msgstr ""
+msgstr "Nie udało się scalić wpisu %1%. Oczekiwano archiwum!\n"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:74
 msgid "Failed to read lua file '%1%'\n"
-msgstr ""
+msgstr "Nie udało się odczytać pliku Lua '%1%'\n"
 
 #: libs/s25main/network/GameServer.cpp:1481
 #, c-format
 msgid "Failed to save async log at \"%s\"\n"
-msgstr ""
+msgstr "Nie udało się zapisać logów async w \"%s\"\n"
 
 #: libs/s25main/world/GameWorld.cpp:83 libs/s25main/world/GameWorld.cpp:86
 msgid "Failed to save lua state!"
-msgstr ""
+msgstr "Nie udało się zapisać stanu Lua!"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
 msgid "Far"
@@ -1972,12 +1978,12 @@ msgstr "Wstęp"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:119
 msgid "Invalid API version!"
-msgstr ""
+msgstr "Nieprawidłowa wersja API!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:107
 #: libs/s25main/network/GameClient.cpp:1384
 msgid "Invalid Replay %1%! Reason: %2%\n"
-msgstr ""
+msgstr "Nieprawidłowa powtórka %1%! Powód: %2%\n"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:195
 msgid "Invalid Replay!"
@@ -1989,7 +1995,7 @@ msgstr "Nieprawidłowy zapis gry %1%! Powód: %2%\n"
 
 #: libs/s25main/world/GameWorld.cpp:112
 msgid "Invalid end-id for lua data"
-msgstr ""
+msgstr "Nieprawidłowy end-id dla danych Lua"
 
 #: libs/s25main/EventManager.cpp:204
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
@@ -1999,7 +2005,7 @@ msgstr ""
 
 #: libs/s25main/world/GameWorld.cpp:105
 msgid "Invalid id for lua data"
-msgstr ""
+msgstr "Nieprawidłowy identyfikator danych Lua"
 
 #: libs/s25main/desktops/dskOptions.cpp:538
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:132
@@ -2061,7 +2067,7 @@ msgstr "Dołącz do gry"
 #: libs/s25main/network/GameClient.cpp:1573
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
-msgstr ""
+msgstr "Przeskok zakończony(%1$.3g seconds)."
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:33
 msgid "Keep setting"
@@ -2297,7 +2303,7 @@ msgstr ""
 
 #: libs/s25main/desktops/dskHostGame.cpp:104
 msgid "Lua was disabled by the script itself\n"
-msgstr ""
+msgstr "Lua została wyłączona przez sam skrypt\n"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:121
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:46
@@ -2496,7 +2502,7 @@ msgstr "Mincerz"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:137
 msgid "Missing required API function"
-msgstr ""
+msgstr "Brak wymaganej funkcji API"
 
 #: libs/s25main/desktops/dskOptions.cpp:193
 #: libs/s25main/ingameWindows/iwSettings.cpp:36
@@ -2686,7 +2692,7 @@ msgstr "Nic"
 #: libs/s25main/network/GameClientGF_Replay.cpp:117
 #, c-format
 msgid "Notice: Overall asynchronous frame count: %u"
-msgstr ""
+msgstr "Uwaga: ogólna liczba asynchronicznych ramek: %u"
 
 #: libs/s25main/network/GameClientGF_Replay.cpp:103
 #, c-format
@@ -2780,7 +2786,7 @@ msgstr ""
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:380
 msgid "OpenGL %1%.%2% supported\n"
-msgstr ""
+msgstr "Obsługa OpenGL %1%.%2%\n"
 
 #: libs/s25main/desktops/dskOptions.cpp:222
 msgid "Optimized Textures:"
@@ -3103,11 +3109,11 @@ msgstr "Gotowy?"
 
 #: libs/s25main/network/GameServer.cpp:1219
 msgid "Received async log from %1%, but did not expect it!\n"
-msgstr ""
+msgstr "Odebrano log async z %1%, ale to było nieoczekiwane zdarzenie!\n"
 
 #: libs/s25main/network/GameServer.cpp:1212
 msgid "Received async logs from %1% (%2% entries).\n"
-msgstr ""
+msgstr "Odebrano logi async z %1% (%2% wpisów).\n"
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:14
 msgid "Receiving coins is disabled for military buildings by default."
@@ -3246,23 +3252,26 @@ msgstr ""
 
 #: libs/s25main/network/GameServer.cpp:656
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
-msgstr ""
+msgstr "SERWER: Przy GF %1%: Prędkość zmieniona z %2% na %3%. NWF %4%\n"
 
 #: libs/s25main/network/GameServer.cpp:566
 msgid "SERVER: Error on socket of player %1%, bye bye!\n"
-msgstr ""
+msgstr "SERWER: Błąd gniazda gracza %1%, pa pa!\n"
 
 #: libs/s25main/network/GameServer.cpp:704
 msgid "SERVER: Kicking player %1% in %2% seconds\n"
-msgstr ""
+msgstr "SERWER: Wyrzucenie gracza %1% za %2% sekund\n"
 
 #: libs/s25main/network/GameServer.cpp:783
 msgid "SERVER: Receiving Message for player %1% failed, kicking...\n"
 msgstr ""
+"SERWER: Odbieranie wiadomości od gracza %1% nie powiodło się, wyrzucam...\n"
 
 #: libs/s25main/network/GameServer.cpp:576
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
 msgstr ""
+"SERWER: Zarezerwowany slot %1% został zwolniony z powodu przekroczenia limitu"
+" czasu\n"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1151
 #: libs/s25main/desktops/dskGameInterface.cpp:1168
@@ -3346,7 +3355,7 @@ msgstr "Wyślij zwiadowcę"
 
 #: libs/s25main/network/GameServer.cpp:1502
 msgid "Sending async logs %1%.\n"
-msgstr ""
+msgstr "Wysyłanie logów async %1%.\n"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:54
 msgid "Sequence of given order"
@@ -3484,7 +3493,7 @@ msgstr "Pomijam %s: %s\n"
 
 #: libs/s25main/Loader.cpp:969
 msgid "Skipping duplicate override file %1% for %2%\n"
-msgstr ""
+msgstr "Pomijam nadpisywanie zduplikowanego pliku %1% dla %2%\n"
 
 #: libs/s25main/Loader.cpp:966
 msgid "Skipping removed file %1% when checking for files to load for %2%\n"
@@ -4050,7 +4059,7 @@ msgstr "Zwycięzcy:"
 
 #: libs/s25main/network/GameServer.cpp:1440
 msgid "There are %1% identical async log entries.\n"
-msgstr ""
+msgstr "Istnieje %1% identycznych wpisów dziennika asynchronicznego.\n"
 
 #: libs/s25main/ingameWindows/iwTools.cpp:201
 msgid ""
@@ -4201,7 +4210,7 @@ msgstr "Rodzaj"
 
 #: libs/s25main/Loader.cpp:326
 msgid "Unable to load font at index %1%\n"
-msgstr ""
+msgstr "Nie można załadować czcionki o indeksie %1%\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:204
 msgid "Unexpected dynamic type of map"
@@ -4215,7 +4224,7 @@ msgstr "Nieznany"
 
 #: libs/s25main/world/MapLoader.cpp:376
 msgid "Unknown animal species at %1%: (0x%2$x)\n"
-msgstr ""
+msgstr "Nieznany gatunek zwierząt w %1%: (0x%2$x)\n"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:57
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:64
@@ -4244,7 +4253,7 @@ msgstr "Nieznane drzewo1-4 w %1%: (0x%2$x)\n"
 
 #: libs/s25main/world/MapLoader.cpp:243
 msgid "Unknown tree5-8 at %1%: (0x%2$x)\n"
-msgstr ""
+msgstr "Nieznane drzewo5-8 w %1%: (0x%2$x)\n"
 
 #: libs/s25main/world/MapLoader.cpp:253
 msgid "Unknown tree9 at %1%: (0x%2$x)\n"
@@ -4488,7 +4497,7 @@ msgstr "Nieodpowiednia wersja gry"
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:60
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
-msgstr ""
+msgstr "Nieprawidłowa wersja Lua skryptu: %1%. Bieżąca wersja: %2%.%3%.\n"
 
 #: libs/s25main/world/GameWorld.cpp:124
 msgid "Wrong version for lua script."
@@ -4598,7 +4607,7 @@ msgstr "Grenlandia"
 
 #: libs/s25main/GameManager.cpp:154
 msgid "jump to gf %1% complete\n"
-msgstr ""
+msgstr "przejście do gf %1% ukończono\n"
 
 #: libs/s25main/GameManager.cpp:149
 #, c-format
