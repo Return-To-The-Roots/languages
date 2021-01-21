@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+      - name: Remove flaky apt repos
+        run: |
+          for apt_file in `grep -lr microsoft /etc/apt/sources.list.d/`; do sudo rm $apt_file; done
+          for apt_file in `grep -lr bazel-apt /etc/apt/sources.list.d/`; do sudo rm $apt_file; done
       - name: Install dependencies
         run: |
           sudo apt-get update
