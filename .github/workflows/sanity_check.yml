@@ -1,0 +1,27 @@
+name: Sanity check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  FilesSorted:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install gettext
+      - name: Sort files
+        run: |
+          absPotFile="$PWD/rttr.pot"
+          find -name '*.po' -print0 | xargs -n1 -0 --replace \
+            msgmerge --sort-output --no-wrap --quiet --update --backup=none -s {} ${absPotFile}
+      - name: Check diff
+        run: |
+          if ! git diff --quiet; then
+            echo 'Translation files are not properly sorted.'
+            echo 'Run `make -B translations` from inside the RTTR build directory, sort via msgmerge or apply the following patch:'
+            git diff --exit-code
+          fi
