@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-20 16:34+0100\n"
+"POT-Creation-Date: 2021-01-22 13:55+0100\n"
 "PO-Revision-Date: 2020-12-22 20:13+0000\n"
 "Last-Translator: Thomas van de Bovenkamp <Unknown>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:217
+#: libs/s25main/ingameWindows/iwAction.cpp:173
 msgid ""
 "\n"
 "Costs: "
@@ -23,7 +23,7 @@ msgstr ""
 "\n"
 "Kosten: "
 
-#: libs/s25main/GameManager.cpp:85
+#: libs/s25main/GameManager.cpp:86
 msgid ""
 "\n"
 "Starting the game\n"
@@ -31,7 +31,7 @@ msgstr ""
 "\n"
 "Het spel starten\n"
 
-#: libs/s25main/Loader.cpp:1120
+#: libs/s25main/resources/ArchiveLoader.cpp:98
 msgid "  Loading %1% entries: "
 msgstr "  Laden van %1% items: "
 
@@ -51,23 +51,23 @@ msgstr " (moeilijk)"
 msgid " (medium)"
 msgstr " (gemiddeld)"
 
-#: libs/s25main/desktops/dskLobby.cpp:385
+#: libs/s25main/desktops/dskLobby.cpp:387
 msgid " (playing)"
 msgstr " (spelend)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1334
+#: libs/s25main/desktops/dskGameInterface.cpp:1346
 msgid " and "
 msgstr " en "
 
-#: libs/s25main/ingameWindows/iwAction.cpp:219
+#: libs/s25main/ingameWindows/iwAction.cpp:175
 msgid " boards"
 msgstr " planken"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:224
+#: libs/s25main/ingameWindows/iwAction.cpp:180
 msgid " stones"
 msgstr " stenen"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1334
+#: libs/s25main/desktops/dskGameInterface.cpp:1346
 msgid "%1% are the winners!"
 msgstr "%1% zijn de winnaars!"
 
@@ -75,9 +75,25 @@ msgstr "%1% zijn de winnaars!"
 msgid "%1% map(s) could not be loaded. Check the log for details"
 msgstr "%1% wereld(en) konden niet worden geladen. Bekijk het logboek voor meer details"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:62
+#: libs/s25main/ingameWindows/iwSave.cpp:147
+msgid "%1% min"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:63
 msgid "%1% players"
 msgstr "%1% spelers"
+
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:36
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:37
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:38
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:39
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:40
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:41
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:42
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:43
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:44
+msgid "%1%min"
+msgstr ""
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:36
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:37
@@ -85,12 +101,12 @@ msgstr "%1% spelers"
 msgid "%1%x"
 msgstr "%1%x"
 
-#: libs/s25main/desktops/dskHostGame.cpp:422
+#: libs/s25main/desktops/dskHostGame.cpp:430
 #, c-format
 msgid "%d"
 msgstr "%d"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:470
+#: libs/s25main/desktops/dskSelectMap.cpp:471
 #, c-format
 msgid "%d Player"
 msgstr "%d Speler"
@@ -113,13 +129,13 @@ msgstr "(%d soldaten)"
 msgid "(1 soldier)"
 msgstr "(1 soldaat)"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:105
-#: libs/s25main/ingameWindows/iwBuilding.cpp:206
+#: libs/s25main/ingameWindows/iwBuilding.cpp:97
+#: libs/s25main/ingameWindows/iwBuilding.cpp:193
 #: libs/s25main/world/GameWorldView.cpp:396
 msgid "(House unoccupied)"
 msgstr "(Huis onbewoond)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:313
+#: libs/s25main/desktops/dskGameInterface.cpp:314
 #, c-format
 msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
 msgstr "(Herhalings-Modus) Actuele GF: %u (Einde: %u) / GF-duur: %u ms / NWF-duur: %u gf (%u ms)"
@@ -150,9 +166,9 @@ msgstr "+50%"
 msgid "+500%"
 msgstr "+500%"
 
-#: libs/s25main/desktops/dskHostGame.cpp:273
-#: libs/s25main/desktops/dskHostGame.cpp:413
-#: libs/s25main/desktops/dskHostGame.cpp:415
+#: libs/s25main/desktops/dskHostGame.cpp:281
+#: libs/s25main/desktops/dskHostGame.cpp:421
+#: libs/s25main/desktops/dskHostGame.cpp:423
 msgid "-"
 msgstr "-"
 
@@ -193,11 +209,11 @@ msgstr "Graaf mijnen"
 msgid "..."
 msgstr "..."
 
-#: libs/s25main/desktops/dskCredits.cpp:240
+#: libs/s25main/desktops/dskCredits.cpp:253
 msgid "... and many more"
 msgstr "... en nog veel meer"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:96
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:99
 #: libs/s25main/ingameWindows/iwStatistics.cpp:144
 msgid "1 h"
 msgstr "1 u"
@@ -206,12 +222,12 @@ msgstr "1 u"
 msgid "10 catapults"
 msgstr "10 katapulten"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:95
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:98
 #: libs/s25main/ingameWindows/iwStatistics.cpp:143
 msgid "15 m"
 msgstr "15 m"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:98
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:101
 #: libs/s25main/ingameWindows/iwStatistics.cpp:146
 msgid "16 h"
 msgstr "16 u"
@@ -228,7 +244,7 @@ msgstr "3 katapulten"
 msgid "30 catapults"
 msgstr "30 katapulten"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:97
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:100
 #: libs/s25main/ingameWindows/iwStatistics.cpp:145
 msgid "4 h"
 msgstr "4 u"
@@ -237,24 +253,24 @@ msgstr "4 u"
 msgid "5 catapults"
 msgstr "5 katapulten"
 
-#: libs/s25main/Messenger.cpp:92
+#: libs/s25main/Messenger.cpp:94
 #, c-format
 msgid "<%s> "
 msgstr "<%s> "
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1136
+#: libs/s25main/desktops/dskGameInterface.cpp:1140
 msgid "A auto-savegame is created..."
 msgstr "Een automatisch opgeslagen spel is aangemaakt..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1247
+#: libs/s25main/buildings/nobMilitary.cpp:1251
 msgid "A catapult is firing upon us!"
 msgstr "Een katapult vuurt op ons!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:155
+#: libs/s25main/gameData/BuildingConsts.cpp:156
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
 msgstr "Een goudmijn staat u toe om waardevolle goudafzettingen te vinden. Hiervoor is het nodig om ervoor te zorgen dat uw mijnwerkers voldoende voedsel hebben."
 
-#: libs/s25main/desktops/dskHostGame.cpp:202
+#: libs/s25main/desktops/dskHostGame.cpp:208
 msgid "A lot"
 msgstr "Veel"
 
@@ -262,35 +278,35 @@ msgstr "Veel"
 msgid "A new ship is ready"
 msgstr "Een nieuw schip is klaar"
 
-#: libs/s25main/nodeObjs/noShip.cpp:402
+#: libs/s25main/nodeObjs/noShip.cpp:400
 msgid "A ship disovered an enemy territory"
 msgstr "Een schip heeft vijandelijk gebied ontdekt"
 
-#: libs/s25main/nodeObjs/noShip.cpp:701
+#: libs/s25main/nodeObjs/noShip.cpp:699
 msgid "A ship has reached the destination of its expedition."
 msgstr "Een schip heeft de bestemming van haar expeditie bereikt."
 
-#: libs/s25main/nodeObjs/noShip.cpp:264
+#: libs/s25main/nodeObjs/noShip.cpp:263
 msgid "A ship is ready for an expedition."
 msgstr "Een schip is klaar voor een expeditie."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:271
+#: libs/s25main/gameData/BuildingConsts.cpp:272
 msgid "A well supplies water to the bakery, brewery, donkey breeder and pig farm."
 msgstr "Een waterput levert water aan de bakker, bierbrouwerij, ezelsfokker en varkensboerderij."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:173
+#: libs/s25main/gameData/BuildingConsts.cpp:174
 msgid "A woodcutter provides the sawmill with logs. A forester is able to replant the depleted forest."
 msgstr "Een houthakker levert boomstammen aan de houtzagerij. Een houtvester is in staat om een uitgeput bos te herplanten."
 
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:91
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:106
 msgid "AI"
 msgstr "Algoritme"
 
-#: libs/s25main/ingameWindows/iwAIDebug.cpp:85
+#: libs/s25main/ingameWindows/iwAIDebug.cpp:88
 msgid "AI Debug"
 msgstr "AI-fouten verwijderen"
 
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:91
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:106
 msgid "AI Debug Window"
 msgstr "Debug-venster voor AI"
 
@@ -316,33 +332,33 @@ msgstr "Actief bij grenzen"
 msgid "Activity window"
 msgstr "Activiteiten"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:105
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:106
 msgid "Add"
 msgstr "Voeg toe"
 
-#: libs/s25main/desktops/dskLAN.cpp:48 libs/s25main/desktops/dskLobby.cpp:55
+#: libs/s25main/desktops/dskLAN.cpp:48 libs/s25main/desktops/dskLobby.cpp:56
 msgid "Add Server"
 msgstr "Voeg server toe"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:113
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:292
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:114
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:296
 msgid "Add directory of tracks"
 msgstr "Map met muziek toevoegen"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:111
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:287
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:112
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:291
 msgid "Add track"
 msgstr "Voeg titel toe"
 
-#: libs/s25main/desktops/dskCredits.cpp:127
+#: libs/s25main/desktops/dskCredits.cpp:139
 msgid "Additional Graphics:"
 msgstr "Optionele Animaties:"
 
-#: libs/s25main/desktops/dskCredits.cpp:114
+#: libs/s25main/desktops/dskCredits.cpp:125
 msgid "Additional Programming:"
 msgstr "Extra programmeerwerk:"
 
-#: libs/s25main/desktops/dskCredits.cpp:132
+#: libs/s25main/desktops/dskCredits.cpp:144
 msgid "Additional Support:"
 msgstr "Extra ondersteuning:"
 
@@ -350,11 +366,11 @@ msgstr "Extra ondersteuning:"
 msgid "Additional features:"
 msgstr "Toegevoegde functies:"
 
-#: libs/s25main/desktops/dskCredits.cpp:74
+#: libs/s25main/desktops/dskCredits.cpp:85
 msgid "Additional graphics"
 msgstr "Aanvullende grafische werken"
 
-#: libs/s25main/GlobalGameSettings.cpp:261
+#: libs/s25main/GlobalGameSettings.cpp:263
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr "Addon %1$#x is niet gevonden!\n"
@@ -367,7 +383,7 @@ msgstr "Uitbreiding Instellingen"
 msgid "Addons"
 msgstr "Uitbreidingen"
 
-#: libs/s25main/desktops/dskHostGame.cpp:180
+#: libs/s25main/desktops/dskHostGame.cpp:184
 msgid "Addons:"
 msgstr "Uitbreidingen:"
 
@@ -395,11 +411,15 @@ msgstr "Verander militaire kracht"
 msgid "Adjust the fraction of trees that spawn animals."
 msgstr "Verander de fractie van bomen die nodig zijn om dieren te spawnen."
 
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:35
+msgid "Adjust the time after which the economy mode victory condition is checked."
+msgstr ""
+
 #: libs/s25main/addons/AddonBurnDuration.h:30
 msgid "Adjusts how long a building will burn for when it is destroyed"
 msgstr "Pas aan hoelang een gebouw zal branden nadat het is vernietigd"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:110
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:112
 msgid "Advanced"
 msgstr "Uitgebreid"
 
@@ -407,12 +427,12 @@ msgstr "Uitgebreid"
 msgid "Africans"
 msgstr "Afrikanen"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:55
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:59
 msgid "After the following order"
 msgstr "Na de volgende order"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:70
-#: libs/s25main/ingameWindows/iwChat.cpp:36
+#: libs/s25main/ingameWindows/iwAddons.cpp:71
+#: libs/s25main/ingameWindows/iwChat.cpp:40
 msgid "All"
 msgstr "Alle"
 
@@ -425,7 +445,7 @@ msgid "Allied players can no longer push your borders back with new buildings."
 msgstr "Geallieerde spelers kunnen je grenzen niet meer verleggen met nieuwe gebouwen."
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:36
-#: libs/s25main/ingameWindows/iwChat.cpp:38
+#: libs/s25main/ingameWindows/iwChat.cpp:43
 msgid "Allies"
 msgstr "Bondgenoten"
 
@@ -445,15 +465,15 @@ msgstr "Maakt het mogelijk om een specifiek aantal gereedschappen te bestellen v
 msgid "Allows to send wares/figures to allied warehouses"
 msgstr "Staat het versturen van goederen/figuren naar geallieerde warenhuizen toe"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:181
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:186
 msgid "Altitude"
 msgstr "Hoogte"
 
-#: libs/s25main/SerializedGameData.cpp:304
+#: libs/s25main/SerializedGameData.cpp:320
 msgid "An error occured while saving which was suppressed!"
 msgstr "Een fout is opgetreden tijdens het opslaan, welke onderdrukt werd!"
 
-#: libs/s25main/desktops/dskGameLoader.cpp:135
+#: libs/s25main/desktops/dskGameLoader.cpp:137
 msgid "And let's go!"
 msgstr "Daar gaan we!"
 
@@ -482,11 +502,11 @@ msgstr "Weet u zeker dat u de geselecteerde herhaling wilt verwijderen?"
 msgid "Armorer"
 msgstr "Wapensmid"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:46
+#: libs/s25main/gameData/BuildingConsts.cpp:47
 msgid "Armory"
 msgstr "Wapensmid"
 
-#: libs/s25main/desktops/dskCredits.cpp:70
+#: libs/s25main/desktops/dskCredits.cpp:81
 msgid "Artificial Intelligence (AI)"
 msgstr "Kunstmatige intelligentie (AI)"
 
@@ -494,7 +514,7 @@ msgstr "Kunstmatige intelligentie (AI)"
 msgid "As the teams are locked, you cannot make treaties of any kind."
 msgstr "Omdat de teams vergrendeld zijn, kunt u geen verdragen sluiten."
 
-#: libs/s25main/network/GameServer.cpp:686
+#: libs/s25main/network/GameServer.cpp:685
 msgid ""
 "Async at GF %1% of player %2% vs %3%. Checksums:\n"
 "%4%\n"
@@ -510,12 +530,12 @@ msgstr ""
 msgid "Async debugging (REALLY SLOW!)"
 msgstr "Async debuggen (HEEL ERG LANGZAAM!)"
 
-#: libs/s25main/network/GameServer.cpp:1477
+#: libs/s25main/network/GameServer.cpp:1476
 #, c-format
 msgid "Async log saved at \"%s\"\n"
 msgstr "Async log opgeslagen op \"%s\"\n"
 
-#: libs/s25main/network/GameClient.cpp:836
+#: libs/s25main/network/GameClient.cpp:837
 #, c-format
 msgid ""
 "Async log saved at \"%s\",\n"
@@ -524,24 +544,24 @@ msgstr ""
 "Async log opgeslagen op \"%s\",\n"
 "spel opgeslagen op \"%s\"\n"
 
-#: libs/s25main/network/GameServer.cpp:1230
+#: libs/s25main/network/GameServer.cpp:1229
 msgid "Async logs received completely.\n"
 msgstr "Async logs volledig ontvangen.\n"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:396
+#: libs/s25main/ingameWindows/iwAction.cpp:356
 msgid "Attack not possible."
 msgstr "Aanval niet mogelijk."
 
-#: libs/s25main/ingameWindows/iwAction.cpp:323
-#: libs/s25main/ingameWindows/iwAction.cpp:331
+#: libs/s25main/ingameWindows/iwAction.cpp:281
+#: libs/s25main/ingameWindows/iwAction.cpp:289
 msgid "Attack options"
 msgstr "Aanvalsopties"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:425
+#: libs/s25main/ingameWindows/iwAction.cpp:386
 msgid "Attack!"
 msgstr "Aanvallen!"
 
-#: libs/s25main/GameManager.cpp:74
+#: libs/s25main/GameManager.cpp:75
 msgid "Audio driver couldn't be loaded!\n"
 msgstr "Geluidsbesturingsprogramma kon niet worden geladen!\n"
 
@@ -549,8 +569,8 @@ msgstr "Geluidsbesturingsprogramma kon niet worden geladen!\n"
 msgid "Author"
 msgstr "Auteur"
 
-#: libs/s25main/network/GameClient.cpp:1307
-#: libs/s25main/network/GameClient.cpp:1309
+#: libs/s25main/network/GameClient.cpp:1330
+#: libs/s25main/network/GameClient.cpp:1332
 msgid "Auto-Save"
 msgstr "Automatisch opslaan"
 
@@ -562,15 +582,15 @@ msgstr "Sla automatisch op elke:"
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
 msgstr "Sloop automatisch verzamelgebouwen, zoals een mijn, als het is uitgeput."
 
-#: libs/s25main/gameTypes/GoodTypes.h:76
+#: libs/s25main/gameData/GoodConsts.cpp:25
 msgid "Axe"
 msgstr "Bijl"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:168
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:171
 msgid "BQ check disabled"
 msgstr "BQ check uitgeschakeld"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:171
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:174
 msgid "BQ check every %1%ms"
 msgstr "BA check elke %1%ms"
 
@@ -578,18 +598,18 @@ msgstr "BA check elke %1%ms"
 msgid "Babylonians"
 msgstr "Babyloniërs"
 
-#: libs/s25main/desktops/dskCredits.cpp:50
+#: libs/s25main/desktops/dskCredits.cpp:59
 #: libs/s25main/desktops/dskDirectIP.cpp:35
-#: libs/s25main/desktops/dskIntro.cpp:33 libs/s25main/desktops/dskLAN.cpp:52
-#: libs/s25main/desktops/dskLobby.cpp:49
+#: libs/s25main/desktops/dskIntro.cpp:33 libs/s25main/desktops/dskLAN.cpp:53
+#: libs/s25main/desktops/dskLobby.cpp:50
 #: libs/s25main/desktops/dskMultiPlayer.cpp:44
 #: libs/s25main/desktops/dskOptions.cpp:71
 #: libs/s25main/desktops/dskSelectMap.cpp:98
 #: libs/s25main/desktops/dskSinglePlayer.cpp:62
-#: libs/s25main/desktops/dskTextureTest.cpp:49
+#: libs/s25main/desktops/dskTextureTest.cpp:48
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:72
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:65
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:63
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:65
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:57
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:74
 msgid "Back"
@@ -599,37 +619,37 @@ msgstr "Terug"
 msgid "Baker"
 msgstr "Bakker"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:54
+#: libs/s25main/gameData/BuildingConsts.cpp:55
 msgid "Bakery"
 msgstr "Bakker"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:23
+#: libs/s25main/gameData/BuildingConsts.cpp:24
 msgid "Barracks"
 msgstr "Kazerne"
 
-#: libs/s25main/gameTypes/GoodTypes.h:73
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:68
+#: libs/s25main/gameData/GoodConsts.cpp:22
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:69
 msgid "Beer"
 msgstr "Bier"
 
-#: libs/s25main/gameTypes/GoodTypes.h:96
+#: libs/s25main/gameData/GoodConsts.cpp:45
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:61
 msgid "Boards"
 msgstr "Planken"
 
-#: libs/s25main/gameTypes/GoodTypes.h:88
+#: libs/s25main/gameData/GoodConsts.cpp:37
 msgid "Boat"
 msgstr "Boot"
 
-#: libs/s25main/gameData/JobConsts.cpp:62
+#: libs/s25main/gameData/JobConsts.cpp:64
 msgid "Boat carrier"
 msgstr "Bootdrager"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:85
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:87
 msgid "Boats"
 msgstr "Boten"
 
-#: libs/s25main/Loader.cpp:1028
+#: libs/s25main/resources/ArchiveLoader.cpp:69
 #, c-format
 msgid "Bob-like file contained multiple text entries: %s\n"
 msgstr "Bob-achtige bestand bevatte meerdere tekst inzendingen: %s\n"
@@ -638,16 +658,16 @@ msgstr "Bob-achtige bestand bevatte meerdere tekst inzendingen: %s\n"
 msgid "Border areas"
 msgstr "Grensgebieden"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:48
-#: libs/s25main/ingameWindows/iwTransport.cpp:47
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:51
+#: libs/s25main/ingameWindows/iwTransport.cpp:49
 msgid "Bottom"
 msgstr "Bodem"
 
-#: libs/s25main/gameTypes/GoodTypes.h:87
+#: libs/s25main/gameData/GoodConsts.cpp:36
 msgid "Bow"
 msgstr "Boog"
 
-#: libs/s25main/gameTypes/GoodTypes.h:93
+#: libs/s25main/gameData/GoodConsts.cpp:42
 msgid "Bread"
 msgstr "Brood"
 
@@ -655,18 +675,18 @@ msgstr "Brood"
 msgid "Brewer"
 msgstr "Bierbrouwer"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:45
+#: libs/s25main/gameData/BuildingConsts.cpp:46
 msgid "Brewery"
 msgstr "Bierbrouwerij"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:250
-#: libs/s25main/ingameWindows/iwAction.cpp:262
-#: libs/s25main/ingameWindows/iwAction.cpp:276
-#: libs/s25main/ingameWindows/iwAction.cpp:282
+#: libs/s25main/ingameWindows/iwAction.cpp:206
+#: libs/s25main/ingameWindows/iwAction.cpp:218
+#: libs/s25main/ingameWindows/iwAction.cpp:232
+#: libs/s25main/ingameWindows/iwAction.cpp:238
 msgid "Build road"
 msgstr "Leg weg aan"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:264
+#: libs/s25main/ingameWindows/iwAction.cpp:220
 msgid "Build waterway"
 msgstr "Leg waterweg aan"
 
@@ -674,13 +694,13 @@ msgstr "Leg waterweg aan"
 msgid "Builder"
 msgstr "Bouwer"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:30
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:77
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:32
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:84
 msgid "Building sequence"
 msgstr "Bouw volgorde"
 
-#: libs/s25main/ingameWindows/iwBuildings.cpp:60
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:62
+#: libs/s25main/ingameWindows/iwBuildings.cpp:64
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:66
 #: libs/s25main/ingameWindows/iwStatistics.cpp:127
 #: libs/s25main/ingameWindows/iwStatistics.cpp:222
 msgid "Buildings"
@@ -690,8 +710,8 @@ msgstr "Gebouwen"
 msgid "Butcher"
 msgstr "Slager"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:254
-#: libs/s25main/ingameWindows/iwAction.cpp:268
+#: libs/s25main/ingameWindows/iwAction.cpp:210
+#: libs/s25main/ingameWindows/iwAction.cpp:224
 msgid "Call in geologist"
 msgstr "Roep geoloog op"
 
@@ -700,8 +720,8 @@ msgstr "Roep geoloog op"
 msgid "Campaign"
 msgstr "Campagne"
 
-#: libs/s25main/ingameWindows/iwMsgbox.cpp:88
-#: libs/s25main/ingameWindows/iwMsgbox.cpp:101
+#: libs/s25main/ingameWindows/iwMsgbox.cpp:89
+#: libs/s25main/ingameWindows/iwMsgbox.cpp:102
 msgid "Cancel"
 msgstr "Annuleer"
 
@@ -710,11 +730,11 @@ msgstr "Annuleer"
 msgid "Cancel expedition"
 msgstr "Expeditie afbreken"
 
-#: libs/s25main/desktops/dskHostGame.cpp:861
+#: libs/s25main/desktops/dskHostGame.cpp:899
 msgid "Cancel start"
 msgstr "Breek start af"
 
-#: libs/s25main/EventManager.cpp:184
+#: libs/s25main/EventManager.cpp:185
 msgid "Cannot deserialize event manager when there are still events active!"
 msgstr "Kan de eventmanager niet uitschakelen wanneer er nog evenementen actief zijn!"
 
@@ -722,7 +742,7 @@ msgstr "Kan de eventmanager niet uitschakelen wanneer er nog evenementen actief 
 msgid "Carpenter"
 msgstr "Timmerman"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:38
+#: libs/s25main/gameData/BuildingConsts.cpp:39
 msgid "Catapult"
 msgstr "Katapult"
 
@@ -730,7 +750,7 @@ msgstr "Katapult"
 msgid "Center of country"
 msgstr "Midden van land"
 
-#: libs/s25main/desktops/dskHostGame.cpp:182
+#: libs/s25main/desktops/dskHostGame.cpp:186
 msgid "Change Settings..."
 msgstr "Instellingen wijzigen..."
 
@@ -786,12 +806,12 @@ msgstr ""
 msgid "Changes the ship movement speed"
 msgstr "Verandert de snelheid van schepen"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:49
-#: libs/s25main/gameData/JobConsts.cpp:63
+#: libs/s25main/gameData/BuildingConsts.cpp:50
+#: libs/s25main/gameData/JobConsts.cpp:65
 msgid "Charburner"
 msgstr "Kolenbrander"
 
-#: libs/s25main/ingameWindows/iwChat.cpp:28
+#: libs/s25main/ingameWindows/iwChat.cpp:31
 msgid "Chat Window"
 msgstr "Gespreksvenster"
 
@@ -803,7 +823,7 @@ msgstr "Wereld controleren..."
 msgid "Checking Password..."
 msgstr "Wachtwoord controleren..."
 
-#: libs/s25main/desktops/dskHostGame.cpp:192
+#: libs/s25main/desktops/dskHostGame.cpp:197
 msgid "Classic (Settlers 2)"
 msgstr "Klassiek (Settlers 2)"
 
@@ -813,37 +833,33 @@ msgstr "Klassiek (Settlers 2)"
 msgid "Clear"
 msgstr "Wissen"
 
-#: libs/s25main/gameTypes/GoodTypes.h:85
+#: libs/s25main/gameData/GoodConsts.cpp:34
 msgid "Cleaver"
 msgstr "Hakbijl"
-
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:83
-msgid "Close"
-msgstr "Afsluiten"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:60
 msgid "Close Without Saving"
 msgstr "Afsluiten zonder opslaan"
 
-#: libs/s25main/desktops/dskHostGame.cpp:353
+#: libs/s25main/desktops/dskHostGame.cpp:361
 msgid "Closed"
 msgstr "Gesloten"
 
-#: libs/s25main/gameTypes/GoodTypes.h:104
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:70
+#: libs/s25main/gameData/GoodConsts.cpp:53
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:71
 msgid "Coal"
 msgstr "Steenkool"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:33
+#: libs/s25main/gameData/BuildingConsts.cpp:34
 msgid "Coal mine"
 msgstr "Steenkoolmijn"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:98
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:86
 msgid "Coal:"
 msgstr "Steenkool:"
 
-#: libs/s25main/gameTypes/GoodTypes.h:101
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:80
+#: libs/s25main/gameData/GoodConsts.cpp:50
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:81
 msgid "Coins"
 msgstr "Munten"
 
@@ -876,11 +892,11 @@ msgstr "Het bestelde aantal gereedschappen is voltooid."
 msgid "Computer %u"
 msgstr "Computer %u"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:254
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:253
 msgid "Confirm"
 msgstr "Bevestigen"
 
-#: libs/s25main/desktops/dskLAN.cpp:50 libs/s25main/desktops/dskLobby.cpp:51
+#: libs/s25main/desktops/dskLAN.cpp:51 libs/s25main/desktops/dskLobby.cpp:52
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:69
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:93
 msgid "Connect"
@@ -900,21 +916,17 @@ msgstr "Verbinden met Host..."
 msgid "Connection failed!"
 msgstr "Verbinding mislukt!"
 
-#: libs/s25main/desktops/dskHostGame.cpp:208
+#: libs/s25main/desktops/dskHostGame.cpp:215
 msgid "Conquer 3/4 of map"
 msgstr "Verover 3/4 van de wereld"
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:220
+#: libs/s25main/ingameWindows/iwDistribution.cpp:221
 msgid "Construction"
 msgstr "Constructie"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:125
+#: libs/s25main/desktops/dskGameInterface.cpp:126
 msgid "Construction aid mode"
 msgstr "Constructie-helpmodus"
-
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:66
-msgid "Continent"
-msgstr "Continent"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:121
 msgid "Continents"
@@ -929,7 +941,7 @@ msgstr "Doorgaan"
 msgid "Continue game"
 msgstr "Spel voortzetten"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:236
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:235
 msgid "Contract type:"
 msgstr "Type contract:"
 
@@ -945,16 +957,16 @@ msgstr "Zet om in graniet"
 msgid "Convert to iron ore"
 msgstr "Zet om in ijzererts"
 
-#: libs/s25main/Loader.cpp:1115
+#: libs/s25main/resources/ArchiveLoader.cpp:115
 #, c-format
 msgid "Could not determine type of path %s\n"
 msgstr "Kon het pad niet bepalen %s\n"
 
-#: libs/s25main/desktops/dskHostGame.cpp:238
+#: libs/s25main/desktops/dskHostGame.cpp:246
 msgid "Could not load map:\n"
 msgstr "Kon de map niet laden:\n"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:246
+#: libs/s25main/desktops/dskSelectMap.cpp:247
 msgid ""
 "Could not load map:\n"
 "%1%\n"
@@ -969,16 +981,16 @@ msgstr ""
 msgid "Create Game"
 msgstr "Nieuw spel aanmaken"
 
-#: libs/s25main/desktops/dskCredits.cpp:55
-#: libs/s25main/desktops/dskMainMenu.cpp:67
+#: libs/s25main/desktops/dskCredits.cpp:61
+#: libs/s25main/desktops/dskMainMenu.cpp:66
 msgid "Credits"
 msgstr "Aftiteling"
 
-#: libs/s25main/gameTypes/GoodTypes.h:80
+#: libs/s25main/gameData/GoodConsts.cpp:29
 msgid "Crucible"
 msgstr "Smeltkroes"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:319
+#: libs/s25main/desktops/dskGameInterface.cpp:320
 #, c-format
 msgid "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
 msgstr "Actuele GF: %u / GF-duur: %u ms / NWF-duur: %u gf (%u ms) / Ping: %u ms"
@@ -1001,7 +1013,7 @@ msgstr ""
 "\n"
 "\"Bondgenoten\" is van toepassing op teamleden en op bondgenoten bij een verdrag."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:150
+#: libs/s25main/gameData/BuildingConsts.cpp:151
 msgid "Deep within the mountains, miners dig for iron ore. They will obviously need a lot of food for the strenuous work."
 msgstr "Diep in de bergen, zijn mijnwerkers aan het graven voor ijzererts. Dit neemt duidelijk veel voedsel in beslag voor het zware werk."
 
@@ -1009,11 +1021,11 @@ msgstr "Diep in de bergen, zijn mijnwerkers aan het graven voor ijzererts. Dit n
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:35
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:45
 #: libs/s25main/ingameWindows/iwAddons.cpp:63
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:61
-#: libs/s25main/ingameWindows/iwDistribution.cpp:87
-#: libs/s25main/ingameWindows/iwMilitary.cpp:59
-#: libs/s25main/ingameWindows/iwTools.cpp:78
-#: libs/s25main/ingameWindows/iwTransport.cpp:39
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:66
+#: libs/s25main/ingameWindows/iwDistribution.cpp:88
+#: libs/s25main/ingameWindows/iwMilitary.cpp:60
+#: libs/s25main/ingameWindows/iwTools.cpp:79
+#: libs/s25main/ingameWindows/iwTransport.cpp:40
 msgid "Default"
 msgstr "Standaard"
 
@@ -1022,7 +1034,7 @@ msgstr "Standaard"
 msgid "Delete Invalid (%u)"
 msgstr "Verwijder Invalide (%u)"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:91
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:94
 msgid "Delete all"
 msgstr "Alles verwijderen"
 
@@ -1035,11 +1047,11 @@ msgstr "Selectie verwijderen"
 msgid "Demolish building when out of resources"
 msgstr "Sloop gebouwen wanneer ze zijn uitgeput"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:284
+#: libs/s25main/ingameWindows/iwAction.cpp:240
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:105
-#: libs/s25main/ingameWindows/iwBuilding.cpp:76
-#: libs/s25main/ingameWindows/iwBuildingSite.cpp:45
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:59
+#: libs/s25main/ingameWindows/iwBuilding.cpp:70
+#: libs/s25main/ingameWindows/iwBuildingSite.cpp:46
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:60
 msgid "Demolish house"
 msgstr "Sloop huis"
 
@@ -1047,19 +1059,19 @@ msgstr "Sloop huis"
 msgid "Demolish?"
 msgstr "Slopen?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:237
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:235
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Slopen is niet toegestaan omdat het gebouw zich in het grensgebied bevindt!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:236
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:234
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "Slopen is niet toegestaan omdat het gebouw wordt aangevallen!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:241
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:238
 msgid "Demolition not possible"
 msgstr "Slopen niet mogelijk"
 
-#: libs/s25main/ingameWindows/iwSurrender.cpp:31
+#: libs/s25main/ingameWindows/iwSurrender.cpp:32
 msgid "Destroy all buildings and surrender"
 msgstr "Vernietig alle gebouwen en geef over"
 
@@ -1067,29 +1079,19 @@ msgstr "Vernietig alle gebouwen en geef over"
 msgid "Diary"
 msgstr "Dagboek"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:310
-#: libs/s25main/ingameWindows/iwAction.cpp:318
+#: libs/s25main/ingameWindows/iwAction.cpp:267
+#: libs/s25main/ingameWindows/iwAction.cpp:276
 msgid "Dig up road"
 msgstr "Breek weg af"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:59
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:80
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:88
 msgid "Diplomacy"
 msgstr "Diplomatie"
 
 #: libs/s25main/desktops/dskMultiPlayer.cpp:42
 msgid "Direct IP"
 msgstr "Direct IP"
-
-#: libs/s25main/Loader.cpp:186
-#, c-format
-msgid "Directory does not exist: %s"
-msgstr "Bibliotheek bestaat niet: %s"
-
-#: libs/s25main/Loader.cpp:1166
-#, c-format
-msgid "Directory does not exist: %s\n"
-msgstr "Map bestaat niet: %s\n"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:35
 msgid "Disable"
@@ -1107,7 +1109,7 @@ msgstr "Munten standaard uitschakelen"
 msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr "Schakel het slopen van militaire gebouwen uit als ze worden aangevallen of dicht bij grenzen staan."
 
-#: libs/s25main/desktops/dskOptions.cpp:302
+#: libs/s25main/desktops/dskOptions.cpp:311
 #: libs/s25main/ingameWindows/iwSave.cpp:143
 msgid "Disabled"
 msgstr "Gedeactiveerd"
@@ -1116,7 +1118,7 @@ msgstr "Gedeactiveerd"
 msgid "Disallow change"
 msgstr "Verandering verbieden"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:342
+#: libs/s25main/ingameWindows/iwAction.cpp:300
 msgid "Display options"
 msgstr "Weergaveopties"
 
@@ -1124,16 +1126,16 @@ msgstr "Weergaveopties"
 msgid "Display the hitpoints of units in military buildings."
 msgstr "Toon de hitpoints van eenheden in militaire gebouwen."
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:48
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:52
+#: libs/s25main/ingameWindows/iwDistribution.cpp:49
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:53
 msgid "Distribution of goods"
 msgstr "Goederenverdeling"
 
-#: libs/s25main/desktops/dskHostGame.cpp:699
+#: libs/s25main/desktops/dskHostGame.cpp:710
 msgid "Don't forget to check the addon configuration!"
 msgstr "Vergeet niet de uitbreidingsopties te controleren!"
 
-#: libs/s25main/desktops/dskOptions.cpp:183
+#: libs/s25main/desktops/dskOptions.cpp:188
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
@@ -1141,11 +1143,11 @@ msgstr ""
 "Verplaats de cursor niet automatisch.\n"
 "Handig voor multiplayer met gesplitst scherm / dubbele muis (zie wiki)"
 
-#: libs/s25main/ingameWindows/iwSurrender.cpp:33
+#: libs/s25main/ingameWindows/iwSurrender.cpp:35
 msgid "Don't surrender"
 msgstr "Niet overgeven"
 
-#: libs/s25main/desktops/dskCredits.cpp:244
+#: libs/s25main/desktops/dskCredits.cpp:257
 msgid "Donators"
 msgstr "Donateurs"
 
@@ -1153,16 +1155,16 @@ msgstr "Donateurs"
 msgid "Donkey breeder"
 msgstr "Ezelfokker"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:60
+#: libs/s25main/gameData/BuildingConsts.cpp:61
 msgid "Donkey breeding"
 msgstr "Ezelsfokker"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:46
-#: libs/s25main/ingameWindows/iwTransport.cpp:45
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:48
+#: libs/s25main/ingameWindows/iwTransport.cpp:46
 msgid "Down"
 msgstr "Omlaag"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:117
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:120
 msgid "Downwards"
 msgstr "Naar beneden"
 
@@ -1171,7 +1173,7 @@ msgstr "Naar beneden"
 msgid "Dummy %u"
 msgstr "Dummy %u"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:240
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:239
 msgid "Duration:"
 msgstr "Duur:"
 
@@ -1184,15 +1186,37 @@ msgstr "Duur: %d GF (%s)"
 msgid "Duration: Forever"
 msgstr "Duur: Eeuwig"
 
-#: libs/s25main/desktops/dskOptions.cpp:298
+#: libs/s25main/desktops/dskOptions.cpp:307
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr "Dynamisch (Limiteert de framerate van de monitor, werkt met de meeste videokaarten)"
+
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:94
+msgid "Economic Progress"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwEconomicProgress.cpp:47
+msgid "Economic progress"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:77
 msgid "Economy"
 msgstr "Economie"
 
-#: libs/s25main/desktops/dskOptions.cpp:251
+#: libs/s25main/EconomyModeHandler.cpp:80
+msgid "Economy Mode: Collect as much as you can of the following good types: "
+msgstr ""
+
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:34
+msgid "Economy Mode: Game Length"
+msgstr ""
+
+#: libs/s25main/desktops/dskHostGame.cpp:217
+#: libs/s25main/desktops/dskHostGame.cpp:1070
+#, fuzzy
+msgid "Economy mode"
+msgstr "Economie"
+
+#: libs/s25main/desktops/dskOptions.cpp:258
 msgid "Effects"
 msgstr "Effecten"
 
@@ -1220,8 +1244,8 @@ msgstr "Kolenbrander inschakelen"
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
 msgstr "Maakt extra dingen mogelijk voor het debuggen van asyncs. Zet het niet aan behalve als je weet wat je aan het doen bent!"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:112
-#: libs/s25main/ingameWindows/iwVictory.cpp:59
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:114
+#: libs/s25main/ingameWindows/iwVictory.cpp:60
 msgid "End game"
 msgstr "Beëindig spel"
 
@@ -1233,7 +1257,7 @@ msgstr "Spel beëindigen?"
 msgid "End of game"
 msgstr "Einde van het spel"
 
-#: libs/s25main/ingameWindows/iwChat.cpp:40
+#: libs/s25main/ingameWindows/iwChat.cpp:46
 msgid "Enemies"
 msgstr "Vijanden"
 
@@ -1245,59 +1269,59 @@ msgstr "Vijandelijke havens blokkeren"
 msgid "Enemy harbors don't block"
 msgstr "Vijandelijke havens blokkeren niet"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:243
-#: libs/s25main/ingameWindows/iwAction.cpp:293
-#: libs/s25main/ingameWindows/iwAction.cpp:304
+#: libs/s25main/ingameWindows/iwAction.cpp:199
+#: libs/s25main/ingameWindows/iwAction.cpp:249
+#: libs/s25main/ingameWindows/iwAction.cpp:261
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:40
 msgid "Erect flag"
 msgstr "Zet vlag op"
 
 #: libs/s25client/s25client.cpp:133 libs/s25client/s25client.cpp:151
-#: libs/s25main/desktops/dskCredits.cpp:277
-#: libs/s25main/desktops/dskCredits.cpp:287
-#: libs/s25main/desktops/dskGameLoader.cpp:146
+#: libs/s25main/desktops/dskCredits.cpp:290
+#: libs/s25main/desktops/dskCredits.cpp:301
+#: libs/s25main/desktops/dskGameLoader.cpp:149
 #: libs/s25main/desktops/dskHostGame.cpp:91
 #: libs/s25main/desktops/dskHostGame.cpp:97
-#: libs/s25main/desktops/dskHostGame.cpp:238
-#: libs/s25main/desktops/dskHostGame.cpp:326
-#: libs/s25main/desktops/dskHostGame.cpp:724
-#: libs/s25main/desktops/dskHostGame.cpp:998
-#: libs/s25main/desktops/dskHostGame.cpp:1006
-#: libs/s25main/desktops/dskLobby.cpp:276
-#: libs/s25main/desktops/dskOptions.cpp:538
-#: libs/s25main/desktops/dskSelectMap.cpp:186
+#: libs/s25main/desktops/dskHostGame.cpp:246
+#: libs/s25main/desktops/dskHostGame.cpp:334
+#: libs/s25main/desktops/dskHostGame.cpp:735
+#: libs/s25main/desktops/dskHostGame.cpp:1035
+#: libs/s25main/desktops/dskHostGame.cpp:1045
+#: libs/s25main/desktops/dskLobby.cpp:277
+#: libs/s25main/desktops/dskOptions.cpp:546
+#: libs/s25main/desktops/dskSelectMap.cpp:187
 #: libs/s25main/desktops/dskSelectMap.cpp:249
-#: libs/s25main/desktops/dskSelectMap.cpp:418
-#: libs/s25main/desktops/dskSelectMap.cpp:426
-#: libs/s25main/desktops/dskSelectMap.cpp:438
-#: libs/s25main/desktops/dskSinglePlayer.cpp:109
-#: libs/s25main/desktops/dskSinglePlayer.cpp:112
-#: libs/s25main/desktops/dskTextureTest.cpp:61
+#: libs/s25main/desktops/dskSelectMap.cpp:413
+#: libs/s25main/desktops/dskSelectMap.cpp:423
+#: libs/s25main/desktops/dskSelectMap.cpp:439
+#: libs/s25main/desktops/dskSinglePlayer.cpp:108
+#: libs/s25main/desktops/dskSinglePlayer.cpp:113
+#: libs/s25main/desktops/dskTextureTest.cpp:59
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:183
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:177
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:274
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:355
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:388
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:405
-#: libs/s25main/network/GameServer.cpp:1495
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:181
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:278
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:359
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:392
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:409
+#: libs/s25main/network/GameServer.cpp:1494
 msgid "Error"
 msgstr "Foutmelding"
 
-#: libs/s25main/network/GameClient.cpp:1444
+#: libs/s25main/network/GameClient.cpp:1467
 msgid "Error decompressing lua file"
 msgstr "Fout bij het decomprimeren van het lua-script"
 
-#: libs/s25main/network/GameClient.cpp:1435
+#: libs/s25main/network/GameClient.cpp:1458
 msgid "Error decompressing map file"
 msgstr "Fout bij het decomprimeren van wereldbestand"
 
-#: libs/s25main/network/GameClient.cpp:1280
+#: libs/s25main/network/GameClient.cpp:1287
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
 msgstr "Fout tijdens het uitvoeren van het lua-script: %1 Spel gestopt!"
 
-#: libs/s25main/network/GameClient.cpp:1463
+#: libs/s25main/network/GameClient.cpp:1486
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr "Fout bij het laden van de herhaling: %s\n"
@@ -1318,17 +1342,22 @@ msgstr "Fout: "
 msgid "Error: %1%\n"
 msgstr "Foutmelding: %1%\n"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:252
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:251
 msgid "Eternal"
 msgstr "Eeuwig"
 
-#: libs/s25main/EventManager.cpp:171
+#: libs/s25main/EventManager.cpp:172
 msgid "Event count mismatch. Found events: %1%. Expected: %2%.\n"
 msgstr "Verkeerde gebeurtenis combinatie. Gevonden gebeurtenissen: %1%. Verwachtte: %2%.\n"
 
-#: libs/s25main/EventManager.cpp:195
+#: libs/s25main/EventManager.cpp:196
 msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 msgstr "Verkeerde gebeurtenis combinatie. Gelezen gebeurtenissen: %1%. Verwachtte: %2%.\n"
+
+#: libs/s25main/ingameWindows/iwSave.cpp:152
+#, fuzzy
+msgid "Every GF"
+msgstr "Iedereen"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:35
 msgid "Everyone"
@@ -1350,7 +1379,7 @@ msgstr "Expeditie"
 msgid "Exploration expedition"
 msgstr "Verkenningsexpeditie"
 
-#: libs/s25main/desktops/dskHostGame.cpp:189
+#: libs/s25main/desktops/dskHostGame.cpp:193
 msgid "Exploration:"
 msgstr "Verkenning:"
 
@@ -1362,16 +1391,16 @@ msgstr ""
 "Kan willekeurige wereld niet genereren.\n"
 "Reden: "
 
-#: libs/s25main/desktops/dskGameLoader.cpp:123
+#: libs/s25main/desktops/dskGameLoader.cpp:125
 msgid "Failed to init GUI: "
 msgstr "Mislukt om de GUI te initiëren: "
 
-#: libs/s25main/Loader.cpp:475
+#: libs/s25main/Loader.cpp:424 libs/s25main/Loader.cpp:439
 #, c-format
 msgid "Failed to load %s\n"
 msgstr "Kon het volgende niet laden %s\n"
 
-#: libs/s25main/desktops/dskCredits.cpp:277
+#: libs/s25main/desktops/dskCredits.cpp:290
 msgid "Failed to load game data"
 msgstr "Laden van speldata niet gelukt"
 
@@ -1380,8 +1409,8 @@ msgstr "Laden van speldata niet gelukt"
 msgid "Failed to load game data!"
 msgstr "Laden van game data mislukt!"
 
-#: libs/s25main/desktops/dskCredits.cpp:287
-#: libs/s25main/desktops/dskGameLoader.cpp:108
+#: libs/s25main/desktops/dskCredits.cpp:301
+#: libs/s25main/desktops/dskGameLoader.cpp:110
 msgid "Failed to load game resources"
 msgstr "Laden van spelbestanden niet gelukt."
 
@@ -1397,11 +1426,11 @@ msgstr "Het laden van het bestand lua '%1%' is mislukt\n"
 msgid "Failed to load lua state!"
 msgstr "Kon de lua-state niet laden!"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:459
+#: libs/s25main/desktops/dskSelectMap.cpp:460
 msgid "Failed to load map %1%: %2%\n"
 msgstr "Laden van de wereld mislukt %1%: %2%\n"
 
-#: libs/s25main/Loader.cpp:998
+#: libs/s25main/resources/ArchiveLoader.cpp:159
 msgid "Failed to merge entry %1%. Archive expected!\n"
 msgstr "De input kan niet worden samengevoegd %1%. Archief verwacht!\n"
 
@@ -1409,7 +1438,12 @@ msgstr "De input kan niet worden samengevoegd %1%. Archief verwacht!\n"
 msgid "Failed to read lua file '%1%'\n"
 msgstr "Het lezen van het bestand lua '%1%' is mislukt\n"
 
-#: libs/s25main/network/GameServer.cpp:1481
+#: libs/s25main/Loader.cpp:935 libs/s25main/Loader.cpp:954
+#, fuzzy
+msgid "Failed to resolve resource %1%\n"
+msgstr "Laden van spelbestanden niet gelukt."
+
+#: libs/s25main/network/GameServer.cpp:1480
 #, c-format
 msgid "Failed to save async log at \"%s\"\n"
 msgstr "Opslaan van async log mislukt op \"%s\"\n"
@@ -1418,11 +1452,7 @@ msgstr "Opslaan van async log mislukt op \"%s\"\n"
 msgid "Failed to save lua state!"
 msgstr "Kan lua-state niet opslaan!"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
-msgid "Far"
-msgstr "Ver"
-
-#: libs/s25main/gameData/BuildingConsts.cpp:59
+#: libs/s25main/gameData/BuildingConsts.cpp:60
 msgid "Farm"
 msgstr "Boerderij"
 
@@ -1431,7 +1461,7 @@ msgid "Farmer"
 msgstr "Boer"
 
 #: libs/s25main/addons/AddonShipSpeed.h:35
-#: libs/s25main/desktops/dskHostGame.cpp:226
+#: libs/s25main/desktops/dskHostGame.cpp:234
 msgid "Fast"
 msgstr "Snel"
 
@@ -1459,7 +1489,7 @@ msgstr "Bestand heeft een oude versie en kan niet worden gebruikt (versie: %1%, 
 msgid "File is not in a valid format!"
 msgstr "Bestand heeft geen geldig formaat!"
 
-#: libs/s25main/Loader.cpp:1111
+#: libs/s25main/resources/ArchiveLoader.cpp:113
 #, c-format
 msgid "File or directory does not exist: %s\n"
 msgstr "Bestand of map bestaat niet: %s\n"
@@ -1472,11 +1502,11 @@ msgstr "Bestand is gemaakt met een recenter programma en kan niet worden gebruik
 msgid "Filename"
 msgstr "Bestandsnaam"
 
-#: libs/s25main/desktops/dskCredits.cpp:110
+#: libs/s25main/desktops/dskCredits.cpp:121
 msgid "Finances"
 msgstr "Financiën"
 
-#: libs/s25main/gameTypes/GoodTypes.h:92
+#: libs/s25main/gameData/GoodConsts.cpp:41
 msgid "Fish"
 msgstr "Vis"
 
@@ -1484,19 +1514,19 @@ msgstr "Vis"
 msgid "Fisher"
 msgstr "Visser"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:40
+#: libs/s25main/gameData/BuildingConsts.cpp:41
 msgid "Fishery"
 msgstr "Visserij"
 
-#: libs/s25main/gameTypes/GoodTypes.h:91
+#: libs/s25main/gameData/GoodConsts.cpp:40
 msgid "Flour"
 msgstr "Meel"
 
-#: libs/s25main/desktops/dskHostGame.cpp:194
+#: libs/s25main/desktops/dskHostGame.cpp:199
 msgid "FoW - all explored"
 msgstr "OM - alles verkend"
 
-#: libs/s25main/desktops/dskHostGame.cpp:193
+#: libs/s25main/desktops/dskHostGame.cpp:198
 msgid "Fog of War"
 msgstr "Oorlogsmist"
 
@@ -1504,48 +1534,48 @@ msgstr "Oorlogsmist"
 msgid "Follow object"
 msgstr "Volg object"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:64
-#: libs/s25main/ingameWindows/iwTransport.cpp:63
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:65
+#: libs/s25main/ingameWindows/iwTransport.cpp:66
 msgid "Food"
 msgstr "Voedsel"
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:202
+#: libs/s25main/ingameWindows/iwDistribution.cpp:203
 msgid "Foodstuff"
 msgstr "Levensmiddel"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:42
+#: libs/s25main/gameData/BuildingConsts.cpp:43
 msgid "Forester"
 msgstr "Boswachter"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:31
+#: libs/s25main/gameData/BuildingConsts.cpp:32
 msgid "Fortress"
 msgstr "Kasteel"
 
-#: libs/s25main/figures/nofGeologist.cpp:455
+#: libs/s25main/figures/nofGeologist.cpp:466
 msgid "Found coal"
 msgstr "Steenkool gevonden"
 
-#: libs/s25main/ingameWindows/iwShip.cpp:61
+#: libs/s25main/ingameWindows/iwShip.cpp:65
 msgid "Found colony"
 msgstr "Kolonie gevonden"
 
-#: libs/s25main/figures/nofGeologist.cpp:454
+#: libs/s25main/figures/nofGeologist.cpp:465
 msgid "Found gold"
 msgstr "Goud gevonden"
 
-#: libs/s25main/figures/nofGeologist.cpp:456
+#: libs/s25main/figures/nofGeologist.cpp:467
 msgid "Found granite"
 msgstr "Graniet gevonden"
 
-#: libs/s25main/figures/nofGeologist.cpp:453
+#: libs/s25main/figures/nofGeologist.cpp:464
 msgid "Found iron ore"
 msgstr "Ijzererts gevonden"
 
-#: libs/s25main/figures/nofGeologist.cpp:457
+#: libs/s25main/figures/nofGeologist.cpp:468
 msgid "Found water"
 msgstr "Water gevonden"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:162
+#: libs/s25main/gameData/BuildingConsts.cpp:163
 msgid "From the lookout tower you can see far into previously unexplored lands."
 msgstr "Vanuit de uitkijktoren kunt u ver in onbekend gebied kijken."
 
@@ -1553,29 +1583,30 @@ msgstr "Vanuit de uitkijktoren kunt u ver in onbekend gebied kijken."
 msgid "Frontier Distance checks reachability"
 msgstr "Afstand tot de grens controleert de bereikbaarheid"
 
-#: libs/s25main/desktops/dskOptions.cpp:195
+#: libs/s25main/desktops/dskOptions.cpp:200
 #: libs/s25main/ingameWindows/iwSettings.cpp:42
 msgid "Fullscreen"
 msgstr "Volledig Scherm"
 
-#: libs/s25main/desktops/dskOptions.cpp:189
+#: libs/s25main/desktops/dskOptions.cpp:194
 #: libs/s25main/ingameWindows/iwSettings.cpp:35
 msgid "Fullscreen resolution:"
 msgstr "Resolutie bij volledig scherm:"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:87
-msgid "Furthest apart"
-msgstr "Zo ver mogelijk"
-
-#: libs/s25main/desktops/dskHostGame.cpp:148
+#: libs/s25main/desktops/dskHostGame.cpp:149
 msgid "Game Chat"
 msgstr "Game Chat"
 
-#: libs/s25main/desktops/dskHostGame.cpp:725
+#: libs/s25main/ingameWindows/iwSave.cpp:52
+#, fuzzy
+msgid "Game Time"
+msgstr "Spelmenu"
+
+#: libs/s25main/desktops/dskHostGame.cpp:736
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
 msgstr "Spel kan alleen beginnen zodra iedereen een unieke kleur heeft, iedereen gereed is en alle vrije plaatsen gesloten zijn."
 
-#: libs/s25main/desktops/dskGameLoader.cpp:112
+#: libs/s25main/desktops/dskGameLoader.cpp:114
 msgid "Game crate was picked and spread out..."
 msgstr "Spelkrat werd uitgekozen en verspreid..."
 
@@ -1583,11 +1614,11 @@ msgstr "Spelkrat werd uitgekozen en verspreid..."
 msgid "Game menu"
 msgstr "Spelmenu"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1151
+#: libs/s25main/desktops/dskGameInterface.cpp:1155
 msgid "Game was paused."
 msgstr "Spel werd gepauzeerd."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1168
+#: libs/s25main/desktops/dskGameInterface.cpp:1172
 msgid "Game was resumed."
 msgstr "Spel werd hervat."
 
@@ -1607,7 +1638,7 @@ msgstr "Generaal"
 msgid "General (4)"
 msgstr "Generaal (4)"
 
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:59
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:62
 msgid "General statistics"
 msgstr "Algemene statistieken"
 
@@ -1635,15 +1666,15 @@ msgstr "Krijg de materialen terug wanneer een gebouw wordt vernietigd."
 msgid "Given map or replay (%1%) does not exist!"
 msgstr "De gegeven wereld of herhaling (%1%) bestaat niet!"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:349
+#: libs/s25main/ingameWindows/iwAction.cpp:309
 msgid "Go to headquarters"
 msgstr "Ga naar hoofdkwartier"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:109
+#: libs/s25main/ingameWindows/iwBuilding.cpp:101
 msgid "Go to next building of same type"
 msgstr "Ga naar het volgende gebouw van hetzelfde type"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:71
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:72
 msgid "Go to next military building"
 msgstr "Ga naar volgende militaire gebouw"
 
@@ -1652,51 +1683,51 @@ msgid "Go to next warehouse"
 msgstr "Ga naar de volgende pakhuis"
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:89
-#: libs/s25main/ingameWindows/iwBuilding.cpp:93
-#: libs/s25main/ingameWindows/iwBuildingSite.cpp:48
-#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:39
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:64
+#: libs/s25main/ingameWindows/iwBuilding.cpp:88
+#: libs/s25main/ingameWindows/iwBuildingSite.cpp:50
+#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:41
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:66
 #: libs/s25main/ingameWindows/iwObservate.cpp:60
-#: libs/s25main/ingameWindows/iwShip.cpp:58
+#: libs/s25main/ingameWindows/iwShip.cpp:61
 msgid "Go to place"
 msgstr "Ga naar plek"
 
-#: libs/s25main/desktops/dskHostGame.cpp:205
+#: libs/s25main/desktops/dskHostGame.cpp:211
 msgid "Goals:"
 msgstr "Doelen:"
 
-#: libs/s25main/gameTypes/GoodTypes.h:102
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:76
+#: libs/s25main/gameData/GoodConsts.cpp:51
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwStatistics.cpp:135
 #: libs/s25main/ingameWindows/iwStatistics.cpp:238
 msgid "Gold"
 msgstr "Goud"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:62
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:63
 msgid "Gold delivery"
 msgstr "Goudlevering"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:35
+#: libs/s25main/gameData/BuildingConsts.cpp:36
 msgid "Gold mine"
 msgstr "Goudmijn"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:94
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
 msgid "Gold:"
 msgstr "Goud:"
 
-#: libs/s25main/desktops/dskHostGame.cpp:197
+#: libs/s25main/desktops/dskHostGame.cpp:202
 msgid "Goods at start:"
 msgstr "Goederen voor aanvang:"
 
-#: libs/s25main/gameTypes/GoodTypes.h:100
+#: libs/s25main/gameData/GoodConsts.cpp:49
 msgid "Grain"
 msgstr "Graan"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:228
+#: libs/s25main/gameData/BuildingConsts.cpp:229
 msgid "Grain and water are needed for rearing pigs. The meat thus obtained can then be processed by a butcher."
 msgstr "Graan en water zijn nodig voor het fokken van varkens. Het vlees dat hiermee verkregen wordt kan worden verwerkt door een slager."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:32
+#: libs/s25main/gameData/BuildingConsts.cpp:33
 msgid "Granite mine"
 msgstr "Granietmijn"
 
@@ -1704,7 +1735,7 @@ msgstr "Granietmijn"
 msgid "Granite mines will never be depleted."
 msgstr "Granietmijnen zullen nooit worden uitgeput."
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:100
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:88
 msgid "Granite:"
 msgstr "Graniet:"
 
@@ -1712,15 +1743,11 @@ msgstr "Graniet:"
 msgid "Graphics"
 msgstr "Grafisch"
 
-#: libs/s25main/desktops/dskOptions.cpp:210
+#: libs/s25main/desktops/dskOptions.cpp:216
 msgid "Graphics Driver"
 msgstr "Grafisch besturingsprogramma"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:67
-msgid "Greenland"
-msgstr "Groenland"
-
-#: libs/s25main/gameData/BuildingConsts.cpp:24
+#: libs/s25main/gameData/BuildingConsts.cpp:25
 msgid "Guardhouse"
 msgstr "Wachthuis"
 
@@ -1728,35 +1755,36 @@ msgstr "Wachthuis"
 msgid "Half cost recruits"
 msgstr "Rekruten kosten de helft"
 
-#: libs/s25main/gameTypes/GoodTypes.h:106
+#: libs/s25main/gameData/GoodConsts.cpp:55
 msgid "Ham"
 msgstr "Varken"
 
-#: libs/s25main/gameTypes/GoodTypes.h:75
+#: libs/s25main/gameData/GoodConsts.cpp:24
 msgid "Hammer"
 msgstr "Hamer"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:61
+#: libs/s25main/gameData/BuildingConsts.cpp:62
 #: libs/s25main/ingameWindows/iwHarborBuilding.cpp:29
 msgid "Harbor building"
 msgstr "Havengebouw"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:22
+#: libs/s25main/gameData/BuildingConsts.cpp:23
 #: libs/s25main/ingameWindows/iwHQ.cpp:28
 msgid "Headquarters"
 msgstr "Hoofdkwartier"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:74
+#: libs/s25main/ingameWindows/iwBuilding.cpp:67
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:43
-#: libs/s25main/ingameWindows/iwBuildings.cpp:85
-#: libs/s25main/ingameWindows/iwDistribution.cpp:84
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:88
+#: libs/s25main/ingameWindows/iwBuildings.cpp:86
+#: libs/s25main/ingameWindows/iwDistribution.cpp:85
+#: libs/s25main/ingameWindows/iwEconomicProgress.cpp:114
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:90
 #: libs/s25main/ingameWindows/iwMilitary.cpp:58
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:57
 #: libs/s25main/ingameWindows/iwStatistics.cpp:149
-#: libs/s25main/ingameWindows/iwTools.cpp:72
+#: libs/s25main/ingameWindows/iwTools.cpp:73
 #: libs/s25main/ingameWindows/iwTransport.cpp:36
-#: libs/s25main/ingameWindows/iwWares.cpp:146
+#: libs/s25main/ingameWindows/iwWares.cpp:151
 msgid "Help"
 msgstr "Help"
 
@@ -1764,11 +1792,11 @@ msgstr "Help"
 msgid "Helper"
 msgstr "Settler"
 
-#: libs/s25main/ingameWindows/iwWares.cpp:161
+#: libs/s25main/ingameWindows/iwWares.cpp:166
 msgid "Here you will find a list of your entire stores of merchandise and all the inhabitants of your realm."
 msgstr "Hier vindt u een lijst met uw volledige handelswaar en alle inwoners van uw rijk."
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:222
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:223
 msgid "Hi, I'm an artifical player and I'm not very good yet!"
 msgstr "Hallo, ik ben een kunstmatige speler en ik ben nog niet zo goed!"
 
@@ -1776,11 +1804,11 @@ msgstr "Hallo, ik ben een kunstmatige speler en ik ben nog niet zo goed!"
 msgid "Host:"
 msgstr "Host:"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:347
+#: libs/s25main/ingameWindows/iwAction.cpp:306
 msgid "House names"
 msgstr "Huisnamen"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:44
+#: libs/s25main/gameData/BuildingConsts.cpp:45
 msgid "Hunter"
 msgstr "Jager"
 
@@ -1788,7 +1816,7 @@ msgstr "Jager"
 msgid "Huntsman"
 msgstr "Jager"
 
-#: libs/s25main/desktops/dskLAN.cpp:57 libs/s25main/desktops/dskLobby.cpp:60
+#: libs/s25main/desktops/dskLAN.cpp:58 libs/s25main/desktops/dskLobby.cpp:61
 msgid "ID"
 msgstr "ID"
 
@@ -1796,14 +1824,14 @@ msgstr "ID"
 msgid "IP Address of Host:"
 msgstr "IP-Adres van Host:"
 
-#: libs/s25main/desktops/dskOptions.cpp:133
+#: libs/s25main/desktops/dskOptions.cpp:138
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:61
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:54
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:86
 msgid "IPv4"
 msgstr "IPv4"
 
-#: libs/s25main/desktops/dskOptions.cpp:132
+#: libs/s25main/desktops/dskOptions.cpp:137
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:62
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:55
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:87
@@ -1813,6 +1841,14 @@ msgstr "IPv6"
 #: libs/s25main/addons/AddonExhaustibleWater.h:31
 msgid "If Water is exhaustible wells will now dry out. If water everywhere is enabled, a geologist will not notify for water"
 msgstr "Als water uitputtelijk is, zullen waterputten gaan uitdrogen. Als water overal beschikbaar is, een geoloog zal u dan niet vertellen over water"
+
+#: libs/s25main/resources/ArchiveLocator.cpp:73
+msgid "Ignoring resource %1% in %2% because it is already found in %3%\n"
+msgstr ""
+
+#: libs/s25main/resources/ArchiveLocator.cpp:59
+msgid "Ignoring resource %1% in %2% because the name contains unsupported characters\n"
+msgstr ""
 
 #: libs/s25main/addons/AddonNoAlliedPush.h:12
 msgid "Improved Alliance"
@@ -1859,8 +1895,8 @@ msgstr "Interne testschermen voor ontwikkelaars"
 msgid "Internet Lobby"
 msgstr "Internet Lobby"
 
-#: libs/s25main/desktops/dskLobby.cpp:53
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:51
+#: libs/s25main/desktops/dskLobby.cpp:54
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:53
 msgid "Internet Ranking"
 msgstr "Internet Rangschikking"
 
@@ -1868,7 +1904,7 @@ msgstr "Internet Rangschikking"
 msgid "Interrupt road building"
 msgstr "Onderbreek wegenbouw"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:62
+#: libs/s25main/desktops/dskMainMenu.cpp:61
 msgid "Intro"
 msgstr "Intro"
 
@@ -1877,7 +1913,7 @@ msgid "Invalid API version!"
 msgstr "Ongeldige API versie!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:107
-#: libs/s25main/network/GameClient.cpp:1384
+#: libs/s25main/network/GameClient.cpp:1407
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr "Invalide herhaling %1%! Reden: %2%\n"
 
@@ -1893,7 +1929,7 @@ msgstr "Ongeldige opgeslagen spel %1%! Reden: %2%\n"
 msgid "Invalid end-id for lua data"
 msgstr "Ongeldige end-id voor lua-data"
 
-#: libs/s25main/EventManager.cpp:204
+#: libs/s25main/EventManager.cpp:205
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
 msgstr "Ongeldige gebeurtenis instantie id. Gevonden: %1%. Verwachtte minder dan %2%.\n"
 
@@ -1901,14 +1937,14 @@ msgstr "Ongeldige gebeurtenis instantie id. Gevonden: %1%. Verwachtte minder dan
 msgid "Invalid id for lua data"
 msgstr "Ongeldige id voor lua-data"
 
-#: libs/s25main/desktops/dskOptions.cpp:538
+#: libs/s25main/desktops/dskOptions.cpp:547
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:132
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:151
 msgid "Invalid port. The valid port-range is 1 to 65535!"
 msgstr "Ongeldig poort. Het geldige poortbereik is 1 tot 65535!"
 
-#: libs/s25main/gameTypes/GoodTypes.h:90
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:78
+#: libs/s25main/gameData/GoodConsts.cpp:39
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:79
 msgid "Iron"
 msgstr "Metaal"
 
@@ -1916,31 +1952,27 @@ msgstr "Metaal"
 msgid "Iron founder"
 msgstr "Ijzersmelter"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:34
+#: libs/s25main/gameData/BuildingConsts.cpp:35
 msgid "Iron mine"
 msgstr "Ijzermijn"
 
-#: libs/s25main/gameTypes/GoodTypes.h:103
+#: libs/s25main/gameData/GoodConsts.cpp:52
 msgid "Iron ore"
 msgstr "IJzererts"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:48
+#: libs/s25main/gameData/BuildingConsts.cpp:49
 msgid "Iron smelter"
 msgstr "Ijzersmelterij"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:96
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:84
 msgid "Iron:"
 msgstr "Ijzer:"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:74
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:75
 msgid "Ironore"
 msgstr "IJzererts"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:65
-msgid "Islands"
-msgstr "Eilanden"
-
-#: libs/s25main/gameData/BuildingConsts.cpp:275
+#: libs/s25main/gameData/BuildingConsts.cpp:276
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
 msgstr "Het is mogelijk om zowel kleine roeiboten als grote goederenschepen te bouwen in een scheepswerf. De benodigde planken worden behendig bewerkt door scheepsbouwers."
 
@@ -1953,7 +1985,7 @@ msgstr "Japanners"
 msgid "Join Game"
 msgstr "Deelnemen aan spel"
 
-#: libs/s25main/network/GameClient.cpp:1573
+#: libs/s25main/network/GameClient.cpp:1589
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr "Sprong voltooid (%1$.3g seconden)"
@@ -1962,22 +1994,27 @@ msgstr "Sprong voltooid (%1$.3g seconden)"
 msgid "Keep setting"
 msgstr "Behoud instelling"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:704
-#: libs/s25main/desktops/dskOptions.cpp:604
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:78
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:124
+#: libs/s25main/desktops/dskGameInterface.cpp:706
+#: libs/s25main/desktops/dskOptions.cpp:614
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:79
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:126
 msgid "Keyboard layout"
 msgstr "Toetsenbordindeling"
 
-#: libs/s25main/desktops/dskOptions.cpp:120
+#: libs/s25main/desktops/dskOptions.cpp:123
 msgid "Keyboard layout:"
 msgstr "Toetsenbord-indeling:"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:89
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:67
+#, fuzzy
+msgid "Land"
+msgstr "Landschap"
+
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:77
 msgid "Landscape"
 msgstr "Landschap"
 
-#: libs/s25main/desktops/dskOptions.cpp:101
+#: libs/s25main/desktops/dskOptions.cpp:104
 msgid "Language:"
 msgstr "Taal:"
 
@@ -1990,20 +2027,20 @@ msgstr "Duur"
 msgid "Less"
 msgstr "Minder"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:403
+#: libs/s25main/ingameWindows/iwAction.cpp:363
 #: libs/s25main/ingameWindows/iwMilitary.cpp:47
 msgid "Less attackers"
 msgstr "Minder aanvallers"
 
-#: libs/s25main/ingameWindows/iwTools.cpp:94
+#: libs/s25main/ingameWindows/iwTools.cpp:96
 msgid "Less often"
 msgstr "Minder vaak"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:120
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:124
 msgid "Less repeats"
 msgstr "Minder herhalingen"
 
-#: libs/s25main/desktops/dskOptions.cpp:199
+#: libs/s25main/desktops/dskOptions.cpp:205
 msgid "Limit Framerate:"
 msgstr "Framerate"
 
@@ -2055,7 +2092,7 @@ msgstr ""
 "Wachttoren: 2\n"
 "Kasteel: 1"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:81
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:82
 msgid "Load 'ReadMe' file"
 msgstr "Handleiding"
 
@@ -2063,7 +2100,7 @@ msgstr "Handleiding"
 msgid "Load game"
 msgstr "Laad spel"
 
-#: libs/s25main/ingameWindows/iwSave.cpp:182
+#: libs/s25main/ingameWindows/iwSave.cpp:194
 msgid "Load game!"
 msgstr "Laad spel!"
 
@@ -2084,17 +2121,12 @@ msgstr "Geladen videobesturingssysteem \"%1%\"\n"
 msgid "Loading \"%s\"\n"
 msgstr "Laden \"%s\"\n"
 
-#: libs/s25main/Loader.cpp:1147 libs/s25main/MusicPlayer.cpp:76
+#: libs/s25main/MusicPlayer.cpp:76 libs/s25main/resources/ArchiveLoader.cpp:84
 #, c-format
 msgid "Loading \"%s\": "
 msgstr "Laden \"%s\": "
 
-#: libs/s25main/Loader.cpp:1172
-#, c-format
-msgid "Loading LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI files from \"%s\"\n"
-msgstr "LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI bestanden laden van \"%s\"\n"
-
-#: libs/s25main/Loader.cpp:1117
+#: libs/s25main/resources/ArchiveLoader.cpp:96
 #, c-format
 msgid "Loading directory %s\n"
 msgstr "Map laden %s\n"
@@ -2103,15 +2135,15 @@ msgstr "Map laden %s\n"
 msgid "Loading game...\n"
 msgstr "Spel laden...\n"
 
-#: libs/s25main/desktops/dskHostGame.cpp:150
+#: libs/s25main/desktops/dskHostGame.cpp:151
 msgid "Lobby Chat"
 msgstr "Lobby Chat"
 
-#: libs/s25main/desktops/dskOptions.cpp:123
+#: libs/s25main/desktops/dskOptions.cpp:127
 msgid "Local Port:"
 msgstr "Lokale Port:"
 
-#: libs/s25main/desktops/dskHostGame.cpp:172
+#: libs/s25main/desktops/dskHostGame.cpp:174
 msgid "Lock teams:"
 msgstr "Sluit teams:"
 
@@ -2127,7 +2159,7 @@ msgstr "Lange termijn"
 msgid "Longer"
 msgstr "Langer"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:36
+#: libs/s25main/gameData/BuildingConsts.cpp:37
 msgid "Lookout tower"
 msgstr "Uitkijktoren"
 
@@ -2135,12 +2167,12 @@ msgstr "Uitkijktoren"
 msgid "Lookout-tower occupied"
 msgstr "Uitkijktoren bezet"
 
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:58
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:60
 msgid "Lost"
 msgstr "Verloren"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1182
-#: libs/s25main/desktops/dskLobby.cpp:276
+#: libs/s25main/desktops/dskGameInterface.cpp:1186
+#: libs/s25main/desktops/dskLobby.cpp:277
 msgid "Lost connection to lobby!"
 msgstr "Verbinding met lobby verloren!"
 
@@ -2148,11 +2180,11 @@ msgstr "Verbinding met lobby verloren!"
 msgid "Lost connection to server!"
 msgstr "Verbinding met de server is verbroken!"
 
-#: libs/s25main/world/GameWorldGame.cpp:483
+#: libs/s25main/world/GameWorldGame.cpp:484
 msgid "Lost land by this building"
 msgstr "Land verloren door dit gebouw"
 
-#: libs/s25main/desktops/dskHostGame.cpp:200
+#: libs/s25main/desktops/dskHostGame.cpp:206
 msgid "Low"
 msgstr "Weinig"
 
@@ -2161,7 +2193,7 @@ msgstr "Weinig"
 msgid "Lua error: %s\n"
 msgstr "Lua fout: %s\n"
 
-#: libs/s25main/lua/LuaInterfaceGameBase.cpp:66
+#: libs/s25main/lua/LuaInterfaceGameBase.cpp:67
 msgid "Lua script did not provide the function getRequiredLuaVersion()! It is probably outdated.\n"
 msgstr "Lua-script heeft de funtie getRequiredLuaVersion() niet voorzien! Het is waarschijnlijk verouderd.\n"
 
@@ -2174,7 +2206,7 @@ msgid "Lua script uses a different version and cannot be used. Map might not wor
 msgstr "Lua-script gebruikt een andere versie en kan niet worden gebruikt. Wereld werkt mogelijk niet zoals verwacht!"
 
 #: libs/s25main/desktops/dskHostGame.cpp:91
-#: libs/s25main/desktops/dskHostGame.cpp:326
+#: libs/s25main/desktops/dskHostGame.cpp:334
 msgid "Lua script was found but failed to load. Map might not work as expected!"
 msgstr "Lua-script is gevonden, maar kan niet worden geladen. Wereld werkt mogelijk niet zoals verwacht!"
 
@@ -2182,8 +2214,8 @@ msgstr "Lua-script is gevonden, maar kan niet worden geladen. Wereld werkt mogel
 msgid "Lua was disabled by the script itself\n"
 msgstr "Lua is uitgeschakeld door het script zelf\n"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:121
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:46
+#: libs/s25main/desktops/dskGameInterface.cpp:122
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:47
 msgid "Main selection"
 msgstr "Menu"
 
@@ -2196,12 +2228,12 @@ msgid "Manually upgrade your roads and directly build donkey roads."
 msgstr "Upgrade uw wegen handmatig en bouw direct ezelwegen."
 
 #: libs/s25main/desktops/dskGameInterface.cpp:119
-#: libs/s25main/desktops/dskLAN.cpp:59 libs/s25main/desktops/dskLobby.cpp:62
+#: libs/s25main/desktops/dskLAN.cpp:60 libs/s25main/desktops/dskLobby.cpp:63
 #: libs/s25main/ingameWindows/iwSave.cpp:50
 msgid "Map"
 msgstr "Wereld"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:157
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:160
 msgid "Map Debug"
 msgstr "Wereld debuggen"
 
@@ -2213,11 +2245,11 @@ msgstr "Wereld generator"
 msgid "Map Name:"
 msgstr "Naam wereld:"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:208
+#: libs/s25main/desktops/dskSelectMap.cpp:209
 msgid "Map has more than %1% players"
 msgstr "Wereld heeft meer dan %1% spelers"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:206
+#: libs/s25main/desktops/dskSelectMap.cpp:207
 msgid "Map is bigger than allowed size of %1% nodes"
 msgstr "Wereld is groter dan de toegestane grootte van node %1%"
 
@@ -2229,11 +2261,11 @@ msgstr "Wereld is ongeldig of lukte niet om correct te laden!"
 msgid "Map transmission was corrupt!"
 msgstr "Wereld overdragen is corrupt!"
 
-#: libs/s25main/desktops/dskGameLoader.cpp:94
+#: libs/s25main/desktops/dskGameLoader.cpp:96
 msgid "Map was loaded and pinned at the wall..."
 msgstr "Wereld werd geladen en op de muur geprikt..."
 
-#: libs/s25main/desktops/dskHostGame.cpp:247
+#: libs/s25main/desktops/dskHostGame.cpp:255
 #: libs/s25main/desktops/dskSelectMap.cpp:139
 msgid "Map: "
 msgstr "Wereld "
@@ -2242,8 +2274,8 @@ msgstr "Wereld "
 msgid "Mapfile: "
 msgstr "Wereldbestand: "
 
-#: libs/s25main/desktops/dskCredits.cpp:76
-#: libs/s25main/desktops/dskCredits.cpp:91
+#: libs/s25main/desktops/dskCredits.cpp:87
+#: libs/s25main/desktops/dskCredits.cpp:102
 msgid "Mapping"
 msgstr "In kaart brengen"
 
@@ -2255,17 +2287,13 @@ msgstr "Maximaal"
 msgid "Maximum strength"
 msgstr "Maximale kracht"
 
-#: libs/s25main/gameTypes/GoodTypes.h:105
+#: libs/s25main/gameData/GoodConsts.cpp:54
 msgid "Meat"
 msgstr "Vlees"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:198
+#: libs/s25main/gameData/BuildingConsts.cpp:199
 msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "Het vlees dat de jager verkrijgt wordt gebruikt om de mijnwerkers te voeden."
-
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:84
-msgid "Medium"
-msgstr "Gemiddeld"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:46
 msgid "Medium strength"
@@ -2281,7 +2309,7 @@ msgstr "Middelange termijn"
 msgid "Merchandise"
 msgstr "Handelswaar"
 
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:61
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:64
 msgid "Merchandise statistics"
 msgstr "Goederen statistieken"
 
@@ -2293,16 +2321,12 @@ msgstr "Bericht"
 msgid "Metalworker"
 msgstr "Metaalwerker"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:47
+#: libs/s25main/gameData/BuildingConsts.cpp:48
 msgid "Metalworks"
 msgstr "Metaalbewerker"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:68
-msgid "Migration"
-msgstr "Overzetten"
-
 #: libs/s25main/ingameWindows/iwAddons.cpp:74
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:70
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:76
 #: libs/s25main/ingameWindows/iwMilitary.cpp:33
 msgid "Military"
 msgstr "Krijgsmacht"
@@ -2319,7 +2343,7 @@ msgstr "Militaire Controle"
 msgid "Military Hitpoints"
 msgstr "Militaire levenspunten"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1002
+#: libs/s25main/buildings/nobMilitary.cpp:1005
 msgid "Military building captured"
 msgstr "Militair gebouw ingenomen"
 
@@ -2327,11 +2351,11 @@ msgstr "Militair gebouw ingenomen"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr "Militair gebouw geldt als interieur als een aanval permanent onmogelijk is. (Pad wordt geblokkeerd door terrein zoals zee, lava, etc.)"
 
-#: libs/s25main/buildings/nobMilitary.cpp:999
+#: libs/s25main/buildings/nobMilitary.cpp:1002
 msgid "Military building lost"
 msgstr "Militair gebouw verloren"
 
-#: libs/s25main/buildings/nobMilitary.cpp:693
+#: libs/s25main/buildings/nobMilitary.cpp:696
 msgid "Military building occupied"
 msgstr "Militair gebouw bezet"
 
@@ -2340,7 +2364,7 @@ msgstr "Militair gebouw bezet"
 msgid "Military strength"
 msgstr "Militaire kracht"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:53
+#: libs/s25main/gameData/BuildingConsts.cpp:54
 msgid "Mill"
 msgstr "Molen"
 
@@ -2364,7 +2388,7 @@ msgstr "Minimaal"
 msgid "Minimum strength"
 msgstr "Minimale kracht"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:56
+#: libs/s25main/gameData/BuildingConsts.cpp:57
 msgid "Mint"
 msgstr "Muntensmelterij"
 
@@ -2376,7 +2400,11 @@ msgstr "Muntensmelter"
 msgid "Missing required API function"
 msgstr "Ontbreekt benodigde API functie"
 
-#: libs/s25main/desktops/dskOptions.cpp:193
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:68
+msgid "Mixed"
+msgstr ""
+
+#: libs/s25main/desktops/dskOptions.cpp:198
 #: libs/s25main/ingameWindows/iwSettings.cpp:36
 msgid "Mode:"
 msgstr "Modus:"
@@ -2391,7 +2419,7 @@ msgstr "Pas de sterkte aan van militaire rangen"
 msgid "More"
 msgstr "Meer"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:405
+#: libs/s25main/ingameWindows/iwAction.cpp:365
 #: libs/s25main/ingameWindows/iwMilitary.cpp:47
 msgid "More attackers"
 msgstr "Meer aanvallers"
@@ -2400,7 +2428,7 @@ msgstr "Meer aanvallers"
 msgid "More defenders"
 msgstr "Meer verdedigers"
 
-#: libs/s25main/ingameWindows/iwTools.cpp:94
+#: libs/s25main/ingameWindows/iwTools.cpp:96
 msgid "More often"
 msgstr "Vaker"
 
@@ -2408,7 +2436,7 @@ msgstr "Vaker"
 msgid "More recruits"
 msgstr "Meer rekruten"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:122
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:126
 msgid "More repeats"
 msgstr "Meer herhalingen"
 
@@ -2416,27 +2444,27 @@ msgstr "Meer herhalingen"
 msgid "More trees spawn animals"
 msgstr "Meer bomen spawnen dieren"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:58
+#: libs/s25main/desktops/dskMainMenu.cpp:56
 msgid "Multiplayer"
 msgstr "Multiplayer"
 
-#: libs/s25main/desktops/dskOptions.cpp:242
+#: libs/s25main/desktops/dskOptions.cpp:248
 msgid "Music"
 msgstr "Muziek"
 
-#: libs/s25main/desktops/dskOptions.cpp:260
+#: libs/s25main/desktops/dskOptions.cpp:268
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:94
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:109
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:110
 msgid "Music player"
 msgstr "Muziekspeler"
 
-#: libs/s25main/desktops/dskLobby.cpp:69
+#: libs/s25main/desktops/dskLobby.cpp:70
 #: libs/s25main/desktops/dskSelectMap.cpp:87
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:56
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:58
 msgid "Name"
 msgstr "Naam"
 
-#: libs/s25main/desktops/dskOptions.cpp:96
+#: libs/s25main/desktops/dskOptions.cpp:98
 msgid "Name in Game:"
 msgstr "Naam"
 
@@ -2448,7 +2476,7 @@ msgstr "Bij haven plaatsen"
 msgid "Network/LAN"
 msgstr "Netwerk/LAN"
 
-#: libs/s25main/lua/LuaPlayer.cpp:82
+#: libs/s25main/lua/LuaPlayer.cpp:83
 msgid "New building type:"
 msgstr "Nieuw type gebouw:"
 
@@ -2464,18 +2492,18 @@ msgstr "Nieuwe werelden"
 msgid "New storehouse finished"
 msgstr "Nieuwe pakhuis gebouwd"
 
-#: libs/s25main/ingameWindows/iwWares.cpp:143
+#: libs/s25main/ingameWindows/iwWares.cpp:148
 msgid "Next page"
 msgstr "Volgende pagina"
 
-#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:37
+#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:38
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:79
-#: libs/s25main/ingameWindows/iwMsgbox.cpp:94
-#: libs/s25main/ingameWindows/iwMsgbox.cpp:100
+#: libs/s25main/ingameWindows/iwMsgbox.cpp:95
+#: libs/s25main/ingameWindows/iwMsgbox.cpp:101
 msgid "No"
 msgstr "Nee"
 
-#: libs/s25main/desktops/dskOptions.cpp:150
+#: libs/s25main/desktops/dskOptions.cpp:155
 msgid "No Proxy"
 msgstr "Geen proxy"
 
@@ -2488,7 +2516,7 @@ msgstr "Geen katapulten"
 msgid "No change"
 msgstr "Geen aanpassingen"
 
-#: libs/s25main/ingameWindows/iwAIDebug.cpp:162
+#: libs/s25main/ingameWindows/iwAIDebug.cpp:167
 msgid "No current job"
 msgstr "Geen huidige beroep"
 
@@ -2496,11 +2524,11 @@ msgstr "Geen huidige beroep"
 msgid "No letters!"
 msgstr "Geen brieven!"
 
-#: libs/s25main/buildings/nobUsual.cpp:550
+#: libs/s25main/buildings/nobUsual.cpp:548
 msgid "No more fishes in range"
 msgstr "Geen vissen meer binnen bereik"
 
-#: libs/s25main/buildings/nobUsual.cpp:548
+#: libs/s25main/buildings/nobUsual.cpp:546
 msgid "No more stones in range"
 msgstr "Geen stenen meer binnen bereik"
 
@@ -2512,7 +2540,7 @@ msgstr "Geen teruggave"
 msgid "No sea attacks"
 msgstr "Geen zeeveldslagen"
 
-#: libs/s25main/ingameWindows/iwShip.cpp:97
+#: libs/s25main/ingameWindows/iwShip.cpp:102
 msgid "No ships available"
 msgstr "Geen schepen beschikbaar"
 
@@ -2529,18 +2557,18 @@ msgstr "Niemand anders dan u"
 msgid "Non-aggression pact"
 msgstr "Verdrag tot non-agressie"
 
-#: libs/s25main/desktops/dskHostGame.cpp:207
+#: libs/s25main/desktops/dskHostGame.cpp:214
 msgid "None"
 msgstr "Geen"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:38
 #: libs/s25main/addons/AddonShipSpeed.h:34
-#: libs/s25main/desktops/dskHostGame.cpp:201
-#: libs/s25main/desktops/dskHostGame.cpp:225
+#: libs/s25main/desktops/dskHostGame.cpp:207
+#: libs/s25main/desktops/dskHostGame.cpp:233
 msgid "Normal"
 msgstr "Gemiddeld"
 
-#: libs/s25main/desktops/dskHostGame.cpp:863
+#: libs/s25main/desktops/dskHostGame.cpp:901
 msgid "Not Ready"
 msgstr "Niet gereed"
 
@@ -2548,16 +2576,16 @@ msgstr "Niet gereed"
 msgid "Not a RTTR driver library!"
 msgstr "Geen RTTR besturingsprogramma bibliotheek!"
 
-#: libs/s25main/desktops/dskSinglePlayer.cpp:125
+#: libs/s25main/desktops/dskSinglePlayer.cpp:126
 msgid "Not available"
 msgstr "Niet beschikbaar"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1121
+#: libs/s25main/desktops/dskGameInterface.cpp:1125
 #, c-format
 msgid "Note: Game settings changed by the server%s"
 msgstr "Opmerking: Spelinstellingen gewijzigd door de server%s"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:179
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:184
 msgid "Nothing"
 msgstr "Geen"
 
@@ -2571,11 +2599,11 @@ msgstr "Opmerking: Algemene asynchrone framerate: %u"
 msgid "Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, AVG_FPS: %u)"
 msgstr "Opmerking: De afgespeelde herhaling is beëindigd. (GF: %u, %du %dmin %ds, TF: %u, AVG_FPS: %u)"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:352
+#: libs/s25main/ingameWindows/iwAction.cpp:312
 msgid "Notify allies of this location"
 msgstr "Breng bondgenoten op de hoogte van deze locatie"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:422
+#: libs/s25main/ingameWindows/iwAction.cpp:382
 msgid "Number of attackers"
 msgstr "Aantal aanvallers"
 
@@ -2583,8 +2611,8 @@ msgstr "Aantal aanvallers"
 msgid "Number of scouts required for exploration expedition"
 msgstr "Aantal ontdekkers voor een ontdekkingsexpeditie"
 
-#: libs/s25main/ingameWindows/iwMsgbox.cpp:82
-#: libs/s25main/ingameWindows/iwMsgbox.cpp:87
+#: libs/s25main/ingameWindows/iwMsgbox.cpp:83
+#: libs/s25main/ingameWindows/iwMsgbox.cpp:88
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:76
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:39
 msgid "OK"
@@ -2594,23 +2622,23 @@ msgstr "OK"
 msgid "OK\n"
 msgstr "Oke\n"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:345
+#: libs/s25main/ingameWindows/iwAction.cpp:304
 #: libs/s25main/ingameWindows/iwObservate.cpp:40
 msgid "Observation window"
 msgstr "Observatievenster"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:34
-#: libs/s25main/desktops/dskOptions.cpp:168
-#: libs/s25main/desktops/dskOptions.cpp:175
-#: libs/s25main/desktops/dskOptions.cpp:182
-#: libs/s25main/desktops/dskOptions.cpp:207
-#: libs/s25main/desktops/dskOptions.cpp:226
-#: libs/s25main/desktops/dskOptions.cpp:245
-#: libs/s25main/desktops/dskOptions.cpp:254
+#: libs/s25main/desktops/dskOptions.cpp:173
+#: libs/s25main/desktops/dskOptions.cpp:180
+#: libs/s25main/desktops/dskOptions.cpp:187
+#: libs/s25main/desktops/dskOptions.cpp:213
+#: libs/s25main/desktops/dskOptions.cpp:232
+#: libs/s25main/desktops/dskOptions.cpp:251
+#: libs/s25main/desktops/dskOptions.cpp:261
 msgid "Off"
 msgstr "Uit"
 
-#: libs/s25main/desktops/dskHostGame.cpp:191
+#: libs/s25main/desktops/dskHostGame.cpp:196
 msgid "Off (all visible)"
 msgstr "Uit (alles zichtbaar)"
 
@@ -2622,7 +2650,7 @@ msgstr "Officier"
 msgid "Officer (3)"
 msgstr "Officier (3)"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:351
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:355
 msgid "Ok"
 msgstr "Oké"
 
@@ -2630,17 +2658,17 @@ msgstr "Oké"
 msgid "Old maps"
 msgstr "Oude werelden"
 
-#: libs/s25main/desktops/dskOptions.cpp:167
-#: libs/s25main/desktops/dskOptions.cpp:176
-#: libs/s25main/desktops/dskOptions.cpp:184
-#: libs/s25main/desktops/dskOptions.cpp:206
-#: libs/s25main/desktops/dskOptions.cpp:225
-#: libs/s25main/desktops/dskOptions.cpp:244
-#: libs/s25main/desktops/dskOptions.cpp:253
+#: libs/s25main/desktops/dskOptions.cpp:172
+#: libs/s25main/desktops/dskOptions.cpp:181
+#: libs/s25main/desktops/dskOptions.cpp:189
+#: libs/s25main/desktops/dskOptions.cpp:212
+#: libs/s25main/desktops/dskOptions.cpp:231
+#: libs/s25main/desktops/dskOptions.cpp:250
+#: libs/s25main/desktops/dskOptions.cpp:260
 msgid "On"
 msgstr "Aan"
 
-#: libs/s25main/desktops/dskHostGame.cpp:352
+#: libs/s25main/desktops/dskHostGame.cpp:360
 msgid "Open"
 msgstr "Open"
 
@@ -2652,13 +2680,13 @@ msgstr "OpenGL %1% %2% %3% is niet ondersteund. Probeer uw GPU besturingsprogram
 msgid "OpenGL %1%.%2% supported\n"
 msgstr "OpenGL %1%.%2% ondersteund\n"
 
-#: libs/s25main/desktops/dskOptions.cpp:222
+#: libs/s25main/desktops/dskOptions.cpp:228
 msgid "Optimized Textures:"
 msgstr "Geoptimaliseerde Textures:"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:60
+#: libs/s25main/desktops/dskMainMenu.cpp:59
 #: libs/s25main/desktops/dskOptions.cpp:74
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:96
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:112
 msgid "Options"
 msgstr "Opties"
 
@@ -2683,11 +2711,11 @@ msgstr "Wereldkaart"
 msgid "Own maps"
 msgstr "Eigen werelden"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:184
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:189
 msgid "Owner"
 msgstr "Eigenaar"
 
-#: libs/s25main/gameData/JobConsts.cpp:61
+#: libs/s25main/gameData/JobConsts.cpp:63
 msgid "Pack donkey"
 msgstr "Pakezel"
 
@@ -2708,7 +2736,12 @@ msgstr "Vorige speler"
 msgid "Peaceful"
 msgstr "Vredig"
 
-#: libs/s25main/gameTypes/GoodTypes.h:78
+#: libs/s25main/desktops/dskHostGame.cpp:1085
+#, fuzzy
+msgid "Peaceful mode"
+msgstr "Vredig"
+
+#: libs/s25main/gameData/GoodConsts.cpp:27
 msgid "Pick-axe"
 msgstr "Houweel"
 
@@ -2716,17 +2749,17 @@ msgstr "Houweel"
 msgid "Pig breeder"
 msgstr "Varkensboer"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:50
+#: libs/s25main/gameData/BuildingConsts.cpp:51
 msgid "Pig farm"
 msgstr "Varkensboerderij"
 
 #: libs/s25main/desktops/dskHostGame.cpp:133
-#: libs/s25main/desktops/dskLobby.cpp:65
+#: libs/s25main/desktops/dskLobby.cpp:66
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:63
 msgid "Ping"
 msgstr "Ping"
 
-#: libs/s25main/desktops/dskOptions.cpp:185
+#: libs/s25main/desktops/dskOptions.cpp:190
 msgid "Place cursor on default button for new dialogs / action windows (default)"
 msgstr "Plaats de cursor op de standaardknop voor nieuwe dialoogvensters / actievensters (standaard)"
 
@@ -2739,8 +2772,8 @@ msgstr "Graver"
 msgid "Play Replay"
 msgstr "Speel herhaling af"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:124
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:443
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:128
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:447
 msgid "Playback in this order"
 msgstr "Speel af in deze volgorde"
 
@@ -2748,44 +2781,41 @@ msgstr "Speel af in deze volgorde"
 msgid "Played"
 msgstr "Gespeeld"
 
-#: libs/s25main/desktops/dskLAN.cpp:60 libs/s25main/desktops/dskLobby.cpp:63
+#: libs/s25main/desktops/dskLAN.cpp:61 libs/s25main/desktops/dskLobby.cpp:64
 #: libs/s25main/desktops/dskSelectMap.cpp:89
+#: libs/s25main/ingameWindows/iwEconomicProgress.cpp:61
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:66
 msgid "Player"
 msgstr "Speler"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:193
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:198
 msgid "Player %1%"
 msgstr "Speler %1%"
 
-#: libs/s25main/world/MapLoader.cpp:405
+#: libs/s25main/world/MapLoader.cpp:406
 #, c-format
 msgid "Player %u does not have a valid start position!"
 msgstr "Speler %u heeft geen geldige startpositie!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1316
+#: libs/s25main/desktops/dskGameInterface.cpp:1328
 #, c-format
 msgid "Player '%s' is the winner!"
 msgstr "Speler '%s' is de winnaar!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1114
+#: libs/s25main/desktops/dskGameInterface.cpp:1118
 #, c-format
 msgid "Player '%s' joined the game!"
 msgstr "Speler '%s' is het spel toegetreden!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1111
+#: libs/s25main/desktops/dskGameInterface.cpp:1115
 #, c-format
 msgid "Player '%s' left the game!"
 msgstr "Speler '%s' heeft het spel verlaten!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1218
+#: libs/s25main/desktops/dskGameInterface.cpp:1222
 #, c-format
 msgid "Player '%s' was defeated!"
 msgstr "Speler '%s' is verslagen!"
-
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:80
-msgid "Player Distribution"
-msgstr "Spelersverdeling"
 
 #: libs/s25main/desktops/dskHostGame.cpp:120
 msgid "Player Name"
@@ -2799,7 +2829,7 @@ msgstr "Afspeellijst:"
 msgid "Please enter a name for the game"
 msgstr "Vul a.u.b. een naam in voor het spel"
 
-#: libs/s25main/desktops/dskSinglePlayer.cpp:125
+#: libs/s25main/desktops/dskSinglePlayer.cpp:126
 msgid "Please use 'Unlimited Play' to create a Singleplayer game."
 msgstr "Gebruik ‘Ongelimiteerd spelen’ om een single-player spel te starten."
 
@@ -2808,12 +2838,12 @@ msgstr "Gebruik ‘Ongelimiteerd spelen’ om een single-player spel te starten.
 msgid "Please wait..."
 msgstr "Even geduld aub..."
 
-#: libs/s25main/desktops/dskLobby.cpp:69
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:57
+#: libs/s25main/desktops/dskLobby.cpp:70
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:59
 msgid "Points"
 msgstr "Punten"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:128
+#: libs/s25main/desktops/dskGameInterface.cpp:129
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:66
 msgid "Post office"
 msgstr "Postkantoor"
@@ -2842,32 +2872,32 @@ msgstr "Produceer niks"
 msgid "Produce random ware"
 msgstr "Produceer willekeurige waren"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:80
+#: libs/s25main/ingameWindows/iwBuilding.cpp:74
 msgid "Production on/off"
 msgstr "Productie aan/uit"
 
-#: libs/s25main/ingameWindows/iwBuildingProductivities.cpp:52
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:68
+#: libs/s25main/ingameWindows/iwBuildingProductivities.cpp:54
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:73
 #: libs/s25main/ingameWindows/iwStatistics.cpp:137
 #: libs/s25main/ingameWindows/iwStatistics.cpp:242
 msgid "Productivity"
 msgstr "Productiviteit"
 
-#: libs/s25main/desktops/dskCredits.cpp:59
-#: libs/s25main/desktops/dskCredits.cpp:69
-#: libs/s25main/desktops/dskCredits.cpp:85
-#: libs/s25main/desktops/dskCredits.cpp:98
-#: libs/s25main/desktops/dskCredits.cpp:106
+#: libs/s25main/desktops/dskCredits.cpp:70
+#: libs/s25main/desktops/dskCredits.cpp:80
+#: libs/s25main/desktops/dskCredits.cpp:96
+#: libs/s25main/desktops/dskCredits.cpp:109
+#: libs/s25main/desktops/dskCredits.cpp:117
 msgid "Programming"
 msgstr "Programmering"
 
-#: libs/s25main/desktops/dskCredits.cpp:96
-#: libs/s25main/desktops/dskCredits.cpp:103
+#: libs/s25main/desktops/dskCredits.cpp:107
+#: libs/s25main/desktops/dskCredits.cpp:114
 msgid "Project founder"
 msgstr "Oprichter van het project"
 
-#: libs/s25main/desktops/dskCredits.cpp:97
-#: libs/s25main/desktops/dskCredits.cpp:104
+#: libs/s25main/desktops/dskCredits.cpp:108
+#: libs/s25main/desktops/dskCredits.cpp:115
 msgid "Project management"
 msgstr "Project management"
 
@@ -2875,34 +2905,34 @@ msgstr "Project management"
 msgid "Proportional"
 msgstr "Proportioneel"
 
-#: libs/s25main/desktops/dskOptions.cpp:140
+#: libs/s25main/desktops/dskOptions.cpp:145
 msgid "Proxyserver:"
 msgstr "Proxyserver:"
 
-#: libs/s25main/desktops/dskOptions.cpp:148
+#: libs/s25main/desktops/dskOptions.cpp:153
 msgid "Proxytyp:"
 msgstr "Proxytype:"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:252
-#: libs/s25main/ingameWindows/iwAction.cpp:266
+#: libs/s25main/ingameWindows/iwAction.cpp:208
+#: libs/s25main/ingameWindows/iwAction.cpp:222
 msgid "Pull down flag"
 msgstr "Strijk vlag neer"
 
-#: libs/s25main/desktops/dskCredits.cpp:60
-#: libs/s25main/desktops/dskCredits.cpp:65
-#: libs/s25main/desktops/dskCredits.cpp:75
+#: libs/s25main/desktops/dskCredits.cpp:71
+#: libs/s25main/desktops/dskCredits.cpp:76
 #: libs/s25main/desktops/dskCredits.cpp:86
-#: libs/s25main/desktops/dskCredits.cpp:90
-#: libs/s25main/desktops/dskCredits.cpp:99
-#: libs/s25main/desktops/dskCredits.cpp:109
+#: libs/s25main/desktops/dskCredits.cpp:97
+#: libs/s25main/desktops/dskCredits.cpp:101
+#: libs/s25main/desktops/dskCredits.cpp:110
+#: libs/s25main/desktops/dskCredits.cpp:120
 msgid "Quality Assurance"
 msgstr "Kwaliteitsgarantie"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:41
+#: libs/s25main/gameData/BuildingConsts.cpp:42
 msgid "Quarry"
 msgstr "Steengroeve"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:69
+#: libs/s25main/desktops/dskMainMenu.cpp:68
 msgid "Quit program"
 msgstr "Afsluiten"
 
@@ -2918,19 +2948,15 @@ msgstr "Volk"
 msgid "Race specific catapult graphics"
 msgstr "Volk specifieke katapult animaties"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:71
-msgid "Random"
-msgstr "Willekeurig"
-
 #: libs/s25main/desktops/dskSelectMap.cpp:104
 msgid "Random Map"
 msgstr "Willekeurige wereld"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:443
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:447
 msgid "Random playback"
 msgstr "Willekeurig afspelen"
 
-#: libs/s25main/desktops/dskHostGame.cpp:176
+#: libs/s25main/desktops/dskHostGame.cpp:180
 msgid "Random start locations"
 msgstr "Willekeurige startlocaties"
 
@@ -2938,24 +2964,24 @@ msgstr "Willekeurige startlocaties"
 msgid "Ranger"
 msgstr "Boswachter"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:215
+#: libs/s25main/gameData/BuildingConsts.cpp:216
 msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
 msgstr "Onbewerkt ijzererts wordt omgezet naar ijzer in de hoogovens met behulp van steenkool. Het verwerkte ijzer wordt dan gebruikt om wapens te maken (in de wapensmid) en gereedschap (in de metaalbewerker)."
 
-#: libs/s25main/desktops/dskMainMenu.cpp:65
-#: libs/s25main/desktops/dskOptions.cpp:121
+#: libs/s25main/desktops/dskMainMenu.cpp:64
+#: libs/s25main/desktops/dskOptions.cpp:124
 msgid "Readme"
 msgstr "Handleiding"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:707
+#: libs/s25main/desktops/dskGameInterface.cpp:709
 #: libs/s25main/desktops/dskMainMenu.cpp:138
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:126
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:128
 msgid "Readme!"
 msgstr "Handleiding!"
 
-#: libs/s25main/desktops/dskHostGame.cpp:166
-#: libs/s25main/desktops/dskHostGame.cpp:649
-#: libs/s25main/desktops/dskHostGame.cpp:863
+#: libs/s25main/desktops/dskHostGame.cpp:168
+#: libs/s25main/desktops/dskHostGame.cpp:660
+#: libs/s25main/desktops/dskHostGame.cpp:901
 msgid "Ready"
 msgstr "Gereed"
 
@@ -2963,11 +2989,11 @@ msgstr "Gereed"
 msgid "Ready?"
 msgstr "Gereed?"
 
-#: libs/s25main/network/GameServer.cpp:1219
+#: libs/s25main/network/GameServer.cpp:1218
 msgid "Received async log from %1%, but did not expect it!\n"
 msgstr "Async log van %1% ontvangen, maar verwachtte het niet!\n"
 
-#: libs/s25main/network/GameServer.cpp:1212
+#: libs/s25main/network/GameServer.cpp:1211
 msgid "Received async logs from %1% (%2% entries).\n"
 msgstr "Async logboeken ontvangen van %1% (%2% vermeldingen).\n"
 
@@ -3007,7 +3033,7 @@ msgstr "Registreer"
 msgid "Registration successful!"
 msgstr "Registratie geslaagd!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:107
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:108
 msgid "Remove"
 msgstr "Verwijder"
 
@@ -3015,7 +3041,7 @@ msgstr "Verwijder"
 msgid "Remove gold completely"
 msgstr "Verwijder goud volledig"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:115
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:116
 msgid "Remove track"
 msgstr "Verwijder titel"
 
@@ -3023,7 +3049,7 @@ msgstr "Verwijder titel"
 msgid "Removes all replays that cannot be loaded with the current game version"
 msgstr "Verwijdert alle herhalingen die niet kunnen worden geladen met de huidige gameversie"
 
-#: libs/s25main/network/GameClient.cpp:1371
+#: libs/s25main/network/GameClient.cpp:1394
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr "Herhalingsbestand kon niet worden geopend. Herhaling zal niet worden opgenomen.\n"
 
@@ -3031,7 +3057,7 @@ msgstr "Herhalingsbestand kon niet worden geopend. Herhaling zal niet worden opg
 msgid "Reserve"
 msgstr "Reserveer"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:180
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:185
 msgid "Reserved"
 msgstr "Gereserveerd"
 
@@ -3039,11 +3065,11 @@ msgstr "Gereserveerd"
 msgid "Resize window"
 msgstr "Venstergrootte wijzigen"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:182
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:187
 msgid "Resources"
 msgstr "Bronnen"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:185
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:190
 msgid "Restricted area"
 msgstr "Verboden terrein"
 
@@ -3051,31 +3077,23 @@ msgstr "Verboden terrein"
 msgid "Resume last game"
 msgstr "Hervat laatste spel"
 
-#: libs/s25main/desktops/dskHostGame.cpp:169
+#: libs/s25main/desktops/dskHostGame.cpp:171
 msgid "Return"
 msgstr "Keer terug"
 
-#: libs/s25main/desktops/dskCredits.cpp:52
+#: libs/s25main/desktops/dskCredits.cpp:60
 msgid "Return To The Roots"
 msgstr "Return To The Roots"
 
-#: libs/s25main/ingameWindows/iwShip.cpp:69
+#: libs/s25main/ingameWindows/iwShip.cpp:74
 msgid "Return to harbor"
 msgstr "Teruggaan naar haven"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:70
-msgid "Ringland"
-msgstr "Ringland"
-
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:69
-msgid "Riverland"
-msgstr "Delta"
-
-#: libs/s25main/gameTypes/GoodTypes.h:81
+#: libs/s25main/gameData/GoodConsts.cpp:30
 msgid "Rod and line"
 msgstr "Hengel"
 
-#: libs/s25main/gameTypes/GoodTypes.h:86
+#: libs/s25main/gameData/GoodConsts.cpp:35
 msgid "Rolling pin"
 msgstr "Deegroller"
 
@@ -3095,28 +3113,28 @@ msgstr "RttR is gecrasht. Kunt u de debug gegevens naar RttR willen sturen om on
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
 msgstr "RttR ondersteund nu het verzenden van debug data. Wilt u ons helpen met het verbeteren van dit spel door debug data te verzenden?"
 
-#: libs/s25main/network/GameServer.cpp:656
+#: libs/s25main/network/GameServer.cpp:655
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
 msgstr "SERVER: Bij GF %1%: Snelheid veranderde van %2% naar %3%. NWF %4%\n"
 
-#: libs/s25main/network/GameServer.cpp:566
+#: libs/s25main/network/GameServer.cpp:565
 msgid "SERVER: Error on socket of player %1%, bye bye!\n"
 msgstr "SERVER: Fout met socket van speler %1%, doeg doeg!\n"
 
-#: libs/s25main/network/GameServer.cpp:704
+#: libs/s25main/network/GameServer.cpp:703
 msgid "SERVER: Kicking player %1% in %2% seconds\n"
 msgstr "SERVER: Kicking speler %1% in %2% seconden\n"
 
-#: libs/s25main/network/GameServer.cpp:783
+#: libs/s25main/network/GameServer.cpp:782
 msgid "SERVER: Receiving Message for player %1% failed, kicking...\n"
 msgstr "SERVER: Ontvangen van bericht voor speler %1% mislukt, kicking...\n"
 
-#: libs/s25main/network/GameServer.cpp:576
+#: libs/s25main/network/GameServer.cpp:575
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
 msgstr "SERVER: Gereserveerde slot %1% vrijgemaakt door timeout\n"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1151
-#: libs/s25main/desktops/dskGameInterface.cpp:1168
+#: libs/s25main/desktops/dskGameInterface.cpp:1155
+#: libs/s25main/desktops/dskGameInterface.cpp:1172
 msgid "SYSTEM"
 msgstr "SYSTEEM"
 
@@ -3124,12 +3142,12 @@ msgstr "SYSTEEM"
 msgid "Save Password?"
 msgstr "Wachtwoord opslaan?"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:91
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:92
 #: libs/s25main/ingameWindows/iwSave.cpp:133
 msgid "Save game!"
 msgstr "Sla spel op!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:126
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:130
 msgid "Save playlist"
 msgstr "Afspeellijst opslaan"
 
@@ -3137,15 +3155,15 @@ msgstr "Afspeellijst opslaan"
 msgid "Savegame error: "
 msgstr "Opgeslagen spel foutmelding: "
 
-#: libs/s25main/gameTypes/GoodTypes.h:77
+#: libs/s25main/gameData/GoodConsts.cpp:26
 msgid "Saw"
 msgstr "Zaag"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:55
+#: libs/s25main/gameData/BuildingConsts.cpp:56
 msgid "Sawmill"
 msgstr "Houtzagerij"
 
-#: libs/s25main/gameData/JobConsts.cpp:60
+#: libs/s25main/gameData/JobConsts.cpp:62
 msgid "Scout"
 msgstr "Verkenner"
 
@@ -3153,7 +3171,7 @@ msgstr "Verkenner"
 msgid "Screenshot saved to %1%\n"
 msgstr "Screenshot opgeslagen naar %1%\n"
 
-#: libs/s25main/gameTypes/GoodTypes.h:82
+#: libs/s25main/gameData/GoodConsts.cpp:31
 msgid "Scythe"
 msgstr "Zeis"
 
@@ -3161,7 +3179,7 @@ msgstr "Zeis"
 msgid "Sea"
 msgstr "Zee"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:183
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:188
 msgid "Sea Id"
 msgstr "Zee id"
 
@@ -3182,24 +3200,24 @@ msgstr "Alles selecteren"
 msgid "Selection of maps"
 msgstr "Wereldselectie"
 
-#: libs/s25main/ingameWindows/iwTrade.cpp:81
+#: libs/s25main/ingameWindows/iwTrade.cpp:83
 msgid "Send"
 msgstr "Verzend"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:75
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:76
 msgid "Send max rank soldiers to a warehouse"
 msgstr "Stuur hoogste rangen soldaten naar een warenhuis"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:256
-#: libs/s25main/ingameWindows/iwAction.cpp:270
+#: libs/s25main/ingameWindows/iwAction.cpp:212
+#: libs/s25main/ingameWindows/iwAction.cpp:226
 msgid "Send out scout"
 msgstr "Zend verkenner uit"
 
-#: libs/s25main/network/GameServer.cpp:1502
+#: libs/s25main/network/GameServer.cpp:1501
 msgid "Sending async logs %1%.\n"
 msgstr "Versturen van async logs %1%.\n"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:54
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:58
 msgid "Sequence of given order"
 msgstr "Reeks van gegeven order"
 
@@ -3211,7 +3229,7 @@ msgstr "Sergeant"
 msgid "Sergeant (2)"
 msgstr "Sergeant (2)"
 
-#: libs/s25main/desktops/dskLAN.cpp:58 libs/s25main/desktops/dskLobby.cpp:61
+#: libs/s25main/desktops/dskLAN.cpp:59 libs/s25main/desktops/dskLobby.cpp:62
 msgid "Server"
 msgstr "Server"
 
@@ -3223,7 +3241,7 @@ msgstr "Serverinformatie"
 msgid "Server Name:"
 msgstr "Servernaam:"
 
-#: libs/s25main/desktops/dskCredits.cpp:105
+#: libs/s25main/desktops/dskCredits.cpp:116
 msgid "Server management"
 msgstr "Server management"
 
@@ -3256,32 +3274,32 @@ msgstr "Bepaal snelheid van schepen"
 msgid "Settings"
 msgstr "Instellingen"
 
-#: libs/s25main/ingameWindows/iwTrade.cpp:55
+#: libs/s25main/ingameWindows/iwTrade.cpp:57
 msgid "Settlers"
 msgstr "Kolonisten"
 
-#: libs/s25main/desktops/dskHostGame.cpp:174
+#: libs/s25main/desktops/dskHostGame.cpp:177
 msgid "Shared team view"
 msgstr "Gedeelde teamzicht"
 
-#: libs/s25main/gameTypes/GoodTypes.h:94
+#: libs/s25main/gameData/GoodConsts.cpp:43
 msgid "Shield"
 msgstr "Schild"
 
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:72
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:79
 #: libs/s25main/ingameWindows/iwShip.cpp:45
 msgid "Ship register"
 msgstr "Scheepsregister"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:294
+#: libs/s25main/gameData/BuildingConsts.cpp:295
 msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also be prepared here. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "Schepen kunnen enkel geladen en gelost worden in een haven. Expedities kunnen hier ook voorbereid worden. U kan bepaalde handelswaren in een warenhuis achterlaten, mocht u dit nodig achten. De opslag functie kan ook uitgeschakeld worden. Om dit te doen, kiest u eerst het relevante icoon, gevolgd door de gewenste handelswaren of baansymbool."
 
-#: libs/s25main/gameData/JobConsts.cpp:59
+#: libs/s25main/gameData/JobConsts.cpp:61
 msgid "Shipwright"
 msgstr "Scheepsbouwer"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:58
+#: libs/s25main/gameData/BuildingConsts.cpp:59
 msgid "Shipyard"
 msgstr "Scheepswerf"
 
@@ -3293,15 +3311,15 @@ msgstr "Kort"
 msgid "Short-run"
 msgstr "Korte termijn"
 
-#: libs/s25main/gameTypes/GoodTypes.h:79
+#: libs/s25main/gameData/GoodConsts.cpp:28
 msgid "Shovel"
 msgstr "Schep"
 
-#: libs/s25main/ingameWindows/iwMapDebug.cpp:164
+#: libs/s25main/ingameWindows/iwMapDebug.cpp:167
 msgid "Show coordinates"
 msgstr "Toon coördinaten"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:56
+#: libs/s25main/desktops/dskMainMenu.cpp:53
 msgid "Singleplayer"
 msgstr "Singleplayer"
 
@@ -3324,24 +3342,24 @@ msgstr "Sla GameFrames over"
 msgid "Skipping %s: %s\n"
 msgstr "Overslaan: %s: %s\n"
 
-#: libs/s25main/Loader.cpp:969
+#: libs/s25main/resources/ArchiveLocator.cpp:120
 msgid "Skipping duplicate override file %1% for %2%\n"
 msgstr "Dubbel bestand %1% overslaan voor %2%\n"
 
-#: libs/s25main/Loader.cpp:966
+#: libs/s25main/resources/ArchiveLocator.cpp:117
 msgid "Skipping removed file %1% when checking for files to load for %2%\n"
 msgstr "Verwijderd bestand %1% overslaan tijdens het checken van bestanden voor %2%\n"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:43
+#: libs/s25main/gameData/BuildingConsts.cpp:44
 msgid "Slaughterhouse"
 msgstr "Slachthuis"
 
 #: libs/s25main/addons/AddonShipSpeed.h:33
-#: libs/s25main/desktops/dskHostGame.cpp:224
+#: libs/s25main/desktops/dskHostGame.cpp:232
 msgid "Slow"
 msgstr "Langzaam"
 
-#: libs/s25main/desktops/dskOptions.cpp:179
+#: libs/s25main/desktops/dskOptions.cpp:184
 msgid "Smart Cursor"
 msgstr "Slimme cursor"
 
@@ -3349,7 +3367,7 @@ msgstr "Slimme cursor"
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
 msgstr "Smeed kan 1 schild & 1 zwaard maken voor 1 ijzer + 1 steenkool in plaats van 2 ijzer + 2 kolen"
 
-#: libs/s25main/desktops/dskOptions.cpp:151
+#: libs/s25main/desktops/dskOptions.cpp:156
 msgid "Socks v4"
 msgstr "Socks v4"
 
@@ -3357,7 +3375,7 @@ msgstr "Socks v4"
 msgid "Soldiers winning a fight increase in rank."
 msgstr "Soldaten stijgen in rang wanneer ze een gevecht winnen."
 
-#: libs/s25main/desktops/dskSplash.cpp:92
+#: libs/s25main/desktops/dskSplash.cpp:94
 msgid ""
 "Some files failed to load.\n"
 "Please ensure that the Settlers 2 Gold-Edition is installed \n"
@@ -3367,42 +3385,43 @@ msgstr ""
 "Zorg ervoor dat de Settlers 2 Gold-editie is geïnstalleerd\n"
 "in dezelfde map als Return to the Roots. (zie wiki)"
 
-#: libs/s25main/desktops/dskDirectIP.cpp:49 libs/s25main/desktops/dskLAN.cpp:94
-#: libs/s25main/desktops/dskLAN.cpp:175 libs/s25main/desktops/dskLobby.cpp:142
-#: libs/s25main/desktops/dskLobby.cpp:240
-#: libs/s25main/desktops/dskLobby.cpp:255
-#: libs/s25main/desktops/dskOptions.cpp:570
-#: libs/s25main/desktops/dskOptions.cpp:578
+#: libs/s25main/desktops/dskDirectIP.cpp:49 libs/s25main/desktops/dskLAN.cpp:96
+#: libs/s25main/desktops/dskLAN.cpp:177 libs/s25main/desktops/dskLobby.cpp:144
+#: libs/s25main/desktops/dskLobby.cpp:242
+#: libs/s25main/desktops/dskLobby.cpp:257
+#: libs/s25main/desktops/dskOptions.cpp:580
+#: libs/s25main/desktops/dskOptions.cpp:588
 #: libs/s25main/ingameWindows/iwSettings.cpp:87
 msgid "Sorry!"
 msgstr "Sorry!"
 
-#: libs/s25main/desktops/dskOptions.cpp:85
+#: libs/s25main/desktops/dskOptions.cpp:86
 msgid "Sound/Music"
 msgstr "Geluid/Muziek"
 
-#: libs/s25main/desktops/dskOptions.cpp:229
+#: libs/s25main/desktops/dskOptions.cpp:235
 msgid "Sounddriver"
 msgstr "Geluidsbesturingsprogramma"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:261
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:265
 msgid "Specify the playlist name"
 msgstr "Geef de afspeellijstnaam op"
 
-#: libs/s25main/desktops/dskHostGame.cpp:221
+#: libs/s25main/desktops/dskHostGame.cpp:228
 msgid "Speed:"
 msgstr "Snelheid:"
+
+#: libs/s25main/GameManager.cpp:181
+#, fuzzy
+msgid "Splash screen couldn't be loaded!\n"
+msgstr "Het opgegeven bestand kon niet worden geladen!"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:62
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:75
 msgid "Start"
 msgstr "Start"
 
-#: libs/s25main/ingameWindows/iwSave.cpp:52
-msgid "Start GF"
-msgstr "Start-GF"
-
-#: libs/s25main/desktops/dskHostGame.cpp:715
+#: libs/s25main/desktops/dskHostGame.cpp:726
 msgid "Start aborted"
 msgstr "Start afgebroken"
 
@@ -3416,17 +3435,17 @@ msgstr "Expeditie starten"
 msgid "Start exporation expedition"
 msgstr "Verkenningsexpeditie starten"
 
-#: libs/s25main/desktops/dskHostGame.cpp:166
-#: libs/s25main/desktops/dskHostGame.cpp:643
-#: libs/s25main/desktops/dskHostGame.cpp:861
+#: libs/s25main/desktops/dskHostGame.cpp:168
+#: libs/s25main/desktops/dskHostGame.cpp:654
+#: libs/s25main/desktops/dskHostGame.cpp:899
 msgid "Start game"
 msgstr "Start spel"
 
-#: libs/s25main/desktops/dskHostGame.cpp:705
+#: libs/s25main/desktops/dskHostGame.cpp:716
 msgid "Starting game, please wait"
 msgstr "Spel wordt gestart, wacht a.u.b. een moment"
 
-#: libs/s25main/Loader.cpp:271
+#: libs/s25main/Loader.cpp:239
 msgid "Starting sound conversion: "
 msgstr "Geluidsconverter starten: "
 
@@ -3439,7 +3458,7 @@ msgid "Statistics Scale"
 msgstr "Statistische Schaal"
 
 #: libs/s25main/ingameWindows/iwInventory.cpp:24
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:65
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:69
 msgid "Stock"
 msgstr "Voorraad"
 
@@ -3451,7 +3470,7 @@ msgstr "Inventarisatiedatum"
 msgid "Stonemason"
 msgstr "Steenhouwer"
 
-#: libs/s25main/gameTypes/GoodTypes.h:97
+#: libs/s25main/gameData/GoodConsts.cpp:46
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:63
 msgid "Stones"
 msgstr "Stenen"
@@ -3460,11 +3479,11 @@ msgstr "Stenen"
 msgid "Stop storage"
 msgstr "Blokkeer"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:51
+#: libs/s25main/gameData/BuildingConsts.cpp:52
 msgid "Storehouse"
 msgstr "Pakhuis"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:412
+#: libs/s25main/ingameWindows/iwAction.cpp:372
 msgid "Strong attackers"
 msgstr "Sterke aanvallers"
 
@@ -3472,7 +3491,7 @@ msgstr "Sterke aanvallers"
 msgid "Strong defense"
 msgstr "Sterke verdediging"
 
-#: libs/s25main/desktops/dskOptions.cpp:165
+#: libs/s25main/desktops/dskOptions.cpp:170
 msgid "Submit debug data:"
 msgstr "Verstuur debug gegevens:"
 
@@ -3484,12 +3503,12 @@ msgstr "Debug data verzenden?"
 msgid "Suggest non-aggression pact"
 msgstr "Verdrag geen-agressie voorstellen"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:205
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:206
 msgid "Suggest treaty of alliance"
 msgstr "Verdrag tot verbroedering voorstellen"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:111
-#: libs/s25main/ingameWindows/iwSurrender.cpp:28
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:113
+#: libs/s25main/ingameWindows/iwSurrender.cpp:29
 msgid "Surrender"
 msgstr "Overgeven"
 
@@ -3501,7 +3520,7 @@ msgstr "Spel overgeven?"
 msgid "Swap"
 msgstr "Verwissel"
 
-#: libs/s25main/gameTypes/GoodTypes.h:89
+#: libs/s25main/gameData/GoodConsts.cpp:38
 msgid "Sword"
 msgstr "Zwaard"
 
@@ -3509,7 +3528,7 @@ msgstr "Zwaard"
 msgid "System language"
 msgstr "Systeemtaal"
 
-#: libs/s25main/desktops/dskCredits.cpp:268
+#: libs/s25main/desktops/dskCredits.cpp:282
 msgid "THE END"
 msgstr "EINDE"
 
@@ -3525,15 +3544,15 @@ msgstr "Team"
 msgid "Teams locked"
 msgstr "Teams vergrendeld"
 
-#: libs/s25main/desktops/dskCredits.cpp:244
+#: libs/s25main/desktops/dskCredits.cpp:257
 msgid "Thank you for your donations!"
 msgstr "Bedankt voor uw donaties!"
 
-#: libs/s25main/desktops/dskCredits.cpp:269
+#: libs/s25main/desktops/dskCredits.cpp:283
 msgid "Thank you!"
 msgstr "Dank u!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:168
+#: libs/s25main/gameData/BuildingConsts.cpp:169
 msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
 msgstr "Dankzij hun immense kracht zijn katapulten een effectief wapen tegen militaire gebouwen van de tegenstander."
 
@@ -3547,100 +3566,100 @@ msgstr "De %s tussen speler '%s' en u is geannuleerd."
 msgid "The %s between player '%s' and you has been concluded."
 msgstr "De %s tussen speler '%s' en jou is beëindigd."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1133
-#: libs/s25main/network/GameClient.cpp:820
+#: libs/s25main/desktops/dskGameInterface.cpp:1138
+#: libs/s25main/network/GameClient.cpp:821
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "Het spel loopt niet synchroon. De controle getallen van sommige spelers komt niet overeen."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:206
+#: libs/s25main/gameData/BuildingConsts.cpp:207
 msgid "The armory produces swords and strong shields. This equipment is vital for your soldiers."
 msgstr "De wapensmid produceert zwaarden en schilden. Deze uitrusting is vitaal voor je soldaten."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:87
+#: libs/s25main/gameData/BuildingConsts.cpp:88
 msgid "The barracks is a very small hut which can be used by your soldiers as quarters. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "De kazerne is een klein hutje die door uw soldaten kan worden gebruikt als kamp. Door de gouden munt-knop te gebruiken kunt u de toevoer van gouden munten naar de hier gestationeerde soldaten stoppen. Echter, zonder gouden munten kunnen de soldaten hier niet trainen en hun vaardigheden verbeteren."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:201
+#: libs/s25main/gameData/BuildingConsts.cpp:202
 msgid "The brewer produces fine beer from grain and water. This drink is needed to fill the soldiers with courage."
 msgstr "De bierbrouwer produceert bier uit graan en water. Deze drank is nodig om uw soldaten aan te moedigen."
 
-#: libs/s25main/ingameWindows/iwBuildings.cpp:118
+#: libs/s25main/ingameWindows/iwBuildings.cpp:119
 msgid "The building statistics window gives you an insight into the number of buildings you have, by type. The number on the left is the total number of this type of building completed, the number on the right shows how many are currently under construction."
 msgstr "Het venster met bouwstatistieken geeft u inzicht in het aantal gebouwen dat u heeft, per type. Het nummer aan de linkerkant is het totale aantal van dit type gebouw dat is voltooid, het nummer aan de rechterkant geeft aan hoeveel er momenteel in aanbouw zijn."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:193
+#: libs/s25main/gameData/BuildingConsts.cpp:194
 msgid "The butcher processes the livestock delivered into nutritious ham on which you miners are fed."
 msgstr "De slager verwerkt het aangeleverde vee tot voedzame ham waarmee uw mijnwerkers worden gevoed."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:260
+#: libs/s25main/gameData/BuildingConsts.cpp:261
 msgid "The carpenter turns the woodcutter's logs into made-to-measure planks. These form the basic for building houses and ships."
 msgstr "De schrijnwerker maakt van de houthakkers hout planken op maat. Deze vormen de basis voor de constructie van huizen en schepen."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:222
+#: libs/s25main/gameData/BuildingConsts.cpp:223
 msgid "The charburner stacks up piles of wood and straw which is then burned to create charcoal. This can be used just like the coal from the mine without any loss in quality."
 msgstr "De houtkachel stapelt stapels hout en stro op, die vervolgens worden verbrand om houtskool te maken. Deze kan net als de kolen uit de mijn zonder kwaliteitsverlies worden gebruikt."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:210
+#: libs/s25main/gameData/BuildingConsts.cpp:211
 msgid "The countless tools which your workers need are made in the metalworks. This requires boards and iron."
 msgstr "De eindeloze werktuigen die uw arbeiders nodig hebben worden vervaardigd in de metaalbewerker. Hiervoor zijn planken en ijzer nodig."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:126
+#: libs/s25main/gameData/BuildingConsts.cpp:127
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "De verdedigingskracht en grootte van het kasteel zijn onovertroffen. Dit kasteel verzekert dat de overige waardevolle gebouwen en bezittingen worden beschermd. Door de gouden munt-knop te gebruiken kunt u de toevoer van gouden munten naar de hier gestationeerde soldaten stoppen. Echter, zonder gouden munten kunnen de soldaten hier niet trainen en hun vaardigheden verbeteren."
 
-#: libs/s25main/GamePlayer.cpp:2096
+#: libs/s25main/GamePlayer.cpp:2109
 msgid "The emergency program has been activated."
 msgstr "Het noodprogramma is geactiveerd."
 
-#: libs/s25main/GamePlayer.cpp:2105
+#: libs/s25main/GamePlayer.cpp:2118
 msgid "The emergency program has been deactivated."
 msgstr "Het noodprogramma is gedeactiveerd."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:282
+#: libs/s25main/gameData/BuildingConsts.cpp:283
 msgid "The farmer plants and harvests grain in the surrounding fields. A windmill then processes the harvested grain into flour or can be used to feed the pigs."
 msgstr "De boer plant en oogst graan in de omliggende graanvelden. Het graan kan in de molen worden verwerkt tot meel, in de brouwerij tot bier en het kan gebruikt worden om varkens en ezels te voeden."
 
-#: libs/s25main/ingameWindows/iwTextfile.cpp:59
+#: libs/s25main/ingameWindows/iwTextfile.cpp:60
 msgid "The file was not found!"
 msgstr "Het bestand is niet gevonden!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:178
+#: libs/s25main/gameData/BuildingConsts.cpp:179
 msgid "The fish man is responsible for finding water rich in fish. His fish feed a great many miners."
 msgstr "De visser is verantwoordelijk voor het vangen van vis. Met vis kunnen mijnwerkers worden gevoed."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:254
+#: libs/s25main/gameData/BuildingConsts.cpp:255
 msgid "The flour produced at the windmill can be combined with water in the bakery to make oven-fresh bread. It's your miners' favorite!"
 msgstr "Het in de molen geproduceerde meel kan bij de bakker worden gecombineerd met water om brood te maken. Lekker boterhammetje met kaas voor uw mijnwerkers!"
 
-#: libs/s25main/network/GameServer.cpp:1491
+#: libs/s25main/network/GameServer.cpp:1490
 msgid "The game clients are out of sync. Would you like to send debug information to RttR to help us avoiding this in the future? Thank you very much!"
 msgstr "De spelers zijn niet meer gesynchroniseerd. Wilt u debug informatie naar RttR sturen om ons te helpen om dit in de toekomst op te lossen? Hartelijk bedankt!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:249
+#: libs/s25main/gameData/BuildingConsts.cpp:250
 msgid "The grain is ground in the windmill. The flour from the windmill is later used at the bakery to bake bread."
 msgstr "Het graan wordt gemalen in de molen. Het meel van de molen kan later worden gebruikt bij de bakker om brood te maken."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:97
+#: libs/s25main/gameData/BuildingConsts.cpp:98
 msgid "The guardhouse is a comfortable place for the military which is also protected by solid stone walls. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "Het wachthuis is een comfortabele plek voor uw soldaten die hier worden beschermd door sterke stenen muren. Door de gouden munt-knop te gebruiken kunt u de toevoer van gouden munten naar de hier gestationeerde soldaten stoppen. Echter, zonder gouden munten kunnen de soldaten hier niet trainen en hun vaardigheden verbeteren."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:66
+#: libs/s25main/gameData/BuildingConsts.cpp:67
 msgid "The headquarters represents the center of your realm. The large amount of storage space available means a great many things can be safely stored here. You can release certain merchandise from the headquarters, as and when required or stop its storage. To do this, first choose the corresponding icon followed by the desired merchandise or job symbol. On the third page, you can adjust the number of reserve soldiers who are responsible for guarding the headquarters. There are two values given: the first value indicates the current number of men, the second value indicates the desired number. "
 msgstr "Het hoofdkwartier is het centrum van uw rijk. De grote hoeveelheid opbergruimte betekent dat u heel veel dingen veilig kan opbergen. U kunt bepaalde grondstoffen vrijgeven vanuit uw hoofdkwartier, zodra dit nodig is of u kunt de opslag beëindigen. Om dit te doen, kies eerst het overeenkomstige pictogram gevolgd door het gewenste koopwaar of baansymbool. Voor de derde pagina, kunt u het aantal militairen uit de reserve aanpassen die voor het bewaken van het hoofdkwartier verantwoordelijk zijn. Er zijn twee gegeven waarden: de eerste waarde wijst op het huidige aantal mensen, wijst de tweede waarde op het gewenste aantal. "
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:123
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:126
 msgid "The merchandise statistics window allows you to check the quantities of your merchandise. By clicking the left mouse button you can switch the display of individual goods on and off. These can displayed over four different time periods. To delete all displays, click on the wastebasket button."
 msgstr "In het venster met goederenstatistieken kunt u de hoeveelheden van uw goederen controleren. Door op de linkermuisknop te klikken, kunt u de weergave van afzonderlijke goederen in- en uitschakelen. Deze kunnen worden weergegeven over vier verschillende tijdsperioden. Om alle displays te verwijderen, klikt u op de prullenbakknop."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:145
+#: libs/s25main/gameData/BuildingConsts.cpp:146
 msgid "The mining of coal supports the metalworks and smithy. This hard work requires an adequate supply of food."
 msgstr "Het uithouwen van kool voorziet de metaalwerkers en smeden van steenkool. Dit harde werk heeft een redelijke hoeveelheid voedsel nodig."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:266
+#: libs/s25main/gameData/BuildingConsts.cpp:267
 msgid "The mint is responsible for producing valuable gold coins. These precious objects are produced using coal and gold."
 msgstr "De muntensmelterij is verantwoordelijk voor het produceren van waardevolle gouden munten. Hiervoor zijn steenkool en goud benodigd."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:288
+#: libs/s25main/gameData/BuildingConsts.cpp:289
 msgid "The pack donkeys bred here are used to transport your merchandise more efficiently. They are reared on water and grain."
 msgstr "De pakezels die hier worden gefokt worden gebruikt om je goederen efficiënter te vervoeren. Ze worden gefokt met water en graan."
 
@@ -3654,54 +3673,54 @@ msgstr "De speler '%s' biedt je een %s aan."
 msgid "The player '%s' want to cancel the '%s' between you both prematurely. Do you agree?"
 msgstr "De speler '%s' wil de '%s' tussen jullie beiden voortijdig verbreken. Bent u het eens?"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:351
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:355
 msgid "The playlist was saved!"
 msgstr "De afspeellijst is opgeslagen!"
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:173
+#: libs/s25main/ingameWindows/iwDistribution.cpp:174
 msgid "The priority of goods for the individual buildings can be set here. The higher the value, the quicker the required goods are delivered to the building concerned."
 msgstr "Hier kan de prioriteit van goederen voor de afzonderlijke gebouwen worden ingesteld. Hoe hoger de waarde, hoe sneller de benodigde goederen bij het betreffende gebouw worden afgeleverd."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:139
+#: libs/s25main/gameData/BuildingConsts.cpp:140
 msgid "The quarrying of stone in a granite mine guarantees the supply of stone for buildings. However, even a granite mine has to feed its workers."
 msgstr "Het uithakken van steen uit een graniet mijn garandeert een toestroom van stenen voor gebouwen. Maar, ook een graniet mijn moet zijn arbeider voeden."
 
-#: libs/s25main/desktops/dskLobby.cpp:240
+#: libs/s25main/desktops/dskLobby.cpp:242
 msgid "The selected game was not found anymore."
 msgstr "Het geselecteerde spel is niet meer gevonden."
 
-#: libs/s25main/ingameWindows/iwShip.cpp:138
+#: libs/s25main/ingameWindows/iwShip.cpp:143
 msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
 msgstr "Het scheepsregister bevat alle schepen in uw vloot. Hier kunt u het laden en de bestemmingen van individuele schepen volgen. Vanaf hier worden ook schepen op expeditie bestuurd."
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:109
-#: libs/s25main/desktops/dskSinglePlayer.cpp:112
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:177
+#: libs/s25main/desktops/dskSinglePlayer.cpp:113
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:181
 msgid "The specified file couldn't be loaded!"
 msgstr "Het opgegeven bestand kon niet worden geladen!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:388
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:392
 msgid "The specified file couldn't be opened!"
 msgstr "Het opgegeven bestand kon niet worden geopend!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:355
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:405
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:359
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:409
 msgid "The specified file couldn't be saved!"
 msgstr "Het opgegeven bestand kon niet worden opgeslagen!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:182
+#: libs/s25main/gameData/BuildingConsts.cpp:183
 msgid "The stonemason works the stone near his quarry into bricks. These are needed mainly for building houses and as ammunition for catapults."
 msgstr "De steenhouwer verwerkt het steen in de buurt van zijn steengroeve tot bouwstenen. Deze zijn benodigd voor het bouwen van huizen en als ammunitie voor katapulten."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:233
+#: libs/s25main/gameData/BuildingConsts.cpp:234
 msgid "The storehouse can help reduce long transportation journeys and is suited to the temporary storage of merchandise and inhabitants. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "De pakhuis is handig voor het verkorten van de duur van het vervoer en voor de tijdelijke opslag van goederen en inwoners. U kunt bepaalde goederen scheiden van de pakhuis, wanneer u dit wil. Daarnaast kan de opslag worden uitgeschakeld. Om dit te doen moet u eerst het relevante icoontje aanklikken gevolgd door het gewenste goed- of baansymbool."
 
-#: libs/s25main/ingameWindows/iwTransport.cpp:122
+#: libs/s25main/ingameWindows/iwTransport.cpp:126
 msgid "The transport priority of a type of merchandise can be determined here.The higher the priority of an item in the list, the quicker it is transported by helpers."
 msgstr "Hier kan de transportprioriteit van een type goederen worden bepaald. Hoe hoger de prioriteit van een artikel in de lijst, hoe sneller het wordt vervoerd door helpers."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:110
+#: libs/s25main/gameData/BuildingConsts.cpp:111
 msgid "The watchtower with its large amount of space is best suited for stationing a large number of your troops. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "De wachttoren kan een groot aantal soldaten herbergen. Door de gouden munt-knop te gebruiken kunt u de toevoer van gouden munten naar de hier gestationeerde soldaten stoppen. Echter, zonder gouden munten kunnen de soldaten hier niet trainen en hun vaardigheden verbeteren."
 
@@ -3713,11 +3732,11 @@ msgstr "De winnaar:"
 msgid "The winners:"
 msgstr "De winnaars:"
 
-#: libs/s25main/network/GameServer.cpp:1440
+#: libs/s25main/network/GameServer.cpp:1439
 msgid "There are %1% identical async log entries.\n"
 msgstr "Er zijn %1% identieke asynchrone logboekvermeldingen.\n"
 
-#: libs/s25main/ingameWindows/iwTools.cpp:201
+#: libs/s25main/ingameWindows/iwTools.cpp:203
 msgid "These settings control the tool production of your metalworks. The higher the value, the more likely this tool is to be produced."
 msgstr "Deze instellingen regelen de gereedschapsproductie van uw metaalbewerker. Hoe hoger de waarde, hoe groter de kans dat deze tool wordt geproduceerd."
 
@@ -3729,15 +3748,15 @@ msgstr "De server zit vol!"
 msgid "This harbor building was destroyed"
 msgstr "Dit havengebouw is vernietigd"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:135
+#: libs/s25main/ingameWindows/iwMilitary.cpp:137
 msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
 msgstr "Hier kunt u alle militaire zaken aanpassen. De bovenste waarde komt overeen met het rekruteringspercentage van je leger. Hoe hoger het is, hoe meer inwoners als soldaten worden gerekruteerd. Hieronder vindt u de instelling om uw hutten te beschermen. Als deze waarde maximaal is, worden je hutten verdedigd door de sterkste eenheid. Kies de volgende instelling om het aantal aanvallers dat uw hutten per aanval verlaat te verhogen. Het aantal verdedigers dat de vijand bij een aanval verslaat, wordt weergegeven op het vierde scherm. De laatste drie waarden komen overeen met de bezetting van uw hutten in het binnenland, in het midden van het land en aan de grenzen."
 
-#: libs/s25main/buildings/nobUsual.cpp:546
+#: libs/s25main/buildings/nobUsual.cpp:544
 msgid "This mine is exhausted"
 msgstr "Deze mijn is uitgeput"
 
-#: libs/s25main/buildings/nobUsual.cpp:544
+#: libs/s25main/buildings/nobUsual.cpp:542
 msgid "This well has dried out"
 msgstr "Deze waterput is uitgedroogd"
 
@@ -3745,11 +3764,20 @@ msgstr "Deze waterput is uitgedroogd"
 msgid "This window allows a direct comparison with the enemies. Factors such as the wealth, territorial area, inhabitants, etc. of all parties can be compared. This data can be shown over four different time periods."
 msgstr "Dit venster maakt een directe vergelijking met de vijanden mogelijk. Factoren zoals de rijkdom, territoriaal gebied, inwoners, etc. van alle partijen kunnen worden vergeleken. Deze gegevens kunnen worden weergegeven over vier verschillende tijdsperioden."
 
+#: libs/s25main/ingameWindows/iwEconomicProgress.cpp:155
+msgid "This window shows the wares that should be collected for the economy mode. Displayed is the current inventory of the player, his team and after game end of the opponent teams."
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwPostWindow.cpp:294
 #: libs/s25main/ingameWindows/iwSave.cpp:51
 msgid "Time"
 msgstr "Tijd"
 
-#: libs/s25main/ingameWindows/iwDiplomacy.cpp:238
+#: libs/s25main/ingameWindows/iwEconomicProgress.cpp:106
+msgid "Time remaining:"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwDiplomacy.cpp:237
 msgid "To player:"
 msgstr "Aan speler:"
 
@@ -3757,7 +3785,7 @@ msgstr "Aan speler:"
 msgid "To register, you have to create a valid board account at http://forum.siedler25.org at the moment.\n"
 msgstr "Om te registreren, moet u op het moment een geldige board account hebben bij http://forum.siedler25.org.\n"
 
-#: libs/s25main/gameTypes/GoodTypes.h:74
+#: libs/s25main/gameData/GoodConsts.cpp:23
 msgid "Tongs"
 msgstr "Tang"
 
@@ -3769,47 +3797,51 @@ msgstr "Te kort bericht ontvangen!"
 msgid "Tool ordering"
 msgstr "Gereedschappen orderen"
 
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:56
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:82
-#: libs/s25main/ingameWindows/iwTools.cpp:42
-#: libs/s25main/ingameWindows/iwTransport.cpp:64
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:58
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:83
+#: libs/s25main/ingameWindows/iwTools.cpp:43
+#: libs/s25main/ingameWindows/iwTransport.cpp:67
 msgid "Tools"
 msgstr "Gereedschappen"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:42
-#: libs/s25main/ingameWindows/iwTransport.cpp:41
+#: libs/s25main/EconomyModeHandler.cpp:88
+msgid "Tools in the hands of workers are also counted. So are weapons, and beer, that soldiers have in use. For an updating tally of the collected goods see the economic progress window."
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:44
+#: libs/s25main/ingameWindows/iwTransport.cpp:42
 msgid "Top"
 msgstr "Top"
 
-#: libs/s25main/desktops/dskHostGame.cpp:209
+#: libs/s25main/desktops/dskHostGame.cpp:216
 msgid "Total domination"
 msgstr "Alleenheerschappij"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:333
+#: libs/s25main/desktops/dskGameInterface.cpp:334
 msgid "Tournament finished"
 msgstr "Toernooi is afgelopen"
 
-#: libs/s25main/desktops/dskHostGame.cpp:216
+#: libs/s25main/desktops/dskHostGame.cpp:224
 #, c-format
 msgid "Tournament: %u minutes"
 msgstr "Toernooi: %u minuten"
 
 #: libs/s25main/addons/AddonTrade.h:27
-#: libs/s25main/ingameWindows/iwTrade.cpp:40
+#: libs/s25main/ingameWindows/iwTrade.cpp:41
 msgid "Trade"
 msgstr "Handel"
 
-#: libs/s25main/figures/nofTradeLeader.cpp:74
+#: libs/s25main/figures/nofTradeLeader.cpp:75
 #, c-format
 msgid "Trade caravan with %s %s arrives from player '%s'."
 msgstr "Ruil caravan met %s %s komt aan van speler '%s'."
 
-#: libs/s25main/ingameWindows/iwTrade.cpp:44
+#: libs/s25main/ingameWindows/iwTrade.cpp:45
 #, c-format
 msgid "Trade with %s"
 msgstr "Handelen met %s"
 
-#: libs/s25main/ingameWindows/iwMainMenu.cpp:54
+#: libs/s25main/ingameWindows/iwMainMenu.cpp:56
 #: libs/s25main/ingameWindows/iwTransport.cpp:32
 msgid "Transport"
 msgstr "Vervoer"
@@ -3823,7 +3855,7 @@ msgstr "Verdragen"
 msgid "Treaty of alliance"
 msgstr "Verdrag tot alliantie"
 
-#: libs/s25main/desktops/dskGameLoader.cpp:100
+#: libs/s25main/desktops/dskGameLoader.cpp:102
 msgid "Tribal chiefs assembled around the table..."
 msgstr "Opperhoofden zijn rond de tafel verzameld..."
 
@@ -3831,21 +3863,21 @@ msgstr "Opperhoofden zijn rond de tafel verzameld..."
 msgid "Type"
 msgstr "Type"
 
-#: libs/s25main/Loader.cpp:326
+#: libs/s25main/Loader.cpp:293
 msgid "Unable to load font at index %1%\n"
 msgstr "Het font laden is mislukt bij index %1%\n"
 
-#: libs/s25main/desktops/dskSelectMap.cpp:204
+#: libs/s25main/desktops/dskSelectMap.cpp:205
 msgid "Unexpected dynamic type of map"
 msgstr "Onverwachte dynamische type van de wereld."
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:108
 #: libs/s25main/ingameWindows/iwSave.cpp:90
-#: libs/s25main/network/GameClient.cpp:1385
+#: libs/s25main/network/GameClient.cpp:1408
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: libs/s25main/world/MapLoader.cpp:376
+#: libs/s25main/world/MapLoader.cpp:377
 msgid "Unknown animal species at %1%: (0x%2$x)\n"
 msgstr "Onbekend dierensoort bij %1%: (0x%2$x)\n"
 
@@ -3858,27 +3890,27 @@ msgstr "Onbekende fout"
 msgid "Unknown error!"
 msgstr "Onbekende fout!"
 
-#: libs/s25main/world/MapLoader.cpp:324 libs/s25main/world/MapLoader.cpp:334
+#: libs/s25main/world/MapLoader.cpp:325 libs/s25main/world/MapLoader.cpp:335
 msgid "Unknown granite type2 at %1%: (0x%2$x)\n"
 msgstr "Onbekende graniet type2 bij %1%: (0x%2$x)\n"
 
-#: libs/s25main/world/MapLoader.cpp:314
+#: libs/s25main/world/MapLoader.cpp:315
 msgid "Unknown nature object at %1%: (0x%2$x)\n"
 msgstr "Onbekend natuurlijke object bij %1%: (0x%2$x)\n"
 
-#: libs/s25main/world/MapLoader.cpp:344
+#: libs/s25main/world/MapLoader.cpp:345
 msgid "Unknown object at %1%: (0x%2$x: 0x%3$x)\n"
 msgstr "Onbekend object bij %1%: (0x%2$x: 0x%3$x)\n"
 
-#: libs/s25main/world/MapLoader.cpp:227
+#: libs/s25main/world/MapLoader.cpp:228
 msgid "Unknown tree1-4 at %1%: (0x%2$x)\n"
 msgstr "Onbekende boom1-4 bij %1%: (0x%2$x)\n"
 
-#: libs/s25main/world/MapLoader.cpp:243
+#: libs/s25main/world/MapLoader.cpp:244
 msgid "Unknown tree5-8 at %1%: (0x%2$x)\n"
 msgstr "Onbekende boom5-8 bij %1%: (0x%2$x)\n"
 
-#: libs/s25main/world/MapLoader.cpp:253
+#: libs/s25main/world/MapLoader.cpp:254
 msgid "Unknown tree9 at %1%: (0x%2$x)\n"
 msgstr "Onbekende boom9 bij %1%: (0x%2$x)\n"
 
@@ -3889,21 +3921,21 @@ msgstr "Onbeperkt"
 
 #: libs/s25main/QuickStartGame.cpp:65
 #: libs/s25main/desktops/dskSinglePlayer.cpp:58
-#: libs/s25main/desktops/dskSinglePlayer.cpp:149
-#: libs/s25main/desktops/dskSinglePlayer.cpp:154
+#: libs/s25main/desktops/dskSinglePlayer.cpp:150
+#: libs/s25main/desktops/dskSinglePlayer.cpp:155
 msgid "Unlimited Play"
 msgstr "Vrij spel"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:44
-#: libs/s25main/ingameWindows/iwTransport.cpp:43
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:46
+#: libs/s25main/ingameWindows/iwTransport.cpp:44
 msgid "Up"
 msgstr "Omhoog"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:377
+#: libs/s25main/ingameWindows/iwAction.cpp:337
 msgid "Upgrade to donkey road"
 msgstr "Verbeter naar ezelweg"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:116
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:118
 msgid "Upwards"
 msgstr "Naar boven"
 
@@ -3911,7 +3943,7 @@ msgstr "Naar boven"
 msgid "Use"
 msgstr "Gebruik"
 
-#: libs/s25main/desktops/dskOptions.cpp:129
+#: libs/s25main/desktops/dskOptions.cpp:134
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:58
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:51
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:83
@@ -3922,7 +3954,7 @@ msgstr "Gebruik IPv6:"
 msgid "Use S2 Defaults"
 msgstr "S2-standaardinstellingen gebruiken"
 
-#: libs/s25main/desktops/dskOptions.cpp:173
+#: libs/s25main/desktops/dskOptions.cpp:178
 msgid "Use UPnP"
 msgstr "Gebruik UPnP"
 
@@ -3935,8 +3967,8 @@ msgstr "Gebruikersnaam:"
 msgid "Vanquished enemies"
 msgstr "Verslagen vijanden"
 
-#: libs/s25main/desktops/dskLAN.cpp:61 libs/s25main/desktops/dskLobby.cpp:64
-#: libs/s25main/desktops/dskLobby.cpp:69
+#: libs/s25main/desktops/dskLAN.cpp:62 libs/s25main/desktops/dskLobby.cpp:65
+#: libs/s25main/desktops/dskLobby.cpp:70
 msgid "Version"
 msgstr "Versie"
 
@@ -3944,24 +3976,16 @@ msgstr "Versie"
 msgid "Version:"
 msgstr "Versie:"
 
-#: libs/s25main/desktops/dskOptions.cpp:203
+#: libs/s25main/desktops/dskOptions.cpp:209
 msgid "Vertex Buffer Objects:"
 msgstr "Vertex Buffer Objects:"
 
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
-msgid "Very Close"
-msgstr "Zeer dichtbij"
-
-#: libs/s25main/ingameWindows/iwMapGenerator.cpp:86
-msgid "Very Far"
-msgstr "Erg ver"
-
-#: libs/s25main/desktops/dskHostGame.cpp:199
+#: libs/s25main/desktops/dskHostGame.cpp:205
 msgid "Very Low"
 msgstr "Erg laag"
 
 #: libs/s25main/addons/AddonShipSpeed.h:36
-#: libs/s25main/desktops/dskHostGame.cpp:227
+#: libs/s25main/desktops/dskHostGame.cpp:235
 msgid "Very fast"
 msgstr "Zeer snel"
 
@@ -3970,15 +3994,15 @@ msgid "Very long"
 msgstr "Heel lang"
 
 #: libs/s25main/addons/AddonShipSpeed.h:32
-#: libs/s25main/desktops/dskHostGame.cpp:223
+#: libs/s25main/desktops/dskHostGame.cpp:231
 msgid "Very slow"
 msgstr "Zeer langzaam"
 
-#: libs/s25main/GameManager.cpp:59
+#: libs/s25main/GameManager.cpp:60
 msgid "Video driver couldn't be loaded!\n"
 msgstr "Videobesturingsprogramma kon niet worden geladen!\n"
 
-#: libs/s25main/desktops/dskHostGame.cpp:182
+#: libs/s25main/desktops/dskHostGame.cpp:186
 msgid "View Settings..."
 msgstr "Instellingen bekijken..."
 
@@ -3986,7 +4010,7 @@ msgstr "Instellingen bekijken..."
 msgid "Vikings"
 msgstr "Vikingen"
 
-#: libs/s25main/Loader.cpp:306
+#: libs/s25main/Loader.cpp:273
 msgid ""
 "WARNING: Did not find the music files.\n"
 "\tYou have to run the updater once or copy the .ogg files manually to \"%1%\" or you won't be able to hear the music.\n"
@@ -3994,7 +4018,7 @@ msgstr ""
 "WAARSCHUWING: Kon de muziekbestanden niet vinden.\n"
 "\t Je moet de updater eenmalig gebruiken of de .ogg bestanden handmatig kopiëren naar \"%1%\" anders kunt u de muziek niet horen.\n"
 
-#: libs/s25main/Loader.cpp:295
+#: libs/s25main/Loader.cpp:264
 msgid "WARNING: Found invalid music item for %1%\n"
 msgstr "WAARSCHUWING: Invalide item voor muziek voor %1%\n"
 
@@ -4007,11 +4031,11 @@ msgstr "Wachten op Spelersinfo..."
 msgid "Waiting for Reply..."
 msgstr "Wachten op antwoord..."
 
-#: libs/s25main/ingameWindows/iwTrade.cpp:77
+#: libs/s25main/ingameWindows/iwTrade.cpp:79
 msgid "Ware you like to trade"
 msgstr "Goederen die je wil verhandelen"
 
-#: libs/s25main/ingameWindows/iwTrade.cpp:54
+#: libs/s25main/ingameWindows/iwTrade.cpp:56
 msgid "Wares"
 msgstr "Goederen"
 
@@ -4020,24 +4044,26 @@ msgstr "Goederen"
 msgid "Warning: The played replay is not in sync with the original match. (GF: %u)"
 msgstr "Waarschuwing: De afgespeelde herhaling loopt niet synchroon met de oorspronkelijke potje. (GF: %u)"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:26
+#: libs/s25main/gameData/BuildingConsts.cpp:27
 msgid "Watchtower"
 msgstr "Wachttoren"
 
-#: libs/s25main/gameTypes/GoodTypes.h:83 libs/s25main/gameTypes/GoodTypes.h:84
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:66
+#: libs/s25main/gameData/GoodConsts.cpp:32
+#: libs/s25main/gameData/GoodConsts.cpp:33
+#: libs/s25main/ingameWindows/iwMapGenerator.cpp:66
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:67
 msgid "Water"
 msgstr "Water"
 
-#: libs/s25main/figures/nofAttacker.cpp:601
+#: libs/s25main/figures/nofAttacker.cpp:602
 msgid "We are under attack!"
 msgstr "We worden aangevallen!"
 
-#: libs/s25main/desktops/dskCredits.cpp:268
+#: libs/s25main/desktops/dskCredits.cpp:282
 msgid "We hope you enjoy playing Return To The Roots!"
 msgstr "Wij hopen dat u veel speelplezier heeft met Return To The Roots!"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:410
+#: libs/s25main/ingameWindows/iwAction.cpp:370
 msgid "Weak attackers"
 msgstr "Zwakke aanvallers"
 
@@ -4045,23 +4071,23 @@ msgstr "Zwakke aanvallers"
 msgid "Weak defense"
 msgstr "Zwakke verdediging"
 
-#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:83
-#: libs/s25main/ingameWindows/iwTransport.cpp:53
+#: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:85
+#: libs/s25main/ingameWindows/iwTransport.cpp:56
 msgid "Weapons"
 msgstr "Wapens"
 
-#: libs/s25main/desktops/dskCredits.cpp:64
-#: libs/s25main/desktops/dskCredits.cpp:80
-#: libs/s25main/desktops/dskCredits.cpp:107
+#: libs/s25main/desktops/dskCredits.cpp:75
+#: libs/s25main/desktops/dskCredits.cpp:91
+#: libs/s25main/desktops/dskCredits.cpp:118
 msgid "Website Administration"
 msgstr "Website Beheer"
 
-#: libs/s25main/desktops/dskCredits.cpp:81
-#: libs/s25main/desktops/dskCredits.cpp:108
+#: libs/s25main/desktops/dskCredits.cpp:92
+#: libs/s25main/desktops/dskCredits.cpp:119
 msgid "Website Programming"
 msgstr "Website Programmering"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:57
+#: libs/s25main/gameData/BuildingConsts.cpp:58
 msgid "Well"
 msgstr "Waterput"
 
@@ -4069,20 +4095,20 @@ msgstr "Waterput"
 msgid "What is this?"
 msgstr "Wat is dit?"
 
-#: libs/s25main/desktops/dskOptions.cpp:196
+#: libs/s25main/desktops/dskOptions.cpp:202
 #: libs/s25main/ingameWindows/iwSettings.cpp:43
 msgid "Windowed"
 msgstr "Venstermodus"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:188
+#: libs/s25main/gameData/BuildingConsts.cpp:189
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
 msgstr "De boswachter zorgt binnen zijn gebied voor het behoud van het bos. Hij plant allerlei soorten bomen."
 
-#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:59
+#: libs/s25main/ingameWindows/iwLobbyRanking.cpp:61
 msgid "Won"
 msgstr "Gewonnen"
 
-#: libs/s25main/gameTypes/GoodTypes.h:95
+#: libs/s25main/gameData/GoodConsts.cpp:44
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:59
 msgid "Wood"
 msgstr "Hout"
@@ -4091,11 +4117,11 @@ msgstr "Hout"
 msgid "Woodchopper"
 msgstr "Houthakker"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:39
+#: libs/s25main/gameData/BuildingConsts.cpp:40
 msgid "Woodcutter"
 msgstr "Houthakker"
 
-#: libs/s25main/desktops/dskGameLoader.cpp:131
+#: libs/s25main/desktops/dskGameLoader.cpp:133
 msgid "World was put together and glued..."
 msgstr "Wereld samengesteld en gelijmd..."
 
@@ -4111,7 +4137,7 @@ msgstr "Verkeerd Servertype!"
 msgid "Wrong client version"
 msgstr "Verkeerde clientversie"
 
-#: libs/s25main/lua/LuaInterfaceGameBase.cpp:60
+#: libs/s25main/lua/LuaInterfaceGameBase.cpp:61
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
 msgstr "Verkeerde lua-script versie: %1%. Huidige versie: %2%.%3%.\n"
 
@@ -4119,14 +4145,14 @@ msgstr "Verkeerde lua-script versie: %1%. Huidige versie: %2%.%3%.\n"
 msgid "Wrong version for lua script."
 msgstr "Verkeerde versie voor lua-script."
 
-#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:35
+#: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:36
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:80
-#: libs/s25main/ingameWindows/iwMsgbox.cpp:93
-#: libs/s25main/ingameWindows/iwMsgbox.cpp:99
+#: libs/s25main/ingameWindows/iwMsgbox.cpp:94
+#: libs/s25main/ingameWindows/iwMsgbox.cpp:100
 msgid "Yes"
 msgstr "Ja"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:274
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:278
 msgid "You are not allowed to delete the standard playlist!"
 msgstr "U mag de standaard afspeellijst niet verwijderen!"
 
@@ -4142,8 +4168,8 @@ msgstr ""
 "Je zult waarschijnlijk goud willen converteren naar ijzer, want dit (op de meeste werelden)\n"
 "staat jou toe om de extra steenkool te gebruiken die niet meer nodig is om goud te kunnen omsmelten."
 
-#: libs/s25main/desktops/dskDirectIP.cpp:50 libs/s25main/desktops/dskLAN.cpp:95
-#: libs/s25main/desktops/dskLobby.cpp:143
+#: libs/s25main/desktops/dskDirectIP.cpp:50 libs/s25main/desktops/dskLAN.cpp:97
+#: libs/s25main/desktops/dskLobby.cpp:145
 msgid ""
 "You can't create a game while a proxy server is active\n"
 "Disable the use of a proxy server first!"
@@ -4151,33 +4177,46 @@ msgstr ""
 "Je kan geen spel aanmaken terwijl een proxy server actief is\n"
 "Schakel het gebruik van een proxy server eerst uit!"
 
-#: libs/s25main/desktops/dskLAN.cpp:175 libs/s25main/desktops/dskLobby.cpp:255
+#: libs/s25main/desktops/dskLAN.cpp:177 libs/s25main/desktops/dskLobby.cpp:257
 msgid "You can't join that game with your version!"
 msgstr "U kunt niet deelnemen aan dat spel met uw huidige versie!"
 
-#: libs/s25main/desktops/dskHostGame.cpp:697
+#: libs/s25main/desktops/dskHostGame.cpp:1086
+msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
+msgstr ""
+
+#: libs/s25main/desktops/dskHostGame.cpp:1071
+msgid ""
+"You chose the economy mode. In economy mode the player or team that collects the most of certain goods wins (check the Economic progress window in game).\n"
+"\n"
+"Some players like to play this objective in peaceful mode. Would you like to adjust settings for a peaceful game?\n"
+"Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
+"Choosing No will start the game without any changes."
+msgstr ""
+
+#: libs/s25main/desktops/dskHostGame.cpp:708
 #, c-format
 msgid "You have %u seconds until game starts"
 msgstr "Uw heeft %u seconden totdat het spel start"
 
-#: libs/s25main/desktops/dskOptions.cpp:570
+#: libs/s25main/desktops/dskOptions.cpp:580
 #: libs/s25main/ingameWindows/iwSettings.cpp:87
 msgid "You need to restart your game to change the screen resolution!"
 msgstr "U moet uw spel herstarten om de schermresolutie te wijzigen!"
 
-#: libs/s25main/desktops/dskOptions.cpp:578
+#: libs/s25main/desktops/dskOptions.cpp:588
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "U moet het spel opnieuw starten om de wijzigingen van de video/geluids -besturingsprogramma toe te passen."
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:376
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:381
 msgid "You win"
 msgstr "U heeft gewonnen"
 
-#: libs/s25main/GamePlayer.cpp:1662
+#: libs/s25main/GamePlayer.cpp:1674
 msgid "Your ally wishes to notify you of this location"
 msgstr "Jouw bondgenoot wenst jou te laten weten van deze locatie"
 
-#: libs/s25main/ingameWindows/iwTools.cpp:75
+#: libs/s25main/ingameWindows/iwTools.cpp:76
 msgid "Zero all production"
 msgstr "Stop alle productie"
 
@@ -4185,11 +4224,11 @@ msgstr "Stop alle productie"
 msgid "Zoom"
 msgstr "In-/uitzoomen"
 
-#: libs/s25main/desktops/dskCredits.cpp:123
+#: libs/s25main/desktops/dskCredits.cpp:135
 msgid "all developers who contributed via Github"
 msgstr "Alle ontwikkelaars die hebben bijgedragen via Github"
 
-#: libs/s25main/network/GameClient.cpp:1561
+#: libs/s25main/network/GameClient.cpp:1577
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "huidige GF: %u - nog steeds snel aan het doorspoelen: %d GFs over (%d %%)"
@@ -4198,54 +4237,48 @@ msgstr "huidige GF: %u - nog steeds snel aan het doorspoelen: %d GFs over (%d %%
 msgid "default"
 msgstr "standaard"
 
-#: libs/s25main/Loader.cpp:280 libs/s25main/Loader.cpp:1130
-#: libs/s25main/Loader.cpp:1157
+#: libs/s25main/Loader.cpp:249 libs/s25main/resources/ArchiveLoader.cpp:129
 #, c-format
 msgid "done in %ums\n"
 msgstr "klaar in %ums\n"
 
-#: libs/s25main/Loader.cpp:277 libs/s25main/Loader.cpp:1126
-#: libs/s25main/Loader.cpp:1153
+#: libs/s25main/Loader.cpp:245 libs/s25main/resources/ArchiveLoader.cpp:134
 msgid "failed: %1%\n"
 msgstr "gefaald: %1%\n"
-
-#: libs/s25main/Loader.cpp:1187
-#, c-format
-msgid "finished in %ums\n"
-msgstr "voltooid in %ums\n"
 
 #: data/RTTR/gamedata/world/greenland.lua:5
 msgid "greenland"
 msgstr "groenland"
 
-#: libs/s25main/GameManager.cpp:154
+#: libs/s25main/GameManager.cpp:155
 msgid "jump to gf %1% complete\n"
 msgstr "sprong naar gf %1% is voltooid\n"
 
-#: libs/s25main/GameManager.cpp:149
+#: libs/s25main/GameManager.cpp:150
 #, c-format
 msgid "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
 msgstr "springen naar gf %i compleet, tijd voor de laatste %i gf: %.3f s, gemiddelde gf tijd is %.3f ms \n"
 
-#: libs/s25main/GameManager.cpp:137
+#: libs/s25main/GameManager.cpp:138
 #, c-format
 msgid "jumping to gf %i, now at gf %i \n"
 msgstr "springen naar gf %i, nu bij gf %i \n"
 
-#: libs/s25main/GameManager.cpp:134
+#: libs/s25main/GameManager.cpp:135
 #, c-format
 msgid "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time %.3f ms \n"
 msgstr "springen naar gf %i, nu bij gf %i, tijd voor de laatste 5k gf: %.3f s, gemiddelde gf tijd is %.3f ms \n"
-
-#: libs/s25main/ingameWindows/iwPostWindow.cpp:294
-msgid "of"
-msgstr "van"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:32
 msgid "to GameFrame:"
 msgstr "naar GameFrame:"
 
-#: libs/s25main/desktops/dskCredits.cpp:141
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:36
+#, fuzzy
+msgid "unlimited"
+msgstr "Onbeperkt"
+
+#: libs/s25main/desktops/dskCredits.cpp:154
 msgid "various anonymous donators"
 msgstr "diverse anonieme donateurs"
 
@@ -4256,3 +4289,67 @@ msgstr "wildernis"
 #: data/RTTR/gamedata/world/winterworld.lua:4
 msgid "winterworld"
 msgstr "winterwereld"
+
+#~ msgid "Close"
+#~ msgstr "Afsluiten"
+
+#~ msgid "Continent"
+#~ msgstr "Continent"
+
+#, c-format
+#~ msgid "Directory does not exist: %s"
+#~ msgstr "Bibliotheek bestaat niet: %s"
+
+#, c-format
+#~ msgid "Directory does not exist: %s\n"
+#~ msgstr "Map bestaat niet: %s\n"
+
+#~ msgid "Far"
+#~ msgstr "Ver"
+
+#~ msgid "Furthest apart"
+#~ msgstr "Zo ver mogelijk"
+
+#~ msgid "Greenland"
+#~ msgstr "Groenland"
+
+#~ msgid "Islands"
+#~ msgstr "Eilanden"
+
+#, c-format
+#~ msgid "Loading LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI files from \"%s\"\n"
+#~ msgstr "LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI bestanden laden van \"%s\"\n"
+
+#~ msgid "Medium"
+#~ msgstr "Gemiddeld"
+
+#~ msgid "Migration"
+#~ msgstr "Overzetten"
+
+#~ msgid "Player Distribution"
+#~ msgstr "Spelersverdeling"
+
+#~ msgid "Random"
+#~ msgstr "Willekeurig"
+
+#~ msgid "Ringland"
+#~ msgstr "Ringland"
+
+#~ msgid "Riverland"
+#~ msgstr "Delta"
+
+#~ msgid "Start GF"
+#~ msgstr "Start-GF"
+
+#~ msgid "Very Close"
+#~ msgstr "Zeer dichtbij"
+
+#~ msgid "Very Far"
+#~ msgstr "Erg ver"
+
+#, c-format
+#~ msgid "finished in %ums\n"
+#~ msgstr "voltooid in %ums\n"
+
+#~ msgid "of"
+#~ msgstr "van"
