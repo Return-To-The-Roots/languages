@@ -30,14 +30,16 @@ msgstr ""
 "Kustantaa: "
 
 #: libs/s25main/GameManager.cpp:85
+#, fuzzy
 msgid ""
 "\n"
 "Starting the game\n"
-msgstr ""
+msgstr "Aloita peli"
 
 #: libs/s25main/resources/ArchiveLoader.cpp:98
+#, fuzzy
 msgid "  Loading %1% entries: "
-msgstr ""
+msgstr "Ladataan %1% "
 
 #: libs/s25main/JoinPlayerInfo.cpp:58
 msgid " (AI)"
@@ -72,8 +74,9 @@ msgid " stones"
 msgstr " kiveä"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1342
+#, fuzzy
 msgid "%1% are the winners!"
-msgstr ""
+msgstr "Pelaaja '%s' on voittanut pelin!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:184
 msgid "%1% map(s) could not be loaded. Check the log for details"
@@ -84,8 +87,9 @@ msgid "%1% min"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:53
+#, fuzzy
 msgid "%1% players"
-msgstr ""
+msgstr "%d pelaaja"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:36
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:37
@@ -230,7 +234,7 @@ msgstr "20 katapulttia"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:41
 msgid "3 catapults"
-msgstr "Ei katapultteja"
+msgstr "3 katapulttia"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:45
 msgid "30 catapults"
@@ -256,7 +260,7 @@ msgstr "Automaattitallennus luotu..."
 
 #: libs/s25main/buildings/nobMilitary.cpp:1247
 msgid "A catapult is firing upon us!"
-msgstr "Katapultti pommittaa meitä kohti!"
+msgstr "Katapultti ampuu meitä kohti!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:156
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
@@ -288,7 +292,7 @@ msgstr "Kaivosta saadaan vettä leipomoon, olutpanimoon, aasinkasvattajalle ja s
 
 #: libs/s25main/gameData/BuildingConsts.cpp:174
 msgid "A woodcutter provides the sawmill with logs. A forester is able to replant the depleted forest."
-msgstr "Puunhakkaaja tarjoaa tukkeja sajalle. Metsittäjä kykenee ylläpitämään metsää."
+msgstr "Puunhakkaaja tarjoaa tukkeja sahalle. Metsittäjä kykenee ylläpitämään metsää."
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:106
 msgid "AI"
@@ -313,11 +317,11 @@ msgstr "Keskeytä"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:35
 msgid "Active if attacked"
-msgstr "Aktiivinen jos hyökättynä"
+msgstr "Aktiivinen, jos hyökkäyksen kohteena"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:36
 msgid "Active near frontiers"
-msgstr "Aktiivienen jos lähellä rajaa"
+msgstr "Aktiivinen, jos rajan lähellä"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:59
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:27
@@ -335,7 +339,7 @@ msgstr "Lisää palvelin"
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:114
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:296
 msgid "Add directory of tracks"
-msgstr "Lisää raitojen kansio"
+msgstr "Lisää ääniraitojen kansio"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:112
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:291
@@ -351,8 +355,9 @@ msgid "Additional Programming:"
 msgstr "Muut ohjelmoijat:"
 
 #: libs/s25main/desktops/dskCredits.cpp:144
+#, fuzzy
 msgid "Additional Support:"
-msgstr ""
+msgstr "Lisäominaisuudet"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:52
 msgid "Additional features:"
@@ -445,7 +450,7 @@ msgstr ""
 
 #: libs/s25main/addons/AddonCharburner.h:31
 msgid "Allows to build the charburner."
-msgstr "Salli hiilenpolttajan rakentaminen."
+msgstr "Sallii hiilenpolttajan rakentaminen."
 
 #: libs/s25main/addons/AddonToolOrdering.h:10
 msgid "Allows to order a specific amount of tools for priority production."
@@ -453,7 +458,7 @@ msgstr ""
 
 #: libs/s25main/addons/AddonTrade.h:28
 msgid "Allows to send wares/figures to allied warehouses"
-msgstr "Salli hyödykkeiden/hahmojen lähettäminen liittolaisten varastoihin?"
+msgstr "Sallii hyödykkeiden/hahmojen lähettäminen liittolaisten varastoihin"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:186
 msgid "Altitude"
@@ -461,7 +466,7 @@ msgstr "Korkeus"
 
 #: libs/s25main/SerializedGameData.cpp:333
 msgid "An error occured while saving which was suppressed!"
-msgstr "Tallennettaessa tapahtui virhe, joka tukahdetettiin!"
+msgstr "Tallennettaessa tapahtui virhe, joka tukahdutettiin!"
 
 #: libs/s25main/desktops/dskGameLoader.cpp:137
 msgid "And let's go!"
@@ -477,24 +482,26 @@ msgid "Apply Changes"
 msgstr "Toteuta muutokset"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:172
+#, fuzzy
 msgid "Are you sure to remove all invalid replays?"
-msgstr ""
+msgstr "Haluatko varmasti poistaa kaikki uusinnat?"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:158
 msgid "Are you sure to remove all replays?"
 msgstr "Haluatko varmasti poistaa kaikki uusinnat?"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:166
+#, fuzzy
 msgid "Are you sure you want to remove the selected replay?"
-msgstr ""
+msgstr "Haluatko varmasti poistaa kaikki uusinnat?"
 
 #: libs/s25main/gameData/JobConsts.cpp:50
 msgid "Armorer"
-msgstr "Aseseppiä"
+msgstr "Aseseppä"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:47
 msgid "Armory"
-msgstr "Aseseppä"
+msgstr "Asevarasto"
 
 #: libs/s25main/desktops/dskCredits.cpp:81
 msgid "Artificial Intelligence (AI)"
@@ -502,7 +509,7 @@ msgstr "Tekoäly"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:168
 msgid "As the teams are locked, you cannot make treaties of any kind."
-msgstr "Kun joukkueet ovat lukittu, et voi käydä minkäänlaisia neuvotteluita."
+msgstr "Kun joukkueet ovat lukittu, et voi tehdä minkäänlaisia sopimuksia."
 
 #: libs/s25main/network/GameServer.cpp:791
 msgid ""
@@ -532,20 +539,21 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwAction.cpp:358
 msgid "Attack not possible."
-msgstr "Hyökkäystä ei voi suorittaa"
+msgstr "Hyökkäys ei ole mahdollista"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:281
 #: libs/s25main/ingameWindows/iwAction.cpp:289
 msgid "Attack options"
-msgstr "Hyökkääminen"
+msgstr "Hyökkäys vaihtoehdot"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:388
 msgid "Attack!"
 msgstr "Hyökkää!"
 
 #: libs/s25main/GameManager.cpp:74
+#, fuzzy
 msgid "Audio driver couldn't be loaded!\n"
-msgstr ""
+msgstr "Määriteltyä tiedostoa ei voitu ladata!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:88
 msgid "Author"
@@ -620,7 +628,7 @@ msgstr "Lautoja"
 
 #: libs/s25main/gameData/GoodConsts.cpp:37
 msgid "Boat"
-msgstr "Veneitä"
+msgstr "Vene"
 
 #: libs/s25main/gameData/JobConsts.cpp:64
 msgid "Boat carrier"
@@ -637,7 +645,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:55
 msgid "Border areas"
-msgstr "Rajaseudut"
+msgstr "Raja-alueet"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:50
 #: libs/s25main/ingameWindows/iwTransport.cpp:49
@@ -665,7 +673,7 @@ msgstr "Olutpanimo"
 #: libs/s25main/ingameWindows/iwAction.cpp:232
 #: libs/s25main/ingameWindows/iwAction.cpp:238
 msgid "Build road"
-msgstr "Luo tie"
+msgstr "Rakenna tie"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:220
 msgid "Build waterway"
@@ -737,19 +745,21 @@ msgstr "Muuta asetuksia..."
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:31
 msgid "Change defender behavior"
-msgstr "Vaihda puolustuksen käyttäytyminen"
+msgstr "Vaihda puolustuksen käyttäytymistä"
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:32
 msgid "Change gold deposits"
 msgstr "Vaihda kulta"
 
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:10
+#, fuzzy
 msgid "Change metalworks behavior on zero"
-msgstr ""
+msgstr "Vaihda puolustuksen käyttäytymistä"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:31
+#, fuzzy
 msgid "Change the coin setting for captured military buildings."
-msgstr ""
+msgstr "Älä salli sotilasrakennuksien tuhoamista"
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:32
 msgid ""
@@ -833,8 +843,9 @@ msgid "Coal mine"
 msgstr "Hiilikaivos"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:101
+#, fuzzy
 msgid "Coal:"
-msgstr ""
+msgstr "Hiiltä"
 
 #: libs/s25main/gameData/GoodConsts.cpp:50
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:81
@@ -882,7 +893,7 @@ msgstr "Yhdistä"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:62
 msgid "Connecting to Lobby"
-msgstr "Yhdistetään chattiin"
+msgstr "Yhdistetään aulaan"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:143
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:164
@@ -916,8 +927,9 @@ msgid "Continue"
 msgstr "Jatka"
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:58
+#, fuzzy
 msgid "Continue game"
-msgstr ""
+msgstr "Jatka"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:235
 msgid "Contract type:"
@@ -987,7 +999,7 @@ msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:151
 msgid "Deep within the mountains, miners dig for iron ore. They will obviously need a lot of food for the strenuous work."
-msgstr "Syvällä vuorien kätköissä kaivosmiehet ovat rautamalmin kimpussa. Kuten arvata saattaa, ruokaa kuluu paljon."
+msgstr "Syvällä vuorien uumenissa, kaivosmiehet kaivavat rautamalmia. Kuten arvata saattaa, ruokaa kuluu paljon."
 
 #: libs/s25main/addons/AddonBurnDuration.h:32
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:35
@@ -1002,9 +1014,9 @@ msgid "Default"
 msgstr "Oletus"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:146
-#, c-format
+#, fuzzy, c-format
 msgid "Delete Invalid (%u)"
-msgstr ""
+msgstr "Poista kaikki"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:94
 msgid "Delete all"
@@ -1012,8 +1024,9 @@ msgstr "Poista kaikki"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:73
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:165
+#, fuzzy
 msgid "Delete selected"
-msgstr ""
+msgstr "Poista kaikki"
 
 #: libs/s25main/addons/AddonDemolishBldWORes.h:27
 msgid "Demolish building when out of resources"
@@ -1054,7 +1067,7 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwAction.cpp:267
 #: libs/s25main/ingameWindows/iwAction.cpp:276
 msgid "Dig up road"
-msgstr "Peitä tie"
+msgstr "Tuhoa tie"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:59
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:88
@@ -1066,20 +1079,22 @@ msgid "Direct IP"
 msgstr "Suora IP"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:35
+#, fuzzy
 msgid "Disable"
-msgstr ""
+msgstr "Ei käytössä"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:31
 msgid "Disable Demolition of military buildings"
-msgstr "Älä salli sotilasrakennuksen tuhoamista"
+msgstr "Älä salli sotilasrakennuksien tuhoamista"
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:13
 msgid "Disable coins by default"
 msgstr "Älä salli kolikkoja oletuksena"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:32
+#, fuzzy
 msgid "Disable the demolition of military buildings under attack or near frontiers."
-msgstr ""
+msgstr "Älä salli sotilasrakennuksien tuhoamista"
 
 #: libs/s25main/desktops/dskOptions.cpp:311
 #: libs/s25main/ingameWindows/iwSave.cpp:143
@@ -1092,11 +1107,12 @@ msgstr "Älä salli muutosta"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:300
 msgid "Display options"
-msgstr "Näyttöasetukset"
+msgstr "Näytön asetukset"
 
 #: libs/s25main/addons/AddonMilitaryHitpoints.h:30
+#, fuzzy
 msgid "Display the hitpoints of units in military buildings."
-msgstr ""
+msgstr "Älä salli sotilasrakennuksien tuhoamista"
 
 #: libs/s25main/ingameWindows/iwDistribution.cpp:48
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:53
@@ -1150,9 +1166,9 @@ msgid "Duration:"
 msgstr "Kesto:"
 
 #: libs/s25main/postSystem/DiplomacyPostQuestion.cpp:34
-#, c-format
+#, fuzzy, c-format
 msgid "Duration: %d GF (%s)"
-msgstr ""
+msgstr "Kesto:"
 
 #: libs/s25main/postSystem/DiplomacyPostQuestion.cpp:32
 msgid "Duration: Forever"
@@ -1224,8 +1240,9 @@ msgid "End game?"
 msgstr "Lopeta peli?"
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:37
+#, fuzzy
 msgid "End of game"
-msgstr ""
+msgstr "Lopeta peli"
 
 #: libs/s25main/ingameWindows/iwChat.cpp:46
 msgid "Enemies"
@@ -1244,7 +1261,7 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwAction.cpp:261
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:40
 msgid "Erect flag"
-msgstr "Aseta lippu"
+msgstr "Pystytä lippu"
 
 #: libs/s25client/s25client.cpp:137 libs/s25client/s25client.cpp:160
 #: libs/s25main/desktops/dskCredits.cpp:290
@@ -1292,9 +1309,9 @@ msgid ""
 msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1492
-#, c-format
+#, fuzzy, c-format
 msgid "Error when loading game from replay: %s\n"
-msgstr ""
+msgstr "Virhe uusintaa toistaessa!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:195
 msgid "Error while playing replay!"
@@ -1306,12 +1323,14 @@ msgstr ""
 
 #: libs/s25main/world/MapSerializer.cpp:84
 #: libs/s25main/world/MapSerializer.cpp:215
+#, fuzzy
 msgid "Error: "
-msgstr ""
+msgstr "Virhe"
 
 #: libs/s25main/MusicPlayer.cpp:81
+#, fuzzy
 msgid "Error: %1%\n"
-msgstr ""
+msgstr "Virhe"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:251
 msgid "Eternal"
@@ -1335,20 +1354,22 @@ msgid "Everyone"
 msgstr "Kaikille"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:36
+#, fuzzy
 msgid "Exhaustible"
-msgstr ""
+msgstr "Ehtymättömät kaivokset"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:30
+#, fuzzy
 msgid "Exhaustible Water"
-msgstr ""
+msgstr "Ehtymättömät kaivokset"
 
 #: libs/s25main/ingameWindows/iwHarborBuilding.cpp:36
 msgid "Expedition"
-msgstr "Tutkimusmatka"
+msgstr "Retkikunta"
 
 #: libs/s25main/ingameWindows/iwHarborBuilding.cpp:44
 msgid "Exploration expedition"
-msgstr "Tutkimuslöytöretki"
+msgstr "Tutkimusretkikunta"
 
 #: libs/s25main/desktops/dskHostGame.cpp:198
 msgid "Exploration:"
@@ -1370,42 +1391,49 @@ msgid "Failed to load %s\n"
 msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/desktops/dskCredits.cpp:290
+#, fuzzy
 msgid "Failed to load game data"
-msgstr ""
+msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/PreviewMinimap.cpp:55 libs/s25main/desktops/dskSelectMap.cpp:77
 #: libs/s25main/world/MapSerializer.cpp:99
+#, fuzzy
 msgid "Failed to load game data!"
-msgstr ""
+msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/desktops/dskCredits.cpp:301
 #: libs/s25main/desktops/dskGameLoader.cpp:110
+#, fuzzy
 msgid "Failed to load game resources"
-msgstr ""
+msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:107
 msgid "Failed to load library. Check dependencies!"
 msgstr "Kirjaston lataaminen ei onnistunut. Tarkista riippuvuudet!"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:82
+#, fuzzy
 msgid "Failed to load lua file '%1%'\n"
-msgstr ""
+msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/world/MapSerializer.cpp:215
+#, fuzzy
 msgid "Failed to load lua state!"
-msgstr ""
+msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:460
+#, fuzzy
 msgid "Failed to load map %1%: %2%\n"
-msgstr ""
+msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/resources/ArchiveLoader.cpp:159
 msgid "Failed to merge entry %1%. Archive expected!\n"
 msgstr ""
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:74
+#, fuzzy
 msgid "Failed to read lua file '%1%'\n"
-msgstr ""
+msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/Loader.cpp:934 libs/s25main/Loader.cpp:953
 #, fuzzy
@@ -1413,13 +1441,15 @@ msgid "Failed to resolve resource %1%\n"
 msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/network/GameServer.cpp:1586
+#, fuzzy
 msgid "Failed to save async log at %1%\n"
-msgstr ""
+msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/world/MapSerializer.cpp:81
 #: libs/s25main/world/MapSerializer.cpp:84
+#, fuzzy
 msgid "Failed to save lua state!"
-msgstr ""
+msgstr "Lataus epäonnistui: %s\n"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
 #, fuzzy
@@ -1444,8 +1474,9 @@ msgid "Few"
 msgstr ""
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:37
+#, fuzzy
 msgid "Fewer"
-msgstr ""
+msgstr "Oluenpanijoita"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:45
 msgid "Fewer defenders"
@@ -1453,11 +1484,12 @@ msgstr "Enemmän puolustajia"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:41
 msgid "Fewer recruits"
-msgstr "Vähemmän pestejä"
+msgstr "Vähemmän värväämistä"
 
 #: libs/s25main/Replay.cpp:119
+#, fuzzy
 msgid "File could not be opened."
-msgstr ""
+msgstr "Määriteltyä tiedostoa ei voitu avata!"
 
 #: libs/s25main/SavedFile.cpp:87
 msgid "File has an old version and cannot be used (version: %1%, expected: %2%)!"
@@ -1502,7 +1534,7 @@ msgstr "Jauhoja"
 
 #: libs/s25main/desktops/dskHostGame.cpp:204
 msgid "FoW - all explored"
-msgstr "Rajoitettu näkyvyys (näytä kaikki)"
+msgstr "Kartan näkyvyys (näytä kaikki)"
 
 #: libs/s25main/desktops/dskHostGame.cpp:203
 msgid "Fog of War"
@@ -1555,7 +1587,7 @@ msgstr "Löytyi vettä"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:163
 msgid "From the lookout tower you can see far into previously unexplored lands."
-msgstr "Tähystystornilla näet kauas, jopa aiemmin tuntemattomille seuduille."
+msgstr "Tähystystornilla näet kauas alueille, joita et ole tutkinut."
 
 #: libs/s25main/addons/AddonFrontierDistanceReachable.h:27
 msgid "Frontier Distance checks reachability"
@@ -1569,7 +1601,7 @@ msgstr "Koko näyttö"
 #: libs/s25main/desktops/dskOptions.cpp:194
 #: libs/s25main/ingameWindows/iwSettings.cpp:35
 msgid "Fullscreen resolution:"
-msgstr "Kokoruudun tarkkuus"
+msgstr "Kokonäytön tarkkuus"
 
 #: libs/s25main/desktops/dskHostGame.cpp:154
 msgid "Game Chat"
@@ -1578,11 +1610,11 @@ msgstr "Pelichatti"
 #: libs/s25main/ingameWindows/iwSave.cpp:52
 #, fuzzy
 msgid "Game Time"
-msgstr "Pelin valikko"
+msgstr "Pelivalikko"
 
 #: libs/s25main/desktops/dskHostGame.cpp:725
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
-msgstr "Peli voidaan aloitta vasta kun kaikilla on uniikki väri, he ovat ilmoittaneet olevansa valmiita ja kaikki avoimet paikat on täytetty."
+msgstr "Peli voidaan aloitta vasta kun kaikilla on uniikki väri, he ovat ilmoittaneet olevansa valmiita ja kaikki avoimet paikat on suljettu."
 
 #: libs/s25main/desktops/dskGameLoader.cpp:114
 msgid "Game crate was picked and spread out..."
@@ -1590,11 +1622,11 @@ msgstr "Peli laitettiin jakoon..."
 
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:62
 msgid "Game menu"
-msgstr "Pelin valikko"
+msgstr "Pelivalikko"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1163
 msgid "Game was paused."
-msgstr "Peli tauolla"
+msgstr "Peli on tauolla"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1168
 msgid "Game was resumed."
@@ -1613,8 +1645,9 @@ msgid "General"
 msgstr "Kenraaleja"
 
 #: libs/s25main/addons/AddonMaxRank.h:42
+#, fuzzy
 msgid "General (4)"
-msgstr ""
+msgstr "Kenraaleja"
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:62
 msgid "General statistics"
@@ -1641,8 +1674,9 @@ msgid "Get building materials back when a building is destroyed."
 msgstr ""
 
 #: libs/s25main/QuickStartGame.cpp:52
+#, fuzzy
 msgid "Given map or replay (%1%) does not exist!"
-msgstr ""
+msgstr "Tiedostoa tai hakemistoa ei ole: %s\n"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:309
 msgid "Go to headquarters"
@@ -1653,8 +1687,9 @@ msgid "Go to next building of same type"
 msgstr "Seuraavaan samanlaiseen rakennukseen"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:72
+#, fuzzy
 msgid "Go to next military building"
-msgstr ""
+msgstr "Älä salli sotilasrakennuksien tuhoamista"
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
 msgid "Go to next warehouse"
@@ -1682,20 +1717,22 @@ msgid "Gold"
 msgstr "Kultaa"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:63
+#, fuzzy
 msgid "Gold delivery"
-msgstr ""
+msgstr "Kultakaivos"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:36
 msgid "Gold mine"
 msgstr "Kultakaivos"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:95
+#, fuzzy
 msgid "Gold:"
-msgstr ""
+msgstr "Kultaa"
 
 #: libs/s25main/desktops/dskHostGame.cpp:207
 msgid "Goods at start:"
-msgstr "Resurssit alussa:"
+msgstr "Aloitusresurssit:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:49
 msgid "Grain"
@@ -1714,8 +1751,9 @@ msgid "Granite mines will never be depleted."
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:104
+#, fuzzy
 msgid "Granite:"
-msgstr ""
+msgstr "Graniittikaivos"
 
 #: libs/s25main/desktops/dskOptions.cpp:83
 msgid "Graphics"
@@ -1727,15 +1765,16 @@ msgstr "Grafiikka-ajuri"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:25
 msgid "Guardhouse"
-msgstr "Vahtitalo"
+msgstr "Vartiotalo"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:77
 msgid "HQ distance to mountain"
 msgstr ""
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:29
+#, fuzzy
 msgid "Half cost recruits"
-msgstr ""
+msgstr "Enemmän värväämistä"
 
 #: libs/s25main/gameData/GoodConsts.cpp:55
 msgid "Ham"
@@ -1748,7 +1787,7 @@ msgstr "Vasaroja"
 #: libs/s25main/gameData/BuildingConsts.cpp:62
 #: libs/s25main/ingameWindows/iwHarborBuilding.cpp:29
 msgid "Harbor building"
-msgstr "Satamarakennus"
+msgstr "Satama"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:23
 #: libs/s25main/ingameWindows/iwHQ.cpp:28
@@ -1841,24 +1880,28 @@ msgid "Increase the durability of geologist signs by a factor."
 msgstr ""
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:34
+#, fuzzy
 msgid "Inexhaustible"
-msgstr ""
+msgstr "Ehtymättömät kaivokset"
 
 #: libs/s25main/addons/AddonInexhaustibleFish.h:13
+#, fuzzy
 msgid "Inexhaustible Fish"
-msgstr ""
+msgstr "Ehtymättömät kaivokset"
 
 #: libs/s25main/addons/AddonInexhaustibleGraniteMines.h:13
+#, fuzzy
 msgid "Inexhaustible Granite Mines"
-msgstr ""
+msgstr "Ehtymättömät kaivokset"
 
 #: libs/s25main/addons/AddonInexhaustibleMines.h:30
 msgid "Inexhaustible Mines"
-msgstr "Rajattomat kaivokset"
+msgstr "Ehtymättömät kaivokset"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:35
+#, fuzzy
 msgid "Inexhaustible and water everywhere"
-msgstr ""
+msgstr "Ehtymättömät kaivokset"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:129
 #: libs/s25main/ingameWindows/iwStatistics.cpp:226
@@ -1891,8 +1934,9 @@ msgstr "Sopimaton API-versio!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:107
 #: libs/s25main/network/GameClient.cpp:1413
+#, fuzzy
 msgid "Invalid Replay %1%! Reason: %2%\n"
-msgstr ""
+msgstr "Kelpaamaton uusinta!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:195
 msgid "Invalid Replay!"
@@ -1942,8 +1986,9 @@ msgid "Iron smelter"
 msgstr "Sulattamo"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:98
+#, fuzzy
 msgid "Iron:"
-msgstr ""
+msgstr "Rautaa"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:75
 msgid "Ironore"
@@ -1956,7 +2001,7 @@ msgstr "Liejuinen"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:276
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
-msgstr "Laivatelakalla voidaan valmistaa niin pieniä soutuveneitä kuin massiivisia kuljetuslaivoja. Laivanrakentajat käsittelevät saamansa laudat suurella ammattitaidolla."
+msgstr "Laivatelakalla voidaan valmistaa niin pieniä soutuveneitä kuin massiivisia rahtilaivoja. Laivanrakentajat käsittelevät saamansa laudat suurella ammattitaidolla."
 
 #: libs/s25main/gameData/NationConsts.h:26
 msgid "Japanese"
@@ -1973,8 +2018,9 @@ msgid "Jump finished (%1$.3g seconds)."
 msgstr ""
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:33
+#, fuzzy
 msgid "Keep setting"
-msgstr ""
+msgstr "Asetukset"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:707
 #: libs/s25main/desktops/dskOptions.cpp:614
@@ -2068,7 +2114,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:83
 msgid "Load 'ReadMe' file"
-msgstr "Avaa LueMinut"
+msgstr "Avaa Lue Minut"
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:53
 msgid "Load game"
@@ -2093,11 +2139,12 @@ msgstr ""
 #: libs/s25main/MusicPlayer.cpp:76
 #, fuzzy
 msgid "Loading \"%1%\": "
-msgstr "Ladataan \"%1%\": "
+msgstr "Ladataan %1% "
 
 #: libs/s25main/Playlist.cpp:89
+#, fuzzy
 msgid "Loading %1%\n"
-msgstr ""
+msgstr "Ladataan %1% "
 
 #: libs/s25main/resources/ArchiveLoader.cpp:84
 msgid "Loading %1%: "
@@ -2109,8 +2156,9 @@ msgid "Loading directory %s\n"
 msgstr "Ladataan hakemistoa %s\n"
 
 #: libs/s25main/QuickStartGame.cpp:67
+#, fuzzy
 msgid "Loading game...\n"
-msgstr ""
+msgstr "Lataa peli..."
 
 #: libs/s25main/desktops/dskHostGame.cpp:156
 msgid "Lobby Chat"
@@ -2179,8 +2227,9 @@ msgid "Lua script failed to load."
 msgstr ""
 
 #: libs/s25main/desktops/dskHostGame.cpp:102
+#, fuzzy
 msgid "Lua script uses a different version and cannot be used. Map might not work as expected!"
-msgstr ""
+msgstr "Lue-skripti löytyi, mutta sitä ei voitu ladata. Kartta saattaa toimia oudosti!"
 
 #: libs/s25main/desktops/dskHostGame.cpp:96
 #: libs/s25main/desktops/dskHostGame.cpp:339
@@ -2219,8 +2268,9 @@ msgid "Map Debug"
 msgstr "Karttadebuggeri"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:32
+#, fuzzy
 msgid "Map Generator"
-msgstr ""
+msgstr "Kenraaleja"
 
 #: libs/s25main/ingameWindows/iwLobbyServerInfo.cpp:46
 msgid "Map Name:"
@@ -2318,16 +2368,19 @@ msgid "Military"
 msgstr "Armeija"
 
 #: libs/s25main/addons/AddonMilitaryAid.h:32
+#, fuzzy
 msgid "Military Aid"
-msgstr ""
+msgstr "Armeija"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:31
+#, fuzzy
 msgid "Military Control"
-msgstr ""
+msgstr "Armeijan vahvuus"
 
 #: libs/s25main/addons/AddonMilitaryHitpoints.h:29
+#, fuzzy
 msgid "Military Hitpoints"
-msgstr ""
+msgstr "Armeijan vahvuus"
 
 #: libs/s25main/buildings/nobMilitary.cpp:1003
 msgid "Military building captured"
@@ -2424,7 +2477,7 @@ msgstr "Useammin"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:41
 msgid "More recruits"
-msgstr "Enemmän pestejä"
+msgstr "Enemmän värväämistä"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:126
 msgid "More repeats"
@@ -2466,8 +2519,9 @@ msgid "Network/LAN"
 msgstr "Verkko/LAN"
 
 #: libs/s25main/lua/LuaPlayer.cpp:83
+#, fuzzy
 msgid "New building type:"
-msgstr ""
+msgstr "Rakennusmääräys"
 
 #: libs/s25main/buildings/nobHarborBuilding.cpp:93
 msgid "New harbor building finished"
@@ -2526,8 +2580,9 @@ msgid "No refund"
 msgstr "Ei palautusta"
 
 #: libs/s25main/addons/AddonSeaAttack.h:41
+#, fuzzy
 msgid "No sea attacks"
-msgstr ""
+msgstr "Enemmän hyökkääjiä"
 
 #: libs/s25main/ingameWindows/iwShip.cpp:102
 msgid "No ships available"
@@ -2598,8 +2653,9 @@ msgid "Number of attackers"
 msgstr "Hyökkääjiä"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:31
+#, fuzzy
 msgid "Number of scouts required for exploration expedition"
-msgstr ""
+msgstr "Aloita tutkimuslöytöretki"
 
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:83
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:88
@@ -2609,8 +2665,9 @@ msgid "OK"
 msgstr "OK"
 
 #: libs/s25main/MusicPlayer.cpp:85
+#, fuzzy
 msgid "OK\n"
-msgstr ""
+msgstr "OK"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:304
 #: libs/s25main/ingameWindows/iwObservate.cpp:40
@@ -2637,8 +2694,9 @@ msgid "Officer"
 msgstr "Luutnantteja"
 
 #: libs/s25main/addons/AddonMaxRank.h:43
+#, fuzzy
 msgid "Officer (3)"
-msgstr ""
+msgstr "Luutnantteja"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:355
 msgid "Ok"
@@ -2678,7 +2736,7 @@ msgstr "Optimoidut tekstuurit"
 #: libs/s25main/desktops/dskOptions.cpp:74
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:112
 msgid "Options"
-msgstr "Valinnat"
+msgstr "Asetukset"
 
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:40
 msgid "Order of building site"
@@ -2778,8 +2836,9 @@ msgid "Player"
 msgstr "Pelaaja"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:198
+#, fuzzy
 msgid "Player %1%"
-msgstr ""
+msgstr "Pelaaja"
 
 #: libs/s25main/world/MapLoader.cpp:436
 #, c-format
@@ -2837,16 +2896,18 @@ msgid "Private"
 msgstr "Sotamiehiä"
 
 #: libs/s25main/addons/AddonMaxRank.h:46
+#, fuzzy
 msgid "Private (0)"
-msgstr ""
+msgstr "Sotamiehiä"
 
 #: libs/s25main/gameData/JobConsts.cpp:54
 msgid "Private first class"
 msgstr "Alikersantteja"
 
 #: libs/s25main/addons/AddonMaxRank.h:45
+#, fuzzy
 msgid "Privatefc (1)"
-msgstr ""
+msgstr "Sotamiehiä"
 
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:16
 msgid "Produce nothing"
@@ -2877,8 +2938,9 @@ msgstr "Ohjelmoijat"
 
 #: libs/s25main/desktops/dskCredits.cpp:107
 #: libs/s25main/desktops/dskCredits.cpp:114
+#, fuzzy
 msgid "Project founder"
-msgstr ""
+msgstr "Raudansulattajia"
 
 #: libs/s25main/desktops/dskCredits.cpp:108
 #: libs/s25main/desktops/dskCredits.cpp:115
@@ -2933,8 +2995,9 @@ msgid "Race specific catapult graphics"
 msgstr "Maakohtainen ulkoasu katapulteille"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:104
+#, fuzzy
 msgid "Random Map"
-msgstr ""
+msgstr "Satunnaistoisto"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:447
 msgid "Random playback"
@@ -2955,13 +3018,13 @@ msgstr "Raaka rautamalmi sulatetaan sulattamossa hiilen avulla. Käsiteltyä rau
 #: libs/s25main/desktops/dskMainMenu.cpp:64
 #: libs/s25main/desktops/dskOptions.cpp:124
 msgid "Readme"
-msgstr "Lueminut"
+msgstr "Lue minut"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:710
 #: libs/s25main/desktops/dskMainMenu.cpp:138
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:129
 msgid "Readme!"
-msgstr "LueMinut!"
+msgstr "Lue Minut!"
 
 #: libs/s25main/desktops/dskHostGame.cpp:173
 #: libs/s25main/desktops/dskHostGame.cpp:649
@@ -3132,12 +3195,14 @@ msgid "Save game!"
 msgstr "Tallenna peli!"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:130
+#, fuzzy
 msgid "Save playlist"
-msgstr ""
+msgstr "Soittolista:"
 
 #: libs/s25main/Replay.cpp:137 libs/s25main/Replay.cpp:186
+#, fuzzy
 msgid "Savegame error: "
-msgstr ""
+msgstr "Tallenna peli!"
 
 #: libs/s25main/gameData/GoodConsts.cpp:26
 msgid "Saw"
@@ -3168,8 +3233,9 @@ msgid "Sea Id"
 msgstr ""
 
 #: libs/s25main/addons/AddonSeaAttack.h:36
+#, fuzzy
 msgid "Sea attack settings"
-msgstr ""
+msgstr "Heikkoja hyökkääjiä"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:161
 #, c-format
@@ -3210,8 +3276,9 @@ msgid "Sergeant"
 msgstr "Kersantteja"
 
 #: libs/s25main/addons/AddonMaxRank.h:44
+#, fuzzy
 msgid "Sergeant (2)"
-msgstr ""
+msgstr "Kersantteja"
 
 #: libs/s25main/desktops/dskLAN.cpp:59 libs/s25main/desktops/dskLobby.cpp:66
 msgid "Server"
@@ -3251,8 +3318,9 @@ msgid "Set restriction level for sea attacks"
 msgstr ""
 
 #: libs/s25main/addons/AddonShipSpeed.h:30
+#, fuzzy
 msgid "Set ship speed"
-msgstr ""
+msgstr "Laiva on valmis"
 
 #: libs/s25main/ingameWindows/iwSettings.cpp:32
 msgid "Settings"
@@ -3319,7 +3387,7 @@ msgstr "Maan koko"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:27
 msgid "Skip GameFrames"
-msgstr "Pudota PeliRuutuja"
+msgstr "Pudota peliruutuja"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:183
 #, c-format
@@ -3540,7 +3608,7 @@ msgstr "Kiitos!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:169
 msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
-msgstr "Kalapultit ovat vaikuttavan tarkkuutensa ansiosta tehokas ase vihollisten rakennuksia vastaan."
+msgstr "Kalapultit ovat vaikuttavan tuhovoiman ansiosta tehokas ase vihollisten rakennuksia vastaan."
 
 #: libs/s25main/postSystem/PostMsg.cpp:42
 #, c-format
@@ -3808,8 +3876,9 @@ msgid "Total domination"
 msgstr "Täydellinen hallinta"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:335
+#, fuzzy
 msgid "Tournament finished"
-msgstr ""
+msgstr "Turnaus: %u minuuttia"
 
 #: libs/s25main/desktops/dskHostGame.cpp:229
 #, c-format
@@ -3998,8 +4067,9 @@ msgid "Very slow"
 msgstr "Hyvin hidas"
 
 #: libs/s25main/GameManager.cpp:59
+#, fuzzy
 msgid "Video driver couldn't be loaded!\n"
-msgstr ""
+msgstr "Määriteltyä tiedostoa ei voitu ladata!"
 
 #: libs/s25main/desktops/dskHostGame.cpp:191
 msgid "View Settings..."
@@ -4223,8 +4293,9 @@ msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "Nykyinen GF: %u - edelleen pikakelaa eteenpäin: %d GF:ä jäljellä (%d %%)"
 
 #: libs/s25main/addons/AddonMoreAnimals.h:33
+#, fuzzy
 msgid "default"
-msgstr ""
+msgstr "Oletus"
 
 #: libs/s25main/Loader.cpp:249 libs/s25main/resources/ArchiveLoader.cpp:129
 #, c-format
@@ -4278,30 +4349,3 @@ msgstr "Liejuinen"
 #: data/RTTR/gamedata/world/winterworld.lua:4
 msgid "winterworld"
 msgstr "Talvinen"
-
-#~ msgid "Greenland"
-#~ msgstr "Vihertävä"
-
-#~ msgid "Internet Ranking"
-#~ msgstr "Internet-pisteytys"
-
-#~ msgid "Lost"
-#~ msgstr "Hävitty"
-
-#~ msgid "Points"
-#~ msgstr "Pisteet"
-
-#~ msgid "Registration successful!"
-#~ msgstr "Rekisteröinti onnistui!"
-
-#~ msgid "Start GF"
-#~ msgstr "Aloittava PR"
-
-#~ msgid "Won"
-#~ msgstr "Voitettu"
-
-#~ msgid "finished in %ums\n"
-#~ msgstr "aikaa kului %u ms\n"
-
-#~ msgid "of"
-#~ msgstr "/"
