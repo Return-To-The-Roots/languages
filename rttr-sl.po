@@ -379,12 +379,20 @@ msgstr "Dodatki"
 msgid "Addons:"
 msgstr "Dodatki:"
 
-#: libs/s25main/addons/AddonMilitaryAid.h:33
-msgid "Adds military building indicators in construction aid mode."
+#: libs/s25main/addons/AddonMilitaryAid.h:20
+msgid "Adds indicators for constructing or attacking military buildings."
 msgstr "Vklopi indikatorje za gradnjo vojske v načinu gradnje s pomočjo."
 
+#: libs/s25main/addons/AddonMilitaryAid.h:23
+msgid "Construction aid only"
+msgstr ""
+
+#: libs/s25main/addons/AddonMilitaryAid.h:24
+msgid "Construction and attack aid"
+msgstr ""
+
 #: libs/s25main/addons/AddonCatapultGraphics.h:33
-msgid "Adds new race-specific graphics for catapults to the game."
+msgid "Adds new nation-specific graphics for catapults to the game."
 msgstr "V igro doda grafiko novih ras za katapulte."
 
 #: libs/s25main/addons/AddonMilitaryControl.h:32
@@ -2635,6 +2643,7 @@ msgid "Observation window"
 msgstr "Opazovalno okno"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:34
+#: libs/s25main/addons/AddonMilitaryAid.h:22
 #: libs/s25main/desktops/dskOptions.cpp:173
 #: libs/s25main/desktops/dskOptions.cpp:180
 #: libs/s25main/desktops/dskOptions.cpp:187

@@ -381,12 +381,20 @@ msgstr "Erweiterungen"
 msgid "Addons:"
 msgstr "Erweiterungen:"
 
-#: libs/s25main/addons/AddonMilitaryAid.h:33
-msgid "Adds military building indicators in construction aid mode."
+#: libs/s25main/addons/AddonMilitaryAid.h:20
+msgid "Adds indicators for constructing or attacking military buildings."
 msgstr "Fügt Militärgebäude-Icons im Bauhilfe-Modus hinzu."
 
+#: libs/s25main/addons/AddonMilitaryAid.h:23
+msgid "Construction aid only"
+msgstr ""
+
+#: libs/s25main/addons/AddonMilitaryAid.h:24
+msgid "Construction and attack aid"
+msgstr ""
+
 #: libs/s25main/addons/AddonCatapultGraphics.h:33
-msgid "Adds new race-specific graphics for catapults to the game."
+msgid "Adds new nation-specific graphics for catapults to the game."
 msgstr "Fügt volkspezifische Katapultgrafiken in das Spiel ein."
 
 #: libs/s25main/addons/AddonMilitaryControl.h:32
@@ -2651,6 +2659,7 @@ msgid "Observation window"
 msgstr "Beobachtungsfenster"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:34
+#: libs/s25main/addons/AddonMilitaryAid.h:22
 #: libs/s25main/desktops/dskOptions.cpp:173
 #: libs/s25main/desktops/dskOptions.cpp:180
 #: libs/s25main/desktops/dskOptions.cpp:187
