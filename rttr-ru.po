@@ -534,13 +534,10 @@ msgid ""
 msgstr ""
 "Асинхронный журнал сохранен в %1%,\n"
 "игра сохранена в %2%\n"
-msgstr ""
-"Асинхронный журнал сохранен в %1%,\n"
-"игра сохранена в %2%\n"
 
 #: libs/s25main/network/GameServer.cpp:1323
 msgid "Async logs received completely.\n"
-msgstr "Асинхронные логи получены полностью."
+msgstr "Асинхронные логи получены полностью.\n"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:345
 msgid "Attack not possible."
@@ -1863,7 +1860,7 @@ msgstr "IPv6"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:18
 msgid "If Water is exhaustible wells will now dry out. If water everywhere is enabled, a geologist will not notify for water"
-msgstr "Если вода истощится, то колодцы будут высыхать. Если вода везде включена, геолог не будет уведомлять о воде."
+msgstr "Если вода истощится, то колодцы будут высыхать. Если вода везде включена, геолог не будет уведомлять о воде"
 
 #: libs/s25main/resources/ArchiveLocator.cpp:60
 msgid "Ignoring resource %1% in %2% because it is already found in %3%\n"
@@ -2064,7 +2061,7 @@ msgstr "Меньше повторов"
 
 #: libs/s25main/desktops/dskOptions.cpp:192
 msgid "Limit Framerate:"
-msgstr "Ограничение частоты смены кадров"
+msgstr "Ограничение частоты смены кадров:"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:17
 msgid "Limit number of catapults"
@@ -2718,12 +2715,12 @@ msgid "OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or har
 msgstr "OpenGL %1% %2%.%3% не поддерживается. Попробуйте обновить драйверы или аппаратное обеспечение графического процессора!"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:364
-msgid "OpenGL %1%.%2% supported\n"
+msgid "OpenGL %1%.%2%supported\n"
 msgstr "OpenGL %1%.%2% поддерживается\n"
 
 #: libs/s25main/desktops/dskOptions.cpp:215
 msgid "Optimized Textures:"
-msgstr "Оптимизированные Текстуры"
+msgstr "Оптимизированные текстуры:"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:46
 #: libs/s25main/desktops/dskOptions.cpp:61
@@ -2942,11 +2939,11 @@ msgstr "Пропорционально"
 
 #: libs/s25main/desktops/dskOptions.cpp:132
 msgid "Proxyserver:"
-msgstr "Прокси сервер"
+msgstr "Прокси сервер:"
 
 #: libs/s25main/desktops/dskOptions.cpp:140
 msgid "Proxytyp:"
-msgstr "Тип прокси"
+msgstr "Тип прокси:"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:195
 #: libs/s25main/ingameWindows/iwAction.cpp:209
@@ -3321,7 +3318,7 @@ msgstr "Поселенцы"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:173
 msgid "Shared team view"
-msgstr "Общий вид команды:"
+msgstr "Общий вид команды"
 
 #: libs/s25main/gameData/GoodConsts.cpp:30
 msgid "Shield"
@@ -3382,7 +3379,7 @@ msgstr "Пропустить кадры"
 #: libs/s25main/drivers/DriverWrapper.cpp:170
 #, c-format
 msgid "Skipping %s: %s\n"
-msgstr "Пропуск % s:% s\n"
+msgstr "Пропуск %s:%s\n"
 
 #: libs/s25main/resources/ArchiveLocator.cpp:110
 msgid "Skipping duplicate override file %1% for %2%\n"
@@ -4003,7 +4000,7 @@ msgstr "Использовать"
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:38
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:70
 msgid "Use IPv6:"
-msgstr "Использовать IPv6"
+msgstr "Использовать IPv6:"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:51
 msgid "Use S2 Defaults"
@@ -4238,7 +4235,7 @@ msgstr ""
 msgstr "Вы можете полностью удалить золотые ресурсы или превратить их в железную руду, уголь или гранит.\n"
 "\n"
 "Вы, вероятно, захотите конвертировать золото в железную руду, так как это (на большинстве карт)\n"
-"Позволяет использовать дополнительный уголь, который больше не нужен для чеканки."
+"позволяет использовать дополнительный уголь, который больше не нужен для чеканки."
 
 #: libs/s25main/desktops/dskDirectIP.cpp:46 libs/s25main/desktops/dskLAN.cpp:84
 #: libs/s25main/desktops/dskLobby.cpp:123
@@ -4315,7 +4312,7 @@ msgstr "по-умолчанию"
 #: libs/s25main/Loader.cpp:236 libs/s25main/resources/ArchiveLoader.cpp:117
 #, c-format
 msgid "done in %ums\n"
-msgstr "Завершено за %ums\n"
+msgstr "Завершено за %u мс.\n"
 
 #: libs/s25main/Loader.cpp:232 libs/s25main/resources/ArchiveLoader.cpp:122
 msgid "failed: %1%\n"
@@ -4323,7 +4320,7 @@ msgstr "не удалось: %1%\n"
 
 #: data/RTTR/gamedata/world/greenland.lua:9
 msgid "greenland"
-msgstr "Трава"
+msgstr "холмы"
 
 #: libs/s25main/GameManager.cpp:141
 msgid "jump to gf %1% complete\n"
@@ -4332,17 +4329,17 @@ msgstr "переход к gf %1% завершен\n"
 #: libs/s25main/GameManager.cpp:136
 #, c-format
 msgid "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
-msgstr "переход к gf %i выполнен, за %i gf:%3f s (сек) , среднее время %.3f ms(миллисекунд) \n"
+msgstr "переход к gf %i выполнен, за %i gf:%3f s (сек) , среднее время %.3f мс. \n"
 
 #: libs/s25main/GameManager.cpp:124
 #, c-format
 msgid "jumping to gf %i, now at gf %i \n"
-msgstr "переход к gf % i, сейчас в gf %i \n"
+msgstr "переход к gf %i, сейчас в gf %i \n"
 
 #: libs/s25main/GameManager.cpp:121
 #, c-format
 msgid "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time %.3f ms \n"
-msgstr "перенаправление к gf % i, сейчас в gf % i, последние 5тыс gf: % .3f s, среднее gf % .3f ms(миллисекунд) \n"
+msgstr "перенаправление к gf %i, сейчас в gf %i, последние 5 тыс gf: %.3f s, среднее gf %.3f мс. \n"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:19
 msgid "to GameFrame:"
@@ -4354,23 +4351,23 @@ msgstr "различные анонимные благотворители"
 
 #: data/RTTR/gamedata/world/wasteland.lua:8
 msgid "wasteland"
-msgstr "Пустошь"
+msgstr "пустошь"
 
 #: data/RTTR/gamedata/world/winterworld.lua:8
 msgid "winterworld"
-msgstr "Снежный мир"
+msgstr "снежный мир"
 
 #~ msgid "Continent"
 #~ msgstr "Континент"
 
 #~ msgid "Directory does not exist: %s\n"
-#~ msgstr "Каталог не существует:% s\n"
+#~ msgstr "Каталог не существует:%s\n"
 
 #~ msgid "Furthest apart"
 #~ msgstr "Разделенные"
 
 #~ msgid "Greenland"
-#~ msgstr "Холмы"
+#~ msgstr "холмы"
 
 #~ msgid "Internet Ranking"
 #~ msgstr "Интернет рейтинг"
@@ -4412,7 +4409,7 @@ msgstr "Снежный мир"
 #~ msgstr "Выиграл"
 
 #~ msgid "finished in %ums\n"
-#~ msgstr "Завершено за %ums\n"
+#~ msgstr "Завершено за %u мс.\n"
 
 #~ msgid "of"
 #~ msgstr "с"
