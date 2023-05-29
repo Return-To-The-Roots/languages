@@ -517,7 +517,8 @@ msgid ""
 "%4%\n"
 "%5%\n"
 "\n"
-msgstr "Асинхронность в GF %1% игрока %2% против %3%. Контрольные суммы:\n"
+msgstr ""
+"Асинхронность в GF %1% игрока %2% против %3%. Контрольные суммы:\n"
 "%4%\n"
 "%5%\n"
 "\n"
@@ -785,7 +786,8 @@ msgstr ""
 msgid ""
 "Change the required number of scouts for an exploration via ship\n"
 "Note: Setting this to low might make some maps imbalanced!"
-msgstr "Измените необходимое количество скаутов для морской экспидиции\n"
+msgstr ""
+"Измените необходимое количество скаутов для морской экспидиции\n"
 "Примечание: Установка этого минимума может сделать некоторые карты несбалансированными!"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:18
@@ -1156,7 +1158,8 @@ msgstr "Не забудьте проверить конфигурацию доп
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
-msgstr "Не перемещать курсор автоматически\n"
+msgstr ""
+"Не перемещать курсор автоматически\n"
 "Полезно: например, для разделения экрана / двойного мышей в мультиплеере (см. вики)"
 
 #: libs/s25main/ingameWindows/iwSurrender.cpp:22
@@ -1243,7 +1246,8 @@ msgstr "Активировать"
 msgid ""
 "Enable AI Debugging Window\n"
 "(possible cheating)"
-msgstr "Активирует Окно разработчиков\n"
+msgstr ""
+"Активирует Окно разработчиков\n"
 "(возможно читерство)"
 
 #: libs/s25main/addons/AddonBattlefieldPromotion.h:16
@@ -1401,9 +1405,11 @@ msgid "Exploration:"
 msgstr "Исследование:"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:407
-msgid "Failed to generate random map.\n"
+msgid ""
+"Failed to generate random map.\n"
 "Reason: "
-msgstr "Не удалось создать случайную карту. \n"
+msgstr ""
+"Не удалось создать случайную карту. \n"
 "Причина: "
 
 #: libs/s25main/desktops/dskGameLoader.cpp:112
@@ -2731,7 +2737,7 @@ msgid "OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or har
 msgstr "OpenGL %1% %2%.%3% не поддерживается. Попробуйте обновить драйверы или аппаратное обеспечение графического процессора!"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:364
-msgid "OpenGL %1%.%2%supported\n"
+msgid "OpenGL %1%.%2% supported\n"
 msgstr "OpenGL %1%.%2% поддерживается\n"
 
 #: libs/s25main/desktops/dskOptions.cpp:306
@@ -2845,7 +2851,8 @@ msgstr "Игрок"
 msgid "Player %1%"
 msgstr "Игрок %1%"
 
-#: libs/s25main/world/MapLoader.cpp:424, c-format
+#: libs/s25main/world/MapLoader.cpp:424
+#, c-format
 msgid "Player %u does not have a valid start position!"
 msgstr "Игрок  %u не имеет допустимой стартовой позиции!"
 
@@ -4277,9 +4284,11 @@ msgid ""
 "Some players like to play this objective in peaceful mode. Would you like to adjust settings for a peaceful game?\n"
 "Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
 "Choosing No will start the game without any changes."
-msgstr "Вы выбрали экономичный режим. В экономическом режиме побеждает игрок или команда, которые соберут больше определенных товаров (проверьте окно экономического прогресса в игре).\n"
+msgstr ""
+"Вы выбрали экономичный режим. В экономическом режиме побеждает игрок или команда, которые соберут больше определенных товаров (проверьте окно экономического прогресса в игре).\n"
 "\n"
-"Некоторым игрокам нравится выполнять эту задачу в мирном режиме. Хотите настроить параметры для мирной игры?\nВыбор «Да» активирует мирный режим, запретит катапульты и отключит здания, получающие монеты по-умолчанию. Нажав «Да», вы сможете просмотреть изменения, а затем начать игру, снова нажав кнопку «Начать игру».\n"
+"Некоторым игрокам нравится выполнять эту задачу в мирном режиме. Хотите настроить параметры для мирной игры?\n"
+"Выбор «Да» активирует мирный режим, запретит катапульты и отключит здания, получающие монеты по-умолчанию. Нажав «Да», вы сможете просмотреть изменения, а затем начать игру, снова нажав кнопку «Начать игру».\n"
 "При выборе «Нет» игра запустится без каких-либо изменений."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:705
