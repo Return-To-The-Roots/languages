@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-21 21:18+0200\n"
+"POT-Creation-Date: 2023-05-29 11:50+0200\n"
 "PO-Revision-Date: 2020-05-21 15:36+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -39,19 +39,19 @@ msgstr ""
 msgid "  Loading %1% entries: "
 msgstr ""
 
-#: libs/s25main/JoinPlayerInfo.cpp:45
+#: libs/s25main/JoinPlayerInfo.cpp:51
 msgid " (AI)"
 msgstr " (AI)"
 
-#: libs/s25main/JoinPlayerInfo.cpp:51
+#: libs/s25main/JoinPlayerInfo.cpp:57
 msgid " (easy)"
 msgstr " (lahko)"
 
-#: libs/s25main/JoinPlayerInfo.cpp:53
+#: libs/s25main/JoinPlayerInfo.cpp:59
 msgid " (hard)"
 msgstr " (težko)"
 
-#: libs/s25main/JoinPlayerInfo.cpp:52
+#: libs/s25main/JoinPlayerInfo.cpp:58
 msgid " (medium)"
 msgstr " (srednje)"
 
@@ -59,7 +59,7 @@ msgstr " (srednje)"
 msgid " (playing)"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1384
+#: libs/s25main/desktops/dskGameInterface.cpp:1390
 msgid " and "
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr " deske"
 msgid " stones"
 msgstr " kamni"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1384
+#: libs/s25main/desktops/dskGameInterface.cpp:1390
 msgid "%1% are the winners!"
 msgstr ""
 
@@ -93,7 +93,7 @@ msgstr ""
 msgid "%1%x"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:426
+#: libs/s25main/desktops/dskGameLobby.cpp:443
 #, c-format
 msgid "%d"
 msgstr "%d"
@@ -112,27 +112,27 @@ msgstr "%u/%u"
 msgid "'s Game"
 msgstr "'s igra"
 
-#: libs/s25main/world/GameWorldView.cpp:422
+#: libs/s25main/world/GameWorldView.cpp:423
 #, c-format
 msgid "(%d soldiers)"
 msgstr "(%d vojakov)"
 
-#: libs/s25main/world/GameWorldView.cpp:420
+#: libs/s25main/world/GameWorldView.cpp:421
 msgid "(1 soldier)"
 msgstr "(1 vojak)"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:84
 #: libs/s25main/ingameWindows/iwBuilding.cpp:180
-#: libs/s25main/world/GameWorldView.cpp:395
+#: libs/s25main/world/GameWorldView.cpp:396
 msgid "(House unoccupied)"
 msgstr "(Zgradba nevseljena)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:356
+#: libs/s25main/desktops/dskGameInterface.cpp:357
 #, c-format
 msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
 msgstr "(Posnetek) Trenutno GF: %u (Konec: %u) / GF dolžina: %u ms / NWF dolžina: %u gf (%u ms)"
 
-#: libs/s25main/world/GameWorldView.cpp:397
+#: libs/s25main/world/GameWorldView.cpp:398
 msgid "(stopped)"
 msgstr "(zaustavljeno)"
 
@@ -158,9 +158,9 @@ msgstr "+50%"
 msgid "+500%"
 msgstr "+500%"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:277
-#: libs/s25main/desktops/dskGameLobby.cpp:417
-#: libs/s25main/desktops/dskGameLobby.cpp:419
+#: libs/s25main/desktops/dskGameLobby.cpp:294
+#: libs/s25main/desktops/dskGameLobby.cpp:434
+#: libs/s25main/desktops/dskGameLobby.cpp:436
 msgid "-"
 msgstr "-"
 
@@ -250,11 +250,11 @@ msgstr "5 katapultov"
 msgid "<%s> "
 msgstr "<%s> "
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1190
+#: libs/s25main/desktops/dskGameInterface.cpp:1196
 msgid "A auto-savegame is created..."
 msgstr "avtomatsko shranjevanje ustvarjeno..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1238
+#: libs/s25main/buildings/nobMilitary.cpp:1256
 msgid "A catapult is firing upon us!"
 msgstr "Katapult obstreljuje zgradbo!"
 
@@ -363,7 +363,7 @@ msgstr "Dodatne funkcije:"
 msgid "Additional graphics"
 msgstr "Dodatna grafika"
 
-#: libs/s25main/GlobalGameSettings.cpp:249
+#: libs/s25main/GlobalGameSettings.cpp:250
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr ""
@@ -372,7 +372,7 @@ msgstr ""
 msgid "Addon Settings"
 msgstr "Nastavitve dodatkov"
 
-#: libs/s25main/desktops/dskOptions.cpp:65
+#: libs/s25main/desktops/dskOptions.cpp:131
 msgid "Addons"
 msgstr "Dodatki"
 
@@ -388,13 +388,12 @@ msgstr "Vklopi indikatorje za gradnjo vojske v načinu gradnje s pomočjo."
 msgid "Adds new nation-specific graphics for catapults to the game."
 msgstr "V igro doda grafiko novih ras za katapulte."
 
-#: libs/s25main/addons/AddonMilitaryControl.h:19
+#: libs/s25main/addons/AddonMilitaryControl.h:14
 msgid ""
-"Adds the 'send home' button to military buildings.\n"
-"Pressing this button will send all soldiers of the highest available rank to a warehouse (at least 1 Soldier will remain in the building)"
+"Adds troop controls to military buildings.\n"
+"Minimal: Adds the 'send home' button which will send all soldiers of the highest available rank to a warehouse.\n"
+"Full: Allows players to control in each military building how many soldiers of each rank should be stationed there."
 msgstr ""
-"Doda gumb ‘pošlji domov’ pri vojaških zgradbah.\n"
-"Pritisk na ta gumb pošlje vse vojake najvišjega čina v skladišče (vsaj 1 vojak bo ostal v zgradbi)"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
@@ -462,7 +461,7 @@ msgstr "Omogoči pošiljanje izdelkov/figur v zavezniška skladišča"
 msgid "Altitude"
 msgstr "Višina"
 
-#: libs/s25main/SerializedGameData.cpp:333
+#: libs/s25main/SerializedGameData.cpp:334
 msgid "An error occured while saving which was suppressed!"
 msgstr "Med shranjevanjem je prišlo do napake, ki je bila zatrta!"
 
@@ -507,6 +506,10 @@ msgstr "Umetna inteligenca (UI)"
 msgid "As the teams are locked, you cannot make treaties of any kind."
 msgstr "Ker so ekipe zaklenjene, ne moreš ustvariti nobenih pogodb."
 
+#: libs/s25main/desktops/dskOptions.cpp:234
+msgid "Ask always"
+msgstr ""
+
 #: libs/s25main/network/GameServer.cpp:784
 msgid ""
 "Async at GF %1% of player %2% vs %3%. Checksums:\n"
@@ -523,7 +526,7 @@ msgstr "Asinhrono razhroščevanje (IZREDNO POČASI!)"
 msgid "Async log saved at %1%\n"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:833
+#: libs/s25main/network/GameClient.cpp:845
 msgid ""
 "Async log saved at %1%,\n"
 "game saved at %2%\n"
@@ -547,15 +550,15 @@ msgid "Attack!"
 msgstr "Napad!"
 
 #: libs/s25main/GameManager.cpp:61
-msgid "Audio driver couldn't be loaded!\n"
-msgstr ""
+msgid "Audio driver couldn't be loaded!"
+msgstr "Datoteke ni mogoče naložiti"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:76
 msgid "Author"
 msgstr "Avtor"
 
-#: libs/s25main/network/GameClient.cpp:1366
-#: libs/s25main/network/GameClient.cpp:1368
+#: libs/s25main/network/GameClient.cpp:1378
+#: libs/s25main/network/GameClient.cpp:1380
 msgid "Auto-Save"
 msgstr "Avtomatsko shranjevanje"
 
@@ -563,8 +566,16 @@ msgstr "Avtomatsko shranjevanje"
 msgid "Auto-Save every:"
 msgstr "Avtomatsko shranjevanje na:"
 
+#: libs/s25main/addons/AddonAutoFlags.h:18
+msgid "Automatic flag placement"
+msgstr ""
+
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
+msgstr ""
+
+#: libs/s25main/addons/AddonAutoFlags.h:19
+msgid "Automatically places flags on newly build roads"
 msgstr ""
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
@@ -588,7 +599,7 @@ msgstr "Babilonci"
 #: libs/s25main/desktops/dskIntro.cpp:20 libs/s25main/desktops/dskLAN.cpp:40
 #: libs/s25main/desktops/dskLobby.cpp:45
 #: libs/s25main/desktops/dskMultiPlayer.cpp:31
-#: libs/s25main/desktops/dskOptions.cpp:58
+#: libs/s25main/desktops/dskOptions.cpp:124
 #: libs/s25main/desktops/dskSelectMap.cpp:86
 #: libs/s25main/desktops/dskSinglePlayer.cpp:49
 #: libs/s25main/desktops/dskTextureTest.cpp:35
@@ -714,7 +725,7 @@ msgstr "Prekliči"
 msgid "Cancel expedition"
 msgstr "Prekliči ekspedicijo"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:879
+#: libs/s25main/desktops/dskGameLobby.cpp:896
 msgid "Cancel start"
 msgstr "Prekliči začetek"
 
@@ -830,7 +841,7 @@ msgstr "Zaprto"
 msgid "Close Without Saving"
 msgstr "Zapri brez shranjevanja"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:357
+#: libs/s25main/desktops/dskGameLobby.cpp:374
 msgid "Closed"
 msgstr "Zaprto"
 
@@ -868,7 +879,7 @@ msgstr "Barva"
 msgid "Coming soon"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:68
+#: libs/s25main/desktops/dskOptions.cpp:134
 msgid "Common"
 msgstr "Skupno"
 
@@ -876,7 +887,7 @@ msgstr "Skupno"
 msgid "Completed the ordered amount of tools."
 msgstr "Zaključeno naročeno količino orodij."
 
-#: libs/s25main/JoinPlayerInfo.cpp:44
+#: libs/s25main/JoinPlayerInfo.cpp:50
 #, c-format
 msgid "Computer %u"
 msgstr "Računalnik %u"
@@ -921,11 +932,11 @@ msgstr "Gradbeništvo"
 msgid "Construction aid mode"
 msgstr "Pomoč pri gradnji"
 
-#: libs/s25main/addons/AddonMilitaryAid.h:23
+#: libs/s25main/addons/AddonMilitaryAid.h:21
 msgid "Construction aid only"
 msgstr ""
 
-#: libs/s25main/addons/AddonMilitaryAid.h:24
+#: libs/s25main/addons/AddonMilitaryAid.h:21
 msgid "Construction and attack aid"
 msgstr ""
 
@@ -988,7 +999,7 @@ msgstr "Zasluge"
 msgid "Crucible"
 msgstr "Talilni lonec"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:362
+#: libs/s25main/desktops/dskGameInterface.cpp:363
 #, c-format
 msgid "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
 msgstr "Trenutno GF%u / GF dolžina: %u ms / NWF dolžina: %u gf (%u ms) / Ping: %u ms"
@@ -1049,7 +1060,7 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
 #: libs/s25main/ingameWindows/iwBuilding.cpp:57
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:47
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:55
 msgid "Demolish house"
 msgstr "Uniči zgradbo"
 
@@ -1057,15 +1068,15 @@ msgstr "Uniči zgradbo"
 msgid "Demolish?"
 msgstr "Uničiti?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:223
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:298
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Uničenje ni mogoče, ker je zgradba v obmejnem območju!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:222
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:297
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "Uničenje ni mogoče, ker je zgradba napadena!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:226
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:301
 msgid "Demolition not possible"
 msgstr "Uničenje ni mogoče!"
 
@@ -1107,7 +1118,7 @@ msgstr "Privzeto onemogoči kovance"
 msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr "Onemogoči uničenje vojaških zgradb ob napadu ali v obmejnem območju."
 
-#: libs/s25main/desktops/dskOptions.cpp:298
+#: libs/s25main/desktops/dskOptions.cpp:391
 #: libs/s25main/ingameWindows/iwSave.cpp:130
 msgid "Disabled"
 msgstr "Onemogočeno"
@@ -1129,11 +1140,11 @@ msgstr "Prikaži točke zdravja enot v vojaških zgradbah."
 msgid "Distribution of goods"
 msgstr "Distribucija blaga"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:690
+#: libs/s25main/desktops/dskGameLobby.cpp:707
 msgid "Don't forget to check the addon configuration!"
 msgstr "Ne pozabi preveriti nastavitev dodatka!"
 
-#: libs/s25main/desktops/dskOptions.cpp:175
+#: libs/s25main/desktops/dskOptions.cpp:251
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
@@ -1166,7 +1177,7 @@ msgstr "Navzdol"
 msgid "Downwards"
 msgstr "Navzdol"
 
-#: libs/s25main/JoinPlayerInfo.cpp:44
+#: libs/s25main/JoinPlayerInfo.cpp:50
 #, c-format
 msgid "Dummy %u"
 msgstr "Dummy %u"
@@ -1184,7 +1195,7 @@ msgstr "Trajanje: %d GF (%s)"
 msgid "Duration: Forever"
 msgstr "Trajanje: za vedno"
 
-#: libs/s25main/desktops/dskOptions.cpp:294
+#: libs/s25main/desktops/dskOptions.cpp:387
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr "Dinamično (omeji osvežitev zaslona, deluje z večino gonilnikov)"
 
@@ -1209,11 +1220,11 @@ msgid "Economy Mode: Game Length"
 msgstr ""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:213
-#: libs/s25main/desktops/dskGameLobby.cpp:1050
+#: libs/s25main/desktops/dskGameLobby.cpp:1067
 msgid "Economy mode"
 msgstr "Ekonomija"
 
-#: libs/s25main/desktops/dskOptions.cpp:245
+#: libs/s25main/desktops/dskOptions.cpp:339
 msgid "Effects"
 msgstr "Učinki"
 
@@ -1278,12 +1289,12 @@ msgstr "Postavi zastavo"
 #: libs/s25main/desktops/dskGameLobby.cpp:87
 #: libs/s25main/desktops/dskGameLobby.cpp:93
 #: libs/s25main/desktops/dskGameLobby.cpp:242
-#: libs/s25main/desktops/dskGameLobby.cpp:330
-#: libs/s25main/desktops/dskGameLobby.cpp:715
-#: libs/s25main/desktops/dskGameLobby.cpp:1015
-#: libs/s25main/desktops/dskGameLobby.cpp:1025
+#: libs/s25main/desktops/dskGameLobby.cpp:347
+#: libs/s25main/desktops/dskGameLobby.cpp:732
+#: libs/s25main/desktops/dskGameLobby.cpp:1032
+#: libs/s25main/desktops/dskGameLobby.cpp:1042
 #: libs/s25main/desktops/dskLobby.cpp:259
-#: libs/s25main/desktops/dskOptions.cpp:533
+#: libs/s25main/desktops/dskOptions.cpp:547
 #: libs/s25main/desktops/dskSelectMap.cpp:173
 #: libs/s25main/desktops/dskSelectMap.cpp:235
 #: libs/s25main/desktops/dskSelectMap.cpp:362
@@ -1303,21 +1314,21 @@ msgstr "Postavi zastavo"
 msgid "Error"
 msgstr "Napaka"
 
-#: libs/s25main/network/GameClient.cpp:1503
+#: libs/s25main/network/GameClient.cpp:1515
 msgid "Error decompressing lua file"
 msgstr "Napaka pri raztegovanju lua datoteke"
 
-#: libs/s25main/network/GameClient.cpp:1494
+#: libs/s25main/network/GameClient.cpp:1506
 msgid "Error decompressing map file"
 msgstr "Napaka pri raztegovanju map datoteke"
 
-#: libs/s25main/network/GameClient.cpp:1325
+#: libs/s25main/network/GameClient.cpp:1337
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1522
+#: libs/s25main/network/GameClient.cpp:1534
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr "Napaka pri nalaganju igre iz posnetka: %s\n"
@@ -1389,7 +1400,7 @@ msgstr ""
 msgid "Failed to init GUI: "
 msgstr ""
 
-#: libs/s25main/Loader.cpp:479 libs/s25main/Loader.cpp:494
+#: libs/s25main/Loader.cpp:480 libs/s25main/Loader.cpp:495
 #, c-format
 msgid "Failed to load %s\n"
 msgstr "Neuspelo nalaganje %s\n"
@@ -1432,7 +1443,7 @@ msgstr ""
 msgid "Failed to read lua file '%1%'\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:990 libs/s25main/Loader.cpp:1009
+#: libs/s25main/Loader.cpp:991 libs/s25main/Loader.cpp:1010
 msgid "Failed to resolve resource %1%\n"
 msgstr "Neuspelo nalaganje %s\n"
 
@@ -1467,6 +1478,7 @@ msgid "Few"
 msgstr "Manj"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:24
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:85
 msgid "Fewer"
 msgstr "Manj"
 
@@ -1552,7 +1564,7 @@ msgstr "Gozdar"
 msgid "Fortress"
 msgstr "Trdnjava"
 
-#: libs/s25main/figures/nofGeologist.cpp:441
+#: libs/s25main/figures/nofGeologist.cpp:437
 msgid "Found coal"
 msgstr "Najden premog"
 
@@ -1560,19 +1572,19 @@ msgstr "Najden premog"
 msgid "Found colony"
 msgstr "Vzpostavi kolonijo"
 
-#: libs/s25main/figures/nofGeologist.cpp:440
+#: libs/s25main/figures/nofGeologist.cpp:436
 msgid "Found gold"
 msgstr "Najdeno zlato"
 
-#: libs/s25main/figures/nofGeologist.cpp:442
+#: libs/s25main/figures/nofGeologist.cpp:438
 msgid "Found granite"
 msgstr "Najden granit"
 
-#: libs/s25main/figures/nofGeologist.cpp:439
+#: libs/s25main/figures/nofGeologist.cpp:435
 msgid "Found iron ore"
 msgstr "Najdena železova ruda"
 
-#: libs/s25main/figures/nofGeologist.cpp:443
+#: libs/s25main/figures/nofGeologist.cpp:439
 msgid "Found water"
 msgstr "Najdena voda"
 
@@ -1584,12 +1596,16 @@ msgstr "Z razvidniškega stolpa lahko vidite globoko v neraziskane predele deže
 msgid "Frontier Distance checks reachability"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:187
+#: libs/s25main/addons/AddonMilitaryControl.h:22
+msgid "Full Control"
+msgstr ""
+
+#: libs/s25main/desktops/dskOptions.cpp:273
 #: libs/s25main/ingameWindows/iwSettings.cpp:29
 msgid "Fullscreen"
 msgstr "Celozaslonski način"
 
-#: libs/s25main/desktops/dskOptions.cpp:181
+#: libs/s25main/desktops/dskOptions.cpp:266
 #: libs/s25main/ingameWindows/iwSettings.cpp:22
 msgid "Fullscreen resolution:"
 msgstr "Celozaslonska resolucija:"
@@ -1602,7 +1618,7 @@ msgstr "Igralni pogovor"
 msgid "Game Time"
 msgstr "Igralni meni"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:716
+#: libs/s25main/desktops/dskGameLobby.cpp:733
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
 msgstr "Igra se lahko začne ko bodo vsi igralci izbrali svojo barvo, bili pripravljeni in bila vsa prosta mesta zasedena."
 
@@ -1614,11 +1630,11 @@ msgstr "Igralni zaboj je bil pobran in razprostran…"
 msgid "Game menu"
 msgstr "Igralni meni"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1205
+#: libs/s25main/desktops/dskGameInterface.cpp:1211
 msgid "Game was paused."
 msgstr "Igra je bila zaustavljena."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1210
+#: libs/s25main/desktops/dskGameInterface.cpp:1216
 msgid "Game was resumed."
 msgstr "Igra je bila nadaljevana."
 
@@ -1662,7 +1678,7 @@ msgstr "Pridobi nazaj gradbeni material, ko je zgradba uničena in je tvoj progr
 msgid "Get building materials back when a building is destroyed."
 msgstr "Pridobi nazaj gradbeni material, ko je zgradba uničena."
 
-#: libs/s25main/QuickStartGame.cpp:39
+#: libs/s25main/QuickStartGame.cpp:58
 msgid "Given map or replay (%1%) does not exist!"
 msgstr ""
 
@@ -1674,7 +1690,7 @@ msgstr "Pojdi k glavni utrdbi"
 msgid "Go to next building of same type"
 msgstr "Pojdi k naslednji zgradbi istega tipa"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:59
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:67
 msgid "Go to next military building"
 msgstr "Pojdi k naslednji vojaški zgradbi"
 
@@ -1686,7 +1702,7 @@ msgstr "Pojdi v naslednje skladišče"
 #: libs/s25main/ingameWindows/iwBuilding.cpp:75
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:53
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwObservate.cpp:47
 #: libs/s25main/ingameWindows/iwShip.cpp:48
 msgid "Go to place"
@@ -1703,7 +1719,7 @@ msgstr "Cilji:"
 msgid "Gold"
 msgstr "Zlato"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:50
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:58
 msgid "Gold delivery"
 msgstr "Dostava zlatnikov"
 
@@ -1739,11 +1755,11 @@ msgstr "Rudniki granita ne bodo nikoli izpraznjeni."
 msgid "Granite:"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:70
+#: libs/s25main/desktops/dskOptions.cpp:137
 msgid "Graphics"
 msgstr "Grafika"
 
-#: libs/s25main/desktops/dskOptions.cpp:203
+#: libs/s25main/desktops/dskOptions.cpp:292
 msgid "Graphics Driver"
 msgstr "Grafični gonilnik"
 
@@ -1784,7 +1800,7 @@ msgstr "Glavna utrdba"
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:101
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwMilitary.cpp:45
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:44
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
 #: libs/s25main/ingameWindows/iwStatistics.cpp:136
 #: libs/s25main/ingameWindows/iwTools.cpp:63
 #: libs/s25main/ingameWindows/iwTransport.cpp:23
@@ -1828,14 +1844,14 @@ msgstr "ID"
 msgid "IP Address of Host:"
 msgstr "IP naslov gostitelja:"
 
-#: libs/s25main/desktops/dskOptions.cpp:125
+#: libs/s25main/desktops/dskOptions.cpp:193
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:59
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:41
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:73
 msgid "IPv4"
 msgstr "IPv4"
 
-#: libs/s25main/desktops/dskOptions.cpp:124
+#: libs/s25main/desktops/dskOptions.cpp:192
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:60
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:42
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:74
@@ -1912,7 +1928,7 @@ msgid "Invalid API version!"
 msgstr "Neveljavna različica API!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1443
+#: libs/s25main/network/GameClient.cpp:1455
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr ""
 
@@ -1936,7 +1952,7 @@ msgstr ""
 msgid "Invalid id for lua data"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:534
+#: libs/s25main/desktops/dskOptions.cpp:548
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:138
 msgid "Invalid port. The valid port-range is 1 to 65535!"
@@ -1988,7 +2004,7 @@ msgstr "Japonščina"
 msgid "Join Game"
 msgstr "Pridruži se igri"
 
-#: libs/s25main/network/GameClient.cpp:1625
+#: libs/s25main/network/GameClient.cpp:1642
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr ""
@@ -1997,14 +2013,14 @@ msgstr ""
 msgid "Keep setting"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:749
-#: libs/s25main/desktops/dskOptions.cpp:601
+#: libs/s25main/desktops/dskGameInterface.cpp:755
+#: libs/s25main/desktops/dskOptions.cpp:608
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:67
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:114
 msgid "Keyboard layout"
 msgstr "Razpored tipk"
 
-#: libs/s25main/desktops/dskOptions.cpp:110
+#: libs/s25main/desktops/dskOptions.cpp:177
 msgid "Keyboard layout:"
 msgstr "Razpored tipk na tipkovnici:"
 
@@ -2016,7 +2032,7 @@ msgstr ""
 msgid "Landscape"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:91
+#: libs/s25main/desktops/dskOptions.cpp:158
 msgid "Language:"
 msgstr "Jezik:"
 
@@ -2042,7 +2058,7 @@ msgstr "Manj pogosto"
 msgid "Less repeats"
 msgstr "Manj ponavljanj"
 
-#: libs/s25main/desktops/dskOptions.cpp:192
+#: libs/s25main/desktops/dskOptions.cpp:278
 msgid "Limit Framerate:"
 msgstr "Omeji število slikovnih okvirjev:"
 
@@ -2135,7 +2151,7 @@ msgstr "Nalaganje %s: "
 msgid "Loading directory %s\n"
 msgstr "Nalaganje direktorija %s\n"
 
-#: libs/s25main/QuickStartGame.cpp:54
+#: libs/s25main/QuickStartGame.cpp:85
 msgid "Loading game...\n"
 msgstr ""
 
@@ -2143,7 +2159,7 @@ msgstr ""
 msgid "Lobby Chat"
 msgstr "Pogovorno preddverje"
 
-#: libs/s25main/desktops/dskOptions.cpp:114
+#: libs/s25main/desktops/dskOptions.cpp:182
 msgid "Local Port:"
 msgstr ""
 
@@ -2175,7 +2191,7 @@ msgstr "Izvidniški stolp"
 msgid "Lookout-tower occupied"
 msgstr "Izvidniški stolp vseljen"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1224
+#: libs/s25main/desktops/dskGameInterface.cpp:1230
 #: libs/s25main/desktops/dskLobby.cpp:259
 msgid "Lost connection to lobby!"
 msgstr "Prekinjena povezava s klepetalnico!"
@@ -2184,7 +2200,7 @@ msgstr "Prekinjena povezava s klepetalnico!"
 msgid "Lost connection to server!"
 msgstr "Povezava s strežnikom prekinjena!"
 
-#: libs/s25main/world/GameWorld.cpp:469
+#: libs/s25main/world/GameWorld.cpp:481
 msgid "Lost land by this building"
 msgstr "Izgubljeno ozemlje zaradi te zgradbe"
 
@@ -2214,7 +2230,7 @@ msgid "Lua script uses a different version and cannot be used. Map might not wor
 msgstr ""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:87
-#: libs/s25main/desktops/dskGameLobby.cpp:330
+#: libs/s25main/desktops/dskGameLobby.cpp:347
 msgid "Lua script was found but failed to load. Map might not work as expected!"
 msgstr "Lua skripta je bila najdena, ampak se ni uspela naložiti. Zemljevid mogoče ne bo deloval po pričakovanjih!"
 
@@ -2351,7 +2367,7 @@ msgstr "Vojska"
 msgid "Military Aid"
 msgstr "Vojaška pomoč"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:18
+#: libs/s25main/addons/AddonMilitaryControl.h:13
 msgid "Military Control"
 msgstr "Vojaški nadzor"
 
@@ -2359,7 +2375,7 @@ msgstr "Vojaški nadzor"
 msgid "Military Hitpoints"
 msgstr "Vojaško zdravje"
 
-#: libs/s25main/buildings/nobMilitary.cpp:994
+#: libs/s25main/buildings/nobMilitary.cpp:1012
 msgid "Military building captured"
 msgstr "Vojaška zgradba zavzeta"
 
@@ -2367,11 +2383,11 @@ msgstr "Vojaška zgradba zavzeta"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:991
+#: libs/s25main/buildings/nobMilitary.cpp:1009
 msgid "Military building lost"
 msgstr "Vojaška zgradba izgubljena"
 
-#: libs/s25main/buildings/nobMilitary.cpp:688
+#: libs/s25main/buildings/nobMilitary.cpp:703
 msgid "Military building occupied"
 msgstr "Vojaška zgradba naseljena"
 
@@ -2400,6 +2416,10 @@ msgstr "Rudniki ne bodo nikoli izčrpani."
 msgid "Minimal"
 msgstr "Minimalno"
 
+#: libs/s25main/addons/AddonMilitaryControl.h:21
+msgid "Minimal Control"
+msgstr ""
+
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:34
 msgid "Minimum strength"
 msgstr "Najmanjša moč"
@@ -2420,7 +2440,7 @@ msgstr "Manjkajoča zahtevana API funkcija"
 msgid "Mixed"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:185
+#: libs/s25main/desktops/dskOptions.cpp:271
 #: libs/s25main/ingameWindows/iwSettings.cpp:23
 msgid "Mode:"
 msgstr "Način:"
@@ -2432,6 +2452,7 @@ msgstr "Spremeni povečanje moči vojaških činov"
 #: libs/s25main/addons/AddonNumScoutsExploration.h:26
 #: libs/s25main/controls/ctrlProgress.cpp:37
 #: libs/s25main/ingameWindows/iwHQ.cpp:38
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:92
 msgid "More"
 msgstr "Več"
 
@@ -2464,11 +2485,11 @@ msgstr "Več dreves ustvarja živali"
 msgid "Multiplayer"
 msgstr "Večigralska igra"
 
-#: libs/s25main/desktops/dskOptions.cpp:235
+#: libs/s25main/desktops/dskOptions.cpp:329
 msgid "Music"
 msgstr "Glasba"
 
-#: libs/s25main/desktops/dskOptions.cpp:255
+#: libs/s25main/desktops/dskOptions.cpp:350
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:81
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:98
 msgid "Music player"
@@ -2479,7 +2500,7 @@ msgstr "Predvajalnik glasbe"
 msgid "Name"
 msgstr "Ime"
 
-#: libs/s25main/desktops/dskOptions.cpp:85
+#: libs/s25main/desktops/dskOptions.cpp:152
 msgid "Name in Game:"
 msgstr "Ime v igri"
 
@@ -2495,7 +2516,7 @@ msgstr "Blizu pristanišč"
 msgid "Network/LAN"
 msgstr "Omrežje/LAN"
 
-#: libs/s25main/lua/LuaPlayer.cpp:70
+#: libs/s25main/lua/LuaPlayer.cpp:71
 msgid "New building type:"
 msgstr ""
 
@@ -2522,7 +2543,7 @@ msgstr "Naslednja stran"
 msgid "No"
 msgstr "Ne"
 
-#: libs/s25main/desktops/dskOptions.cpp:142
+#: libs/s25main/desktops/dskOptions.cpp:213
 msgid "No Proxy"
 msgstr "Brez proxyja"
 
@@ -2576,6 +2597,7 @@ msgstr "Nihče razen ti"
 msgid "Non-aggression pact"
 msgstr "Pakt o nenapadanju"
 
+#: libs/s25main/addons/AddonMilitaryControl.h:20
 #: libs/s25main/desktops/dskGameLobby.cpp:210
 msgid "None"
 msgstr "Nič"
@@ -2588,7 +2610,7 @@ msgstr "Nič"
 msgid "Normal"
 msgstr "Navadno"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:881
+#: libs/s25main/desktops/dskGameLobby.cpp:898
 msgid "Not Ready"
 msgstr "Ni pripravljen"
 
@@ -2600,7 +2622,7 @@ msgstr "Ni RTTR gonilna knjižnica!"
 msgid "Not available"
 msgstr "Ni na voljo"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1175
+#: libs/s25main/desktops/dskGameInterface.cpp:1181
 #, c-format
 msgid "Note: Game settings changed by the server%s"
 msgstr "Obvestilo: Nastavitve igre spremenjene s strani streznika %s"
@@ -2648,14 +2670,14 @@ msgid "Observation window"
 msgstr "Opazovalno okno"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
-#: libs/s25main/addons/AddonMilitaryAid.h:22
-#: libs/s25main/desktops/dskOptions.cpp:160
-#: libs/s25main/desktops/dskOptions.cpp:167
-#: libs/s25main/desktops/dskOptions.cpp:174
-#: libs/s25main/desktops/dskOptions.cpp:200
-#: libs/s25main/desktops/dskOptions.cpp:219
-#: libs/s25main/desktops/dskOptions.cpp:238
-#: libs/s25main/desktops/dskOptions.cpp:248
+#: libs/s25main/addons/AddonMilitaryAid.h:21
+#: libs/s25main/desktops/dskOptions.cpp:242
+#: libs/s25main/desktops/dskOptions.cpp:250
+#: libs/s25main/desktops/dskOptions.cpp:260
+#: libs/s25main/desktops/dskOptions.cpp:288
+#: libs/s25main/desktops/dskOptions.cpp:311
+#: libs/s25main/desktops/dskOptions.cpp:332
+#: libs/s25main/desktops/dskOptions.cpp:342
 msgid "Off"
 msgstr "Izključeno"
 
@@ -2679,17 +2701,18 @@ msgstr ""
 msgid "Old maps"
 msgstr "Stari zemljevidi"
 
-#: libs/s25main/desktops/dskOptions.cpp:159
-#: libs/s25main/desktops/dskOptions.cpp:168
-#: libs/s25main/desktops/dskOptions.cpp:176
-#: libs/s25main/desktops/dskOptions.cpp:199
-#: libs/s25main/desktops/dskOptions.cpp:218
-#: libs/s25main/desktops/dskOptions.cpp:237
-#: libs/s25main/desktops/dskOptions.cpp:247
+#: libs/s25main/desktops/dskOptions.cpp:231
+#: libs/s25main/desktops/dskOptions.cpp:243
+#: libs/s25main/desktops/dskOptions.cpp:252
+#: libs/s25main/desktops/dskOptions.cpp:259
+#: libs/s25main/desktops/dskOptions.cpp:287
+#: libs/s25main/desktops/dskOptions.cpp:310
+#: libs/s25main/desktops/dskOptions.cpp:331
+#: libs/s25main/desktops/dskOptions.cpp:341
 msgid "On"
 msgstr "Vključeno"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:356
+#: libs/s25main/desktops/dskGameLobby.cpp:373
 msgid "Open"
 msgstr "Odprto"
 
@@ -2701,12 +2724,12 @@ msgstr ""
 msgid "OpenGL %1%.%2% supported\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:215
+#: libs/s25main/desktops/dskOptions.cpp:306
 msgid "Optimized Textures:"
 msgstr "Optimizirane teksture:"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:46
-#: libs/s25main/desktops/dskOptions.cpp:61
+#: libs/s25main/desktops/dskOptions.cpp:127
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:99
 msgid "Options"
 msgstr "Nastavitve"
@@ -2757,7 +2780,7 @@ msgstr "Predhodni igralec"
 msgid "Peaceful"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1065
+#: libs/s25main/desktops/dskGameLobby.cpp:1082
 msgid "Peaceful mode"
 msgstr ""
 
@@ -2779,7 +2802,7 @@ msgstr "Prašičja farma"
 msgid "Ping"
 msgstr "Ping"
 
-#: libs/s25main/desktops/dskOptions.cpp:177
+#: libs/s25main/desktops/dskOptions.cpp:253
 msgid "Place cursor on default button for new dialogs / action windows (default)"
 msgstr "Postavi kurzor na privzet gumb za nove dialoge / akcijska okna (privzeto)"
 
@@ -2817,22 +2840,22 @@ msgstr ""
 msgid "Player %u does not have a valid start position!"
 msgstr "Igralec %u nima veljavne začetne pozicije!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1366
+#: libs/s25main/desktops/dskGameInterface.cpp:1372
 #, c-format
 msgid "Player '%s' is the winner!"
 msgstr "Igralec ‘%s’ je zmagovalec!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1168
+#: libs/s25main/desktops/dskGameInterface.cpp:1174
 #, c-format
 msgid "Player '%s' joined the game!"
 msgstr "Igralec '%s' se je pridružil igri!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1165
+#: libs/s25main/desktops/dskGameInterface.cpp:1171
 #, c-format
 msgid "Player '%s' left the game!"
 msgstr "Igralec '%s' je zapustil igro!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1260
+#: libs/s25main/desktops/dskGameInterface.cpp:1266
 #, c-format
 msgid "Player '%s' was defeated!"
 msgstr "Igralec '%s' je bil poražen!"
@@ -2921,11 +2944,11 @@ msgstr "Vodenje projekta"
 msgid "Proportional"
 msgstr "Proporcionalno"
 
-#: libs/s25main/desktops/dskOptions.cpp:132
+#: libs/s25main/desktops/dskOptions.cpp:200
 msgid "Proxyserver:"
 msgstr "Proxy strežnik:"
 
-#: libs/s25main/desktops/dskOptions.cpp:140
+#: libs/s25main/desktops/dskOptions.cpp:210
 msgid "Proxytyp:"
 msgstr "Vrsta proxyja:"
 
@@ -2981,19 +3004,19 @@ msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The p
 msgstr "Surova železova ruda je topljena s pomočjo premoga pri talilcu železa. Obdelano železo je potem uporabljeno za izdelavo orožja (v orožarni) in orodij (v metalurgiji)."
 
 #: libs/s25main/desktops/dskMainMenu.cpp:51
-#: libs/s25main/desktops/dskOptions.cpp:111
+#: libs/s25main/desktops/dskOptions.cpp:180
 msgid "Readme"
 msgstr "Preberi me"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:752
+#: libs/s25main/desktops/dskGameInterface.cpp:758
 #: libs/s25main/desktops/dskMainMenu.cpp:125
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:116
 msgid "Readme!"
 msgstr "Preberi me!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:164
-#: libs/s25main/desktops/dskGameLobby.cpp:640
-#: libs/s25main/desktops/dskGameLobby.cpp:881
+#: libs/s25main/desktops/dskGameLobby.cpp:657
+#: libs/s25main/desktops/dskGameLobby.cpp:898
 msgid "Ready"
 msgstr "Pripravljen"
 
@@ -3061,7 +3084,7 @@ msgstr "Odstrani skladbo"
 msgid "Removes all replays that cannot be loaded with the current game version"
 msgstr "Odstrani vse posnetke, ki ne morejo biti naloženi s trenutno različico igre"
 
-#: libs/s25main/network/GameClient.cpp:1430
+#: libs/s25main/network/GameClient.cpp:1442
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr ""
 
@@ -3149,8 +3172,8 @@ msgstr ""
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1205
-#: libs/s25main/desktops/dskGameInterface.cpp:1210
+#: libs/s25main/desktops/dskGameInterface.cpp:1211
+#: libs/s25main/desktops/dskGameInterface.cpp:1216
 msgid "SYSTEM"
 msgstr "SISTEM"
 
@@ -3220,7 +3243,7 @@ msgstr "Izbira zemljevida"
 msgid "Send"
 msgstr "Pošlji"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:63
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:73
 msgid "Send max rank soldiers to a warehouse"
 msgstr "Pošlji vojake z najvišjim činom v skladišče"
 
@@ -3228,6 +3251,10 @@ msgstr "Pošlji vojake z najvišjim činom v skladišče"
 #: libs/s25main/ingameWindows/iwAction.cpp:213
 msgid "Send out scout"
 msgstr "Razpošlji izvidnika"
+
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
+msgid "Send soldiers home"
+msgstr ""
 
 #: libs/s25main/network/GameServer.cpp:1595
 msgid "Sending async logs %1%.\n"
@@ -3335,6 +3362,10 @@ msgstr "Kratkoročno"
 msgid "Shovel"
 msgstr "Lopata"
 
+#: libs/s25main/desktops/dskOptions.cpp:256
+msgid "Show GameFrame Info:"
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:154
 msgid "Show coordinates"
 msgstr "Prikaži koordinate"
@@ -3380,7 +3411,7 @@ msgstr "Klavnica"
 msgid "Slow"
 msgstr "Počasi"
 
-#: libs/s25main/desktops/dskOptions.cpp:171
+#: libs/s25main/desktops/dskOptions.cpp:246
 msgid "Smart Cursor"
 msgstr "Pameten kurzor"
 
@@ -3388,7 +3419,7 @@ msgstr "Pameten kurzor"
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
 msgstr "Kovač lahko ustvari 1 ščit & 1 meč za 1 železo + 1 premog namesto 2 železi + 2 premoga"
 
-#: libs/s25main/desktops/dskOptions.cpp:143
+#: libs/s25main/desktops/dskOptions.cpp:214
 msgid "Socks v4"
 msgstr "Socks v4"
 
@@ -3407,17 +3438,17 @@ msgstr ""
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
 #: libs/s25main/desktops/dskLobby.cpp:226
 #: libs/s25main/desktops/dskLobby.cpp:239
-#: libs/s25main/desktops/dskOptions.cpp:567
-#: libs/s25main/desktops/dskOptions.cpp:575
+#: libs/s25main/desktops/dskOptions.cpp:581
+#: libs/s25main/desktops/dskOptions.cpp:589
 #: libs/s25main/ingameWindows/iwSettings.cpp:74
 msgid "Sorry!"
 msgstr "Oprostite!"
 
-#: libs/s25main/desktops/dskOptions.cpp:73
+#: libs/s25main/desktops/dskOptions.cpp:140
 msgid "Sound/Music"
 msgstr "Zvok/Glasba"
 
-#: libs/s25main/desktops/dskOptions.cpp:222
+#: libs/s25main/desktops/dskOptions.cpp:315
 msgid "Sounddriver"
 msgstr "Zvočni gonilnik"
 
@@ -3430,7 +3461,7 @@ msgid "Speed:"
 msgstr "Hitrost:"
 
 #: libs/s25main/GameManager.cpp:167
-msgid "Splash screen couldn't be loaded!\n"
+msgid "Splash screen couldn't be loaded!"
 msgstr "Datoteke ni mogoče naložiti"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
@@ -3438,7 +3469,7 @@ msgstr "Datoteke ni mogoče naložiti"
 msgid "Start"
 msgstr "Začetek"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:706
+#: libs/s25main/desktops/dskGameLobby.cpp:723
 msgid "Start aborted"
 msgstr "Začetek prekinjen"
 
@@ -3453,12 +3484,12 @@ msgid "Start exporation expedition"
 msgstr "Začni raziskovalno ekspedicijo"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:164
-#: libs/s25main/desktops/dskGameLobby.cpp:634
-#: libs/s25main/desktops/dskGameLobby.cpp:879
+#: libs/s25main/desktops/dskGameLobby.cpp:651
+#: libs/s25main/desktops/dskGameLobby.cpp:896
 msgid "Start game"
 msgstr "Začni igro"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:696
+#: libs/s25main/desktops/dskGameLobby.cpp:713
 msgid "Starting game, please wait"
 msgstr "Zaganjanje igre, prosimo počakajte…"
 
@@ -3516,7 +3547,7 @@ msgstr "Močna obramba"
 msgid "Style"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:157
+#: libs/s25main/desktops/dskOptions.cpp:228
 msgid "Submit debug data:"
 msgstr "Pošlji razhroščevalne podatke:"
 
@@ -3591,8 +3622,8 @@ msgstr "%s med igralcem ‘%s’ in tabo je bilo preklicano."
 msgid "The %s between player '%s' and you has been concluded."
 msgstr "%s med igralcem ‘%s’ in tabo je bilo zaključeno."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1188
-#: libs/s25main/network/GameClient.cpp:817
+#: libs/s25main/desktops/dskGameInterface.cpp:1194
+#: libs/s25main/network/GameClient.cpp:829
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "Igra ni sinhronizirana. Checksum nekaterih igralcev ne ustreza."
 
@@ -3636,11 +3667,11 @@ msgstr "Nešteta orodja, ki jih tvoji delavci potrebujejo, so ustvarjena v metal
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "Obrambne sposobnosti in kapaciteta vojaške trdnjave sta neprekosljiva. Je največja zgradba za vseljevanje vojakov. Z uporabo gumba z ikono zlatnika se zaustavi dostava zlatnikov v zgradbo. Kakorkoli, brez zlatnikov se vojaki ne morejo izboljševati."
 
-#: libs/s25main/GamePlayer.cpp:2027
+#: libs/s25main/GamePlayer.cpp:2033
 msgid "The emergency program has been activated."
 msgstr "Zasilni program je bil aktiviran."
 
-#: libs/s25main/GamePlayer.cpp:2036
+#: libs/s25main/GamePlayer.cpp:2042
 msgid "The emergency program has been deactivated."
 msgstr "Zasilni program je bil deaktiviran."
 
@@ -3842,7 +3873,7 @@ msgstr "Vrh"
 msgid "Total domination"
 msgstr "Popolna nadvlada"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:376
+#: libs/s25main/desktops/dskGameInterface.cpp:378
 msgid "Tournament finished"
 msgstr ""
 
@@ -3902,7 +3933,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:79
-#: libs/s25main/network/GameClient.cpp:1444
+#: libs/s25main/network/GameClient.cpp:1456
 msgid "Unknown"
 msgstr ""
 
@@ -3948,7 +3979,7 @@ msgstr ""
 msgid "Unlimited"
 msgstr "Neomejeno"
 
-#: libs/s25main/QuickStartGame.cpp:52
+#: libs/s25main/QuickStartGame.cpp:83
 #: libs/s25main/desktops/dskSinglePlayer.cpp:45
 #: libs/s25main/desktops/dskSinglePlayer.cpp:137
 #: libs/s25main/desktops/dskSinglePlayer.cpp:142
@@ -3972,7 +4003,7 @@ msgstr "Navzgor"
 msgid "Use"
 msgstr "Uporabi"
 
-#: libs/s25main/desktops/dskOptions.cpp:121
+#: libs/s25main/desktops/dskOptions.cpp:189
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:56
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:38
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:70
@@ -3983,7 +4014,7 @@ msgstr "Uporabi IPv6:"
 msgid "Use S2 Defaults"
 msgstr "Uporabi S2 privzete"
 
-#: libs/s25main/desktops/dskOptions.cpp:165
+#: libs/s25main/desktops/dskOptions.cpp:240
 msgid "Use UPnP"
 msgstr "Uporabi UPnP"
 
@@ -4005,7 +4036,7 @@ msgstr "Čakam informacije o igralcih..."
 msgid "Version"
 msgstr "Različica"
 
-#: libs/s25main/network/GameClient.cpp:669
+#: libs/s25main/network/GameClient.cpp:681
 msgid "Version mismatch. Server version: %1%, your version %2%"
 msgstr ""
 
@@ -4013,7 +4044,7 @@ msgstr ""
 msgid "Version:"
 msgstr "Različica:"
 
-#: libs/s25main/desktops/dskOptions.cpp:196
+#: libs/s25main/desktops/dskOptions.cpp:283
 msgid "Vertex Buffer Objects:"
 msgstr "Vertex Buffer Objects:"
 
@@ -4040,8 +4071,8 @@ msgid "Very slow"
 msgstr "Zelo počasi"
 
 #: libs/s25main/GameManager.cpp:46
-msgid "Video driver couldn't be loaded!\n"
-msgstr ""
+msgid "Video driver couldn't be loaded!"
+msgstr "Datoteke ni mogoče naložiti"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:182
 msgid "View Settings..."
@@ -4139,7 +4170,7 @@ msgstr "Vodnjak"
 msgid "What is this?"
 msgstr "Kaj je to?"
 
-#: libs/s25main/desktops/dskOptions.cpp:189
+#: libs/s25main/desktops/dskOptions.cpp:275
 #: libs/s25main/ingameWindows/iwSettings.cpp:30
 msgid "Windowed"
 msgstr "V oknu"
@@ -4221,11 +4252,11 @@ msgstr ""
 msgid "You can't join that game with your version!"
 msgstr "Ne moreš se pridružiti tej igri s tvojo različico!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1066
+#: libs/s25main/desktops/dskGameLobby.cpp:1083
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1051
+#: libs/s25main/desktops/dskGameLobby.cpp:1068
 msgid ""
 "You chose the economy mode. In economy mode the player or team that collects the most of certain goods wins (check the Economic progress window in game).\n"
 "\n"
@@ -4234,17 +4265,17 @@ msgid ""
 "Choosing No will start the game without any changes."
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:688
+#: libs/s25main/desktops/dskGameLobby.cpp:705
 #, c-format
 msgid "You have %u seconds until game starts"
 msgstr "Še %u sekund do začetka igre"
 
-#: libs/s25main/desktops/dskOptions.cpp:567
+#: libs/s25main/desktops/dskOptions.cpp:581
 #: libs/s25main/ingameWindows/iwSettings.cpp:74
 msgid "You need to restart your game to change the screen resolution!"
 msgstr "Za spremembo ločljivosti je potreben ponoven zagon."
 
-#: libs/s25main/desktops/dskOptions.cpp:575
+#: libs/s25main/desktops/dskOptions.cpp:589
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "Za spremembo grafičnega ter glasbenega gonilnika je potreben ponoven zagon."
 
@@ -4252,7 +4283,7 @@ msgstr "Za spremembo grafičnega ter glasbenega gonilnika je potreben ponoven za
 msgid "You win"
 msgstr "Zmagal si"
 
-#: libs/s25main/GamePlayer.cpp:1603
+#: libs/s25main/GamePlayer.cpp:1609
 msgid "Your ally wishes to notify you of this location"
 msgstr "Tvoj zaveznik te želi obvestiti o tej lokaciji"
 
@@ -4268,7 +4299,7 @@ msgstr ""
 msgid "all developers who contributed via Github"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1613
+#: libs/s25main/network/GameClient.cpp:1630
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "trenuten GF: %u - še vedno hitro posredovanje: %d GF preostalih (%d %%)"
