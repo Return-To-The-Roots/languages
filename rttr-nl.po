@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 11:07+0100\n"
+"POT-Creation-Date: 2023-05-29 11:50+0200\n"
 "PO-Revision-Date: 2020-12-22 20:13+0000\n"
 "Last-Translator: Thomas van de Bovenkamp <Unknown>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -254,7 +254,7 @@ msgstr "<%s> "
 msgid "A auto-savegame is created..."
 msgstr "Een automatisch opgeslagen spel is aangemaakt..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1263
+#: libs/s25main/buildings/nobMilitary.cpp:1256
 msgid "A catapult is firing upon us!"
 msgstr "Een katapult vuurt op ons!"
 
@@ -363,7 +363,7 @@ msgstr "Toegevoegde functies:"
 msgid "Additional graphics"
 msgstr "Aanvullende grafische werken"
 
-#: libs/s25main/GlobalGameSettings.cpp:249
+#: libs/s25main/GlobalGameSettings.cpp:250
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr "Addon %1$#x is niet gevonden!\n"
@@ -389,14 +389,11 @@ msgid "Adds new nation-specific graphics for catapults to the game."
 msgstr "Voegt nieuwe volk specifieke afbeeldingen voor katapulten toe aan het spel."
 
 #: libs/s25main/addons/AddonMilitaryControl.h:14
-#, fuzzy
 msgid ""
 "Adds troop controls to military buildings.\n"
 "Minimal: Adds the 'send home' button which will send all soldiers of the highest available rank to a warehouse.\n"
 "Full: Allows players to control in each military building how many soldiers of each rank should be stationed there."
 msgstr ""
-"Voegt de 'stuur naar huis' knop aan militaire gebouwen.\n"
-"Als je op deze knop drukt, worden alle soldaten van de hoogst beschikbare rang naar een warehouse gestuurd (er blijft minstens 1 soldaat in het gebouw zitten)"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
@@ -559,8 +556,8 @@ msgid "Attack!"
 msgstr "Aanvallen!"
 
 #: libs/s25main/GameManager.cpp:61
-msgid "Audio driver couldn't be loaded!\n"
-msgstr "Geluidsbesturingsprogramma kon niet worden geladen!\n"
+msgid "Audio driver couldn't be loaded!"
+msgstr "Geluidsbesturingsprogramma kon niet worden geladen!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:76
 msgid "Author"
@@ -575,9 +572,17 @@ msgstr "Automatisch opslaan"
 msgid "Auto-Save every:"
 msgstr "Sla automatisch op elke:"
 
+#: libs/s25main/addons/AddonAutoFlags.h:18
+msgid "Automatic flag placement"
+msgstr ""
+
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
 msgstr "Sloop automatisch verzamelgebouwen, zoals een mijn, als het is uitgeput."
+
+#: libs/s25main/addons/AddonAutoFlags.h:19
+msgid "Automatically places flags on newly build roads"
+msgstr ""
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
 msgid "Axe"
@@ -904,7 +909,6 @@ msgid "Connect"
 msgstr "Verbind"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:27
-#, fuzzy
 msgid "Connecting"
 msgstr "Verbind"
 
@@ -1065,7 +1069,7 @@ msgstr "Sloop gebouwen wanneer ze zijn uitgeput"
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
 #: libs/s25main/ingameWindows/iwBuilding.cpp:57
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:54
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:55
 msgid "Demolish house"
 msgstr "Sloop huis"
 
@@ -1073,15 +1077,15 @@ msgstr "Sloop huis"
 msgid "Demolish?"
 msgstr "Slopen?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:289
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:298
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Slopen is niet toegestaan omdat het gebouw zich in het grensgebied bevindt!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:288
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:297
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "Slopen is niet toegestaan omdat het gebouw wordt aangevallen!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:292
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:301
 msgid "Demolition not possible"
 msgstr "Slopen niet mogelijk"
 
@@ -1226,7 +1230,6 @@ msgstr ""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:213
 #: libs/s25main/desktops/dskGameLobby.cpp:1067
-#, fuzzy
 msgid "Economy mode"
 msgstr "Economie"
 
@@ -1371,7 +1374,6 @@ msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 msgstr "Verkeerde gebeurtenis combinatie. Gelezen gebeurtenissen: %1%. Verwachtte: %2%.\n"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:139
-#, fuzzy
 msgid "Every GF"
 msgstr "Iedereen"
 
@@ -1411,7 +1413,7 @@ msgstr ""
 msgid "Failed to init GUI: "
 msgstr "Mislukt om de GUI te initiëren: "
 
-#: libs/s25main/Loader.cpp:479 libs/s25main/Loader.cpp:494
+#: libs/s25main/Loader.cpp:480 libs/s25main/Loader.cpp:495
 #, c-format
 msgid "Failed to load %s\n"
 msgstr "Kon het volgende niet laden %s\n"
@@ -1454,10 +1456,9 @@ msgstr "De input kan niet worden samengevoegd %1%. Archief verwacht!\n"
 msgid "Failed to read lua file '%1%'\n"
 msgstr "Het lezen van het bestand lua '%1%' is mislukt\n"
 
-#: libs/s25main/Loader.cpp:990 libs/s25main/Loader.cpp:1009
-#, fuzzy
+#: libs/s25main/Loader.cpp:991 libs/s25main/Loader.cpp:1010
 msgid "Failed to resolve resource %1%\n"
-msgstr "Laden van spelbestanden niet gelukt."
+msgstr "Laden van spelbestanden %1% niet gelukt.\n"
 
 #: libs/s25main/network/GameServer.cpp:1574
 msgid "Failed to save async log at %1%\n"
@@ -1486,7 +1487,6 @@ msgid "Fast"
 msgstr "Snel"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:88
-#, fuzzy
 msgid "Few"
 msgstr "Minder"
 
@@ -1609,10 +1609,9 @@ msgstr "Vanuit de uitkijktoren kunt u ver in onbekend gebied kijken."
 msgid "Frontier Distance checks reachability"
 msgstr "Afstand tot de grens controleert de bereikbaarheid"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:20
-#, fuzzy
+#: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
-msgstr "Militaire Controle"
+msgstr ""
 
 #: libs/s25main/desktops/dskOptions.cpp:273
 #: libs/s25main/ingameWindows/iwSettings.cpp:29
@@ -1629,7 +1628,6 @@ msgid "Game Chat"
 msgstr "Game Chat"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:41
-#, fuzzy
 msgid "Game Time"
 msgstr "Spelmenu"
 
@@ -1705,7 +1703,7 @@ msgstr "Ga naar hoofdkwartier"
 msgid "Go to next building of same type"
 msgstr "Ga naar het volgende gebouw van hetzelfde type"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:66
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:67
 msgid "Go to next military building"
 msgstr "Ga naar volgende militaire gebouw"
 
@@ -1717,7 +1715,7 @@ msgstr "Ga naar de volgende pakhuis"
 #: libs/s25main/ingameWindows/iwBuilding.cpp:75
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:60
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwObservate.cpp:47
 #: libs/s25main/ingameWindows/iwShip.cpp:48
 msgid "Go to place"
@@ -1734,7 +1732,7 @@ msgstr "Doelen:"
 msgid "Gold"
 msgstr "Goud"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:57
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:58
 msgid "Gold delivery"
 msgstr "Goudlevering"
 
@@ -1815,7 +1813,7 @@ msgstr "Hoofdkwartier"
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:101
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwMilitary.cpp:45
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:51
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
 #: libs/s25main/ingameWindows/iwStatistics.cpp:136
 #: libs/s25main/ingameWindows/iwTools.cpp:63
 #: libs/s25main/ingameWindows/iwTransport.cpp:23
@@ -2040,7 +2038,6 @@ msgid "Keyboard layout:"
 msgstr "Toetsenbord-indeling:"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
-#, fuzzy
 msgid "Land"
 msgstr "Landschap"
 
@@ -2074,7 +2071,7 @@ msgstr "Minder vaak"
 msgid "Less repeats"
 msgstr "Minder herhalingen"
 
-#: libs/s25main/desktops/dskOptions.cpp:279
+#: libs/s25main/desktops/dskOptions.cpp:278
 msgid "Limit Framerate:"
 msgstr "Framerate"
 
@@ -2216,7 +2213,7 @@ msgstr "Verbinding met lobby verloren!"
 msgid "Lost connection to server!"
 msgstr "Verbinding met de server is verbroken!"
 
-#: libs/s25main/world/GameWorld.cpp:469
+#: libs/s25main/world/GameWorld.cpp:481
 msgid "Lost land by this building"
 msgstr "Land verloren door dit gebouw"
 
@@ -2391,7 +2388,7 @@ msgstr "Militaire Controle"
 msgid "Military Hitpoints"
 msgstr "Militaire levenspunten"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1019
+#: libs/s25main/buildings/nobMilitary.cpp:1012
 msgid "Military building captured"
 msgstr "Militair gebouw ingenomen"
 
@@ -2399,11 +2396,11 @@ msgstr "Militair gebouw ingenomen"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr "Militair gebouw geldt als interieur als een aanval permanent onmogelijk is. (Pad wordt geblokkeerd door terrein zoals zee, lava, etc.)"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1016
+#: libs/s25main/buildings/nobMilitary.cpp:1009
 msgid "Military building lost"
 msgstr "Militair gebouw verloren"
 
-#: libs/s25main/buildings/nobMilitary.cpp:710
+#: libs/s25main/buildings/nobMilitary.cpp:703
 msgid "Military building occupied"
 msgstr "Militair gebouw bezet"
 
@@ -2432,10 +2429,9 @@ msgstr "Mijnen zullen nooit uitgeput raken."
 msgid "Minimal"
 msgstr "Minimaal"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:19
-#, fuzzy
+#: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
-msgstr "Militaire Controle"
+msgstr ""
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:34
 msgid "Minimum strength"
@@ -2469,7 +2465,7 @@ msgstr "Pas de sterkte aan van militaire rangen"
 #: libs/s25main/addons/AddonNumScoutsExploration.h:26
 #: libs/s25main/controls/ctrlProgress.cpp:37
 #: libs/s25main/ingameWindows/iwHQ.cpp:38
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:95
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:92
 msgid "More"
 msgstr "Meer"
 
@@ -2614,7 +2610,7 @@ msgstr "Niemand anders dan u"
 msgid "Non-aggression pact"
 msgstr "Verdrag tot non-agressie"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:18
+#: libs/s25main/addons/AddonMilitaryControl.h:20
 #: libs/s25main/desktops/dskGameLobby.cpp:210
 msgid "None"
 msgstr "Geen"
@@ -2798,7 +2794,6 @@ msgid "Peaceful"
 msgstr "Vredig"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1082
-#, fuzzy
 msgid "Peaceful mode"
 msgstr "Vredig"
 
@@ -3051,7 +3046,6 @@ msgid "Received async logs from %1% (%2% entries).\n"
 msgstr "Async logboeken ontvangen van %1% (%2% vermeldingen).\n"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
-#, fuzzy
 msgid "Receiving Map..."
 msgstr "Wereld controleren..."
 
@@ -3144,7 +3138,6 @@ msgid "Return to harbor"
 msgstr "Teruggaan naar haven"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:106
-#, fuzzy
 msgid "Rivers:"
 msgstr "Delta"
 
@@ -3263,7 +3256,7 @@ msgstr "Wereldselectie"
 msgid "Send"
 msgstr "Verzend"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:72
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:73
 msgid "Send max rank soldiers to a warehouse"
 msgstr "Stuur hoogste rangen soldaten naar een warenhuis"
 
@@ -3273,9 +3266,8 @@ msgid "Send out scout"
 msgstr "Zend verkenner uit"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
-#, fuzzy
 msgid "Send soldiers home"
-msgstr "(%d soldaten)"
+msgstr ""
 
 #: libs/s25main/network/GameServer.cpp:1595
 msgid "Sending async logs %1%.\n"
@@ -3384,9 +3376,8 @@ msgid "Shovel"
 msgstr "Schep"
 
 #: libs/s25main/desktops/dskOptions.cpp:256
-#, fuzzy
 msgid "Show GameFrame Info:"
-msgstr "naar GameFrame:"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:154
 msgid "Show coordinates"
@@ -3486,8 +3477,7 @@ msgid "Speed:"
 msgstr "Snelheid:"
 
 #: libs/s25main/GameManager.cpp:167
-#, fuzzy
-msgid "Splash screen couldn't be loaded!\n"
+msgid "Splash screen couldn't be loaded!"
 msgstr "Het opgegeven bestand kon niet worden geladen!"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
@@ -3541,7 +3531,6 @@ msgid "Stocktaking date"
 msgstr "Inventarisatiedatum"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:112
-#, fuzzy
 msgid "Stone piles:"
 msgstr "Stenen"
 
@@ -4055,7 +4044,6 @@ msgid "Vanquished enemies"
 msgstr "Verslagen vijanden"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
-#, fuzzy
 msgid "Verifying server info..."
 msgstr "Wachten op Spelersinfo..."
 
@@ -4065,9 +4053,8 @@ msgid "Version"
 msgstr "Versie"
 
 #: libs/s25main/network/GameClient.cpp:681
-#, fuzzy
 msgid "Version mismatch. Server version: %1%, your version %2%"
-msgstr "Verkeerde lua-script versie: %1%. Huidige versie: %2%.%3%.\n"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwLobbyServerInfo.cpp:39
 msgid "Version:"
@@ -4082,7 +4069,6 @@ msgid "Very Low"
 msgstr "Erg laag"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
-#, fuzzy
 msgid "Very far"
 msgstr "Erg ver"
 
@@ -4101,8 +4087,8 @@ msgid "Very slow"
 msgstr "Zeer langzaam"
 
 #: libs/s25main/GameManager.cpp:46
-msgid "Video driver couldn't be loaded!\n"
-msgstr "Videobesturingsprogramma kon niet worden geladen!\n"
+msgid "Video driver couldn't be loaded!"
+msgstr "Videobesturingsprogramma kon niet worden geladen!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:182
 msgid "View Settings..."
@@ -4135,7 +4121,6 @@ msgstr "Wachten op antwoord..."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
-#, fuzzy
 msgid "Waiting for server info..."
 msgstr "Wachten op Spelersinfo..."
 
@@ -4449,6 +4434,5 @@ msgstr "winterwereld"
 #~ msgid "of"
 #~ msgstr "van"
 
-#, fuzzy
 #~ msgid "unlimited"
 #~ msgstr "Onbeperkt"

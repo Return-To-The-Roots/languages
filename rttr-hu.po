@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 11:07+0100\n"
+"POT-Creation-Date: 2023-05-29 11:50+0200\n"
 "PO-Revision-Date: 2020-05-21 15:36+0000\n"
 "Last-Translator: Gabe Stylez <zorg@atw.hu>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -254,7 +254,7 @@ msgstr "<%s> "
 msgid "A auto-savegame is created..."
 msgstr "Automatikus mentés létrehozva"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1263
+#: libs/s25main/buildings/nobMilitary.cpp:1256
 msgid "A catapult is firing upon us!"
 msgstr "Egy katapulttal lőnek ránk!"
 
@@ -363,7 +363,7 @@ msgstr "További lehetőségek:"
 msgid "Additional graphics"
 msgstr "További Grafikai Beállítások"
 
-#: libs/s25main/GlobalGameSettings.cpp:249
+#: libs/s25main/GlobalGameSettings.cpp:250
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr ""
@@ -550,8 +550,8 @@ msgid "Attack!"
 msgstr "Támadás!"
 
 #: libs/s25main/GameManager.cpp:61
-msgid "Audio driver couldn't be loaded!\n"
-msgstr ""
+msgid "Audio driver couldn't be loaded!"
+msgstr "A kiválasztott fájlt nem lehet betölteni!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:76
 msgid "Author"
@@ -566,8 +566,16 @@ msgstr "Automatikus mentés"
 msgid "Auto-Save every:"
 msgstr "Automatikus mentés minden:"
 
+#: libs/s25main/addons/AddonAutoFlags.h:18
+msgid "Automatic flag placement"
+msgstr ""
+
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
+msgstr ""
+
+#: libs/s25main/addons/AddonAutoFlags.h:19
+msgid "Automatically places flags on newly build roads"
 msgstr ""
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
@@ -818,7 +826,6 @@ msgid "Cleaver"
 msgstr "Bárd"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:79
-#, fuzzy
 msgid "Close"
 msgstr "Lezárt"
 
@@ -888,7 +895,6 @@ msgid "Connect"
 msgstr "Kapcsolódás"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:27
-#, fuzzy
 msgid "Connecting"
 msgstr "Kapcsolódás"
 
@@ -1043,7 +1049,7 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
 #: libs/s25main/ingameWindows/iwBuilding.cpp:57
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:54
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:55
 msgid "Demolish house"
 msgstr "Ház lerombolása"
 
@@ -1051,15 +1057,15 @@ msgstr "Ház lerombolása"
 msgid "Demolish?"
 msgstr "Lerombol?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:289
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:298
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Rombolás nem engedélyezett mert az épület a határvidéken van!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:288
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:297
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "Rombolás nem engedélyezett mert az épület támadás alatt van!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:292
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:301
 msgid "Demolition not possible"
 msgstr "A rombolás nem lehetséges"
 
@@ -1202,7 +1208,6 @@ msgstr ""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:213
 #: libs/s25main/desktops/dskGameLobby.cpp:1067
-#, fuzzy
 msgid "Economy mode"
 msgstr "Gazdaság"
 
@@ -1345,7 +1350,6 @@ msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwSave.cpp:139
-#, fuzzy
 msgid "Every GF"
 msgstr "Mindenki"
 
@@ -1383,7 +1387,7 @@ msgstr ""
 msgid "Failed to init GUI: "
 msgstr ""
 
-#: libs/s25main/Loader.cpp:479 libs/s25main/Loader.cpp:494
+#: libs/s25main/Loader.cpp:480 libs/s25main/Loader.cpp:495
 #, c-format
 msgid "Failed to load %s\n"
 msgstr ""
@@ -1426,7 +1430,7 @@ msgstr ""
 msgid "Failed to read lua file '%1%'\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:990 libs/s25main/Loader.cpp:1009
+#: libs/s25main/Loader.cpp:991 libs/s25main/Loader.cpp:1010
 msgid "Failed to resolve resource %1%\n"
 msgstr ""
 
@@ -1440,7 +1444,6 @@ msgid "Failed to save lua state!"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:81
-#, fuzzy
 msgid "Far"
 msgstr "Tanya"
 
@@ -1580,7 +1583,7 @@ msgstr "A kilátótoronyból láthatod a felderítetlen területet."
 msgid "Frontier Distance checks reachability"
 msgstr ""
 
-#: libs/s25main/addons/AddonMilitaryControl.h:20
+#: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
 msgstr ""
 
@@ -1599,7 +1602,6 @@ msgid "Game Chat"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwSave.cpp:41
-#, fuzzy
 msgid "Game Time"
 msgstr "Játék menü"
 
@@ -1675,7 +1677,7 @@ msgstr "Menj a főhadiszállásra"
 msgid "Go to next building of same type"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:66
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:67
 msgid "Go to next military building"
 msgstr ""
 
@@ -1687,7 +1689,7 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwBuilding.cpp:75
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:60
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwObservate.cpp:47
 #: libs/s25main/ingameWindows/iwShip.cpp:48
 msgid "Go to place"
@@ -1704,7 +1706,7 @@ msgstr "Célok:"
 msgid "Gold"
 msgstr "Arany"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:57
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:58
 msgid "Gold delivery"
 msgstr ""
 
@@ -1785,7 +1787,7 @@ msgstr "Főhadiszállás"
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:101
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwMilitary.cpp:45
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:51
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
 #: libs/s25main/ingameWindows/iwStatistics.cpp:136
 #: libs/s25main/ingameWindows/iwTools.cpp:63
 #: libs/s25main/ingameWindows/iwTransport.cpp:23
@@ -1973,7 +1975,6 @@ msgid "Ironore"
 msgstr "Vasérc"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
-#, fuzzy
 msgid "Islands"
 msgstr "Sivatag"
 
@@ -2044,7 +2045,7 @@ msgstr "Kevésbé"
 msgid "Less repeats"
 msgstr "Kevesebb újrajátszás"
 
-#: libs/s25main/desktops/dskOptions.cpp:279
+#: libs/s25main/desktops/dskOptions.cpp:278
 msgid "Limit Framerate:"
 msgstr "Függőleges Szinkronizálás:"
 
@@ -2179,7 +2180,7 @@ msgstr "Elveszett a kapcsolat a lobbival!"
 msgid "Lost connection to server!"
 msgstr "Elveszett a kapcsolat a szerverrel!"
 
-#: libs/s25main/world/GameWorld.cpp:469
+#: libs/s25main/world/GameWorld.cpp:481
 msgid "Lost land by this building"
 msgstr "Területet vesztettünk eme épület miatt"
 
@@ -2303,7 +2304,6 @@ msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "A vadász által szerzett hús a bányászoknak kell."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:89
-#, fuzzy
 msgid "Medium"
 msgstr "Középtávú"
 
@@ -2355,7 +2355,7 @@ msgstr ""
 msgid "Military Hitpoints"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1019
+#: libs/s25main/buildings/nobMilitary.cpp:1012
 msgid "Military building captured"
 msgstr "Katonai épület elfoglalva"
 
@@ -2363,11 +2363,11 @@ msgstr "Katonai épület elfoglalva"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1016
+#: libs/s25main/buildings/nobMilitary.cpp:1009
 msgid "Military building lost"
 msgstr "Katonai épület elvesztve"
 
-#: libs/s25main/buildings/nobMilitary.cpp:710
+#: libs/s25main/buildings/nobMilitary.cpp:703
 msgid "Military building occupied"
 msgstr "Katonai épület elfoglalva"
 
@@ -2396,7 +2396,7 @@ msgstr ""
 msgid "Minimal"
 msgstr ""
 
-#: libs/s25main/addons/AddonMilitaryControl.h:19
+#: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
 msgstr ""
 
@@ -2432,7 +2432,7 @@ msgstr ""
 #: libs/s25main/addons/AddonNumScoutsExploration.h:26
 #: libs/s25main/controls/ctrlProgress.cpp:37
 #: libs/s25main/ingameWindows/iwHQ.cpp:38
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:95
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:92
 msgid "More"
 msgstr "Több"
 
@@ -2577,7 +2577,7 @@ msgstr "Senki más, csak te"
 msgid "Non-aggression pact"
 msgstr "Megnem-támadási szerződés"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:18
+#: libs/s25main/addons/AddonMilitaryControl.h:20
 #: libs/s25main/desktops/dskGameLobby.cpp:210
 msgid "None"
 msgstr "Nincs"
@@ -3013,7 +3013,6 @@ msgid "Received async logs from %1% (%2% entries).\n"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
-#, fuzzy
 msgid "Receiving Map..."
 msgstr "Térképellenörzés..."
 
@@ -3224,10 +3223,9 @@ msgstr "Térkép kiválasztása"
 msgid "Send"
 msgstr "Küld"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:72
-#, fuzzy
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:73
 msgid "Send max rank soldiers to a warehouse"
-msgstr "%d katonák"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAction.cpp:199
 #: libs/s25main/ingameWindows/iwAction.cpp:213
@@ -3235,9 +3233,8 @@ msgid "Send out scout"
 msgstr "Felderítő kiküldése"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
-#, fuzzy
 msgid "Send soldiers home"
-msgstr "%d katonák"
+msgstr ""
 
 #: libs/s25main/network/GameServer.cpp:1595
 msgid "Sending async logs %1%.\n"
@@ -3346,9 +3343,8 @@ msgid "Shovel"
 msgstr "Ásó"
 
 #: libs/s25main/desktops/dskOptions.cpp:256
-#, fuzzy
 msgid "Show GameFrame Info:"
-msgstr "GameFramehez:"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:154
 msgid "Show coordinates"
@@ -3445,8 +3441,7 @@ msgid "Speed:"
 msgstr "Sebesség:"
 
 #: libs/s25main/GameManager.cpp:167
-#, fuzzy
-msgid "Splash screen couldn't be loaded!\n"
+msgid "Splash screen couldn't be loaded!"
 msgstr "A kiválasztott fájlt nem lehet betölteni!"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
@@ -3500,7 +3495,6 @@ msgid "Stocktaking date"
 msgstr "Leltározás dátum"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:112
-#, fuzzy
 msgid "Stone piles:"
 msgstr "Kö"
 
@@ -4014,7 +4008,6 @@ msgid "Vanquished enemies"
 msgstr "Legyőzőtt ellenség"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
-#, fuzzy
 msgid "Verifying server info..."
 msgstr "Játékosra várakozás..."
 
@@ -4040,7 +4033,6 @@ msgid "Very Low"
 msgstr "Nagyon alacsony"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
-#, fuzzy
 msgid "Very far"
 msgstr "Nagyon Gyors"
 
@@ -4059,8 +4051,8 @@ msgid "Very slow"
 msgstr "Nagyon Lassú"
 
 #: libs/s25main/GameManager.cpp:46
-msgid "Video driver couldn't be loaded!\n"
-msgstr ""
+msgid "Video driver couldn't be loaded!"
+msgstr "A kiválasztott fájlt nem lehet betölteni!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:182
 msgid "View Settings..."
@@ -4091,7 +4083,6 @@ msgstr "Válaszra vár..."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
-#, fuzzy
 msgid "Waiting for server info..."
 msgstr "Játékosra várakozás..."
 
@@ -4368,6 +4359,5 @@ msgstr "Havas világ"
 #~ msgid "of"
 #~ msgstr "ebből"
 
-#, fuzzy
 #~ msgid "unlimited"
 #~ msgstr "Korlátlan"

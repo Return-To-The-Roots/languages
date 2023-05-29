@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 11:07+0100\n"
-"PO-Revision-Date: 2023-04-10 11:17+0100\n"
+"POT-Creation-Date: 2023-05-29 11:50+0200\n"
+"PO-Revision-Date: 2020-12-20 20:12+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "Language: cs\n"
@@ -17,7 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-Language: Czech\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -256,7 +258,7 @@ msgstr "<%s> "
 msgid "A auto-savegame is created..."
 msgstr "Probíhá automatické ukládání hry..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1263
+#: libs/s25main/buildings/nobMilitary.cpp:1256
 msgid "A catapult is firing upon us!"
 msgstr "Jsme pod palbou katapultu!"
 
@@ -365,7 +367,7 @@ msgstr "Další vlastnosti:"
 msgid "Additional graphics"
 msgstr "Doplňková grafika"
 
-#: libs/s25main/GlobalGameSettings.cpp:249
+#: libs/s25main/GlobalGameSettings.cpp:250
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr "Doplněk %1$#x nebyl nalezen!\n"
@@ -554,8 +556,8 @@ msgid "Attack!"
 msgstr "Útok!"
 
 #: libs/s25main/GameManager.cpp:61
-msgid "Audio driver couldn't be loaded!\n"
-msgstr "Zvukový ovladač nelze načíst!\n"
+msgid "Audio driver couldn't be loaded!"
+msgstr "Zvukový ovladač nelze načíst!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:76
 msgid "Author"
@@ -570,9 +572,17 @@ msgstr "Automatické ukládání"
 msgid "Auto-Save every:"
 msgstr "Automaticky uložit každých:"
 
+#: libs/s25main/addons/AddonAutoFlags.h:18
+msgid "Automatic flag placement"
+msgstr ""
+
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
 msgstr "Budovy které těží suroviny (jako je důl, rybář atd) jsou automaticky zdemolovány při vytěžení surovin."
+
+#: libs/s25main/addons/AddonAutoFlags.h:19
+msgid "Automatically places flags on newly build roads"
+msgstr ""
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
 msgid "Axe"
@@ -896,7 +906,6 @@ msgid "Connect"
 msgstr "Připojit se"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:27
-#, fuzzy
 msgid "Connecting"
 msgstr "Připojit se"
 
@@ -1051,7 +1060,7 @@ msgstr "Zbourat budovu když dojdou suroviny"
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
 #: libs/s25main/ingameWindows/iwBuilding.cpp:57
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:54
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:55
 msgid "Demolish house"
 msgstr "Zbourat budovu"
 
@@ -1059,15 +1068,15 @@ msgstr "Zbourat budovu"
 msgid "Demolish?"
 msgstr "Zbořit?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:289
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:298
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Budovu není možné zbořit, protože zasahuje do hraniční oblasti!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:288
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:297
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "Budovu není možné zbořit, protože je právě pod útokem!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:292
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:301
 msgid "Demolition not possible"
 msgstr "Budovu není možné zbořit"
 
@@ -1212,7 +1221,6 @@ msgstr ""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:213
 #: libs/s25main/desktops/dskGameLobby.cpp:1067
-#, fuzzy
 msgid "Economy mode"
 msgstr "Ekonomika"
 
@@ -1359,7 +1367,6 @@ msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 msgstr "Neshoda počtu událostí. Načtené události: %1%. Očekáváno: %2%.\n"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:139
-#, fuzzy
 msgid "Every GF"
 msgstr "Všichni"
 
@@ -1399,7 +1406,7 @@ msgstr ""
 msgid "Failed to init GUI: "
 msgstr "Nepodařilo se inicializovat GUI: "
 
-#: libs/s25main/Loader.cpp:479 libs/s25main/Loader.cpp:494
+#: libs/s25main/Loader.cpp:480 libs/s25main/Loader.cpp:495
 #, c-format
 msgid "Failed to load %s\n"
 msgstr "Nepodařilo se nahrát %s\n"
@@ -1442,8 +1449,7 @@ msgstr "Sloučení položky %1% se nezdařilo. Je očekávána archivace!\n"
 msgid "Failed to read lua file '%1%'\n"
 msgstr "Nepodařilo se přečíst soubor skriptu LUA '%1%'\n"
 
-#: libs/s25main/Loader.cpp:990 libs/s25main/Loader.cpp:1009
-#, fuzzy
+#: libs/s25main/Loader.cpp:991 libs/s25main/Loader.cpp:1010
 msgid "Failed to resolve resource %1%\n"
 msgstr "Nepodařilo se přečíst soubor skriptu LUA '%1%'\n"
 
@@ -1474,7 +1480,6 @@ msgid "Fast"
 msgstr "Rychle"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:88
-#, fuzzy
 msgid "Few"
 msgstr "Méně"
 
@@ -1597,9 +1602,9 @@ msgstr "Špionská věž slouží k odhalení doposud neprozkoumaného území."
 msgid "Frontier Distance checks reachability"
 msgstr ""
 
-#: libs/s25main/addons/AddonMilitaryControl.h:20
+#: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
-msgstr ""
+msgstr "Vojenská kontrola"
 
 #: libs/s25main/desktops/dskOptions.cpp:273
 #: libs/s25main/ingameWindows/iwSettings.cpp:29
@@ -1616,7 +1621,6 @@ msgid "Game Chat"
 msgstr "Herní chat"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:41
-#, fuzzy
 msgid "Game Time"
 msgstr "Herní menu"
 
@@ -1692,7 +1696,7 @@ msgstr "Jít do hlavní budovy"
 msgid "Go to next building of same type"
 msgstr "Jdi do další budovy stejného typu"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:66
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:67
 msgid "Go to next military building"
 msgstr "Jdi do další vojenské budovy"
 
@@ -1704,7 +1708,7 @@ msgstr "Jít do dalšího skladiště"
 #: libs/s25main/ingameWindows/iwBuilding.cpp:75
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:60
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwObservate.cpp:47
 #: libs/s25main/ingameWindows/iwShip.cpp:48
 msgid "Go to place"
@@ -1721,7 +1725,7 @@ msgstr "Cíle:"
 msgid "Gold"
 msgstr "Zlato"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:57
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:58
 msgid "Gold delivery"
 msgstr "Doručování zlata"
 
@@ -1802,7 +1806,7 @@ msgstr "Hlavní budova"
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:101
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwMilitary.cpp:45
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:51
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
 #: libs/s25main/ingameWindows/iwStatistics.cpp:136
 #: libs/s25main/ingameWindows/iwTools.cpp:63
 #: libs/s25main/ingameWindows/iwTransport.cpp:23
@@ -2027,7 +2031,6 @@ msgid "Keyboard layout:"
 msgstr "Rozložení klávesnice:"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
-#, fuzzy
 msgid "Land"
 msgstr "Na šířku"
 
@@ -2061,7 +2064,7 @@ msgstr "Méně často"
 msgid "Less repeats"
 msgstr "Méně opakování"
 
-#: libs/s25main/desktops/dskOptions.cpp:279
+#: libs/s25main/desktops/dskOptions.cpp:278
 msgid "Limit Framerate:"
 msgstr "Limitovaný framerate:"
 
@@ -2203,7 +2206,7 @@ msgstr "Připojení k lobby ztraceno!"
 msgid "Lost connection to server!"
 msgstr "Připojení k serveru ztraceno!"
 
-#: libs/s25main/world/GameWorld.cpp:469
+#: libs/s25main/world/GameWorld.cpp:481
 msgid "Lost land by this building"
 msgstr "Díky této budově jsme ztratili území"
 
@@ -2378,7 +2381,7 @@ msgstr "Vojenská kontrola"
 msgid "Military Hitpoints"
 msgstr "Životy vojáků"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1019
+#: libs/s25main/buildings/nobMilitary.cpp:1012
 msgid "Military building captured"
 msgstr "Dobili jsme vojenskou budovu"
 
@@ -2386,11 +2389,11 @@ msgstr "Dobili jsme vojenskou budovu"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1016
+#: libs/s25main/buildings/nobMilitary.cpp:1009
 msgid "Military building lost"
 msgstr "Nepřátelé zajali naši vojenskou budovu."
 
-#: libs/s25main/buildings/nobMilitary.cpp:710
+#: libs/s25main/buildings/nobMilitary.cpp:703
 msgid "Military building occupied"
 msgstr "Vojenská budova obsazena"
 
@@ -2419,9 +2422,9 @@ msgstr "V dolech nikdy nedojdou suroviny."
 msgid "Minimal"
 msgstr "Minimální"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:19
+#: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
-msgstr ""
+msgstr "Vojenská kontrola"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:34
 msgid "Minimum strength"
@@ -2455,7 +2458,7 @@ msgstr "Upravte zvýšení síly vojenských hodností"
 #: libs/s25main/addons/AddonNumScoutsExploration.h:26
 #: libs/s25main/controls/ctrlProgress.cpp:37
 #: libs/s25main/ingameWindows/iwHQ.cpp:38
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:95
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:92
 msgid "More"
 msgstr "Více"
 
@@ -2600,7 +2603,7 @@ msgstr "Nikdo jiný mimo tebe"
 msgid "Non-aggression pact"
 msgstr "Pakt o neútočení"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:18
+#: libs/s25main/addons/AddonMilitaryControl.h:20
 #: libs/s25main/desktops/dskGameLobby.cpp:210
 msgid "None"
 msgstr "Žádný"
@@ -3036,7 +3039,6 @@ msgid "Received async logs from %1% (%2% entries).\n"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
-#, fuzzy
 msgid "Receiving Map..."
 msgstr "Ověřuji mapu..."
 
@@ -3129,7 +3131,6 @@ msgid "Return to harbor"
 msgstr "Návrat do doků"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:106
-#, fuzzy
 msgid "Rivers:"
 msgstr "Říční oblast"
 
@@ -3248,7 +3249,7 @@ msgstr "Výběr map"
 msgid "Send"
 msgstr "Odeslat"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:72
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:73
 msgid "Send max rank soldiers to a warehouse"
 msgstr "Vojáky s maximální hodností pošli do skladiště"
 
@@ -3259,7 +3260,7 @@ msgstr "Vyslat zvěda"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
 msgid "Send soldiers home"
-msgstr "Poslat vojáky domů"
+msgstr ""
 
 #: libs/s25main/network/GameServer.cpp:1595
 msgid "Sending async logs %1%.\n"
@@ -3317,13 +3318,13 @@ msgstr "Nastavit maximální délku vodní cesty"
 #: libs/s25main/addons/AddonSeaAttack.h:24
 msgid "Set restriction level for sea attacks"
 msgstr ""
-"Bez námořních útoků \r\n"
-"  - jsou zakázány všechny formy námořních útoků (může znemožnit dohrání mapy)\r\n"
-"\r\n"
-"Omezení útok na přístavy \r\n"
-"  - z moře není možné útočit na vojenské objekty v blízkosti přístavu před zničením přístavu. Je třeba nejdříve dobít přístav a až pak je možné vést útok z moře\r\n"
-"\r\n"
-"Bez omezení \r\n"
+"Bez námořních útoků \n"
+"  - jsou zakázány všechny formy námořních útoků (může znemožnit dohrání mapy)\n"
+"\n"
+"Omezení útok na přístavy \n"
+"  - z moře není možné útočit na vojenské objekty v blízkosti přístavu před zničením přístavu. Je třeba nejdříve dobít přístav a až pak je možné vést útok z moře\n"
+"\n"
+"Bez omezení \n"
 "  - útok vedený z moře je možný na přístav a na přilehlé vojenské objekty."
 
 #: libs/s25main/addons/AddonShipSpeed.h:17
@@ -3376,9 +3377,8 @@ msgid "Shovel"
 msgstr "Lopata"
 
 #: libs/s25main/desktops/dskOptions.cpp:256
-#, fuzzy
 msgid "Show GameFrame Info:"
-msgstr "do GameFrame:"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:154
 msgid "Show coordinates"
@@ -3478,8 +3478,7 @@ msgid "Speed:"
 msgstr "Rychlost:"
 
 #: libs/s25main/GameManager.cpp:167
-#, fuzzy
-msgid "Splash screen couldn't be loaded!\n"
+msgid "Splash screen couldn't be loaded!"
 msgstr "Vybraný soubor není možné načíst!"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
@@ -3533,7 +3532,6 @@ msgid "Stocktaking date"
 msgstr "Datum inventury (revize)"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:112
-#, fuzzy
 msgid "Stone piles:"
 msgstr "Kamení"
 
@@ -3830,9 +3828,9 @@ msgstr "Přístaviště bylo zničeno"
 #: libs/s25main/ingameWindows/iwMilitary.cpp:108
 msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
 msgstr ""
-"Zde můžete provádět úpravy všech vojenských záležitostí.\r\n"
-"Horní hodnota odpovídá rychlosti náboru vaší armády. Čím vyšší je, tím je více obyvatel rekrutováno.\r\n"
-"Pod tímto nastavením je ochrana vašich vojenských budov. Pokud je tato hodnota nastavena na maximum, vaše vojenské budovy jsou bráněny vojáky s nejvyšší hodností. Chcete-li zvýšit počet útočníků opouštějících vaše vojenské budovy na útok, zvolte další nastavení. Počet obránců, kteří v případě útoku čelí nepříteli, ukazuje čtvrtý displej. \r\n"
+"Zde můžete provádět úpravy všech vojenských záležitostí.\n"
+"Horní hodnota odpovídá rychlosti náboru vaší armády. Čím vyšší je, tím je více obyvatel rekrutováno.\n"
+"Pod tímto nastavením je ochrana vašich vojenských budov. Pokud je tato hodnota nastavena na maximum, vaše vojenské budovy jsou bráněny vojáky s nejvyšší hodností. Chcete-li zvýšit počet útočníků opouštějících vaše vojenské budovy na útok, zvolte další nastavení. Počet obránců, kteří v případě útoku čelí nepříteli, ukazuje čtvrtý displej. \n"
 "Poslední čtyři hodnoty odpovídají obsazení vašich vojenských budov ve vnitrozemí, ve středu země, v přímořském a suchozemském pohraničí."
 
 #: libs/s25main/buildings/nobUsual.cpp:535
@@ -4051,7 +4049,6 @@ msgid "Vanquished enemies"
 msgstr "Zabití nepřátelé"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
-#, fuzzy
 msgid "Verifying server info..."
 msgstr "Čekám na Informace o hráči..."
 
@@ -4061,9 +4058,8 @@ msgid "Version"
 msgstr "Verze"
 
 #: libs/s25main/network/GameClient.cpp:681
-#, fuzzy
 msgid "Version mismatch. Server version: %1%, your version %2%"
-msgstr "Chybná verze skriptu LUA: %1%. Aktuální verze: %2%.%3%.\n"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwLobbyServerInfo.cpp:39
 msgid "Version:"
@@ -4078,7 +4074,6 @@ msgid "Very Low"
 msgstr "Velmi nízké"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
-#, fuzzy
 msgid "Very far"
 msgstr "Velmi daleko"
 
@@ -4097,8 +4092,8 @@ msgid "Very slow"
 msgstr "Velmi pomalu"
 
 #: libs/s25main/GameManager.cpp:46
-msgid "Video driver couldn't be loaded!\n"
-msgstr "Ovladač videa nelze načíst!\n"
+msgid "Video driver couldn't be loaded!"
+msgstr "Ovladač videa nelze načíst!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:182
 msgid "View Settings..."
@@ -4131,7 +4126,6 @@ msgstr "Čekám na odezvu..."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
-#, fuzzy
 msgid "Waiting for server info..."
 msgstr "Čekám na Informace o hráči..."
 
@@ -4438,6 +4432,5 @@ msgstr "Zimní svět"
 #~ msgid "of"
 #~ msgstr "z"
 
-#, fuzzy
 #~ msgid "unlimited"
 #~ msgstr "Neomezeně"

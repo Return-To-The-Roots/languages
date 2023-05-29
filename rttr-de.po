@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 11:07+0100\n"
-"PO-Revision-Date: 2023-04-10 11:14+0100\n"
+"POT-Creation-Date: 2023-05-29 11:50+0200\n"
+"PO-Revision-Date: 2020-12-21 13:05+0000\n"
 "Last-Translator: FloSoft <Unknown>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: de_DE\n"
@@ -254,7 +254,7 @@ msgstr "<%s> "
 msgid "A auto-savegame is created..."
 msgstr "Ein Auto-Save wird angelegt..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1263
+#: libs/s25main/buildings/nobMilitary.cpp:1256
 msgid "A catapult is firing upon us!"
 msgstr "Wir werden von einem Katapult beschossen!"
 
@@ -365,7 +365,7 @@ msgstr "Zusätzliche Funktionen:"
 msgid "Additional graphics"
 msgstr "Zusätzliche Grafiken"
 
-#: libs/s25main/GlobalGameSettings.cpp:249
+#: libs/s25main/GlobalGameSettings.cpp:250
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr "Addon %1$#x nicht gefunden!\n"
@@ -561,8 +561,8 @@ msgid "Attack!"
 msgstr "Angriff!"
 
 #: libs/s25main/GameManager.cpp:61
-msgid "Audio driver couldn't be loaded!\n"
-msgstr "Audiotreiber konnte nicht geladen werden!\n"
+msgid "Audio driver couldn't be loaded!"
+msgstr "Audiotreiber konnte nicht geladen werden!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:76
 msgid "Author"
@@ -577,12 +577,20 @@ msgstr "Automatisches Speichern"
 msgid "Auto-Save every:"
 msgstr "Autospeichern alle:"
 
+#: libs/s25main/addons/AddonAutoFlags.h:18
+msgid "Automatic flag placement"
+msgstr ""
+
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
 msgstr ""
 "Reißt automatisch ressourcenabbauende Gebäude ab, falls sie dauerhaft keine Ressourcen mehr haben. (Bergwerke, Steinmetze, usw.)\n"
 "\n"
 "Gilt nicht für Holzfäller, da diese durch einen Förster neue Ressourcen erhalten können."
+
+#: libs/s25main/addons/AddonAutoFlags.h:19
+msgid "Automatically places flags on newly build roads"
+msgstr ""
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
 msgid "Axe"
@@ -909,7 +917,6 @@ msgid "Connect"
 msgstr "Verbinde..."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:27
-#, fuzzy
 msgid "Connecting"
 msgstr "Verbinde..."
 
@@ -1070,7 +1077,7 @@ msgstr "Reiße ressourcenlose Gebäude ab"
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
 #: libs/s25main/ingameWindows/iwBuilding.cpp:57
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:54
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:55
 msgid "Demolish house"
 msgstr "Haus abreißen"
 
@@ -1078,15 +1085,15 @@ msgstr "Haus abreißen"
 msgid "Demolish?"
 msgstr "Abreißen?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:289
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:298
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Das Abreißen ist nicht möglich, da sich das Gebäude im Grenzgebiet befindet!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:288
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:297
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "Das Abreißen ist nicht möglich, da das Gebäude angegriffen wird!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:292
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:301
 msgid "Demolition not possible"
 msgstr "Abriss nicht möglich"
 
@@ -1377,7 +1384,6 @@ msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 msgstr "Diskrepanz in der Ereignisanzahl: %1% Ereignisse gelesen. Erwartet: %2%.\n"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:139
-#, fuzzy
 msgid "Every GF"
 msgstr "Jeder"
 
@@ -1417,7 +1423,7 @@ msgstr ""
 msgid "Failed to init GUI: "
 msgstr "Fehler beim initialisieren der GUI: "
 
-#: libs/s25main/Loader.cpp:479 libs/s25main/Loader.cpp:494
+#: libs/s25main/Loader.cpp:480 libs/s25main/Loader.cpp:495
 #, c-format
 msgid "Failed to load %s\n"
 msgstr "Konnte %s nicht laden\n"
@@ -1460,10 +1466,9 @@ msgstr "Eintrag %1% konnte nicht zusammengeführt werden. Archiv erwartet!\n"
 msgid "Failed to read lua file '%1%'\n"
 msgstr "Lua Datei '%1%' konnte nicht gelesen werden\n"
 
-#: libs/s25main/Loader.cpp:990 libs/s25main/Loader.cpp:1009
-#, fuzzy
+#: libs/s25main/Loader.cpp:991 libs/s25main/Loader.cpp:1010
 msgid "Failed to resolve resource %1%\n"
-msgstr "Spielresourcen konnten nicht geladen werden!"
+msgstr "Resource %1% konnte nicht gefunden werden\n"
 
 #: libs/s25main/network/GameServer.cpp:1574
 msgid "Failed to save async log at %1%\n"
@@ -1614,7 +1619,7 @@ msgstr "Der Spähturm bietet eine weite Aussicht in unerforschte Gebiete."
 msgid "Frontier Distance checks reachability"
 msgstr "Grenzentfernung prüft Erreichbarkeit"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:20
+#: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
 msgstr "Volle Kontrolle"
 
@@ -1708,7 +1713,7 @@ msgstr "Zum Hauptquartier"
 msgid "Go to next building of same type"
 msgstr "Springe zum nächsten Gebäude dieses Typs"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:66
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:67
 msgid "Go to next military building"
 msgstr "Springe zum nächsten Militärgebäude"
 
@@ -1720,7 +1725,7 @@ msgstr "Springe zum nächsten Lagerhaus"
 #: libs/s25main/ingameWindows/iwBuilding.cpp:75
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:60
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwObservate.cpp:47
 #: libs/s25main/ingameWindows/iwShip.cpp:48
 msgid "Go to place"
@@ -1737,7 +1742,7 @@ msgstr "Spielziel:"
 msgid "Gold"
 msgstr "Gold"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:57
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:58
 msgid "Gold delivery"
 msgstr "Goldlieferung"
 
@@ -1818,7 +1823,7 @@ msgstr "Hauptquartier"
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:101
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwMilitary.cpp:45
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:51
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
 #: libs/s25main/ingameWindows/iwStatistics.cpp:136
 #: libs/s25main/ingameWindows/iwTools.cpp:63
 #: libs/s25main/ingameWindows/iwTransport.cpp:23
@@ -2043,7 +2048,6 @@ msgid "Keyboard layout:"
 msgstr "Tastaturbelegung:"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
-#, fuzzy
 msgid "Land"
 msgstr "Landschaft"
 
@@ -2077,7 +2081,7 @@ msgstr "Seltener"
 msgid "Less repeats"
 msgstr "Weniger Wiederholungen"
 
-#: libs/s25main/desktops/dskOptions.cpp:279
+#: libs/s25main/desktops/dskOptions.cpp:278
 msgid "Limit Framerate:"
 msgstr "Begrenze Framerate:"
 
@@ -2219,7 +2223,7 @@ msgstr "Verbindung zur Lobby abgebrochen!"
 msgid "Lost connection to server!"
 msgstr "Verbindung zum Server abgebrochen!"
 
-#: libs/s25main/world/GameWorld.cpp:469
+#: libs/s25main/world/GameWorld.cpp:481
 msgid "Lost land by this building"
 msgstr "Durch dieses Gebäude haben Sie Land verloren"
 
@@ -2394,7 +2398,7 @@ msgstr "Militärkontrolle"
 msgid "Military Hitpoints"
 msgstr "Soldaten Lebenspunkte"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1019
+#: libs/s25main/buildings/nobMilitary.cpp:1012
 msgid "Military building captured"
 msgstr "Militärgebäude eingenommen"
 
@@ -2402,11 +2406,11 @@ msgstr "Militärgebäude eingenommen"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr "Militärische Gebäude zählen zum Landesinneren, falls sie dauerhaft unangreifbar sind. (Weg blockiert durch Gelände wie See, Lava, usw.)"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1016
+#: libs/s25main/buildings/nobMilitary.cpp:1009
 msgid "Military building lost"
 msgstr "Militärgebäude verloren"
 
-#: libs/s25main/buildings/nobMilitary.cpp:710
+#: libs/s25main/buildings/nobMilitary.cpp:703
 msgid "Military building occupied"
 msgstr "Militärgebäude besetzt"
 
@@ -2435,7 +2439,7 @@ msgstr "Minen sind niemals erschöpft."
 msgid "Minimal"
 msgstr "Minimal"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:19
+#: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
 msgstr "Minimale Kontrolle"
 
@@ -2471,7 +2475,7 @@ msgstr "Passe die Stärke der einzelnen militärischen Ränge an"
 #: libs/s25main/addons/AddonNumScoutsExploration.h:26
 #: libs/s25main/controls/ctrlProgress.cpp:37
 #: libs/s25main/ingameWindows/iwHQ.cpp:38
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:95
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:92
 msgid "More"
 msgstr "Mehr"
 
@@ -2616,7 +2620,7 @@ msgstr "Niemand, außer dir"
 msgid "Non-aggression pact"
 msgstr "Nicht-Angriffs Pakt"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:18
+#: libs/s25main/addons/AddonMilitaryControl.h:20
 #: libs/s25main/desktops/dskGameLobby.cpp:210
 msgid "None"
 msgstr "Kein Spielziel"
@@ -2800,7 +2804,6 @@ msgid "Peaceful"
 msgstr "Friedlich"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1082
-#, fuzzy
 msgid "Peaceful mode"
 msgstr "Friedlich"
 
@@ -3053,7 +3056,6 @@ msgid "Received async logs from %1% (%2% entries).\n"
 msgstr "Async-Logs von %1% empfangen (%2% Einträge).\n"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
-#, fuzzy
 msgid "Receiving Map..."
 msgstr "Prüfe Karte..."
 
@@ -3146,7 +3148,6 @@ msgid "Return to harbor"
 msgstr "Zurück zum Hafen"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:106
-#, fuzzy
 msgid "Rivers:"
 msgstr "Flussland"
 
@@ -3265,7 +3266,7 @@ msgstr "Karten Auswahl"
 msgid "Send"
 msgstr "Senden"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:72
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:73
 msgid "Send max rank soldiers to a warehouse"
 msgstr "Schicke Soldaten mit höchstem Rang ins Lagerhaus"
 
@@ -3385,9 +3386,8 @@ msgid "Shovel"
 msgstr "Schaufel"
 
 #: libs/s25main/desktops/dskOptions.cpp:256
-#, fuzzy
 msgid "Show GameFrame Info:"
-msgstr "zu GF:"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:154
 msgid "Show coordinates"
@@ -3487,9 +3487,8 @@ msgid "Speed:"
 msgstr "Geschwindigkeit:"
 
 #: libs/s25main/GameManager.cpp:167
-#, fuzzy
-msgid "Splash screen couldn't be loaded!\n"
-msgstr "Die angegebene Datei konnte nicht geladen werden!"
+msgid "Splash screen couldn't be loaded!"
+msgstr "Startbildschirm konnte nicht geladen werden!"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:62
@@ -3542,7 +3541,6 @@ msgid "Stocktaking date"
 msgstr "Aufnahmedatum"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:112
-#, fuzzy
 msgid "Stone piles:"
 msgstr "Steine"
 
@@ -4062,7 +4060,6 @@ msgid "Vanquished enemies"
 msgstr "Besiegte Gegner"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
-#, fuzzy
 msgid "Verifying server info..."
 msgstr "Warte auf Spielerinfo..."
 
@@ -4072,9 +4069,8 @@ msgid "Version"
 msgstr "Version"
 
 #: libs/s25main/network/GameClient.cpp:681
-#, fuzzy
 msgid "Version mismatch. Server version: %1%, your version %2%"
-msgstr "Falsche LUA script version: %1%. Aktuelle version: %2%.%3%\n"
+msgstr "Versions conflict. Server version: %1%, deine version: %2%"
 
 #: libs/s25main/ingameWindows/iwLobbyServerInfo.cpp:39
 msgid "Version:"
@@ -4089,7 +4085,6 @@ msgid "Very Low"
 msgstr "Sehr niedrig"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
-#, fuzzy
 msgid "Very far"
 msgstr "Sehr weit"
 
@@ -4108,8 +4103,8 @@ msgid "Very slow"
 msgstr "Sehr langsam"
 
 #: libs/s25main/GameManager.cpp:46
-msgid "Video driver couldn't be loaded!\n"
-msgstr "Videotreiber konnte nicht geladen werden!\n"
+msgid "Video driver couldn't be loaded!"
+msgstr "Videotreiber konnte nicht geladen werden!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:182
 msgid "View Settings..."
@@ -4142,7 +4137,6 @@ msgstr "Warten auf Antwort..."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
-#, fuzzy
 msgid "Waiting for server info..."
 msgstr "Warte auf Spielerinfo..."
 
@@ -4456,6 +4450,5 @@ msgstr "Winterwelt"
 #~ msgid "of"
 #~ msgstr "von"
 
-#, fuzzy
 #~ msgid "unlimited"
 #~ msgstr "Unbegrenzt"

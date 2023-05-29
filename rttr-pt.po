@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-10 11:07+0100\n"
+"POT-Creation-Date: 2023-05-29 11:50+0200\n"
 "PO-Revision-Date: 2020-05-21 15:36+0000\n"
 "Last-Translator: Ronaldo padilha <ronaldoflake@gmail.com>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
@@ -254,7 +254,7 @@ msgstr "<%s> "
 msgid "A auto-savegame is created..."
 msgstr "O jogo foi salvado automáticamente..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1263
+#: libs/s25main/buildings/nobMilitary.cpp:1256
 msgid "A catapult is firing upon us!"
 msgstr "Estamos a ser bombardeados por uma catapulta!"
 
@@ -363,7 +363,7 @@ msgstr "Caracteristicas Adicionais:"
 msgid "Additional graphics"
 msgstr "Gráficos Adicionais:"
 
-#: libs/s25main/GlobalGameSettings.cpp:249
+#: libs/s25main/GlobalGameSettings.cpp:250
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr ""
@@ -550,8 +550,8 @@ msgid "Attack!"
 msgstr "Atacar!"
 
 #: libs/s25main/GameManager.cpp:61
-msgid "Audio driver couldn't be loaded!\n"
-msgstr ""
+msgid "Audio driver couldn't be loaded!"
+msgstr "O ficheiro especificado não pode ser carregado!"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:76
 msgid "Author"
@@ -566,8 +566,16 @@ msgstr "Salvar Automático"
 msgid "Auto-Save every:"
 msgstr "Salvar Automáticamente todos:"
 
+#: libs/s25main/addons/AddonAutoFlags.h:18
+msgid "Automatic flag placement"
+msgstr ""
+
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
+msgstr ""
+
+#: libs/s25main/addons/AddonAutoFlags.h:19
+msgid "Automatically places flags on newly build roads"
 msgstr ""
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
@@ -818,7 +826,6 @@ msgid "Cleaver"
 msgstr "Cutelo"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:79
-#, fuzzy
 msgid "Close"
 msgstr "Encerrado"
 
@@ -888,7 +895,6 @@ msgid "Connect"
 msgstr "Conectar"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:27
-#, fuzzy
 msgid "Connecting"
 msgstr "Conectar"
 
@@ -1043,7 +1049,7 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
 #: libs/s25main/ingameWindows/iwBuilding.cpp:57
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:54
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:55
 msgid "Demolish house"
 msgstr "Demolir Casa"
 
@@ -1051,15 +1057,15 @@ msgstr "Demolir Casa"
 msgid "Demolish?"
 msgstr "Demolir?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:289
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:298
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Demolição não é permitida dado que prédio está localizado em uma área fronteiriça!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:288
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:297
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "Demolição não é permitido porque o prédio está sobre ataque!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:292
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:301
 msgid "Demolition not possible"
 msgstr "Demolição não é possivel"
 
@@ -1202,7 +1208,6 @@ msgstr ""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:213
 #: libs/s25main/desktops/dskGameLobby.cpp:1067
-#, fuzzy
 msgid "Economy mode"
 msgstr "Economia"
 
@@ -1347,7 +1352,6 @@ msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwSave.cpp:139
-#, fuzzy
 msgid "Every GF"
 msgstr "Todos"
 
@@ -1385,7 +1389,7 @@ msgstr ""
 msgid "Failed to init GUI: "
 msgstr ""
 
-#: libs/s25main/Loader.cpp:479 libs/s25main/Loader.cpp:494
+#: libs/s25main/Loader.cpp:480 libs/s25main/Loader.cpp:495
 #, c-format
 msgid "Failed to load %s\n"
 msgstr ""
@@ -1428,7 +1432,7 @@ msgstr ""
 msgid "Failed to read lua file '%1%'\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:990 libs/s25main/Loader.cpp:1009
+#: libs/s25main/Loader.cpp:991 libs/s25main/Loader.cpp:1010
 msgid "Failed to resolve resource %1%\n"
 msgstr ""
 
@@ -1442,7 +1446,6 @@ msgid "Failed to save lua state!"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:81
-#, fuzzy
 msgid "Far"
 msgstr "Quinta"
 
@@ -1582,7 +1585,7 @@ msgstr "De uma torre de vigia, você pode ver mais longe para onde eram terras i
 msgid "Frontier Distance checks reachability"
 msgstr ""
 
-#: libs/s25main/addons/AddonMilitaryControl.h:20
+#: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
 msgstr ""
 
@@ -1601,7 +1604,6 @@ msgid "Game Chat"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwSave.cpp:41
-#, fuzzy
 msgid "Game Time"
 msgstr "Menu de Jogo"
 
@@ -1677,7 +1679,7 @@ msgstr "Ir para Quartel-General"
 msgid "Go to next building of same type"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:66
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:67
 msgid "Go to next military building"
 msgstr ""
 
@@ -1689,7 +1691,7 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwBuilding.cpp:75
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:60
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwObservate.cpp:47
 #: libs/s25main/ingameWindows/iwShip.cpp:48
 msgid "Go to place"
@@ -1706,7 +1708,7 @@ msgstr "Objectivos:"
 msgid "Gold"
 msgstr "Ouro"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:57
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:58
 msgid "Gold delivery"
 msgstr ""
 
@@ -1787,7 +1789,7 @@ msgstr "Quartel-general"
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:101
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwMilitary.cpp:45
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:51
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
 #: libs/s25main/ingameWindows/iwStatistics.cpp:136
 #: libs/s25main/ingameWindows/iwTools.cpp:63
 #: libs/s25main/ingameWindows/iwTransport.cpp:23
@@ -1975,7 +1977,6 @@ msgid "Ironore"
 msgstr "Minério de ferro"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
-#, fuzzy
 msgid "Islands"
 msgstr "Terreno Perdido"
 
@@ -2046,7 +2047,7 @@ msgstr "Com menos frequência"
 msgid "Less repeats"
 msgstr "Menos Repetição"
 
-#: libs/s25main/desktops/dskOptions.cpp:279
+#: libs/s25main/desktops/dskOptions.cpp:278
 msgid "Limit Framerate:"
 msgstr "Limitar Framerate:"
 
@@ -2181,7 +2182,7 @@ msgstr "Conexão ao canal de jogo perdida!"
 msgid "Lost connection to server!"
 msgstr "Conexão ao servidor perdida!"
 
-#: libs/s25main/world/GameWorld.cpp:469
+#: libs/s25main/world/GameWorld.cpp:481
 msgid "Lost land by this building"
 msgstr "Terra perdida devido a esta construção"
 
@@ -2305,7 +2306,6 @@ msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "A carned que o caçador adquire, pode ser usada para alimentar os mineiros."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:89
-#, fuzzy
 msgid "Medium"
 msgstr "Médio prazo"
 
@@ -2357,7 +2357,7 @@ msgstr ""
 msgid "Military Hitpoints"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1019
+#: libs/s25main/buildings/nobMilitary.cpp:1012
 msgid "Military building captured"
 msgstr "Guardição militar capturado"
 
@@ -2365,11 +2365,11 @@ msgstr "Guardição militar capturado"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1016
+#: libs/s25main/buildings/nobMilitary.cpp:1009
 msgid "Military building lost"
 msgstr "Guardição Militar perdida"
 
-#: libs/s25main/buildings/nobMilitary.cpp:710
+#: libs/s25main/buildings/nobMilitary.cpp:703
 msgid "Military building occupied"
 msgstr "Guardição Militar ocupada"
 
@@ -2398,7 +2398,7 @@ msgstr ""
 msgid "Minimal"
 msgstr ""
 
-#: libs/s25main/addons/AddonMilitaryControl.h:19
+#: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
 msgstr ""
 
@@ -2434,7 +2434,7 @@ msgstr ""
 #: libs/s25main/addons/AddonNumScoutsExploration.h:26
 #: libs/s25main/controls/ctrlProgress.cpp:37
 #: libs/s25main/ingameWindows/iwHQ.cpp:38
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:95
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:92
 msgid "More"
 msgstr "Mais"
 
@@ -2579,7 +2579,7 @@ msgstr "Ninguem a não ser você"
 msgid "Non-aggression pact"
 msgstr "Pacto Não-Agressão"
 
-#: libs/s25main/addons/AddonMilitaryControl.h:18
+#: libs/s25main/addons/AddonMilitaryControl.h:20
 #: libs/s25main/desktops/dskGameLobby.cpp:210
 msgid "None"
 msgstr "Nenhum"
@@ -3015,7 +3015,6 @@ msgid "Received async logs from %1% (%2% entries).\n"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
-#, fuzzy
 msgid "Receiving Map..."
 msgstr "Verificando Mapa...."
 
@@ -3226,10 +3225,9 @@ msgstr "Selecção de Mapas"
 msgid "Send"
 msgstr "Enviar"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:72
-#, fuzzy
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:73
 msgid "Send max rank soldiers to a warehouse"
-msgstr "(%d soldados)"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAction.cpp:199
 #: libs/s25main/ingameWindows/iwAction.cpp:213
@@ -3237,9 +3235,8 @@ msgid "Send out scout"
 msgstr "Mandar batedor"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
-#, fuzzy
 msgid "Send soldiers home"
-msgstr "(%d soldados)"
+msgstr ""
 
 #: libs/s25main/network/GameServer.cpp:1595
 msgid "Sending async logs %1%.\n"
@@ -3348,9 +3345,8 @@ msgid "Shovel"
 msgstr "Pá"
 
 #: libs/s25main/desktops/dskOptions.cpp:256
-#, fuzzy
 msgid "Show GameFrame Info:"
-msgstr "para Frame de Jogo (GF):"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:154
 msgid "Show coordinates"
@@ -3447,8 +3443,7 @@ msgid "Speed:"
 msgstr "Velocidade:"
 
 #: libs/s25main/GameManager.cpp:167
-#, fuzzy
-msgid "Splash screen couldn't be loaded!\n"
+msgid "Splash screen couldn't be loaded!"
 msgstr "O ficheiro especificado não pode ser carregado!"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
@@ -3502,7 +3497,6 @@ msgid "Stocktaking date"
 msgstr "Data Inventário"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:112
-#, fuzzy
 msgid "Stone piles:"
 msgstr "Pedra"
 
@@ -4016,7 +4010,6 @@ msgid "Vanquished enemies"
 msgstr "Inimigos Eliminados"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
-#, fuzzy
 msgid "Verifying server info..."
 msgstr "Esperando informação do Jogador...."
 
@@ -4042,7 +4035,6 @@ msgid "Very Low"
 msgstr "Muito Baixo"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
-#, fuzzy
 msgid "Very far"
 msgstr "Muito Rápido"
 
@@ -4061,8 +4053,8 @@ msgid "Very slow"
 msgstr "Muito lento"
 
 #: libs/s25main/GameManager.cpp:46
-msgid "Video driver couldn't be loaded!\n"
-msgstr ""
+msgid "Video driver couldn't be loaded!"
+msgstr "O ficheiro especificado não pode ser carregado!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:182
 msgid "View Settings..."
@@ -4093,7 +4085,6 @@ msgstr "Esperando resposta..."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
-#, fuzzy
 msgid "Waiting for server info..."
 msgstr "Esperando informação do Jogador...."
 
@@ -4370,6 +4361,5 @@ msgstr "Terreno Nórdico"
 #~ msgid "of"
 #~ msgstr "de"
 
-#, fuzzy
 #~ msgid "unlimited"
 #~ msgstr "Ilimitado"
