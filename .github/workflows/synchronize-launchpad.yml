@@ -30,19 +30,20 @@ jobs:
           fetch-depth: 0
 
       - name: Setup SSH
-        uses: MrSquaare/ssh-setup-action@v1
+        uses: MrSquaare/ssh-setup-action@v2
         with:
           host: bazaar.launchpad.net
           private-key: ${{ secrets.LAUNCHPAD_PRIVATE_KEY }}
+      - name: Copy SSH config to container root user
+        run: cp -rT "$SSH_PATH" "/root/.ssh"
 
       - name: Synchronize bazaar and git
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           bzr init-repo bzr-repo
-          (cd $GITHUB_WORKSPACE ; git fast-export -M --all) | (cd bzr-repo; bzr fast-import -)
+          (cd "$GITHUB_WORKSPACE" && git fast-export -M --all) | (cd bzr-repo && bzr fast-import -)
 
+      - name: Login to launchpad
+        run: bzr launchpad-login ${{ secrets.LAUNCHPAD_USER }}
       - name: Upload to launchpad
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: |
-          bzr launchpad-login ${{ secrets.LAUNCHPAD_USER }}
-          (cd bzr-repo/trunk ; bzr push --overwrite lp:~s25rttrteam/s25rttr/s25rttr-languages)
+        run: (cd bzr-repo/trunk ; bzr push --overwrite lp:~s25rttrteam/s25rttr/s25rttr-languages)
