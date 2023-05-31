@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -396,6 +396,9 @@ msgid ""
 "Minimal: Adds the 'send home' button which will send all soldiers of the highest available rank to a warehouse.\n"
 "Full: Allows players to control in each military building how many soldiers of each rank should be stationed there."
 msgstr ""
+"Besatzungskontrolle in Militärgebäuden.\n"
+"Minimale Kontrolle: Fügt einen Knopf hinzu der alle Soldaten mit dem höchstmöglichen Rang zum Warenhaus schickt.\n"
+"Volle Kontrolle: Ermöglicht es den Spielern, in jedem Militärgebäude festzulegen, wie viele Soldaten jedes Ranges dort stationiert sein sollen."
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
@@ -1495,7 +1498,7 @@ msgstr "Schnell"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:88
 msgid "Few"
-msgstr "Weniger"
+msgstr "Wenig"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:24
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:85
@@ -1618,7 +1621,7 @@ msgstr "Grenzentfernung prüft Erreichbarkeit"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
-msgstr "Militärkontrolle"
+msgstr "Volle Kontrolle"
 
 #: libs/s25main/desktops/dskOptions.cpp:273
 #: libs/s25main/ingameWindows/iwSettings.cpp:29
@@ -1636,7 +1639,7 @@ msgstr "Spiel-Chat"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:41
 msgid "Game Time"
-msgstr "Kontrollfenster"
+msgstr "Spielzeit"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:733
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
@@ -2273,7 +2276,7 @@ msgstr "Ermöglicht das manuelle Aufwerten der Straßen und das direkte Bauen vo
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:90
 msgid "Many"
-msgstr ""
+msgstr "Viele"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:118
 #: libs/s25main/desktops/dskLAN.cpp:47 libs/s25main/desktops/dskLobby.cpp:54
@@ -2438,7 +2441,7 @@ msgstr "Minimal"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
-msgstr "Militärkontrolle"
+msgstr "Minimale Kontrolle"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:34
 msgid "Minimum strength"
@@ -3224,7 +3227,7 @@ msgstr "Sägewerk"
 
 #: libs/s25main/gameData/JobConsts.cpp:49
 msgid "Scout"
-msgstr "Erkunder"
+msgstr "Kundschafter"
 
 #: libs/s25main/WindowManager.cpp:787
 msgid "Screenshot saved to %1%\n"
@@ -3274,7 +3277,7 @@ msgstr "Erkunder aussenden"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
 msgid "Send soldiers home"
-msgstr ""
+msgstr "Soldaten nach Hause schicken"
 
 #: libs/s25main/network/GameServer.cpp:1595
 msgid "Sending async logs %1%.\n"
