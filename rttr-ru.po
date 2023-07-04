@@ -395,6 +395,9 @@ msgid ""
 "Minimal: Adds the 'send home' button which will send all soldiers of the highest available rank to a warehouse.\n"
 "Full: Allows players to control in each military building how many soldiers of each rank should be stationed there."
 msgstr ""
+"Добавляет управление войсками в военных зданиях.\n"
+"Минимум: добавляет кнопку "Отправить домой", которая отправит всех солдат самого высокого доступного ранга на склад.\n"
+«Полный: позволяет игрокам контролировать в каждом военном здании, сколько солдат каждого ранга должно быть там размещено».
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
@@ -509,7 +512,7 @@ msgstr "Поскольку команды заблокированы, вы не 
 
 #: libs/s25main/desktops/dskOptions.cpp:234
 msgid "Ask always"
-msgstr ""
+msgstr "Всегда спрашивать"
 
 #: libs/s25main/network/GameServer.cpp:784
 msgid ""
@@ -575,7 +578,7 @@ msgstr "Автосохранение каждые:"
 
 #: libs/s25main/addons/AddonAutoFlags.h:18
 msgid "Automatic flag placement"
-msgstr ""
+msgstr "Автоматическая расстановка флагов"
 
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
@@ -583,7 +586,7 @@ msgstr "Автоматически сносить здание по сбору �
 
 #: libs/s25main/addons/AddonAutoFlags.h:19
 msgid "Automatically places flags on newly build roads"
-msgstr ""
+msgstr "Автоматически расставлять флаги при постройке новых дорог"
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
 msgid "Axe"
@@ -1223,11 +1226,11 @@ msgstr "Экономика"
 
 #: libs/s25main/EconomyModeHandler.cpp:66
 msgid "Economy Mode: Collect as much as you can of the following good types: "
-msgstr "Экономичный режим: соберите как можно больше следующих хороших типов: "
+msgstr "Экономический режим: соберите как можно больше следующих хороших типов: "
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:41
 msgid "Economy Mode: Game Length"
-msgstr "Экономичный режим: продолжительность игры"
+msgstr "Экономический режим: продолжительность игры"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:213
 #: libs/s25main/desktops/dskGameLobby.cpp:1067
@@ -1614,7 +1617,7 @@ msgstr "Расстояние до границы проверяет достиж
 
 #: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
-msgstr ""
+msgstr "Полный контроль"
 
 #: libs/s25main/desktops/dskOptions.cpp:273
 #: libs/s25main/ingameWindows/iwSettings.cpp:29
@@ -2434,7 +2437,7 @@ msgstr "Минимум"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
-msgstr ""
+msgstr "Минимальный контроль"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:34
 msgid "Minimum strength"
@@ -3270,7 +3273,7 @@ msgstr "Послать скаута"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
 msgid "Send soldiers home"
-msgstr ""
+msgstr "Отправьте солдат домой"
 
 #: libs/s25main/network/GameServer.cpp:1595
 msgid "Sending async logs %1%.\n"
@@ -3380,7 +3383,7 @@ msgstr "Лопата"
 
 #: libs/s25main/desktops/dskOptions.cpp:256
 msgid "Show GameFrame Info:"
-msgstr ""
+msgstr "Показать GameFrame:"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:154
 msgid "Show coordinates"
@@ -4255,7 +4258,7 @@ msgid ""
 "You'll probably want to convert gold to iron ore, as this (on most maps)\n"
 "allows you to utilize the additional coal not needed for minting anymore."
 msgstr ""
-"Вы можете полностью удалить золотые ресурсы или превратить их в железную руду, уголь или гранит.\n"
+"Вы можете полностью удалить золотые рудники или превратить их в железную руду, уголь или гранит.\n"
 "\n"
 "Вы, вероятно, захотите конвертировать золото в железную руду, так как это (на большинстве карт)\n"
 "позволяет использовать дополнительный уголь, который больше не нужен для чеканки."
@@ -4285,7 +4288,7 @@ msgid ""
 "Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
 "Choosing No will start the game without any changes."
 msgstr ""
-"Вы выбрали экономичный режим. В экономическом режиме побеждает игрок или команда, которые соберут больше определенных товаров (проверьте окно экономического прогресса в игре).\n"
+"Вы выбрали экономический режим. В экономическом режиме побеждает игрок или команда, которые соберут больше определенных товаров (проверьте окно экономического прогресса в игре).\n"
 "\n"
 "Некоторым игрокам нравится выполнять эту задачу в мирном режиме. Хотите настроить параметры для мирной игры?\n"
 "Выбор «Да» активирует мирный режим, запретит катапульты и отключит здания, получающие монеты по-умолчанию. Нажав «Да», вы сможете просмотреть изменения, а затем начать игру, снова нажав кнопку «Начать игру».\n"
