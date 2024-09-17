@@ -12,7 +12,6 @@ on:
 jobs:
   upload:
     runs-on: ubuntu-latest
-    container: 'ubuntu:18.04'
     steps:
       - name: Install dependencies
         run: |
