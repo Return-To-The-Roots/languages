@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-11 12:29+0100\n"
-"PO-Revision-Date: 2025-01-14 22:15+0300\n"
+"PO-Revision-Date: 2025-01-14 20:52+0300\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: ru\n"
@@ -16,8 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
 "X-Generator: Poedit 3.5\n"
-"X-Poedit-Country: RUSSIAN FEDERATION\n"
-"X-Poedit-Language: Russian\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:167
@@ -78,9 +76,7 @@ msgstr "%1% - победители!"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:257
 msgid "%1% campaign(s) could not be loaded. Check the log for details"
-msgstr ""
-"%1% кампаний не удалось загрузить. Проверьте журнал для получения "
-"подробностей"
+msgstr "%1% кампаний не удалось загрузить. Проверьте журнал для получения подробностей"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:170
 msgid "%1% map(s) could not be loaded. Check the log for details"
@@ -136,12 +132,8 @@ msgstr "(Здание не занято)"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:372
 #, c-format
-msgid ""
-"(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: "
-"%u gf (%u ms)"
-msgstr ""
-"(Режим реплея) Текущий GF: %u (Заканчивается: %u) / GF длина: %u мс / NWF "
-"длина: %u gf (%u мс)"
+msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
+msgstr "(Режим реплея) Текущий GF: %u (Заканчивается: %u) / GF длина: %u мс / NWF длина: %u gf (%u мс)"
 
 #: libs/s25main/world/GameWorldView.cpp:410
 msgid "(stopped)"
@@ -270,12 +262,8 @@ msgid "A catapult is firing upon us!"
 msgstr "Катапульта стреляет по нам!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:161
-msgid ""
-"A gold mine allows you to prospect for valuable gold deposits. For this, it "
-"is necessary to ensure that the miners are provided with plenty of food."
-msgstr ""
-"Золотая шахта даёт вам доступ к такому ценному ресурсу как золото. Но таких "
-"полезных шахтёров надо кормить."
+msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
+msgstr "Золотая шахта даёт вам доступ к такому ценному ресурсу как золото. Но таких полезных шахтёров надо кормить."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:206
 msgid "A lot"
@@ -298,17 +286,12 @@ msgid "A ship is ready for an expedition."
 msgstr "Корабль готов к экспедиции."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:277
-msgid ""
-"A well supplies water to the bakery, brewery, donkey breeder and pig farm."
+msgid "A well supplies water to the bakery, brewery, donkey breeder and pig farm."
 msgstr "Колодец обеспечивает водой пекарню, пивоварню, ослиную и свиную фермы."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:179
-msgid ""
-"A woodcutter provides the sawmill with logs. A forester is able to replant "
-"the depleted forest."
-msgstr ""
-"Дровосек снабжает лесопилку бревнами. Лесник может восстановить вырубленный "
-"лес."
+msgid "A woodcutter provides the sawmill with logs. A forester is able to replant the depleted forest."
+msgstr "Дровосек снабжает лесопилку бревнами. Лесник может восстановить вырубленный лес."
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:93
 msgid "AI"
@@ -402,8 +385,7 @@ msgstr "Дополнения:"
 
 #: libs/s25main/addons/AddonMilitaryAid.h:20
 msgid "Adds indicators for constructing or attacking military buildings."
-msgstr ""
-"Добавляет индикаторы для строительства или нападения на военные здания."
+msgstr "Добавляет индикаторы для строительства или нападения на военные здания."
 
 #: libs/s25main/addons/AddonCatapultGraphics.h:20
 msgid "Adds new nation-specific graphics for catapults to the game."
@@ -412,16 +394,12 @@ msgstr "Добавляет в игру новую национальную гр�
 #: libs/s25main/addons/AddonMilitaryControl.h:14
 msgid ""
 "Adds troop controls to military buildings.\n"
-"Minimal: Adds the 'send home' button which will send all soldiers of the "
-"highest available rank to a warehouse.\n"
-"Full: Allows players to control in each military building how many soldiers "
-"of each rank should be stationed there."
+"Minimal: Adds the 'send home' button which will send all soldiers of the highest available rank to a warehouse.\n"
+"Full: Allows players to control in each military building how many soldiers of each rank should be stationed there."
 msgstr ""
 "Добавляет управление войсками в военных зданиях.\n"
-"Минимум: добавляет кнопку 'Отправить домой', которая отправит всех солдат "
-"самого высокого доступного ранга на склад.\n"
-"Полный: позволяет игрокам контролировать в каждом военном здании, сколько "
-"солдат каждого ранга должно быть там размещено."
+"Минимум: добавляет кнопку 'Отправить домой', которая отправит всех солдат самого высокого доступного ранга на склад.\n"
+"Полный: позволяет игрокам контролировать в каждом военном здании, сколько солдат каждого ранга должно быть там размещено."
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
@@ -432,11 +410,8 @@ msgid "Adjust the fraction of trees that spawn animals."
 msgstr "Выберите какое количество животных будет появляться в лесу."
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:45
-msgid ""
-"Adjust the time after which the economy mode victory condition is checked."
-msgstr ""
-"Настройте время, по истечении которого проверяется условие победы в "
-"Экономическом режиме."
+msgid "Adjust the time after which the economy mode victory condition is checked."
+msgstr "Настройте время, по истечении которого проверяется условие победы в Экономическом режиме."
 
 #: libs/s25main/addons/AddonBurnDuration.h:17
 msgid "Adjusts how long a building will burn for when it is destroyed"
@@ -460,20 +435,12 @@ msgid "All"
 msgstr "Все"
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:118
-msgid ""
-"All important messages are collected in this window and sorted into groups. "
-"If this window is not open, the dove symbol at the bottom of the screen "
-"indicates the arrival of a new message."
-msgstr ""
-"Все важные сообщения собираются в этом окне и рассортированы по группам. "
-"Если это окно закрыто, символ голубя в нижней части экрана оповестит Вас о "
-"новом сообщении."
+msgid "All important messages are collected in this window and sorted into groups. If this window is not open, the dove symbol at the bottom of the screen indicates the arrival of a new message."
+msgstr "Все важные сообщения собираются в этом окне и рассортированы по группам. Если это окно закрыто, символ голубя в нижней части экрана оповестит Вас о новом сообщении."
 
 #: libs/s25main/addons/AddonNoAlliedPush.h:17
 msgid "Allied players can no longer push your borders back with new buildings."
-msgstr ""
-"Игроки союзников больше не могут расширять свои границы при строительстве "
-"новых зданий."
+msgstr "Игроки союзников больше не могут расширять свои границы при строительстве новых зданий."
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:23
 #: libs/s25main/ingameWindows/iwChat.cpp:30
@@ -481,14 +448,8 @@ msgid "Allies"
 msgstr "Союзники"
 
 #: libs/s25main/addons/AddonCustomBuildSequence.h:19
-msgid ""
-"Allows every player to control whether building sites should be supplied in "
-"sequence of given order or in a definable sequence based on the building "
-"type."
-msgstr ""
-"Позволяет каждому игроку контролировать, должны ли постройки строиться по "
-"очереди в заданном порядке или в определенной последовательности на основе "
-"типа здания."
+msgid "Allows every player to control whether building sites should be supplied in sequence of given order or in a definable sequence based on the building type."
+msgstr "Позволяет каждому игроку контролировать, должны ли постройки строиться по очереди в заданном порядке или в определенной последовательности на основе типа здания."
 
 #: libs/s25main/addons/AddonCharburner.h:18
 msgid "Allows to build the charburner."
@@ -500,9 +461,7 @@ msgstr "Позволяет строить здания винодельческ�
 
 #: libs/s25main/addons/AddonToolOrdering.h:14
 msgid "Allows to order a specific amount of tools for priority production."
-msgstr ""
-"Позволяет заказать определенную количество инструментов для приоритетного "
-"производства."
+msgstr "Позволяет заказать определенную количество инструментов для приоритетного производства."
 
 #: libs/s25main/addons/AddonTrade.h:15
 msgid "Allows to send wares/figures to allied warehouses"
@@ -555,8 +514,7 @@ msgstr "Искусственный интеллект (ИИ)"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:155
 msgid "As the teams are locked, you cannot make treaties of any kind."
-msgstr ""
-"Поскольку команды заблокированы, вы не можете заключать какие-либо договоры."
+msgstr "Поскольку команды заблокированы, вы не можете заключать какие-либо договоры."
 
 #: libs/s25main/desktops/dskOptions.cpp:269
 msgid "Ask always"
@@ -595,12 +553,8 @@ msgid "Async logs received completely.\n"
 msgstr "Асинхронные логи получены полностью.\n"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:117
-msgid ""
-"At the winery, grapes are stomped in a vat to produce wine. The vintner's "
-"wine is of high quality, worthy of sacrifice at the temple."
-msgstr ""
-"На винодельне виноград давят в чане, чтобы получить вино. Вино винодела "
-"отличается высоким качеством, достойным жертвоприношения в храме."
+msgid "At the winery, grapes are stomped in a vat to produce wine. The vintner's wine is of high quality, worthy of sacrifice at the temple."
+msgstr "На винодельне виноград давят в чане, чтобы получить вино. Вино винодела отличается высоким качеством, достойным жертвоприношения в храме."
 
 #: libs/s25main/ingameWindows/iwAction.cpp:352
 msgid "Attack not possible."
@@ -643,12 +597,8 @@ msgid "Automatic flag placement"
 msgstr "Автоматическая расстановка флагов"
 
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
-msgid ""
-"Automatically demolish a resource gathering building, like a mine, if it "
-"runs permanently out of resources."
-msgstr ""
-"Автоматически сносить здание по сбору ресурсов, например, шахту, если в нем "
-"заканчиваются ресурсы."
+msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
+msgstr "Автоматически сносить здание по сбору ресурсов, например, шахту, если в нем заканчиваются ресурсы."
 
 #: libs/s25main/addons/AddonAutoFlags.h:19
 msgid "Automatically places flags on newly build roads"
@@ -831,24 +781,15 @@ msgstr "Отмена запуска"
 
 #: libs/s25main/EventManager.cpp:172
 msgid "Cannot deserialize event manager when there are still events active!"
-msgstr ""
-"Невозможно выполнить десериелизацию событий, если есть активные события!"
+msgstr "Невозможно выполнить десериелизацию событий, если есть активные события!"
 
 #: libs/s25main/Replay.cpp:213
-msgid ""
-"Cannot play replay created with a more recent GC version (Current: %1%, "
-"Replay: %2%)"
-msgstr ""
-"Невозможно воспроизвести повтор, созданный с помощью более новой версии GC "
-"(Текущий: %1%, Повтор: %2%)"
+msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
+msgstr "Невозможно воспроизвести повтор, созданный с помощью более новой версии GC (Текущий: %1%, Повтор: %2%)"
 
 #: libs/s25main/Replay.cpp:201
-msgid ""
-"Cannot play replay created with a more recent version (Current: %1%, Replay: "
-"%2%)"
-msgstr ""
-"Невозможно воспроизвести повтор, созданный в более новой версии (Текущий: "
-"%1%, Повтор: %2%)"
+msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
+msgstr "Невозможно воспроизвести повтор, созданный в более новой версии (Текущий: %1%, Повтор: %2%)"
 
 #: libs/s25main/gameData/JobConsts.cpp:23
 msgid "Carpenter"
@@ -886,15 +827,11 @@ msgstr "Изменить настройки монет для захваченн
 msgid ""
 "Change the military setting 'defender'.\n"
 "\n"
-"You can choose to disallow any changes to that setting or you can limit the "
-"amount of reoccupying troops (during an attack) according to the defender "
-"setting."
+"You can choose to disallow any changes to that setting or you can limit the amount of reoccupying troops (during an attack) according to the defender setting."
 msgstr ""
 "Измените военных параметров 'защитник'\n"
 "\n"
-"Вы можете запретить любые изменения этого параметра или ограничить "
-"количество оккупирующих войск (во время атаки) в соответствии с параметром "
-"защитника."
+"Вы можете запретить любые изменения этого параметра или ограничить количество оккупирующих войск (во время атаки) в соответствии с параметром защитника."
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:19
 msgid ""
@@ -902,8 +839,7 @@ msgid ""
 "Note: Setting this to low might make some maps imbalanced!"
 msgstr ""
 "Измените необходимое количество скаутов для морской экспидиции\n"
-"Примечание: Установка этого минимума может сделать некоторые карты "
-"несбалансированными!"
+"Примечание: Установка этого минимума может сделать некоторые карты несбалансированными!"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:18
 msgid "Change the visibility of your ingame statistics"
@@ -911,13 +847,11 @@ msgstr "Изменение видимости вашей внутриигров�
 
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:15
 msgid ""
-"Change the working behavior of metalworks if all sliders in the tools window "
-"are set to zero.\n"
+"Change the working behavior of metalworks if all sliders in the tools window are set to zero.\n"
 "Produce random ware: S2-Default\n"
 "Produce nothing: RttR-Default"
 msgstr ""
-"Изменить рабочее поведение металлозавода, если все ползунки в окне "
-"инструментов установлены на ноль.\n"
+"Изменить рабочее поведение металлозавода, если все ползунки в окне инструментов установлены на ноль.\n"
 "Производят случайные изделия: S2-умолчанию\n"
 "Ничего не производят: RttR-умолчанию"
 
@@ -1129,10 +1063,8 @@ msgstr "Тигель"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:378
 #, c-format
-msgid ""
-"Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
-msgstr ""
-"Текущий GF: %u / GF длина: %u мс / NWF длина: %u gf (%u мс) / Пинг: %u мс"
+msgid "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
+msgstr "Текущий GF: %u / GF длина: %u мс / NWF длина: %u gf (%u мс) / Пинг: %u мс"
 
 #: libs/s25main/addons/AddonCustomBuildSequence.h:18
 msgid "Custom build sequence"
@@ -1153,12 +1085,8 @@ msgstr ""
 "\"Союзники\" относится к членам группы, а также к союзникам по договору."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:156
-msgid ""
-"Deep within the mountains, miners dig for iron ore. They will obviously need "
-"a lot of food for the strenuous work."
-msgstr ""
-"Глубокая разработка железной руды не легкий труд, который требует много "
-"вкусной еды."
+msgid "Deep within the mountains, miners dig for iron ore. They will obviously need a lot of food for the strenuous work."
+msgstr "Глубокая разработка железной руды не легкий труд, который требует много вкусной еды."
 
 #: libs/s25main/addons/AddonBurnDuration.h:19
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:22
@@ -1203,8 +1131,7 @@ msgid "Demolish?"
 msgstr "Снести?"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:301
-msgid ""
-"Demolition ist not allowed because the building is located in border area!"
+msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "Снос запрещен: здание слишком близко к границе!"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:300
@@ -1258,8 +1185,7 @@ msgid "Disable coins by default"
 msgstr "Отключить монеты для военных зданий по-умолчанию"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:19
-msgid ""
-"Disable the demolition of military buildings under attack or near frontiers."
+msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr "Запретить снос военных построек при атаке или вблизи границ."
 
 #: libs/s25main/desktops/dskOptions.cpp:417
@@ -1294,8 +1220,7 @@ msgid ""
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
 msgstr ""
 "Не перемещать курсор автоматически\n"
-"Полезно: например, для разделения экрана / двойного мышей в мультиплеере "
-"(см. вики)"
+"Полезно: например, для разделения экрана / двойного мышей в мультиплеере (см. вики)"
 
 #: libs/s25main/ingameWindows/iwSurrender.cpp:22
 msgid "Don't surrender"
@@ -1342,9 +1267,7 @@ msgstr "Продолжительность: Вечно"
 
 #: libs/s25main/desktops/dskOptions.cpp:413
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
-msgstr ""
-"Динамичность (ограничивает частоту обновления экрана, работает с "
-"большинством драйверов)"
+msgstr "Динамичность (ограничивает частоту обновления экрана, работает с большинством драйверов)"
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:81
 msgid "Economic Progress"
@@ -1360,8 +1283,7 @@ msgstr "Экономика"
 
 #: libs/s25main/EconomyModeHandler.cpp:66
 msgid "Economy Mode: Collect as much as you can of the following good types: "
-msgstr ""
-"Экономический режим: соберите как можно больше следующих хороших типов: "
+msgstr "Экономический режим: соберите как можно больше следующих хороших типов: "
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:44
 msgid "Economy Mode: Game Length"
@@ -1401,12 +1323,8 @@ msgid "Enable wine economy"
 msgstr "Включить винную экономику"
 
 #: libs/s25main/addons/AddonAsyncDebug.h:17
-msgid ""
-"Enables extra stuff to debug asyncs. Do not enable unless you know what you "
-"are doing!"
-msgstr ""
-"Включить дополнительные материалы для отладки. Не включайте, если не знаете, "
-"что вы делаете!"
+msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
+msgstr "Включить дополнительные материалы для отладки. Не включайте, если не знаете, что вы делаете!"
 
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:102
 #: libs/s25main/ingameWindows/iwVictory.cpp:47
@@ -1519,14 +1437,11 @@ msgstr "Вечный"
 
 #: libs/s25main/EventManager.cpp:159
 msgid "Event count mismatch. Found events: %1%. Expected: %2%.\n"
-msgstr ""
-"Несоответствие количества событий. Найденные события: %1%. Ожидается: %2%.\n"
+msgstr "Несоответствие количества событий. Найденные события: %1%. Ожидается: %2%.\n"
 
 #: libs/s25main/EventManager.cpp:183
 msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
-msgstr ""
-"Несоответствие количества событий. Прочитанные события: %1%. Ожидается: "
-"%2%.\n"
+msgstr "Несоответствие количества событий. Прочитанные события: %1%. Ожидается: %2%.\n"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:145
 msgid "Every GF"
@@ -1669,11 +1584,8 @@ msgid "File could not be opened."
 msgstr "Не удалось открыть файл."
 
 #: libs/s25main/SavedFile.cpp:75
-msgid ""
-"File has an old version and cannot be used (version: %1%, expected: %2%)!"
-msgstr ""
-"Файл имеет старую версию и не может быть использован (версия: %1%, "
-"необходимая версия: %2%)!"
+msgid "File has an old version and cannot be used (version: %1%, expected: %2%)!"
+msgstr "Файл имеет старую версию и не может быть использован (версия: %1%, необходимая версия: %2%)!"
 
 #: libs/s25main/SavedFile.cpp:65
 msgid "File is not in a valid format!"
@@ -1685,12 +1597,8 @@ msgid "File or directory does not exist: %s\n"
 msgstr "Файл или каталог не существует: %s\n"
 
 #: libs/s25main/SavedFile.cpp:76
-msgid ""
-"File was created with more recent program and cannot be used (version: %1%, "
-"expected: %2%)!"
-msgstr ""
-"Файл был создан с более поздней программой и не может быть использован "
-"(версия: %1%, необходимая версия: %2%)!"
+msgid "File was created with more recent program and cannot be used (version: %1%, expected: %2%)!"
+msgstr "Файл был создан с более поздней программой и не может быть использован (версия: %1%, необходимая версия: %2%)!"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:51
 msgid "Filename"
@@ -1770,8 +1678,7 @@ msgid "Found water"
 msgstr "Найдены подземные воды"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:168
-msgid ""
-"From the lookout tower you can see far into previously unexplored lands."
+msgid "From the lookout tower you can see far into previously unexplored lands."
 msgstr "Со смотровой башни вы можете увидеть еще неисследованные земли."
 
 #: libs/s25main/addons/AddonFrontierDistanceReachable.h:14
@@ -1805,12 +1712,8 @@ msgid "Game Time"
 msgstr "Игровое меню"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:753
-msgid ""
-"Game can only be started as soon as everybody has a unique color,everyone is "
-"ready and all free slots are closed."
-msgstr ""
-"Игра может быть начата только когда все имеют уникальный цвет, все готовы, и "
-"все свободные слоты закрыты."
+msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
+msgstr "Игра может быть начата только когда все имеют уникальный цвет, все готовы, и все свободные слоты закрыты."
 
 #: libs/s25main/desktops/dskGameLoader.cpp:101
 msgid "Game crate was picked and spread out..."
@@ -1861,12 +1764,8 @@ msgid "Get all back"
 msgstr "Получить все обратно"
 
 #: libs/s25main/addons/AddonRefundOnEmergency.h:19
-msgid ""
-"Get building materials back when a building is destroyed and your emergency "
-"program is active."
-msgstr ""
-"Получить строительные материалы обратно, когда здание разрушается и ваша "
-"чрезвычайная программа активна."
+msgid "Get building materials back when a building is destroyed and your emergency program is active."
+msgstr "Получить строительные материалы обратно, когда здание разрушается и ваша чрезвычайная программа активна."
 
 #: libs/s25main/addons/AddonRefundMaterials.h:18
 msgid "Get building materials back when a building is destroyed."
@@ -1934,12 +1833,8 @@ msgid "Grain"
 msgstr "Зерно"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:234
-msgid ""
-"Grain and water are needed for rearing pigs. The meat thus obtained can then "
-"be processed by a butcher."
-msgstr ""
-"Для разведения свиней необходимы зерно и вода. Полученное мясо может после "
-"этого быть обработано мясником."
+msgid "Grain and water are needed for rearing pigs. The meat thus obtained can then be processed by a butcher."
+msgstr "Для разведения свиней необходимы зерно и вода. Полученное мясо может после этого быть обработано мясником."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:20
 msgid "Granite mine"
@@ -2015,12 +1910,8 @@ msgid "Helper"
 msgstr "Помощник"
 
 #: libs/s25main/ingameWindows/iwWares.cpp:207
-msgid ""
-"Here you will find a list of your entire stores of merchandise and all the "
-"inhabitants of your realm."
-msgstr ""
-"Здесь вы найдете список всех ваших строений, товаров и всех жителей ваших "
-"владений."
+msgid "Here you will find a list of your entire stores of merchandise and all the inhabitants of your realm."
+msgstr "Здесь вы найдете список всех ваших строений, товаров и всех жителей ваших владений."
 
 #: libs/s25main/ai/aijh/AIPlayerJH.cpp:238
 msgid "Hi, I'm an artifical player and I'm not very good yet!"
@@ -2069,24 +1960,16 @@ msgid "IPv6"
 msgstr "IPv6"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:18
-msgid ""
-"If Water is exhaustible wells will now dry out. If water everywhere is "
-"enabled, a geologist will not notify for water"
-msgstr ""
-"Если вода истощится, то колодцы будут высыхать. Если вода везде включена, "
-"геолог не будет уведомлять о воде"
+msgid "If Water is exhaustible wells will now dry out. If water everywhere is enabled, a geologist will not notify for water"
+msgstr "Если вода истощится, то колодцы будут высыхать. Если вода везде включена, геолог не будет уведомлять о воде"
 
 #: libs/s25main/resources/ArchiveLocator.cpp:60
 msgid "Ignoring resource %1% in %2% because it is already found in %3%\n"
 msgstr "Игнорирование ресурса %1% в %2%, поскольку он уже найден в %3%\n"
 
 #: libs/s25main/resources/ArchiveLocator.cpp:46
-msgid ""
-"Ignoring resource %1% in %2% because the name contains unsupported "
-"characters\n"
-msgstr ""
-"Игнорирование ресурса %1% в %2%, поскольку имя содержит неподдерживаемые "
-"символы\n"
+msgid "Ignoring resource %1% in %2% because the name contains unsupported characters\n"
+msgstr "Игнорирование ресурса %1% в %2%, поскольку имя содержит неподдерживаемые символы\n"
 
 #: libs/s25main/addons/AddonNoAlliedPush.h:16
 msgid "Improved Alliance"
@@ -2094,8 +1977,7 @@ msgstr "Улучшенный Альянс"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:20
 msgid "Increase the durability of geologist signs by a factor."
-msgstr ""
-"Увеличить время размещения табличек найденных геологом ресурсов (кратно)."
+msgstr "Увеличить время размещения табличек найденных геологом ресурсов (кратно)."
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
 msgid "Inexhaustible"
@@ -2169,8 +2051,7 @@ msgstr "Неверное завершение идентификатора да�
 
 #: libs/s25main/EventManager.cpp:192
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
-msgstr ""
-"Недопустимый [ID] экземпляра события. Найдено: %1%. Ожидается менее %2%.\n"
+msgstr "Недопустимый [ID] экземпляра события. Найдено: %1%. Ожидается менее %2%.\n"
 
 #: libs/s25main/world/MapSerializer.cpp:171
 msgid "Invalid id for lua data"
@@ -2228,13 +2109,8 @@ msgid "Islands"
 msgstr "Острова"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:281
-msgid ""
-"It is possible to build small rowing boats as well as huge cargo ships in a "
-"shipyard. The boards required for this are skillfully worked by shipwrights."
-msgstr ""
-"На верфи можно строить как маленькие вёсельные лодки, так и огромные "
-"грузовые корабли. Необходимые для этого доски искусно обрабатываются "
-"корабельными мастерами."
+msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
+msgstr "На верфи можно строить как маленькие вёсельные лодки, так и огромные грузовые корабли. Необходимые для этого доски искусно обрабатываются корабельными мастерами."
 
 #: libs/s25main/gameData/NationConsts.h:13
 msgid "Japanese"
@@ -2346,8 +2222,7 @@ msgid ""
 msgstr ""
 "Ограничение количества катапульты на одного игрока.\n"
 "\n"
-"Для пункта \"Пропорционально\" следующие соотношения военных зданий "
-"катапульты:\n"
+"Для пункта \"Пропорционально\" следующие соотношения военных зданий катапульты:\n"
 "Барак: 8\n"
 "Караульная башня: 4\n"
 "Сторожевая башня: 2\n"
@@ -2467,32 +2342,21 @@ msgstr "Обратный вызов загрузки Lua вернул ошибк
 
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:47
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:54
-msgid ""
-"Lua script did not provide the function getRequiredLuaVersion()! It is "
-"probably outdated.\n"
-msgstr ""
-"Сценарий Lua не предоставил функцию getRequiredLuaVersion()! Это, вероятно, "
-"устарело.\n"
+msgid "Lua script did not provide the function getRequiredLuaVersion()! It is probably outdated.\n"
+msgstr "Сценарий Lua не предоставил функцию getRequiredLuaVersion()! Это, вероятно, устарело.\n"
 
 #: libs/s25main/world/MapSerializer.cpp:181
 msgid "Lua script failed to load."
 msgstr "Не удалось загрузить Lua-скрипт."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:96
-msgid ""
-"Lua script uses a different version and cannot be used. Map might not work "
-"as expected!"
-msgstr ""
-"Сценарий Lua использует другую версию и не может быть использован. Карта "
-"может работать не так, как ожидалось!"
+msgid "Lua script uses a different version and cannot be used. Map might not work as expected!"
+msgstr "Сценарий Lua использует другую версию и не может быть использован. Карта может работать не так, как ожидалось!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:90
 #: libs/s25main/desktops/dskGameLobby.cpp:359
-msgid ""
-"Lua script was found but failed to load. Map might not work as expected!"
-msgstr ""
-"Lua сценарий найден, но его не удалось загрузить. Карта может работать, не "
-"как ожидалось!"
+msgid "Lua script was found but failed to load. Map might not work as expected!"
+msgstr "Lua сценарий найден, но его не удалось загрузить. Карта может работать, не как ожидалось!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:103
 msgid "Lua was disabled by the script itself\n"
@@ -2509,8 +2373,7 @@ msgstr "Ручное увеличение пропускной способно�
 
 #: libs/s25main/addons/AddonManualRoadEnlargement.h:18
 msgid "Manually upgrade your roads and directly build donkey roads."
-msgstr ""
-"Вручную улучшайте свои дороги и в любой момент постройте дороги для ослов."
+msgstr "Вручную улучшайте свои дороги и в любой момент постройте дороги для ослов."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:90
 msgid "Many"
@@ -2551,19 +2414,12 @@ msgid "Map is invalid or failed to load properly!"
 msgstr "Карта неверна или не правильно загружена!"
 
 #: libs/s25main/desktops/dskOptions.cpp:249
-msgid ""
-"Map moves in the opposite direction the mouse is moved when scrolling/"
-"panning."
-msgstr ""
-"Карта перемещается в направлении, противоположном перемещению мыши при "
-"прокрутке/панорамировании."
+msgid "Map moves in the opposite direction the mouse is moved when scrolling/panning."
+msgstr "Карта перемещается в направлении, противоположном перемещению мыши при прокрутке/панорамировании."
 
 #: libs/s25main/desktops/dskOptions.cpp:251
-msgid ""
-"Map moves in the same direction the mouse is moved when scrolling/panning."
-msgstr ""
-"Карта перемещается в том же направлении, что и мышь при прокрутке/"
-"панорамировании."
+msgid "Map moves in the same direction the mouse is moved when scrolling/panning."
+msgstr "Карта перемещается в том же направлении, что и мышь при прокрутке/панорамировании."
 
 #: libs/s25main/network/ClientError.cpp:17
 msgid "Map transmission was corrupt!"
@@ -2665,12 +2521,8 @@ msgid "Military building captured"
 msgstr "Военное здание захвачено"
 
 #: libs/s25main/addons/AddonFrontierDistanceReachable.h:15
-msgid ""
-"Military building counts as interior if an attack is permanently impossible. "
-"(Path blocked by terrain like sea, lava, etc.)"
-msgstr ""
-"Военное здание считается гражданским, если атака невозможна. (Путь "
-"заблокирован местностью, такой как море, лава и т. п.)"
+msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
+msgstr "Военное здание считается гражданским, если атака невозможна. (Путь заблокирован местностью, такой как море, лава и т. п.)"
 
 #: libs/s25main/buildings/nobMilitary.cpp:1009
 msgid "Military building lost"
@@ -2931,12 +2783,8 @@ msgstr "Уведомление: Количество несихронизиро�
 
 #: libs/s25main/network/GameClientGF_Replay.cpp:83
 #, c-format
-msgid ""
-"Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, "
-"AVG_FPS: %u)"
-msgstr ""
-"Внимание: Текущий повтор закончился. (GF: %u, %dh %dмин %dс, TF: %u, "
-"AVG_FPS: %u)"
+msgid "Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, AVG_FPS: %u)"
+msgstr "Внимание: Текущий повтор закончился. (GF: %u, %dh %dмин %dс, TF: %u, AVG_FPS: %u)"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:306
 msgid "Notify allies of this location"
@@ -3016,12 +2864,8 @@ msgid "Open"
 msgstr "Открыть"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:374
-msgid ""
-"OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or "
-"hardware!"
-msgstr ""
-"OpenGL %1% %2%.%3% не поддерживается. Попробуйте обновить драйверы или "
-"аппаратное обеспечение графического процессора!"
+msgid "OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or hardware!"
+msgstr "OpenGL %1% %2%.%3% не поддерживается. Попробуйте обновить драйверы или аппаратное обеспечение графического процессора!"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:371
 msgid "OpenGL %1%.%2% supported\n"
@@ -3106,11 +2950,8 @@ msgid "Ping"
 msgstr "Пинг"
 
 #: libs/s25main/desktops/dskOptions.cpp:258
-msgid ""
-"Place cursor on default button for new dialogs / action windows (default)"
-msgstr ""
-"Поместите курсор на кнопку по-умолчанию для новых диалоговых окон / действий "
-"(по-умолчанию)"
+msgid "Place cursor on default button for new dialogs / action windows (default)"
+msgstr "Поместите курсор на кнопку по-умолчанию для новых диалоговых окон / действий (по-умолчанию)"
 
 #: libs/s25main/gameData/JobConsts.cpp:39
 msgid "Planer"
@@ -3302,14 +3143,8 @@ msgid "Ranger"
 msgstr "Лесник"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:221
-msgid ""
-"Raw iron ore is smelted in the iron smelters with the help of coal. The "
-"processed iron is then used to making weapons (in the Armory) and tools (in "
-"the metalworks)."
-msgstr ""
-"Сырая железная руда выплавляется в чугунолитейных заводах с помощью угля. "
-"Затем обработанное железо используется для изготовления оружия (в Оружейной) "
-"и инструментов (на Металлозаводе)."
+msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
+msgstr "Сырая железная руда выплавляется в чугунолитейных заводах с помощью угля. Затем обработанное железо используется для изготовления оружия (в Оружейной) и инструментов (на Металлозаводе)."
 
 #: libs/s25main/desktops/dskMainMenu.cpp:51
 msgid "Readme"
@@ -3389,8 +3224,7 @@ msgstr "Удалить дорогу"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:59
 msgid "Removes all replays that cannot be loaded with the current game version"
-msgstr ""
-"Удалять все повторы, которые не могут быть загружены с текущей версией игры"
+msgstr "Удалять все повторы, которые не могут быть загружены с текущей версией игры"
 
 #: libs/s25main/network/GameClient.cpp:1452
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
@@ -3453,20 +3287,12 @@ msgid "RttR crashed. Please restart the application!"
 msgstr "RttR вылетела. Пожалуйста, перезапустите приложение!"
 
 #: libs/s25client/s25client.cpp:121
-msgid ""
-"RttR crashed. Would you like to send debug information to RttR to help us "
-"avoiding this crash in the future? Thank you very much!"
-msgstr ""
-"RttR вылетела. Хотите отправить отладочную информацию RttR, чтобы помочь нам "
-"избежать этого в дальнейшем? Спасибо большое!"
+msgid "RttR crashed. Would you like to send debug information to RttR to help us avoiding this crash in the future? Thank you very much!"
+msgstr "RttR вылетела. Хотите отправить отладочную информацию RttR, чтобы помочь нам избежать этого в дальнейшем? Спасибо большое!"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:74
-msgid ""
-"RttR now supports sending debug data. Would you like to help us improving "
-"this game by sending debug data?"
-msgstr ""
-"RttR теперь поддерживает отправку отладочной информации. Вы хотите помочь "
-"нам улучшить игру, отправляя отладочную информацию?"
+msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
+msgstr "RttR теперь поддерживает отправку отладочной информации. Вы хотите помочь нам улучшить игру, отправляя отладочную информацию?"
 
 #: libs/s25main/network/GameServer.cpp:756
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
@@ -3655,16 +3481,8 @@ msgid "Ship register"
 msgstr "Реестр кораблей"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:300
-msgid ""
-"Ships can only be loaded and unloaded in a harbor. Expeditions can also be "
-"prepared here. You can release certain merchandise from the storehouse, as "
-"and when required. Alternatively, the storage function can be disabled. To "
-"do this, first choose the relevant icon followed by the desired merchandise "
-"or job symbol."
-msgstr ""
-"Корабли могут загружаться/разгружаться только в портах. Экспедиции "
-"готовяться здесь. Вы можете ограничить складирование в портах, если "
-"необходимо. Смотрите соответствующие иконки в окне порта."
+msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also be prepared here. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
+msgstr "Корабли могут загружаться/разгружаться только в портах. Экспедиции готовяться здесь. Вы можете ограничить складирование в портах, если необходимо. Смотрите соответствующие иконки в окне порта."
 
 #: libs/s25main/gameData/JobConsts.cpp:48
 msgid "Shipwright"
@@ -3740,12 +3558,8 @@ msgid "Smart Cursor"
 msgstr "Умный курсор"
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:17
-msgid ""
-"Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + "
-"2 coal"
-msgstr ""
-"Кузнец может создать 1 щит и 1 меч из 1 железа + 1 угля, вместо 2 железа + 2 "
-"угля"
+msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
+msgstr "Кузнец может создать 1 щит и 1 меч из 1 железа + 1 угля, вместо 2 железа + 2 угля"
 
 #: libs/s25main/desktops/dskOptions.cpp:234
 msgid "Socks v4"
@@ -3950,12 +3764,8 @@ msgid "Thank you!"
 msgstr "Спасибо!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:174
-msgid ""
-"Thanks to its immense strength, the catapults represents an effective weapon "
-"against enemy military buildings."
-msgstr ""
-"Благодаря своей огромной силе, катапульты представляют собой эффективное "
-"оружие против вражеских военных зданий."
+msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
+msgstr "Благодаря своей огромной силе, катапульты представляют собой эффективное оружие против вражеских военных зданий."
 
 #: libs/s25main/postSystem/PostMsg.cpp:29
 #, c-format
@@ -3970,103 +3780,47 @@ msgstr "%s между '%s' и Вами был заключен."
 #: libs/s25main/desktops/dskGameInterface.cpp:1181
 #: libs/s25main/network/GameClient.cpp:840
 msgid "The Game is not in sync. Checksums of some players don't match."
-msgstr ""
-"Игра не синхронизирована. Контрольная сумма некоторых игроков не совпадает."
+msgstr "Игра не синхронизирована. Контрольная сумма некоторых игроков не совпадает."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:212
-msgid ""
-"The armory produces swords and strong shields. This equipment is vital for "
-"your soldiers."
-msgstr ""
-"В кузнице производятся мечи и щиты. Это обмундирование необходимо для ваших "
-"солдат."
+msgid "The armory produces swords and strong shields. This equipment is vital for your soldiers."
+msgstr "В кузнице производятся мечи и щиты. Это обмундирование необходимо для ваших солдат."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:75
-msgid ""
-"The barracks is a very small hut which can be used by your soldiers as "
-"quarters. Using the gold coin button you can stop the delivery of gold coins "
-"to the soldiers stationed here. However, without gold coins the soldiers "
-"here can not train and improve their skills."
-msgstr ""
-"Бараки - очень маленькая хижина, которая может быть использована для "
-"размещения солдат. Искользование кнопки с золотой монетой позволяет "
-"прекратить поставку золотых монет находящимся здесь солдатам. Но без золотых "
-"монет солдаты не смогут тренироваться и улучшать свои навыки."
+msgid "The barracks is a very small hut which can be used by your soldiers as quarters. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
+msgstr "Бараки - очень маленькая хижина, которая может быть использована для размещения солдат. Искользование кнопки с золотой монетой позволяет прекратить поставку золотых монет находящимся здесь солдатам. Но без золотых монет солдаты не смогут тренироваться и улучшать свои навыки."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:207
-msgid ""
-"The brewer produces fine beer from grain and water. This drink is needed to "
-"fill the soldiers with courage."
-msgstr ""
-"Пивовар делает вино из зерна и воды. Этот напиток нужен, чтобы вдохновить "
-"солдат на подвиги."
+msgid "The brewer produces fine beer from grain and water. This drink is needed to fill the soldiers with courage."
+msgstr "Пивовар делает вино из зерна и воды. Этот напиток нужен, чтобы вдохновить солдат на подвиги."
 
 #: libs/s25main/ingameWindows/iwBuildings.cpp:129
-msgid ""
-"The building statistics window gives you an insight into the number of "
-"buildings you have, by type. The number on the left is the total number of "
-"this type of building completed, the number on the right shows how many are "
-"currently under construction."
-msgstr ""
-"Окно статистики здания дает представление о количестве зданий которые у вас "
-"есть, по типу. Число слева - общее количество этого типа здания построено, "
-"число справа показывает, сколько в настоящее время в стадии строительства."
+msgid "The building statistics window gives you an insight into the number of buildings you have, by type. The number on the left is the total number of this type of building completed, the number on the right shows how many are currently under construction."
+msgstr "Окно статистики здания дает представление о количестве зданий которые у вас есть, по типу. Число слева - общее количество этого типа здания построено, число справа показывает, сколько в настоящее время в стадии строительства."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:199
-msgid ""
-"The butcher processes the livestock delivered into nutritious ham on which "
-"you miners are fed."
-msgstr ""
-"Мясник разделывает туши и производит питательную ветчину, которой кормят "
-"шахтеров."
+msgid "The butcher processes the livestock delivered into nutritious ham on which you miners are fed."
+msgstr "Мясник разделывает туши и производит питательную ветчину, которой кормят шахтеров."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:266
-msgid ""
-"The carpenter turns the woodcutter's logs into made-to-measure planks. These "
-"form the basic for building houses and ships."
-msgstr ""
-"Плотник превращает брёвна в доски. Это - основа строительства и "
-"кораблестроения."
+msgid "The carpenter turns the woodcutter's logs into made-to-measure planks. These form the basic for building houses and ships."
+msgstr "Плотник превращает брёвна в доски. Это - основа строительства и кораблестроения."
 
 #: libs/s25main/ingameWindows/TransmitSettingsIgwAdapter.cpp:31
-msgid ""
-"The changes could not be applied and will be discarded. A potential reason "
-"for this is that the game is paused."
-msgstr ""
-"Изменения не могут быть применены и будут удалены. Возможной причиной этого "
-"является то, что игра поставлена на паузу."
+msgid "The changes could not be applied and will be discarded. A potential reason for this is that the game is paused."
+msgstr "Изменения не могут быть применены и будут удалены. Возможной причиной этого является то, что игра поставлена на паузу."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:228
-msgid ""
-"The charburner stacks up piles of wood and straw which is then burned to "
-"create charcoal. This can be used just like the coal from the mine without "
-"any loss in quality."
-msgstr ""
-"Угольщик складывает кучу дров и соломы, которые затем сжигают для получения "
-"древесного угля. Его можно использовать так же, как уголь из шахты, без "
-"потери качества."
+msgid "The charburner stacks up piles of wood and straw which is then burned to create charcoal. This can be used just like the coal from the mine without any loss in quality."
+msgstr "Угольщик складывает кучу дров и соломы, которые затем сжигают для получения древесного угля. Его можно использовать так же, как уголь из шахты, без потери качества."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:216
-msgid ""
-"The countless tools which your workers need are made in the metalworks. This "
-"requires boards and iron."
-msgstr ""
-"Бесчисленные инструменты, необходимые рабочим, производятся на "
-"металлозаводе. Для этого требуются доски и железо."
+msgid "The countless tools which your workers need are made in the metalworks. This requires boards and iron."
+msgstr "Бесчисленные инструменты, необходимые рабочим, производятся на металлозаводе. Для этого требуются доски и железо."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:132
-msgid ""
-"The defensive capabilities and size of the fortress are unsurpassed. This "
-"stronghold ensures that other valuable buildings and commodities are "
-"protected. Using the gold coin button you can stop the delivery of gold "
-"coins to the soldiers stationed here. However, without gold coins the "
-"soldiers here can not train and improve their skills."
-msgstr ""
-"Оборонительные возможности и размер крепости неоспоримы. Это укрепление "
-"гарантирует, что остальные ценные здания защищены. Искользование кнопки с "
-"золотой монетой позволяет прекратить поставку золотых монет находящимся "
-"здесь солдатам. Но без золотых монет солдаты не смогут тренироваться и "
-"улучшать свои навыки."
+msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
+msgstr "Оборонительные возможности и размер крепости неоспоримы. Это укрепление гарантирует, что остальные ценные здания защищены. Искользование кнопки с золотой монетой позволяет прекратить поставку золотых монет находящимся здесь солдатам. Но без золотых монет солдаты не смогут тренироваться и улучшать свои навыки."
 
 #: libs/s25main/GamePlayer.cpp:2066
 msgid "The emergency program has been activated."
@@ -4077,120 +3831,52 @@ msgid "The emergency program has been deactivated."
 msgstr "Программа сохранения критического запаса товаров деактивирована."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:288
-msgid ""
-"The farmer plants and harvests grain in the surrounding fields. A windmill "
-"then processes the harvested grain into flour or can be used to feed the "
-"pigs."
-msgstr ""
-"Фермер выращивает и собирает зерно на ближайших полях. Зерно может "
-"использоваться на мельнице для производства муки, а также для разведения "
-"свиней и ослов. Также оно необходимо в пивоварне."
+msgid "The farmer plants and harvests grain in the surrounding fields. A windmill then processes the harvested grain into flour or can be used to feed the pigs."
+msgstr "Фермер выращивает и собирает зерно на ближайших полях. Зерно может использоваться на мельнице для производства муки, а также для разведения свиней и ослов. Также оно необходимо в пивоварне."
 
 #: libs/s25main/ingameWindows/iwTextfile.cpp:47
 msgid "The file was not found!"
 msgstr "Файл не найден!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:184
-msgid ""
-"The fish man is responsible for finding water rich in fish. His fish feed a "
-"great many miners."
-msgstr ""
-"Рыбак отвечает за поиск богатых рыбой районов побережья. Эту рыбу потом едят "
-"шахтеры."
+msgid "The fish man is responsible for finding water rich in fish. His fish feed a great many miners."
+msgstr "Рыбак отвечает за поиск богатых рыбой районов побережья. Эту рыбу потом едят шахтеры."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:260
-msgid ""
-"The flour produced at the windmill can be combined with water in the bakery "
-"to make oven-fresh bread. It's your miners' favorite!"
-msgstr ""
-"Мука, произведенная на мельнице, может потом вместе с водой быть "
-"использована в пекарне, чтобы выпечь хлеб - любимую еду шахтеров!"
+msgid "The flour produced at the windmill can be combined with water in the bakery to make oven-fresh bread. It's your miners' favorite!"
+msgstr "Мука, произведенная на мельнице, может потом вместе с водой быть использована в пекарне, чтобы выпечь хлеб - любимую еду шахтеров!"
 
 #: libs/s25main/network/GameServer.cpp:1585
-msgid ""
-"The game clients are out of sync. Would you like to send debug information "
-"to RttR to help us avoiding this in the future? Thank you very much!"
-msgstr ""
-"Игровые клиенты не синхронизированы. Хотите отправить отладочную информацию "
-"RttR, чтобы помочь нам избежать этого в дальнейшем? Спасибо большое!"
+msgid "The game clients are out of sync. Would you like to send debug information to RttR to help us avoiding this in the future? Thank you very much!"
+msgstr "Игровые клиенты не синхронизированы. Хотите отправить отладочную информацию RttR, чтобы помочь нам избежать этого в дальнейшем? Спасибо большое!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:255
-msgid ""
-"The grain is ground in the windmill. The flour from the windmill is later "
-"used at the bakery to bake bread."
-msgstr ""
-"На мельнице из зерна производят муку, котоаря затем используется в пекарне "
-"для приготовления хлеба."
+msgid "The grain is ground in the windmill. The flour from the windmill is later used at the bakery to bake bread."
+msgstr "На мельнице из зерна производят муку, котоаря затем используется в пекарне для приготовления хлеба."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:85
-msgid ""
-"The guardhouse is a comfortable place for the military which is also "
-"protected by solid stone walls. Using the gold coin button you can stop the "
-"delivery of gold coins to the soldiers stationed here. However, without gold "
-"coins the soldiers here can not train and improve their skills."
-msgstr ""
-"Караульная башня - удобное место для размещения войск, которое защищено "
-"прочными каменными стенами. Искользование кнопки с золотой монетой позволяет "
-"прекратить поставку золотых монет находящимся здесь солдатам. Но без золотых "
-"монет солдаты не смогут тренироваться и улучшать свои навыки."
+msgid "The guardhouse is a comfortable place for the military which is also protected by solid stone walls. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
+msgstr "Караульная башня - удобное место для размещения войск, которое защищено прочными каменными стенами. Искользование кнопки с золотой монетой позволяет прекратить поставку золотых монет находящимся здесь солдатам. Но без золотых монет солдаты не смогут тренироваться и улучшать свои навыки."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:54
-msgid ""
-"The headquarters represents the center of your realm. The large amount of "
-"storage space available means a great many things can be safely stored here. "
-"You can release certain merchandise from the headquarters, as and when "
-"required or stop its storage. To do this, first choose the corresponding "
-"icon followed by the desired merchandise or job symbol. On the third page, "
-"you can adjust the number of reserve soldiers who are responsible for "
-"guarding the headquarters. There are two values given: the first value "
-"indicates the current number of men, the second value indicates the desired "
-"number. "
-msgstr ""
-"Штаб-квартира представляет собой центр ваших владений. Большой объем "
-"доступного места для хранения означает, что здесь можно безопасно хранить "
-"очень много вещей. Вы можете выпустить определенный товар из штаб-квартиры "
-"по мере необходимости или остановить его хранение. Для этого сначала "
-"выберите соответствующий значок, а затем нужный символ товара или работы. На "
-"третьей странице вы можете настроить количество солдат запаса, отвечающих за "
-"охрану штаба. Даны два значения: первое значение указывает текущее "
-"количество мужчин, второе значение указывает желаемое количество. "
+msgid "The headquarters represents the center of your realm. The large amount of storage space available means a great many things can be safely stored here. You can release certain merchandise from the headquarters, as and when required or stop its storage. To do this, first choose the corresponding icon followed by the desired merchandise or job symbol. On the third page, you can adjust the number of reserve soldiers who are responsible for guarding the headquarters. There are two values given: the first value indicates the current number of men, the second value indicates the desired number. "
+msgstr "Штаб-квартира представляет собой центр ваших владений. Большой объем доступного места для хранения означает, что здесь можно безопасно хранить очень много вещей. Вы можете выпустить определенный товар из штаб-квартиры по мере необходимости или остановить его хранение. Для этого сначала выберите соответствующий значок, а затем нужный символ товара или работы. На третьей странице вы можете настроить количество солдат запаса, отвечающих за охрану штаба. Даны два значения: первое значение указывает текущее количество мужчин, второе значение указывает желаемое количество. "
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:113
-msgid ""
-"The merchandise statistics window allows you to check the quantities of your "
-"merchandise. By clicking the left mouse button you can switch the display of "
-"individual goods on and off. These can displayed over four different time "
-"periods. To delete all displays, click on the wastebasket button."
-msgstr ""
-"Окно статистики торговли позволяет проверить количество вашего товара. При "
-"нажатии левой кнопки мыши вы можете  включить и выключить отображение "
-"отдельных товаров. Они могут отображаться в течение четырех различных "
-"периодов времени. Чтобы удалить все дисплеи, нажмите на кнопку мусорной "
-"корзины."
+msgid "The merchandise statistics window allows you to check the quantities of your merchandise. By clicking the left mouse button you can switch the display of individual goods on and off. These can displayed over four different time periods. To delete all displays, click on the wastebasket button."
+msgstr "Окно статистики торговли позволяет проверить количество вашего товара. При нажатии левой кнопки мыши вы можете  включить и выключить отображение отдельных товаров. Они могут отображаться в течение четырех различных периодов времени. Чтобы удалить все дисплеи, нажмите на кнопку мусорной корзины."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:151
-msgid ""
-"The mining of coal supports the metalworks and smithy. This hard work "
-"requires an adequate supply of food."
-msgstr ""
-"Добыча угля необходима для поставки его в кузницу и сталеплавильню. Эта "
-"тяжёлая работа требует соответствующего снабжения едой."
+msgid "The mining of coal supports the metalworks and smithy. This hard work requires an adequate supply of food."
+msgstr "Добыча угля необходима для поставки его в кузницу и сталеплавильню. Эта тяжёлая работа требует соответствующего снабжения едой."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:272
-msgid ""
-"The mint is responsible for producing valuable gold coins. These precious "
-"objects are produced using coal and gold."
-msgstr ""
-"На монетном дворе производят ценные золотые монеты. Эта прелесть "
-"производится с использованием угля и золота."
+msgid "The mint is responsible for producing valuable gold coins. These precious objects are produced using coal and gold."
+msgstr "На монетном дворе производят ценные золотые монеты. Эта прелесть производится с использованием угля и золота."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:294
-msgid ""
-"The pack donkeys bred here are used to transport your merchandise more "
-"efficiently. They are reared on water and grain."
-msgstr ""
-"Вьючные ослы, выращенные здесь, используются для транспортировки ваших "
-"товаров более эффективно. Им нужна вода и зерно."
+msgid "The pack donkeys bred here are used to transport your merchandise more efficiently. They are reared on water and grain."
+msgstr "Вьючные ослы, выращенные здесь, используются для транспортировки ваших товаров более эффективно. Им нужна вода и зерно."
 
 #: libs/s25main/postSystem/DiplomacyPostQuestion.cpp:17
 #, c-format
@@ -4199,55 +3885,32 @@ msgstr "Игрок '%s' предлагает вам %s."
 
 #: libs/s25main/postSystem/DiplomacyPostQuestion.cpp:33
 #, c-format
-msgid ""
-"The player '%s' want to cancel the '%s' between you both prematurely. Do you "
-"agree?"
-msgstr ""
-"Игрок  '%s'  хотите отменить '%s' между вами обоими преждевременно. Вы "
-"согласны?"
+msgid "The player '%s' want to cancel the '%s' between you both prematurely. Do you agree?"
+msgstr "Игрок  '%s'  хотите отменить '%s' между вами обоими преждевременно. Вы согласны?"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:336
 msgid "The playlist was saved!"
 msgstr "Плейлист сохранен!"
 
 #: libs/s25main/ingameWindows/iwDistribution.cpp:139
-msgid ""
-"The priority of goods for the individual buildings can be set here. The "
-"higher the value, the quicker the required goods are delivered to the "
-"building concerned."
-msgstr ""
-"Здесь можно установить приоритет товаров для отдельных зданий. Чем выше "
-"значение, тем быстрее требуемые товары доставляются в нужное здание."
+msgid "The priority of goods for the individual buildings can be set here. The higher the value, the quicker the required goods are delivered to the building concerned."
+msgstr "Здесь можно установить приоритет товаров для отдельных зданий. Чем выше значение, тем быстрее требуемые товары доставляются в нужное здание."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:145
-msgid ""
-"The quarrying of stone in a granite mine guarantees the supply of stone for "
-"buildings. However, even a granite mine has to feed its workers."
-msgstr ""
-"Добыча камня в гранитном руднике гарантирует поставку камня для построек. "
-"Однако даже гранитный рудник должен кормить своих рабочих."
+msgid "The quarrying of stone in a granite mine guarantees the supply of stone for buildings. However, even a granite mine has to feed its workers."
+msgstr "Добыча камня в гранитном руднике гарантирует поставку камня для построек. Однако даже гранитный рудник должен кормить своих рабочих."
 
 #: libs/s25main/desktops/dskLobby.cpp:226
 msgid "The selected game was not found anymore."
 msgstr "Выбранная игра больше не найдена."
 
 #: libs/s25main/desktops/dskOptions.cpp:611
-msgid ""
-"The selected video driver does not support GUI scaling! Setting won't be "
-"used."
-msgstr ""
-"Выбранный видеодрайвер не поддерживает масштабирование GUI! Настройка не "
-"будет использована."
+msgid "The selected video driver does not support GUI scaling! Setting won't be used."
+msgstr "Выбранный видеодрайвер не поддерживает масштабирование GUI! Настройка не будет использована."
 
 #: libs/s25main/ingameWindows/iwShip.cpp:131
-msgid ""
-"The ship register contains all the ships in your fleet. Here you can monitor "
-"the loading and destinations of individual ships. Ships on an expedition are "
-"controlled from here as well."
-msgstr ""
-"Регистр судов содержит все корабли в вашем флоте. Здесь вы можете "
-"отслеживать загрузку и назначения отдельных судов. Корабли на экспедиции "
-"контролируются отсюда же."
+msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
+msgstr "Регистр судов содержит все корабли в вашем флоте. Здесь вы можете отслеживать загрузку и назначения отдельных судов. Корабли на экспедиции контролируются отсюда же."
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:96
 #: libs/s25main/desktops/dskSinglePlayer.cpp:100
@@ -4265,70 +3928,28 @@ msgid "The specified file couldn't be saved!"
 msgstr "Указанный файл не может быть сохранен!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:188
-msgid ""
-"The stonemason works the stone near his quarry into bricks. These are needed "
-"mainly for building houses and as ammunition for catapults."
-msgstr ""
-"Каменотес добывает каменные блоки с ближайших скал. Они нужны в основном для "
-"строительства, а так же в качестве боеприпасов для катапульт."
+msgid "The stonemason works the stone near his quarry into bricks. These are needed mainly for building houses and as ammunition for catapults."
+msgstr "Каменотес добывает каменные блоки с ближайших скал. Они нужны в основном для строительства, а так же в качестве боеприпасов для катапульт."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:239
-msgid ""
-"The storehouse can help reduce long transportation journeys and is suited to "
-"the temporary storage of merchandise and inhabitants. You can release "
-"certain merchandise from the storehouse, as and when required. "
-"Alternatively, the storage function can be disabled. To do this, first "
-"choose the relevant icon followed by the desired merchandise or job symbol."
-msgstr ""
-"Склад может помочь укоротить длинные транспортные пути и используется для "
-"временного хранения товаров и жителей. Вы можете убрать определенный товар "
-"со склада, если нужно. Также вы можете отключить функцию складирования. "
-"Чтобы это сделать сначала выберите иконку нужного товара или работника."
+msgid "The storehouse can help reduce long transportation journeys and is suited to the temporary storage of merchandise and inhabitants. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
+msgstr "Склад может помочь укоротить длинные транспортные пути и используется для временного хранения товаров и жителей. Вы можете убрать определенный товар со склада, если нужно. Также вы можете отключить функцию складирования. Чтобы это сделать сначала выберите иконку нужного товара или работника."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:122
-msgid ""
-"The temple servant sacrifices wine and food granting a blessing of gold, "
-"iron ore, coal or granite. This allows your iron founder and minter to "
-"continue working when mines become exhausted. The desired mineral can be "
-"selected by toggling the output button."
-msgstr ""
-"Служитель храма жертвует вином и едой, даруя благословение в виде золота, "
-"железной руды, угля или гранита. Это позволяет вашему литейщику и чеканщику "
-"железа продолжать работать, когда шахты истощатся. Желаемый минерал можно "
-"выбрать, переключив кнопку."
+msgid "The temple servant sacrifices wine and food granting a blessing of gold, iron ore, coal or granite. This allows your iron founder and minter to continue working when mines become exhausted. The desired mineral can be selected by toggling the output button."
+msgstr "Служитель храма жертвует вином и едой, даруя благословение в виде золота, железной руды, угля или гранита. Это позволяет вашему литейщику и чеканщику железа продолжать работать, когда шахты истощатся. Желаемый минерал можно выбрать, переключив кнопку."
 
 #: libs/s25main/ingameWindows/iwTransport.cpp:108
-msgid ""
-"The transport priority of a type of merchandise can be determined here.The "
-"higher the priority of an item in the list, the quicker it is transported by "
-"helpers."
-msgstr ""
-"Здесь можно выбрать транспортный приоритет типа товаров. Чем выше элемент в "
-"списке, тем быстрее его доставят до места."
+msgid "The transport priority of a type of merchandise can be determined here.The higher the priority of an item in the list, the quicker it is transported by helpers."
+msgstr "Здесь можно выбрать транспортный приоритет типа товаров. Чем выше элемент в списке, тем быстрее его доставят до места."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:98
-msgid ""
-"The watchtower with its large amount of space is best suited for stationing "
-"a large number of your troops. Using the gold coin button you can stop the "
-"delivery of gold coins to the soldiers stationed here. However, without gold "
-"coins the soldiers here can not train and improve their skills."
-msgstr ""
-"Сторожевая башня имеет много места и отлично подходит для размещения "
-"большого количества войск. Искользование кнопки с золотой монетой позволяет "
-"прекратить поставку золотых монет находящимся здесь солдатам. Но без золотых "
-"монет солдаты не смогут тренироваться и улучшать свои навыки."
+msgid "The watchtower with its large amount of space is best suited for stationing a large number of your troops. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
+msgstr "Сторожевая башня имеет много места и отлично подходит для размещения большого количества войск. Искользование кнопки с золотой монетой позволяет прекратить поставку золотых монет находящимся здесь солдатам. Но без золотых монет солдаты не смогут тренироваться и улучшать свои навыки."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:109
-msgid ""
-"The winegrower plants and harvests grapes in the surrounding fields. A "
-"vineyard requires a steady supply of sturdy logs for trellises and fresh "
-"water to irrigate the fields. Ripe grapes are sent to the winery to be "
-"pressed into wine."
-msgstr ""
-"Виноградарь сажает и собирает виноград на близлежащих полях. Винограднику "
-"требуется постоянный запас прочных бревен для шпалер и пресной воды для "
-"орошения полей. Спелый виноград отправляется на винодельню, где его "
-"перерабатывают в вино."
+msgid "The winegrower plants and harvests grapes in the surrounding fields. A vineyard requires a steady supply of sturdy logs for trellises and fresh water to irrigate the fields. Ripe grapes are sent to the winery to be pressed into wine."
+msgstr "Виноградарь сажает и собирает виноград на близлежащих полях. Винограднику требуется постоянный запас прочных бревен для шпалер и пресной воды для орошения полей. Спелый виноград отправляется на винодельню, где его перерабатывают в вино."
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:27
 msgid "The winner:"
@@ -4343,13 +3964,8 @@ msgid "There are %1% identical async log entries.\n"
 msgstr "Имеется %1% идентичных записей асинхронного журнала.\n"
 
 #: libs/s25main/ingameWindows/iwTools.cpp:185
-msgid ""
-"These settings control the tool production of your metalworks. The higher "
-"the value, the more likely this tool is to be produced."
-msgstr ""
-"Эти параметры управляют производство инструмента в ваших металлозаводах. Чем "
-"выше значение, тем больше вероятность того, этот инструмент должен быть "
-"произведен."
+msgid "These settings control the tool production of your metalworks. The higher the value, the more likely this tool is to be produced."
+msgstr "Эти параметры управляют производство инструмента в ваших металлозаводах. Чем выше значение, тем больше вероятность того, этот инструмент должен быть произведен."
 
 #: libs/s25main/network/ClientError.cpp:13
 msgid "This Server is full!"
@@ -4360,26 +3976,8 @@ msgid "This harbor building was destroyed"
 msgstr "Этот порт уничтожен"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:108
-msgid ""
-"This is where you can make adjustments to all military matters. The upper "
-"value corresponds to the recruiting rate of your army. The higher it is, the "
-"more inhabitants are recruited as soldiers. Below this is the setting to "
-"protect your huts. If this value is set at maximum, your huts are defended "
-"by the strongest unit. To raise the number of attackers leaving your huts "
-"per attack, choose the next setting. The number of defenders who counter the "
-"enemy in the event of an attack is shown by the fourth display. The final "
-"three values correspond to the occupation of your huts in the interior, in "
-"the center of the country and on its borders."
-msgstr ""
-"Именно здесь можно внести коррективы во все военные дела. Верхнее значение "
-"соответствует скорости набора вашей армии. Чем она выше, тем больше жителей "
-"набирается в солдаты. Ниже находится настройка для защиты ваших хижин. Если "
-"это значение установлено на максимум, ваши хижины защищает самый сильный "
-"юнит. Чтобы увеличить количество атакующих, покидающих ваши хижины за одну "
-"атаку, выберите следующий параметр. Количество защитников, которые "
-"противостоят противнику в случае атаки, показывает четвертый дисплей. "
-"Последние три значения соответствуют занятию ваших хижин внутри страны, в "
-"центре страны и на ее границах."
+msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
+msgstr "Именно здесь можно внести коррективы во все военные дела. Верхнее значение соответствует скорости набора вашей армии. Чем она выше, тем больше жителей набирается в солдаты. Ниже находится настройка для защиты ваших хижин. Если это значение установлено на максимум, ваши хижины защищает самый сильный юнит. Чтобы увеличить количество атакующих, покидающих ваши хижины за одну атаку, выберите следующий параметр. Количество защитников, которые противостоят противнику в случае атаки, показывает четвертый дисплей. Последние три значения соответствуют занятию ваших хижин внутри страны, в центре страны и на ее границах."
 
 #: libs/s25main/buildings/nobUsual.cpp:535
 msgid "This mine is exhausted"
@@ -4390,24 +3988,12 @@ msgid "This well has dried out"
 msgstr "Колодец иссяк"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:203
-msgid ""
-"This window allows a direct comparison with the enemies. Factors such as the "
-"wealth, territorial area, inhabitants, etc. of all parties can be compared. "
-"This data can be shown over four different time periods."
-msgstr ""
-"Это окно позволяет прямое сравнение с врагами. Такие факторы, как богатство, "
-"территориальной зоны, жителей и т.д. всех сторон можно сравнить. Эти данные "
-"могут быть показаны в течение четырех различных периодов времени."
+msgid "This window allows a direct comparison with the enemies. Factors such as the wealth, territorial area, inhabitants, etc. of all parties can be compared. This data can be shown over four different time periods."
+msgstr "Это окно позволяет прямое сравнение с врагами. Такие факторы, как богатство, территориальной зоны, жителей и т.д. всех сторон можно сравнить. Эти данные могут быть показаны в течение четырех различных периодов времени."
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:142
-msgid ""
-"This window shows the wares that should be collected for the economy mode. "
-"Displayed is the current inventory of the player, his team and after game "
-"end of the opponent teams."
-msgstr ""
-"В этом окне показаны товары, которые нужно собрать для Экономического "
-"режима. Отображается текущий инвентарь игрока, его команды и после окончания "
-"игры команд соперников."
+msgid "This window shows the wares that should be collected for the economy mode. Displayed is the current inventory of the player, his team and after game end of the opponent teams."
+msgstr "В этом окне показаны товары, которые нужно собрать для Экономического режима. Отображается текущий инвентарь игрока, его команды и после окончания игры команд соперников."
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:290
 #: libs/s25main/ingameWindows/iwSave.cpp:53
@@ -4427,11 +4013,8 @@ msgid "To player:"
 msgstr "К игроку:"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:171
-msgid ""
-"To register, you have to create a valid board account at http://forum."
-"siedler25.org at the moment.\n"
-msgstr ""
-"Для регистрации вы должны создать аккаунт на http://forum.siedler25.org\n"
+msgid "To register, you have to create a valid board account at http://forum.siedler25.org at the moment.\n"
+msgstr "Для регистрации вы должны создать аккаунт на http://forum.siedler25.org\n"
 
 #: libs/s25main/gameData/GoodConsts.cpp:10
 msgid "Tongs"
@@ -4449,14 +4032,8 @@ msgid "Tools"
 msgstr "Инструменты"
 
 #: libs/s25main/EconomyModeHandler.cpp:74
-msgid ""
-"Tools in the hands of workers are also counted. So are weapons, and beer, "
-"that soldiers have in use. For an updating tally of the collected goods see "
-"the economic progress window."
-msgstr ""
-"Учитываются и инструменты в руках рабочих. Так же как и оружие и пиво, "
-"которыми пользуются солдаты. Для обновления количества собранных товаров "
-"смотрите окно экономического прогресса."
+msgid "Tools in the hands of workers are also counted. So are weapons, and beer, that soldiers have in use. For an updating tally of the collected goods see the economic progress window."
+msgstr "Учитываются и инструменты в руках рабочих. Так же как и оружие и пиво, которыми пользуются солдаты. Для обновления количества собранных товаров смотрите окно экономического прогресса."
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
 #: libs/s25main/ingameWindows/iwTransport.cpp:29
@@ -4687,12 +4264,10 @@ msgstr "Винодел"
 #: libs/s25main/Loader.cpp:300
 msgid ""
 "WARNING: Did not find the music files.\n"
-"\tYou have to run the updater once or copy the .ogg files manually to %1% or "
-"you won't be able to hear the music.\n"
+"\tYou have to run the updater once or copy the .ogg files manually to %1% or you won't be able to hear the music.\n"
 msgstr ""
 "ВНИМАНИЕ: Музыкальные файлы не найдены.\n"
-"\tВы должны запустить программу обновления один раз или вручную скопировать "
-"файлы .ogg в %1%, иначе вы не сможете слушать музыку.\n"
+"\tВы должны запустить программу обновления один раз или вручную скопировать файлы .ogg в %1%, иначе вы не сможете слушать музыку.\n"
 
 #: libs/s25main/Loader.cpp:291
 msgid "WARNING: Found invalid music item for %1%\n"
@@ -4722,10 +4297,8 @@ msgstr "Товары"
 
 #: libs/s25main/network/GameClientGF_Replay.cpp:48
 #, c-format
-msgid ""
-"Warning: The played replay is not in sync with the original match. (GF: %u)"
-msgstr ""
-"Внимание: Проигрываемый повтор не синхронизирован с исходной игрой. (GF: %u)"
+msgid "Warning: The played replay is not in sync with the original match. (GF: %u)"
+msgstr "Внимание: Проигрываемый повтор не синхронизирован с исходной игрой. (GF: %u)"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:14
 msgid "Watchtower"
@@ -4744,8 +4317,7 @@ msgstr "Нас атакуют!"
 
 #: libs/s25main/desktops/dskCredits.cpp:269
 msgid "We hope you enjoy playing Return To The Roots!"
-msgstr ""
-"Мы надеемся, что Вы получите удовольствие, играя в Return To The Roots!"
+msgstr "Мы надеемся, что Вы получите удовольствие, играя в Return To The Roots!"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:366
 msgid "Weak attackers"
@@ -4797,12 +4369,8 @@ msgid "Winery"
 msgstr "Винодельня"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:194
-msgid ""
-"Within his area, the forester ensures the survival of the forest. He plants "
-"all types of trees."
-msgstr ""
-"В пределах своего участка лесник обеспечивает существование леса. Он сажает "
-"все виды деревьев."
+msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
+msgstr "В пределах своего участка лесник обеспечивает существование леса. Он сажает все виды деревьев."
 
 #: libs/s25main/gameData/GoodConsts.cpp:31
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:46
@@ -4858,19 +4426,15 @@ msgstr "Нельзя удалять стандартный список восп
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:20
 msgid ""
-"You can remove gold resources completely or convert them into iron ore, coal "
-"or granite.\n"
+"You can remove gold resources completely or convert them into iron ore, coal or granite.\n"
 "\n"
 "You'll probably want to convert gold to iron ore, as this (on most maps)\n"
 "allows you to utilize the additional coal not needed for minting anymore."
 msgstr ""
-"Вы можете полностью удалить золотые рудники или превратить их в железную "
-"руду, уголь или гранит.\n"
+"Вы можете полностью удалить золотые рудники или превратить их в железную руду, уголь или гранит.\n"
 "\n"
-"Вы, вероятно, захотите конвертировать золото в железную руду, так как это "
-"(на большинстве карт)\n"
-"позволяет использовать дополнительный уголь, который больше не нужен для "
-"чеканки."
+"Вы, вероятно, захотите конвертировать золото в железную руду, так как это (на большинстве карт)\n"
+"позволяет использовать дополнительный уголь, который больше не нужен для чеканки."
 
 #: libs/s25main/desktops/dskDirectIP.cpp:46 libs/s25main/desktops/dskLAN.cpp:84
 #: libs/s25main/desktops/dskLobby.cpp:123
@@ -4886,38 +4450,21 @@ msgid "You can't join that game with your version!"
 msgstr "Вы не можете вступить в игру с Вашей версией игры!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1101
-msgid ""
-"You chose a war based victory condition but peaceful mode is still active. "
-"Would you like to deactivate peaceful mode before you start? Choosing No "
-"will start the game, Yes will let you review the changes."
-msgstr ""
-"Вы выбрали условие победы, основанное на войне, но мирный режим все еще "
-"активен. Вы хотите деактивировать мирный режим, прежде чем начать? Выбор "
-"«Нет» запустит игру, «Да» позволит вам просмотреть изменения."
+msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
+msgstr "Вы выбрали условие победы, основанное на войне, но мирный режим все еще активен. Вы хотите деактивировать мирный режим, прежде чем начать? Выбор «Нет» запустит игру, «Да» позволит вам просмотреть изменения."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1086
 msgid ""
-"You chose the economy mode. In economy mode the player or team that collects "
-"the most of certain goods wins (check the Economic progress window in "
-"game).\n"
+"You chose the economy mode. In economy mode the player or team that collects the most of certain goods wins (check the Economic progress window in game).\n"
 "\n"
-"Some players like to play this objective in peaceful mode. Would you like to "
-"adjust settings for a peaceful game?\n"
-"Choosing Yes will activate peaceful mode, ban catapults and disable "
-"buildings receiving coins by default. After clicking Yes you will be able to "
-"review the changes and then start the game by clicking the Start game button "
-"again.\n"
+"Some players like to play this objective in peaceful mode. Would you like to adjust settings for a peaceful game?\n"
+"Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
 "Choosing No will start the game without any changes."
 msgstr ""
-"Вы выбрали экономический режим. В экономическом режиме побеждает игрок или "
-"команда, которые соберут больше определенных товаров (проверьте окно "
-"экономического прогресса в игре).\n"
+"Вы выбрали экономический режим. В экономическом режиме побеждает игрок или команда, которые соберут больше определенных товаров (проверьте окно экономического прогресса в игре).\n"
 "\n"
-"Некоторым игрокам нравится выполнять эту задачу в мирном режиме. Хотите "
-"настроить параметры для мирной игры?\n"
-"Выбор «Да» активирует мирный режим, запретит катапульты и отключит здания, "
-"получающие монеты по-умолчанию. Нажав «Да», вы сможете просмотреть "
-"изменения, а затем начать игру, снова нажав кнопку «Начать игру».\n"
+"Некоторым игрокам нравится выполнять эту задачу в мирном режиме. Хотите настроить параметры для мирной игры?\n"
+"Выбор «Да» активирует мирный режим, запретит катапульты и отключит здания, получающие монеты по-умолчанию. Нажав «Да», вы сможете просмотреть изменения, а затем начать игру, снова нажав кнопку «Начать игру».\n"
 "При выборе «Нет» игра запустится без каких-либо изменений."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:725
@@ -4990,10 +4537,8 @@ msgstr "переход к gf %1% завершен\n"
 
 #: libs/s25main/GameManager.cpp:137
 #, c-format
-msgid ""
-"jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
-msgstr ""
-"переход к gf %i выполнен, за %i gf: %.3f сек , среднее время %.3f мс \n"
+msgid "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
+msgstr "переход к gf %i выполнен, за %i gf: %.3f сек , среднее время %.3f мс \n"
 
 #: libs/s25main/GameManager.cpp:125
 #, c-format
@@ -5002,12 +4547,8 @@ msgstr "переход к gf %i, сейчас в gf %i \n"
 
 #: libs/s25main/GameManager.cpp:122
 #, c-format
-msgid ""
-"jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time "
-"%.3f ms \n"
-msgstr ""
-"перенаправление к gf %i, сейчас в gf %i, последние 5 тыс gf: %.3f s, среднее "
-"gf %.3f мс. \n"
+msgid "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time %.3f ms \n"
+msgstr "перенаправление к gf %i, сейчас в gf %i, последние 5 тыс gf: %.3f s, среднее gf %.3f мс. \n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "medium"
@@ -5051,8 +4592,7 @@ msgstr "снежный мир"
 #~ msgstr "Раскладка клавиатуры:"
 
 #~ msgid "Loading LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI files from %1%\n"
-#~ msgstr ""
-#~ "Загрузка файлов LST, LBM, BOB, IDX, BMP, TXT, GER, ENG, INI из %1%\n"
+#~ msgstr "Загрузка файлов LST, LBM, BOB, IDX, BMP, TXT, GER, ENG, INI из %1%\n"
 
 #~ msgid "Lost"
 #~ msgstr "Потеряно"
@@ -5067,9 +4607,7 @@ msgstr "снежный мир"
 #~ msgstr "Расположение игроков"
 
 #~ msgid "Please use 'Unlimited Play' to create a Singleplayer game."
-#~ msgstr ""
-#~ "Пoжалуйста воспользуйтесь 'Неограниченная игра', чтоб создать "
-#~ "Однопользовательскую игру."
+#~ msgstr "Пoжалуйста воспользуйтесь 'Неограниченная игра', чтоб создать Однопользовательскую игру."
 
 #~ msgid "Points"
 #~ msgstr "Очки"
