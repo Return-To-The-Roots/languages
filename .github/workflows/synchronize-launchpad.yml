@@ -34,7 +34,7 @@ jobs:
           (cd "$GITHUB_WORKSPACE" && git fast-export -M --all) | (cd bzr-repo && bzr fast-import -)
 
       - name: Login to launchpad
-        run: bzr launchpad-login ${{ secrets.LAUNCHPAD_USER }}
+        run: bzr launchpad-login --no-check ${{ secrets.LAUNCHPAD_USER }}
 
       - name: Upload to launchpad
         working-directory: bzr-repo/trunk
