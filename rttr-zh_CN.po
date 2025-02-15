@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-11 12:29+0100\n"
-"PO-Revision-Date: 2025-02-15 14:05+0800\n"
+"PO-Revision-Date: 2025-02-15 14:44+0800\n"
 "Last-Translator: Hao Hu <huhao@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "Language: zh_CN\n"
@@ -216,7 +216,7 @@ msgstr "1小时"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:30
 msgid "10 catapults"
-msgstr "10个投石屋"
+msgstr "10个投石器"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:85
 #: libs/s25main/ingameWindows/iwStatistics.cpp:146
@@ -230,15 +230,15 @@ msgstr "16小时"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:31
 msgid "20 catapults"
-msgstr "20个投石屋"
+msgstr "20个投石器"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:28
 msgid "3 catapults"
-msgstr "3个投石屋"
+msgstr "3个投石器"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:32
 msgid "30 catapults"
-msgstr "30个投石屋"
+msgstr "30个投石器"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:87
 #: libs/s25main/ingameWindows/iwStatistics.cpp:148
@@ -247,7 +247,7 @@ msgstr "4小时"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:29
 msgid "5 catapults"
-msgstr "5个投石屋"
+msgstr "5个投石器"
 
 #: libs/s25main/Messenger.cpp:81
 #, c-format
@@ -260,7 +260,7 @@ msgstr "创建自动保存游戏..."
 
 #: libs/s25main/buildings/nobMilitary.cpp:1256
 msgid "A catapult is firing upon us!"
-msgstr "投石屋正在向我们射击!"
+msgstr "投石器正在向我们射击!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:161
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
@@ -798,7 +798,7 @@ msgstr "木匠"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:26
 msgid "Catapult"
-msgstr "投石屋"
+msgstr "投石器"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:38
 msgid "Center of country"
@@ -1209,7 +1209,7 @@ msgstr "军事建筑物里显示士兵的生命值."
 #: libs/s25main/ingameWindows/iwDistribution.cpp:30
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:40
 msgid "Distribution of goods"
-msgstr "货物分销"
+msgstr "货物分配"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:727
 msgid "Don't forget to check the addon configuration!"
@@ -1357,7 +1357,7 @@ msgstr "敌军港口无阻"
 #: libs/s25main/ingameWindows/iwAction.cpp:255
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:27
 msgid "Erect flag"
-msgstr "竖旗"
+msgstr "插旗"
 
 #: libs/s25client/s25client.cpp:123 libs/s25client/s25client.cpp:146
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
@@ -1619,7 +1619,7 @@ msgstr "渔夫"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:28
 msgid "Fishery"
-msgstr "捕鱼工小屋"
+msgstr "渔夫工棚"
 
 #: libs/s25main/gameData/GoodConsts.cpp:27
 msgid "Flour"
@@ -1648,7 +1648,7 @@ msgstr "食品"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:30
 msgid "Forester"
-msgstr "植树工小屋"
+msgstr "护林员工棚"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:19
 msgid "Fortress"
@@ -1863,7 +1863,7 @@ msgstr "图形驱动程序"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:12
 msgid "Guardhouse"
-msgstr "卫兵哨所"
+msgstr "警卫室"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:76
 msgid "HQ distance to mountain"
@@ -1932,7 +1932,7 @@ msgstr "房屋名称"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:32
 msgid "Hunter"
-msgstr "猎人小屋"
+msgstr "猎人工棚"
 
 #: libs/s25main/gameData/JobConsts.cpp:25
 msgid "Huntsman"
@@ -2183,7 +2183,7 @@ msgstr "限制帧率:"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:17
 msgid "Limit number of catapults"
-msgstr "限制投石屋的数量"
+msgstr "限制投石器的数量"
 
 #: libs/s25main/addons/AddonMaxRank.h:27
 msgid "Limit the rank for soldiers"
@@ -2221,13 +2221,13 @@ msgid ""
 "Watchtower: 2\n"
 "Fortress: 1"
 msgstr ""
-"限制每位玩家的投石屋数量 . \n"
+"限制每位玩家的投石器数量. \n"
 "\n"
-"按以下军事建筑物对投石屋的比例 : \n"
-"营房 : 8\n"
-"卫兵屋 : 4\n"
-"瞭望塔 : 2\n"
-"堡垒 : 1"
+"按以下比例使用军事建筑与投石器: \n"
+"兵营: 8\n"
+"警卫室: 4\n"
+"哨塔: 2\n"
+"堡垒: 1"
 
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:70
 msgid "Load 'ReadMe' file"
@@ -2313,7 +2313,7 @@ msgstr "瞭望塔"
 
 #: libs/s25main/figures/nofScout_LookoutTower.cpp:45
 msgid "Lookout-tower occupied"
-msgstr "瞭望塔被占用"
+msgstr "占据瞭望塔"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1217
 #: libs/s25main/desktops/dskLobby.cpp:259
@@ -2531,7 +2531,7 @@ msgstr "失去军事建筑物"
 
 #: libs/s25main/buildings/nobMilitary.cpp:703
 msgid "Military building occupied"
-msgstr "占据了军事建筑物"
+msgstr "占据军事建筑物"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:136
 #: libs/s25main/ingameWindows/iwStatistics.cpp:237
@@ -2695,7 +2695,7 @@ msgstr "无代理"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:27
 msgid "No catapults"
-msgstr "无投石屋"
+msgstr "无投石器"
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:24
 #: libs/s25main/addons/AddonDefenderBehavior.h:24
@@ -3099,7 +3099,7 @@ msgstr "代理类型:"
 #: libs/s25main/ingameWindows/iwAction.cpp:202
 #: libs/s25main/ingameWindows/iwAction.cpp:216
 msgid "Pull down flag"
-msgstr "拉下旗帜"
+msgstr "撤旗"
 
 #: libs/s25main/desktops/dskCredits.cpp:58
 #: libs/s25main/desktops/dskCredits.cpp:63
@@ -3766,7 +3766,7 @@ msgstr "谢谢 !"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:174
 msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
-msgstr "投石屋具有巨大的威力, 是打击敌方军事建筑的有效武器."
+msgstr "投石器具有巨大的威力, 是打击敌方军事建筑的有效武器."
 
 #: libs/s25main/postSystem/PostMsg.cpp:29
 #, c-format
@@ -3930,7 +3930,7 @@ msgstr "无法保存指定文件!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:188
 msgid "The stonemason works the stone near his quarry into bricks. These are needed mainly for building houses and as ammunition for catapults."
-msgstr "石匠将采石场附近的石头加工成砖. 这些砖主要用于建造房屋和作为投石屋的弹药."
+msgstr "石匠将采石场附近的石头加工成砖. 这些砖主要用于建造房屋和作为投石器的弹药."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:239
 msgid "The storehouse can help reduce long transportation journeys and is suited to the temporary storage of merchandise and inhabitants. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
@@ -4303,7 +4303,7 @@ msgstr "警告:播放的重播与原始比赛不同步. (GF: %u)"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:14
 msgid "Watchtower"
-msgstr "瞭望塔"
+msgstr "哨塔"
 
 #: libs/s25main/gameData/GoodConsts.cpp:19
 #: libs/s25main/gameData/GoodConsts.cpp:20
@@ -4371,7 +4371,7 @@ msgstr "葡萄酒厂"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:194
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
-msgstr "植树工在自己的区域内确保森林的生存. 他种植各种树木."
+msgstr "护林员在自己的区域内确保森林的生存. 他种植各种树木."
 
 #: libs/s25main/gameData/GoodConsts.cpp:31
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:46
@@ -4384,7 +4384,7 @@ msgstr "伐木工"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:27
 msgid "Woodcutter"
-msgstr "伐木工小屋"
+msgstr "伐木工棚"
 
 #: libs/s25main/desktops/dskGameLoader.cpp:120
 msgid "World was put together and glued..."
@@ -4465,7 +4465,7 @@ msgstr ""
 "您选择了经济模式. 在经济模式下, 收集特定物品最多的玩家或团队获胜 (查看游戏中的经济进度窗口) . \n"
 "\n"
 "有些玩家喜欢在和平模式下进行游戏. 您想调整设置以进行和平游戏吗?\n"
-"选择 \"是 \"将激活和平模式, 禁止使用投石屋, 并默认禁止建筑物接收金币. 单击 \"是 \"后, 您可以查看更改, 然后再次单击 \"开始游戏 \"按钮开始游戏. \n"
+"选择 \"是 \"将激活和平模式, 禁止使用投石器, 并默认禁止建筑物接收金币. 单击 \"是 \"后, 您可以查看更改, 然后再次单击 \"开始游戏 \"按钮开始游戏. \n"
 "选择 \"否 \"将在不做任何更改的情况下开始游戏."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:725
