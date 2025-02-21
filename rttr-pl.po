@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2025-02-20 17:02+0000\n"
 "Last-Translator: Łukasz Abramczuk <Unknown>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -1412,6 +1412,10 @@ msgid ""
 msgstr ""
 "Błąd podczas wykonywania skryptu Lua:%1\n"
 "Gra zatrzymana!"
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
+msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
 #, c-format
@@ -3340,6 +3344,10 @@ msgstr "Zapisz playlistę"
 msgid "Savegame error: "
 msgstr "Błąd zapisu gry: "
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr "Piła"
@@ -3826,11 +3834,11 @@ msgstr "W zakładach metalowych, z żelaza i desek, tworzone są narzędzia dla 
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "Forteca pod względem defensywnym oraz gabarytowym nie ma sobie równych. To ona stanowi trzon zabudowy obronnej twojego państwa. Za pomocą ikony złotej monety możesz dopuścić lub zatrzymać dostawy złotych monet dla twoich wojaków. Pamiętaj jednak, że bez nich żołdacy nie mogą trenować, a co za tym idzie - zwiększać swoich umiejętności."
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr "Program ratunkowy został włączony"
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr "Program ratunkowy został wyłączony."
 
@@ -4489,7 +4497,7 @@ msgstr "Aby zmienić sterownik dźwięku lub obrazu, musisz zrestartować grę!"
 msgid "You win"
 msgstr "Wygrałeś"
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr "Twój sojusznik chce Cię powiadomić o tej lokacji"
 

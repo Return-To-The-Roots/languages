@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2020-05-21 15:36+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -1398,6 +1398,10 @@ msgid ""
 msgstr ""
 "Erreur durant l'exécution du script lua : %1\n"
 "Partie arrêtée !"
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
+msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
 #, c-format
@@ -3326,6 +3330,10 @@ msgstr ""
 msgid "Savegame error: "
 msgstr ""
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr "Scie"
@@ -3813,11 +3821,11 @@ msgstr ""
 "La Forteresse est incontestablement le bâtiment le plus important par sa taille et sa puissance. Ce véritable bastion contribuera à défendre vos territoires les plus précieux.\n"
 "Le bouton « Pièces d'or » vous permet d'interrompre le paiement de la solde des militaires qui sont stationnés dans ce bâtiment."
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr "Programme d'urgence activé !"
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr "Programme d'urgence désactivé !"
 
@@ -4489,7 +4497,7 @@ msgstr "Vous devez redémarrer le jeu pour prendre en compte le changement de de
 msgid "You win"
 msgstr "Vous avez gagné"
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr "Votre allié veut vous informer de cette position."
 

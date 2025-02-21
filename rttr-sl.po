@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2020-05-21 15:36+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -1392,6 +1392,10 @@ msgstr "Napaka pri raztegovanju map datoteke"
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
 msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
@@ -3319,6 +3323,10 @@ msgstr ""
 msgid "Savegame error: "
 msgstr ""
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr "Žaga"
@@ -3802,11 +3810,11 @@ msgstr "Nešteta orodja, ki jih tvoji delavci potrebujejo, so ustvarjena v metal
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "Obrambne sposobnosti in kapaciteta vojaške trdnjave sta neprekosljiva. Je največja zgradba za vseljevanje vojakov. Z uporabo gumba z ikono zlatnika se zaustavi dostava zlatnikov v zgradbo. Kakorkoli, brez zlatnikov se vojaki ne morejo izboljševati."
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr "Zasilni program je bil aktiviran."
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr "Zasilni program je bil deaktiviran."
 
@@ -4458,7 +4466,7 @@ msgstr "Za spremembo grafičnega ter glasbenega gonilnika je potreben ponoven za
 msgid "You win"
 msgstr "Zmagal si"
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr "Tvoj zaveznik te želi obvestiti o tej lokaciji"
 
