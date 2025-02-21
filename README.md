@@ -28,7 +28,8 @@ Language files for s25client
     - Check and fix auto-translations
     - Remove unused translations (Validate, that they are actually unused)
     - Save
-    - Run `make -B translations` in the build directory to have gettext sort the translations. Alternatively run `msgmerge --sort-output --no-wrap --quiet --update --backup=none <abspath-to-file>.po <abspath-to-rttr.pot>rttr.pot` on every po-file
+    - Run `make -B translations` in the build directory to have gettext sort the translations.  
+      Alternatively run `msgmerge --sort-output --no-wrap --quiet --update --backup=none <abspath-to-file>.po <abspath-to-rttr.pot>` on every po-file.
     - commit
 - Create a pull request with the change
 
