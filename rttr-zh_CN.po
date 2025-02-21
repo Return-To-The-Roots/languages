@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2025-02-17 20:27+0800\n"
 "Last-Translator: Hao Hu <huhao@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
@@ -1409,6 +1409,10 @@ msgid ""
 msgstr ""
 "执行 lua 脚本时出错:%1\n"
 "游戏停止!"
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
+msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
 #, c-format
@@ -3337,6 +3341,10 @@ msgstr "保存播放列表"
 msgid "Savegame error: "
 msgstr "游戏存档错误: "
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr "锯"
@@ -3823,11 +3831,11 @@ msgstr "工人们需要的无数工具都是在工具厂制造的. 这需要木�
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "城堡的防御能力和规模无与伦比. 这座城堡可以确保其他有价值的建筑和商品受到保护. 使用金币按钮可以停止向驻扎在这里的士兵运送金币. 但是, 没有金币, 这里的士兵就无法训练和提高技能."
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr "紧急程序已经启动."
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr "紧急程序已经解除."
 
@@ -4486,7 +4494,7 @@ msgstr "您需要重新启动游戏才能更改视频或音频驱动程序!"
 msgid "You win"
 msgstr "您赢了"
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr "您的盟友想传达这个地点讯息"
 

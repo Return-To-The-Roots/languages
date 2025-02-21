@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2020-05-21 15:36+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -1381,6 +1381,10 @@ msgstr ""
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
 msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
@@ -3301,6 +3305,10 @@ msgstr ""
 msgid "Savegame error: "
 msgstr ""
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr "Såg"
@@ -3784,11 +3792,11 @@ msgstr "Verktygssmeden tillverkar de otaliga verktygen som dina arbetare behöve
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "Försvarsmöjligheterna och utrymmet i borgen är oöverträffade. Denna fästning ser till att andra värdefulla byggnader och varor är säkra. Med hjälp av myntknappen kan du stoppa leveransen av guldmynt till de här stationerade soldaterna. Fast, utan mynt kan soldaterna inte träna och utveckla sina färdigheter."
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr "Krisprogrammet har aktiverats."
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr "Krisprogrammet har deaktiverats."
 
@@ -4436,7 +4444,7 @@ msgstr "Du måste starta om spelet för att ändra drivrutin för bild eller lju
 msgid "You win"
 msgstr "Du vinner"
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr ""
 
