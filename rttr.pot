@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2012-09-30 18:07+0100\n"
 "Last-Translator: Florian Doersch <sf-team@siedler25.org>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-KeywordsList: _;gettext_noop;__\n"
@@ -196,15 +196,15 @@ msgstr ""
 msgid "Splash screen couldn't be loaded!"
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr ""
 
@@ -4463,6 +4463,14 @@ msgstr ""
 #: libs/s25main/network/GameClient.cpp:1650
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
 msgstr ""
 
 #: libs/s25main/network/GameClientGF_Replay.cpp:48

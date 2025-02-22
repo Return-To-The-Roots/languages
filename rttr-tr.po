@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2020-05-21 15:36+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Turkish <tr@li.org>\n"
@@ -1379,6 +1379,10 @@ msgstr ""
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
 msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
@@ -3290,6 +3294,10 @@ msgstr ""
 msgid "Savegame error: "
 msgstr ""
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr ""
@@ -3773,11 +3781,11 @@ msgstr ""
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr ""
 
@@ -4423,7 +4431,7 @@ msgstr ""
 msgid "You win"
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr ""
 

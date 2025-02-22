@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2020-12-21 13:09+0000\n"
 "Last-Translator: FloSoft <Unknown>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -1409,6 +1409,10 @@ msgid ""
 msgstr ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
+msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
 #, c-format
@@ -3337,6 +3341,10 @@ msgstr "Save playlist"
 msgid "Savegame error: "
 msgstr "Savegame error: "
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr "Saw"
@@ -3820,11 +3828,11 @@ msgstr "The countless tools which your workers need are made in the metalworks. 
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button, you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins, the soldiers here can not train and improve their skills."
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr "The emergency program has been activated."
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr "The emergency program has been deactivated."
 
@@ -4478,7 +4486,7 @@ msgstr "You need to restart your game to change the video or audio driver!"
 msgid "You win"
 msgstr "You've won"
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr "Your ally wishes to notify you of this location"
 

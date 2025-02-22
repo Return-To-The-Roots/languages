@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2020-05-21 15:37+0000\n"
 "Last-Translator: Milo Casagrande <milo.casagrande@gmail.com>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -1379,6 +1379,10 @@ msgstr ""
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
 msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
@@ -3290,6 +3294,10 @@ msgstr ""
 msgid "Savegame error: "
 msgstr ""
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr "Sega"
@@ -3773,11 +3781,11 @@ msgstr "Gli innumerevoli attrezzi di cui i tuoi lavoratori hanno bisogno vengono
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "Le capacità difensive e le dimensioni della fortezza non hanno rivali. Questo caposaldo assicura protezione agli altri edifici di valore e alle materie prime. Usando il pulsante delle monete d'oro puoi fermare la consegna delle monete ai soldati che stazionano qui. Comunque, senza monete d'oro i soldati non possono addestrarsi e migliorare le loro capacità."
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr "Il programma d'emergenza è stato attivato"
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr ""
 
@@ -4423,7 +4431,7 @@ msgstr "Devi riavviare il gioco per cambiare il diver audio o video!"
 msgid "You win"
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr ""
 

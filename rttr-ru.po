@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2025-01-14 20:52+0300\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -1410,6 +1410,10 @@ msgid ""
 msgstr ""
 "Ошибка при выполнении сценария lua:%1\n"
 "Игра остановлена!"
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
+msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
 #, c-format
@@ -3338,6 +3342,10 @@ msgstr "Сохранить плейлист"
 msgid "Savegame error: "
 msgstr "Ошибка сохранения игры: "
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr "Пила"
@@ -3824,11 +3832,11 @@ msgstr "Бесчисленные инструменты, необходимые 
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "Оборонительные возможности и размер крепости неоспоримы. Это укрепление гарантирует, что остальные ценные здания защищены. Искользование кнопки с золотой монетой позволяет прекратить поставку золотых монет находящимся здесь солдатам. Но без золотых монет солдаты не смогут тренироваться и улучшать свои навыки."
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr "Программа сохранения критического запаса товаров активирована."
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr "Программа сохранения критического запаса товаров деактивирована."
 
@@ -4487,7 +4495,7 @@ msgstr "Вам нужно перезапустить игру для смены 
 msgid "You win"
 msgstr "Вы победили"
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr "Ваш союзник желает Вас известить о местоположении"
 

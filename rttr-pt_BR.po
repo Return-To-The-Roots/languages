@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-11 12:29+0100\n"
+"POT-Creation-Date: 2025-02-21 17:19+0100\n"
 "PO-Revision-Date: 2020-05-21 15:37+0000\n"
 "Last-Translator: Ronaldo padilha <ronaldoflake@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
@@ -1381,6 +1381,10 @@ msgstr ""
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1697
+msgid "Error during saving: "
 msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1542
@@ -3301,6 +3305,10 @@ msgstr ""
 msgid "Savegame error: "
 msgstr ""
 
+#: libs/s25main/network/GameClient.cpp:1669
+msgid "Saving game..."
+msgstr ""
+
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
 msgstr "Serra"
@@ -3784,11 +3792,11 @@ msgstr "As inúmeras ferramentas que os seus trabalhadores precisam são feitas 
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "As capacidades defensivas e tamanho da fortaleza sao insuperáveis​​. Esta fortaleza garante que outros edifícios valiosos e commodities estão protegidos. Usando o botao moeda de ouro que você pode interromper a entrega de moedas de ouro para os soldados parados aqui. No entanto, sem moedas de ouro os soldados aqui nao pode treinar e melhorar suas habilidades."
 
-#: libs/s25main/GamePlayer.cpp:2066
+#: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
 msgstr "O programa de emergência foi ativado."
 
-#: libs/s25main/GamePlayer.cpp:2075
+#: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
 msgstr "O programa de emergência foi desativado."
 
@@ -4434,7 +4442,7 @@ msgstr "Você precisa reiniciar seu jogo para mudar o driver de audio ou video!"
 msgid "You win"
 msgstr "Você Venceu"
 
-#: libs/s25main/GamePlayer.cpp:1642
+#: libs/s25main/GamePlayer.cpp:1643
 msgid "Your ally wishes to notify you of this location"
 msgstr ""
 
