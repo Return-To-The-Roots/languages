@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-21 17:19+0100\n"
-"PO-Revision-Date: 2025-02-20 17:02+0000\n"
-"Last-Translator: Łukasz Abramczuk <Unknown>\n"
+"PO-Revision-Date: 2025-02-22 14:24+0100\n"
+"Last-Translator: Łukasz Abramczuk <lukasz.abramczuk@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-02-20 21:20+0000\n"
-"X-Generator: Launchpad (build 78860d903de6d6d7dd5a0ade63efaca45d3467e2)\n"
+"X-Launchpad-Export-Date: 2025-02-22 12:44+0000\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -80,7 +80,7 @@ msgstr "%1% są zwycięzcami!"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:257
 msgid "%1% campaign(s) could not be loaded. Check the log for details"
-msgstr "%1% kampanie nie mogły zostać załadowane. Sprawdź log po więcej szczegółów."
+msgstr "%1% kampanie nie mogły zostać załadowane. Więcej szczegółów znajdziesz w logu."
 
 #: libs/s25main/desktops/dskSelectMap.cpp:170
 msgid "%1% map(s) could not be loaded. Check the log for details"
@@ -189,20 +189,20 @@ msgstr "-90%"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:95
 msgid "-> Build castle"
-msgstr "Wybuduj zamek"
+msgstr "-> Wybuduj zamek"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:82
 #: libs/s25main/ingameWindows/iwAction.cpp:93
 msgid "-> Build house"
-msgstr "Wybuduj budynek"
+msgstr "-> Wybuduj budynek"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:91
 msgid "-> Build hut"
-msgstr "Wybuduj chatkę"
+msgstr "-> Wybuduj chatkę"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:88
 msgid "-> Dig mines"
-msgstr "Wybuduj kopalnię"
+msgstr "-> Wybuduj kopalnię"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:94
 msgid "..."
@@ -215,7 +215,7 @@ msgstr "... i wielu innych"
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:86
 #: libs/s25main/ingameWindows/iwStatistics.cpp:147
 msgid "1 h"
-msgstr "1 godz."
+msgstr "1 h"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:30
 msgid "10 catapults"
@@ -229,7 +229,7 @@ msgstr "15 m"
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:88
 #: libs/s25main/ingameWindows/iwStatistics.cpp:149
 msgid "16 h"
-msgstr "16 godz."
+msgstr "16 h"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:31
 msgid "20 catapults"
@@ -246,7 +246,7 @@ msgstr "30 katapult"
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:87
 #: libs/s25main/ingameWindows/iwStatistics.cpp:148
 msgid "4 h"
-msgstr "4 godz."
+msgstr "4 h"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:29
 msgid "5 catapults"
@@ -518,7 +518,7 @@ msgstr "Sztuczna inteligencja"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:155
 msgid "As the teams are locked, you cannot make treaties of any kind."
-msgstr "Jako, że drużyny są zablokowane, nie możesz tworzyć żadnych traktatów"
+msgstr "Jako, że drużyny są zablokowane, nie możesz tworzyć żadnych traktatów."
 
 #: libs/s25main/desktops/dskOptions.cpp:269
 msgid "Ask always"
@@ -549,7 +549,7 @@ msgid ""
 "Async log saved at %1%,\n"
 "game saved at %2%\n"
 msgstr ""
-"log async zapisany w %1%,\n"
+"Async log zapisany w %1%,\n"
 "gra zapisana w %2%\n"
 
 #: libs/s25main/network/GameServer.cpp:1325
@@ -1068,7 +1068,7 @@ msgstr "Tygiel"
 #: libs/s25main/desktops/dskGameInterface.cpp:378
 #, c-format
 msgid "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
-msgstr "Aktualne GF: %u / długość GF: %u ms / długość NWF: %u gf (%u ms) / Ping: %u ms"
+msgstr "Aktualne GF: %u / Długość GF: %u ms / Długość NWF: %u gf (%u ms) /  Ping: %u ms"
 
 #: libs/s25main/addons/AddonCustomBuildSequence.h:18
 msgid "Custom build sequence"
@@ -1190,7 +1190,7 @@ msgstr "Domyślnie wyłączone przynoszenie monet"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:19
 msgid "Disable the demolition of military buildings under attack or near frontiers."
-msgstr "Wyłącz możliwość niszczenia atakowanych lub granicznych budowli wojskowych"
+msgstr "Wyłącz możliwość niszczenia atakowanych lub granicznych budowli wojskowych."
 
 #: libs/s25main/desktops/dskOptions.cpp:417
 #: libs/s25main/ingameWindows/iwSave.cpp:140
@@ -1453,7 +1453,7 @@ msgstr "Liczba zdarzeń nie zgadza się. Odczytania liczba: %1%. Oczekiwana: %2%
 
 #: libs/s25main/ingameWindows/iwSave.cpp:145
 msgid "Every GF"
-msgstr "Każda GF"
+msgstr "Każda klata (GF)"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:22
 msgid "Everyone"
@@ -1494,7 +1494,7 @@ msgstr "Nie udało się zainicjować GUI: "
 #: libs/s25main/Loader.cpp:534 libs/s25main/Loader.cpp:549
 #, c-format
 msgid "Failed to load %s\n"
-msgstr "Niepowodzenie w czasie ładowania %s\n"
+msgstr "Niepowodzenie ładowania %s\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:217
 msgid "Failed to load campaign %1%.\n"
@@ -1530,7 +1530,7 @@ msgstr "Nie udało się załadować stanu Lua!"
 #: libs/s25main/desktops/dskCampaignSelection.cpp:236
 #: libs/s25main/desktops/dskSelectMap.cpp:430
 msgid "Failed to load map %1%: %2%\n"
-msgstr "Nie udało się załadować mapy %1%:%2%\n"
+msgstr "Nie udało się załadować mapy %1%: %2%\n"
 
 #: libs/s25main/resources/ArchiveLoader.cpp:147
 msgid "Failed to merge entry %1%. Archive expected!\n"
@@ -1705,7 +1705,7 @@ msgstr "Pełny ekran"
 #: libs/s25main/desktops/dskOptions.cpp:285
 #: libs/s25main/ingameWindows/iwSettings.cpp:36
 msgid "Fullscreen resolution:"
-msgstr "Rozdzielczość na pełnym ekranie"
+msgstr "Rozdzielczość ekranu:"
 
 #: libs/s25main/desktops/dskOptions.cpp:330
 msgid "GUI Scale:"
@@ -1807,7 +1807,7 @@ msgstr "Idź do następnego magazynu"
 #: libs/s25main/ingameWindows/iwObservate.cpp:47
 #: libs/s25main/ingameWindows/iwShip.cpp:49
 msgid "Go to place"
-msgstr "Idź do"
+msgstr "Idź do lokacji"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:209
 msgid "Goals:"
@@ -2077,11 +2077,11 @@ msgstr "Niepoprawny port. Zakres poprawnych portów to 1 - 65535!"
 
 #: libs/s25main/ingameWindows/iwSettings.cpp:63
 msgid "Invert Mouse Pan"
-msgstr "Odwróć przesuwanie myszy"
+msgstr "Odwróć osie myszy"
 
 #: libs/s25main/desktops/dskOptions.cpp:246
 msgid "Invert Mouse Pan:"
-msgstr "Odwróć przesuwanie myszy:"
+msgstr "Odwróć osie myszy:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:26
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:66
@@ -2262,15 +2262,15 @@ msgstr "Załadowany sterownik wideo \"%1%\"\n"
 
 #: libs/s25main/MusicPlayer.cpp:63
 msgid "Loading \"%1%\": "
-msgstr "Wczytywanie ,,%1%'': "
+msgstr "Wczytywanie \"%1%\": "
 
 #: libs/s25main/Playlist.cpp:64
 msgid "Loading %1%\n"
-msgstr "Wczytywanie %s\n"
+msgstr "Wczytywanie %1%\n"
 
 #: libs/s25main/resources/ArchiveLoader.cpp:72
 msgid "Loading %1%: "
-msgstr "Wczytywanie %s: "
+msgstr "Wczytywanie %1%: "
 
 #: libs/s25main/resources/ArchiveLoader.cpp:84
 #, c-format
@@ -2435,7 +2435,7 @@ msgstr "Transmisja mapy była uszkodzona!"
 
 #: libs/s25main/desktops/dskGameLoader.cpp:83
 msgid "Map was loaded and pinned at the wall..."
-msgstr "Mapa wczytana i przypięta do ściany"
+msgstr "Mapa wczytana i przypięta do ściany..."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:243
 #: libs/s25main/desktops/dskGameLobby.cpp:262
@@ -2559,7 +2559,7 @@ msgstr "Górnik"
 
 #: libs/s25main/addons/AddonInexhaustibleMines.h:18
 msgid "Mines will never be depleted."
-msgstr "Złoża w kopalniach nigdy się nie wyczerpią"
+msgstr "Złoża w kopalniach nigdy się nie wyczerpią."
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:23
 msgid "Minimal"
@@ -2977,7 +2977,7 @@ msgstr "Odtwarzaj w kolejności"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:124
 msgid "Played"
-msgstr "Grane"
+msgstr "Rozegrane"
 
 #: libs/s25main/desktops/dskLAN.cpp:48 libs/s25main/desktops/dskLobby.cpp:55
 #: libs/s25main/desktops/dskSelectMap.cpp:77
@@ -2988,7 +2988,7 @@ msgstr "Gracz"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:204
 msgid "Player %1%"
-msgstr "Gracz  %1%"
+msgstr "Gracz %1%"
 
 #: libs/s25main/world/MapLoader.cpp:412
 #, c-format
@@ -2998,7 +2998,7 @@ msgstr "Gracz %u nie ma prawidłowej pozycji startowej!"
 #: libs/s25main/desktops/dskGameInterface.cpp:1359
 #, c-format
 msgid "Player '%s' is the winner!"
-msgstr "Gracz %s zwyciężył!"
+msgstr "Gracz '%s' zwyciężył!"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1161
 #, c-format
@@ -3345,8 +3345,9 @@ msgid "Savegame error: "
 msgstr "Błąd zapisu gry: "
 
 #: libs/s25main/network/GameClient.cpp:1669
+#, fuzzy
 msgid "Saving game..."
-msgstr ""
+msgstr "Wczytuję grę...\n"
 
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
@@ -3518,7 +3519,7 @@ msgstr "Łopata"
 
 #: libs/s25main/desktops/dskOptions.cpp:276
 msgid "Show GameFrame Info:"
-msgstr "Pokaż informacje o ramce gry:"
+msgstr "Pokaż informacje o klatce gry (GF):"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:163
 msgid "Show coordinates"
@@ -3541,7 +3542,7 @@ msgstr "Rozmiar państwa"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:14
 msgid "Skip GameFrames"
-msgstr "Przeskocz klatki"
+msgstr "Przeskocz klatki (GF)"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:170
 #, c-format
@@ -3571,7 +3572,7 @@ msgstr "Inteligentny kursor"
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:17
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
-msgstr "Kowal może wytworzyć 1 tarczę & 1 miecz za 1 rudę żelaza + 1 węgiel zamiast za 2 rudy żelaza i 2 węgle"
+msgstr "Kowal może wytworzyć 1 tarczę i 1 miecz za 1 szt. rudy żelaza + 1 szt. węgla zamiast za 2 szt. rudy żelaza + 2 szt. węgla"
 
 #: libs/s25main/desktops/dskOptions.cpp:234
 msgid "Socks v4"
@@ -3579,7 +3580,7 @@ msgstr "Socks v4"
 
 #: libs/s25main/addons/AddonBattlefieldPromotion.h:17
 msgid "Soldiers winning a fight increase in rank."
-msgstr "Żołnierze wygrywający walkę zdobywają awans"
+msgstr "Żołnierze wygrywający walkę zdobywają awans."
 
 #: libs/s25main/desktops/dskSplash.cpp:81
 msgid ""
@@ -3662,7 +3663,7 @@ msgstr "Statystyki"
 
 #: libs/s25main/ingameWindows/iwSettings.cpp:66
 msgid "Statistics Scale"
-msgstr "Skala"
+msgstr "Skala statystyk"
 
 #: libs/s25main/ingameWindows/iwInventory.cpp:11
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:56
@@ -3836,7 +3837,7 @@ msgstr "Forteca pod względem defensywnym oraz gabarytowym nie ma sobie równych
 
 #: libs/s25main/GamePlayer.cpp:2067
 msgid "The emergency program has been activated."
-msgstr "Program ratunkowy został włączony"
+msgstr "Program ratunkowy został włączony."
 
 #: libs/s25main/GamePlayer.cpp:2076
 msgid "The emergency program has been deactivated."
@@ -4212,7 +4213,7 @@ msgstr "Wyeliminowani przeciwnicy"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
 msgid "Verifying server info..."
-msgstr "Weryfikowanie informacji serwera"
+msgstr "Weryfikowanie informacji serwera..."
 
 #: libs/s25main/desktops/dskLAN.cpp:49 libs/s25main/desktops/dskLobby.cpp:56
 #: libs/s25main/desktops/dskLobby.cpp:59
@@ -4297,7 +4298,7 @@ msgstr "Czekanie na odpowiedź..."
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
 msgid "Waiting for server info..."
-msgstr "Oczekiwanie na informacje od serwera"
+msgstr "Oczekiwanie na informacje z serwera..."
 
 #: libs/s25main/ingameWindows/iwTrade.cpp:66
 msgid "Ware you like to trade"
@@ -4516,7 +4517,7 @@ msgstr "wszyscy programiści, którzy wnieśli swój wkład przez Github"
 #: libs/s25main/network/GameClient.cpp:1638
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
-msgstr "aktualna GF: %u - Nadal pozostalo: %d GF (%d %%)"
+msgstr "aktualna GF: %u - nadal pozostało do przewinięcia: %d GF (%d %%)"
 
 #: libs/s25main/addons/AddonMoreAnimals.h:20
 msgid "default"
@@ -4568,7 +4569,7 @@ msgstr "średni"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:19
 msgid "to GameFrame:"
-msgstr "do klatki:"
+msgstr "do klatki (GF):"
 
 #: libs/s25main/desktops/dskCredits.cpp:141
 msgid "various anonymous donators"
