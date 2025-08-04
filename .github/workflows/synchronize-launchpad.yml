@@ -6,7 +6,7 @@ name: Synchronize with Launchpad
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, fix/** ]
   workflow_dispatch:
 
 jobs:
@@ -36,19 +36,23 @@ jobs:
           fetch-depth: 0
 
       - name: Setup SSH
+        if: ${{ github.ref_name == 'master' }}
         uses: MrSquaare/ssh-setup-action@v3
         with:
           host: bazaar.launchpad.net
           private-key: ${{ secrets.LAUNCHPAD_PRIVATE_KEY }}
 
       - name: Synchronize bazaar and git
+        if: ${{ github.ref_name == 'master' }}
         run: |
           brz init-repo bzr-repo
           (cd "$GITHUB_WORKSPACE" && git fast-export -M --all) | (cd bzr-repo && brz fast-import -)
 
       - name: Login to launchpad
+        if: ${{ github.ref_name == 'master' }}
         run: brz launchpad-login ${{ secrets.LAUNCHPAD_USER }}
 
       - name: Upload to launchpad
+        if: ${{ github.ref_name == 'master' }}
         working-directory: bzr-repo/trunk
         run: brz push --overwrite lp:~s25rttrteam/s25rttr/s25rttr-languages
