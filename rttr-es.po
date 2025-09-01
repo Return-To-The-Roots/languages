@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-21 17:19+0100\n"
+"POT-Creation-Date: 2025-09-01 08:39+0200\n"
 "PO-Revision-Date: 2023-05-29 11:30+0200\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -95,7 +95,7 @@ msgstr ""
 msgid "%1%x"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:455
+#: libs/s25main/desktops/dskGameLobby.cpp:483
 #, c-format
 msgid "%d"
 msgstr "%d"
@@ -160,9 +160,9 @@ msgstr ""
 msgid "+500%"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:306
-#: libs/s25main/desktops/dskGameLobby.cpp:446
-#: libs/s25main/desktops/dskGameLobby.cpp:448
+#: libs/s25main/desktops/dskGameLobby.cpp:328
+#: libs/s25main/desktops/dskGameLobby.cpp:473
+#: libs/s25main/desktops/dskGameLobby.cpp:475
 msgid "-"
 msgstr "-"
 
@@ -203,12 +203,12 @@ msgstr "-> Excavar minas"
 msgid "..."
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:240
+#: libs/s25main/desktops/dskCredits.cpp:239
 msgid "... and many more"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:86
-#: libs/s25main/ingameWindows/iwStatistics.cpp:147
+#: libs/s25main/ingameWindows/iwStatistics.cpp:153
 msgid "1 h"
 msgstr "1 h"
 
@@ -217,12 +217,12 @@ msgid "10 catapults"
 msgstr "10 catapultas"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:85
-#: libs/s25main/ingameWindows/iwStatistics.cpp:146
+#: libs/s25main/ingameWindows/iwStatistics.cpp:152
 msgid "15 m"
 msgstr "15 m"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:88
-#: libs/s25main/ingameWindows/iwStatistics.cpp:149
+#: libs/s25main/ingameWindows/iwStatistics.cpp:155
 msgid "16 h"
 msgstr "16 h"
 
@@ -239,7 +239,7 @@ msgid "30 catapults"
 msgstr "30 catapultas"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:87
-#: libs/s25main/ingameWindows/iwStatistics.cpp:148
+#: libs/s25main/ingameWindows/iwStatistics.cpp:154
 msgid "4 h"
 msgstr "4 h"
 
@@ -264,7 +264,7 @@ msgstr "¡Una catapulta nos está disparando!"
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
 msgstr "Una mina de oro le permite la prospección de yacimientos de oro. Para ello, es necesario asegurarse de que los mineros cuentan con un montón de comida."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:206
+#: libs/s25main/desktops/dskGameLobby.cpp:230
 msgid "A lot"
 msgstr "Mucho"
 
@@ -345,15 +345,15 @@ msgstr "Añadir directorio de musica"
 msgid "Add track"
 msgstr "Añadir pista"
 
-#: libs/s25main/desktops/dskCredits.cpp:126
+#: libs/s25main/desktops/dskCredits.cpp:125
 msgid "Additional Graphics:"
 msgstr "Nuevos gráficos:"
 
-#: libs/s25main/desktops/dskCredits.cpp:112
+#: libs/s25main/desktops/dskCredits.cpp:111
 msgid "Additional Programming:"
 msgstr "Ayudante programación:"
 
-#: libs/s25main/desktops/dskCredits.cpp:131
+#: libs/s25main/desktops/dskCredits.cpp:130
 msgid "Additional Support:"
 msgstr ""
 
@@ -361,7 +361,7 @@ msgstr ""
 msgid "Additional features:"
 msgstr "Características adicionales:"
 
-#: libs/s25main/desktops/dskCredits.cpp:72
+#: libs/s25main/desktops/dskCredits.cpp:71
 msgid "Additional graphics"
 msgstr "Nuevos gráficos"
 
@@ -374,11 +374,11 @@ msgstr ""
 msgid "Addon Settings"
 msgstr "Configurar Opciones especiales"
 
-#: libs/s25main/desktops/dskOptions.cpp:136
+#: libs/s25main/desktops/dskOptions.cpp:154
 msgid "Addons"
 msgstr "Opciones especiales"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:182
+#: libs/s25main/desktops/dskGameLobby.cpp:208
 msgid "Addons:"
 msgstr "Opciones especiales:"
 
@@ -504,7 +504,7 @@ msgstr "Armero"
 msgid "Armory"
 msgstr "Armería"
 
-#: libs/s25main/desktops/dskCredits.cpp:68
+#: libs/s25main/desktops/dskCredits.cpp:67
 msgid "Artificial Intelligence (AI)"
 msgstr "Inteligencia artificial (AI)"
 
@@ -512,11 +512,11 @@ msgstr "Inteligencia artificial (AI)"
 msgid "As the teams are locked, you cannot make treaties of any kind."
 msgstr "No puede crear tratados de cualquier tipo, ya que los equipos están fijados."
 
-#: libs/s25main/desktops/dskOptions.cpp:269
+#: libs/s25main/desktops/dskOptions.cpp:295
 msgid "Ask always"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:786
+#: libs/s25main/network/GameServer.cpp:773
 msgid ""
 "Async at GF %1% of player %2% vs %3%. Checksums:\n"
 "%4%\n"
@@ -528,17 +528,17 @@ msgstr ""
 msgid "Async debugging (REALLY SLOW!)"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1571
+#: libs/s25main/network/GameServer.cpp:1556
 msgid "Async log saved at %1%\n"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:856
+#: libs/s25main/network/GameClient.cpp:872
 msgid ""
 "Async log saved at %1%,\n"
 "game saved at %2%\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1325
+#: libs/s25main/network/GameServer.cpp:1310
 msgid "Async logs received completely.\n"
 msgstr ""
 
@@ -568,13 +568,13 @@ msgstr ""
 msgid "Author"
 msgstr "Autor"
 
-#: libs/s25main/desktops/dskOptions.cpp:726
+#: libs/s25main/desktops/dskOptions.cpp:755
 #, c-format
 msgid "Auto (%u%%)"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1389
-#: libs/s25main/network/GameClient.cpp:1391
+#: libs/s25main/network/GameClient.cpp:1405
+#: libs/s25main/network/GameClient.cpp:1407
 msgid "Auto-Save"
 msgstr "Auto-Guardar"
 
@@ -613,12 +613,12 @@ msgstr ""
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:73
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:106
 #: libs/s25main/desktops/dskCampaignSelection.cpp:88
-#: libs/s25main/desktops/dskCredits.cpp:46
+#: libs/s25main/desktops/dskCredits.cpp:45
 #: libs/s25main/desktops/dskDirectIP.cpp:31
 #: libs/s25main/desktops/dskIntro.cpp:20 libs/s25main/desktops/dskLAN.cpp:40
 #: libs/s25main/desktops/dskLobby.cpp:45
 #: libs/s25main/desktops/dskMultiPlayer.cpp:31
-#: libs/s25main/desktops/dskOptions.cpp:129
+#: libs/s25main/desktops/dskOptions.cpp:152
 #: libs/s25main/desktops/dskSelectMap.cpp:86
 #: libs/s25main/desktops/dskSinglePlayer.cpp:49
 #: libs/s25main/desktops/dskTextureTest.cpp:35
@@ -693,6 +693,10 @@ msgstr "Cervecero"
 msgid "Brewery"
 msgstr "Cervecería"
 
+#: libs/s25main/gameData/PortraitConsts.h:22
+msgid "Brutus"
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwAction.cpp:200
 #: libs/s25main/ingameWindows/iwAction.cpp:212
 #: libs/s25main/ingameWindows/iwAction.cpp:226
@@ -715,8 +719,8 @@ msgstr "Secuencia de construcción"
 
 #: libs/s25main/ingameWindows/iwBuildings.cpp:69
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:53
-#: libs/s25main/ingameWindows/iwStatistics.cpp:130
-#: libs/s25main/ingameWindows/iwStatistics.cpp:225
+#: libs/s25main/ingameWindows/iwStatistics.cpp:135
+#: libs/s25main/ingameWindows/iwStatistics.cpp:220
 msgid "Buildings"
 msgstr "Edificios"
 
@@ -724,7 +728,7 @@ msgstr "Edificios"
 msgid "Butcher"
 msgstr "Carnicero"
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:33
+#: libs/s25main/ingameWindows/iwStatistics.cpp:47
 msgid "COMP"
 msgstr ""
 
@@ -765,7 +769,7 @@ msgstr "Cancelar"
 msgid "Cancel expedition"
 msgstr "Cancelar expedición"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:916
+#: libs/s25main/desktops/dskGameLobby.cpp:953
 msgid "Cancel start"
 msgstr "Cancelar el inicio"
 
@@ -773,11 +777,11 @@ msgstr "Cancelar el inicio"
 msgid "Cannot deserialize event manager when there are still events active!"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:213
+#: libs/s25main/Replay.cpp:219
 msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:201
+#: libs/s25main/Replay.cpp:207
 msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
 msgstr ""
 
@@ -793,7 +797,7 @@ msgstr "Catapulta"
 msgid "Center of country"
 msgstr "Centro del País"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:184
+#: libs/s25main/desktops/dskGameLobby.cpp:210
 msgid "Change Settings..."
 msgstr "Cambiar configuración..."
 
@@ -863,7 +867,7 @@ msgstr "Comprobando Contraseña..."
 msgid "Choose mission"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:195
+#: libs/s25main/desktops/dskGameLobby.cpp:220
 msgid "Classic (Settlers 2)"
 msgstr "Original (Settlers 2)"
 
@@ -885,7 +889,7 @@ msgstr "Cerrado"
 msgid "Close Without Saving"
 msgstr "Cerrar sin guardar"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:386
+#: libs/s25main/desktops/dskGameLobby.cpp:407
 msgid "Closed"
 msgstr "Cerrado"
 
@@ -915,11 +919,11 @@ msgstr ""
 msgid "Collect"
 msgstr "Almacenar"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:122
+#: libs/s25main/desktops/dskGameLobby.cpp:161
 msgid "Color"
 msgstr "Color"
 
-#: libs/s25main/desktops/dskOptions.cpp:139
+#: libs/s25main/desktops/dskOptions.cpp:145
 msgid "Common"
 msgstr "Común"
 
@@ -960,7 +964,7 @@ msgstr "Conectando con el Host..."
 msgid "Connection failed!"
 msgstr "Conexión fallida!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:213
+#: libs/s25main/desktops/dskGameLobby.cpp:236
 msgid "Conquer 3/4 of map"
 msgstr "Conquistar 3/4 de mapa"
 
@@ -1015,7 +1019,7 @@ msgstr "Convertir en Hierro"
 msgid "Could not determine type of path %s\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:253
+#: libs/s25main/desktops/dskGameLobby.cpp:275
 msgid "Could not load map:\n"
 msgstr ""
 
@@ -1031,8 +1035,8 @@ msgstr ""
 msgid "Create Game"
 msgstr "Crear juego"
 
-#: libs/s25main/desktops/dskCredits.cpp:48
-#: libs/s25main/desktops/dskMainMenu.cpp:53
+#: libs/s25main/desktops/dskCredits.cpp:47
+#: libs/s25main/desktops/dskMainMenu.cpp:47
 msgid "Credits"
 msgstr "Créditos"
 
@@ -1106,15 +1110,15 @@ msgstr "Demoler casa"
 msgid "Demolish?"
 msgstr "¿Demoler?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:301
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:296
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "La demolición no es posible porque el edificio esta localizado en el área fronteriza!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:300
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:295
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "La demolición no es posible porque el edificio está siendo atacado!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:304
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:299
 msgid "Demolition not possible"
 msgstr "El ataque no es posible."
 
@@ -1164,7 +1168,7 @@ msgstr "Recibir monedas desactivado por defecto"
 msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:417
+#: libs/s25main/desktops/dskOptions.cpp:438
 #: libs/s25main/ingameWindows/iwSave.cpp:140
 msgid "Disabled"
 msgstr "Desactivado"
@@ -1186,11 +1190,11 @@ msgstr ""
 msgid "Distribution of goods"
 msgstr "Distribución de bienes"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:727
+#: libs/s25main/desktops/dskGameLobby.cpp:770
 msgid "Don't forget to check the addon configuration!"
 msgstr "No se olvide comprobar las Opciones especiales"
 
-#: libs/s25main/desktops/dskOptions.cpp:261
+#: libs/s25main/desktops/dskOptions.cpp:287
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
@@ -1200,7 +1204,7 @@ msgstr ""
 msgid "Don't surrender"
 msgstr "No rendirse"
 
-#: libs/s25main/desktops/dskCredits.cpp:244
+#: libs/s25main/desktops/dskCredits.cpp:243
 msgid "Donators"
 msgstr "Donaciones"
 
@@ -1239,7 +1243,7 @@ msgstr ""
 msgid "Duration: Forever"
 msgstr "Duración: para siempre"
 
-#: libs/s25main/desktops/dskOptions.cpp:413
+#: libs/s25main/desktops/dskOptions.cpp:434
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr "Dinámico (Limita la velocidad de actualización de pantalla, funciona con la mayoría de los controladores gráficos)"
 
@@ -1263,12 +1267,12 @@ msgstr ""
 msgid "Economy Mode: Game Length"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:215
-#: libs/s25main/desktops/dskGameLobby.cpp:1085
+#: libs/s25main/desktops/dskGameLobby.cpp:238
+#: libs/s25main/desktops/dskGameLobby.cpp:1124
 msgid "Economy mode"
 msgstr "Economía"
 
-#: libs/s25main/desktops/dskOptions.cpp:351
+#: libs/s25main/desktops/dskOptions.cpp:372
 msgid "Effects"
 msgstr "Efectos"
 
@@ -1332,22 +1336,26 @@ msgstr ""
 msgid "Erect flag"
 msgstr "Colocar bandera"
 
+#: libs/s25main/gameData/PortraitConsts.h:23
+msgid "Erik"
+msgstr ""
+
 #: libs/s25client/s25client.cpp:123 libs/s25client/s25client.cpp:146
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:169
 #: libs/s25main/desktops/dskCampaignSelection.cpp:259
-#: libs/s25main/desktops/dskCredits.cpp:277
-#: libs/s25main/desktops/dskCredits.cpp:288
+#: libs/s25main/desktops/dskCredits.cpp:276
+#: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:135
-#: libs/s25main/desktops/dskGameLobby.cpp:90
-#: libs/s25main/desktops/dskGameLobby.cpp:96
-#: libs/s25main/desktops/dskGameLobby.cpp:253
-#: libs/s25main/desktops/dskGameLobby.cpp:359
-#: libs/s25main/desktops/dskGameLobby.cpp:752
-#: libs/s25main/desktops/dskGameLobby.cpp:1050
-#: libs/s25main/desktops/dskGameLobby.cpp:1060
+#: libs/s25main/desktops/dskGameLobby.cpp:133
+#: libs/s25main/desktops/dskGameLobby.cpp:139
+#: libs/s25main/desktops/dskGameLobby.cpp:275
+#: libs/s25main/desktops/dskGameLobby.cpp:381
+#: libs/s25main/desktops/dskGameLobby.cpp:795
+#: libs/s25main/desktops/dskGameLobby.cpp:1089
+#: libs/s25main/desktops/dskGameLobby.cpp:1099
 #: libs/s25main/desktops/dskLobby.cpp:259
-#: libs/s25main/desktops/dskOptions.cpp:578
+#: libs/s25main/desktops/dskOptions.cpp:603
 #: libs/s25main/desktops/dskSelectMap.cpp:173
 #: libs/s25main/desktops/dskSelectMap.cpp:235
 #: libs/s25main/desktops/dskSelectMap.cpp:362
@@ -1363,29 +1371,29 @@ msgstr "Colocar bandera"
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:340
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:373
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:390
-#: libs/s25main/network/GameServer.cpp:1589
+#: libs/s25main/network/GameServer.cpp:1574
 msgid "Error"
 msgstr "Error"
 
-#: libs/s25main/network/GameClient.cpp:1525
+#: libs/s25main/network/GameClient.cpp:1541
 msgid "Error decompressing lua file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1516
+#: libs/s25main/network/GameClient.cpp:1532
 msgid "Error decompressing map file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1348
+#: libs/s25main/network/GameClient.cpp:1364
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1697
+#: libs/s25main/network/GameClient.cpp:1713
 msgid "Error during saving: "
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1542
+#: libs/s25main/network/GameClient.cpp:1558
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr ""
@@ -1443,7 +1451,7 @@ msgstr "Expedición"
 msgid "Exploration expedition"
 msgstr "Expedición de exploración"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:191
+#: libs/s25main/desktops/dskGameLobby.cpp:216
 msgid "Exploration:"
 msgstr "Exploración:"
 
@@ -1457,7 +1465,7 @@ msgstr ""
 msgid "Failed to init GUI: "
 msgstr ""
 
-#: libs/s25main/Loader.cpp:534 libs/s25main/Loader.cpp:549
+#: libs/s25main/Loader.cpp:544 libs/s25main/Loader.cpp:559
 #, c-format
 msgid "Failed to load %s\n"
 msgstr ""
@@ -1466,7 +1474,7 @@ msgstr ""
 msgid "Failed to load campaign %1%.\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:277
+#: libs/s25main/desktops/dskCredits.cpp:276
 msgid "Failed to load game data"
 msgstr ""
 
@@ -1475,7 +1483,7 @@ msgstr ""
 msgid "Failed to load game data!"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:288
+#: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:97
 msgid "Failed to load game resources"
 msgstr ""
@@ -1506,11 +1514,11 @@ msgstr ""
 msgid "Failed to read lua file '%1%'\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:1066 libs/s25main/Loader.cpp:1085
+#: libs/s25main/Loader.cpp:1076 libs/s25main/Loader.cpp:1095
 msgid "Failed to resolve resource %1%\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1575
+#: libs/s25main/network/GameServer.cpp:1560
 msgid "Failed to save async log at %1%\n"
 msgstr ""
 
@@ -1532,7 +1540,7 @@ msgid "Farmer"
 msgstr "Granjero"
 
 #: libs/s25main/addons/AddonShipSpeed.h:22
-#: libs/s25main/desktops/dskGameLobby.cpp:232
+#: libs/s25main/desktops/dskGameLobby.cpp:254
 msgid "Fast"
 msgstr "Rápido"
 
@@ -1553,15 +1561,15 @@ msgstr "Menos defensores"
 msgid "Fewer recruits"
 msgstr "Menos reclutas"
 
-#: libs/s25main/Replay.cpp:183
+#: libs/s25main/Replay.cpp:189
 msgid "File could not be opened."
 msgstr ""
 
-#: libs/s25main/SavedFile.cpp:75
-msgid "File has an old version and cannot be used (version: %1%, expected: %2%)!"
+#: libs/s25main/SavedFile.cpp:87
+msgid "File has an old version and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
 msgstr ""
 
-#: libs/s25main/SavedFile.cpp:65
+#: libs/s25main/SavedFile.cpp:76
 msgid "File is not in a valid format!"
 msgstr ""
 
@@ -1570,15 +1578,15 @@ msgstr ""
 msgid "File or directory does not exist: %s\n"
 msgstr ""
 
-#: libs/s25main/SavedFile.cpp:76
-msgid "File was created with more recent program and cannot be used (version: %1%, expected: %2%)!"
+#: libs/s25main/SavedFile.cpp:88
+msgid "File was created with more recent program and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwSave.cpp:51
 msgid "Filename"
 msgstr "Nombre del archivo"
 
-#: libs/s25main/desktops/dskCredits.cpp:108
+#: libs/s25main/desktops/dskCredits.cpp:107
 msgid "Finances"
 msgstr ""
 
@@ -1598,15 +1606,15 @@ msgstr "Pesquería"
 msgid "Flour"
 msgstr "Harina"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:197
+#: libs/s25main/desktops/dskGameLobby.cpp:222
 msgid "FoW - all explored"
 msgstr "NdG - todo explorado"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:196
+#: libs/s25main/desktops/dskGameLobby.cpp:221
 msgid "Fog of War"
 msgstr "Niebla de Guerra"
 
-#: libs/s25main/ingameWindows/iwObservate.cpp:44
+#: libs/s25main/ingameWindows/iwObservate.cpp:50
 msgid "Follow object"
 msgstr ""
 
@@ -1663,21 +1671,21 @@ msgstr ""
 msgid "Full Control"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:292
-#: libs/s25main/ingameWindows/iwSettings.cpp:57
+#: libs/s25main/desktops/dskOptions.cpp:317
+#: libs/s25main/ingameWindows/iwSettings.cpp:66
 msgid "Fullscreen"
 msgstr "Pantalla completa"
 
-#: libs/s25main/desktops/dskOptions.cpp:285
-#: libs/s25main/ingameWindows/iwSettings.cpp:36
+#: libs/s25main/desktops/dskOptions.cpp:310
+#: libs/s25main/ingameWindows/iwSettings.cpp:43
 msgid "Fullscreen resolution:"
 msgstr "Resolución a pantalla completa:"
 
-#: libs/s25main/desktops/dskOptions.cpp:330
+#: libs/s25main/desktops/dskOptions.cpp:352
 msgid "GUI Scale:"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:147
+#: libs/s25main/desktops/dskGameLobby.cpp:181
 msgid "Game Chat"
 msgstr ""
 
@@ -1685,7 +1693,7 @@ msgstr ""
 msgid "Game Time"
 msgstr "Menú del juego"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:753
+#: libs/s25main/desktops/dskGameLobby.cpp:796
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
 msgstr "El juego solo puede comenzar cuando todos los jugadores tengan un color diferente, tengan marcados la opción Listo y los huecos de jugadores restantes estén cerrados"
 
@@ -1770,19 +1778,19 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
-#: libs/s25main/ingameWindows/iwObservate.cpp:47
+#: libs/s25main/ingameWindows/iwObservate.cpp:53
 #: libs/s25main/ingameWindows/iwShip.cpp:49
 msgid "Go to place"
 msgstr "Ir al lugar"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:209
+#: libs/s25main/desktops/dskGameLobby.cpp:232
 msgid "Goals:"
 msgstr "Objetivos:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:38
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:64
-#: libs/s25main/ingameWindows/iwStatistics.cpp:138
-#: libs/s25main/ingameWindows/iwStatistics.cpp:241
+#: libs/s25main/ingameWindows/iwStatistics.cpp:143
+#: libs/s25main/ingameWindows/iwStatistics.cpp:236
 msgid "Gold"
 msgstr "Oro"
 
@@ -1798,7 +1806,7 @@ msgstr "Mina de oro"
 msgid "Gold:"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:200
+#: libs/s25main/desktops/dskGameLobby.cpp:224
 msgid "Goods at start:"
 msgstr "Bienes al inicio:"
 
@@ -1826,11 +1834,11 @@ msgstr ""
 msgid "Grapes"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:142
+#: libs/s25main/desktops/dskOptions.cpp:147
 msgid "Graphics"
 msgstr "Gráficos"
 
-#: libs/s25main/desktops/dskOptions.cpp:309
+#: libs/s25main/desktops/dskOptions.cpp:331
 msgid "Graphics Driver"
 msgstr "Controlador Gráfico"
 
@@ -1840,6 +1848,10 @@ msgstr "Casa de guardia"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:76
 msgid "HQ distance to mountain"
+msgstr ""
+
+#: libs/s25main/gameData/PortraitConsts.h:27
+msgid "Hakirawashi"
 msgstr ""
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:16
@@ -1872,7 +1884,7 @@ msgstr "Cuartel general"
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwMilitary.cpp:45
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
-#: libs/s25main/ingameWindows/iwStatistics.cpp:152
+#: libs/s25main/ingameWindows/iwStatistics.cpp:158
 #: libs/s25main/ingameWindows/iwTools.cpp:63
 #: libs/s25main/ingameWindows/iwTransport.cpp:23
 #: libs/s25main/ingameWindows/iwWares.cpp:192
@@ -1919,14 +1931,14 @@ msgstr "ID"
 msgid "IP Address of Host:"
 msgstr "Dirección IP del Host:"
 
-#: libs/s25main/desktops/dskOptions.cpp:205
+#: libs/s25main/desktops/dskOptions.cpp:232
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:59
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:41
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:73
 msgid "IPv4"
 msgstr "IPv4"
 
-#: libs/s25main/desktops/dskOptions.cpp:204
+#: libs/s25main/desktops/dskOptions.cpp:231
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:60
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:42
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:74
@@ -1973,8 +1985,8 @@ msgstr "Minas infinitas"
 msgid "Inexhaustible and water everywhere"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:132
-#: libs/s25main/ingameWindows/iwStatistics.cpp:229
+#: libs/s25main/ingameWindows/iwStatistics.cpp:137
+#: libs/s25main/ingameWindows/iwStatistics.cpp:224
 msgid "Inhabitants"
 msgstr "Población"
 
@@ -1994,7 +2006,7 @@ msgstr "Cliente en Internet"
 msgid "Interrupt road building"
 msgstr "Interrumpir la construcción del camino"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:48
+#: libs/s25main/desktops/dskMainMenu.cpp:44
 msgid "Intro"
 msgstr "Intro"
 
@@ -2003,7 +2015,7 @@ msgid "Invalid API version!"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1465
+#: libs/s25main/network/GameClient.cpp:1481
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr ""
 
@@ -2035,17 +2047,17 @@ msgstr ""
 msgid "Invalid maximum human player count: %1%"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:579
+#: libs/s25main/desktops/dskOptions.cpp:604
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:138
 msgid "Invalid port. The valid port-range is 1 to 65535!"
 msgstr "Puerto inválido!. El rango de puerto válido debe estar entre 1 a 65535!"
 
-#: libs/s25main/ingameWindows/iwSettings.cpp:63
+#: libs/s25main/ingameWindows/iwSettings.cpp:73
 msgid "Invert Mouse Pan"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:246
+#: libs/s25main/desktops/dskOptions.cpp:272
 msgid "Invert Mouse Pan:"
 msgstr ""
 
@@ -2095,7 +2107,11 @@ msgstr ""
 msgid "Join Game"
 msgstr "Unirse a la partida"
 
-#: libs/s25main/network/GameClient.cpp:1650
+#: libs/s25main/gameData/PortraitConsts.h:21
+msgid "Julius"
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1666
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr ""
@@ -2109,12 +2125,16 @@ msgid "Keep setting"
 msgstr ""
 
 #: libs/s25main/desktops/dskGameInterface.cpp:779
-#: libs/s25main/desktops/dskOptions.cpp:190
-#: libs/s25main/desktops/dskOptions.cpp:650
+#: libs/s25main/desktops/dskOptions.cpp:217
+#: libs/s25main/desktops/dskOptions.cpp:679
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:67
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:114
 msgid "Keyboard layout"
 msgstr "Configuración del teclado"
+
+#: libs/s25main/gameData/PortraitConsts.h:23
+msgid "Knut"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
 msgid "Land"
@@ -2124,7 +2144,7 @@ msgstr ""
 msgid "Landscape"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:169
+#: libs/s25main/desktops/dskOptions.cpp:197
 msgid "Language:"
 msgstr "Idioma:"
 
@@ -2150,7 +2170,7 @@ msgstr "Menos frecuente"
 msgid "Less repeats"
 msgstr "Menos repeticiones"
 
-#: libs/s25main/desktops/dskOptions.cpp:297
+#: libs/s25main/desktops/dskOptions.cpp:321
 msgid "Limit Framerate:"
 msgstr "Limitar los FPS:"
 
@@ -2245,15 +2265,15 @@ msgstr ""
 msgid "Loading of images %s for map selection failed."
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:149
+#: libs/s25main/desktops/dskGameLobby.cpp:183
 msgid "Lobby Chat"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:193
+#: libs/s25main/desktops/dskOptions.cpp:220
 msgid "Local Port:"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:172
+#: libs/s25main/desktops/dskGameLobby.cpp:201
 msgid "Lock teams:"
 msgstr "Bloquear equipos:"
 
@@ -2294,7 +2314,7 @@ msgstr "Conexión perdida con el servidor!"
 msgid "Lost land by this building"
 msgstr "Se ha perdido territorio por esta edificación"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:204
+#: libs/s25main/desktops/dskGameLobby.cpp:228
 msgid "Low"
 msgstr "Bajo"
 
@@ -2316,16 +2336,16 @@ msgstr ""
 msgid "Lua script failed to load."
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:96
+#: libs/s25main/desktops/dskGameLobby.cpp:139
 msgid "Lua script uses a different version and cannot be used. Map might not work as expected!"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:90
-#: libs/s25main/desktops/dskGameLobby.cpp:359
+#: libs/s25main/desktops/dskGameLobby.cpp:133
+#: libs/s25main/desktops/dskGameLobby.cpp:381
 msgid "Lua script was found but failed to load. Map might not work as expected!"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:103
+#: libs/s25main/desktops/dskGameLobby.cpp:146
 msgid "Lua was disabled by the script itself\n"
 msgstr ""
 
@@ -2380,11 +2400,11 @@ msgstr ""
 msgid "Map is invalid or failed to load properly!"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:249
+#: libs/s25main/desktops/dskOptions.cpp:275
 msgid "Map moves in the opposite direction the mouse is moved when scrolling/panning."
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:251
+#: libs/s25main/desktops/dskOptions.cpp:277
 msgid "Map moves in the same direction the mouse is moved when scrolling/panning."
 msgstr ""
 
@@ -2396,8 +2416,8 @@ msgstr ""
 msgid "Map was loaded and pinned at the wall..."
 msgstr "Mapa cargado e iniciado en el juego..."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:243
-#: libs/s25main/desktops/dskGameLobby.cpp:262
+#: libs/s25main/desktops/dskGameLobby.cpp:265
+#: libs/s25main/desktops/dskGameLobby.cpp:284
 #: libs/s25main/desktops/dskSelectMap.cpp:127
 msgid "Map: "
 msgstr "Mapa: "
@@ -2406,8 +2426,8 @@ msgstr "Mapa: "
 msgid "Mapfile: "
 msgstr "Archivo de mapa: "
 
-#: libs/s25main/desktops/dskCredits.cpp:74
-#: libs/s25main/desktops/dskCredits.cpp:89
+#: libs/s25main/desktops/dskCredits.cpp:73
+#: libs/s25main/desktops/dskCredits.cpp:88
 msgid "Mapping"
 msgstr "Cartografiándo"
 
@@ -2444,8 +2464,8 @@ msgid "Medium-term"
 msgstr "A medio plazo"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:35
-#: libs/s25main/ingameWindows/iwStatistics.cpp:134
-#: libs/s25main/ingameWindows/iwStatistics.cpp:233
+#: libs/s25main/ingameWindows/iwStatistics.cpp:139
+#: libs/s25main/ingameWindows/iwStatistics.cpp:228
 msgid "Merchandise"
 msgstr "Mercancía"
 
@@ -2499,8 +2519,8 @@ msgstr "Edificio militar perdido"
 msgid "Military building occupied"
 msgstr "Edificio militar ocupado"
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:136
-#: libs/s25main/ingameWindows/iwStatistics.cpp:237
+#: libs/s25main/ingameWindows/iwStatistics.cpp:141
+#: libs/s25main/ingameWindows/iwStatistics.cpp:232
 msgid "Military strength"
 msgstr "Poder militar"
 
@@ -2552,8 +2572,12 @@ msgstr ""
 msgid "Mixed"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:290
-#: libs/s25main/ingameWindows/iwSettings.cpp:55
+#: libs/s25main/gameData/PortraitConsts.h:29
+msgid "Mnga Tscha"
+msgstr ""
+
+#: libs/s25main/desktops/dskOptions.cpp:315
+#: libs/s25main/ingameWindows/iwSettings.cpp:63
 msgid "Mode:"
 msgstr "Modo:"
 
@@ -2593,26 +2617,30 @@ msgstr "Más repeticiones"
 msgid "More trees spawn animals"
 msgstr ""
 
-#: libs/s25main/desktops/dskMainMenu.cpp:43
+#: libs/s25main/desktops/dskMainMenu.cpp:41
 msgid "Multiplayer"
 msgstr "Multijugador"
 
-#: libs/s25main/desktops/dskOptions.cpp:340
+#: libs/s25main/desktops/dskOptions.cpp:362
 msgid "Music"
 msgstr "Música"
 
-#: libs/s25main/desktops/dskOptions.cpp:361
+#: libs/s25main/desktops/dskOptions.cpp:382
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:81
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:98
 msgid "Music player"
 msgstr "Reproductor de música"
+
+#: libs/s25main/gameData/PortraitConsts.h:30
+msgid "Nabonidus"
+msgstr ""
 
 #: libs/s25main/desktops/dskLobby.cpp:59
 #: libs/s25main/desktops/dskSelectMap.cpp:75
 msgid "Name"
 msgstr "Nombre"
 
-#: libs/s25main/desktops/dskOptions.cpp:163
+#: libs/s25main/desktops/dskOptions.cpp:172
 msgid "Name in Game:"
 msgstr "Nombre en el juego:"
 
@@ -2655,7 +2683,7 @@ msgstr "Página siguiente"
 msgid "No"
 msgstr "No"
 
-#: libs/s25main/desktops/dskOptions.cpp:233
+#: libs/s25main/desktops/dskOptions.cpp:259
 msgid "No Proxy"
 msgstr "Sin Proxy"
 
@@ -2684,7 +2712,7 @@ msgstr "No hay más pescado en la zona"
 msgid "No more stones in range"
 msgstr "No hay más piedra en la zona"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:241
+#: libs/s25main/desktops/dskGameLobby.cpp:263
 msgid "No preview"
 msgstr ""
 
@@ -2714,19 +2742,19 @@ msgid "Non-aggression pact"
 msgstr "Pacto de no-agresión"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:20
-#: libs/s25main/desktops/dskGameLobby.cpp:212
+#: libs/s25main/desktops/dskGameLobby.cpp:235
 msgid "None"
 msgstr "Ninguno"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:25
 #: libs/s25main/addons/AddonShipSpeed.h:21
-#: libs/s25main/desktops/dskGameLobby.cpp:205
-#: libs/s25main/desktops/dskGameLobby.cpp:231
+#: libs/s25main/desktops/dskGameLobby.cpp:229
+#: libs/s25main/desktops/dskGameLobby.cpp:253
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:80
 msgid "Normal"
 msgstr "Normal"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:918
+#: libs/s25main/desktops/dskGameLobby.cpp:955
 msgid "Not Ready"
 msgstr "Sin estar listo"
 
@@ -2777,24 +2805,28 @@ msgid "OK\n"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwAction.cpp:298
-#: libs/s25main/ingameWindows/iwObservate.cpp:27
+#: libs/s25main/ingameWindows/iwObservate.cpp:33
 msgid "Observation window"
 msgstr "Pantalla de observación"
 
+#: libs/s25main/gameData/PortraitConsts.h:20
+msgid "Octavianus"
+msgstr ""
+
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
-#: libs/s25main/desktops/dskOptions.cpp:225
-#: libs/s25main/desktops/dskOptions.cpp:250
-#: libs/s25main/desktops/dskOptions.cpp:260
-#: libs/s25main/desktops/dskOptions.cpp:279
+#: libs/s25main/desktops/dskOptions.cpp:251
+#: libs/s25main/desktops/dskOptions.cpp:276
+#: libs/s25main/desktops/dskOptions.cpp:286
 #: libs/s25main/desktops/dskOptions.cpp:305
-#: libs/s25main/desktops/dskOptions.cpp:327
-#: libs/s25main/desktops/dskOptions.cpp:343
-#: libs/s25main/desktops/dskOptions.cpp:354
+#: libs/s25main/desktops/dskOptions.cpp:328
+#: libs/s25main/desktops/dskOptions.cpp:349
+#: libs/s25main/desktops/dskOptions.cpp:365
+#: libs/s25main/desktops/dskOptions.cpp:375
 msgid "Off"
 msgstr "Desactivado"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:194
+#: libs/s25main/desktops/dskGameLobby.cpp:219
 msgid "Off (all visible)"
 msgstr "Desactivado (todo visible)"
 
@@ -2814,19 +2846,23 @@ msgstr ""
 msgid "Old maps"
 msgstr "Mapas viejos"
 
-#: libs/s25main/desktops/dskOptions.cpp:224
-#: libs/s25main/desktops/dskOptions.cpp:248
-#: libs/s25main/desktops/dskOptions.cpp:257
-#: libs/s25main/desktops/dskOptions.cpp:267
-#: libs/s25main/desktops/dskOptions.cpp:278
+#: libs/s25main/gameData/PortraitConsts.h:24
+msgid "Olof"
+msgstr ""
+
+#: libs/s25main/desktops/dskOptions.cpp:250
+#: libs/s25main/desktops/dskOptions.cpp:274
+#: libs/s25main/desktops/dskOptions.cpp:283
+#: libs/s25main/desktops/dskOptions.cpp:293
 #: libs/s25main/desktops/dskOptions.cpp:304
-#: libs/s25main/desktops/dskOptions.cpp:326
-#: libs/s25main/desktops/dskOptions.cpp:342
-#: libs/s25main/desktops/dskOptions.cpp:353
+#: libs/s25main/desktops/dskOptions.cpp:327
+#: libs/s25main/desktops/dskOptions.cpp:348
+#: libs/s25main/desktops/dskOptions.cpp:364
+#: libs/s25main/desktops/dskOptions.cpp:374
 msgid "On"
 msgstr "Activado"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:385
+#: libs/s25main/desktops/dskGameLobby.cpp:406
 msgid "Open"
 msgstr "Abierto"
 
@@ -2838,12 +2874,12 @@ msgstr ""
 msgid "OpenGL %1%.%2% supported\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:323
+#: libs/s25main/desktops/dskOptions.cpp:345
 msgid "Optimized Textures:"
 msgstr "Texturas Optimizadas:"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:46
-#: libs/s25main/desktops/dskOptions.cpp:132
+#: libs/s25main/desktops/dskMainMenu.cpp:43
+#: libs/s25main/desktops/dskOptions.cpp:139
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:99
 msgid "Options"
 msgstr "Opciones"
@@ -2886,7 +2922,7 @@ msgstr "Contraseña (si se requiere):"
 msgid "Password:"
 msgstr "Contraseña:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:138
+#: libs/s25main/desktops/dskGameLobby.cpp:172
 msgid "Past player"
 msgstr "Antiguo jugador"
 
@@ -2894,7 +2930,7 @@ msgstr "Antiguo jugador"
 msgid "Peaceful"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1100
+#: libs/s25main/desktops/dskGameLobby.cpp:1139
 msgid "Peaceful mode"
 msgstr ""
 
@@ -2910,13 +2946,14 @@ msgstr "Ganadero"
 msgid "Pig farm"
 msgstr "Criadero de puercos"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:131
+#: libs/s25main/desktops/dskGameLobby.cpp:167
 #: libs/s25main/desktops/dskLobby.cpp:57
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:50
 msgid "Ping"
 msgstr "Ping"
 
-#: libs/s25main/desktops/dskOptions.cpp:258
+#: libs/s25main/desktops/dskOptions.cpp:284
+#: libs/s25main/ingameWindows/iwSettings.cpp:78
 msgid "Place cursor on default button for new dialogs / action windows (default)"
 msgstr ""
 
@@ -2974,7 +3011,7 @@ msgstr "Jugador ‘%s‘ ha abandonado el juego!"
 msgid "Player '%s' was defeated!"
 msgstr "¡El jugador «%s» ha sido derrotado!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:118
+#: libs/s25main/desktops/dskGameLobby.cpp:159
 msgid "Player Name"
 msgstr "Nombre del jugador"
 
@@ -2991,6 +3028,10 @@ msgstr "Por favor ingrese un nombre para la partida!"
 #: libs/s25main/ingameWindows/iwPleaseWait.cpp:22
 msgid "Please wait..."
 msgstr "Por favor espere…"
+
+#: libs/s25main/desktops/dskOptions.cpp:182
+msgid "Portrait:"
+msgstr ""
 
 #: libs/s25main/desktops/dskGameInterface.cpp:130
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
@@ -3027,26 +3068,26 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwBuildingProductivities.cpp:67
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:60
-#: libs/s25main/ingameWindows/iwStatistics.cpp:140
-#: libs/s25main/ingameWindows/iwStatistics.cpp:245
+#: libs/s25main/ingameWindows/iwStatistics.cpp:145
+#: libs/s25main/ingameWindows/iwStatistics.cpp:240
 msgid "Productivity"
 msgstr "Productividad"
 
-#: libs/s25main/desktops/dskCredits.cpp:57
-#: libs/s25main/desktops/dskCredits.cpp:67
-#: libs/s25main/desktops/dskCredits.cpp:83
-#: libs/s25main/desktops/dskCredits.cpp:96
-#: libs/s25main/desktops/dskCredits.cpp:104
+#: libs/s25main/desktops/dskCredits.cpp:56
+#: libs/s25main/desktops/dskCredits.cpp:66
+#: libs/s25main/desktops/dskCredits.cpp:82
+#: libs/s25main/desktops/dskCredits.cpp:95
+#: libs/s25main/desktops/dskCredits.cpp:103
 msgid "Programming"
 msgstr "Programador"
 
-#: libs/s25main/desktops/dskCredits.cpp:94
-#: libs/s25main/desktops/dskCredits.cpp:101
+#: libs/s25main/desktops/dskCredits.cpp:93
+#: libs/s25main/desktops/dskCredits.cpp:100
 msgid "Project founder"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:95
-#: libs/s25main/desktops/dskCredits.cpp:102
+#: libs/s25main/desktops/dskCredits.cpp:94
+#: libs/s25main/desktops/dskCredits.cpp:101
 msgid "Project management"
 msgstr "Director del proyecto"
 
@@ -3054,11 +3095,11 @@ msgstr "Director del proyecto"
 msgid "Proportional"
 msgstr "Proporcional"
 
-#: libs/s25main/desktops/dskOptions.cpp:212
+#: libs/s25main/desktops/dskOptions.cpp:239
 msgid "Proxyserver:"
 msgstr "Servidor Proxy:"
 
-#: libs/s25main/desktops/dskOptions.cpp:230
+#: libs/s25main/desktops/dskOptions.cpp:256
 msgid "Proxytyp:"
 msgstr "Tipo de Proxy:"
 
@@ -3067,13 +3108,13 @@ msgstr "Tipo de Proxy:"
 msgid "Pull down flag"
 msgstr "Quitar bandera"
 
-#: libs/s25main/desktops/dskCredits.cpp:58
-#: libs/s25main/desktops/dskCredits.cpp:63
-#: libs/s25main/desktops/dskCredits.cpp:73
-#: libs/s25main/desktops/dskCredits.cpp:84
-#: libs/s25main/desktops/dskCredits.cpp:88
-#: libs/s25main/desktops/dskCredits.cpp:97
-#: libs/s25main/desktops/dskCredits.cpp:107
+#: libs/s25main/desktops/dskCredits.cpp:57
+#: libs/s25main/desktops/dskCredits.cpp:62
+#: libs/s25main/desktops/dskCredits.cpp:72
+#: libs/s25main/desktops/dskCredits.cpp:83
+#: libs/s25main/desktops/dskCredits.cpp:87
+#: libs/s25main/desktops/dskCredits.cpp:96
+#: libs/s25main/desktops/dskCredits.cpp:106
 msgid "Quality Assurance"
 msgstr "Control de calidad"
 
@@ -3081,7 +3122,7 @@ msgstr "Control de calidad"
 msgid "Quarry"
 msgstr "Cantera"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:55
+#: libs/s25main/desktops/dskMainMenu.cpp:48
 msgid "Quit program"
 msgstr "Salir del juego"
 
@@ -3089,7 +3130,7 @@ msgstr "Salir del juego"
 msgid "RTTR"
 msgstr "RTTR"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:120
+#: libs/s25main/desktops/dskGameLobby.cpp:160
 msgid "Race"
 msgstr "Cultura"
 
@@ -3101,7 +3142,7 @@ msgstr ""
 msgid "Random playback"
 msgstr "Reproducción aleatoria"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:178
+#: libs/s25main/desktops/dskGameLobby.cpp:206
 msgid "Random start locations"
 msgstr "Iniciar en un mapa aleatorio"
 
@@ -3113,31 +3154,31 @@ msgstr "Guardia forestal"
 msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
 msgstr "El mineral de hierro en bruto es fundido en las fundiciones de hierro con la ayuda del carbón. El hierro tratado, se utiliza para la fabricación de armas (en la Armería) y herramientas (en la industria metalúrgica)."
 
-#: libs/s25main/desktops/dskMainMenu.cpp:51
+#: libs/s25main/desktops/dskMainMenu.cpp:46
 msgid "Readme"
 msgstr "Léame"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:782
-#: libs/s25main/desktops/dskMainMenu.cpp:125
+#: libs/s25main/desktops/dskMainMenu.cpp:118
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:116
 msgid "Readme!"
 msgstr "Léeme!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:166
-#: libs/s25main/desktops/dskGameLobby.cpp:674
-#: libs/s25main/desktops/dskGameLobby.cpp:918
+#: libs/s25main/desktops/dskGameLobby.cpp:197
+#: libs/s25main/desktops/dskGameLobby.cpp:717
+#: libs/s25main/desktops/dskGameLobby.cpp:955
 msgid "Ready"
 msgstr "Preparado"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:129
+#: libs/s25main/desktops/dskGameLobby.cpp:166
 msgid "Ready?"
 msgstr "Listo?"
 
-#: libs/s25main/network/GameServer.cpp:1314
+#: libs/s25main/network/GameServer.cpp:1299
 msgid "Received async log from %1%, but did not expect it!\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1307
+#: libs/s25main/network/GameServer.cpp:1292
 msgid "Received async logs from %1% (%2% entries).\n"
 msgstr ""
 
@@ -3193,7 +3234,7 @@ msgstr "Eliminar pista"
 msgid "Removes all replays that cannot be loaded with the current game version"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1452
+#: libs/s25main/network/GameClient.cpp:1468
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr ""
 
@@ -3205,7 +3246,7 @@ msgstr "Reservar"
 msgid "Reserved"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwObservate.cpp:50
+#: libs/s25main/ingameWindows/iwObservate.cpp:56
 msgid "Resize window"
 msgstr ""
 
@@ -3221,11 +3262,11 @@ msgstr ""
 msgid "Resume last game"
 msgstr "Continuar con la última partida"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:169
+#: libs/s25main/desktops/dskGameLobby.cpp:199
 msgid "Return"
 msgstr "Regresar"
 
-#: libs/s25main/desktops/dskCredits.cpp:47
+#: libs/s25main/desktops/dskCredits.cpp:46
 msgid "Return To The Roots"
 msgstr "Retorno a los Orígenes"
 
@@ -3257,27 +3298,27 @@ msgstr "Se ha caído el juego. Por favor, vuelve a iniciar el RttR"
 msgid "RttR crashed. Would you like to send debug information to RttR to help us avoiding this crash in the future? Thank you very much!"
 msgstr "El juego se ha caido. Desea enviar informción de depuración para ayudarnos evitar esta caida en un futuro? Muchas gracias!"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:74
+#: libs/s25main/desktops/dskMainMenu.cpp:67
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
 msgstr "Ahora RttR puede enviar informes sobre errores a los desarrolladores. ¿Quieres ayudarnos a mejorar este juego enviándonos tus informes?"
 
-#: libs/s25main/network/GameServer.cpp:756
+#: libs/s25main/network/GameServer.cpp:743
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:666
+#: libs/s25main/network/GameServer.cpp:652
 msgid "SERVER: Error on socket of player %1%, bye bye!\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:804
+#: libs/s25main/network/GameServer.cpp:791
 msgid "SERVER: Kicking player %1% in %2% seconds\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:883
+#: libs/s25main/network/GameServer.cpp:868
 msgid "SERVER: Receiving Message for player %1% failed, kicking...\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:676
+#: libs/s25main/network/GameServer.cpp:662
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
 msgstr ""
 
@@ -3299,11 +3340,11 @@ msgstr "Guardar juego!"
 msgid "Save playlist"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:224 libs/s25main/Replay.cpp:282
+#: libs/s25main/Replay.cpp:230 libs/s25main/Replay.cpp:288
 msgid "Savegame error: "
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1669
+#: libs/s25main/network/GameClient.cpp:1685
 msgid "Saving game..."
 msgstr ""
 
@@ -3369,7 +3410,7 @@ msgstr "Mandar un explorador"
 msgid "Send soldiers home"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1596
+#: libs/s25main/network/GameServer.cpp:1581
 msgid "Sending async logs %1%.\n"
 msgstr ""
 
@@ -3397,7 +3438,7 @@ msgstr "Información del servidor"
 msgid "Server Name:"
 msgstr "Nombre del Servidor:"
 
-#: libs/s25main/desktops/dskCredits.cpp:103
+#: libs/s25main/desktops/dskCredits.cpp:102
 msgid "Server management"
 msgstr "Administración de servidores"
 
@@ -3430,7 +3471,7 @@ msgstr ""
 msgid "Set ship speed"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwSettings.cpp:33
+#: libs/s25main/ingameWindows/iwSettings.cpp:34
 msgid "Settings"
 msgstr "Configuración"
 
@@ -3438,7 +3479,11 @@ msgstr "Configuración"
 msgid "Settlers"
 msgstr "Settlers"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:175
+#: libs/s25main/gameData/PortraitConsts.h:28
+msgid "Shaka"
+msgstr ""
+
+#: libs/s25main/desktops/dskGameLobby.cpp:203
 msgid "Shared team view"
 msgstr "Compartir vista en equipo"
 
@@ -3475,7 +3520,7 @@ msgstr "A corto plazo"
 msgid "Shovel"
 msgstr "Pala"
 
-#: libs/s25main/desktops/dskOptions.cpp:276
+#: libs/s25main/desktops/dskOptions.cpp:302
 msgid "Show GameFrame Info:"
 msgstr ""
 
@@ -3483,7 +3528,7 @@ msgstr ""
 msgid "Show coordinates"
 msgstr ""
 
-#: libs/s25main/desktops/dskMainMenu.cpp:40
+#: libs/s25main/desktops/dskMainMenu.cpp:39
 msgid "Singleplayer"
 msgstr "Un jugador"
 
@@ -3492,9 +3537,9 @@ msgstr "Un jugador"
 msgid "Size"
 msgstr "Tamaño"
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:128
-#: libs/s25main/ingameWindows/iwStatistics.cpp:155
-#: libs/s25main/ingameWindows/iwStatistics.cpp:221
+#: libs/s25main/ingameWindows/iwStatistics.cpp:133
+#: libs/s25main/ingameWindows/iwStatistics.cpp:162
+#: libs/s25main/ingameWindows/iwStatistics.cpp:216
 msgid "Size of country"
 msgstr "Tamaño del país"
 
@@ -3520,19 +3565,23 @@ msgid "Slaughterhouse"
 msgstr "Matadero"
 
 #: libs/s25main/addons/AddonShipSpeed.h:20
-#: libs/s25main/desktops/dskGameLobby.cpp:230
+#: libs/s25main/desktops/dskGameLobby.cpp:252
 msgid "Slow"
 msgstr "Lento"
 
-#: libs/s25main/desktops/dskOptions.cpp:255
+#: libs/s25main/desktops/dskOptions.cpp:281
 msgid "Smart Cursor"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwSettings.cpp:76
+msgid "Smart cursor placement"
 msgstr ""
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:17
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:234
+#: libs/s25main/desktops/dskOptions.cpp:260
 msgid "Socks v4"
 msgstr "Socks v4"
 
@@ -3551,18 +3600,18 @@ msgstr ""
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
 #: libs/s25main/desktops/dskLobby.cpp:226
 #: libs/s25main/desktops/dskLobby.cpp:239
-#: libs/s25main/desktops/dskOptions.cpp:611
-#: libs/s25main/desktops/dskOptions.cpp:623
-#: libs/s25main/desktops/dskOptions.cpp:631
-#: libs/s25main/ingameWindows/iwSettings.cpp:86
+#: libs/s25main/desktops/dskOptions.cpp:636
+#: libs/s25main/desktops/dskOptions.cpp:648
+#: libs/s25main/desktops/dskOptions.cpp:656
+#: libs/s25main/ingameWindows/iwSettings.cpp:99
 msgid "Sorry!"
 msgstr "¡Lo sentimos!"
 
-#: libs/s25main/desktops/dskOptions.cpp:145
+#: libs/s25main/desktops/dskOptions.cpp:149
 msgid "Sound/Music"
 msgstr "Sonido/Música"
 
-#: libs/s25main/desktops/dskOptions.cpp:365
+#: libs/s25main/desktops/dskOptions.cpp:386
 msgid "Sounddriver"
 msgstr "Tarjeta de Sonido"
 
@@ -3570,7 +3619,7 @@ msgstr "Tarjeta de Sonido"
 msgid "Specify the playlist name"
 msgstr "Especificar el nombre de la lista"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:226
+#: libs/s25main/desktops/dskGameLobby.cpp:248
 msgid "Speed:"
 msgstr "Velocidad:"
 
@@ -3584,7 +3633,7 @@ msgstr ""
 msgid "Start"
 msgstr "Empezar"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:743
+#: libs/s25main/desktops/dskGameLobby.cpp:786
 msgid "Start aborted"
 msgstr "Comienzo detenido"
 
@@ -3598,25 +3647,25 @@ msgstr "Comenzar expedición"
 msgid "Start exporation expedition"
 msgstr "Comenzar exploración"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:166
-#: libs/s25main/desktops/dskGameLobby.cpp:668
-#: libs/s25main/desktops/dskGameLobby.cpp:916
+#: libs/s25main/desktops/dskGameLobby.cpp:197
+#: libs/s25main/desktops/dskGameLobby.cpp:711
+#: libs/s25main/desktops/dskGameLobby.cpp:953
 msgid "Start game"
 msgstr "Empezar juego"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:733
+#: libs/s25main/desktops/dskGameLobby.cpp:776
 msgid "Starting game, please wait"
 msgstr "Empezando juego, por favor espere"
 
-#: libs/s25main/Loader.cpp:266
+#: libs/s25main/Loader.cpp:267
 msgid "Starting sound conversion: "
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:39
+#: libs/s25main/ingameWindows/iwStatistics.cpp:78
 msgid "Statistics"
 msgstr "Estadísticas"
 
-#: libs/s25main/ingameWindows/iwSettings.cpp:66
+#: libs/s25main/ingameWindows/iwSettings.cpp:80
 msgid "Statistics Scale"
 msgstr "Estadísticas gráficas"
 
@@ -3662,11 +3711,11 @@ msgstr "Defensa fuerte"
 msgid "Style"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:265
+#: libs/s25main/desktops/dskOptions.cpp:291
 msgid "Submit debug data:"
 msgstr "Enviar datos de depuración:"
 
-#: libs/s25main/desktops/dskMainMenu.cpp:73
+#: libs/s25main/desktops/dskMainMenu.cpp:66
 msgid "Submit debug data?"
 msgstr "Enviar datos de depuración?"
 
@@ -3687,7 +3736,7 @@ msgstr "Rendirse"
 msgid "Surrender game?"
 msgstr "Capitular?"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:135
+#: libs/s25main/desktops/dskGameLobby.cpp:170
 msgid "Swap"
 msgstr "Intercambio"
 
@@ -3699,7 +3748,7 @@ msgstr "Espada"
 msgid "System language"
 msgstr "Idioma del juego"
 
-#: libs/s25main/desktops/dskCredits.cpp:269
+#: libs/s25main/desktops/dskCredits.cpp:268
 msgid "THE END"
 msgstr "FIN"
 
@@ -3707,7 +3756,7 @@ msgstr "FIN"
 msgid "Take out of store"
 msgstr "Sacar del almacén"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:124
+#: libs/s25main/desktops/dskGameLobby.cpp:162
 msgid "Team"
 msgstr "Equipo"
 
@@ -3723,11 +3772,11 @@ msgstr ""
 msgid "Temple Servant"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:244
+#: libs/s25main/desktops/dskCredits.cpp:243
 msgid "Thank you for your donations!"
 msgstr "Gracias por tus donaciones!"
 
-#: libs/s25main/desktops/dskCredits.cpp:270
+#: libs/s25main/desktops/dskCredits.cpp:269
 msgid "Thank you!"
 msgstr "¡Gracias!"
 
@@ -3746,7 +3795,7 @@ msgid "The %s between player '%s' and you has been concluded."
 msgstr "El %s entre el jugador '%s' y tú ha llegado a su fin."
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1181
-#: libs/s25main/network/GameClient.cpp:840
+#: libs/s25main/network/GameClient.cpp:856
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "El juego no está sincronizado. La versión de algún jugador no coincide."
 
@@ -3814,7 +3863,7 @@ msgstr "El pescador es responsable de encontrar peces en las aguas. Sus pescados
 msgid "The flour produced at the windmill can be combined with water in the bakery to make oven-fresh bread. It's your miners' favorite!"
 msgstr "La harina producida en el Molino de viento puede ser combinada con agua en la panadería para hacer pan recién horneado. Es el favorito de tus mineros!"
 
-#: libs/s25main/network/GameServer.cpp:1585
+#: libs/s25main/network/GameServer.cpp:1570
 msgid "The game clients are out of sync. Would you like to send debug information to RttR to help us avoiding this in the future? Thank you very much!"
 msgstr "Los jugadores-clientes no están sincronizados. ¿Quieres enviarnos tú informe con los errores a los desarrolladores para evitar este fallo en el futuro? Muchísimas gracias"
 
@@ -3872,7 +3921,7 @@ msgstr "La extracción de piedra en una mina de granito garantiza el suministro 
 msgid "The selected game was not found anymore."
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:611
+#: libs/s25main/desktops/dskOptions.cpp:636
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
 msgstr ""
 
@@ -3927,7 +3976,7 @@ msgstr ""
 msgid "The winners:"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1534
+#: libs/s25main/network/GameServer.cpp:1519
 msgid "There are %1% identical async log entries.\n"
 msgstr ""
 
@@ -3955,11 +4004,11 @@ msgstr "Esta mina está agotada"
 msgid "This well has dried out"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:203
+#: libs/s25main/ingameWindows/iwStatistics.cpp:200
 msgid "This window allows a direct comparison with the enemies. Factors such as the wealth, territorial area, inhabitants, etc. of all parties can be compared. This data can be shown over four different time periods."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwEconomicProgress.cpp:142
+#: libs/s25main/ingameWindows/iwEconomicProgress.cpp:137
 msgid "This window shows the wares that should be collected for the economy mode. Displayed is the current inventory of the player, his team and after game end of the opponent teams."
 msgstr ""
 
@@ -3983,6 +4032,10 @@ msgstr "Al jugador:"
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:171
 msgid "To register, you have to create a valid board account at http://forum.siedler25.org at the moment.\n"
 msgstr "Para registrarse se necesita, por el momento, de una cuenta válida en http://forum.siedler25.org\n"
+
+#: libs/s25main/gameData/PortraitConsts.h:28
+msgid "Todo"
+msgstr ""
 
 #: libs/s25main/gameData/GoodConsts.cpp:10
 msgid "Tongs"
@@ -4008,7 +4061,7 @@ msgstr ""
 msgid "Top"
 msgstr "Comienzo"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:214
+#: libs/s25main/desktops/dskGameLobby.cpp:237
 msgid "Total domination"
 msgstr "Dominación Total"
 
@@ -4016,7 +4069,7 @@ msgstr "Dominación Total"
 msgid "Tournament finished"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:222
+#: libs/s25main/desktops/dskGameLobby.cpp:245
 #, c-format
 msgid "Tournament: %u minutes"
 msgstr "Competencia: %u minutos"
@@ -4058,11 +4111,15 @@ msgstr ""
 msgid "Tribal chiefs assembled around the table..."
 msgstr "Los líderes se reunen en la mesa..."
 
+#: libs/s25main/gameData/PortraitConsts.h:26
+msgid "Tsunami"
+msgstr ""
+
 #: libs/s25main/desktops/dskSelectMap.cpp:78
 msgid "Type"
 msgstr "Tipo"
 
-#: libs/s25main/Loader.cpp:319
+#: libs/s25main/Loader.cpp:320
 msgid "Unable to load font at index %1%\n"
 msgstr ""
 
@@ -4072,7 +4129,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:102
-#: libs/s25main/network/GameClient.cpp:1466
+#: libs/s25main/network/GameClient.cpp:1482
 msgid "Unknown"
 msgstr ""
 
@@ -4142,7 +4199,7 @@ msgstr "Hacia arriba"
 msgid "Use"
 msgstr "Utilice"
 
-#: libs/s25main/desktops/dskOptions.cpp:201
+#: libs/s25main/desktops/dskOptions.cpp:228
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:56
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:38
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:70
@@ -4153,7 +4210,7 @@ msgstr "Usar IPv6:"
 msgid "Use S2 Defaults"
 msgstr "Usar opciones originales"
 
-#: libs/s25main/desktops/dskOptions.cpp:222
+#: libs/s25main/desktops/dskOptions.cpp:248
 msgid "Use UPnP"
 msgstr ""
 
@@ -4161,8 +4218,8 @@ msgstr ""
 msgid "Username:"
 msgstr "Nombre de Usuario:"
 
-#: libs/s25main/ingameWindows/iwStatistics.cpp:142
-#: libs/s25main/ingameWindows/iwStatistics.cpp:249
+#: libs/s25main/ingameWindows/iwStatistics.cpp:147
+#: libs/s25main/ingameWindows/iwStatistics.cpp:244
 msgid "Vanquished enemies"
 msgstr "Enemigos derrotados"
 
@@ -4175,7 +4232,7 @@ msgstr "Esperando Información del Jugador..."
 msgid "Version"
 msgstr "Versión"
 
-#: libs/s25main/network/GameClient.cpp:692
+#: libs/s25main/network/GameClient.cpp:707
 msgid "Version mismatch. Server version: %1%, your version %2%"
 msgstr ""
 
@@ -4183,11 +4240,11 @@ msgstr ""
 msgid "Version:"
 msgstr "Versión:"
 
-#: libs/s25main/desktops/dskOptions.cpp:302
+#: libs/s25main/desktops/dskOptions.cpp:325
 msgid "Vertex Buffer Objects:"
 msgstr "Objetos con Vertex Buffer"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:203
+#: libs/s25main/desktops/dskGameLobby.cpp:227
 msgid "Very Low"
 msgstr "Muy bajo"
 
@@ -4196,7 +4253,7 @@ msgid "Very far"
 msgstr "Muy rápido"
 
 #: libs/s25main/addons/AddonShipSpeed.h:23
-#: libs/s25main/desktops/dskGameLobby.cpp:233
+#: libs/s25main/desktops/dskGameLobby.cpp:255
 msgid "Very fast"
 msgstr "Muy rápido"
 
@@ -4205,7 +4262,7 @@ msgid "Very long"
 msgstr "Muy Largo"
 
 #: libs/s25main/addons/AddonShipSpeed.h:19
-#: libs/s25main/desktops/dskGameLobby.cpp:229
+#: libs/s25main/desktops/dskGameLobby.cpp:251
 msgid "Very slow"
 msgstr "Muy lento"
 
@@ -4213,7 +4270,7 @@ msgstr "Muy lento"
 msgid "Video driver couldn't be loaded!"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:184
+#: libs/s25main/desktops/dskGameLobby.cpp:210
 msgid "View Settings..."
 msgstr "Ver Opciones..."
 
@@ -4229,13 +4286,13 @@ msgstr ""
 msgid "Vintner"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:300
+#: libs/s25main/Loader.cpp:301
 msgid ""
 "WARNING: Did not find the music files.\n"
 "\tYou have to run the updater once or copy the .ogg files manually to %1% or you won't be able to hear the music.\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:291
+#: libs/s25main/Loader.cpp:292
 msgid "WARNING: Found invalid music item for %1%\n"
 msgstr ""
 
@@ -4281,7 +4338,7 @@ msgstr "Agua"
 msgid "We are under attack!"
 msgstr "¡Nos están atacando!"
 
-#: libs/s25main/desktops/dskCredits.cpp:269
+#: libs/s25main/desktops/dskCredits.cpp:268
 msgid "We hope you enjoy playing Return To The Roots!"
 msgstr "Esperamos que disfrutes jugando a Retorno a los Orígenes"
 
@@ -4298,14 +4355,14 @@ msgstr "Defensa débil"
 msgid "Weapons"
 msgstr "Armas"
 
-#: libs/s25main/desktops/dskCredits.cpp:62
-#: libs/s25main/desktops/dskCredits.cpp:78
-#: libs/s25main/desktops/dskCredits.cpp:105
+#: libs/s25main/desktops/dskCredits.cpp:61
+#: libs/s25main/desktops/dskCredits.cpp:77
+#: libs/s25main/desktops/dskCredits.cpp:104
 msgid "Website Administration"
 msgstr "Administración web"
 
-#: libs/s25main/desktops/dskCredits.cpp:79
-#: libs/s25main/desktops/dskCredits.cpp:106
+#: libs/s25main/desktops/dskCredits.cpp:78
+#: libs/s25main/desktops/dskCredits.cpp:105
 msgid "Website Programming"
 msgstr "Programación web"
 
@@ -4317,8 +4374,8 @@ msgstr "Pozo"
 msgid "What is this?"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:293
-#: libs/s25main/ingameWindows/iwSettings.cpp:59
+#: libs/s25main/desktops/dskOptions.cpp:318
+#: libs/s25main/ingameWindows/iwSettings.cpp:68
 msgid "Windowed"
 msgstr "Modo Ventana"
 
@@ -4379,6 +4436,10 @@ msgstr ""
 msgid "Wrong version for lua script."
 msgstr ""
 
+#: libs/s25main/gameData/PortraitConsts.h:25
+msgid "Yamauchi"
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:23
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:67
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:77
@@ -4411,11 +4472,11 @@ msgstr ""
 msgid "You can't join that game with your version!"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1101
+#: libs/s25main/desktops/dskGameLobby.cpp:1140
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1086
+#: libs/s25main/desktops/dskGameLobby.cpp:1125
 msgid ""
 "You chose the economy mode. In economy mode the player or team that collects the most of certain goods wins (check the Economic progress window in game).\n"
 "\n"
@@ -4424,17 +4485,17 @@ msgid ""
 "Choosing No will start the game without any changes."
 msgstr ""
 
-#: libs/s25main/desktops/dskGameLobby.cpp:725
+#: libs/s25main/desktops/dskGameLobby.cpp:768
 #, c-format
 msgid "You have %u seconds until game starts"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:623
-#: libs/s25main/ingameWindows/iwSettings.cpp:86
+#: libs/s25main/desktops/dskOptions.cpp:648
+#: libs/s25main/ingameWindows/iwSettings.cpp:99
 msgid "You need to restart your game to change the screen resolution!"
 msgstr "Tiene que reiniciar el juego para cambiar la resolución de pantalla"
 
-#: libs/s25main/desktops/dskOptions.cpp:631
+#: libs/s25main/desktops/dskOptions.cpp:656
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "Tiene que reiniciar el juego para cambiar el controlador de vídeo o audio"
 
@@ -4450,15 +4511,15 @@ msgstr ""
 msgid "Zero all production"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwObservate.cpp:41
+#: libs/s25main/ingameWindows/iwObservate.cpp:47
 msgid "Zoom"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:122
+#: libs/s25main/desktops/dskCredits.cpp:121
 msgid "all developers who contributed via Github"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1638
+#: libs/s25main/network/GameClient.cpp:1654
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "GF actual: %u - velocidad de envío: %d GF pérdidos (%d %%)"
@@ -4467,7 +4528,7 @@ msgstr "GF actual: %u - velocidad de envío: %d GF pérdidos (%d %%)"
 msgid "default"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:276 libs/s25main/resources/ArchiveLoader.cpp:117
+#: libs/s25main/Loader.cpp:277 libs/s25main/resources/ArchiveLoader.cpp:117
 #, c-format
 msgid "done in %ums\n"
 msgstr ""
@@ -4476,7 +4537,7 @@ msgstr ""
 msgid "easy"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:272 libs/s25main/resources/ArchiveLoader.cpp:122
+#: libs/s25main/Loader.cpp:273 libs/s25main/resources/ArchiveLoader.cpp:122
 msgid "failed: %1%\n"
 msgstr ""
 
@@ -4515,7 +4576,7 @@ msgstr ""
 msgid "to GameFrame:"
 msgstr "a GF:"
 
-#: libs/s25main/desktops/dskCredits.cpp:141
+#: libs/s25main/desktops/dskCredits.cpp:140
 msgid "various anonymous donators"
 msgstr "diversos donadores anónimos"
 
