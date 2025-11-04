@@ -19,6 +19,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -V
+          
+          echo "::group::Installing breezy"
           venv_dir="/tmp/venv"
           python -m venv "$venv_dir"
           . $venv_dir/bin/activate
@@ -32,7 +34,20 @@ jobs:
           # Add missing import and use binary buffer of stdin for Python3 compat
           sed -i '1 i from breezy import controldir' $fastimport_dir/branch_updater.py
           sed -i 's/helpers.binary_stream(sys.stdin)/sys.stdin.buffer/' $fastimport_dir/cmds.py
+          # Ensure correct Python is used
+          sed -i '1 i\#!/usr/bin/env python3' $venv_dir/bin/brz
+          echo "::endgroup::"
 
+          # Sanity check
+          echo "::group::Breezy location"
+          which brz
+          echo "::endgroup::"
+          echo "::group::brz script contents"
+          file $(which brz)
+          cat $(which brz)
+          echo "::endgroup::"
+          echo "brz version"
+          brz --version
 
       - uses: actions/checkout@v4
         with:
