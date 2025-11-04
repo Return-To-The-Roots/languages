@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-01 15:45+0200\n"
+"POT-Creation-Date: 2025-11-04 10:23+0100\n"
 "PO-Revision-Date: 2020-05-21 15:36+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -73,7 +73,7 @@ msgstr " pierres"
 msgid "%1% are the winners!"
 msgstr "%1% sont les vainqueurs"
 
-#: libs/s25main/desktops/dskCampaignSelection.cpp:257
+#: libs/s25main/desktops/dskCampaignSelection.cpp:258
 msgid "%1% campaign(s) could not be loaded. Check the log for details"
 msgstr ""
 
@@ -374,7 +374,7 @@ msgstr "Extension %1$#x non trouvé !\n"
 msgid "Addon Settings"
 msgstr "Paramètre des extensions"
 
-#: libs/s25main/desktops/dskOptions.cpp:154
+#: libs/s25main/desktops/dskOptions.cpp:156
 msgid "Addons"
 msgstr "Extensions"
 
@@ -413,7 +413,7 @@ msgstr "Ajuster le temps après lequel la condition de victoire du mode économi
 msgid "Adjusts how long a building will burn for when it is destroyed"
 msgstr "Ajuster le temps de combustion des bâtiments lorsqu'ils sont détruits."
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:100
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:104
 msgid "Advanced"
 msgstr "Avancé"
 
@@ -512,7 +512,7 @@ msgstr "Intelligence artificielle (IA)"
 msgid "As the teams are locked, you cannot make treaties of any kind."
 msgstr "Les équipes sont verrouillées, vous ne pouvez pas signer de traités."
 
-#: libs/s25main/desktops/dskOptions.cpp:295
+#: libs/s25main/desktops/dskOptions.cpp:297
 msgid "Ask always"
 msgstr ""
 
@@ -568,7 +568,7 @@ msgstr "Le pilote audio n'a pas pu être chargé !"
 msgid "Author"
 msgstr "Auteur"
 
-#: libs/s25main/desktops/dskOptions.cpp:755
+#: libs/s25main/desktops/dskOptions.cpp:765
 #, c-format
 msgid "Auto (%u%%)"
 msgstr ""
@@ -618,7 +618,7 @@ msgstr "Babyloniens"
 #: libs/s25main/desktops/dskIntro.cpp:20 libs/s25main/desktops/dskLAN.cpp:40
 #: libs/s25main/desktops/dskLobby.cpp:45
 #: libs/s25main/desktops/dskMultiPlayer.cpp:31
-#: libs/s25main/desktops/dskOptions.cpp:152
+#: libs/s25main/desktops/dskOptions.cpp:154
 #: libs/s25main/desktops/dskSelectMap.cpp:86
 #: libs/s25main/desktops/dskSinglePlayer.cpp:49
 #: libs/s25main/desktops/dskTextureTest.cpp:35
@@ -645,6 +645,11 @@ msgstr "Baraquement"
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:56
 msgid "Beer"
 msgstr "Bière"
+
+#: libs/s25main/desktops/dskOptions.cpp:374
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
+msgid "Bird sounds"
+msgstr ""
 
 #: libs/s25main/gameData/GoodConsts.cpp:32
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:48
@@ -746,11 +751,11 @@ msgstr "Campagne"
 msgid "Campaign %1% has no maps.\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskCampaignSelection.cpp:229
+#: libs/s25main/desktops/dskCampaignSelection.cpp:230
 msgid "Campaign map %1% does not exist.\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskCampaignSelection.cpp:242
+#: libs/s25main/desktops/dskCampaignSelection.cpp:243
 msgid "Campaign map lua file %1% does not exist.\n"
 msgstr ""
 
@@ -931,7 +936,7 @@ msgstr "Collecter"
 msgid "Color"
 msgstr "Couleur"
 
-#: libs/s25main/desktops/dskOptions.cpp:145
+#: libs/s25main/desktops/dskOptions.cpp:147
 msgid "Common"
 msgstr "Général"
 
@@ -1182,7 +1187,7 @@ msgstr "Désactiver l'approvisionnement en or par défaut"
 msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr "Désactiver la démolition des bâtiments militaires attaqués ou proches des frontières"
 
-#: libs/s25main/desktops/dskOptions.cpp:438
+#: libs/s25main/desktops/dskOptions.cpp:446
 #: libs/s25main/ingameWindows/iwSave.cpp:140
 msgid "Disabled"
 msgstr "Désactivé"
@@ -1208,7 +1213,7 @@ msgstr "Distribution des ressources"
 msgid "Don't forget to check the addon configuration!"
 msgstr "N'oubliez pas de vérifier la configuration des extensions !"
 
-#: libs/s25main/desktops/dskOptions.cpp:287
+#: libs/s25main/desktops/dskOptions.cpp:289
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
@@ -1259,7 +1264,7 @@ msgstr "Durée : %d GF (%s)"
 msgid "Duration: Forever"
 msgstr "Durée : pour toujours"
 
-#: libs/s25main/desktops/dskOptions.cpp:434
+#: libs/s25main/desktops/dskOptions.cpp:442
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr "Dynamique (limiter à la fréquence de rafraîchissement, fonctionne avec la plupart des pilotes)"
 
@@ -1288,7 +1293,7 @@ msgstr ""
 msgid "Economy mode"
 msgstr "Mode économie"
 
-#: libs/s25main/desktops/dskOptions.cpp:372
+#: libs/s25main/desktops/dskOptions.cpp:364
 msgid "Effects"
 msgstr "Bruitages"
 
@@ -1320,7 +1325,7 @@ msgstr ""
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
 msgstr "Activer des fonctionnalités supplémentaires pour déboguer les pertes de synchronisation. Ne pas activer si vous ne savez pas ce que vous faites !"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:102
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:106
 #: libs/s25main/ingameWindows/iwVictory.cpp:47
 msgid "End game"
 msgstr "Quitter la partie"
@@ -1359,7 +1364,7 @@ msgstr ""
 #: libs/s25client/s25client.cpp:123 libs/s25client/s25client.cpp:146
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:169
-#: libs/s25main/desktops/dskCampaignSelection.cpp:259
+#: libs/s25main/desktops/dskCampaignSelection.cpp:260
 #: libs/s25main/desktops/dskCredits.cpp:276
 #: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:135
@@ -1371,7 +1376,7 @@ msgstr ""
 #: libs/s25main/desktops/dskGameLobby.cpp:1089
 #: libs/s25main/desktops/dskGameLobby.cpp:1099
 #: libs/s25main/desktops/dskLobby.cpp:259
-#: libs/s25main/desktops/dskOptions.cpp:603
+#: libs/s25main/desktops/dskOptions.cpp:613
 #: libs/s25main/desktops/dskSelectMap.cpp:173
 #: libs/s25main/desktops/dskSelectMap.cpp:235
 #: libs/s25main/desktops/dskSelectMap.cpp:362
@@ -1490,7 +1495,7 @@ msgstr "Impossible d'initialiser l'interface graphique : "
 msgid "Failed to load %s\n"
 msgstr "Impossible de charger %s\n"
 
-#: libs/s25main/desktops/dskCampaignSelection.cpp:217
+#: libs/s25main/desktops/dskCampaignSelection.cpp:218
 msgid "Failed to load campaign %1%.\n"
 msgstr ""
 
@@ -1521,7 +1526,7 @@ msgid "Failed to load lua state!"
 msgstr ""
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:144
-#: libs/s25main/desktops/dskCampaignSelection.cpp:236
+#: libs/s25main/desktops/dskCampaignSelection.cpp:237
 #: libs/s25main/desktops/dskSelectMap.cpp:430
 msgid "Failed to load map %1%: %2%\n"
 msgstr ""
@@ -1691,17 +1696,17 @@ msgstr ""
 msgid "Full Control"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:317
+#: libs/s25main/desktops/dskOptions.cpp:319
 #: libs/s25main/ingameWindows/iwSettings.cpp:66
 msgid "Fullscreen"
 msgstr "Plein écran"
 
-#: libs/s25main/desktops/dskOptions.cpp:310
+#: libs/s25main/desktops/dskOptions.cpp:312
 #: libs/s25main/ingameWindows/iwSettings.cpp:43
 msgid "Fullscreen resolution:"
 msgstr "Résolution plein-écran :"
 
-#: libs/s25main/desktops/dskOptions.cpp:352
+#: libs/s25main/desktops/dskOptions.cpp:354
 msgid "GUI Scale:"
 msgstr ""
 
@@ -1721,7 +1726,7 @@ msgstr "Le jeu ne peut être commencé uniquement lorsque tout le monde a une co
 msgid "Game crate was picked and spread out..."
 msgstr "La boite de jeu est sélectionnée et son contenu répandu…"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:49
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:50
 msgid "Game menu"
 msgstr "Menu de jeu"
 
@@ -1854,11 +1859,11 @@ msgstr "Granite : "
 msgid "Grapes"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:147
+#: libs/s25main/desktops/dskOptions.cpp:149
 msgid "Graphics"
 msgstr "Affichage"
 
-#: libs/s25main/desktops/dskOptions.cpp:331
+#: libs/s25main/desktops/dskOptions.cpp:333
 msgid "Graphics Driver"
 msgstr "Pilote graphique"
 
@@ -1951,14 +1956,14 @@ msgstr "Identifiant"
 msgid "IP Address of Host:"
 msgstr "Adresse IP de l'hôte :"
 
-#: libs/s25main/desktops/dskOptions.cpp:232
+#: libs/s25main/desktops/dskOptions.cpp:234
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:59
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:41
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:73
 msgid "IPv4"
 msgstr "IPv4"
 
-#: libs/s25main/desktops/dskOptions.cpp:231
+#: libs/s25main/desktops/dskOptions.cpp:233
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:60
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:42
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:74
@@ -2067,7 +2072,7 @@ msgstr ""
 msgid "Invalid maximum human player count: %1%"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:604
+#: libs/s25main/desktops/dskOptions.cpp:614
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:138
 msgid "Invalid port. The valid port-range is 1 to 65535!"
@@ -2077,7 +2082,7 @@ msgstr "Port non valide. L'intervalle des ports est entre 1 et 65535 !"
 msgid "Invert Mouse Pan"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:272
+#: libs/s25main/desktops/dskOptions.cpp:274
 msgid "Invert Mouse Pan:"
 msgstr ""
 
@@ -2145,10 +2150,10 @@ msgid "Keep setting"
 msgstr ""
 
 #: libs/s25main/desktops/dskGameInterface.cpp:779
-#: libs/s25main/desktops/dskOptions.cpp:217
-#: libs/s25main/desktops/dskOptions.cpp:679
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:67
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:114
+#: libs/s25main/desktops/dskOptions.cpp:219
+#: libs/s25main/desktops/dskOptions.cpp:689
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:68
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
 msgid "Keyboard layout"
 msgstr "Disposition du clavier"
 
@@ -2164,7 +2169,7 @@ msgstr "Terrain"
 msgid "Landscape"
 msgstr "Paysage"
 
-#: libs/s25main/desktops/dskOptions.cpp:197
+#: libs/s25main/desktops/dskOptions.cpp:199
 msgid "Language:"
 msgstr "Langue :"
 
@@ -2190,7 +2195,7 @@ msgstr "Moins fréquent"
 msgid "Less repeats"
 msgstr "Moins de répétitions"
 
-#: libs/s25main/desktops/dskOptions.cpp:321
+#: libs/s25main/desktops/dskOptions.cpp:323
 msgid "Limit Framerate:"
 msgstr "Limiter le débit d'images :"
 
@@ -2242,7 +2247,7 @@ msgstr ""
 "Tour de garde : 2\n"
 "Forteresse : 1"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:70
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:71
 msgid "Load 'ReadMe' file"
 msgstr "Charger le fichier « Lisez-moi »"
 
@@ -2296,7 +2301,7 @@ msgstr ""
 msgid "Lobby Chat"
 msgstr "Chat du salon"
 
-#: libs/s25main/desktops/dskOptions.cpp:220
+#: libs/s25main/desktops/dskOptions.cpp:222
 msgid "Local Port:"
 msgstr "Port local :"
 
@@ -2427,11 +2432,11 @@ msgstr ""
 msgid "Map is invalid or failed to load properly!"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:275
+#: libs/s25main/desktops/dskOptions.cpp:277
 msgid "Map moves in the opposite direction the mouse is moved when scrolling/panning."
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:277
+#: libs/s25main/desktops/dskOptions.cpp:279
 msgid "Map moves in the same direction the mouse is moved when scrolling/panning."
 msgstr ""
 
@@ -2603,7 +2608,7 @@ msgstr ""
 msgid "Mnga Tscha"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:315
+#: libs/s25main/desktops/dskOptions.cpp:317
 #: libs/s25main/ingameWindows/iwSettings.cpp:63
 msgid "Mode:"
 msgstr "Mode :"
@@ -2648,13 +2653,13 @@ msgstr "Plus d'arbres génèrent des animaux"
 msgid "Multiplayer"
 msgstr "Multijoueur"
 
-#: libs/s25main/desktops/dskOptions.cpp:362
+#: libs/s25main/desktops/dskOptions.cpp:380
 msgid "Music"
 msgstr "Musique"
 
-#: libs/s25main/desktops/dskOptions.cpp:382
+#: libs/s25main/desktops/dskOptions.cpp:390
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:81
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:98
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:102
 msgid "Music player"
 msgstr "Lecteur de musique"
 
@@ -2667,7 +2672,7 @@ msgstr ""
 msgid "Name"
 msgstr "Nom"
 
-#: libs/s25main/desktops/dskOptions.cpp:172
+#: libs/s25main/desktops/dskOptions.cpp:174
 msgid "Name in Game:"
 msgstr "Nom du joueur :"
 
@@ -2710,7 +2715,7 @@ msgstr "Page suivante"
 msgid "No"
 msgstr "Non"
 
-#: libs/s25main/desktops/dskOptions.cpp:259
+#: libs/s25main/desktops/dskOptions.cpp:261
 msgid "No Proxy"
 msgstr "Pas de proxy"
 
@@ -2842,14 +2847,15 @@ msgstr ""
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
-#: libs/s25main/desktops/dskOptions.cpp:251
-#: libs/s25main/desktops/dskOptions.cpp:276
-#: libs/s25main/desktops/dskOptions.cpp:286
-#: libs/s25main/desktops/dskOptions.cpp:305
-#: libs/s25main/desktops/dskOptions.cpp:328
-#: libs/s25main/desktops/dskOptions.cpp:349
-#: libs/s25main/desktops/dskOptions.cpp:365
-#: libs/s25main/desktops/dskOptions.cpp:375
+#: libs/s25main/desktops/dskOptions.cpp:253
+#: libs/s25main/desktops/dskOptions.cpp:278
+#: libs/s25main/desktops/dskOptions.cpp:288
+#: libs/s25main/desktops/dskOptions.cpp:307
+#: libs/s25main/desktops/dskOptions.cpp:330
+#: libs/s25main/desktops/dskOptions.cpp:351
+#: libs/s25main/desktops/dskOptions.cpp:367
+#: libs/s25main/desktops/dskOptions.cpp:377
+#: libs/s25main/desktops/dskOptions.cpp:383
 msgid "Off"
 msgstr "Arrêt"
 
@@ -2877,15 +2883,16 @@ msgstr "Anciennes cartes"
 msgid "Olof"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:250
-#: libs/s25main/desktops/dskOptions.cpp:274
-#: libs/s25main/desktops/dskOptions.cpp:283
-#: libs/s25main/desktops/dskOptions.cpp:293
-#: libs/s25main/desktops/dskOptions.cpp:304
-#: libs/s25main/desktops/dskOptions.cpp:327
-#: libs/s25main/desktops/dskOptions.cpp:348
-#: libs/s25main/desktops/dskOptions.cpp:364
-#: libs/s25main/desktops/dskOptions.cpp:374
+#: libs/s25main/desktops/dskOptions.cpp:252
+#: libs/s25main/desktops/dskOptions.cpp:276
+#: libs/s25main/desktops/dskOptions.cpp:285
+#: libs/s25main/desktops/dskOptions.cpp:295
+#: libs/s25main/desktops/dskOptions.cpp:306
+#: libs/s25main/desktops/dskOptions.cpp:329
+#: libs/s25main/desktops/dskOptions.cpp:350
+#: libs/s25main/desktops/dskOptions.cpp:366
+#: libs/s25main/desktops/dskOptions.cpp:376
+#: libs/s25main/desktops/dskOptions.cpp:382
 msgid "On"
 msgstr "Actif"
 
@@ -2901,12 +2908,12 @@ msgstr ""
 msgid "OpenGL %1%.%2% supported\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:345
+#: libs/s25main/desktops/dskOptions.cpp:347
 msgid "Optimized Textures:"
 msgstr "Texture optimisée :"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:43
-#: libs/s25main/desktops/dskOptions.cpp:139
+#: libs/s25main/desktops/dskOptions.cpp:141
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:99
 msgid "Options"
 msgstr "Options"
@@ -2979,7 +2986,7 @@ msgstr "Porcherie"
 msgid "Ping"
 msgstr "Ping"
 
-#: libs/s25main/desktops/dskOptions.cpp:284
+#: libs/s25main/desktops/dskOptions.cpp:286
 #: libs/s25main/ingameWindows/iwSettings.cpp:78
 msgid "Place cursor on default button for new dialogs / action windows (default)"
 msgstr "Placer le curseur sur les boutons des nouvelles fenêtres (par défaut)"
@@ -3056,7 +3063,7 @@ msgstr "Veuillez entrer un nom pour cette partie"
 msgid "Please wait..."
 msgstr "Veuillez patienter..."
 
-#: libs/s25main/desktops/dskOptions.cpp:182
+#: libs/s25main/desktops/dskOptions.cpp:184
 msgid "Portrait:"
 msgstr ""
 
@@ -3122,11 +3129,11 @@ msgstr "Gestion de projet"
 msgid "Proportional"
 msgstr "Proportionnel"
 
-#: libs/s25main/desktops/dskOptions.cpp:239
+#: libs/s25main/desktops/dskOptions.cpp:241
 msgid "Proxyserver:"
 msgstr "Serveur proxy :"
 
-#: libs/s25main/desktops/dskOptions.cpp:256
+#: libs/s25main/desktops/dskOptions.cpp:258
 msgid "Proxytyp:"
 msgstr "Type de proxy :"
 
@@ -3187,7 +3194,7 @@ msgstr "Lisez-moi"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:782
 #: libs/s25main/desktops/dskMainMenu.cpp:118
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:116
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:120
 msgid "Readme!"
 msgstr "Lisez-moi !"
 
@@ -3358,7 +3365,7 @@ msgstr "SYSTÈME"
 msgid "Save Password?"
 msgstr "Retenir le mot de passe ?"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:80
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:81
 #: libs/s25main/ingameWindows/iwSave.cpp:129
 msgid "Save game!"
 msgstr "Sauvegarder la partie !"
@@ -3547,7 +3554,7 @@ msgstr "Courte durée"
 msgid "Shovel"
 msgstr "Pelle"
 
-#: libs/s25main/desktops/dskOptions.cpp:302
+#: libs/s25main/desktops/dskOptions.cpp:304
 msgid "Show GameFrame Info:"
 msgstr ""
 
@@ -3596,7 +3603,7 @@ msgstr "Boucherie"
 msgid "Slow"
 msgstr "Lent"
 
-#: libs/s25main/desktops/dskOptions.cpp:281
+#: libs/s25main/desktops/dskOptions.cpp:283
 #: libs/s25main/ingameWindows/iwSettings.cpp:76
 msgid "Smart Cursor"
 msgstr "Curseur intelligent"
@@ -3605,7 +3612,7 @@ msgstr "Curseur intelligent"
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
 msgstr "La Forge peu construire 1 bouclier et 1 Épée avec 1 minerai de fer et 1 de charbon au lieu de 2 minerai de fer et 2 de charbon"
 
-#: libs/s25main/desktops/dskOptions.cpp:260
+#: libs/s25main/desktops/dskOptions.cpp:262
 msgid "Socks v4"
 msgstr "Socks v4"
 
@@ -3624,18 +3631,18 @@ msgstr ""
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
 #: libs/s25main/desktops/dskLobby.cpp:226
 #: libs/s25main/desktops/dskLobby.cpp:239
-#: libs/s25main/desktops/dskOptions.cpp:636
-#: libs/s25main/desktops/dskOptions.cpp:648
-#: libs/s25main/desktops/dskOptions.cpp:656
+#: libs/s25main/desktops/dskOptions.cpp:646
+#: libs/s25main/desktops/dskOptions.cpp:658
+#: libs/s25main/desktops/dskOptions.cpp:666
 #: libs/s25main/ingameWindows/iwSettings.cpp:99
 msgid "Sorry!"
 msgstr "Désolé !"
 
-#: libs/s25main/desktops/dskOptions.cpp:149
+#: libs/s25main/desktops/dskOptions.cpp:151
 msgid "Sound/Music"
 msgstr "Son/musique"
 
-#: libs/s25main/desktops/dskOptions.cpp:386
+#: libs/s25main/desktops/dskOptions.cpp:394
 msgid "Sounddriver"
 msgstr "Pilote de son"
 
@@ -3735,7 +3742,7 @@ msgstr "Défense forte"
 msgid "Style"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:291
+#: libs/s25main/desktops/dskOptions.cpp:293
 msgid "Submit debug data:"
 msgstr "Envoi d'informations de débogage:"
 
@@ -3751,7 +3758,7 @@ msgstr "Suggérer un pacte de non-agression"
 msgid "Suggest treaty of alliance"
 msgstr "Suggérer un traité d'alliance"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:101
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:105
 #: libs/s25main/ingameWindows/iwSurrender.cpp:16
 msgid "Surrender"
 msgstr "Abandonner"
@@ -3956,7 +3963,7 @@ msgstr "Les pierres arrachées à la Carrière servent ensuite de matériaux de 
 msgid "The selected game was not found anymore."
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:636
+#: libs/s25main/desktops/dskOptions.cpp:646
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
 msgstr ""
 
@@ -4248,7 +4255,7 @@ msgstr "Vers le haut"
 msgid "Use"
 msgstr "Utiliser"
 
-#: libs/s25main/desktops/dskOptions.cpp:228
+#: libs/s25main/desktops/dskOptions.cpp:230
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:56
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:38
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:70
@@ -4259,7 +4266,7 @@ msgstr "Utiliser IPv6 :"
 msgid "Use S2 Defaults"
 msgstr "Valeurs de S2"
 
-#: libs/s25main/desktops/dskOptions.cpp:248
+#: libs/s25main/desktops/dskOptions.cpp:250
 msgid "Use UPnP"
 msgstr "Utiliser l'UPnP"
 
@@ -4289,7 +4296,7 @@ msgstr ""
 msgid "Version:"
 msgstr "Version :"
 
-#: libs/s25main/desktops/dskOptions.cpp:325
+#: libs/s25main/desktops/dskOptions.cpp:327
 msgid "Vertex Buffer Objects:"
 msgstr "Vertex Buffer Objects :"
 
@@ -4423,7 +4430,7 @@ msgstr "Puits"
 msgid "What is this?"
 msgstr "Qu'est-ce que c'est ?"
 
-#: libs/s25main/desktops/dskOptions.cpp:318
+#: libs/s25main/desktops/dskOptions.cpp:320
 #: libs/s25main/ingameWindows/iwSettings.cpp:68
 msgid "Windowed"
 msgstr "Fenêtré"
@@ -4542,12 +4549,12 @@ msgstr ""
 msgid "You have %u seconds until game starts"
 msgstr "Le jeu commence dans %u secondes"
 
-#: libs/s25main/desktops/dskOptions.cpp:648
+#: libs/s25main/desktops/dskOptions.cpp:658
 #: libs/s25main/ingameWindows/iwSettings.cpp:99
 msgid "You need to restart your game to change the screen resolution!"
 msgstr "Vous devez redémarrer le jeu pour prendre en compte le changement de résolution !"
 
-#: libs/s25main/desktops/dskOptions.cpp:656
+#: libs/s25main/desktops/dskOptions.cpp:666
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "Vous devez redémarrer le jeu pour prendre en compte le changement de de pilote vidéo ou audio !"
 
