@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 10:23+0100\n"
-"PO-Revision-Date: 2020-12-21 13:09+0000\n"
-"Last-Translator: FloSoft <Unknown>\n"
+"PO-Revision-Date: 2025-11-23 20:13+0000\n"
+"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2026-01-12 09:20+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -85,7 +85,7 @@ msgstr "%1% map(s) could not be loaded. Check the log for details"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:142
 msgid "%1% min"
-msgstr ""
+msgstr "%1% min"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:44
 msgid "%1% players"
@@ -412,7 +412,7 @@ msgstr "Adjust the fraction of trees that spawn animals."
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:45
 msgid "Adjust the time after which the economy mode victory condition is checked."
-msgstr ""
+msgstr "Adjust the time after which the economy mode victory condition is checked."
 
 #: libs/s25main/addons/AddonBurnDuration.h:17
 msgid "Adjusts how long a building will burn for when it is destroyed"
@@ -519,7 +519,7 @@ msgstr "As the teams are locked, you cannot make treaties of any kind."
 
 #: libs/s25main/desktops/dskOptions.cpp:297
 msgid "Ask always"
-msgstr ""
+msgstr "Ask always"
 
 #: libs/s25main/network/GameServer.cpp:773
 msgid ""
@@ -595,7 +595,7 @@ msgstr "Auto save every:"
 
 #: libs/s25main/addons/AddonAutoFlags.h:18
 msgid "Automatic flag placement"
-msgstr ""
+msgstr "Automatic flag placement"
 
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
@@ -603,7 +603,7 @@ msgstr "Automatically demolish a resource gathering building, like a mine, if it
 
 #: libs/s25main/addons/AddonAutoFlags.h:19
 msgid "Automatically places flags on newly build roads"
-msgstr ""
+msgstr "Automatically places flags on newly build roads"
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
 msgid "Axe"
@@ -972,7 +972,7 @@ msgstr "Connect"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:27
 msgid "Connecting"
-msgstr "Connect"
+msgstr "Connecting"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:49
 msgid "Connecting to Lobby"
@@ -1281,11 +1281,11 @@ msgstr "Dynamic (Limits to display refresh rate, works with most drivers)"
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:81
 msgid "Economic Progress"
-msgstr ""
+msgstr "Economic Progress"
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:34
 msgid "Economic progress"
-msgstr ""
+msgstr "Economic progress"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:64
 msgid "Economy"
@@ -1293,16 +1293,16 @@ msgstr "Economy"
 
 #: libs/s25main/EconomyModeHandler.cpp:66
 msgid "Economy Mode: Collect as much as you can of the following good types: "
-msgstr ""
+msgstr "Economy Mode: Collect as much as you can of the following good types: "
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:44
 msgid "Economy Mode: Game Length"
-msgstr ""
+msgstr "Economy Mode: Game Length"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:238
 #: libs/s25main/desktops/dskGameLobby.cpp:1124
 msgid "Economy mode"
-msgstr "Economy"
+msgstr "Economy mode"
 
 #: libs/s25main/desktops/dskOptions.cpp:364
 msgid "Effects"
@@ -1463,7 +1463,7 @@ msgstr "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:145
 msgid "Every GF"
-msgstr "Everyone"
+msgstr "Every GF"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:22
 msgid "Everyone"
@@ -1582,7 +1582,7 @@ msgstr "Fast"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:88
 msgid "Few"
-msgstr "Fewer"
+msgstr "Few"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:24
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:85
@@ -1602,9 +1602,8 @@ msgid "File could not be opened."
 msgstr "File could not be opened."
 
 #: libs/s25main/SavedFile.cpp:87
-#, fuzzy
 msgid "File has an old version and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "File has an old version and cannot be used (version: %1%, expected: %2%)!"
+msgstr ""
 
 #: libs/s25main/SavedFile.cpp:76
 msgid "File is not in a valid format!"
@@ -1616,9 +1615,8 @@ msgid "File or directory does not exist: %s\n"
 msgstr "File or directory does not exist: %s\n"
 
 #: libs/s25main/SavedFile.cpp:88
-#, fuzzy
 msgid "File was created with more recent program and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "File was created with more recent program and cannot be used (version: %1%, expected: %2%)!"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwSave.cpp:51
 msgid "Filename"
@@ -1729,7 +1727,7 @@ msgstr "Game Chat"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:54
 msgid "Game Time"
-msgstr "Game menu"
+msgstr "Game Time"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:796
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
@@ -1886,7 +1884,7 @@ msgstr "Guardhouse"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:76
 msgid "HQ distance to mountain"
-msgstr ""
+msgstr "HQ distance to mountain"
 
 #: libs/s25main/gameData/PortraitConsts.h:27
 msgid "Hakirawashi"
@@ -1989,11 +1987,11 @@ msgstr "If Water is exhaustible wells will now dry out. If water everywhere is e
 
 #: libs/s25main/resources/ArchiveLocator.cpp:60
 msgid "Ignoring resource %1% in %2% because it is already found in %3%\n"
-msgstr ""
+msgstr "Ignoring resource %1% in %2% because it is already found in %3%\n"
 
 #: libs/s25main/resources/ArchiveLocator.cpp:46
 msgid "Ignoring resource %1% in %2% because the name contains unsupported characters\n"
-msgstr ""
+msgstr "Ignoring resource %1% in %2% because the name contains unsupported characters\n"
 
 #: libs/s25main/addons/AddonNoAlliedPush.h:16
 msgid "Improved Alliance"
@@ -2176,7 +2174,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
 msgid "Land"
-msgstr "Landscape"
+msgstr "Land"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:69
 msgid "Landscape"
@@ -2324,7 +2322,7 @@ msgstr "Lock teams:"
 
 #: libs/s25main/addons/AddonBool.cpp:29 libs/s25main/addons/AddonList.cpp:37
 msgid "Locked"
-msgstr ""
+msgstr "Locked"
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:33
 msgid "Long"
@@ -2370,7 +2368,7 @@ msgstr "Lua error: %s\n"
 
 #: libs/s25main/world/MapSerializer.cpp:187
 msgid "Lua load callback returned failure!"
-msgstr ""
+msgstr "Lua load callback returned failure!"
 
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:47
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:54
@@ -2409,7 +2407,7 @@ msgstr "Manually upgrade your roads and directly build donkey roads."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:90
 msgid "Many"
-msgstr ""
+msgstr "Many"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:120
 #: libs/s25main/desktops/dskLAN.cpp:47 libs/s25main/desktops/dskLobby.cpp:54
@@ -2615,7 +2613,7 @@ msgstr "Missing required API function"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:52
 msgid "Mixed"
-msgstr ""
+msgstr "Mixed"
 
 #: libs/s25main/gameData/PortraitConsts.h:29
 msgid "Mnga Tscha"
@@ -2979,7 +2977,7 @@ msgstr "Peaceful"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1139
 msgid "Peaceful mode"
-msgstr "Peaceful"
+msgstr "Peaceful mode"
 
 #: libs/s25main/gameData/GoodConsts.cpp:14
 msgid "Pick-axe"
@@ -3036,7 +3034,7 @@ msgstr "Player %1%"
 #: libs/s25main/world/MapLoader.cpp:412
 #, c-format
 msgid "Player %u does not have a valid start position!"
-msgstr ""
+msgstr "Player %u does not have a valid start position!"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1359
 #, c-format
@@ -3231,7 +3229,7 @@ msgstr "Received async logs from %1% (%2% entries).\n"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
 msgid "Receiving Map..."
-msgstr "Checking map..."
+msgstr "Receiving Map..."
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:18
 msgid "Receiving coins is disabled for military buildings by default."
@@ -3323,7 +3321,7 @@ msgstr "Return to harbour"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:106
 msgid "Rivers:"
-msgstr "Riverland"
+msgstr "Rivers:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:17
 msgid "Rod and line"
@@ -3491,7 +3489,7 @@ msgstr "Server management"
 
 #: libs/s25main/network/ClientError.cpp:12
 msgid "Server sent an invalid message!"
-msgstr ""
+msgstr "Server sent an invalid message!"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:49
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:30
@@ -3724,7 +3722,7 @@ msgstr "Stocktaking date"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:112
 msgid "Stone piles:"
-msgstr "Stones"
+msgstr "Stone piles:"
 
 #: libs/s25main/gameData/JobConsts.cpp:24
 msgid "Stonemason"
@@ -3753,7 +3751,7 @@ msgstr "Strong defence"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:47
 msgid "Style"
-msgstr ""
+msgstr "Style"
 
 #: libs/s25main/desktops/dskOptions.cpp:293
 msgid "Submit debug data:"
@@ -3869,7 +3867,7 @@ msgstr "The carpenter turns the woodcutter's logs into made-to-measure planks. T
 
 #: libs/s25main/ingameWindows/TransmitSettingsIgwAdapter.cpp:31
 msgid "The changes could not be applied and will be discarded. A potential reason for this is that the game is paused."
-msgstr ""
+msgstr "The changes could not be applied and will be discarded. A potential reason for this is that the game is paused."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:228
 msgid "The charburner stacks up piles of wood and straw which is then burned to create charcoal. This can be used just like the coal from the mine without any loss in quality."
@@ -4054,7 +4052,7 @@ msgstr "This window allows a direct comparison with the enemies. Factors such as
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:137
 msgid "This window shows the wares that should be collected for the economy mode. Displayed is the current inventory of the player, his team and after game end of the opponent teams."
-msgstr ""
+msgstr "This window shows the wares that should be collected for the economy mode. Displayed is the current inventory of the player, his team and after game end of the opponent teams."
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:290
 #: libs/s25main/ingameWindows/iwSave.cpp:53
@@ -4063,7 +4061,7 @@ msgstr "Time"
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:93
 msgid "Time remaining:"
-msgstr ""
+msgstr "Time remaining:"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:73
 msgid "Title"
@@ -4098,7 +4096,7 @@ msgstr "Tools"
 
 #: libs/s25main/EconomyModeHandler.cpp:74
 msgid "Tools in the hands of workers are also counted. So are weapons, and beer, that soldiers have in use. For an updating tally of the collected goods see the economic progress window."
-msgstr ""
+msgstr "Tools in the hands of workers are also counted. So are weapons, and beer, that soldiers have in use. For an updating tally of the collected goods see the economic progress window."
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
 #: libs/s25main/ingameWindows/iwTransport.cpp:29
@@ -4149,7 +4147,7 @@ msgstr "Treaty of alliance"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:109
 msgid "Trees:"
-msgstr ""
+msgstr "Trees:"
 
 #: libs/s25main/desktops/dskGameLoader.cpp:89
 msgid "Tribal chiefs assembled around the table..."
@@ -4269,7 +4267,7 @@ msgstr "Vanquished enemies"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
 msgid "Verifying server info..."
-msgstr "Waiting for playerinfo..."
+msgstr "Verifying server info..."
 
 #: libs/s25main/desktops/dskLAN.cpp:49 libs/s25main/desktops/dskLobby.cpp:56
 #: libs/s25main/desktops/dskLobby.cpp:59
@@ -4294,7 +4292,7 @@ msgstr "Very Low"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
 msgid "Very far"
-msgstr "Very Far"
+msgstr "Very far"
 
 #: libs/s25main/addons/AddonShipSpeed.h:23
 #: libs/s25main/desktops/dskGameLobby.cpp:255
@@ -4354,7 +4352,7 @@ msgstr "Waiting for reply..."
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
 msgid "Waiting for server info..."
-msgstr "Waiting for playerinfo..."
+msgstr "Waiting for server info..."
 
 #: libs/s25main/ingameWindows/iwTrade.cpp:66
 msgid "Ware you like to trade"
@@ -4524,7 +4522,7 @@ msgstr "You can't join that game with your version!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1140
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
-msgstr ""
+msgstr "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1125
 msgid ""
@@ -4534,6 +4532,11 @@ msgid ""
 "Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
 "Choosing No will start the game without any changes."
 msgstr ""
+"You chose the economy mode. In economy mode the player or team that collects the most of certain goods wins (check the Economic progress window in game).\n"
+"\n"
+"Some players like to play this objective in peaceful mode. Would you like to adjust settings for a peaceful game?\n"
+"Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
+"Choosing No will start the game without any changes."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:768
 #, c-format

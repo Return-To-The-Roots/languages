@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 10:23+0100\n"
-"PO-Revision-Date: 2025-01-14 20:52+0300\n"
+"PO-Revision-Date: 2025-11-23 20:13+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
-"X-Generator: Poedit 3.5\n"
+"X-Launchpad-Export-Date: 2026-01-12 09:20+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -82,7 +82,7 @@ msgstr "%1% кампаний не удалось загрузить. Прове�
 
 #: libs/s25main/desktops/dskSelectMap.cpp:170
 msgid "%1% map(s) could not be loaded. Check the log for details"
-msgstr "Карты %1% не могут быть загружены. Подробности смотрите в журнале"
+msgstr "не удалось загрузить карту(ы) %1%. Проверьте журнал для получения подробной информации"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:142
 msgid "%1% min"
@@ -208,7 +208,7 @@ msgstr "…"
 
 #: libs/s25main/desktops/dskCredits.cpp:239
 msgid "... and many more"
-msgstr "... и многое другое"
+msgstr "... и многие другое"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:86
 #: libs/s25main/ingameWindows/iwStatistics.cpp:153
@@ -409,11 +409,11 @@ msgstr "Регулирование военной силы"
 
 #: libs/s25main/addons/AddonMoreAnimals.h:18
 msgid "Adjust the fraction of trees that spawn animals."
-msgstr "Выберите какое количество животных будет появляться в лесу."
+msgstr "Выберите какой количество животных будет появляться в лесу."
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:45
 msgid "Adjust the time after which the economy mode victory condition is checked."
-msgstr "Настройте время, по истечении которого проверяется условие победы в Экономическом режиме."
+msgstr "Выберите время, по истечении которого проверяется условие победы в экономичном режиме."
 
 #: libs/s25main/addons/AddonBurnDuration.h:17
 msgid "Adjusts how long a building will burn for when it is destroyed"
@@ -442,7 +442,7 @@ msgstr "Все важные сообщения собираются в этом 
 
 #: libs/s25main/addons/AddonNoAlliedPush.h:17
 msgid "Allied players can no longer push your borders back with new buildings."
-msgstr "Игроки союзников больше не могут расширять свои границы при строительстве новых зданий."
+msgstr "Игроки союзников больше не смогут расширять свои границы при строительстве новых военных зданий."
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:23
 #: libs/s25main/ingameWindows/iwChat.cpp:30
@@ -616,7 +616,7 @@ msgstr "Проверка BQ отключена"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:180
 msgid "BQ check every %1%ms"
-msgstr "BQ проверяет каждые %1%мс"
+msgstr "BQ проверка каждые %1% мс"
 
 #: libs/s25main/gameData/NationConsts.h:14
 msgid "Babylonians"
@@ -828,7 +828,7 @@ msgstr "Изменить залежи золота"
 
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:14
 msgid "Change metalworks behavior on zero"
-msgstr "Изменить режим металлозавода на бездействие"
+msgstr "Режим металлозавода во время бездействия"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:18
 msgid "Change the coin setting for captured military buildings."
@@ -854,7 +854,7 @@ msgstr ""
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:18
 msgid "Change the visibility of your ingame statistics"
-msgstr "Изменение видимости вашей внутриигровой статистики"
+msgstr "Изменение видимости вашей статистики"
 
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:15
 msgid ""
@@ -863,7 +863,9 @@ msgid ""
 "Produce nothing: RttR-Default"
 msgstr ""
 "Изменить рабочее поведение металлозавода, если все ползунки в окне инструментов установлены на ноль.\n"
+"\n"
 "Производят случайные изделия: S2-умолчанию\n"
+"\n"
 "Ничего не производят: RttR-умолчанию"
 
 #: libs/s25main/addons/AddonShipSpeed.h:17
@@ -904,7 +906,7 @@ msgstr "Очистить"
 
 #: libs/s25main/gameData/GoodConsts.cpp:21
 msgid "Cleaver"
-msgstr "Поварской нож"
+msgstr "Тесак"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:79
 msgid "Close"
@@ -1029,15 +1031,15 @@ msgstr "Тип контракта:"
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:27
 msgid "Convert to coal"
-msgstr "Преобразовать в уголь"
+msgstr "на Уголь"
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:28
 msgid "Convert to granite"
-msgstr "Преобразовать в гранит"
+msgstr "на Гранит"
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:26
 msgid "Convert to iron ore"
-msgstr "Преобразовать в железную руду"
+msgstr "на Железо"
 
 #: libs/s25main/resources/ArchiveLoader.cpp:103
 #, c-format
@@ -1193,7 +1195,7 @@ msgstr "Запретить разрушение военных построек"
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:17
 msgid "Disable coins by default"
-msgstr "Отключить монеты для военных зданий по-умолчанию"
+msgstr "Запрет монет для военных зданий"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:19
 msgid "Disable the demolition of military buildings under attack or near frontiers."
@@ -1294,16 +1296,16 @@ msgstr "Экономика"
 
 #: libs/s25main/EconomyModeHandler.cpp:66
 msgid "Economy Mode: Collect as much as you can of the following good types: "
-msgstr "Экономический режим: соберите как можно больше следующих хороших типов: "
+msgstr "Экономичный режим: соберите как можно больше следующие типы товаров: "
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:44
 msgid "Economy Mode: Game Length"
-msgstr "Экономический режим: продолжительность игры"
+msgstr "Экономичный режим: Продолжительность игры"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:238
 #: libs/s25main/desktops/dskGameLobby.cpp:1124
 msgid "Economy mode"
-msgstr "Экономика"
+msgstr "Экономный режим"
 
 #: libs/s25main/desktops/dskOptions.cpp:364
 msgid "Effects"
@@ -1535,7 +1537,7 @@ msgstr "Не удалось загрузить lua-файл \"%1%\"\n"
 
 #: libs/s25main/world/MapSerializer.cpp:190
 msgid "Failed to load lua state!"
-msgstr "Не удалось загрузить состояние lua!"
+msgstr "Не удалось загрузить статус lua!"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:144
 #: libs/s25main/desktops/dskCampaignSelection.cpp:237
@@ -1553,7 +1555,7 @@ msgstr "Не удалось прочитать файл lua '%1%'\n"
 
 #: libs/s25main/Loader.cpp:1076 libs/s25main/Loader.cpp:1095
 msgid "Failed to resolve resource %1%\n"
-msgstr "Не удалось загрузить %1%\n"
+msgstr "Не удалось загрузить ресурс %1%\n"
 
 #: libs/s25main/network/GameServer.cpp:1560
 msgid "Failed to save async log at %1%\n"
@@ -1603,9 +1605,8 @@ msgid "File could not be opened."
 msgstr "Не удалось открыть файл."
 
 #: libs/s25main/SavedFile.cpp:87
-#, fuzzy
 msgid "File has an old version and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "Файл имеет старую версию и не может быть использован (версия: %1%, необходимая версия: %2%)!"
+msgstr ""
 
 #: libs/s25main/SavedFile.cpp:76
 msgid "File is not in a valid format!"
@@ -1704,7 +1705,7 @@ msgstr "Со смотровой башни вы можете увидеть ещ
 
 #: libs/s25main/addons/AddonFrontierDistanceReachable.h:14
 msgid "Frontier Distance checks reachability"
-msgstr "Расстояние до границы проверяет достижимость"
+msgstr "Доступность атаки в сложной местности"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
@@ -1730,7 +1731,7 @@ msgstr "Игровой чат"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:54
 msgid "Game Time"
-msgstr "Игровое меню"
+msgstr "Время игры"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:796
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
@@ -1778,7 +1779,7 @@ msgstr "Геолог"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:19
 msgid "Geologist sign durability"
-msgstr "Продолжительность действия знака геолога"
+msgstr "Долговечность табличек геолога"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:24
 msgid "Get all back"
@@ -1794,7 +1795,7 @@ msgstr "Получить строительные материалы обрат�
 
 #: libs/s25main/QuickStartGame.cpp:58
 msgid "Given map or replay (%1%) does not exist!"
-msgstr "Данная карта или повтор (%1%) не существует!"
+msgstr "Данная карта или повтор (% 1%) не существует!"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:303
 msgid "Go to headquarters"
@@ -1899,11 +1900,11 @@ msgstr "Новобранец за полстоимости"
 
 #: libs/s25main/gameData/GoodConsts.cpp:42
 msgid "Ham"
-msgstr "Ветчина"
+msgstr "Свинья"
 
 #: libs/s25main/gameData/GoodConsts.cpp:11
 msgid "Hammer"
-msgstr "Молоток"
+msgstr "Молот"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:49
 #: libs/s25main/ingameWindows/iwHarborBuilding.cpp:16
@@ -2002,7 +2003,7 @@ msgstr "Улучшенный Альянс"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:20
 msgid "Increase the durability of geologist signs by a factor."
-msgstr "Увеличить время размещения табличек найденных геологом ресурсов (кратно)."
+msgstr "Увеличьте время геологических табличек в несколько раз."
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
 msgid "Inexhaustible"
@@ -2022,7 +2023,7 @@ msgstr "Бесконечные запасы руды в шахтах"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:22
 msgid "Inexhaustible and water everywhere"
-msgstr "Неисчерпаемость и вода во всем мире"
+msgstr "Бесконечная вода во всем мире"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:137
 #: libs/s25main/ingameWindows/iwStatistics.cpp:224
@@ -2131,11 +2132,11 @@ msgstr "Железная руда"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
 msgid "Islands"
-msgstr "Острова"
+msgstr "Вулканы"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:281
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
-msgstr "На верфи можно строить как маленькие вёсельные лодки, так и огромные грузовые корабли. Необходимые для этого доски искусно обрабатываются корабельными мастерами."
+msgstr "На верфи можно строить как маленькие весельные лодки, так и огромные грузовые корабли. Необходимые для этого доски искусно обрабатываются корабельными мастерами."
 
 #: libs/s25main/gameData/NationConsts.h:13
 msgid "Japanese"
@@ -2153,7 +2154,7 @@ msgstr ""
 #: libs/s25main/network/GameClient.cpp:1666
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
-msgstr "Переход завершен (%1$.3g секунды)."
+msgstr "Скачек завершен (%1$.3g seconds)."
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:168
 msgid "Jump to X:Y"
@@ -2161,7 +2162,7 @@ msgstr "Перейти к X:Y"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:20
 msgid "Keep setting"
-msgstr "Продолжайте настройку"
+msgstr "Без измениний"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:779
 #: libs/s25main/desktops/dskOptions.cpp:219
@@ -2177,7 +2178,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
 msgid "Land"
-msgstr "Трава"
+msgstr "Земля"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:69
 msgid "Landscape"
@@ -2337,7 +2338,7 @@ msgstr "Большой промежуток времени"
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:34
 msgid "Longer"
-msgstr "Длиннее"
+msgstr "Еще длиннее"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:24
 msgid "Lookout tower"
@@ -2402,11 +2403,11 @@ msgstr "Главный выбор"
 
 #: libs/s25main/addons/AddonManualRoadEnlargement.h:17
 msgid "Manual road enlargement"
-msgstr "Ручное увеличение пропускной способности дорог"
+msgstr "Ручное улучшение дорог"
 
 #: libs/s25main/addons/AddonManualRoadEnlargement.h:18
 msgid "Manually upgrade your roads and directly build donkey roads."
-msgstr "Вручную улучшайте свои дороги и в любой момент постройте дороги для ослов."
+msgstr "Вручную улучшайте свои дороги и увеличьте пропускную способность дорог, чтобы выпустить на дороги ослов."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:90
 msgid "Many"
@@ -2436,11 +2437,11 @@ msgstr "Карта и маска миссии имеют разные разме
 
 #: libs/s25main/desktops/dskSelectMap.cpp:195
 msgid "Map has more than %1% players"
-msgstr "На карте более %1% игроков"
+msgstr "На карте больше %1% игроков"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:193
 msgid "Map is bigger than allowed size of %1% nodes"
-msgstr "Карта больше разрешенного размера %1%"
+msgstr "Карта больше допустимого размера узлов %1%"
 
 #: libs/s25main/network/ClientError.cpp:19
 msgid "Map is invalid or failed to load properly!"
@@ -2555,7 +2556,7 @@ msgstr "Военное здание захвачено"
 
 #: libs/s25main/addons/AddonFrontierDistanceReachable.h:15
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
-msgstr "Военное здание считается гражданским, если атака невозможна. (Путь заблокирован местностью, такой как море, лава и т. п.)"
+msgstr "Военное здание считается гражданским (атака невозможна), если путь заблокирован местностью, такой как море, лава и т. п.)"
 
 #: libs/s25main/buildings/nobMilitary.cpp:1009
 msgid "Military building lost"
@@ -2563,7 +2564,7 @@ msgstr "Военное здание потеряно"
 
 #: libs/s25main/buildings/nobMilitary.cpp:703
 msgid "Military building occupied"
-msgstr "Военное здание захвачено"
+msgstr "Военное здание занято"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:141
 #: libs/s25main/ingameWindows/iwStatistics.cpp:232
@@ -2616,7 +2617,7 @@ msgstr "Отсутствует необходимый функции API"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:52
 msgid "Mixed"
-msgstr "Смешанный"
+msgstr "Смешанные"
 
 #: libs/s25main/gameData/PortraitConsts.h:29
 msgid "Mnga Tscha"
@@ -2776,7 +2777,10 @@ msgstr "Нет доступных кораблей"
 
 #: libs/s25main/addons/AddonPeacefulMode.h:17
 msgid "Nobody can attack anyone."
-msgstr "Никто ни на кого не может напасть."
+msgstr ""
+"Режим в котором нет возможности воевать \r\n"
+"\r\n"
+"(Никто не может ни на кого напасть)"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:24
 msgid "Nobody else but you"
@@ -2848,7 +2852,7 @@ msgstr "OK"
 
 #: libs/s25main/MusicPlayer.cpp:72
 msgid "OK\n"
-msgstr "Ок\n"
+msgstr "ОК\n"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:298
 #: libs/s25main/ingameWindows/iwObservate.cpp:33
@@ -2976,7 +2980,7 @@ msgstr "Предыдущий игрок"
 
 #: libs/s25main/addons/AddonPeacefulMode.h:16
 msgid "Peaceful"
-msgstr "Мирный"
+msgstr "Мирный режим"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1139
 msgid "Peaceful mode"
@@ -3037,7 +3041,7 @@ msgstr "Игрок %1%"
 #: libs/s25main/world/MapLoader.cpp:412
 #, c-format
 msgid "Player %u does not have a valid start position!"
-msgstr "У игрока %u нет допустимой стартовой позиции!"
+msgstr "Игрок  %u не имеет допустимой стартовой позиции!"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1359
 #, c-format
@@ -3236,7 +3240,10 @@ msgstr "Проверка карты..."
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:18
 msgid "Receiving coins is disabled for military buildings by default."
-msgstr "Получение монет отключено для военных зданий по-умолчанию."
+msgstr ""
+"Запретить приносить монеты в военные здания (по умолчанию)\r\n"
+"\r\n"
+"Возможность самостоятельно контролировать в какие здания будут носить монеты"
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:26
 msgid "Reduce reoccupying troops accordingly"
@@ -3272,7 +3279,7 @@ msgstr "Удалить"
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:25
 msgid "Remove gold completely"
-msgstr "Удалить золото полностью"
+msgstr "Полностью удалить золото"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:103
 msgid "Remove track"
@@ -3316,7 +3323,7 @@ msgstr "Вернуться"
 
 #: libs/s25main/desktops/dskCredits.cpp:46
 msgid "Return To The Roots"
-msgstr "Return To The Roots"
+msgstr "Возвращение к истокам"
 
 #: libs/s25main/ingameWindows/iwShip.cpp:62
 msgid "Return to harbor"
@@ -3386,7 +3393,7 @@ msgstr "Сохранить игру!"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:117
 msgid "Save playlist"
-msgstr "Сохранить плейлист"
+msgstr "Сохранить список"
 
 #: libs/s25main/Replay.cpp:230 libs/s25main/Replay.cpp:288
 msgid "Savegame error: "
@@ -3624,7 +3631,7 @@ msgstr "Умный курсор"
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:17
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
-msgstr "Кузнец может создать 1 щит и 1 меч из 1 железа + 1 угля, вместо 2 железа + 2 угля"
+msgstr "Кузнец может создать 1 щит & 1 меч из 1 железа + 1 угля, вместо 2 железа + 2 угля"
 
 #: libs/s25main/desktops/dskOptions.cpp:262
 msgid "Socks v4"
@@ -3963,11 +3970,11 @@ msgstr "Здесь можно установить приоритет товар
 
 #: libs/s25main/gameData/BuildingConsts.cpp:145
 msgid "The quarrying of stone in a granite mine guarantees the supply of stone for buildings. However, even a granite mine has to feed its workers."
-msgstr "Добыча камня в гранитном руднике гарантирует поставку камня для построек. Однако даже гранитный рудник должен кормить своих рабочих."
+msgstr "Добыча камня в гранитном руднике гарантирует поставку камня для зданий. Однако даже гранитный рудник должен кормить своих рабочих."
 
 #: libs/s25main/desktops/dskLobby.cpp:226
 msgid "The selected game was not found anymore."
-msgstr "Выбранная игра больше не найдена."
+msgstr "Выбранная игра больше не была найдена."
 
 #: libs/s25main/desktops/dskOptions.cpp:646
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
@@ -4058,7 +4065,7 @@ msgstr "Это окно позволяет прямое сравнение с в
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:137
 msgid "This window shows the wares that should be collected for the economy mode. Displayed is the current inventory of the player, his team and after game end of the opponent teams."
-msgstr "В этом окне показаны товары, которые нужно собрать для Экономического режима. Отображается текущий инвентарь игрока, его команды и после окончания игры команд соперников."
+msgstr "В этом окне отображаются товары, которые должны быть собраны для режима экономии. Отображается текущий инвентарь игрока, его команды и команд соперников (после окончания игры)."
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:290
 #: libs/s25main/ingameWindows/iwSave.cpp:53
@@ -4067,7 +4074,7 @@ msgstr "Время"
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:93
 msgid "Time remaining:"
-msgstr "Времени осталось:"
+msgstr "Осталось времени:"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:73
 msgid "Title"
@@ -4102,7 +4109,7 @@ msgstr "Инструменты"
 
 #: libs/s25main/EconomyModeHandler.cpp:74
 msgid "Tools in the hands of workers are also counted. So are weapons, and beer, that soldiers have in use. For an updating tally of the collected goods see the economic progress window."
-msgstr "Учитываются и инструменты в руках рабочих. Так же как и оружие и пиво, которыми пользуются солдаты. Для обновления количества собранных товаров смотрите окно экономического прогресса."
+msgstr "Инструменты в руках рабочих тоже учитываются. Так же, как и оружие и пиво, которыми пользуются солдаты. Информацию по собранным товарам смотрите в окне экономического прогресса"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
 #: libs/s25main/ingameWindows/iwTransport.cpp:29
@@ -4169,7 +4176,7 @@ msgstr "Тип"
 
 #: libs/s25main/Loader.cpp:320
 msgid "Unable to load font at index %1%\n"
-msgstr "Не удалось загрузить шрифт по индексу %1%\n"
+msgstr "Не удалось загрузить шрифт с индексом %1%\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:191
 msgid "Unexpected dynamic type of map"
@@ -4344,7 +4351,7 @@ msgstr ""
 
 #: libs/s25main/Loader.cpp:292
 msgid "WARNING: Found invalid music item for %1%\n"
-msgstr "ВНИМАНИЕ! Обнаружен недействительный музыкальный элемент для %1%\n"
+msgstr "ВНИМАНИЕ! Обнаружен недопустимый музыкальный элемент  %1%\n"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:83
 msgid "Waiting for Playerinfo..."
@@ -4443,7 +4450,7 @@ msgstr "Винодельня"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:194
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
-msgstr "В пределах своего участка лесник обеспечивает существование леса. Он сажает все виды деревьев."
+msgstr "В пределах своего участка лесник обеспечивает выживание леса. Он сажает все виды деревьев."
 
 #: libs/s25main/gameData/GoodConsts.cpp:31
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:46
@@ -4452,7 +4459,7 @@ msgstr "Древесина"
 
 #: libs/s25main/gameData/JobConsts.cpp:20
 msgid "Woodchopper"
-msgstr "Дровосек"
+msgstr "Лесоруб"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:27
 msgid "Woodcutter"
@@ -4484,7 +4491,7 @@ msgstr "Неверная версия скрипта lua: %1%. Текущая в
 
 #: libs/s25main/world/MapSerializer.cpp:183
 msgid "Wrong version for lua script."
-msgstr "Неверная версия lua-скрипта."
+msgstr "Неправильная версия скрипта lua."
 
 #: libs/s25main/gameData/PortraitConsts.h:25
 msgid "Yamauchi"
@@ -4508,10 +4515,10 @@ msgid ""
 "You'll probably want to convert gold to iron ore, as this (on most maps)\n"
 "allows you to utilize the additional coal not needed for minting anymore."
 msgstr ""
-"Вы можете полностью удалить золотые рудники или превратить их в железную руду, уголь или гранит.\n"
+"Вы можете полностью удалить золотые ресурсы или превратить их в железную руду, уголь или гранит.\n"
 "\n"
 "Вы, вероятно, захотите конвертировать золото в железную руду, так как это (на большинстве карт)\n"
-"позволяет использовать дополнительный уголь, который больше не нужен для чеканки."
+"позволит использовать дополнительный уголь, который больше не нужен для чеканки."
 
 #: libs/s25main/desktops/dskDirectIP.cpp:46 libs/s25main/desktops/dskLAN.cpp:84
 #: libs/s25main/desktops/dskLobby.cpp:123
@@ -4528,7 +4535,7 @@ msgstr "Вы не можете вступить в игру с Вашей вер
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1140
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
-msgstr "Вы выбрали условие победы, основанное на войне, но мирный режим все еще активен. Вы хотите деактивировать мирный режим, прежде чем начать? Выбор «Нет» запустит игру, «Да» позволит вам просмотреть изменения."
+msgstr "Вы выбрали условие победы на войне, но мирный режим все еще активен. Вы хотите отключить мирный режим перед тем, как начать? Выбор «Нет» запустит игру, «Да» позволит вам просмотреть изменения."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1125
 msgid ""
@@ -4538,11 +4545,10 @@ msgid ""
 "Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
 "Choosing No will start the game without any changes."
 msgstr ""
-"Вы выбрали экономический режим. В экономическом режиме побеждает игрок или команда, которые соберут больше определенных товаров (проверьте окно экономического прогресса в игре).\n"
-"\n"
-"Некоторым игрокам нравится выполнять эту задачу в мирном режиме. Хотите настроить параметры для мирной игры?\n"
-"Выбор «Да» активирует мирный режим, запретит катапульты и отключит здания, получающие монеты по-умолчанию. Нажав «Да», вы сможете просмотреть изменения, а затем начать игру, снова нажав кнопку «Начать игру».\n"
-"При выборе «Нет» игра запустится без каких-либо изменений."
+"Вы выбрали экономичный режим. В экономичном режиме побеждает игрок или команда, собравшие наибольшее количество определенных товаров (проверьте окно «Экономический прогресс» в игре).\n"
+"Некоторым игрокам нравится выполнять эту задачу в мирном режиме. Хотите изменить настройки для мирной игры?\n"
+"Выбор «Да» активирует мирный режим, запретит катапульты и отключит здания, получающие монеты по умолчанию. После нажатия кнопки «Да» вы сможете просмотреть изменения, а затем запустить игру, снова нажав кнопку «Начать игру».\n"
+"Выбор «Нет» запустит игру без каких-либо изменений."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:768
 #, c-format
@@ -4576,7 +4582,7 @@ msgstr "Масштабирование"
 
 #: libs/s25main/desktops/dskCredits.cpp:121
 msgid "all developers who contributed via Github"
-msgstr "все разработчики, внесшие свой вклад через Github"
+msgstr "все разработчики, которые внесли свой вклад через Github"
 
 #: libs/s25main/network/GameClient.cpp:1654
 #, c-format
@@ -4590,7 +4596,7 @@ msgstr "по-умолчанию"
 #: libs/s25main/Loader.cpp:277 libs/s25main/resources/ArchiveLoader.cpp:117
 #, c-format
 msgid "done in %ums\n"
-msgstr "завершено за %u мс\n"
+msgstr "Завершено за %u мс.\n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "easy"
@@ -4610,12 +4616,12 @@ msgstr "жесткий"
 
 #: libs/s25main/GameManager.cpp:142
 msgid "jump to gf %1% complete\n"
-msgstr "переход к gf %1% завершен\n"
+msgstr "перейти к gf %1% завершено\n"
 
 #: libs/s25main/GameManager.cpp:137
 #, c-format
 msgid "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
-msgstr "переход к gf %i выполнен, за %i gf: %.3f сек , среднее время %.3f мс \n"
+msgstr "переход к gf %i выполнен, за %i gf:%3f s (сек) , среднее время %.3f мс. \n"
 
 #: libs/s25main/GameManager.cpp:125
 #, c-format

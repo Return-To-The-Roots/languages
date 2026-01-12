@@ -10,14 +10,15 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 10:23+0100\n"
-"Last-Translator: Łukasz Abramczuk <lukasz.abramczuk@gmail.com>\n"
+"PO-Revision-Date: 2026-01-01 22:30+0000\n"
+"Last-Translator: Łukasz Abramczuk <Unknown>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-02-22 12:44+0000\n"
-"X-Generator: Poedit 3.5\n"
+"X-Launchpad-Export-Date: 2026-01-12 09:20+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -410,7 +411,7 @@ msgstr "Dostosuj siłę wojska"
 
 #: libs/s25main/addons/AddonMoreAnimals.h:18
 msgid "Adjust the fraction of trees that spawn animals."
-msgstr "Dostosuj odsetek drzew, z których rozmnażają się zwierzęta."
+msgstr "Dostosuj odsetek drzew odpowiedzialnych za rozmnażanie się zwierząt."
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:45
 msgid "Adjust the time after which the economy mode victory condition is checked."
@@ -662,7 +663,7 @@ msgstr "Piwo"
 #: libs/s25main/desktops/dskOptions.cpp:374
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
 msgid "Bird sounds"
-msgstr ""
+msgstr "Odgłosy ptaków"
 
 #: libs/s25main/gameData/GoodConsts.cpp:32
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:48
@@ -713,7 +714,7 @@ msgstr "Browar"
 
 #: libs/s25main/gameData/PortraitConsts.h:22
 msgid "Brutus"
-msgstr ""
+msgstr "Brutus"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:200
 #: libs/s25main/ingameWindows/iwAction.cpp:212
@@ -829,7 +830,7 @@ msgstr "Zmień depozyty złota"
 
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:14
 msgid "Change metalworks behavior on zero"
-msgstr "Zmień zachowanie zakładów metalowych na zero"
+msgstr "Zachowanie zakładów metalowych przy wartości 0"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:18
 msgid "Change the coin setting for captured military buildings."
@@ -1110,7 +1111,7 @@ msgstr "Ruda żelaza wydobywana jest głęboko pod ziemią, a osadnicy przy tym 
 #: libs/s25main/ingameWindows/iwTools.cpp:69
 #: libs/s25main/ingameWindows/iwTransport.cpp:27
 msgid "Default"
-msgstr "Domyślnie"
+msgstr "Domyślne"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:133
 #, c-format
@@ -1308,7 +1309,7 @@ msgstr "Tryb ekonomiczny"
 
 #: libs/s25main/desktops/dskOptions.cpp:364
 msgid "Effects"
-msgstr "Efekty"
+msgstr "Efekty:"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:21
 msgid "Enable"
@@ -1372,7 +1373,7 @@ msgstr "Wznieś flagę"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Erik"
-msgstr ""
+msgstr "Erik"
 
 #: libs/s25client/s25client.cpp:123 libs/s25client/s25client.cpp:146
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
@@ -1604,9 +1605,8 @@ msgid "File could not be opened."
 msgstr "Nie można otworzyć pliku."
 
 #: libs/s25main/SavedFile.cpp:87
-#, fuzzy
 msgid "File has an old version and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "Plik ma starą wersją i nie może zostać użyty (wersja: %1%, oczekiwana %2%)!"
+msgstr "Obecny plik jest w starej wersji i nie może zostać wykorzystany (obecna wersja: %1%.%2%, oczekiwana wersja: %3%.%4%)!"
 
 #: libs/s25main/SavedFile.cpp:76
 msgid "File is not in a valid format!"
@@ -1618,9 +1618,8 @@ msgid "File or directory does not exist: %s\n"
 msgstr "Plik lub folder nie istnieje: %s\n"
 
 #: libs/s25main/SavedFile.cpp:88
-#, fuzzy
 msgid "File was created with more recent program and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "Plik został utworzony nowszym programem i nie może zostać użyty (wersja: %1%, oczekiwana: %2%)!"
+msgstr "Plik został stworzony w nowszej wersji obecnego programu i nie może być wykorzystany (obecna wersja: %1%.%2%, oczekiwana wersja: %3%.%4%)!"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:51
 msgid "Filename"
@@ -1880,7 +1879,7 @@ msgstr "Grafika"
 
 #: libs/s25main/desktops/dskOptions.cpp:333
 msgid "Graphics Driver"
-msgstr "Sterownik grafiki"
+msgstr "Sterownik grafiki:"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:12
 msgid "Guardhouse"
@@ -1892,7 +1891,7 @@ msgstr "Dystans kwatery głównej od gór"
 
 #: libs/s25main/gameData/PortraitConsts.h:27
 msgid "Hakirawashi"
-msgstr ""
+msgstr "Hakirawashi"
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:16
 msgid "Half cost recruits"
@@ -2128,7 +2127,7 @@ msgstr "Ruda żelaza:"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:62
 msgid "Ironore"
-msgstr "Złoża rudy żelaza"
+msgstr "Ruda żelaza"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
 msgid "Islands"
@@ -2149,7 +2148,7 @@ msgstr "Dołącz do gry"
 
 #: libs/s25main/gameData/PortraitConsts.h:21
 msgid "Julius"
-msgstr ""
+msgstr "Juliusz"
 
 #: libs/s25main/network/GameClient.cpp:1666
 #, c-format
@@ -2174,7 +2173,7 @@ msgstr "Skróty klawiaturowe"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Knut"
-msgstr ""
+msgstr "Knut"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
 msgid "Land"
@@ -2216,7 +2215,7 @@ msgstr "Ograniczenie klatek/sek:"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:17
 msgid "Limit number of catapults"
-msgstr "Ogranicz liczbę katapult."
+msgstr "Ogranicz liczbę katapult"
 
 #: libs/s25main/addons/AddonMaxRank.h:27
 msgid "Limit the rank for soldiers"
@@ -2621,7 +2620,7 @@ msgstr "Mieszany"
 
 #: libs/s25main/gameData/PortraitConsts.h:29
 msgid "Mnga Tscha"
-msgstr ""
+msgstr "Mnga Tscha"
 
 #: libs/s25main/desktops/dskOptions.cpp:317
 #: libs/s25main/ingameWindows/iwSettings.cpp:63
@@ -2662,7 +2661,7 @@ msgstr "Więcej powtórzeń"
 
 #: libs/s25main/addons/AddonMoreAnimals.h:17
 msgid "More trees spawn animals"
-msgstr "Zwiększenie namnażania zwierzyny wśród drzew"
+msgstr "Poziom namnażania zwierzyny wśród drzew"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:41
 msgid "Multiplayer"
@@ -2670,7 +2669,7 @@ msgstr "Gra wieloosobowa"
 
 #: libs/s25main/desktops/dskOptions.cpp:380
 msgid "Music"
-msgstr "Muzyka"
+msgstr "Muzyka:"
 
 #: libs/s25main/desktops/dskOptions.cpp:390
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:81
@@ -2680,7 +2679,7 @@ msgstr "Odtwarzacz muzyki"
 
 #: libs/s25main/gameData/PortraitConsts.h:30
 msgid "Nabonidus"
-msgstr ""
+msgstr "Nabonidus"
 
 #: libs/s25main/desktops/dskLobby.cpp:59
 #: libs/s25main/desktops/dskSelectMap.cpp:75
@@ -2858,7 +2857,7 @@ msgstr "Okno obserwacyjne"
 
 #: libs/s25main/gameData/PortraitConsts.h:20
 msgid "Octavianus"
-msgstr ""
+msgstr "Oktawian"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
@@ -2896,7 +2895,7 @@ msgstr "Stare mapy"
 
 #: libs/s25main/gameData/PortraitConsts.h:24
 msgid "Olof"
-msgstr ""
+msgstr "Olof"
 
 #: libs/s25main/desktops/dskOptions.cpp:252
 #: libs/s25main/desktops/dskOptions.cpp:276
@@ -3080,7 +3079,7 @@ msgstr "Proszę czekać..."
 
 #: libs/s25main/desktops/dskOptions.cpp:184
 msgid "Portrait:"
-msgstr ""
+msgstr "Portret:"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:130
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
@@ -3530,7 +3529,7 @@ msgstr "Osadnicy"
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Shaka"
-msgstr ""
+msgstr "Szaka"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:203
 msgid "Shared team view"
@@ -3621,7 +3620,7 @@ msgstr "Wolno"
 #: libs/s25main/desktops/dskOptions.cpp:283
 #: libs/s25main/ingameWindows/iwSettings.cpp:76
 msgid "Smart Cursor"
-msgstr "Inteligentny kursor"
+msgstr "Inteligentny kursor:"
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:17
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
@@ -3662,7 +3661,7 @@ msgstr "Dźwięk/Muzyka"
 
 #: libs/s25main/desktops/dskOptions.cpp:394
 msgid "Sounddriver"
-msgstr "Sterownik dźwięku"
+msgstr "Sterownik dźwięku:"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:253
 msgid "Specify the playlist name"
@@ -4084,7 +4083,7 @@ msgstr "Aby się zarejestrować, musisz stworzyć konto na forum pod adresem htt
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Todo"
-msgstr ""
+msgstr "Zadania"
 
 #: libs/s25main/gameData/GoodConsts.cpp:10
 msgid "Tongs"
@@ -4162,7 +4161,7 @@ msgstr "Wokół stołu zebrali się wodzowie plemion..."
 
 #: libs/s25main/gameData/PortraitConsts.h:26
 msgid "Tsunami"
-msgstr ""
+msgstr "Tsunami"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:78
 msgid "Type"
@@ -4261,7 +4260,7 @@ msgstr "Użyj ustawień S2"
 
 #: libs/s25main/desktops/dskOptions.cpp:250
 msgid "Use UPnP"
-msgstr "Używaj UPnP"
+msgstr "Używaj UPnP:"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:52
 msgid "Username:"
@@ -4489,7 +4488,7 @@ msgstr "Niewlaściwa wersja skryptu Lua."
 
 #: libs/s25main/gameData/PortraitConsts.h:25
 msgid "Yamauchi"
-msgstr ""
+msgstr "Yamauchi"
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:23
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:67
@@ -4634,7 +4633,7 @@ msgstr "średni"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:19
 msgid "to GameFrame:"
-msgstr "do klatki (GF):"
+msgstr "do klatki:"
 
 #: libs/s25main/desktops/dskCredits.cpp:140
 msgid "various anonymous donators"

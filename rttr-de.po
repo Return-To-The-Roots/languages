@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 10:23+0100\n"
-"PO-Revision-Date: 2020-12-21 13:05+0000\n"
-"Last-Translator: FloSoft <Unknown>\n"
+"PO-Revision-Date: 2025-11-23 20:13+0000\n"
+"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Launchpad-Export-Date: 2026-01-12 09:20+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -85,7 +85,7 @@ msgstr "%1% Karte(n) konnte(n) nicht geladen werden. Für Details bitte ins Log 
 
 #: libs/s25main/ingameWindows/iwSave.cpp:142
 msgid "%1% min"
-msgstr ""
+msgstr "%1% min"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:44
 msgid "%1% players"
@@ -412,7 +412,7 @@ msgstr "Verändert den Teil der Bäume, die Tiere spawnen."
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:45
 msgid "Adjust the time after which the economy mode victory condition is checked."
-msgstr "Anpassung der Zeit bis zur Prüfung des Wirtschafts-Sieges."
+msgstr "Legt die Spieldauer fest, nach der die Siegbedingung im Wirtschaftsmodus geprüft wird"
 
 #: libs/s25main/addons/AddonBurnDuration.h:17
 msgid "Adjusts how long a building will burn for when it is destroyed"
@@ -595,7 +595,7 @@ msgstr "Autospeichern alle:"
 
 #: libs/s25main/addons/AddonAutoFlags.h:18
 msgid "Automatic flag placement"
-msgstr "Automatische Platzierung der Flaggen"
+msgstr "Automatische Flaggenplatzierung"
 
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
@@ -606,7 +606,7 @@ msgstr ""
 
 #: libs/s25main/addons/AddonAutoFlags.h:19
 msgid "Automatically places flags on newly build roads"
-msgstr "Platziert automatisch Flaggen an neu gebauten Straßen"
+msgstr "Platziert automatisch Flaggen auf neuen Wegen"
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
 msgid "Axe"
@@ -1005,11 +1005,11 @@ msgstr "Bauhilfsmodus"
 
 #: libs/s25main/addons/AddonMilitaryAid.h:21
 msgid "Construction aid only"
-msgstr "Nur Bauhilfe"
+msgstr "Nur Konstruktionshilfe"
 
 #: libs/s25main/addons/AddonMilitaryAid.h:21
 msgid "Construction and attack aid"
-msgstr "Bau- und Angriffshilfe"
+msgstr "Konstruktions- und Angriffshilfe"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:109
 msgid "Continents"
@@ -1284,11 +1284,11 @@ msgstr "Dynamisch (Begrenzt auf die Wiederholrate des Monitors, funktioniert mit
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:81
 msgid "Economic Progress"
-msgstr "Wirtschafts-Fortschritt"
+msgstr "Wirtschaftsfortschritt"
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:34
 msgid "Economic progress"
-msgstr "Wirtschafts-Fortschritt"
+msgstr "Wirtschaftsfortschritt"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:64
 msgid "Economy"
@@ -1296,16 +1296,16 @@ msgstr "Wirtschaft"
 
 #: libs/s25main/EconomyModeHandler.cpp:66
 msgid "Economy Mode: Collect as much as you can of the following good types: "
-msgstr "Wirtschafts-Modus: Sammle so viel du kannst von folgenden Gütern: "
+msgstr "Wirtschaftsmodus: Sammle von folgenden Gütern so viel wie du kannst: "
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:44
 msgid "Economy Mode: Game Length"
-msgstr "Wirtschafts-Modus: Spiel-Länge"
+msgstr "Wirtschaftsmodus: Spieldauer"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:238
 #: libs/s25main/desktops/dskGameLobby.cpp:1124
 msgid "Economy mode"
-msgstr "Wirtschaft"
+msgstr "Wirtschaftsmodus"
 
 #: libs/s25main/desktops/dskOptions.cpp:364
 msgid "Effects"
@@ -1466,7 +1466,7 @@ msgstr "Diskrepanz in der Ereignisanzahl: %1% Ereignisse gelesen. Erwartet: %2%.
 
 #: libs/s25main/ingameWindows/iwSave.cpp:145
 msgid "Every GF"
-msgstr "Jeder"
+msgstr "Jedes GF"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:22
 msgid "Everyone"
@@ -1555,7 +1555,7 @@ msgstr "Lua Datei '%1%' konnte nicht gelesen werden\n"
 
 #: libs/s25main/Loader.cpp:1076 libs/s25main/Loader.cpp:1095
 msgid "Failed to resolve resource %1%\n"
-msgstr "Resource %1% konnte nicht gefunden werden\n"
+msgstr "Ressource %1% konnte nicht aufgelöst werden\n"
 
 #: libs/s25main/network/GameServer.cpp:1560
 msgid "Failed to save async log at %1%\n"
@@ -1889,7 +1889,7 @@ msgstr "Wachstube"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:76
 msgid "HQ distance to mountain"
-msgstr "HQ Distanz zum Berg"
+msgstr "Entfernung des Hauptquartiers zu Bergen"
 
 #: libs/s25main/gameData/PortraitConsts.h:27
 msgid "Hakirawashi"
@@ -1992,11 +1992,11 @@ msgstr "Wenn das Wasser erschöpflich ist, werden Brunnen austrocknen. Bei \"Was
 
 #: libs/s25main/resources/ArchiveLocator.cpp:60
 msgid "Ignoring resource %1% in %2% because it is already found in %3%\n"
-msgstr ""
+msgstr "Ignoriere Ressource %1% in %2% da es schon in %3% enthalten ist\n"
 
 #: libs/s25main/resources/ArchiveLocator.cpp:46
 msgid "Ignoring resource %1% in %2% because the name contains unsupported characters\n"
-msgstr ""
+msgstr "Ignoriere Ressource %1% in %2% da der Name ungültige Zeichen enthält\n"
 
 #: libs/s25main/addons/AddonNoAlliedPush.h:16
 msgid "Improved Alliance"
@@ -2179,7 +2179,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
 msgid "Land"
-msgstr "Landschaft"
+msgstr "Land"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:69
 msgid "Landscape"
@@ -2327,7 +2327,7 @@ msgstr "Teams sperren:"
 
 #: libs/s25main/addons/AddonBool.cpp:29 libs/s25main/addons/AddonList.cpp:37
 msgid "Locked"
-msgstr ""
+msgstr "Gesperrt"
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:33
 msgid "Long"
@@ -2373,7 +2373,7 @@ msgstr "Lua Fehler: %s\n"
 
 #: libs/s25main/world/MapSerializer.cpp:187
 msgid "Lua load callback returned failure!"
-msgstr ""
+msgstr "Lua load callback hat einen Fehler zurückgegeben!"
 
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:47
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:54
@@ -2618,7 +2618,7 @@ msgstr "Benötigte API-Funktion fehlt"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:52
 msgid "Mixed"
-msgstr ""
+msgstr "Gemischt"
 
 #: libs/s25main/gameData/PortraitConsts.h:29
 msgid "Mnga Tscha"
@@ -2982,7 +2982,7 @@ msgstr "Friedlich"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1139
 msgid "Peaceful mode"
-msgstr "Friedlich"
+msgstr "Friedlicher Modus"
 
 #: libs/s25main/gameData/GoodConsts.cpp:14
 msgid "Pick-axe"
@@ -3039,7 +3039,7 @@ msgstr "Spieler %1%"
 #: libs/s25main/world/MapLoader.cpp:412
 #, c-format
 msgid "Player %u does not have a valid start position!"
-msgstr ""
+msgstr "Spieler %u besitzt keine gültige Startposition!"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1359
 #, c-format
@@ -3494,7 +3494,7 @@ msgstr "Server Verwaltung"
 
 #: libs/s25main/network/ClientError.cpp:12
 msgid "Server sent an invalid message!"
-msgstr ""
+msgstr "Der Server hat eine ungültige Nachricht geschickt!"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:49
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:30
@@ -3572,7 +3572,7 @@ msgstr "Schaufel"
 
 #: libs/s25main/desktops/dskOptions.cpp:304
 msgid "Show GameFrame Info:"
-msgstr ""
+msgstr "Zeige GameFrame Info"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:163
 msgid "Show coordinates"
@@ -3643,8 +3643,8 @@ msgid ""
 "%1%"
 msgstr ""
 "Einige Dateien konnten nicht geladen werden.\n"
-"Bitte prüfe ob Die Siedler II Gold-Edition in folgendem Verzeichnis installiert ist\n"
-"%1%"
+"Bitte prüfe ob Die Siedler II Gold-Edition im gleichen \n"
+"Verzeichnis wie Return to the Roots installiert ist."
 
 #: libs/s25main/desktops/dskDirectIP.cpp:45 libs/s25main/desktops/dskLAN.cpp:83
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
@@ -3759,7 +3759,7 @@ msgstr "Starke Verteidigung"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:47
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 #: libs/s25main/desktops/dskOptions.cpp:293
 msgid "Submit debug data:"
@@ -3875,7 +3875,7 @@ msgstr "Im Sägewerk werden die vom Holzfäller gelieferten Stämme zu maßgefer
 
 #: libs/s25main/ingameWindows/TransmitSettingsIgwAdapter.cpp:31
 msgid "The changes could not be applied and will be discarded. A potential reason for this is that the game is paused."
-msgstr "Die Änderungen konnten nicht angewandt werden und sind verworfen. Möglicher Grund ist die Pausierung des Spiels."
+msgstr "Die Änderungen konnten nicht übernommen werden. Ein möglicher Grund ist, dass das Spiel pausiert ist."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:228
 msgid "The charburner stacks up piles of wood and straw which is then burned to create charcoal. This can be used just like the coal from the mine without any loss in quality."
@@ -4066,7 +4066,7 @@ msgstr "Der direkte Vergleich zu den Gegnern wird in diesem Fenster ermöglicht.
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:137
 msgid "This window shows the wares that should be collected for the economy mode. Displayed is the current inventory of the player, his team and after game end of the opponent teams."
-msgstr "Dieses Fenster zeigt die notwendigen Güter für den Wirtschafts-Modus. Angezeigt wird das aktuelle Inventar des Spielers, seines Teams und nach Spielende auch das des Gegnerteams."
+msgstr "Dieses Fenster zeigt die Waren, die im Wirtschaftsmodus gesammelt werden sollen. Angezeigt wird das derzeitige Inventar des Spielers, seines Teams und nach dem Spielende auch das der gegnerischen Teams."
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:290
 #: libs/s25main/ingameWindows/iwSave.cpp:53
@@ -4110,7 +4110,7 @@ msgstr "Werkzeuge"
 
 #: libs/s25main/EconomyModeHandler.cpp:74
 msgid "Tools in the hands of workers are also counted. So are weapons, and beer, that soldiers have in use. For an updating tally of the collected goods see the economic progress window."
-msgstr "Werkzeuge in den Händen von Arbeitern zählen genauso, wie auch die genutzten Waffen und das Bier der Soldaten. Siehe das Fenster für den Wirtschafts-Fortschritt für eine Hochrechnung der gesammelten Güter."
+msgstr "Werkzeuge in den Händen von Arbeitern werden mitgezählt. Ebenso Waffen und Bier, welche von Soldaten genutzt werden. Eine aktuelle Übersicht über die gesammelten Güter findet sich im Wirtschaftsfortschrittsfenster."
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
 #: libs/s25main/ingameWindows/iwTransport.cpp:29
@@ -4161,7 +4161,7 @@ msgstr "Friedensvertrag"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:109
 msgid "Trees:"
-msgstr ""
+msgstr "Bäume:"
 
 #: libs/s25main/desktops/dskGameLoader.cpp:89
 msgid "Tribal chiefs assembled around the table..."
@@ -4536,7 +4536,7 @@ msgstr "Mit deiner Version kannst du diesem Spiel nicht beitreten!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1140
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
-msgstr "Du hast eine kriegerische Siegesbedingung gewählt, aber das Spiel ist als friedlich konfiguriert. Möchtest du das vor dem Start ändern? Mit Nein wird das Spiel gestartet, mit Ja werden die Änderungen angezeigt."
+msgstr "Du hast eine kriegsbasierte Siegbedingung gewählt, aber der friedliche Modus ist noch aktiv. Möchtest du den friedlichen Modus deaktivieren? Wähle Nein um das Spiel direkt zu starten. Wenn du Ja wählst kannst du die Änderung noch überprüfen."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1125
 msgid ""
@@ -4546,11 +4546,11 @@ msgid ""
 "Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
 "Choosing No will start the game without any changes."
 msgstr ""
-"Du hast den Wirtschafts-Modus gewählt. In diesem Modus gewinnt der Spieler oder das Team mit den meisten bestimmten Gütern (siehe Fenster für Wirtschafts-Fortschritt im Spiel).\n"
+"Du hast den Wirtschaftsmodus gewählt. Im Wirtschaftsmodus gewinnt der Spieler oder das Team, welche/r die meisten von bestimmten Waren gesammelt hat (wirf im Spiel einen Blick auf das Wirtschaftsfortschrittsfenster).\n"
 "\n"
-"Einige Spieler bevorzugen dies friedlich zu erreichen. Möchtest du das Spiel als friedlich konfigurieren?\n"
-"Mit Ja wird das Spiel als friedlich gesetzt, was Gebäude die Münzen konsumieren und Katapulte deaktiviert. Nach der Betätigung werden die Änderungen angezeigt und der Start-Button muss nochmals angeklickt werden.\n"
-"Mit Nein wird das Spiel ohne Änderungen gestartet."
+"Manche spielen diesen Modus gerne im friedlichen Modus. Möchtest du die Einstellungen für ein friedliches Spiel anpassen?\n"
+"Wenn du Ja wählst, wird der friedliche Modus aktiviert, sowie Katapulte und automatische Münzannahme deaktiviert. Nachdem Ja angeklickt wird, kannst du die Änderungen noch einmal überprüfen und dann das Spiel starten indem der Startknopf erneut betätigt wird.\n"
+"Wenn du Nein wählst, wird das Spiel ohne weitere Änderungen gestartet."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:768
 #, c-format

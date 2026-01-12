@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 10:23+0100\n"
-"PO-Revision-Date: 2025-02-17 20:27+0800\n"
-"Last-Translator: Hao Hu <huhao@outlook.com>\n"
+"PO-Revision-Date: 2025-11-26 06:40+0000\n"
+"Last-Translator: Lee Hsien Wei <Unknown>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
-"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
+"X-Launchpad-Export-Date: 2026-01-12 09:20+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:167
 msgid ""
@@ -37,7 +37,7 @@ msgstr ""
 
 #: libs/s25main/resources/ArchiveLoader.cpp:86
 msgid "  Loading %1% entries: "
-msgstr " 加载 %1% 条项目: "
+msgstr "  加载 %1% 条项目: "
 
 #: libs/s25main/JoinPlayerInfo.cpp:51
 msgid " (AI)"
@@ -57,11 +57,11 @@ msgstr " (中等)"
 
 #: libs/s25main/desktops/dskLobby.cpp:368
 msgid " (playing)"
-msgstr "(播放)"
+msgstr " (播放)"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1377
 msgid " and "
-msgstr "和"
+msgstr " 和 "
 
 #: libs/s25main/ingameWindows/iwAction.cpp:169
 msgid " boards"
@@ -77,7 +77,7 @@ msgstr "%1% 获得胜利!"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:258
 msgid "%1% campaign(s) could not be loaded. Check the log for details"
-msgstr "%1% 战役无法被加载. 检查日志以获取详情"
+msgstr "%1% 战役无法加载. 检查日志以获取详情"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:170
 msgid "%1% map(s) could not be loaded. Check the log for details"
@@ -105,7 +105,7 @@ msgstr "%d"
 #: libs/s25main/desktops/dskSelectMap.cpp:442
 #, c-format
 msgid "%d Player"
-msgstr "玩家 %d"
+msgstr "%d 玩家"
 
 #: libs/s25main/ingameWindows/iwHQ.cpp:40
 #, c-format
@@ -216,7 +216,7 @@ msgstr "1小时"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:30
 msgid "10 catapults"
-msgstr "10个投石器"
+msgstr "10个投石屋"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:85
 #: libs/s25main/ingameWindows/iwStatistics.cpp:152
@@ -230,15 +230,15 @@ msgstr "16小时"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:31
 msgid "20 catapults"
-msgstr "20个投石器"
+msgstr "20个投石屋"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:28
 msgid "3 catapults"
-msgstr "3个投石器"
+msgstr "3个投石屋"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:32
 msgid "30 catapults"
-msgstr "30个投石器"
+msgstr "30个投石屋"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:87
 #: libs/s25main/ingameWindows/iwStatistics.cpp:154
@@ -247,7 +247,7 @@ msgstr "4小时"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:29
 msgid "5 catapults"
-msgstr "5个投石器"
+msgstr "5个投石屋"
 
 #: libs/s25main/Messenger.cpp:81
 #, c-format
@@ -264,7 +264,7 @@ msgstr "投石器正在向我们射击!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:161
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
-msgstr "一座金矿可以让你勘探到有价值的金矿床. 为此, 必须确保为矿工提供充足的食物."
+msgstr "为了让矿工们挖出具有极具价值的金矿, 必须确保他们的食物充足."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:230
 msgid "A lot"
@@ -272,7 +272,7 @@ msgstr "很多"
 
 #: libs/s25main/nodeObjs/noShipBuildingSite.cpp:96
 msgid "A new ship is ready"
-msgstr "一艘新船已准备就绪"
+msgstr "新船准备就绪"
 
 #: libs/s25main/nodeObjs/noShip.cpp:374
 msgid "A ship disovered an enemy territory"
@@ -288,7 +288,7 @@ msgstr "一艘船已准备好出征."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:277
 msgid "A well supplies water to the bakery, brewery, donkey breeder and pig farm."
-msgstr "水井为面包房, 啤酒厂, 养驴场和养猪场供水."
+msgstr "水井为面包房, 酿酒厂, 养驴场和养猪场供水."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:179
 msgid "A woodcutter provides the sawmill with logs. A forester is able to replant the depleted forest."
@@ -458,7 +458,7 @@ msgstr "允许建造炭窑."
 
 #: libs/s25main/addons/AddonWine.h:18
 msgid "Allows to build the wine economy buildings."
-msgstr "允许建造葡萄酒经济建筑物."
+msgstr "允许建造葡萄酒经济建筑物"
 
 #: libs/s25main/addons/AddonToolOrdering.h:14
 msgid "Allows to order a specific amount of tools for priority production."
@@ -555,7 +555,7 @@ msgstr "异步日志已完全接收.\n"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:117
 msgid "At the winery, grapes are stomped in a vat to produce wine. The vintner's wine is of high quality, worthy of sacrifice at the temple."
-msgstr "在酒庄里, 葡萄被踩在大桶中以生产葡萄酒. 酿酒师的葡萄酒品质很高, 值得在神庙中作为祭品."
+msgstr "在酒庄里, 葡萄被踩在大桶中以生产葡萄酒. 酿酒师的葡萄酒品质很高, 值得在寺庙中作为祭品."
 
 #: libs/s25main/ingameWindows/iwAction.cpp:352
 msgid "Attack not possible."
@@ -582,7 +582,7 @@ msgstr "作者"
 #: libs/s25main/desktops/dskOptions.cpp:765
 #, c-format
 msgid "Auto (%u%%)"
-msgstr "自动 (%u%%)"
+msgstr "自动  (%u%%)"
 
 #: libs/s25main/network/GameClient.cpp:1405
 #: libs/s25main/network/GameClient.cpp:1407
@@ -660,7 +660,7 @@ msgstr "啤酒"
 #: libs/s25main/desktops/dskOptions.cpp:374
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
 msgid "Bird sounds"
-msgstr ""
+msgstr "鸟叫声"
 
 #: libs/s25main/gameData/GoodConsts.cpp:32
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:48
@@ -703,15 +703,15 @@ msgstr "面包"
 
 #: libs/s25main/gameData/JobConsts.cpp:31
 msgid "Brewer"
-msgstr "啤酒酿酒师"
+msgstr "啤酒酿造师"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:33
 msgid "Brewery"
-msgstr "啤酒厂"
+msgstr "酿酒坊"
 
 #: libs/s25main/gameData/PortraitConsts.h:22
 msgid "Brutus"
-msgstr ""
+msgstr "布鲁图斯"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:200
 #: libs/s25main/ingameWindows/iwAction.cpp:212
@@ -795,11 +795,11 @@ msgstr "当仍有活动事件时, 无法反序列化事件管理器!"
 
 #: libs/s25main/Replay.cpp:219
 msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
-msgstr "无法播放使用较新的 GC 版本创建的回放 (当前: %1%, 回放: %2%)"
+msgstr "无法使用较新GC版本重播创建的回放 (当前: %1%, 回放: %2%)"
 
 #: libs/s25main/Replay.cpp:207
 msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
-msgstr "无法播放使用较新的版本创建的回放 (当前: %1%, 回放: %2%)"
+msgstr "无法重播使用较新版本创建的回放 (当前: %1%, 回放: %2%)"
 
 #: libs/s25main/gameData/JobConsts.cpp:23
 msgid "Carpenter"
@@ -807,7 +807,7 @@ msgstr "木匠"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:26
 msgid "Catapult"
-msgstr "投石器"
+msgstr "投石屋"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:38
 msgid "Center of country"
@@ -827,7 +827,7 @@ msgstr "更换黄金矿石储备"
 
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:14
 msgid "Change metalworks behavior on zero"
-msgstr "修改工具屋归零的行为"
+msgstr "修改工具厂归零的行为"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:18
 msgid "Change the coin setting for captured military buildings."
@@ -861,7 +861,7 @@ msgid ""
 "Produce random ware: S2-Default\n"
 "Produce nothing: RttR-Default"
 msgstr ""
-"修改如果全部工具视窗的滑杆设为零时的行为 .\n"
+"修改工具厂视窗全部滑杆如果设为零时的行为 .\n"
 "随机生产工具 : S2默认\n"
 "不生产工具 : RttR默认"
 
@@ -1154,7 +1154,7 @@ msgstr "无法拆除"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:74
 msgid "Description"
-msgstr "描述"
+msgstr "说明"
 
 #: libs/s25main/ingameWindows/iwSurrender.cpp:19
 msgid "Destroy all buildings and surrender"
@@ -1218,7 +1218,7 @@ msgstr "军事建筑物里显示士兵的生命值."
 #: libs/s25main/ingameWindows/iwDistribution.cpp:30
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:40
 msgid "Distribution of goods"
-msgstr "货物分配"
+msgstr "货物分销"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:770
 msgid "Don't forget to check the addon configuration!"
@@ -1293,7 +1293,7 @@ msgstr "经济"
 
 #: libs/s25main/EconomyModeHandler.cpp:66
 msgid "Economy Mode: Collect as much as you can of the following good types: "
-msgstr "经济模式:尽可能多地收集以下物品类型:"
+msgstr "经济模式: 尽可能多地收集以下物品类型: "
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:44
 msgid "Economy Mode: Game Length"
@@ -1370,7 +1370,7 @@ msgstr "插旗"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Erik"
-msgstr ""
+msgstr "埃里克"
 
 #: libs/s25client/s25client.cpp:123 libs/s25client/s25client.cpp:146
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
@@ -1425,7 +1425,7 @@ msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1713
 msgid "Error during saving: "
-msgstr ""
+msgstr "储存失误: "
 
 #: libs/s25main/network/GameClient.cpp:1558
 #, c-format
@@ -1443,7 +1443,7 @@ msgstr "编写屏幕截图时出错 : %1%\n"
 #: libs/s25main/world/MapSerializer.cpp:71
 #: libs/s25main/world/MapSerializer.cpp:190
 msgid "Error: "
-msgstr "错误:"
+msgstr "错误: "
 
 #: libs/s25main/MusicPlayer.cpp:68
 msgid "Error: %1%\n"
@@ -1455,7 +1455,7 @@ msgstr "永恒"
 
 #: libs/s25main/EventManager.cpp:159
 msgid "Event count mismatch. Found events: %1%. Expected: %2%.\n"
-msgstr "事件计数不匹配. 找到事件:%1%.预期:%2%. \n"
+msgstr "事件数量不匹配. 找到事件: %1%. 预期的: %2%.\n"
 
 #: libs/s25main/EventManager.cpp:183
 msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
@@ -1495,11 +1495,11 @@ msgid ""
 "Reason: "
 msgstr ""
 "生成随机地图失败. \n"
-"原因:"
+"原因: "
 
 #: libs/s25main/desktops/dskGameLoader.cpp:112
 msgid "Failed to init GUI: "
-msgstr "启动图形用户界面失败:"
+msgstr "启动图形用户界面失败: "
 
 #: libs/s25main/Loader.cpp:544 libs/s25main/Loader.cpp:559
 #, c-format
@@ -1530,7 +1530,7 @@ msgstr "加载库失败. 检查依赖项!"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:69
 msgid "Failed to load lua file '%1%'\n"
-msgstr "加载 lua 文件\"%1%\"失败\n"
+msgstr "加载 lua 文件 '%1%'失败\n"
 
 #: libs/s25main/world/MapSerializer.cpp:190
 msgid "Failed to load lua state!"
@@ -1548,7 +1548,7 @@ msgstr "合并条目 %1% 失败. 预计存档!\n"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:61
 msgid "Failed to read lua file '%1%'\n"
-msgstr "读取 lua 文件\"%1%\"失败\n"
+msgstr "读取 lua 文件 '%1%' 失败\n"
 
 #: libs/s25main/Loader.cpp:1076 libs/s25main/Loader.cpp:1095
 msgid "Failed to resolve resource %1%\n"
@@ -1602,9 +1602,8 @@ msgid "File could not be opened."
 msgstr "无法打开文件."
 
 #: libs/s25main/SavedFile.cpp:87
-#, fuzzy
 msgid "File has an old version and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "文件版本已过时, 不能使用 ( 版本 : %1%, 期许 : %2%)!"
+msgstr "无法使用旧文件版本（当前版本：%1%.%2%，预期版本：%3%.%4%）！"
 
 #: libs/s25main/SavedFile.cpp:76
 msgid "File is not in a valid format!"
@@ -1616,9 +1615,8 @@ msgid "File or directory does not exist: %s\n"
 msgstr "文件或目录不存在 : %s\n"
 
 #: libs/s25main/SavedFile.cpp:88
-#, fuzzy
 msgid "File was created with more recent program and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "文件创自较新的程序并且不能运用 ( 版本 : %1%, 期许 : %2%)!"
+msgstr "无法使用较新的程序创建的文件（当前版本：%1%.%2%，预期版本：%3%.%4%）！"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:51
 msgid "Filename"
@@ -1882,7 +1880,7 @@ msgstr "图形驱动程序"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:12
 msgid "Guardhouse"
-msgstr "警卫室"
+msgstr "哨所"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:76
 msgid "HQ distance to mountain"
@@ -1890,7 +1888,7 @@ msgstr "总部到山区的距离"
 
 #: libs/s25main/gameData/PortraitConsts.h:27
 msgid "Hakirawashi"
-msgstr ""
+msgstr "桧梨"
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:16
 msgid "Half cost recruits"
@@ -1947,7 +1945,7 @@ msgstr "主机:"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
 msgid "Hosting of game not possible"
-msgstr "游戏托管不可行"
+msgstr "无法主持游戏"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:300
 msgid "House names"
@@ -2093,7 +2091,7 @@ msgstr "端口无效. 有效端口范围为 1 至 65535!"
 
 #: libs/s25main/ingameWindows/iwSettings.cpp:73
 msgid "Invert Mouse Pan"
-msgstr "反转鼠标平移"
+msgstr "反转鼠标移动"
 
 #: libs/s25main/desktops/dskOptions.cpp:274
 msgid "Invert Mouse Pan:"
@@ -2147,7 +2145,7 @@ msgstr "加入游戏"
 
 #: libs/s25main/gameData/PortraitConsts.h:21
 msgid "Julius"
-msgstr ""
+msgstr "尤利乌斯"
 
 #: libs/s25main/network/GameClient.cpp:1666
 #, c-format
@@ -2172,7 +2170,7 @@ msgstr "键盘布局"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Knut"
-msgstr ""
+msgstr "克努特"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
 msgid "Land"
@@ -2214,7 +2212,7 @@ msgstr "限制帧率:"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:17
 msgid "Limit number of catapults"
-msgstr "限制投石器的数量"
+msgstr "限制投石屋的数量"
 
 #: libs/s25main/addons/AddonMaxRank.h:27
 msgid "Limit the rank for soldiers"
@@ -2286,15 +2284,15 @@ msgstr "加载视频驱动 “%1%”\n"
 
 #: libs/s25main/MusicPlayer.cpp:63
 msgid "Loading \"%1%\": "
-msgstr "加载 “%1%”: "
+msgstr "正在加载 \"%1%\": "
 
 #: libs/s25main/Playlist.cpp:64
 msgid "Loading %1%\n"
-msgstr "加载 %1%\n"
+msgstr "正在加载 %1%\n"
 
 #: libs/s25main/resources/ArchiveLoader.cpp:72
 msgid "Loading %1%: "
-msgstr "加载 %1%: "
+msgstr "正在加载 %1%: "
 
 #: libs/s25main/resources/ArchiveLoader.cpp:84
 #, c-format
@@ -2366,7 +2364,7 @@ msgstr "低"
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:44
 #, c-format
 msgid "Lua error: %s\n"
-msgstr "Lua 编程错误 : %s\n"
+msgstr "Lua 错误: %s\n"
 
 #: libs/s25main/world/MapSerializer.cpp:187
 msgid "Lua load callback returned failure!"
@@ -2375,7 +2373,7 @@ msgstr "Lua 加载回调返回失败!"
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:47
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:54
 msgid "Lua script did not provide the function getRequiredLuaVersion()! It is probably outdated.\n"
-msgstr "Lua 脚本未提供 getRequiredLuaVersion() 函数!可能已经过时了. \n"
+msgstr "Lua 脚本未提供 getRequiredLuaVersion() 函数! 可能已经过时了.\n"
 
 #: libs/s25main/world/MapSerializer.cpp:181
 msgid "Lua script failed to load."
@@ -2465,11 +2463,11 @@ msgstr "(正在努力加载, 请耐心等待)"
 #: libs/s25main/desktops/dskGameLobby.cpp:284
 #: libs/s25main/desktops/dskSelectMap.cpp:127
 msgid "Map: "
-msgstr "地图:"
+msgstr "地图: "
 
 #: libs/s25main/desktops/dskSelectMap.cpp:128
 msgid "Mapfile: "
-msgstr "地图文件:"
+msgstr "地图文件: "
 
 #: libs/s25main/desktops/dskCredits.cpp:73
 #: libs/s25main/desktops/dskCredits.cpp:88
@@ -2498,7 +2496,7 @@ msgstr "猎人获得的肉用来喂养矿工."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:89
 msgid "Medium"
-msgstr "中"
+msgstr "中等"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:33
 msgid "Medium strength"
@@ -2619,7 +2617,7 @@ msgstr "混合型"
 
 #: libs/s25main/gameData/PortraitConsts.h:29
 msgid "Mnga Tscha"
-msgstr ""
+msgstr "萌嘎斯查"
 
 #: libs/s25main/desktops/dskOptions.cpp:317
 #: libs/s25main/ingameWindows/iwSettings.cpp:63
@@ -2678,7 +2676,7 @@ msgstr "音乐播放器"
 
 #: libs/s25main/gameData/PortraitConsts.h:30
 msgid "Nabonidus"
-msgstr ""
+msgstr "那波尼德"
 
 #: libs/s25main/desktops/dskLobby.cpp:59
 #: libs/s25main/desktops/dskSelectMap.cpp:75
@@ -2856,7 +2854,7 @@ msgstr "观察窗"
 
 #: libs/s25main/gameData/PortraitConsts.h:20
 msgid "Octavianus"
-msgstr ""
+msgstr "屋大维努斯"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
@@ -2894,7 +2892,7 @@ msgstr "旧地图"
 
 #: libs/s25main/gameData/PortraitConsts.h:24
 msgid "Olof"
-msgstr ""
+msgstr "奥洛夫"
 
 #: libs/s25main/desktops/dskOptions.cpp:252
 #: libs/s25main/desktops/dskOptions.cpp:276
@@ -2915,11 +2913,11 @@ msgstr "开放"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:374
 msgid "OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or hardware!"
-msgstr "OpenGL %1% %2%.%3% 不被支持. 请尝试更新你的显卡驱动程序或硬件!"
+msgstr "不支持 OpenGL %1% %2%.%3%. 请尝试更新你的显卡驱动程序或硬件!"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:371
 msgid "OpenGL %1%.%2% supported\n"
-msgstr "OpenGL %1%.%2% 已被支持\n"
+msgstr "支持 OpenGL %1%.%2%\n"
 
 #: libs/s25main/desktops/dskOptions.cpp:347
 msgid "Optimized Textures:"
@@ -2933,7 +2931,7 @@ msgstr "选项"
 
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:27
 msgid "Order of building site"
-msgstr "建筑工地的顺序"
+msgstr "建筑工地顺序"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:118
 #: libs/s25main/ingameWindows/iwAddons.cpp:70
@@ -2946,7 +2944,7 @@ msgstr "我们的总部被摧毁了!"
 
 #: libs/s25main/ingameWindows/iwMinimap.cpp:29
 msgid "Outline map"
-msgstr "轮廓图"
+msgstr "地图"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:106
 msgid "Own maps"
@@ -2962,7 +2960,7 @@ msgstr "驮驴"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:53
 msgid "Password (if needed):"
-msgstr "密码 (如需要)："
+msgstr "密码 (如需要) :"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:34
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:57
@@ -3006,7 +3004,7 @@ msgstr "将光标放在新对话框/操作窗口的默认按钮上 (默认值)"
 
 #: libs/s25main/gameData/JobConsts.cpp:39
 msgid "Planer"
-msgstr "刨工"
+msgstr "刨地工"
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:47
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:46
@@ -3016,7 +3014,7 @@ msgstr "播放回放"
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:115
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:428
 msgid "Playback in this order"
-msgstr "按此顺序播放"
+msgstr "按以下顺序播放"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:124
 msgid "Played"
@@ -3078,7 +3076,7 @@ msgstr "请稍候..."
 
 #: libs/s25main/desktops/dskOptions.cpp:184
 msgid "Portrait:"
-msgstr ""
+msgstr "头像："
 
 #: libs/s25main/desktops/dskGameInterface.cpp:130
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
@@ -3118,7 +3116,7 @@ msgstr "生产开启/关闭"
 #: libs/s25main/ingameWindows/iwStatistics.cpp:145
 #: libs/s25main/ingameWindows/iwStatistics.cpp:240
 msgid "Productivity"
-msgstr "生产力"
+msgstr "生产率"
 
 #: libs/s25main/desktops/dskCredits.cpp:56
 #: libs/s25main/desktops/dskCredits.cpp:66
@@ -3199,7 +3197,7 @@ msgstr "护林员"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:221
 msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
-msgstr "生铁矿石在炼铁厂中借助煤炭进行冶炼. 加工后的铁可用于制造武器 (在兵工厂) 和工具 (在金属加工厂) ."
+msgstr "生铁矿石在炼铁厂中借助煤炭进行冶炼. 加工后的铁可用于制造武器 (兵工厂里) 和工具 (工具厂里) ."
 
 #: libs/s25main/desktops/dskMainMenu.cpp:46
 msgid "Readme"
@@ -3227,7 +3225,7 @@ msgstr "收到 %1% 的异步日志, 但没想到会收到!\n"
 
 #: libs/s25main/network/GameServer.cpp:1292
 msgid "Received async logs from %1% (%2% entries).\n"
-msgstr "收到来自 %1% 的异步日志 (%2% 条目) . \n"
+msgstr "收到来自 %1% 的异步日志 (%2% 条目) .\n"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
 msgid "Receiving Map..."
@@ -3343,7 +3341,7 @@ msgstr "RttR 程序崩溃. 请重启程序!"
 
 #: libs/s25client/s25client.cpp:121
 msgid "RttR crashed. Would you like to send debug information to RttR to help us avoiding this crash in the future? Thank you very much!"
-msgstr "RttR 程序崩溃. 您要把调试讯息寄给 RttR 以协助我们避免未来的程序崩溃吗?谢谢!"
+msgstr "RttR 程序崩溃. 您可以把调试信息发送给 RttR 以帮助我们避免未来的这种程序崩溃吗? 非常感谢!"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:67
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
@@ -3363,7 +3361,7 @@ msgstr "服务器: 玩家 %1% 将在 %2% 秒内被踢出游戏\n"
 
 #: libs/s25main/network/GameServer.cpp:868
 msgid "SERVER: Receiving Message for player %1% failed, kicking...\n"
-msgstr "服务器: 接收玩家 %1% 的消息失败, 正在踢出…\n"
+msgstr "服务器: 玩家 %1% 的消息接收失败, 正在踢出…\n"
 
 #: libs/s25main/network/GameServer.cpp:662
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
@@ -3393,7 +3391,7 @@ msgstr "游戏存档错误: "
 
 #: libs/s25main/network/GameClient.cpp:1685
 msgid "Saving game..."
-msgstr ""
+msgstr "储存进度中.."
 
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
@@ -3459,7 +3457,7 @@ msgstr "送士兵回家"
 
 #: libs/s25main/network/GameServer.cpp:1581
 msgid "Sending async logs %1%.\n"
-msgstr "发送同步日志 %1%. \n"
+msgstr "发送同步日志 %1%.\n"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:62
 msgid "Sequence of given order"
@@ -3528,7 +3526,7 @@ msgstr "定居者"
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Shaka"
-msgstr ""
+msgstr "恰卡"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:203
 msgid "Shared team view"
@@ -3672,7 +3670,7 @@ msgstr "速度:"
 
 #: libs/s25main/GameManager.cpp:168
 msgid "Splash screen couldn't be loaded!"
-msgstr "无法加载音像驱动!"
+msgstr "无法加载启动画面!"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:71
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
@@ -3706,7 +3704,7 @@ msgstr "开始游戏, 请稍候"
 
 #: libs/s25main/Loader.cpp:267
 msgid "Starting sound conversion: "
-msgstr "开始声音转换： "
+msgstr "开始转换声音： "
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:78
 msgid "Statistics"
@@ -3813,11 +3811,11 @@ msgstr "锁定团队"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:17
 msgid "Temple"
-msgstr "神庙"
+msgstr "寺庙"
 
 #: libs/s25main/gameData/JobConsts.cpp:55
 msgid "Temple Servant"
-msgstr "神庙侍从"
+msgstr "寺庙侍从"
 
 #: libs/s25main/desktops/dskCredits.cpp:243
 msgid "Thank you for your donations!"
@@ -3829,7 +3827,7 @@ msgstr "谢谢 !"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:174
 msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
-msgstr "投石器具有巨大的威力, 是打击敌方军事建筑的有效武器."
+msgstr "投石屋具有巨大的威力, 是打击敌方军事建筑的有效武器."
 
 #: libs/s25main/postSystem/PostMsg.cpp:29
 #, c-format
@@ -3932,7 +3930,7 @@ msgstr "通过商品统计窗口, 您可以查看商品数量. 通过点击鼠�
 
 #: libs/s25main/gameData/BuildingConsts.cpp:151
 msgid "The mining of coal supports the metalworks and smithy. This hard work requires an adequate supply of food."
-msgstr "煤矿的开采支撑着金属厂和铁匠铺. 这种艰苦的工作需要充足的食物供应."
+msgstr "煤矿的开采支撑着工具厂和铁匠铺. 这种艰苦的工作需要充足的食物供应."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:272
 msgid "The mint is responsible for producing valuable gold coins. These precious objects are produced using coal and gold."
@@ -3993,7 +3991,7 @@ msgstr "无法保存指定文件!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:188
 msgid "The stonemason works the stone near his quarry into bricks. These are needed mainly for building houses and as ammunition for catapults."
-msgstr "石匠将采石场附近的石头加工成砖. 这些砖主要用于建造房屋和作为投石器的弹药."
+msgstr "石匠将采石场附近的石头加工成砖. 这些砖主要用于建造房屋和作为投石屋的弹药."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:239
 msgid "The storehouse can help reduce long transportation journeys and is suited to the temporary storage of merchandise and inhabitants. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
@@ -4001,7 +3999,7 @@ msgstr "仓库有助于减少长途运输, 适合临时存放商品和居民. �
 
 #: libs/s25main/gameData/BuildingConsts.cpp:122
 msgid "The temple servant sacrifices wine and food granting a blessing of gold, iron ore, coal or granite. This allows your iron founder and minter to continue working when mines become exhausted. The desired mineral can be selected by toggling the output button."
-msgstr "神庙侍从献上酒食, 赐予黄金, 铁矿石, 煤炭或花岗岩的祝福。这样，当矿山耗尽时，你的铁匠和铸币师可以继续工作。可以通过切换输出按钮来选择所需的矿物。"
+msgstr "寺庙侍者献祭酒和食物以换取黄金、铁矿石、煤炭或花岗岩的祝福。这使得你的铁匠和铸币师在矿山枯竭时能够继续工作。可以通过切换输出按钮选择所需的矿物。"
 
 #: libs/s25main/ingameWindows/iwTransport.cpp:108
 msgid "The transport priority of a type of merchandise can be determined here.The higher the priority of an item in the list, the quicker it is transported by helpers."
@@ -4013,7 +4011,7 @@ msgstr "瞭望塔的空间很大, 最适合驻扎大量部队. 使用金币按�
 
 #: libs/s25main/gameData/BuildingConsts.cpp:109
 msgid "The winegrower plants and harvests grapes in the surrounding fields. A vineyard requires a steady supply of sturdy logs for trellises and fresh water to irrigate the fields. Ripe grapes are sent to the winery to be pressed into wine."
-msgstr "葡萄种植者在周围的田地里种植和收获葡萄。葡萄园需要稳定供应坚固的原木用于搭建葡萄架，还需要淡水来灌溉田地。成熟的葡萄被送到葡萄酒厂压榨成葡萄酒。"
+msgstr "葡萄种植者在周围的田地里种植和收获葡萄。葡萄园需要坚固稳定的原木供应用于搭建葡萄架，还需要淡水来灌溉种植物。成熟的葡萄被送到葡萄酒厂压榨成葡萄酒。"
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:27
 msgid "The winner:"
@@ -4025,11 +4023,11 @@ msgstr "获奖者:"
 
 #: libs/s25main/network/GameServer.cpp:1519
 msgid "There are %1% identical async log entries.\n"
-msgstr "有 %1% 相同的异步日志条目. \n"
+msgstr "有 %1% 相同的异步日志条目.\n"
 
 #: libs/s25main/ingameWindows/iwTools.cpp:185
 msgid "These settings control the tool production of your metalworks. The higher the value, the more likely this tool is to be produced."
-msgstr "这些设置可控制金属制品的工具生产. 数值越高, 生产该工具的可能性就越大."
+msgstr "这些设置可控制工具厂的工具生产. 数值越高, 生产该工具的几率越大."
 
 #: libs/s25main/network/ClientError.cpp:13
 msgid "This Server is full!"
@@ -4078,11 +4076,11 @@ msgstr "给玩家:"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:171
 msgid "To register, you have to create a valid board account at http://forum.siedler25.org at the moment.\n"
-msgstr "你必须要先在 http://forum.siedler25.org 论坛上注册账户. \n"
+msgstr "你必须要先在 http://forum.siedler25.org 论坛上注册账户.\n"
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Todo"
-msgstr ""
+msgstr "托多"
 
 #: libs/s25main/gameData/GoodConsts.cpp:10
 msgid "Tongs"
@@ -4160,7 +4158,7 @@ msgstr "从水下第一个生命的萌芽开始, 到石器时代的巨型野兽,
 
 #: libs/s25main/gameData/PortraitConsts.h:26
 msgid "Tsunami"
-msgstr ""
+msgstr "津波"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:78
 msgid "Type"
@@ -4331,7 +4329,7 @@ msgstr "葡萄园"
 
 #: libs/s25main/gameData/JobConsts.cpp:54
 msgid "Vintner"
-msgstr "葡萄酒酿酒师"
+msgstr "葡萄酒酿造师"
 
 #: libs/s25main/Loader.cpp:301
 msgid ""
@@ -4475,7 +4473,7 @@ msgstr "客户端版本错误"
 
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:42
 msgid "Wrong lua script version: %1%. Current version: %2%.\n"
-msgstr "错误的 lua 脚本版本: %1%. 当前版本: %2%.\n"
+msgstr "错误的lua脚本版本: %1%. 当前版本: %2%.\n"
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:48
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
@@ -4487,7 +4485,7 @@ msgstr "lua 脚本版本错误."
 
 #: libs/s25main/gameData/PortraitConsts.h:25
 msgid "Yamauchi"
-msgstr ""
+msgstr "山內"
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:23
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:67
@@ -4540,7 +4538,7 @@ msgstr ""
 "您选择了经济模式. 在经济模式下, 收集特定物品最多的玩家或团队获胜 (查看游戏中的经济进度窗口) . \n"
 "\n"
 "有些玩家喜欢在和平模式下进行游戏. 您想调整设置以进行和平游戏吗?\n"
-"选择 \"是 \"将激活和平模式, 禁止使用投石器, 并默认禁止建筑物接收金币. 单击 \"是 \"后, 您可以查看更改, 然后再次单击 \"开始游戏 \"按钮开始游戏. \n"
+"选择 \"是 \"将激活和平模式, 禁止使用投石屋, 并默认禁止建筑物接收金币. 单击 \"是 \"后, 您可以查看更改, 然后再次单击 \"开始游戏 \"按钮开始游戏. \n"
 "选择 \"否 \"将在不做任何更改的情况下开始游戏."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:768
@@ -4589,7 +4587,7 @@ msgstr "默认"
 #: libs/s25main/Loader.cpp:277 libs/s25main/resources/ArchiveLoader.cpp:117
 #, c-format
 msgid "done in %ums\n"
-msgstr "在 %ums 内完成\n"
+msgstr "%ums 内完成\n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "easy"
@@ -4614,17 +4612,17 @@ msgstr "跳转到 gf %1% 完成\n"
 #: libs/s25main/GameManager.cpp:137
 #, c-format
 msgid "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
-msgstr "跳转到 gf %i 完成, 最后 %i gf 的时间:%.3f s, 平均 gf 时间 %.3f ms\n"
+msgstr "跳转到 gf %i 完成, 最后 %i gf 的时间:%.3f s, 平均 gf 时间 %.3f ms \n"
 
 #: libs/s25main/GameManager.cpp:125
 #, c-format
 msgid "jumping to gf %i, now at gf %i \n"
-msgstr "跳转到 gf %i, 现在在 gf %i\n"
+msgstr "跳转到 gf %i, 现在在 gf %i \n"
 
 #: libs/s25main/GameManager.cpp:122
 #, c-format
 msgid "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time %.3f ms \n"
-msgstr "跳转到 gf %i, 现在在 gf %i, 最后 5k gf 时间:%.3f 秒, 平均 gf 时间 %.3f 毫秒\n"
+msgstr "跳转到 gf %i, 现在在 gf %i, 最后 5k gf 时间:%.3f 秒, 平均 gf 时间 %.3f 毫秒 \n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "medium"
