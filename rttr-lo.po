@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 10:23+0100\n"
+"POT-Creation-Date: 2026-01-12 10:10+0100\n"
 "PO-Revision-Date: 2025-10-24 20:35+0000\n"
 "Last-Translator: boneni <Unknown>\n"
 "Language-Team: Lao <lo@li.org>\n"
@@ -58,7 +58,7 @@ msgstr " (ປານກາງ)"
 msgid " (playing)"
 msgstr " (ກຳລັງຫຼິ້ນ)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1377
+#: libs/s25main/desktops/dskGameInterface.cpp:1373
 msgid " and "
 msgstr " ແລະ "
 
@@ -70,7 +70,7 @@ msgstr " ແຜ່ນໄມ້"
 msgid " stones"
 msgstr " ຫີນ"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1377
+#: libs/s25main/desktops/dskGameInterface.cpp:1373
 msgid "%1% are the winners!"
 msgstr "%1% ເປັນຜູ້ຊະນະ!"
 
@@ -96,7 +96,7 @@ msgstr "%1% ຜູ້ຫຼິ້ນ"
 msgid "%1%x"
 msgstr "%1%x"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:483
+#: libs/s25main/desktops/dskGameLobby.cpp:507
 #, c-format
 msgid "%d"
 msgstr "%d"
@@ -115,27 +115,27 @@ msgstr "%u/%u"
 msgid "'s Game"
 msgstr "ຂອງເກມ"
 
-#: libs/s25main/world/GameWorldView.cpp:435
+#: libs/s25main/world/GameWorldView.cpp:431
 #, c-format
 msgid "(%d soldiers)"
 msgstr "(ທະຫານ %d ຄົນ)"
 
-#: libs/s25main/world/GameWorldView.cpp:433
+#: libs/s25main/world/GameWorldView.cpp:429
 msgid "(1 soldier)"
 msgstr "(ທະຫານ 1 ຄົນ)"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:87
-#: libs/s25main/ingameWindows/iwBuilding.cpp:183
-#: libs/s25main/world/GameWorldView.cpp:408
+#: libs/s25main/ingameWindows/iwBuilding.cpp:92
+#: libs/s25main/ingameWindows/iwBuilding.cpp:188
+#: libs/s25main/world/GameWorldView.cpp:404
 msgid "(House unoccupied)"
 msgstr "(ເຮືອນວ່າງ)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:372
+#: libs/s25main/desktops/dskGameInterface.cpp:388
 #, c-format
 msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
 msgstr "(ໂໝດຣີເພລ) GF ປັດຈຸບັນ: %u (ສິ້ນສຸດທີ່: %u) / ຄວາມຍາວ GF: %u ms / ຄວາມຍາວ NWF: %u gf (%u ms)"
 
-#: libs/s25main/world/GameWorldView.cpp:410
+#: libs/s25main/world/GameWorldView.cpp:406
 msgid "(stopped)"
 msgstr "(ຢຸດແລ້ວ)"
 
@@ -161,9 +161,9 @@ msgstr "+50%"
 msgid "+500%"
 msgstr "+500%"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:328
-#: libs/s25main/desktops/dskGameLobby.cpp:473
-#: libs/s25main/desktops/dskGameLobby.cpp:475
+#: libs/s25main/desktops/dskGameLobby.cpp:345
+#: libs/s25main/desktops/dskGameLobby.cpp:497
+#: libs/s25main/desktops/dskGameLobby.cpp:499
 msgid "-"
 msgstr "-"
 
@@ -253,7 +253,7 @@ msgstr "ເຄື່ອງຍິງຫີນ 5 ເຄື່ອງ"
 msgid "<%s> "
 msgstr "<%s> "
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1183
+#: libs/s25main/desktops/dskGameInterface.cpp:1179
 msgid "A auto-savegame is created..."
 msgstr "ກຳລັງສ້າງໄຟລ໌ບັນທຶກເກມອັດຕະໂນມັດ..."
 
@@ -265,7 +265,7 @@ msgstr "ເຄື່ອງຍິງຫີນກຳລັງຍິງໃສ່ພ
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
 msgstr "ບໍ່ແຮ່ຄຳຊ່ວຍໃຫ້ທ່ານສາມາດຊອກຫາແຫຼ່ງຄຳທີ່ມີຄ່າ. ສຳລັບສິ່ງນີ້, ມັນຈຳເປັນຕ້ອງຮັບປະກັນວ່າຄົນງານບໍ່ແຮ່ຈະໄດ້ຮັບອາຫານຢ່າງຫຼວງຫຼາຍ."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:230
+#: libs/s25main/desktops/dskGameLobby.cpp:247
 msgid "A lot"
 msgstr "ຫຼາຍ"
 
@@ -311,7 +311,7 @@ msgstr "ໜ້າຕ່າງດີບັກ AI"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:46
 #: libs/s25main/ingameWindows/iwConnecting.cpp:37
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:64
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:65
 msgid "Abort"
 msgstr "ຍົກເລີກ"
 
@@ -328,7 +328,7 @@ msgstr "ເປີດໃຊ້ໃກ້ເຂດຊາຍແດນ"
 msgid "Activity window"
 msgstr "ໜ້າຕ່າງກິດຈະກຳ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:93
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:94
 msgid "Add"
 msgstr "ເພີ່ມ"
 
@@ -336,13 +336,13 @@ msgstr "ເພີ່ມ"
 msgid "Add Server"
 msgstr "ເພີ່ມເຊີບເວີ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:101
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:284
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:102
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:289
 msgid "Add directory of tracks"
 msgstr "ເພີ່ມໂຟນເດີເພງ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:99
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:279
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:100
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:284
 msgid "Add track"
 msgstr "ເພີ່ມເພງ"
 
@@ -375,11 +375,11 @@ msgstr "ບໍ່ພົບສ່ວນເສີມ %1$#x!\n"
 msgid "Addon Settings"
 msgstr "ການຕັ້ງຄ່າສ່ວນເສີມ"
 
-#: libs/s25main/desktops/dskOptions.cpp:156
+#: libs/s25main/desktops/dskOptions.cpp:165
 msgid "Addons"
 msgstr "ສ່ວນເສີມ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:208
+#: libs/s25main/desktops/dskGameLobby.cpp:225
 msgid "Addons:"
 msgstr "ສ່ວນເສີມ:"
 
@@ -417,7 +417,7 @@ msgstr "ປັບເວລາຫຼັງຈາກທີ່ເງື່ອນໄ
 msgid "Adjusts how long a building will burn for when it is destroyed"
 msgstr "ປັບໄລຍະເວລາທີ່ອາຄານຈະໄໝ້ເມື່ອຖືກທຳລາຍ"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:104
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:137
 msgid "Advanced"
 msgstr "ຂັ້ນສູງ"
 
@@ -516,7 +516,7 @@ msgstr "ປັນຍາປະດິດ (AI)"
 msgid "As the teams are locked, you cannot make treaties of any kind."
 msgstr "ເນື່ອງຈາກທີມຖືກລັອກ, ທ່ານບໍ່ສາມາດເຮັດສົນທິສັນຍາປະເພດໃດໆໄດ້."
 
-#: libs/s25main/desktops/dskOptions.cpp:297
+#: libs/s25main/desktops/dskOptions.cpp:312
 msgid "Ask always"
 msgstr "ຖາມທຸກຄັ້ງ"
 
@@ -578,13 +578,13 @@ msgstr "ບໍ່ສາມາດໂຫຼດໄດເວີສຽງໄດ້!"
 msgid "Author"
 msgstr "ຜູ້ສ້າງ"
 
-#: libs/s25main/desktops/dskOptions.cpp:765
+#: libs/s25main/desktops/dskOptions.cpp:791
 #, c-format
 msgid "Auto (%u%%)"
 msgstr "ອັດຕະໂນມັດ (%u%%)"
 
-#: libs/s25main/network/GameClient.cpp:1405
-#: libs/s25main/network/GameClient.cpp:1407
+#: libs/s25main/network/GameClient.cpp:1415
+#: libs/s25main/network/GameClient.cpp:1417
 msgid "Auto-Save"
 msgstr "ບັນທຶກອັດຕະໂນມັດ"
 
@@ -628,7 +628,7 @@ msgstr "ຊາວບາບີໂລນ"
 #: libs/s25main/desktops/dskIntro.cpp:20 libs/s25main/desktops/dskLAN.cpp:40
 #: libs/s25main/desktops/dskLobby.cpp:45
 #: libs/s25main/desktops/dskMultiPlayer.cpp:31
-#: libs/s25main/desktops/dskOptions.cpp:154
+#: libs/s25main/desktops/dskOptions.cpp:163
 #: libs/s25main/desktops/dskSelectMap.cpp:86
 #: libs/s25main/desktops/dskSinglePlayer.cpp:49
 #: libs/s25main/desktops/dskTextureTest.cpp:35
@@ -656,8 +656,8 @@ msgstr "ຄ້າຍທະຫານ"
 msgid "Beer"
 msgstr "ເບຍ"
 
-#: libs/s25main/desktops/dskOptions.cpp:374
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
+#: libs/s25main/desktops/dskOptions.cpp:396
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
 msgid "Bird sounds"
 msgstr ""
 
@@ -683,7 +683,7 @@ msgstr "ເຮືອ"
 msgid "Bob-like file contained multiple text entries: %s\n"
 msgstr "ໄຟລ໌ຄ້າຍ Bob ມີລາຍການຂໍ້ຄວາມຫຼາຍອັນ: %s\n"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:42
+#: libs/s25main/ingameWindows/iwMilitary.cpp:68
 msgid "Border areas"
 msgstr "ເຂດຊາຍແດນ"
 
@@ -784,7 +784,7 @@ msgstr "ຍົກເລີກ"
 msgid "Cancel expedition"
 msgstr "ຍົກເລີກການສຳຫຼວດ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:953
+#: libs/s25main/desktops/dskGameLobby.cpp:977
 msgid "Cancel start"
 msgstr "ຍົກເລີກການເລີ່ມ"
 
@@ -808,11 +808,11 @@ msgstr "ຊ່າງໄມ້"
 msgid "Catapult"
 msgstr "ເຄື່ອງຍິງກ້ອນຫີນ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:38
+#: libs/s25main/ingameWindows/iwMilitary.cpp:58
 msgid "Center of country"
 msgstr "ສູນກາງຂອງປະເທດ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:210
+#: libs/s25main/desktops/dskGameLobby.cpp:227
 msgid "Change Settings..."
 msgstr "ປ່ຽນການຕັ້ງຄ່າ..."
 
@@ -890,7 +890,7 @@ msgstr "ກຳລັງກວດສອບລະຫັດຜ່ານ..."
 msgid "Choose mission"
 msgstr "ເລືອກພາລະກິດ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:220
+#: libs/s25main/desktops/dskGameLobby.cpp:237
 msgid "Classic (Settlers 2)"
 msgstr "ຄລາສສິກ (Settlers 2)"
 
@@ -912,7 +912,7 @@ msgstr "ໃກ້"
 msgid "Close Without Saving"
 msgstr "ປິດໂດຍບໍ່ບັນທຶກ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:407
+#: libs/s25main/desktops/dskGameLobby.cpp:424
 msgid "Closed"
 msgstr "ປິດ"
 
@@ -942,11 +942,11 @@ msgstr "ຫຼຽນໃນອາຄານທີ່ຖືກຍຶດ"
 msgid "Collect"
 msgstr "ເກັບກຳ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:161
+#: libs/s25main/desktops/dskGameLobby.cpp:178
 msgid "Color"
 msgstr "ສີ"
 
-#: libs/s25main/desktops/dskOptions.cpp:147
+#: libs/s25main/desktops/dskOptions.cpp:156
 msgid "Common"
 msgstr "ທົ່ວໄປ"
 
@@ -965,7 +965,7 @@ msgstr "ຢືນຢັນ"
 
 #: libs/s25main/desktops/dskLAN.cpp:38 libs/s25main/desktops/dskLobby.cpp:46
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:64
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:80
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:92
 msgid "Connect"
 msgstr "ເຊື່ອມຕໍ່"
 
@@ -978,16 +978,16 @@ msgid "Connecting to Lobby"
 msgstr "ກຳລັງເຊື່ອມຕໍ່ກັບລັອບບີ້"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:116
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:151
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:159
 msgid "Connecting with Host..."
 msgstr "ກຳລັງເຊື່ອມຕໍ່ກັບໂຮສ..."
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:113
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:162
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:168
 msgid "Connection failed!"
 msgstr "ການເຊື່ອມຕໍ່ລົ້ມເຫຼວ!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:236
+#: libs/s25main/desktops/dskGameLobby.cpp:253
 msgid "Conquer 3/4 of map"
 msgstr "ຍຶດຄອງ 3/4 ຂອງແຜນທີ່"
 
@@ -995,7 +995,7 @@ msgstr "ຍຶດຄອງ 3/4 ຂອງແຜນທີ່"
 msgid "Construction"
 msgstr "ການກໍ່ສ້າງ"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:127
+#: libs/s25main/desktops/dskGameInterface.cpp:143
 msgid "Construction aid mode"
 msgstr "ໂໝດຊ່ວຍເຫຼືອການກໍ່ສ້າງ"
 
@@ -1042,7 +1042,7 @@ msgstr "ປ່ຽນເປັນແຮ່ເຫຼັກ"
 msgid "Could not determine type of path %s\n"
 msgstr "ບໍ່ສາມາດກຳນົດປະເພດຂອງເສັ້ນທາງ %s\n"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:275
+#: libs/s25main/desktops/dskGameLobby.cpp:292
 msgid "Could not load map:\n"
 msgstr "ບໍ່ສາມາດໂຫຼດແຜນທີ່:\n"
 
@@ -1070,7 +1070,7 @@ msgstr "ຜູ້ສ້າງ"
 msgid "Crucible"
 msgstr "ເບົ້າຫຼອມ"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:378
+#: libs/s25main/desktops/dskGameInterface.cpp:394
 #, c-format
 msgid "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
 msgstr "GF ປັດຈຸບັນ: %u / ຄວາມຍາວ GF: %u ms / ຄວາມຍາວ NWF: %u gf (%u ms) / Ping: %u ms"
@@ -1103,7 +1103,7 @@ msgstr "ເລິກເຂົ້າໄປໃນພູ, ຄົນງານບໍ�
 #: libs/s25main/ingameWindows/iwAddons.cpp:50
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:71
 #: libs/s25main/ingameWindows/iwDistribution.cpp:66
-#: libs/s25main/ingameWindows/iwMilitary.cpp:47
+#: libs/s25main/ingameWindows/iwMilitary.cpp:75
 #: libs/s25main/ingameWindows/iwTools.cpp:69
 #: libs/s25main/ingameWindows/iwTransport.cpp:27
 msgid "Default"
@@ -1129,7 +1129,7 @@ msgstr "ທຳລາຍອາຄານເມື່ອຊັບພະຍາກອ
 
 #: libs/s25main/ingameWindows/iwAction.cpp:234
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
-#: libs/s25main/ingameWindows/iwBuilding.cpp:59
+#: libs/s25main/ingameWindows/iwBuilding.cpp:64
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:55
 msgid "Demolish house"
@@ -1197,7 +1197,7 @@ msgstr "ປິດການໃຊ້ຫຼຽນເປັນຄ່າເລີ່
 msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr "ປິດການທຳລາຍອາຄານທະຫານທີ່ກຳລັງຖືກໂຈມຕີ ຫຼື ຢູ່ໃກ້ກັບເຂດຊາຍແດນ."
 
-#: libs/s25main/desktops/dskOptions.cpp:446
+#: libs/s25main/desktops/dskOptions.cpp:471
 #: libs/s25main/ingameWindows/iwSave.cpp:140
 msgid "Disabled"
 msgstr "ປິດໃຊ້ງານ"
@@ -1219,11 +1219,11 @@ msgstr "ສະແດງພະລັງຊີວິດຂອງໜ່ວຍຮົ
 msgid "Distribution of goods"
 msgstr "ການແຈກຢາຍສິນຄ້າ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:770
+#: libs/s25main/desktops/dskGameLobby.cpp:794
 msgid "Don't forget to check the addon configuration!"
 msgstr "ຢ່າລືມກວດສອບການຕັ້ງຄ່າສ່ວນເສີມ!"
 
-#: libs/s25main/desktops/dskOptions.cpp:289
+#: libs/s25main/desktops/dskOptions.cpp:294
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
@@ -1252,7 +1252,7 @@ msgstr "ຄອກປະສົມພັນລາ"
 msgid "Down"
 msgstr "ລົງ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:107
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:108
 msgid "Downwards"
 msgstr "ລົງລຸ່ມ"
 
@@ -1274,7 +1274,7 @@ msgstr "ໄລຍະເວລາ: %d GF (%s)"
 msgid "Duration: Forever"
 msgstr "ໄລຍະເວລາ: ຕະຫຼອດໄປ"
 
-#: libs/s25main/desktops/dskOptions.cpp:442
+#: libs/s25main/desktops/dskOptions.cpp:467
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr "ໄດນາມິກ (ຈຳກັດຕາມອັດຕາການຣີເຟຣຊຂອງຈໍ, ໃຊ້ໄດ້ກັບໄດເວີສ່ວນໃຫຍ່)"
 
@@ -1298,12 +1298,12 @@ msgstr "ໂໝດເສດຖະກິດ: ເກັບສິນຄ້າປະ�
 msgid "Economy Mode: Game Length"
 msgstr "ໂໝດເສດຖະກິດ: ໄລຍະເວລາເກມ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:238
-#: libs/s25main/desktops/dskGameLobby.cpp:1124
+#: libs/s25main/desktops/dskGameLobby.cpp:255
+#: libs/s25main/desktops/dskGameLobby.cpp:1150
 msgid "Economy mode"
 msgstr "ໂໝດເສດຖະກິດ"
 
-#: libs/s25main/desktops/dskOptions.cpp:364
+#: libs/s25main/desktops/dskOptions.cpp:385
 msgid "Effects"
 msgstr "ເອັບເຟັກ"
 
@@ -1335,7 +1335,7 @@ msgstr "ເປີດໃຊ້ເສດຖະກິດເຫຼົ້າແວງ
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
 msgstr "ເປີດໃຊ້ສິ່ງເພີ່ມເຕີມເພື່ອດີບັກ asyncs. ຢ່າເປີດໃຊ້ ຖ້າທ່ານບໍ່ຮູ້ວ່າກຳລັງເຮັດຫຍັງຢູ່!"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:106
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:141
 #: libs/s25main/ingameWindows/iwVictory.cpp:47
 msgid "End game"
 msgstr "ຈົບເກມ"
@@ -1378,15 +1378,15 @@ msgstr "Erik"
 #: libs/s25main/desktops/dskCredits.cpp:276
 #: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:135
-#: libs/s25main/desktops/dskGameLobby.cpp:133
-#: libs/s25main/desktops/dskGameLobby.cpp:139
-#: libs/s25main/desktops/dskGameLobby.cpp:275
-#: libs/s25main/desktops/dskGameLobby.cpp:381
-#: libs/s25main/desktops/dskGameLobby.cpp:795
-#: libs/s25main/desktops/dskGameLobby.cpp:1089
-#: libs/s25main/desktops/dskGameLobby.cpp:1099
+#: libs/s25main/desktops/dskGameLobby.cpp:150
+#: libs/s25main/desktops/dskGameLobby.cpp:156
+#: libs/s25main/desktops/dskGameLobby.cpp:292
+#: libs/s25main/desktops/dskGameLobby.cpp:398
+#: libs/s25main/desktops/dskGameLobby.cpp:819
+#: libs/s25main/desktops/dskGameLobby.cpp:1115
+#: libs/s25main/desktops/dskGameLobby.cpp:1125
 #: libs/s25main/desktops/dskLobby.cpp:259
-#: libs/s25main/desktops/dskOptions.cpp:613
+#: libs/s25main/desktops/dskOptions.cpp:639
 #: libs/s25main/desktops/dskSelectMap.cpp:173
 #: libs/s25main/desktops/dskSelectMap.cpp:235
 #: libs/s25main/desktops/dskSelectMap.cpp:362
@@ -1396,25 +1396,25 @@ msgstr "Erik"
 #: libs/s25main/desktops/dskSinglePlayer.cpp:100
 #: libs/s25main/desktops/dskTextureTest.cpp:46
 #: libs/s25main/ingameWindows/iwConnecting.cpp:60
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:170
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:169
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:266
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:340
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:373
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:390
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:175
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:171
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:271
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:345
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:376
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:391
 #: libs/s25main/network/GameServer.cpp:1574
 msgid "Error"
 msgstr "ຂໍ້ຜິດພາດ"
 
-#: libs/s25main/network/GameClient.cpp:1541
+#: libs/s25main/network/GameClient.cpp:1551
 msgid "Error decompressing lua file"
 msgstr "ຂໍ້ຜິດພາດໃນການບີບອັດໄຟລ໌ lua"
 
-#: libs/s25main/network/GameClient.cpp:1532
+#: libs/s25main/network/GameClient.cpp:1542
 msgid "Error decompressing map file"
 msgstr "ຂໍ້ຜິດພາດໃນການບີບອັດໄຟລ໌ແຜນທີ່"
 
-#: libs/s25main/network/GameClient.cpp:1364
+#: libs/s25main/network/GameClient.cpp:1374
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
@@ -1422,11 +1422,11 @@ msgstr ""
 "ເກີດຂໍ້ຜິດພາດຂະນະປະມວນຜົນສະຄຣິບ lua: %1\n"
 "ເກມຢຸດແລ້ວ!"
 
-#: libs/s25main/network/GameClient.cpp:1713
+#: libs/s25main/network/GameClient.cpp:1723
 msgid "Error during saving: "
 msgstr "ຂໍ້ຜິດພາດຂະນະບັນທຶກ: "
 
-#: libs/s25main/network/GameClient.cpp:1558
+#: libs/s25main/network/GameClient.cpp:1568
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr "ຂໍ້ຜິດພາດເມື່ອໂຫຼດເກມຈາກຣີເພລ: %s\n"
@@ -1435,7 +1435,7 @@ msgstr "ຂໍ້ຜິດພາດເມື່ອໂຫຼດເກມຈາກ
 msgid "Error while playing replay!"
 msgstr "ເກີດຂໍ້ຜິດພາດຂະນະຫຼິ້ນຣີເພລ!"
 
-#: libs/s25main/WindowManager.cpp:795
+#: libs/s25main/WindowManager.cpp:534
 msgid "Error writing screenshot: %1%\n"
 msgstr "ເກີດຂໍ້ຜິດພາດໃນການຂຽນຮູບໜ້າຈໍ: %1%\n"
 
@@ -1484,7 +1484,7 @@ msgstr "ການສຳຫຼວດ"
 msgid "Exploration expedition"
 msgstr "ການສຳຫຼວດເພື່ອຄົ້ນພົບ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:216
+#: libs/s25main/desktops/dskGameLobby.cpp:233
 msgid "Exploration:"
 msgstr "ການສຳຫຼວດ:"
 
@@ -1575,7 +1575,7 @@ msgid "Farmer"
 msgstr "ຊາວກະສິກອນ"
 
 #: libs/s25main/addons/AddonShipSpeed.h:22
-#: libs/s25main/desktops/dskGameLobby.cpp:254
+#: libs/s25main/desktops/dskGameLobby.cpp:271
 msgid "Fast"
 msgstr "ໄວ"
 
@@ -1588,11 +1588,11 @@ msgstr "ໜ້ອຍ"
 msgid "Fewer"
 msgstr "ໜ້ອຍລົງ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:32
+#: libs/s25main/ingameWindows/iwMilitary.cpp:45
 msgid "Fewer defenders"
 msgstr "ຜູ້ປ້ອງກັນນ້ອຍລົງ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:28
+#: libs/s25main/ingameWindows/iwMilitary.cpp:39
 msgid "Fewer recruits"
 msgstr "ທະຫານໃໝ່ນ້ອຍລົງ"
 
@@ -1641,11 +1641,11 @@ msgstr "ເຮືອນຊາວປະມົງ"
 msgid "Flour"
 msgstr "ແປ້ງ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:222
+#: libs/s25main/desktops/dskGameLobby.cpp:239
 msgid "FoW - all explored"
 msgstr "FoW - ສຳຫຼວດທັງໝົດແລ້ວ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:221
+#: libs/s25main/desktops/dskGameLobby.cpp:238
 msgid "Fog of War"
 msgstr "ໝອກແຫ່ງສົງຄາມ"
 
@@ -1706,21 +1706,21 @@ msgstr "ໄລຍະຫ່າງຊາຍແດນກວດສອບການເ
 msgid "Full Control"
 msgstr "ການຄວບຄຸມເຕັມຮູບແບບ"
 
-#: libs/s25main/desktops/dskOptions.cpp:319
+#: libs/s25main/desktops/dskOptions.cpp:335
 #: libs/s25main/ingameWindows/iwSettings.cpp:66
 msgid "Fullscreen"
 msgstr "ເຕັມຈໍ"
 
-#: libs/s25main/desktops/dskOptions.cpp:312
+#: libs/s25main/desktops/dskOptions.cpp:327
 #: libs/s25main/ingameWindows/iwSettings.cpp:43
 msgid "Fullscreen resolution:"
 msgstr "ຄວາມລະອຽດເຕັມຈໍ:"
 
-#: libs/s25main/desktops/dskOptions.cpp:354
+#: libs/s25main/desktops/dskOptions.cpp:375
 msgid "GUI Scale:"
 msgstr "ຂະໜາດ GUI:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:181
+#: libs/s25main/desktops/dskGameLobby.cpp:198
 msgid "Game Chat"
 msgstr "ສົນທະນາໃນເກມ"
 
@@ -1728,7 +1728,7 @@ msgstr "ສົນທະນາໃນເກມ"
 msgid "Game Time"
 msgstr "ເວລາເກມ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:796
+#: libs/s25main/desktops/dskGameLobby.cpp:820
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
 msgstr "ເກມຈະເລີ່ມໄດ້ກໍຕໍ່ເມື່ອທຸກຄົນມີສີທີ່ບໍ່ຊໍ້າກັນ, ທຸກຄົນພ້ອມ ແລະ ຊ່ອງວ່າງທັງໝົດຖືກປິດແລ້ວ."
 
@@ -1736,15 +1736,15 @@ msgstr "ເກມຈະເລີ່ມໄດ້ກໍຕໍ່ເມື່ອທ
 msgid "Game crate was picked and spread out..."
 msgstr "ກ່ອງເກມຖືກຈັບ ແລະ ກະຈາຍອອກ..."
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:50
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:65
 msgid "Game menu"
 msgstr "ເມນູເກມ"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1198
+#: libs/s25main/desktops/dskGameInterface.cpp:1194
 msgid "Game was paused."
 msgstr "ເກມຖືກຢຸດຊົ່ວຄາວ."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1203
+#: libs/s25main/desktops/dskGameInterface.cpp:1199
 msgid "Game was resumed."
 msgstr "ເກມດຳເນີນຕໍ່."
 
@@ -1796,7 +1796,7 @@ msgstr "ແຜນທີ່ ຫຼື ຣີເພລທີ່ໃຫ້ມາ (%1
 msgid "Go to headquarters"
 msgstr "ໄປທີ່ສຳນັກງານໃຫຍ່"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:91
+#: libs/s25main/ingameWindows/iwBuilding.cpp:96
 msgid "Go to next building of same type"
 msgstr "ໄປທີ່ອາຄານປະເພດດຽວກັນຕໍ່ໄປ"
 
@@ -1809,7 +1809,7 @@ msgid "Go to next warehouse"
 msgstr "ໄປທີ່ສາງຕໍ່ໄປ"
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:76
-#: libs/s25main/ingameWindows/iwBuilding.cpp:78
+#: libs/s25main/ingameWindows/iwBuilding.cpp:83
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
@@ -1818,7 +1818,7 @@ msgstr "ໄປທີ່ສາງຕໍ່ໄປ"
 msgid "Go to place"
 msgstr "ໄປທີ່ສະຖານທີ່"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:232
+#: libs/s25main/desktops/dskGameLobby.cpp:249
 msgid "Goals:"
 msgstr "ເປົ້າໝາຍ:"
 
@@ -1841,7 +1841,7 @@ msgstr "ບໍ່ແຮ່ຄຳ"
 msgid "Gold:"
 msgstr "ຄຳ:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:224
+#: libs/s25main/desktops/dskGameLobby.cpp:241
 msgid "Goods at start:"
 msgstr "ສິນຄ້າຕອນເລີ່ມ:"
 
@@ -1869,11 +1869,11 @@ msgstr "ຫີນອ່ອນ:"
 msgid "Grapes"
 msgstr "ໝາກອະງຸ່ນ"
 
-#: libs/s25main/desktops/dskOptions.cpp:149
+#: libs/s25main/desktops/dskOptions.cpp:158
 msgid "Graphics"
 msgstr "ກາຟິກ"
 
-#: libs/s25main/desktops/dskOptions.cpp:333
+#: libs/s25main/desktops/dskOptions.cpp:352
 msgid "Graphics Driver"
 msgstr "ໄດເວີກາຟິກ"
 
@@ -1911,13 +1911,13 @@ msgstr "ອາຄານທ່າເຮືອ"
 msgid "Headquarters"
 msgstr "ສູນບັນຊາການ"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:56
+#: libs/s25main/ingameWindows/iwBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:30
 #: libs/s25main/ingameWindows/iwBuildings.cpp:95
 #: libs/s25main/ingameWindows/iwDistribution.cpp:63
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:101
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
-#: libs/s25main/ingameWindows/iwMilitary.cpp:45
+#: libs/s25main/ingameWindows/iwMilitary.cpp:73
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
 #: libs/s25main/ingameWindows/iwStatistics.cpp:158
 #: libs/s25main/ingameWindows/iwTools.cpp:63
@@ -1966,17 +1966,17 @@ msgstr "ໄອດີ"
 msgid "IP Address of Host:"
 msgstr "ທີ່ຢູ່ IP ຂອງໂຮສ:"
 
-#: libs/s25main/desktops/dskOptions.cpp:234
+#: libs/s25main/desktops/dskOptions.cpp:237
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:59
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:41
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:73
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:83
 msgid "IPv4"
 msgstr "IPv4"
 
-#: libs/s25main/desktops/dskOptions.cpp:233
+#: libs/s25main/desktops/dskOptions.cpp:236
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:60
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:42
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:74
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:84
 msgid "IPv6"
 msgstr "IPv6"
 
@@ -2025,7 +2025,7 @@ msgstr "ບໍ່ມີວັນໝົດ ແລະ ມີນ້ຳຢູ່ທ�
 msgid "Inhabitants"
 msgstr "ປະຊາກອນ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:36
+#: libs/s25main/ingameWindows/iwMilitary.cpp:55
 msgid "Interior"
 msgstr "ພາຍໃນ"
 
@@ -2050,7 +2050,7 @@ msgid "Invalid API version!"
 msgstr "ເວີຊັນ API ບໍ່ຖືກຕ້ອງ!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1481
+#: libs/s25main/network/GameClient.cpp:1491
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr "ຣີເພລບໍ່ຖືກຕ້ອງ %1%! ເຫດຜົນ: %2%\n"
 
@@ -2082,7 +2082,7 @@ msgstr "ID ບໍ່ຖືກຕ້ອງສຳລັບຂໍ້ມູນ lua"
 msgid "Invalid maximum human player count: %1%"
 msgstr "ຈຳນວນຜູ້ຫຼິ້ນສູງສຸດບໍ່ຖືກຕ້ອງ: %1%"
 
-#: libs/s25main/desktops/dskOptions.cpp:614
+#: libs/s25main/desktops/dskOptions.cpp:640
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:138
 msgid "Invalid port. The valid port-range is 1 to 65535!"
@@ -2092,7 +2092,7 @@ msgstr "ພອດບໍ່ຖືກຕ້ອງ. ຊ່ວງພອດທີ່�
 msgid "Invert Mouse Pan"
 msgstr "ປີ້ນການເລື່ອນເມົາສ໌"
 
-#: libs/s25main/desktops/dskOptions.cpp:274
+#: libs/s25main/desktops/dskOptions.cpp:279
 msgid "Invert Mouse Pan:"
 msgstr "ປີ້ນການເລື່ອນເມົາສ໌:"
 
@@ -2146,7 +2146,7 @@ msgstr "ເຂົ້າຮ່ວມເກມ"
 msgid "Julius"
 msgstr "Julius"
 
-#: libs/s25main/network/GameClient.cpp:1666
+#: libs/s25main/network/GameClient.cpp:1676
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr "ການກະໂດດສຳເລັດ (%1$.3g ວິນາທີ)."
@@ -2159,11 +2159,11 @@ msgstr "ກະໂດດໄປທີ່ X:Y"
 msgid "Keep setting"
 msgstr "ຮັກສາການຕັ້ງຄ່າ"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:779
-#: libs/s25main/desktops/dskOptions.cpp:219
-#: libs/s25main/desktops/dskOptions.cpp:689
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:68
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
+#: libs/s25main/desktops/dskGameInterface.cpp:791
+#: libs/s25main/desktops/dskOptions.cpp:221
+#: libs/s25main/desktops/dskOptions.cpp:715
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:91
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:153
 msgid "Keyboard layout"
 msgstr "ຮູບແບບແປ້ນພິມ"
 
@@ -2179,7 +2179,7 @@ msgstr "ແຜ່ນດິນ"
 msgid "Landscape"
 msgstr "ພູມສັນຖານ"
 
-#: libs/s25main/desktops/dskOptions.cpp:199
+#: libs/s25main/desktops/dskOptions.cpp:201
 msgid "Language:"
 msgstr "ພາສາ:"
 
@@ -2193,7 +2193,7 @@ msgid "Less"
 msgstr "ໜ້ອຍລົງ"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:359
-#: libs/s25main/ingameWindows/iwMilitary.cpp:34
+#: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "Less attackers"
 msgstr "ຜູ້ໂຈມຕີນ້ອຍລົງ"
 
@@ -2201,11 +2201,11 @@ msgstr "ຜູ້ໂຈມຕີນ້ອຍລົງ"
 msgid "Less often"
 msgstr "ບໍ່ຄ່ອຍ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:111
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:112
 msgid "Less repeats"
 msgstr "ຫຼິ້ນຊ້ຳໜ້ອຍລົງ"
 
-#: libs/s25main/desktops/dskOptions.cpp:323
+#: libs/s25main/desktops/dskOptions.cpp:340
 msgid "Limit Framerate:"
 msgstr "ຈຳກັດອັດຕາເຟຣມ:"
 
@@ -2257,7 +2257,7 @@ msgstr ""
 "ຫໍສັງເກດການ: 2\n"
 "ປ້ອມປາການ: 1"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:71
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
 msgid "Load 'ReadMe' file"
 msgstr "ໂຫຼດໄຟລ໌ 'ReadMe'"
 
@@ -2307,15 +2307,15 @@ msgstr "ກຳລັງໂຫຼດເກມ...\n"
 msgid "Loading of images %s for map selection failed."
 msgstr "ການໂຫຼດຮູບພາບ %s ສຳລັບການເລືອກແຜນທີ່ລົ້ມເຫຼວ."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:183
+#: libs/s25main/desktops/dskGameLobby.cpp:200
 msgid "Lobby Chat"
 msgstr "ສົນທະນາໃນລັອບບີ້"
 
-#: libs/s25main/desktops/dskOptions.cpp:222
+#: libs/s25main/desktops/dskOptions.cpp:225
 msgid "Local Port:"
 msgstr "ພອດທ້ອງຖິ່ນ:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:201
+#: libs/s25main/desktops/dskGameLobby.cpp:218
 msgid "Lock teams:"
 msgstr "ລັອກທີມ:"
 
@@ -2343,7 +2343,7 @@ msgstr "ຫໍຄອຍ"
 msgid "Lookout-tower occupied"
 msgstr "ຫໍສັງເກດການຖືກຍຶດຄອງ"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1217
+#: libs/s25main/desktops/dskGameInterface.cpp:1213
 #: libs/s25main/desktops/dskLobby.cpp:259
 msgid "Lost connection to lobby!"
 msgstr "ຂາດການເຊື່ອມຕໍ່ກັບລັອບບີ້!"
@@ -2356,7 +2356,7 @@ msgstr "ຂາດການເຊື່ອມຕໍ່ກັບເຊີບເວ
 msgid "Lost land by this building"
 msgstr "ສູນເສຍດິນແດນຍ້ອນອາຄານນີ້"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:228
+#: libs/s25main/desktops/dskGameLobby.cpp:245
 msgid "Low"
 msgstr "ຕໍ່າ"
 
@@ -2378,20 +2378,20 @@ msgstr "Lua script ບໍ່ໄດ້ໃຫ້ຟັງຊັນ getRequiredLuaV
 msgid "Lua script failed to load."
 msgstr "ໂຫຼດສະຄຣິບ Lua ລົ້ມເຫຼວ."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:139
+#: libs/s25main/desktops/dskGameLobby.cpp:156
 msgid "Lua script uses a different version and cannot be used. Map might not work as expected!"
 msgstr "Lua script ໃຊ້ເວີຊັນທີ່ແຕກຕ່າງ ແລະ ບໍ່ສາມາດນຳໃຊ້ໄດ້. ແຜນທີ່ອາດຈະບໍ່ເຮັດວຽກຕາມທີ່ຄາດໄວ້!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:133
-#: libs/s25main/desktops/dskGameLobby.cpp:381
+#: libs/s25main/desktops/dskGameLobby.cpp:150
+#: libs/s25main/desktops/dskGameLobby.cpp:398
 msgid "Lua script was found but failed to load. Map might not work as expected!"
 msgstr "ພົບ Lua script ແຕ່ບໍ່ສາມາດໂຫຼດໄດ້. ແຜນທີ່ອາດຈະບໍ່ເຮັດວຽກຕາມທີ່ຄາດໄວ້!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:146
+#: libs/s25main/desktops/dskGameLobby.cpp:163
 msgid "Lua was disabled by the script itself\n"
 msgstr "Lua ຖືກປິດໂດຍ script ເອງ\n"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:123
+#: libs/s25main/desktops/dskGameInterface.cpp:139
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:34
 msgid "Main selection"
 msgstr "ເມນູຫຼັກ"
@@ -2408,7 +2408,7 @@ msgstr "ອັບເກຣດຖະໜົນຂອງທ່ານດ້ວຍຕ
 msgid "Many"
 msgstr "ຫຼາຍ"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:120
+#: libs/s25main/desktops/dskGameInterface.cpp:136
 #: libs/s25main/desktops/dskLAN.cpp:47 libs/s25main/desktops/dskLobby.cpp:54
 #: libs/s25main/ingameWindows/iwSave.cpp:52
 msgid "Map"
@@ -2442,11 +2442,11 @@ msgstr "ແຜນທີ່ໃຫຍ່ກວ່າຂະໜາດທີ່ອະ
 msgid "Map is invalid or failed to load properly!"
 msgstr "ແຜນທີ່ບໍ່ຖືກຕ້ອງ ຫຼື ໂຫຼດບໍ່ສຳເລັດ!"
 
-#: libs/s25main/desktops/dskOptions.cpp:277
+#: libs/s25main/desktops/dskOptions.cpp:282
 msgid "Map moves in the opposite direction the mouse is moved when scrolling/panning."
 msgstr "ແຜນທີ່ຈະເຄື່ອນທີ່ໄປໃນທິດທາງກົງກັນຂ້າມກັບເມົາສ໌ເມື່ອເລື່ອນ/ແພນ."
 
-#: libs/s25main/desktops/dskOptions.cpp:279
+#: libs/s25main/desktops/dskOptions.cpp:284
 msgid "Map moves in the same direction the mouse is moved when scrolling/panning."
 msgstr "ແຜນທີ່ຈະເຄື່ອນທີ່ໄປໃນທິດທາງດຽວກັນກັບເມົາສ໌ເມື່ອເລື່ອນ/ແພນ."
 
@@ -2458,8 +2458,8 @@ msgstr "ການສົ່ງແຜນທີ່ເສຍຫາຍ!"
 msgid "Map was loaded and pinned at the wall..."
 msgstr "ແຜນທີ່ຖືກໂຫຼດ ແລະ ຕິດໃສ່ຝາແລ້ວ..."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:265
-#: libs/s25main/desktops/dskGameLobby.cpp:284
+#: libs/s25main/desktops/dskGameLobby.cpp:282
+#: libs/s25main/desktops/dskGameLobby.cpp:301
 #: libs/s25main/desktops/dskSelectMap.cpp:127
 msgid "Map: "
 msgstr "ແຜນທີ່: "
@@ -2529,7 +2529,7 @@ msgstr "ໂຮງງານໂລຫະ"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:61
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:63
-#: libs/s25main/ingameWindows/iwMilitary.cpp:20
+#: libs/s25main/ingameWindows/iwMilitary.cpp:29
 msgid "Military"
 msgstr "ທະຫານ"
 
@@ -2618,7 +2618,7 @@ msgstr "ປະສົມ"
 msgid "Mnga Tscha"
 msgstr "Mnga Tscha"
 
-#: libs/s25main/desktops/dskOptions.cpp:317
+#: libs/s25main/desktops/dskOptions.cpp:333
 #: libs/s25main/ingameWindows/iwSettings.cpp:63
 msgid "Mode:"
 msgstr "ໂໝດ:"
@@ -2635,11 +2635,11 @@ msgid "More"
 msgstr "ຫຼາຍຂຶ້ນ"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:361
-#: libs/s25main/ingameWindows/iwMilitary.cpp:34
+#: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "More attackers"
 msgstr "ຜູ້ໂຈມຕີຫຼາຍຂຶ້ນ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:32
+#: libs/s25main/ingameWindows/iwMilitary.cpp:45
 msgid "More defenders"
 msgstr "ຜູ້ປ້ອງກັນຫຼາຍຂຶ້ນ"
 
@@ -2647,11 +2647,11 @@ msgstr "ຜູ້ປ້ອງກັນຫຼາຍຂຶ້ນ"
 msgid "More often"
 msgstr "ເລື້ອຍໆ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:28
+#: libs/s25main/ingameWindows/iwMilitary.cpp:39
 msgid "More recruits"
 msgstr "ທະຫານໃໝ່ຫຼາຍຂຶ້ນ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:113
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:114
 msgid "More repeats"
 msgstr "ຫຼິ້ນຊ້ຳຫຼາຍຂຶ້ນ"
 
@@ -2663,13 +2663,13 @@ msgstr "ຕົ້ນໄມ້ສ້າງສັດຫຼາຍຂຶ້ນ"
 msgid "Multiplayer"
 msgstr "ຫຼິ້ນຫຼາຍຄົນ"
 
-#: libs/s25main/desktops/dskOptions.cpp:380
+#: libs/s25main/desktops/dskOptions.cpp:403
 msgid "Music"
 msgstr "ດົນຕີ"
 
-#: libs/s25main/desktops/dskOptions.cpp:390
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:81
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:102
+#: libs/s25main/desktops/dskOptions.cpp:414
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:82
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:131
 msgid "Music player"
 msgstr "ເຄື່ອງຫຼິ້ນເພງ"
 
@@ -2682,7 +2682,7 @@ msgstr "Nabonidus"
 msgid "Name"
 msgstr "ຊື່"
 
-#: libs/s25main/desktops/dskOptions.cpp:174
+#: libs/s25main/desktops/dskOptions.cpp:178
 msgid "Name in Game:"
 msgstr "ຊື່ໃນເກມ:"
 
@@ -2690,7 +2690,7 @@ msgstr "ຊື່ໃນເກມ:"
 msgid "Nation-specific catapult graphics"
 msgstr "ພາບກາຟິກເຄື່ອງຍິງຫີນສະເພາະຊາດ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:40
+#: libs/s25main/ingameWindows/iwMilitary.cpp:61
 msgid "Near harbor points"
 msgstr "ໃກ້ຈຸດທ່າເຮືອ"
 
@@ -2719,13 +2719,13 @@ msgid "Next page"
 msgstr "ໜ້າຕໍ່ໄປ"
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:25
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:66
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:74
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:78
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:84
 msgid "No"
 msgstr "ບໍ່"
 
-#: libs/s25main/desktops/dskOptions.cpp:261
+#: libs/s25main/desktops/dskOptions.cpp:265
 msgid "No Proxy"
 msgstr "ບໍ່ມີພຣັອກຊີ"
 
@@ -2755,7 +2755,7 @@ msgstr "ບໍ່ມີປາໃນໄລຍະ"
 msgid "No more stones in range"
 msgstr "ບໍ່ມີຫີນໃນໄລຍະ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:263
+#: libs/s25main/desktops/dskGameLobby.cpp:280
 msgid "No preview"
 msgstr "ບໍ່ມີຕົວຢ່າງ"
 
@@ -2785,19 +2785,19 @@ msgid "Non-aggression pact"
 msgstr "ສົນທິສັນຍາບໍ່ຮຸກຮານ"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:20
-#: libs/s25main/desktops/dskGameLobby.cpp:235
+#: libs/s25main/desktops/dskGameLobby.cpp:252
 msgid "None"
 msgstr "ບໍ່ມີ"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:25
 #: libs/s25main/addons/AddonShipSpeed.h:21
-#: libs/s25main/desktops/dskGameLobby.cpp:229
-#: libs/s25main/desktops/dskGameLobby.cpp:253
+#: libs/s25main/desktops/dskGameLobby.cpp:246
+#: libs/s25main/desktops/dskGameLobby.cpp:270
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:80
 msgid "Normal"
 msgstr "ປົກກະຕິ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:955
+#: libs/s25main/desktops/dskGameLobby.cpp:979
 msgid "Not Ready"
 msgstr "ບໍ່ພ້ອມ"
 
@@ -2805,7 +2805,7 @@ msgstr "ບໍ່ພ້ອມ"
 msgid "Not a RTTR driver library!"
 msgstr "ບໍ່ແມ່ນ library ໄດເວີຂອງ RTTR!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1168
+#: libs/s25main/desktops/dskGameInterface.cpp:1164
 #, c-format
 msgid "Note: Game settings changed by the server%s"
 msgstr "ໝາຍເຫດ: ການຕັ້ງຄ່າເກມຖືກປ່ຽນໂດຍເຊີບເວີ%s"
@@ -2838,7 +2838,7 @@ msgstr "ຈຳນວນທະຫານສອດແນມທີ່ຕ້ອງກ
 
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:66
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:71
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:63
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:64
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:26
 msgid "OK"
 msgstr "ຕົກລົງ"
@@ -2858,19 +2858,20 @@ msgstr "Octavianus"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
-#: libs/s25main/desktops/dskOptions.cpp:253
-#: libs/s25main/desktops/dskOptions.cpp:278
-#: libs/s25main/desktops/dskOptions.cpp:288
-#: libs/s25main/desktops/dskOptions.cpp:307
-#: libs/s25main/desktops/dskOptions.cpp:330
-#: libs/s25main/desktops/dskOptions.cpp:351
-#: libs/s25main/desktops/dskOptions.cpp:367
-#: libs/s25main/desktops/dskOptions.cpp:377
-#: libs/s25main/desktops/dskOptions.cpp:383
+#: libs/s25main/desktops/dskOptions.cpp:257
+#: libs/s25main/desktops/dskOptions.cpp:283
+#: libs/s25main/desktops/dskOptions.cpp:293
+#: libs/s25main/desktops/dskOptions.cpp:303
+#: libs/s25main/desktops/dskOptions.cpp:322
+#: libs/s25main/desktops/dskOptions.cpp:348
+#: libs/s25main/desktops/dskOptions.cpp:371
+#: libs/s25main/desktops/dskOptions.cpp:388
+#: libs/s25main/desktops/dskOptions.cpp:399
+#: libs/s25main/desktops/dskOptions.cpp:406
 msgid "Off"
 msgstr "ປິດ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:219
+#: libs/s25main/desktops/dskGameLobby.cpp:236
 msgid "Off (all visible)"
 msgstr "ປິດ (ເຫັນທັງໝົດ)"
 
@@ -2882,7 +2883,7 @@ msgstr "ນາຍທະຫານ"
 msgid "Officer (3)"
 msgstr "ນາຍທະຫານ (3)"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:336
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:341
 msgid "Ok"
 msgstr "ຕົກລົງ"
 
@@ -2894,37 +2895,38 @@ msgstr "ແຜນທີ່ເກົ່າ"
 msgid "Olof"
 msgstr "Olof"
 
-#: libs/s25main/desktops/dskOptions.cpp:252
-#: libs/s25main/desktops/dskOptions.cpp:276
-#: libs/s25main/desktops/dskOptions.cpp:285
-#: libs/s25main/desktops/dskOptions.cpp:295
-#: libs/s25main/desktops/dskOptions.cpp:306
-#: libs/s25main/desktops/dskOptions.cpp:329
-#: libs/s25main/desktops/dskOptions.cpp:350
-#: libs/s25main/desktops/dskOptions.cpp:366
-#: libs/s25main/desktops/dskOptions.cpp:376
-#: libs/s25main/desktops/dskOptions.cpp:382
+#: libs/s25main/desktops/dskOptions.cpp:256
+#: libs/s25main/desktops/dskOptions.cpp:281
+#: libs/s25main/desktops/dskOptions.cpp:290
+#: libs/s25main/desktops/dskOptions.cpp:300
+#: libs/s25main/desktops/dskOptions.cpp:310
+#: libs/s25main/desktops/dskOptions.cpp:321
+#: libs/s25main/desktops/dskOptions.cpp:347
+#: libs/s25main/desktops/dskOptions.cpp:370
+#: libs/s25main/desktops/dskOptions.cpp:387
+#: libs/s25main/desktops/dskOptions.cpp:398
+#: libs/s25main/desktops/dskOptions.cpp:405
 msgid "On"
 msgstr "ເປີດ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:406
+#: libs/s25main/desktops/dskGameLobby.cpp:423
 msgid "Open"
 msgstr "ເປີດ"
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:374
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:373
 msgid "OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or hardware!"
 msgstr "ບໍ່ຮອງຮັບ OpenGL %1% %2%.%3%. ລອງອັບເດດໄດເວີ GPU ຫຼື ຮາດແວຂອງທ່ານ!"
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:371
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:370
 msgid "OpenGL %1%.%2% supported\n"
 msgstr "ຮອງຮັບ OpenGL %1%.%2%\n"
 
-#: libs/s25main/desktops/dskOptions.cpp:347
+#: libs/s25main/desktops/dskOptions.cpp:367
 msgid "Optimized Textures:"
 msgstr "ເທັກສເຈີທີ່ປັບໃຫ້ເໝາະສົມ:"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:43
-#: libs/s25main/desktops/dskOptions.cpp:141
+#: libs/s25main/desktops/dskOptions.cpp:150
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:99
 msgid "Options"
 msgstr "ຕົວເລືອກ"
@@ -2946,6 +2948,10 @@ msgstr "ສູນບັນຊາການຂອງພວກເຮົາຖືກ
 msgid "Outline map"
 msgstr "ແຜນທີ່ໂຄງຮ່າງ"
 
+#: libs/s25main/ingameWindows/iwTempleBuilding.cpp:20
+msgid "Output mineral"
+msgstr ""
+
 #: libs/s25main/desktops/dskSelectMap.cpp:106
 msgid "Own maps"
 msgstr "ແຜນທີ່ຂອງຂ້ອຍ"
@@ -2963,11 +2969,11 @@ msgid "Password (if needed):"
 msgstr "ລະຫັດຜ່ານ (ຖ້າຕ້ອງການ):"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:34
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:57
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:65
 msgid "Password:"
 msgstr "ລະຫັດຜ່ານ:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:172
+#: libs/s25main/desktops/dskGameLobby.cpp:189
 msgid "Past player"
 msgstr "ຜູ້ຫຼິ້ນກ່ອນໜ້າ"
 
@@ -2975,7 +2981,7 @@ msgstr "ຜູ້ຫຼິ້ນກ່ອນໜ້າ"
 msgid "Peaceful"
 msgstr "ສັນຕິ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1139
+#: libs/s25main/desktops/dskGameLobby.cpp:1165
 msgid "Peaceful mode"
 msgstr "ໂໝດສັນຕິ"
 
@@ -2991,13 +2997,13 @@ msgstr "ຄົນລ້ຽງໝູ"
 msgid "Pig farm"
 msgstr "ຟາມໝູ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:167
+#: libs/s25main/desktops/dskGameLobby.cpp:184
 #: libs/s25main/desktops/dskLobby.cpp:57
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:50
 msgid "Ping"
 msgstr "Ping"
 
-#: libs/s25main/desktops/dskOptions.cpp:286
+#: libs/s25main/desktops/dskOptions.cpp:291
 #: libs/s25main/ingameWindows/iwSettings.cpp:78
 msgid "Place cursor on default button for new dialogs / action windows (default)"
 msgstr "ວາງເຄີເຊີໃສ່ປຸ່ມເລີ່ມຕົ້ນສຳລັບກ່ອງໂຕ້ຕອບ / ໜ້າຕ່າງການກະທຳໃໝ່ (ຄ່າເລີ່ມຕົ້ນ)"
@@ -3011,8 +3017,8 @@ msgstr "ຄົນວາງແຜນ"
 msgid "Play Replay"
 msgstr "ຫຼິ້ນຣີເພລ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:115
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:428
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:116
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:429
 msgid "Playback in this order"
 msgstr "ຫຼິ້ນຕາມລຳດັບນີ້"
 
@@ -3036,31 +3042,31 @@ msgstr "ຜູ້ຫຼິ້ນ %1%"
 msgid "Player %u does not have a valid start position!"
 msgstr "ຜູ້ຫຼິ້ນ %u ບໍ່ມີຕຳແໜ່ງເລີ່ມຕົ້ນທີ່ຖືກຕ້ອງ!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1359
+#: libs/s25main/desktops/dskGameInterface.cpp:1355
 #, c-format
 msgid "Player '%s' is the winner!"
 msgstr "ຜູ້ຫຼິ້ນ '%s' ເປັນຜູ້ຊະນະ!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1161
+#: libs/s25main/desktops/dskGameInterface.cpp:1157
 #, c-format
 msgid "Player '%s' joined the game!"
 msgstr "ຜູ້ຫຼິ້ນ '%s' ເຂົ້າຮ່ວມເກມ!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1158
+#: libs/s25main/desktops/dskGameInterface.cpp:1154
 #, c-format
 msgid "Player '%s' left the game!"
 msgstr "ຜູ້ຫຼິ້ນ '%s' ອອກຈາກເກມ!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1253
+#: libs/s25main/desktops/dskGameInterface.cpp:1249
 #, c-format
 msgid "Player '%s' was defeated!"
 msgstr "ຜູ້ຫຼິ້ນ '%s' ຖືກເອົາຊະນະ!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:159
+#: libs/s25main/desktops/dskGameLobby.cpp:176
 msgid "Player Name"
 msgstr "ຊື່ຜູ້ຫຼິ້ນ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:86
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:87
 msgid "Playlist:"
 msgstr "ລາຍການເພງ:"
 
@@ -3074,11 +3080,11 @@ msgstr "ກະລຸນາໃສ່ຊື່ສຳລັບເກມ"
 msgid "Please wait..."
 msgstr "ກະລຸນາລໍຖ້າ..."
 
-#: libs/s25main/desktops/dskOptions.cpp:184
+#: libs/s25main/desktops/dskOptions.cpp:189
 msgid "Portrait:"
 msgstr "ຮູບໂປຣໄຟລ໌:"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:130
+#: libs/s25main/desktops/dskGameInterface.cpp:146
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
 msgid "Post office"
 msgstr "ທີ່ທຳການໄປສະນີ"
@@ -3107,7 +3113,7 @@ msgstr "ບໍ່ຜະລິດຫຍັງ"
 msgid "Produce random ware"
 msgstr "ຜະລິດສິນຄ້າແບບສຸ່ມ"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:63
+#: libs/s25main/ingameWindows/iwBuilding.cpp:68
 msgid "Production on/off"
 msgstr "ເປີດ/ປິດການຜະລິດ"
 
@@ -3140,11 +3146,11 @@ msgstr "ການຈັດການໂຄງການ"
 msgid "Proportional"
 msgstr "ຕາມສັດສ່ວນ"
 
-#: libs/s25main/desktops/dskOptions.cpp:241
+#: libs/s25main/desktops/dskOptions.cpp:245
 msgid "Proxyserver:"
 msgstr "ເຊີບເວີພຣັອກຊີ:"
 
-#: libs/s25main/desktops/dskOptions.cpp:258
+#: libs/s25main/desktops/dskOptions.cpp:262
 msgid "Proxytyp:"
 msgstr "ປະເພດພຣັອກຊີ:"
 
@@ -3175,7 +3181,7 @@ msgstr "ອອກຈາກໂປຣແກຣມ"
 msgid "RTTR"
 msgstr "RTTR"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:160
+#: libs/s25main/desktops/dskGameLobby.cpp:177
 msgid "Race"
 msgstr "ຊົນເຜົ່າ"
 
@@ -3183,11 +3189,11 @@ msgstr "ຊົນເຜົ່າ"
 msgid "Random Map"
 msgstr "ແຜນທີ່ສຸ່ມ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:428
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:429
 msgid "Random playback"
 msgstr "ຫຼິ້ນແບບສຸ່ມ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:206
+#: libs/s25main/desktops/dskGameLobby.cpp:223
 msgid "Random start locations"
 msgstr "ຕຳແໜ່ງເລີ່ມແບບສຸ່ມ"
 
@@ -3199,19 +3205,19 @@ msgstr "ແຮ່ເຫຼັກດິບຈະຖືກຫຼອມໃນໂຮ
 msgid "Readme"
 msgstr "ອ່ານຂ້ອຍ"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:782
+#: libs/s25main/desktops/dskGameInterface.cpp:794
 #: libs/s25main/desktops/dskMainMenu.cpp:118
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:120
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:155
 msgid "Readme!"
 msgstr "ອ່ານຂ້ອຍ!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:197
-#: libs/s25main/desktops/dskGameLobby.cpp:717
-#: libs/s25main/desktops/dskGameLobby.cpp:955
+#: libs/s25main/desktops/dskGameLobby.cpp:214
+#: libs/s25main/desktops/dskGameLobby.cpp:741
+#: libs/s25main/desktops/dskGameLobby.cpp:979
 msgid "Ready"
 msgstr "ພ້ອມ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:166
+#: libs/s25main/desktops/dskGameLobby.cpp:183
 msgid "Ready?"
 msgstr "ພ້ອມບໍ່?"
 
@@ -3255,11 +3261,11 @@ msgstr "ຄືນວັດສະດຸສຳລັບອາຄານທີ່ຖ
 msgid "Refund materials in emergency program"
 msgstr "ຄືນວັດສະດຸໃນໂປຣແກຣມສຸກເສີນ"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:81
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:93
 msgid "Register"
 msgstr "ລົງທະບຽນ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:95
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:96
 msgid "Remove"
 msgstr "ລົບ"
 
@@ -3267,7 +3273,7 @@ msgstr "ລົບ"
 msgid "Remove gold completely"
 msgstr "ລຶບຄຳອອກທັງໝົດ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:103
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:104
 msgid "Remove track"
 msgstr "ລົບເພງ"
 
@@ -3275,7 +3281,13 @@ msgstr "ລົບເພງ"
 msgid "Removes all replays that cannot be loaded with the current game version"
 msgstr "ລົບຣີເພລທັງໝົດທີ່ບໍ່ສາມາດໂຫຼດໄດ້ດ້ວຍເວີຊັນເກມປັດຈຸບັນ"
 
-#: libs/s25main/network/GameClient.cpp:1468
+#: libs/s25main/desktops/dskOptions.cpp:301
+msgid ""
+"Replace minimize button on windows by pin button avoiding closing the window with ESC.\n"
+"Minimize by double-clicking the title bar."
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1478
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ຣີເພລໄດ້. ຈະບໍ່ມີການບັນທຶກຣີເພລ\n"
 
@@ -3303,7 +3315,7 @@ msgstr "ພື້ນທີ່ຈຳກັດ"
 msgid "Resume last game"
 msgstr "ຫຼິ້ນເກມຫຼ້າສຸດຕໍ່"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:199
+#: libs/s25main/desktops/dskGameLobby.cpp:216
 msgid "Return"
 msgstr "ກັບຄືນ"
 
@@ -3363,21 +3375,21 @@ msgstr "SERVER: ການຮັບຂໍ້ຄວາມສຳລັບຜູ້�
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
 msgstr "SERVER: ສະລັອດທີ່ຈອງໄວ້ %1% ຖືກປ່ອຍ ເນື່ອງຈາກໝົດເວລາ\n"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1198
-#: libs/s25main/desktops/dskGameInterface.cpp:1203
+#: libs/s25main/desktops/dskGameInterface.cpp:1194
+#: libs/s25main/desktops/dskGameInterface.cpp:1199
 msgid "SYSTEM"
 msgstr "ລະບົບ"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:62
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:72
 msgid "Save Password?"
 msgstr "ບັນທຶກລະຫັດຜ່ານບໍ?"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:81
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:106
 #: libs/s25main/ingameWindows/iwSave.cpp:129
 msgid "Save game!"
 msgstr "ບັນທຶກເກມ!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:117
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:118
 msgid "Save playlist"
 msgstr "ບັນທຶກລາຍການເພງ"
 
@@ -3385,7 +3397,7 @@ msgstr "ບັນທຶກລາຍການເພງ"
 msgid "Savegame error: "
 msgstr "ຂໍ້ຜິດພາດໃນການບັນທຶກເກມ: "
 
-#: libs/s25main/network/GameClient.cpp:1685
+#: libs/s25main/network/GameClient.cpp:1695
 msgid "Saving game..."
 msgstr "ກຳລັງບັນທຶກເກມ..."
 
@@ -3401,7 +3413,7 @@ msgstr "ໂຮງເລື່ອຍ"
 msgid "Scout"
 msgstr "ໜ່ວຍສອດແນມ"
 
-#: libs/s25main/WindowManager.cpp:792
+#: libs/s25main/WindowManager.cpp:531
 msgid "Screenshot saved to %1%\n"
 msgstr "ບັນທຶກຮູບໜ້າຈໍໄປທີ່ %1%\n"
 
@@ -3524,7 +3536,7 @@ msgstr "ຜູ້ຕັ້ງຖິ່ນຖານ"
 msgid "Shaka"
 msgstr "Shaka"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:203
+#: libs/s25main/desktops/dskGameLobby.cpp:220
 msgid "Shared team view"
 msgstr "ມຸມມອງທີມຮ່ວມກັນ"
 
@@ -3540,6 +3552,11 @@ msgstr "ທະບຽນເຮືອ"
 #: libs/s25main/gameData/BuildingConsts.cpp:300
 msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also be prepared here. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "ເຮືອສາມາດໂຫຼດ ແລະ ຖ່າຍສິນຄ້າໄດ້ພຽງແຕ່ໃນທ່າເຮືອ. ການສຳຫຼວດກໍສາມາດກະກຽມໄດ້ທີ່ນີ້ເຊັ່ນກັນ. ທ່ານສາມາດປ່ອຍສິນຄ້າບາງຢ່າງອອກຈາກສາງເກັບເຄື່ອງໄດ້ຕາມທີ່ຕ້ອງການ. ອີກທາງເລືອກໜຶ່ງ, ໜ້າທີ່ການເກັບຮັກສາສາມາດຖືກປິດໃຊ້ງານໄດ້. ເພື່ອເຮັດສິ່ງນີ້, ກ່ອນອື່ນໃຫ້ເລືອກໄອຄອນທີ່ກ່ຽວຂ້ອງ ຕາມດ້ວຍສິນຄ້າທີ່ຕ້ອງການ ຫຼື ສັນຍາລັກວຽກ."
+
+#: libs/s25main/ingameWindows/iwBuilding.cpp:78
+#, fuzzy
+msgid "Ships/Boats"
+msgstr "ເຮືອ"
 
 #: libs/s25main/gameData/JobConsts.cpp:48
 msgid "Shipwright"
@@ -3561,7 +3578,7 @@ msgstr "ໄລຍະສັ້ນ"
 msgid "Shovel"
 msgstr "ຊ້ວນ"
 
-#: libs/s25main/desktops/dskOptions.cpp:304
+#: libs/s25main/desktops/dskOptions.cpp:319
 msgid "Show GameFrame Info:"
 msgstr "ສະແດງຂໍ້ມູນ GameFrame:"
 
@@ -3606,11 +3623,11 @@ msgid "Slaughterhouse"
 msgstr "ໂຮງຂ້າສັດ"
 
 #: libs/s25main/addons/AddonShipSpeed.h:20
-#: libs/s25main/desktops/dskGameLobby.cpp:252
+#: libs/s25main/desktops/dskGameLobby.cpp:269
 msgid "Slow"
 msgstr "ຊ້າ"
 
-#: libs/s25main/desktops/dskOptions.cpp:283
+#: libs/s25main/desktops/dskOptions.cpp:288
 #: libs/s25main/ingameWindows/iwSettings.cpp:76
 msgid "Smart Cursor"
 msgstr "ເຄີເຊີອັດສະລິຍະ"
@@ -3619,7 +3636,7 @@ msgstr "ເຄີເຊີອັດສະລິຍະ"
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
 msgstr "ຊ່າງຕີເຫຼັກສາມາດສ້າງໂລ້ 1 ອັນ ແລະ ດາບ 1 ເຫຼັ້ມ ໂດຍໃຊ້ເຫຼັກ 1 + ຖ່ານຫີນ 1 ແທນທີ່ຈະເປັນ ເຫຼັກ 2 + ຖ່ານຫີນ 2"
 
-#: libs/s25main/desktops/dskOptions.cpp:262
+#: libs/s25main/desktops/dskOptions.cpp:266
 msgid "Socks v4"
 msgstr "Socks v4"
 
@@ -3641,26 +3658,26 @@ msgstr ""
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
 #: libs/s25main/desktops/dskLobby.cpp:226
 #: libs/s25main/desktops/dskLobby.cpp:239
-#: libs/s25main/desktops/dskOptions.cpp:646
-#: libs/s25main/desktops/dskOptions.cpp:658
-#: libs/s25main/desktops/dskOptions.cpp:666
+#: libs/s25main/desktops/dskOptions.cpp:672
+#: libs/s25main/desktops/dskOptions.cpp:684
+#: libs/s25main/desktops/dskOptions.cpp:692
 #: libs/s25main/ingameWindows/iwSettings.cpp:99
 msgid "Sorry!"
 msgstr "ຂໍອະໄພ!"
 
-#: libs/s25main/desktops/dskOptions.cpp:151
+#: libs/s25main/desktops/dskOptions.cpp:160
 msgid "Sound/Music"
 msgstr "ສຽງ/ດົນຕີ"
 
-#: libs/s25main/desktops/dskOptions.cpp:394
+#: libs/s25main/desktops/dskOptions.cpp:419
 msgid "Sounddriver"
 msgstr "ໄດເວີສຽງ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:253
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:260
 msgid "Specify the playlist name"
 msgstr "ລະບຸຊື່ລາຍການເພງ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:248
+#: libs/s25main/desktops/dskGameLobby.cpp:265
 msgid "Speed:"
 msgstr "ຄວາມໄວ:"
 
@@ -3674,7 +3691,7 @@ msgstr "ບໍ່ສາມາດໂຫຼດໜ້າຈໍເລີ່ມຕົ
 msgid "Start"
 msgstr "ເລີ່ມ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:786
+#: libs/s25main/desktops/dskGameLobby.cpp:810
 msgid "Start aborted"
 msgstr "ຍົກເລີກການເລີ່ມ"
 
@@ -3688,13 +3705,13 @@ msgstr "ເລີ່ມການສຳຫຼວດ"
 msgid "Start exporation expedition"
 msgstr "ເລີ່ມການສຳຫຼວດເພື່ອຄົ້ນພົບ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:197
-#: libs/s25main/desktops/dskGameLobby.cpp:711
-#: libs/s25main/desktops/dskGameLobby.cpp:953
+#: libs/s25main/desktops/dskGameLobby.cpp:214
+#: libs/s25main/desktops/dskGameLobby.cpp:735
+#: libs/s25main/desktops/dskGameLobby.cpp:977
 msgid "Start game"
 msgstr "ເລີ່ມເກມ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:776
+#: libs/s25main/desktops/dskGameLobby.cpp:800
 msgid "Starting game, please wait"
 msgstr "ກຳລັງເລີ່ມເກມ, ກະລຸນາລໍຖ້າ"
 
@@ -3744,7 +3761,7 @@ msgstr "ສາງເກັບເຄື່ອງ"
 msgid "Strong attackers"
 msgstr "ຜູ້ໂຈມຕີແຂງແກ່ນ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:30
+#: libs/s25main/ingameWindows/iwMilitary.cpp:42
 msgid "Strong defense"
 msgstr "ການປ້ອງກັນແຂງແກ່ນ"
 
@@ -3752,7 +3769,7 @@ msgstr "ການປ້ອງກັນແຂງແກ່ນ"
 msgid "Style"
 msgstr "ຮູບແບບ"
 
-#: libs/s25main/desktops/dskOptions.cpp:293
+#: libs/s25main/desktops/dskOptions.cpp:308
 msgid "Submit debug data:"
 msgstr "ສົ່ງຂໍ້ມູນດີບັກ:"
 
@@ -3768,7 +3785,7 @@ msgstr "ສະເໜີສົນທິສັນຍາບໍ່ຮຸກຮານ
 msgid "Suggest treaty of alliance"
 msgstr "ສະເໜີສົນທິສັນຍາພັນທະມິດ"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:105
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:139
 #: libs/s25main/ingameWindows/iwSurrender.cpp:16
 msgid "Surrender"
 msgstr "ຍອມແພ້"
@@ -3777,7 +3794,7 @@ msgstr "ຍອມແພ້"
 msgid "Surrender game?"
 msgstr "ຍອມແພ້ເກມບໍ?"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:170
+#: libs/s25main/desktops/dskGameLobby.cpp:187
 msgid "Swap"
 msgstr "ສັບປ່ຽນ"
 
@@ -3797,7 +3814,7 @@ msgstr "ຈົບ"
 msgid "Take out of store"
 msgstr "ເອົາອອກຈາກສາງ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:162
+#: libs/s25main/desktops/dskGameLobby.cpp:179
 msgid "Team"
 msgstr "ທີມ"
 
@@ -3835,7 +3852,7 @@ msgstr "%s ລະຫວ່າງຜູ້ຫຼິ້ນ '%s' ແລະ ທ່�
 msgid "The %s between player '%s' and you has been concluded."
 msgstr "%s ລະຫວ່າງຜູ້ຫຼິ້ນ '%s' ແລະ ທ່ານໄດ້ຖືກສະຫຼຸບແລ້ວ."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1181
+#: libs/s25main/desktops/dskGameInterface.cpp:1177
 #: libs/s25main/network/GameClient.cpp:856
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "ເກມບໍ່ຊິງຄ໌ກັນ. Checksum ຂອງຜູ້ຫຼິ້ນບາງຄົນບໍ່ກົງກັນ."
@@ -3946,7 +3963,7 @@ msgstr "ຜູ້ຫຼິ້ນ '%s' ສະເໜີ %s ໃຫ້ກັບທ�
 msgid "The player '%s' want to cancel the '%s' between you both prematurely. Do you agree?"
 msgstr "ຜູ້ຫຼິ້ນ '%s' ຕ້ອງການຍົກເລີກ '%s' ລະຫວ່າງທ່ານທັງສອງກ່ອນກຳນົດ. ທ່ານເຫັນດີບໍ?"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:336
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:341
 msgid "The playlist was saved!"
 msgstr "ລາຍການເພງຖືກບັນທຶກແລ້ວ!"
 
@@ -3962,7 +3979,7 @@ msgstr "ການຂຸດຄົ້ນຫີນໃນບໍ່ແຮ່ຫີນ
 msgid "The selected game was not found anymore."
 msgstr "ບໍ່ພົບເກມທີ່ເລືອກໄວ້ອີກແລ້ວ."
 
-#: libs/s25main/desktops/dskOptions.cpp:646
+#: libs/s25main/desktops/dskOptions.cpp:672
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
 msgstr "ໄດເວີວິດີໂອທີ່ເລືອກບໍ່ຮອງຮັບການປັບຂະໜາດ GUI! ການຕັ້ງຄ່ານີ້ຈະບໍ່ຖືກນຳໃຊ້."
 
@@ -3972,16 +3989,16 @@ msgstr "ທະບຽນເຮືອມີເຮືອທັງໝົດໃນກ
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:96
 #: libs/s25main/desktops/dskSinglePlayer.cpp:100
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:169
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:171
 msgid "The specified file couldn't be loaded!"
 msgstr "ບໍ່ສາມາດໂຫຼດໄຟລ໌ທີ່ລະບຸໄດ້!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:373
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:376
 msgid "The specified file couldn't be opened!"
 msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ທີ່ລະບຸໄດ້!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:340
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:390
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:345
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:391
 msgid "The specified file couldn't be saved!"
 msgstr "ບໍ່ສາມາດບັນທຶກໄຟລ໌ທີ່ລະບຸໄດ້!"
 
@@ -4033,7 +4050,7 @@ msgstr "ເຊີບເວີນີ້ເຕັມແລ້ວ!"
 msgid "This harbor building was destroyed"
 msgstr "ອາຄານທ່າເຮືອແຫ່ງນີ້ຖືກທຳລາຍ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:108
+#: libs/s25main/ingameWindows/iwMilitary.cpp:126
 msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
 msgstr "ນີ້ແມ່ນບ່ອນທີ່ທ່ານສາມາດປັບປ່ຽນເລື່ອງທະຫານທັງໝົດ. ຄ່າເທິງສຸດແມ່ນອັດຕາການຮັບທະຫານຂອງກອງທັບຂອງທ່ານ. ຍິ່ງສູງ, ຍິ່ງມີປະຊາກອນຖືກຮັບເປັນທະຫານຫຼາຍຂຶ້ນ. ດ້ານລຸ່ມນີ້ແມ່ນການຕັ້ງຄ່າເພື່ອປົກປ້ອງຕູບຂອງທ່ານ. ຖ້າຄ່ານີ້ຖືກຕັ້ງສູງສຸດ, ຕູບຂອງທ່ານຈະຖືກປ້ອງກັນໂດຍໜ່ວຍທີ່ແຂງແກ່ນທີ່ສຸດ. ເພື່ອເພີ່ມຈຳນວນຜູ້ໂຈມຕີທີ່ອອກຈາກຕູບຂອງທ່ານໃນແຕ່ລະການໂຈມຕີ, ເລືອກການຕັ້ງຄ່າຕໍ່ໄປ. ຈຳນວນຜູ້ປ້ອງກັນທີ່ຕອບໂຕ້ສັດຕູໃນກໍລະນີທີ່ມີການໂຈມຕີຈະສະແດງໂດຍການສະແດງຜົນທີສີ່. ຄ່າສາມອັນສຸດທ້າຍແມ່ນການຄອບຄອງຕູບຂອງທ່ານໃນພາຍໃນ, ໃນສູນກາງຂອງປະເທດ ແລະ ຕາມຊາຍແດນ."
 
@@ -4070,7 +4087,7 @@ msgstr "ຫົວຂໍ້"
 msgid "To player:"
 msgstr "ເຖິງຜູ້ຫຼິ້ນ:"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:171
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:176
 msgid "To register, you have to create a valid board account at http://forum.siedler25.org at the moment.\n"
 msgstr "ເພື່ອລົງທະບຽນ, ທ່ານຕ້ອງສ້າງບັນຊີທີ່ຖືກຕ້ອງທີ່ http://forum.siedler25.org ໃນຕອນນີ້.\n"
 
@@ -4102,15 +4119,15 @@ msgstr "ເຄື່ອງມືໃນມືຂອງຄົນງານກໍຈ
 msgid "Top"
 msgstr "ເທິງສຸດ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:237
+#: libs/s25main/desktops/dskGameLobby.cpp:254
 msgid "Total domination"
 msgstr "ຄອບຄອງທັງໝົດ"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:393
+#: libs/s25main/desktops/dskGameInterface.cpp:409
 msgid "Tournament finished"
 msgstr "ການແຂ່ງຂັນສິ້ນສຸດລົງ"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:245
+#: libs/s25main/desktops/dskGameLobby.cpp:262
 #, c-format
 msgid "Tournament: %u minutes"
 msgstr "ການແຂ່ງຂັນ: %u ນາທີ"
@@ -4175,7 +4192,7 @@ msgstr "ປະເພດແຜນທີ່ໄດນາມິກທີ່ບໍ່
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:102
-#: libs/s25main/network/GameClient.cpp:1482
+#: libs/s25main/network/GameClient.cpp:1492
 msgid "Unknown"
 msgstr "ບໍ່ຮູ້ຈັກ"
 
@@ -4237,7 +4254,7 @@ msgstr "ຂຶ້ນ"
 msgid "Upgrade to donkey road"
 msgstr "ອັບເກດເປັນຖະໜົນສຳລັບລາ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:105
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:106
 msgid "Upwards"
 msgstr "ຂຶ້ນເທິງ"
 
@@ -4245,10 +4262,10 @@ msgstr "ຂຶ້ນເທິງ"
 msgid "Use"
 msgstr "ໃຊ້"
 
-#: libs/s25main/desktops/dskOptions.cpp:230
+#: libs/s25main/desktops/dskOptions.cpp:233
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:56
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:38
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:70
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:81
 msgid "Use IPv6:"
 msgstr "ໃຊ້ IPv6:"
 
@@ -4256,11 +4273,11 @@ msgstr "ໃຊ້ IPv6:"
 msgid "Use S2 Defaults"
 msgstr "ໃຊ້ຄ່າເລີ່ມຕົ້ນຂອງ S2"
 
-#: libs/s25main/desktops/dskOptions.cpp:250
+#: libs/s25main/desktops/dskOptions.cpp:254
 msgid "Use UPnP"
 msgstr "ໃຊ້ UPnP"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:52
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:58
 msgid "Username:"
 msgstr "ຊື່ຜູ້ໃຊ້:"
 
@@ -4286,11 +4303,11 @@ msgstr "ເວີຊັນບໍ່ກົງກັນ. ເວີຊັນເຊ�
 msgid "Version:"
 msgstr "ເວີຊັນ:"
 
-#: libs/s25main/desktops/dskOptions.cpp:327
+#: libs/s25main/desktops/dskOptions.cpp:345
 msgid "Vertex Buffer Objects:"
 msgstr "Vertex Buffer Objects:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:227
+#: libs/s25main/desktops/dskGameLobby.cpp:244
 msgid "Very Low"
 msgstr "ຕໍ່າຫຼາຍ"
 
@@ -4299,7 +4316,7 @@ msgid "Very far"
 msgstr "ໄກຫຼາຍ"
 
 #: libs/s25main/addons/AddonShipSpeed.h:23
-#: libs/s25main/desktops/dskGameLobby.cpp:255
+#: libs/s25main/desktops/dskGameLobby.cpp:272
 msgid "Very fast"
 msgstr "ໄວຫຼາຍ"
 
@@ -4308,7 +4325,7 @@ msgid "Very long"
 msgstr "ຍາວຫຼາຍ"
 
 #: libs/s25main/addons/AddonShipSpeed.h:19
-#: libs/s25main/desktops/dskGameLobby.cpp:251
+#: libs/s25main/desktops/dskGameLobby.cpp:268
 msgid "Very slow"
 msgstr "ຊ້າຫຼາຍ"
 
@@ -4316,7 +4333,7 @@ msgstr "ຊ້າຫຼາຍ"
 msgid "Video driver couldn't be loaded!"
 msgstr "ບໍ່ສາມາດໂຫຼດໄດເວີວິດີໂອໄດ້!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:210
+#: libs/s25main/desktops/dskGameLobby.cpp:227
 msgid "View Settings..."
 msgstr "ເບິ່ງການຕັ້ງຄ່າ..."
 
@@ -4349,7 +4366,7 @@ msgid "Waiting for Playerinfo..."
 msgstr "ກຳລັງລໍຖ້າຂໍ້ມູນຜູ້ຫຼິ້ນ..."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:73
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:249
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:232
 msgid "Waiting for Reply..."
 msgstr "ກຳລັງລໍຖ້າການຕອບກັບ..."
 
@@ -4394,7 +4411,7 @@ msgstr "ພວກເຮົາຫວັງວ່າທ່ານຈະມ່ວນ
 msgid "Weak attackers"
 msgstr "ຜູ້ໂຈມຕີອ່ອນ"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:30
+#: libs/s25main/ingameWindows/iwMilitary.cpp:42
 msgid "Weak defense"
 msgstr "ການປ້ອງກັນອ່ອນ"
 
@@ -4422,7 +4439,11 @@ msgstr "ນ້ຳສ້າງ"
 msgid "What is this?"
 msgstr "ນີ້ແມ່ນຫຍັງ?"
 
-#: libs/s25main/desktops/dskOptions.cpp:320
+#: libs/s25main/desktops/dskOptions.cpp:298
+msgid "Window pinning"
+msgstr ""
+
+#: libs/s25main/desktops/dskOptions.cpp:336
 #: libs/s25main/ingameWindows/iwSettings.cpp:68
 msgid "Windowed"
 msgstr "ແບບໜ້າຕ່າງ"
@@ -4489,13 +4510,13 @@ msgid "Yamauchi"
 msgstr "Yamauchi"
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:23
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:67
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:76
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:77
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:83
 msgid "Yes"
 msgstr "ແມ່ນ"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:266
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:271
 msgid "You are not allowed to delete the standard playlist!"
 msgstr "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ລົບລາຍການເພງມາດຕະຖານ!"
 
@@ -4524,11 +4545,11 @@ msgstr ""
 msgid "You can't join that game with your version!"
 msgstr "ທ່ານບໍ່ສາມາດເຂົ້າຮ່ວມເກມນັ້ນດ້ວຍເວີຊັນຂອງທ່ານ!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1140
+#: libs/s25main/desktops/dskGameLobby.cpp:1166
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
 msgstr "ທ່ານໄດ້ເລືອກເງື່ອນໄຂການຊະນະທີ່ອີງໃສ່ສົງຄາມ ແຕ່ໂໝດສັນຕິຍັງເປີດຢູ່. ທ່ານຕ້ອງການປິດໂໝດສັນຕິກ່ອນເລີ່ມບໍ່? ການເລືອກ ບໍ່ ຈະເລີ່ມເກມ, ການເລືອກ ແມ່ນ ຈະໃຫ້ທ່ານກວດສອບການປ່ຽນແປງ."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1125
+#: libs/s25main/desktops/dskGameLobby.cpp:1151
 msgid ""
 "You chose the economy mode. In economy mode the player or team that collects the most of certain goods wins (check the Economic progress window in game).\n"
 "\n"
@@ -4542,17 +4563,17 @@ msgstr ""
 "ການເລືອກ ແມ່ນ ຈະເປີດໃຊ້ໂໝດສັນຕິ, ຫ້າມໃຊ້ເຄື່ອງຍິງຫີນ ແລະ ປິດການຮັບຫຼຽນຂອງອາຄານເປັນຄ່າເລີ່ມຕົ້ນ. ຫຼັງຈາກກົດ ແມ່ນ ທ່ານຈະສາມາດກວດສອບການປ່ຽນແປງ ແລະ ເລີ່ມເກມໂດຍການກົດປຸ່ມ ເລີ່ມເກມ ອີກຄັ້ງ.\n"
 "ການເລືອກ ບໍ່ ຈະເລີ່ມເກມໂດຍບໍ່ມີການປ່ຽນແປງໃດໆ."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:768
+#: libs/s25main/desktops/dskGameLobby.cpp:792
 #, c-format
 msgid "You have %u seconds until game starts"
 msgstr "ທ່ານມີເວລາ %u ວິນາທີກ່ອນເກມຈະເລີ່ມ"
 
-#: libs/s25main/desktops/dskOptions.cpp:658
+#: libs/s25main/desktops/dskOptions.cpp:684
 #: libs/s25main/ingameWindows/iwSettings.cpp:99
 msgid "You need to restart your game to change the screen resolution!"
 msgstr "ທ່ານຕ້ອງເປີດເກມໃໝ່ເພື່ອປ່ຽນຄວາມລະອຽດໜ້າຈໍ!"
 
-#: libs/s25main/desktops/dskOptions.cpp:666
+#: libs/s25main/desktops/dskOptions.cpp:692
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "ທ່ານຕ້ອງເປີດເກມໃໝ່ເພື່ອປ່ຽນໄດເວີວິດີໂອ ຫຼື ສຽງ!"
 
@@ -4576,7 +4597,7 @@ msgstr "ຊູມ"
 msgid "all developers who contributed via Github"
 msgstr "ນັກພັດທະນາທຸກຄົນທີ່ປະກອບສ່ວນຜ່ານ Github"
 
-#: libs/s25main/network/GameClient.cpp:1654
+#: libs/s25main/network/GameClient.cpp:1664
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "gF ປັດຈຸບັນ: %u - ຍັງກຳລັງເລັ່ງໄປຂ້າງໜ້າ: %d GFs ເຫຼືອ (%d %%)"

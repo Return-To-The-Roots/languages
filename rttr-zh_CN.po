@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 10:23+0100\n"
+"POT-Creation-Date: 2026-01-12 10:10+0100\n"
 "PO-Revision-Date: 2025-11-26 06:40+0000\n"
 "Last-Translator: Lee Hsien Wei <Unknown>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
@@ -59,7 +59,7 @@ msgstr " (中等)"
 msgid " (playing)"
 msgstr " (播放)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1377
+#: libs/s25main/desktops/dskGameInterface.cpp:1373
 msgid " and "
 msgstr " 和 "
 
@@ -71,7 +71,7 @@ msgstr " 木板"
 msgid " stones"
 msgstr " 石头"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1377
+#: libs/s25main/desktops/dskGameInterface.cpp:1373
 msgid "%1% are the winners!"
 msgstr "%1% 获得胜利!"
 
@@ -97,7 +97,7 @@ msgstr "%1% 玩家"
 msgid "%1%x"
 msgstr "%1%x"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:483
+#: libs/s25main/desktops/dskGameLobby.cpp:507
 #, c-format
 msgid "%d"
 msgstr "%d"
@@ -116,27 +116,27 @@ msgstr "%u/%u"
 msgid "'s Game"
 msgstr "游戏"
 
-#: libs/s25main/world/GameWorldView.cpp:435
+#: libs/s25main/world/GameWorldView.cpp:431
 #, c-format
 msgid "(%d soldiers)"
 msgstr "(守军 %d)"
 
-#: libs/s25main/world/GameWorldView.cpp:433
+#: libs/s25main/world/GameWorldView.cpp:429
 msgid "(1 soldier)"
 msgstr "(守军 1)"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:87
-#: libs/s25main/ingameWindows/iwBuilding.cpp:183
-#: libs/s25main/world/GameWorldView.cpp:408
+#: libs/s25main/ingameWindows/iwBuilding.cpp:92
+#: libs/s25main/ingameWindows/iwBuilding.cpp:188
+#: libs/s25main/world/GameWorldView.cpp:404
 msgid "(House unoccupied)"
 msgstr "(空置)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:372
+#: libs/s25main/desktops/dskGameInterface.cpp:388
 #, c-format
 msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
 msgstr "(回放模式) 当前 GF: %u (结束在: %u) / GF 长度: %u ms / NWF 长度: %u gf (%u ms)"
 
-#: libs/s25main/world/GameWorldView.cpp:410
+#: libs/s25main/world/GameWorldView.cpp:406
 msgid "(stopped)"
 msgstr "(停工)"
 
@@ -162,9 +162,9 @@ msgstr "+50%"
 msgid "+500%"
 msgstr "+500%"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:328
-#: libs/s25main/desktops/dskGameLobby.cpp:473
-#: libs/s25main/desktops/dskGameLobby.cpp:475
+#: libs/s25main/desktops/dskGameLobby.cpp:345
+#: libs/s25main/desktops/dskGameLobby.cpp:497
+#: libs/s25main/desktops/dskGameLobby.cpp:499
 msgid "-"
 msgstr "-"
 
@@ -254,7 +254,7 @@ msgstr "5个投石屋"
 msgid "<%s> "
 msgstr "<%s> "
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1183
+#: libs/s25main/desktops/dskGameInterface.cpp:1179
 msgid "A auto-savegame is created..."
 msgstr "创建自动保存游戏..."
 
@@ -266,7 +266,7 @@ msgstr "投石器正在向我们射击!"
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
 msgstr "为了让矿工们挖出具有极具价值的金矿, 必须确保他们的食物充足."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:230
+#: libs/s25main/desktops/dskGameLobby.cpp:247
 msgid "A lot"
 msgstr "很多"
 
@@ -312,7 +312,7 @@ msgstr "AI调试窗口"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:46
 #: libs/s25main/ingameWindows/iwConnecting.cpp:37
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:64
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:65
 msgid "Abort"
 msgstr "中止"
 
@@ -329,7 +329,7 @@ msgstr "边界附近启动"
 msgid "Activity window"
 msgstr "选项窗口"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:93
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:94
 msgid "Add"
 msgstr "添加"
 
@@ -337,13 +337,13 @@ msgstr "添加"
 msgid "Add Server"
 msgstr "添加服务器"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:101
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:284
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:102
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:289
 msgid "Add directory of tracks"
 msgstr "添加轨道目录"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:99
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:279
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:100
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:284
 msgid "Add track"
 msgstr "添加轨道"
 
@@ -376,11 +376,11 @@ msgstr "无法找到 %1$#x 插件!\n"
 msgid "Addon Settings"
 msgstr "插件设置"
 
-#: libs/s25main/desktops/dskOptions.cpp:156
+#: libs/s25main/desktops/dskOptions.cpp:165
 msgid "Addons"
 msgstr "插件"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:208
+#: libs/s25main/desktops/dskGameLobby.cpp:225
 msgid "Addons:"
 msgstr "插件:"
 
@@ -418,7 +418,7 @@ msgstr "调整检查经济模式胜利条件的时间."
 msgid "Adjusts how long a building will burn for when it is destroyed"
 msgstr "调整建筑物毁坏后燃烧的时间"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:104
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:137
 msgid "Advanced"
 msgstr "高级"
 
@@ -517,7 +517,7 @@ msgstr "人工智能 (AI)"
 msgid "As the teams are locked, you cannot make treaties of any kind."
 msgstr "由于团队被锁定, 您无法签订任何条约."
 
-#: libs/s25main/desktops/dskOptions.cpp:297
+#: libs/s25main/desktops/dskOptions.cpp:312
 msgid "Ask always"
 msgstr "每次询问"
 
@@ -579,13 +579,13 @@ msgstr "无法加载音像驱动!"
 msgid "Author"
 msgstr "作者"
 
-#: libs/s25main/desktops/dskOptions.cpp:765
+#: libs/s25main/desktops/dskOptions.cpp:791
 #, c-format
 msgid "Auto (%u%%)"
 msgstr "自动  (%u%%)"
 
-#: libs/s25main/network/GameClient.cpp:1405
-#: libs/s25main/network/GameClient.cpp:1407
+#: libs/s25main/network/GameClient.cpp:1415
+#: libs/s25main/network/GameClient.cpp:1417
 msgid "Auto-Save"
 msgstr "自动保存"
 
@@ -629,7 +629,7 @@ msgstr "巴比伦人"
 #: libs/s25main/desktops/dskIntro.cpp:20 libs/s25main/desktops/dskLAN.cpp:40
 #: libs/s25main/desktops/dskLobby.cpp:45
 #: libs/s25main/desktops/dskMultiPlayer.cpp:31
-#: libs/s25main/desktops/dskOptions.cpp:154
+#: libs/s25main/desktops/dskOptions.cpp:163
 #: libs/s25main/desktops/dskSelectMap.cpp:86
 #: libs/s25main/desktops/dskSinglePlayer.cpp:49
 #: libs/s25main/desktops/dskTextureTest.cpp:35
@@ -657,8 +657,8 @@ msgstr "兵营"
 msgid "Beer"
 msgstr "啤酒"
 
-#: libs/s25main/desktops/dskOptions.cpp:374
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
+#: libs/s25main/desktops/dskOptions.cpp:396
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
 msgid "Bird sounds"
 msgstr "鸟叫声"
 
@@ -684,7 +684,7 @@ msgstr "船只"
 msgid "Bob-like file contained multiple text entries: %s\n"
 msgstr "Bob-like 文件包含多个文本条目:%s\n"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:42
+#: libs/s25main/ingameWindows/iwMilitary.cpp:68
 msgid "Border areas"
 msgstr "边境地区"
 
@@ -785,7 +785,7 @@ msgstr "取消"
 msgid "Cancel expedition"
 msgstr "取消远征"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:953
+#: libs/s25main/desktops/dskGameLobby.cpp:977
 msgid "Cancel start"
 msgstr "取消启动"
 
@@ -809,11 +809,11 @@ msgstr "木匠"
 msgid "Catapult"
 msgstr "投石屋"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:38
+#: libs/s25main/ingameWindows/iwMilitary.cpp:58
 msgid "Center of country"
 msgstr "国家中心"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:210
+#: libs/s25main/desktops/dskGameLobby.cpp:227
 msgid "Change Settings..."
 msgstr "更改设置..."
 
@@ -891,7 +891,7 @@ msgstr "检查密码..."
 msgid "Choose mission"
 msgstr "选择任务"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:220
+#: libs/s25main/desktops/dskGameLobby.cpp:237
 msgid "Classic (Settlers 2)"
 msgstr "经典 (Settlers 2)"
 
@@ -913,7 +913,7 @@ msgstr "关闭"
 msgid "Close Without Saving"
 msgstr "不保存并关闭"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:407
+#: libs/s25main/desktops/dskGameLobby.cpp:424
 msgid "Closed"
 msgstr "关闭"
 
@@ -943,11 +943,11 @@ msgstr "被占领建筑物时得到金币"
 msgid "Collect"
 msgstr "收集"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:161
+#: libs/s25main/desktops/dskGameLobby.cpp:178
 msgid "Color"
 msgstr "颜色"
 
-#: libs/s25main/desktops/dskOptions.cpp:147
+#: libs/s25main/desktops/dskOptions.cpp:156
 msgid "Common"
 msgstr "一般"
 
@@ -966,7 +966,7 @@ msgstr "确认"
 
 #: libs/s25main/desktops/dskLAN.cpp:38 libs/s25main/desktops/dskLobby.cpp:46
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:64
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:80
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:92
 msgid "Connect"
 msgstr "连接"
 
@@ -979,16 +979,16 @@ msgid "Connecting to Lobby"
 msgstr "正在连接大厅"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:116
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:151
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:159
 msgid "Connecting with Host..."
 msgstr "连接主机..."
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:113
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:162
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:168
 msgid "Connection failed!"
 msgstr "连接失败!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:236
+#: libs/s25main/desktops/dskGameLobby.cpp:253
 msgid "Conquer 3/4 of map"
 msgstr "征服 3/4 的地图"
 
@@ -996,7 +996,7 @@ msgstr "征服 3/4 的地图"
 msgid "Construction"
 msgstr "建筑"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:127
+#: libs/s25main/desktops/dskGameInterface.cpp:143
 msgid "Construction aid mode"
 msgstr "建设辅助模式"
 
@@ -1043,7 +1043,7 @@ msgstr "转换为铁矿石"
 msgid "Could not determine type of path %s\n"
 msgstr "不能确定路径种类 %s\n"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:275
+#: libs/s25main/desktops/dskGameLobby.cpp:292
 msgid "Could not load map:\n"
 msgstr "无法加载地图:\n"
 
@@ -1071,7 +1071,7 @@ msgstr "制作人员"
 msgid "Crucible"
 msgstr "坩锅"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:378
+#: libs/s25main/desktops/dskGameInterface.cpp:394
 #, c-format
 msgid "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
 msgstr "当前 GF: %u / GF 长度: %u ms / NWF 长度: %u gf (%u ms) /  Ping: %u ms"
@@ -1104,7 +1104,7 @@ msgstr "矿工们在大山深处挖掘铁矿石. 显然, 他们需要大量的�
 #: libs/s25main/ingameWindows/iwAddons.cpp:50
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:71
 #: libs/s25main/ingameWindows/iwDistribution.cpp:66
-#: libs/s25main/ingameWindows/iwMilitary.cpp:47
+#: libs/s25main/ingameWindows/iwMilitary.cpp:75
 #: libs/s25main/ingameWindows/iwTools.cpp:69
 #: libs/s25main/ingameWindows/iwTransport.cpp:27
 msgid "Default"
@@ -1130,7 +1130,7 @@ msgstr "资源不足时拆除建筑物"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:234
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
-#: libs/s25main/ingameWindows/iwBuilding.cpp:59
+#: libs/s25main/ingameWindows/iwBuilding.cpp:64
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:55
 msgid "Demolish house"
@@ -1198,7 +1198,7 @@ msgstr "默认禁用金币"
 msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr "禁止拆除正在被攻击或边界附近的军事建筑物."
 
-#: libs/s25main/desktops/dskOptions.cpp:446
+#: libs/s25main/desktops/dskOptions.cpp:471
 #: libs/s25main/ingameWindows/iwSave.cpp:140
 msgid "Disabled"
 msgstr "禁用"
@@ -1220,11 +1220,11 @@ msgstr "军事建筑物里显示士兵的生命值."
 msgid "Distribution of goods"
 msgstr "货物分销"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:770
+#: libs/s25main/desktops/dskGameLobby.cpp:794
 msgid "Don't forget to check the addon configuration!"
 msgstr "别忘了检查插件配置!"
 
-#: libs/s25main/desktops/dskOptions.cpp:289
+#: libs/s25main/desktops/dskOptions.cpp:294
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
@@ -1253,7 +1253,7 @@ msgstr "养驴场"
 msgid "Down"
 msgstr "下"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:107
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:108
 msgid "Downwards"
 msgstr "向下"
 
@@ -1275,7 +1275,7 @@ msgstr "持续时间:%d GF (%s)"
 msgid "Duration: Forever"
 msgstr "持续时间永恒"
 
-#: libs/s25main/desktops/dskOptions.cpp:442
+#: libs/s25main/desktops/dskOptions.cpp:467
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr "动态 (受限于显示器刷新率, 适用于大多数驱动程序)"
 
@@ -1299,12 +1299,12 @@ msgstr "经济模式: 尽可能多地收集以下物品类型: "
 msgid "Economy Mode: Game Length"
 msgstr "经济模式:游戏时长"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:238
-#: libs/s25main/desktops/dskGameLobby.cpp:1124
+#: libs/s25main/desktops/dskGameLobby.cpp:255
+#: libs/s25main/desktops/dskGameLobby.cpp:1150
 msgid "Economy mode"
 msgstr "经济模式"
 
-#: libs/s25main/desktops/dskOptions.cpp:364
+#: libs/s25main/desktops/dskOptions.cpp:385
 msgid "Effects"
 msgstr "音效"
 
@@ -1336,7 +1336,7 @@ msgstr "启用葡萄酒经济"
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
 msgstr "启用其他内容以异步调试 . 除非您知道自己在做什么 , 否则请勿启用 !"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:106
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:141
 #: libs/s25main/ingameWindows/iwVictory.cpp:47
 msgid "End game"
 msgstr "结束游戏"
@@ -1379,15 +1379,15 @@ msgstr "埃里克"
 #: libs/s25main/desktops/dskCredits.cpp:276
 #: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:135
-#: libs/s25main/desktops/dskGameLobby.cpp:133
-#: libs/s25main/desktops/dskGameLobby.cpp:139
-#: libs/s25main/desktops/dskGameLobby.cpp:275
-#: libs/s25main/desktops/dskGameLobby.cpp:381
-#: libs/s25main/desktops/dskGameLobby.cpp:795
-#: libs/s25main/desktops/dskGameLobby.cpp:1089
-#: libs/s25main/desktops/dskGameLobby.cpp:1099
+#: libs/s25main/desktops/dskGameLobby.cpp:150
+#: libs/s25main/desktops/dskGameLobby.cpp:156
+#: libs/s25main/desktops/dskGameLobby.cpp:292
+#: libs/s25main/desktops/dskGameLobby.cpp:398
+#: libs/s25main/desktops/dskGameLobby.cpp:819
+#: libs/s25main/desktops/dskGameLobby.cpp:1115
+#: libs/s25main/desktops/dskGameLobby.cpp:1125
 #: libs/s25main/desktops/dskLobby.cpp:259
-#: libs/s25main/desktops/dskOptions.cpp:613
+#: libs/s25main/desktops/dskOptions.cpp:639
 #: libs/s25main/desktops/dskSelectMap.cpp:173
 #: libs/s25main/desktops/dskSelectMap.cpp:235
 #: libs/s25main/desktops/dskSelectMap.cpp:362
@@ -1397,25 +1397,25 @@ msgstr "埃里克"
 #: libs/s25main/desktops/dskSinglePlayer.cpp:100
 #: libs/s25main/desktops/dskTextureTest.cpp:46
 #: libs/s25main/ingameWindows/iwConnecting.cpp:60
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:170
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:169
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:266
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:340
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:373
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:390
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:175
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:171
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:271
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:345
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:376
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:391
 #: libs/s25main/network/GameServer.cpp:1574
 msgid "Error"
 msgstr "错误"
 
-#: libs/s25main/network/GameClient.cpp:1541
+#: libs/s25main/network/GameClient.cpp:1551
 msgid "Error decompressing lua file"
 msgstr "解压 lua 文件出错"
 
-#: libs/s25main/network/GameClient.cpp:1532
+#: libs/s25main/network/GameClient.cpp:1542
 msgid "Error decompressing map file"
 msgstr "解压地图文件出错"
 
-#: libs/s25main/network/GameClient.cpp:1364
+#: libs/s25main/network/GameClient.cpp:1374
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
@@ -1423,11 +1423,11 @@ msgstr ""
 "执行 lua 脚本时出错:%1\n"
 "游戏停止!"
 
-#: libs/s25main/network/GameClient.cpp:1713
+#: libs/s25main/network/GameClient.cpp:1723
 msgid "Error during saving: "
 msgstr "储存失误: "
 
-#: libs/s25main/network/GameClient.cpp:1558
+#: libs/s25main/network/GameClient.cpp:1568
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr "从重放中加载游戏时出错:%s\n"
@@ -1436,7 +1436,7 @@ msgstr "从重放中加载游戏时出错:%s\n"
 msgid "Error while playing replay!"
 msgstr "播放重放时出错!"
 
-#: libs/s25main/WindowManager.cpp:795
+#: libs/s25main/WindowManager.cpp:534
 msgid "Error writing screenshot: %1%\n"
 msgstr "编写屏幕截图时出错 : %1%\n"
 
@@ -1485,7 +1485,7 @@ msgstr "远征"
 msgid "Exploration expedition"
 msgstr "探险考察"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:216
+#: libs/s25main/desktops/dskGameLobby.cpp:233
 msgid "Exploration:"
 msgstr "探索:"
 
@@ -1576,7 +1576,7 @@ msgid "Farmer"
 msgstr "农民"
 
 #: libs/s25main/addons/AddonShipSpeed.h:22
-#: libs/s25main/desktops/dskGameLobby.cpp:254
+#: libs/s25main/desktops/dskGameLobby.cpp:271
 msgid "Fast"
 msgstr "快"
 
@@ -1589,11 +1589,11 @@ msgstr "较少"
 msgid "Fewer"
 msgstr "较少"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:32
+#: libs/s25main/ingameWindows/iwMilitary.cpp:45
 msgid "Fewer defenders"
 msgstr "更少的后卫"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:28
+#: libs/s25main/ingameWindows/iwMilitary.cpp:39
 msgid "Fewer recruits"
 msgstr "新兵人数减少"
 
@@ -1642,11 +1642,11 @@ msgstr "渔夫工棚"
 msgid "Flour"
 msgstr "面粉"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:222
+#: libs/s25main/desktops/dskGameLobby.cpp:239
 msgid "FoW - all explored"
 msgstr "全部探索"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:221
+#: libs/s25main/desktops/dskGameLobby.cpp:238
 msgid "Fog of War"
 msgstr "战争迷雾"
 
@@ -1707,21 +1707,21 @@ msgstr "前沿距离检查可达性"
 msgid "Full Control"
 msgstr "全面控制"
 
-#: libs/s25main/desktops/dskOptions.cpp:319
+#: libs/s25main/desktops/dskOptions.cpp:335
 #: libs/s25main/ingameWindows/iwSettings.cpp:66
 msgid "Fullscreen"
 msgstr "全屏"
 
-#: libs/s25main/desktops/dskOptions.cpp:312
+#: libs/s25main/desktops/dskOptions.cpp:327
 #: libs/s25main/ingameWindows/iwSettings.cpp:43
 msgid "Fullscreen resolution:"
 msgstr "全屏分辨率:"
 
-#: libs/s25main/desktops/dskOptions.cpp:354
+#: libs/s25main/desktops/dskOptions.cpp:375
 msgid "GUI Scale:"
 msgstr "GUI 缩放:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:181
+#: libs/s25main/desktops/dskGameLobby.cpp:198
 msgid "Game Chat"
 msgstr "游戏聊天"
 
@@ -1729,7 +1729,7 @@ msgstr "游戏聊天"
 msgid "Game Time"
 msgstr "游戏时长"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:796
+#: libs/s25main/desktops/dskGameLobby.cpp:820
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
 msgstr "只有当每个人都有一种独特的颜色, 每个人都准备就绪且所有空闲时段都已关闭时, 游戏才能开始."
 
@@ -1737,15 +1737,15 @@ msgstr "只有当每个人都有一种独特的颜色, 每个人都准备就绪�
 msgid "Game crate was picked and spread out..."
 msgstr "现在, 开启你最伟大的探索吧..."
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:50
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:65
 msgid "Game menu"
 msgstr "游戏菜单"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1198
+#: libs/s25main/desktops/dskGameInterface.cpp:1194
 msgid "Game was paused."
 msgstr "游戏暂停."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1203
+#: libs/s25main/desktops/dskGameInterface.cpp:1199
 msgid "Game was resumed."
 msgstr "游戏继续."
 
@@ -1797,7 +1797,7 @@ msgstr "给定地图或重放 (%1%) 不存在!"
 msgid "Go to headquarters"
 msgstr "前往总部"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:91
+#: libs/s25main/ingameWindows/iwBuilding.cpp:96
 msgid "Go to next building of same type"
 msgstr "前往下一个同类型建筑"
 
@@ -1810,7 +1810,7 @@ msgid "Go to next warehouse"
 msgstr "转到下一个仓库"
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:76
-#: libs/s25main/ingameWindows/iwBuilding.cpp:78
+#: libs/s25main/ingameWindows/iwBuilding.cpp:83
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
@@ -1819,7 +1819,7 @@ msgstr "转到下一个仓库"
 msgid "Go to place"
 msgstr "前往该处"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:232
+#: libs/s25main/desktops/dskGameLobby.cpp:249
 msgid "Goals:"
 msgstr "目标:"
 
@@ -1842,7 +1842,7 @@ msgstr "金矿"
 msgid "Gold:"
 msgstr "黄金:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:224
+#: libs/s25main/desktops/dskGameLobby.cpp:241
 msgid "Goods at start:"
 msgstr "开局资源:"
 
@@ -1870,11 +1870,11 @@ msgstr "花岗岩:"
 msgid "Grapes"
 msgstr "葡萄"
 
-#: libs/s25main/desktops/dskOptions.cpp:149
+#: libs/s25main/desktops/dskOptions.cpp:158
 msgid "Graphics"
 msgstr "图形"
 
-#: libs/s25main/desktops/dskOptions.cpp:333
+#: libs/s25main/desktops/dskOptions.cpp:352
 msgid "Graphics Driver"
 msgstr "图形驱动程序"
 
@@ -1912,13 +1912,13 @@ msgstr "港口建筑"
 msgid "Headquarters"
 msgstr "总部"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:56
+#: libs/s25main/ingameWindows/iwBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:30
 #: libs/s25main/ingameWindows/iwBuildings.cpp:95
 #: libs/s25main/ingameWindows/iwDistribution.cpp:63
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:101
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
-#: libs/s25main/ingameWindows/iwMilitary.cpp:45
+#: libs/s25main/ingameWindows/iwMilitary.cpp:73
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
 #: libs/s25main/ingameWindows/iwStatistics.cpp:158
 #: libs/s25main/ingameWindows/iwTools.cpp:63
@@ -1967,17 +1967,17 @@ msgstr "ID"
 msgid "IP Address of Host:"
 msgstr "主机 IP 地址:"
 
-#: libs/s25main/desktops/dskOptions.cpp:234
+#: libs/s25main/desktops/dskOptions.cpp:237
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:59
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:41
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:73
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:83
 msgid "IPv4"
 msgstr "IPv4"
 
-#: libs/s25main/desktops/dskOptions.cpp:233
+#: libs/s25main/desktops/dskOptions.cpp:236
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:60
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:42
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:74
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:84
 msgid "IPv6"
 msgstr "IPv6"
 
@@ -2026,7 +2026,7 @@ msgstr "水源不会耗尽并且到处都有"
 msgid "Inhabitants"
 msgstr "居民"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:36
+#: libs/s25main/ingameWindows/iwMilitary.cpp:55
 msgid "Interior"
 msgstr "内部"
 
@@ -2051,7 +2051,7 @@ msgid "Invalid API version!"
 msgstr "无效的 API 版本!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1481
+#: libs/s25main/network/GameClient.cpp:1491
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr "无效录像 %1%!原因:%2%\n"
 
@@ -2083,7 +2083,7 @@ msgstr "lua 数据 ID 无效"
 msgid "Invalid maximum human player count: %1%"
 msgstr "无效的最大人类玩家数量: %1%"
 
-#: libs/s25main/desktops/dskOptions.cpp:614
+#: libs/s25main/desktops/dskOptions.cpp:640
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:138
 msgid "Invalid port. The valid port-range is 1 to 65535!"
@@ -2093,7 +2093,7 @@ msgstr "端口无效. 有效端口范围为 1 至 65535!"
 msgid "Invert Mouse Pan"
 msgstr "反转鼠标移动"
 
-#: libs/s25main/desktops/dskOptions.cpp:274
+#: libs/s25main/desktops/dskOptions.cpp:279
 msgid "Invert Mouse Pan:"
 msgstr "反转鼠标平移:"
 
@@ -2147,7 +2147,7 @@ msgstr "加入游戏"
 msgid "Julius"
 msgstr "尤利乌斯"
 
-#: libs/s25main/network/GameClient.cpp:1666
+#: libs/s25main/network/GameClient.cpp:1676
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr "跳跃完成 (%1$.3g 秒) ."
@@ -2160,11 +2160,11 @@ msgstr "跳到 X:Y"
 msgid "Keep setting"
 msgstr "继续使用设定"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:779
-#: libs/s25main/desktops/dskOptions.cpp:219
-#: libs/s25main/desktops/dskOptions.cpp:689
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:68
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
+#: libs/s25main/desktops/dskGameInterface.cpp:791
+#: libs/s25main/desktops/dskOptions.cpp:221
+#: libs/s25main/desktops/dskOptions.cpp:715
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:91
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:153
 msgid "Keyboard layout"
 msgstr "键盘布局"
 
@@ -2180,7 +2180,7 @@ msgstr "国家"
 msgid "Landscape"
 msgstr "景观"
 
-#: libs/s25main/desktops/dskOptions.cpp:199
+#: libs/s25main/desktops/dskOptions.cpp:201
 msgid "Language:"
 msgstr "语言:"
 
@@ -2194,7 +2194,7 @@ msgid "Less"
 msgstr "更少"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:359
-#: libs/s25main/ingameWindows/iwMilitary.cpp:34
+#: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "Less attackers"
 msgstr "攻击者减少"
 
@@ -2202,11 +2202,11 @@ msgstr "攻击者减少"
 msgid "Less often"
 msgstr "较少"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:111
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:112
 msgid "Less repeats"
 msgstr "减少重复"
 
-#: libs/s25main/desktops/dskOptions.cpp:323
+#: libs/s25main/desktops/dskOptions.cpp:340
 msgid "Limit Framerate:"
 msgstr "限制帧率:"
 
@@ -2258,7 +2258,7 @@ msgstr ""
 "哨塔: 2\n"
 "堡垒: 1"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:71
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
 msgid "Load 'ReadMe' file"
 msgstr "\"ReadMe\"文件"
 
@@ -2308,15 +2308,15 @@ msgstr "正在加载游戏...\n"
 msgid "Loading of images %s for map selection failed."
 msgstr "地图选择图像 %s 加载失败."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:183
+#: libs/s25main/desktops/dskGameLobby.cpp:200
 msgid "Lobby Chat"
 msgstr "大厅聊天"
 
-#: libs/s25main/desktops/dskOptions.cpp:222
+#: libs/s25main/desktops/dskOptions.cpp:225
 msgid "Local Port:"
 msgstr "本地端口:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:201
+#: libs/s25main/desktops/dskGameLobby.cpp:218
 msgid "Lock teams:"
 msgstr "锁定团队："
 
@@ -2344,7 +2344,7 @@ msgstr "瞭望塔"
 msgid "Lookout-tower occupied"
 msgstr "占据瞭望塔"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1217
+#: libs/s25main/desktops/dskGameInterface.cpp:1213
 #: libs/s25main/desktops/dskLobby.cpp:259
 msgid "Lost connection to lobby!"
 msgstr "与大厅失去连接!"
@@ -2357,7 +2357,7 @@ msgstr "与服务器失去连接!"
 msgid "Lost land by this building"
 msgstr "因该建筑而失去领土"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:228
+#: libs/s25main/desktops/dskGameLobby.cpp:245
 msgid "Low"
 msgstr "低"
 
@@ -2379,20 +2379,20 @@ msgstr "Lua 脚本未提供 getRequiredLuaVersion() 函数! 可能已经过时�
 msgid "Lua script failed to load."
 msgstr "Lua 脚本加载失败."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:139
+#: libs/s25main/desktops/dskGameLobby.cpp:156
 msgid "Lua script uses a different version and cannot be used. Map might not work as expected!"
 msgstr "Lua 脚本使用不同版本, 无法使用. 地图可能无法按预期运行!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:133
-#: libs/s25main/desktops/dskGameLobby.cpp:381
+#: libs/s25main/desktops/dskGameLobby.cpp:150
+#: libs/s25main/desktops/dskGameLobby.cpp:398
 msgid "Lua script was found but failed to load. Map might not work as expected!"
 msgstr "找到 Lua 脚本, 但加载失败. 地图可能无法按预期运行!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:146
+#: libs/s25main/desktops/dskGameLobby.cpp:163
 msgid "Lua was disabled by the script itself\n"
 msgstr "脚本本身禁用了 Lua\n"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:123
+#: libs/s25main/desktops/dskGameInterface.cpp:139
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:34
 msgid "Main selection"
 msgstr "主菜单"
@@ -2409,7 +2409,7 @@ msgstr "手动升级道路并直接造驴路."
 msgid "Many"
 msgstr "许多"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:120
+#: libs/s25main/desktops/dskGameInterface.cpp:136
 #: libs/s25main/desktops/dskLAN.cpp:47 libs/s25main/desktops/dskLobby.cpp:54
 #: libs/s25main/ingameWindows/iwSave.cpp:52
 msgid "Map"
@@ -2443,11 +2443,11 @@ msgstr "地图大于 %1% 节点的允许大小"
 msgid "Map is invalid or failed to load properly!"
 msgstr "地图无效或无法正常加载!"
 
-#: libs/s25main/desktops/dskOptions.cpp:277
+#: libs/s25main/desktops/dskOptions.cpp:282
 msgid "Map moves in the opposite direction the mouse is moved when scrolling/panning."
 msgstr "当滚动/平移时，地图会朝着与鼠标移动方向相反的方向移动."
 
-#: libs/s25main/desktops/dskOptions.cpp:279
+#: libs/s25main/desktops/dskOptions.cpp:284
 msgid "Map moves in the same direction the mouse is moved when scrolling/panning."
 msgstr "当滚动/平移时，地图会朝着与鼠标移动方向相同的方向移动."
 
@@ -2459,8 +2459,8 @@ msgstr "地图传输损坏!"
 msgid "Map was loaded and pinned at the wall..."
 msgstr "(正在努力加载, 请耐心等待)"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:265
-#: libs/s25main/desktops/dskGameLobby.cpp:284
+#: libs/s25main/desktops/dskGameLobby.cpp:282
+#: libs/s25main/desktops/dskGameLobby.cpp:301
 #: libs/s25main/desktops/dskSelectMap.cpp:127
 msgid "Map: "
 msgstr "地图: "
@@ -2530,7 +2530,7 @@ msgstr "工具厂"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:61
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:63
-#: libs/s25main/ingameWindows/iwMilitary.cpp:20
+#: libs/s25main/ingameWindows/iwMilitary.cpp:29
 msgid "Military"
 msgstr "军事"
 
@@ -2619,7 +2619,7 @@ msgstr "混合型"
 msgid "Mnga Tscha"
 msgstr "萌嘎斯查"
 
-#: libs/s25main/desktops/dskOptions.cpp:317
+#: libs/s25main/desktops/dskOptions.cpp:333
 #: libs/s25main/ingameWindows/iwSettings.cpp:63
 msgid "Mode:"
 msgstr "显示模式:"
@@ -2636,11 +2636,11 @@ msgid "More"
 msgstr "更多"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:361
-#: libs/s25main/ingameWindows/iwMilitary.cpp:34
+#: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "More attackers"
 msgstr "更多攻击者"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:32
+#: libs/s25main/ingameWindows/iwMilitary.cpp:45
 msgid "More defenders"
 msgstr "更多后卫"
 
@@ -2648,11 +2648,11 @@ msgstr "更多后卫"
 msgid "More often"
 msgstr "更多"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:28
+#: libs/s25main/ingameWindows/iwMilitary.cpp:39
 msgid "More recruits"
 msgstr "更多新兵"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:113
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:114
 msgid "More repeats"
 msgstr "更多重复"
 
@@ -2664,13 +2664,13 @@ msgstr "更多树木生产动物"
 msgid "Multiplayer"
 msgstr "多人游戏"
 
-#: libs/s25main/desktops/dskOptions.cpp:380
+#: libs/s25main/desktops/dskOptions.cpp:403
 msgid "Music"
 msgstr "音乐"
 
-#: libs/s25main/desktops/dskOptions.cpp:390
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:81
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:102
+#: libs/s25main/desktops/dskOptions.cpp:414
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:82
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:131
 msgid "Music player"
 msgstr "音乐播放器"
 
@@ -2683,7 +2683,7 @@ msgstr "那波尼德"
 msgid "Name"
 msgstr "名称"
 
-#: libs/s25main/desktops/dskOptions.cpp:174
+#: libs/s25main/desktops/dskOptions.cpp:178
 msgid "Name in Game:"
 msgstr "游戏中的名字:"
 
@@ -2691,7 +2691,7 @@ msgstr "游戏中的名字:"
 msgid "Nation-specific catapult graphics"
 msgstr "个别种族投石器图形"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:40
+#: libs/s25main/ingameWindows/iwMilitary.cpp:61
 msgid "Near harbor points"
 msgstr "靠近港口点"
 
@@ -2720,13 +2720,13 @@ msgid "Next page"
 msgstr "下一页"
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:25
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:66
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:74
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:78
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:84
 msgid "No"
 msgstr "没有"
 
-#: libs/s25main/desktops/dskOptions.cpp:261
+#: libs/s25main/desktops/dskOptions.cpp:265
 msgid "No Proxy"
 msgstr "无代理"
 
@@ -2755,7 +2755,7 @@ msgstr "范围内没有鱼"
 msgid "No more stones in range"
 msgstr "范围内没有石头"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:263
+#: libs/s25main/desktops/dskGameLobby.cpp:280
 msgid "No preview"
 msgstr "无预览"
 
@@ -2785,19 +2785,19 @@ msgid "Non-aggression pact"
 msgstr "互不侵犯条约"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:20
-#: libs/s25main/desktops/dskGameLobby.cpp:235
+#: libs/s25main/desktops/dskGameLobby.cpp:252
 msgid "None"
 msgstr "无"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:25
 #: libs/s25main/addons/AddonShipSpeed.h:21
-#: libs/s25main/desktops/dskGameLobby.cpp:229
-#: libs/s25main/desktops/dskGameLobby.cpp:253
+#: libs/s25main/desktops/dskGameLobby.cpp:246
+#: libs/s25main/desktops/dskGameLobby.cpp:270
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:80
 msgid "Normal"
 msgstr "正常"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:955
+#: libs/s25main/desktops/dskGameLobby.cpp:979
 msgid "Not Ready"
 msgstr "未准备好"
 
@@ -2805,7 +2805,7 @@ msgstr "未准备好"
 msgid "Not a RTTR driver library!"
 msgstr "不是 RTTR 驱动程序库!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1168
+#: libs/s25main/desktops/dskGameInterface.cpp:1164
 #, c-format
 msgid "Note: Game settings changed by the server%s"
 msgstr "注:游戏设置由服务器更改%s"
@@ -2838,7 +2838,7 @@ msgstr "探险所需的侦察员人数"
 
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:66
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:71
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:63
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:64
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:26
 msgid "OK"
 msgstr "好的"
@@ -2858,19 +2858,20 @@ msgstr "屋大维努斯"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
-#: libs/s25main/desktops/dskOptions.cpp:253
-#: libs/s25main/desktops/dskOptions.cpp:278
-#: libs/s25main/desktops/dskOptions.cpp:288
-#: libs/s25main/desktops/dskOptions.cpp:307
-#: libs/s25main/desktops/dskOptions.cpp:330
-#: libs/s25main/desktops/dskOptions.cpp:351
-#: libs/s25main/desktops/dskOptions.cpp:367
-#: libs/s25main/desktops/dskOptions.cpp:377
-#: libs/s25main/desktops/dskOptions.cpp:383
+#: libs/s25main/desktops/dskOptions.cpp:257
+#: libs/s25main/desktops/dskOptions.cpp:283
+#: libs/s25main/desktops/dskOptions.cpp:293
+#: libs/s25main/desktops/dskOptions.cpp:303
+#: libs/s25main/desktops/dskOptions.cpp:322
+#: libs/s25main/desktops/dskOptions.cpp:348
+#: libs/s25main/desktops/dskOptions.cpp:371
+#: libs/s25main/desktops/dskOptions.cpp:388
+#: libs/s25main/desktops/dskOptions.cpp:399
+#: libs/s25main/desktops/dskOptions.cpp:406
 msgid "Off"
 msgstr "关闭"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:219
+#: libs/s25main/desktops/dskGameLobby.cpp:236
 msgid "Off (all visible)"
 msgstr "关闭 (全部可见)"
 
@@ -2882,7 +2883,7 @@ msgstr "军官"
 msgid "Officer (3)"
 msgstr "校官 (3)"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:336
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:341
 msgid "Ok"
 msgstr "好的"
 
@@ -2894,37 +2895,38 @@ msgstr "旧地图"
 msgid "Olof"
 msgstr "奥洛夫"
 
-#: libs/s25main/desktops/dskOptions.cpp:252
-#: libs/s25main/desktops/dskOptions.cpp:276
-#: libs/s25main/desktops/dskOptions.cpp:285
-#: libs/s25main/desktops/dskOptions.cpp:295
-#: libs/s25main/desktops/dskOptions.cpp:306
-#: libs/s25main/desktops/dskOptions.cpp:329
-#: libs/s25main/desktops/dskOptions.cpp:350
-#: libs/s25main/desktops/dskOptions.cpp:366
-#: libs/s25main/desktops/dskOptions.cpp:376
-#: libs/s25main/desktops/dskOptions.cpp:382
+#: libs/s25main/desktops/dskOptions.cpp:256
+#: libs/s25main/desktops/dskOptions.cpp:281
+#: libs/s25main/desktops/dskOptions.cpp:290
+#: libs/s25main/desktops/dskOptions.cpp:300
+#: libs/s25main/desktops/dskOptions.cpp:310
+#: libs/s25main/desktops/dskOptions.cpp:321
+#: libs/s25main/desktops/dskOptions.cpp:347
+#: libs/s25main/desktops/dskOptions.cpp:370
+#: libs/s25main/desktops/dskOptions.cpp:387
+#: libs/s25main/desktops/dskOptions.cpp:398
+#: libs/s25main/desktops/dskOptions.cpp:405
 msgid "On"
 msgstr "开启"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:406
+#: libs/s25main/desktops/dskGameLobby.cpp:423
 msgid "Open"
 msgstr "开放"
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:374
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:373
 msgid "OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or hardware!"
 msgstr "不支持 OpenGL %1% %2%.%3%. 请尝试更新你的显卡驱动程序或硬件!"
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:371
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:370
 msgid "OpenGL %1%.%2% supported\n"
 msgstr "支持 OpenGL %1%.%2%\n"
 
-#: libs/s25main/desktops/dskOptions.cpp:347
+#: libs/s25main/desktops/dskOptions.cpp:367
 msgid "Optimized Textures:"
 msgstr "优化贴图:"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:43
-#: libs/s25main/desktops/dskOptions.cpp:141
+#: libs/s25main/desktops/dskOptions.cpp:150
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:99
 msgid "Options"
 msgstr "选项"
@@ -2946,6 +2948,10 @@ msgstr "我们的总部被摧毁了!"
 msgid "Outline map"
 msgstr "地图"
 
+#: libs/s25main/ingameWindows/iwTempleBuilding.cpp:20
+msgid "Output mineral"
+msgstr ""
+
 #: libs/s25main/desktops/dskSelectMap.cpp:106
 msgid "Own maps"
 msgstr "自己的地图"
@@ -2963,11 +2969,11 @@ msgid "Password (if needed):"
 msgstr "密码 (如需要) :"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:34
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:57
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:65
 msgid "Password:"
 msgstr "密码:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:172
+#: libs/s25main/desktops/dskGameLobby.cpp:189
 msgid "Past player"
 msgstr "过去的玩家"
 
@@ -2975,7 +2981,7 @@ msgstr "过去的玩家"
 msgid "Peaceful"
 msgstr "和平"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1139
+#: libs/s25main/desktops/dskGameLobby.cpp:1165
 msgid "Peaceful mode"
 msgstr "和平模式"
 
@@ -2991,13 +2997,13 @@ msgstr "猪饲养员"
 msgid "Pig farm"
 msgstr "养猪场"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:167
+#: libs/s25main/desktops/dskGameLobby.cpp:184
 #: libs/s25main/desktops/dskLobby.cpp:57
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:50
 msgid "Ping"
 msgstr "Ping"
 
-#: libs/s25main/desktops/dskOptions.cpp:286
+#: libs/s25main/desktops/dskOptions.cpp:291
 #: libs/s25main/ingameWindows/iwSettings.cpp:78
 msgid "Place cursor on default button for new dialogs / action windows (default)"
 msgstr "将光标放在新对话框/操作窗口的默认按钮上 (默认值)"
@@ -3011,8 +3017,8 @@ msgstr "刨地工"
 msgid "Play Replay"
 msgstr "播放回放"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:115
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:428
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:116
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:429
 msgid "Playback in this order"
 msgstr "按以下顺序播放"
 
@@ -3036,31 +3042,31 @@ msgstr "玩家 %1%"
 msgid "Player %u does not have a valid start position!"
 msgstr "玩家 %u 的起始位置无效!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1359
+#: libs/s25main/desktops/dskGameInterface.cpp:1355
 #, c-format
 msgid "Player '%s' is the winner!"
 msgstr "玩家'%s'获胜!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1161
+#: libs/s25main/desktops/dskGameInterface.cpp:1157
 #, c-format
 msgid "Player '%s' joined the game!"
 msgstr "玩家 '%s' 加入游戏!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1158
+#: libs/s25main/desktops/dskGameInterface.cpp:1154
 #, c-format
 msgid "Player '%s' left the game!"
 msgstr "玩家 '%s' 离开了游戏!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1253
+#: libs/s25main/desktops/dskGameInterface.cpp:1249
 #, c-format
 msgid "Player '%s' was defeated!"
 msgstr "玩家 '%s' 被击败!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:159
+#: libs/s25main/desktops/dskGameLobby.cpp:176
 msgid "Player Name"
 msgstr "玩家姓名"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:86
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:87
 msgid "Playlist:"
 msgstr "播放列表:"
 
@@ -3074,11 +3080,11 @@ msgstr "请输入游戏名称"
 msgid "Please wait..."
 msgstr "请稍候..."
 
-#: libs/s25main/desktops/dskOptions.cpp:184
+#: libs/s25main/desktops/dskOptions.cpp:189
 msgid "Portrait:"
 msgstr "头像："
 
-#: libs/s25main/desktops/dskGameInterface.cpp:130
+#: libs/s25main/desktops/dskGameInterface.cpp:146
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
 msgid "Post office"
 msgstr "邮局"
@@ -3107,7 +3113,7 @@ msgstr "停止生产"
 msgid "Produce random ware"
 msgstr "生产随机物品"
 
-#: libs/s25main/ingameWindows/iwBuilding.cpp:63
+#: libs/s25main/ingameWindows/iwBuilding.cpp:68
 msgid "Production on/off"
 msgstr "生产开启/关闭"
 
@@ -3140,11 +3146,11 @@ msgstr "项目管理"
 msgid "Proportional"
 msgstr "按比例"
 
-#: libs/s25main/desktops/dskOptions.cpp:241
+#: libs/s25main/desktops/dskOptions.cpp:245
 msgid "Proxyserver:"
 msgstr "代理服务器:"
 
-#: libs/s25main/desktops/dskOptions.cpp:258
+#: libs/s25main/desktops/dskOptions.cpp:262
 msgid "Proxytyp:"
 msgstr "代理类型:"
 
@@ -3175,7 +3181,7 @@ msgstr "退出程序"
 msgid "RTTR"
 msgstr "RTTR"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:160
+#: libs/s25main/desktops/dskGameLobby.cpp:177
 msgid "Race"
 msgstr "种族"
 
@@ -3183,11 +3189,11 @@ msgstr "种族"
 msgid "Random Map"
 msgstr "随机地图"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:428
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:429
 msgid "Random playback"
 msgstr "随机播放"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:206
+#: libs/s25main/desktops/dskGameLobby.cpp:223
 msgid "Random start locations"
 msgstr "随机起始位置"
 
@@ -3199,19 +3205,19 @@ msgstr "生铁矿石在炼铁厂中借助煤炭进行冶炼. 加工后的铁可�
 msgid "Readme"
 msgstr "说明"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:782
+#: libs/s25main/desktops/dskGameInterface.cpp:794
 #: libs/s25main/desktops/dskMainMenu.cpp:118
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:120
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:155
 msgid "Readme!"
 msgstr "自述文件!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:197
-#: libs/s25main/desktops/dskGameLobby.cpp:717
-#: libs/s25main/desktops/dskGameLobby.cpp:955
+#: libs/s25main/desktops/dskGameLobby.cpp:214
+#: libs/s25main/desktops/dskGameLobby.cpp:741
+#: libs/s25main/desktops/dskGameLobby.cpp:979
 msgid "Ready"
 msgstr "准备就绪"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:166
+#: libs/s25main/desktops/dskGameLobby.cpp:183
 msgid "Ready?"
 msgstr "准备好了吗?"
 
@@ -3255,11 +3261,11 @@ msgstr "退还被毁建筑物的材料"
 msgid "Refund materials in emergency program"
 msgstr "紧急模式中的材料退还"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:81
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:93
 msgid "Register"
 msgstr "注册"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:95
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:96
 msgid "Remove"
 msgstr "移除"
 
@@ -3267,7 +3273,7 @@ msgstr "移除"
 msgid "Remove gold completely"
 msgstr "完全废除黄金"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:103
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:104
 msgid "Remove track"
 msgstr "移除轨道"
 
@@ -3275,7 +3281,13 @@ msgstr "移除轨道"
 msgid "Removes all replays that cannot be loaded with the current game version"
 msgstr "删除当前游戏版本无法加载的所有重放内容"
 
-#: libs/s25main/network/GameClient.cpp:1468
+#: libs/s25main/desktops/dskOptions.cpp:301
+msgid ""
+"Replace minimize button on windows by pin button avoiding closing the window with ESC.\n"
+"Minimize by double-clicking the title bar."
+msgstr ""
+
+#: libs/s25main/network/GameClient.cpp:1478
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr "重放文件无法打开. 不会录制重放\n"
 
@@ -3303,7 +3315,7 @@ msgstr "限制区"
 msgid "Resume last game"
 msgstr "继续最近的游戏"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:199
+#: libs/s25main/desktops/dskGameLobby.cpp:216
 msgid "Return"
 msgstr "返回"
 
@@ -3363,21 +3375,21 @@ msgstr "服务器: 玩家 %1% 的消息接收失败, 正在踢出…\n"
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
 msgstr "服务器:由于超时, 释放了 %1% 预留时隙\n"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1198
-#: libs/s25main/desktops/dskGameInterface.cpp:1203
+#: libs/s25main/desktops/dskGameInterface.cpp:1194
+#: libs/s25main/desktops/dskGameInterface.cpp:1199
 msgid "SYSTEM"
 msgstr "系统"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:62
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:72
 msgid "Save Password?"
 msgstr "保存密码?"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:81
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:106
 #: libs/s25main/ingameWindows/iwSave.cpp:129
 msgid "Save game!"
 msgstr "保存游戏!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:117
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:118
 msgid "Save playlist"
 msgstr "保存播放列表"
 
@@ -3385,7 +3397,7 @@ msgstr "保存播放列表"
 msgid "Savegame error: "
 msgstr "游戏存档错误: "
 
-#: libs/s25main/network/GameClient.cpp:1685
+#: libs/s25main/network/GameClient.cpp:1695
 msgid "Saving game..."
 msgstr "储存进度中.."
 
@@ -3401,7 +3413,7 @@ msgstr "锯木厂"
 msgid "Scout"
 msgstr "侦察员"
 
-#: libs/s25main/WindowManager.cpp:792
+#: libs/s25main/WindowManager.cpp:531
 msgid "Screenshot saved to %1%\n"
 msgstr "屏幕截图已保存到 %1%\n"
 
@@ -3524,7 +3536,7 @@ msgstr "定居者"
 msgid "Shaka"
 msgstr "恰卡"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:203
+#: libs/s25main/desktops/dskGameLobby.cpp:220
 msgid "Shared team view"
 msgstr "共享团队视图"
 
@@ -3540,6 +3552,11 @@ msgstr "船舶登记"
 #: libs/s25main/gameData/BuildingConsts.cpp:300
 msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also be prepared here. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "船只只能在港口装卸. 远征也可以在这里准备. 您可以根据需要从仓库中放出某些商品. 或者, 也可以关闭仓库功能. 为此, 首先要选择相关图标, 然后选择所需的商品或工作符号."
+
+#: libs/s25main/ingameWindows/iwBuilding.cpp:78
+#, fuzzy
+msgid "Ships/Boats"
+msgstr "船只"
 
 #: libs/s25main/gameData/JobConsts.cpp:48
 msgid "Shipwright"
@@ -3561,7 +3578,7 @@ msgstr "短期"
 msgid "Shovel"
 msgstr "铲子"
 
-#: libs/s25main/desktops/dskOptions.cpp:304
+#: libs/s25main/desktops/dskOptions.cpp:319
 msgid "Show GameFrame Info:"
 msgstr "显示游戏帧信息:"
 
@@ -3606,11 +3623,11 @@ msgid "Slaughterhouse"
 msgstr "屠宰场"
 
 #: libs/s25main/addons/AddonShipSpeed.h:20
-#: libs/s25main/desktops/dskGameLobby.cpp:252
+#: libs/s25main/desktops/dskGameLobby.cpp:269
 msgid "Slow"
 msgstr "慢"
 
-#: libs/s25main/desktops/dskOptions.cpp:283
+#: libs/s25main/desktops/dskOptions.cpp:288
 #: libs/s25main/ingameWindows/iwSettings.cpp:76
 msgid "Smart Cursor"
 msgstr "智能光标"
@@ -3619,7 +3636,7 @@ msgstr "智能光标"
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
 msgstr "武器匠可以用一个铁而不是两个铁加两个煤炭来铸成一个盾和一把剑"
 
-#: libs/s25main/desktops/dskOptions.cpp:262
+#: libs/s25main/desktops/dskOptions.cpp:266
 msgid "Socks v4"
 msgstr "Socks v4"
 
@@ -3641,26 +3658,26 @@ msgstr ""
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
 #: libs/s25main/desktops/dskLobby.cpp:226
 #: libs/s25main/desktops/dskLobby.cpp:239
-#: libs/s25main/desktops/dskOptions.cpp:646
-#: libs/s25main/desktops/dskOptions.cpp:658
-#: libs/s25main/desktops/dskOptions.cpp:666
+#: libs/s25main/desktops/dskOptions.cpp:672
+#: libs/s25main/desktops/dskOptions.cpp:684
+#: libs/s25main/desktops/dskOptions.cpp:692
 #: libs/s25main/ingameWindows/iwSettings.cpp:99
 msgid "Sorry!"
 msgstr "抱歉!"
 
-#: libs/s25main/desktops/dskOptions.cpp:151
+#: libs/s25main/desktops/dskOptions.cpp:160
 msgid "Sound/Music"
 msgstr "音效/音乐"
 
-#: libs/s25main/desktops/dskOptions.cpp:394
+#: libs/s25main/desktops/dskOptions.cpp:419
 msgid "Sounddriver"
 msgstr "声音驱动程序"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:253
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:260
 msgid "Specify the playlist name"
 msgstr "指定播放列表名称"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:248
+#: libs/s25main/desktops/dskGameLobby.cpp:265
 msgid "Speed:"
 msgstr "速度:"
 
@@ -3674,7 +3691,7 @@ msgstr "无法加载启动画面!"
 msgid "Start"
 msgstr "开始"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:786
+#: libs/s25main/desktops/dskGameLobby.cpp:810
 msgid "Start aborted"
 msgstr "启动中止"
 
@@ -3688,13 +3705,13 @@ msgstr "开始远征"
 msgid "Start exporation expedition"
 msgstr "开始探索之旅"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:197
-#: libs/s25main/desktops/dskGameLobby.cpp:711
-#: libs/s25main/desktops/dskGameLobby.cpp:953
+#: libs/s25main/desktops/dskGameLobby.cpp:214
+#: libs/s25main/desktops/dskGameLobby.cpp:735
+#: libs/s25main/desktops/dskGameLobby.cpp:977
 msgid "Start game"
 msgstr "开始游戏"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:776
+#: libs/s25main/desktops/dskGameLobby.cpp:800
 msgid "Starting game, please wait"
 msgstr "开始游戏, 请稍候"
 
@@ -3744,7 +3761,7 @@ msgstr "仓库"
 msgid "Strong attackers"
 msgstr "强大的攻击者"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:30
+#: libs/s25main/ingameWindows/iwMilitary.cpp:42
 msgid "Strong defense"
 msgstr "强大的防守"
 
@@ -3752,7 +3769,7 @@ msgstr "强大的防守"
 msgid "Style"
 msgstr "风格"
 
-#: libs/s25main/desktops/dskOptions.cpp:293
+#: libs/s25main/desktops/dskOptions.cpp:308
 msgid "Submit debug data:"
 msgstr "提交调试数据:"
 
@@ -3768,7 +3785,7 @@ msgstr "建议签订互不侵犯条约"
 msgid "Suggest treaty of alliance"
 msgstr "建议签订同盟条约"
 
-#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:105
+#: libs/s25main/ingameWindows/iwOptionsWindow.cpp:139
 #: libs/s25main/ingameWindows/iwSurrender.cpp:16
 msgid "Surrender"
 msgstr "投降"
@@ -3777,7 +3794,7 @@ msgstr "投降"
 msgid "Surrender game?"
 msgstr "要投降吗?"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:170
+#: libs/s25main/desktops/dskGameLobby.cpp:187
 msgid "Swap"
 msgstr "交换位置"
 
@@ -3797,7 +3814,7 @@ msgstr "终了"
 msgid "Take out of store"
 msgstr "清空"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:162
+#: libs/s25main/desktops/dskGameLobby.cpp:179
 msgid "Team"
 msgstr "团队"
 
@@ -3835,7 +3852,7 @@ msgstr "玩家 %s' 和您之间的 %s 已取消."
 msgid "The %s between player '%s' and you has been concluded."
 msgstr "玩家 %s' 和您之间的 %s 已结束."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1181
+#: libs/s25main/desktops/dskGameInterface.cpp:1177
 #: libs/s25main/network/GameClient.cpp:856
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "游戏不同步. 某些玩家的校验码不匹配."
@@ -3946,7 +3963,7 @@ msgstr "玩家 %s 向您提供了 %s."
 msgid "The player '%s' want to cancel the '%s' between you both prematurely. Do you agree?"
 msgstr "玩家'%s'想提前取消你们之间的'%s'. 您同意吗?"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:336
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:341
 msgid "The playlist was saved!"
 msgstr "播放列表已保存!"
 
@@ -3962,7 +3979,7 @@ msgstr "花岗岩矿的石料开采保证了建筑物的石料供应. 然而, �
 msgid "The selected game was not found anymore."
 msgstr "所选游戏不再存在."
 
-#: libs/s25main/desktops/dskOptions.cpp:646
+#: libs/s25main/desktops/dskOptions.cpp:672
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
 msgstr "所选视频驱动程序不支持 GUI 缩放! 设置将不会被使用."
 
@@ -3972,16 +3989,16 @@ msgstr "船舶登记册包含您船队中的所有船舶. 在这里, 您可以�
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:96
 #: libs/s25main/desktops/dskSinglePlayer.cpp:100
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:169
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:171
 msgid "The specified file couldn't be loaded!"
 msgstr "无法加载指定文件!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:373
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:376
 msgid "The specified file couldn't be opened!"
 msgstr "指定文件无法打开!"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:340
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:390
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:345
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:391
 msgid "The specified file couldn't be saved!"
 msgstr "无法保存指定文件!"
 
@@ -4033,7 +4050,7 @@ msgstr "本服务器已满!"
 msgid "This harbor building was destroyed"
 msgstr "这座海港建筑被摧毁"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:108
+#: libs/s25main/ingameWindows/iwMilitary.cpp:126
 msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
 msgstr "在这里您可以对所有军事事务进行调整. 上限值与军队的招募率相对应. 数值越高, 招募的士兵就越多. 下方是保护小屋的设置. 如果该值设置为最大值, 您的小屋将由最强大的部队来保卫. 要提高每次攻击时离开小屋的攻击者人数, 请选择下一个设置. 第四项显示的是在敌人进时进行反击的防御者人数. 最后三个数值分别代表您的小屋在内陆, 国家中心和边境的占领情况."
 
@@ -4070,7 +4087,7 @@ msgstr "头衔"
 msgid "To player:"
 msgstr "给玩家:"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:171
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:176
 msgid "To register, you have to create a valid board account at http://forum.siedler25.org at the moment.\n"
 msgstr "你必须要先在 http://forum.siedler25.org 论坛上注册账户.\n"
 
@@ -4102,15 +4119,15 @@ msgstr "工人手中的工具也计算在内. 士兵使用的武器和啤酒也�
 msgid "Top"
 msgstr "返回顶部"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:237
+#: libs/s25main/desktops/dskGameLobby.cpp:254
 msgid "Total domination"
 msgstr "全面统治"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:393
+#: libs/s25main/desktops/dskGameInterface.cpp:409
 msgid "Tournament finished"
 msgstr "比赛结束"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:245
+#: libs/s25main/desktops/dskGameLobby.cpp:262
 #, c-format
 msgid "Tournament: %u minutes"
 msgstr "比赛:%u 分钟"
@@ -4174,7 +4191,7 @@ msgstr "意外的地图动态类型"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:102
-#: libs/s25main/network/GameClient.cpp:1482
+#: libs/s25main/network/GameClient.cpp:1492
 msgid "Unknown"
 msgstr "未知"
 
@@ -4236,7 +4253,7 @@ msgstr "上"
 msgid "Upgrade to donkey road"
 msgstr "升级为驴道"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:105
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:106
 msgid "Upwards"
 msgstr "向上"
 
@@ -4244,10 +4261,10 @@ msgstr "向上"
 msgid "Use"
 msgstr "使用"
 
-#: libs/s25main/desktops/dskOptions.cpp:230
+#: libs/s25main/desktops/dskOptions.cpp:233
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:56
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:38
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:70
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:81
 msgid "Use IPv6:"
 msgstr "连接协议:"
 
@@ -4255,11 +4272,11 @@ msgstr "连接协议:"
 msgid "Use S2 Defaults"
 msgstr "使用默认值"
 
-#: libs/s25main/desktops/dskOptions.cpp:250
+#: libs/s25main/desktops/dskOptions.cpp:254
 msgid "Use UPnP"
 msgstr "使用 UPnP"
 
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:52
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:58
 msgid "Username:"
 msgstr "用户名:"
 
@@ -4285,11 +4302,11 @@ msgstr "版本不匹配. 服务器版本:%1%, 您的版本 %2%"
 msgid "Version:"
 msgstr "版本:"
 
-#: libs/s25main/desktops/dskOptions.cpp:327
+#: libs/s25main/desktops/dskOptions.cpp:345
 msgid "Vertex Buffer Objects:"
 msgstr "顶点缓冲对象:"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:227
+#: libs/s25main/desktops/dskGameLobby.cpp:244
 msgid "Very Low"
 msgstr "非常低"
 
@@ -4298,7 +4315,7 @@ msgid "Very far"
 msgstr "很远"
 
 #: libs/s25main/addons/AddonShipSpeed.h:23
-#: libs/s25main/desktops/dskGameLobby.cpp:255
+#: libs/s25main/desktops/dskGameLobby.cpp:272
 msgid "Very fast"
 msgstr "很快"
 
@@ -4307,7 +4324,7 @@ msgid "Very long"
 msgstr "很长"
 
 #: libs/s25main/addons/AddonShipSpeed.h:19
-#: libs/s25main/desktops/dskGameLobby.cpp:251
+#: libs/s25main/desktops/dskGameLobby.cpp:268
 msgid "Very slow"
 msgstr "很慢"
 
@@ -4315,7 +4332,7 @@ msgstr "很慢"
 msgid "Video driver couldn't be loaded!"
 msgstr "无法加载图像驱动!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:210
+#: libs/s25main/desktops/dskGameLobby.cpp:227
 msgid "View Settings..."
 msgstr "查看设置..."
 
@@ -4348,7 +4365,7 @@ msgid "Waiting for Playerinfo..."
 msgstr "等待玩家信息..."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:73
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:249
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:232
 msgid "Waiting for Reply..."
 msgstr "等待回复..."
 
@@ -4393,7 +4410,7 @@ msgstr "希望您享受回到根源游戏 !"
 msgid "Weak attackers"
 msgstr "弱小的攻击者"
 
-#: libs/s25main/ingameWindows/iwMilitary.cpp:30
+#: libs/s25main/ingameWindows/iwMilitary.cpp:42
 msgid "Weak defense"
 msgstr "防守薄弱"
 
@@ -4421,7 +4438,11 @@ msgstr "水井"
 msgid "What is this?"
 msgstr "这是什么?"
 
-#: libs/s25main/desktops/dskOptions.cpp:320
+#: libs/s25main/desktops/dskOptions.cpp:298
+msgid "Window pinning"
+msgstr ""
+
+#: libs/s25main/desktops/dskOptions.cpp:336
 #: libs/s25main/ingameWindows/iwSettings.cpp:68
 msgid "Windowed"
 msgstr "窗口模式"
@@ -4488,13 +4509,13 @@ msgid "Yamauchi"
 msgstr "山內"
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:23
-#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:67
+#: libs/s25main/ingameWindows/iwLobbyConnect.cpp:76
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:77
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:83
 msgid "Yes"
 msgstr "是"
 
-#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:266
+#: libs/s25main/ingameWindows/iwMusicPlayer.cpp:271
 msgid "You are not allowed to delete the standard playlist!"
 msgstr "不允许删除标准播放列表!"
 
@@ -4523,11 +4544,11 @@ msgstr ""
 msgid "You can't join that game with your version!"
 msgstr "你不能用你的版本加入这个游戏!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1140
+#: libs/s25main/desktops/dskGameLobby.cpp:1166
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
 msgstr "您选择了基于战争的胜利条件, 但和平模式仍处于激活状态. 您想在游戏开始前停用和平模式吗?选择 \"否 \"将开始游戏, 选择 \"是 \"将让您查看更改."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1125
+#: libs/s25main/desktops/dskGameLobby.cpp:1151
 msgid ""
 "You chose the economy mode. In economy mode the player or team that collects the most of certain goods wins (check the Economic progress window in game).\n"
 "\n"
@@ -4541,17 +4562,17 @@ msgstr ""
 "选择 \"是 \"将激活和平模式, 禁止使用投石屋, 并默认禁止建筑物接收金币. 单击 \"是 \"后, 您可以查看更改, 然后再次单击 \"开始游戏 \"按钮开始游戏. \n"
 "选择 \"否 \"将在不做任何更改的情况下开始游戏."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:768
+#: libs/s25main/desktops/dskGameLobby.cpp:792
 #, c-format
 msgid "You have %u seconds until game starts"
 msgstr "距离游戏开始还有 %u 秒"
 
-#: libs/s25main/desktops/dskOptions.cpp:658
+#: libs/s25main/desktops/dskOptions.cpp:684
 #: libs/s25main/ingameWindows/iwSettings.cpp:99
 msgid "You need to restart your game to change the screen resolution!"
 msgstr "您需要重新启动游戏才能更改屏幕分辨率!"
 
-#: libs/s25main/desktops/dskOptions.cpp:666
+#: libs/s25main/desktops/dskOptions.cpp:692
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "您需要重新启动游戏才能更改视频或音频驱动程序!"
 
@@ -4575,7 +4596,7 @@ msgstr "放大"
 msgid "all developers who contributed via Github"
 msgstr "所有通过 Github 投稿的开发人员"
 
-#: libs/s25main/network/GameClient.cpp:1654
+#: libs/s25main/network/GameClient.cpp:1664
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "当前 GF:%u - 仍在快进:还剩 %d GF (%d %%)"
