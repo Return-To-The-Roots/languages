@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-12 10:10+0100\n"
-"PO-Revision-Date: 2025-11-23 20:12+0000\n"
-"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
+"PO-Revision-Date: 2026-01-30 15:37+0000\n"
+"Last-Translator: silverhole <Unknown>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-12 09:20+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-02-06 09:56+0000\n"
+"X-Generator: Launchpad (build 4847db153920c8fbc330ac275b92a72279fa07a2)\n"
 "X-Poedit-Country: CZECH REPUBLIC\n"
 "X-Poedit-Language: Czech\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -81,7 +81,7 @@ msgstr "%1% jsou vítězové!"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:258
 msgid "%1% campaign(s) could not be loaded. Check the log for details"
-msgstr ""
+msgstr "Kampaň nemohla být nahrána. Pro více informací zkontroluj log."
 
 #: libs/s25main/desktops/dskSelectMap.cpp:170
 msgid "%1% map(s) could not be loaded. Check the log for details"
@@ -365,7 +365,7 @@ msgstr "Další podpora:"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:39
 msgid "Additional features:"
-msgstr "Další vlastnosti:"
+msgstr "Další nastavení:"
 
 #: libs/s25main/desktops/dskCredits.cpp:71
 msgid "Additional graphics"
@@ -462,7 +462,7 @@ msgstr "Uhlíř je stavba která umožňuje produkci uhlí z klád a obilí."
 
 #: libs/s25main/addons/AddonWine.h:18
 msgid "Allows to build the wine economy buildings."
-msgstr ""
+msgstr "Povolí stavbu budov vinařské ekonomiky."
 
 #: libs/s25main/addons/AddonToolOrdering.h:14
 msgid "Allows to order a specific amount of tools for priority production."
@@ -559,7 +559,7 @@ msgstr "Asynchronní protokoly byly přijaty kompletně.\n"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:117
 msgid "At the winery, grapes are stomped in a vat to produce wine. The vintner's wine is of high quality, worthy of sacrifice at the temple."
-msgstr ""
+msgstr "Ve vinárně jsou hrozny rozšlapány v kádi aby mohlo být vyrobeno víno. Víno od vinaře je takové kvality, že může být obětováno v chrámech."
 
 #: libs/s25main/ingameWindows/iwAction.cpp:352
 msgid "Attack not possible."
@@ -586,7 +586,7 @@ msgstr "Autor"
 #: libs/s25main/desktops/dskOptions.cpp:791
 #, c-format
 msgid "Auto (%u%%)"
-msgstr ""
+msgstr "Auto (%u%%)"
 
 #: libs/s25main/network/GameClient.cpp:1415
 #: libs/s25main/network/GameClient.cpp:1417
@@ -664,7 +664,7 @@ msgstr "Pivo"
 #: libs/s25main/desktops/dskOptions.cpp:396
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
 msgid "Bird sounds"
-msgstr ""
+msgstr "Pískání ptáků"
 
 #: libs/s25main/gameData/GoodConsts.cpp:32
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:48
@@ -715,7 +715,7 @@ msgstr "Pivovar"
 
 #: libs/s25main/gameData/PortraitConsts.h:22
 msgid "Brutus"
-msgstr ""
+msgstr "Brutus"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:200
 #: libs/s25main/ingameWindows/iwAction.cpp:212
@@ -750,7 +750,7 @@ msgstr "Řezník"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:47
 msgid "COMP"
-msgstr ""
+msgstr "Poč."
 
 #: libs/s25main/ingameWindows/iwAction.cpp:204
 #: libs/s25main/ingameWindows/iwAction.cpp:218
@@ -764,20 +764,20 @@ msgstr "Kampaň"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:66
 msgid "Campaign %1% has no maps.\n"
-msgstr ""
+msgstr "Kampaň %1% neobsahuje žádné mapy.\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:230
 msgid "Campaign map %1% does not exist.\n"
-msgstr ""
+msgstr "Mapa kampaně %1% neexistuje.\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:243
 msgid "Campaign map lua file %1% does not exist.\n"
-msgstr ""
+msgstr "Lua soubor této mapy kampaně %1% neexistuje.\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:67
 #: libs/s25main/desktops/dskSinglePlayer.cpp:43
 msgid "Campaigns"
-msgstr ""
+msgstr "Kampaně"
 
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:72
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:85
@@ -799,11 +799,11 @@ msgstr "Pokud jsou stále aktivní události, nelze deserializovat správce udá
 
 #: libs/s25main/Replay.cpp:219
 msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
-msgstr ""
+msgstr "Nelze přehrát replay vytvořený v novější verzi GC (Aktuální: %1%, Replay: %2%)"
 
 #: libs/s25main/Replay.cpp:207
 msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
-msgstr ""
+msgstr "Nelze přehrát replay vytvořený v novější verzi (Aktuální: %1%, Replay: %2%)"
 
 #: libs/s25main/gameData/JobConsts.cpp:23
 msgid "Carpenter"
@@ -842,7 +842,10 @@ msgid ""
 "Change the military setting 'defender'.\n"
 "\n"
 "You can choose to disallow any changes to that setting or you can limit the amount of reoccupying troops (during an attack) according to the defender setting."
-msgstr "Změna vojenského nastavení „obránce“."
+msgstr ""
+"Změna vojenského nastavení 'obránce'.\n"
+"\n"
+"Můžeš zakázat jakékoli změny tohoto nastavení, nebo omezit počet jednotek, které mohou být během útoku znovu obsazeny, podle nastavení obránce."
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:19
 msgid ""
@@ -890,7 +893,7 @@ msgstr "Ověřuji heslo..."
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:82
 msgid "Choose mission"
-msgstr ""
+msgstr "Výběr mise"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:237
 msgid "Classic (Settlers 2)"
@@ -1152,7 +1155,7 @@ msgstr "Budovu není možné zbořit"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:74
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: libs/s25main/ingameWindows/iwSurrender.cpp:19
 msgid "Destroy all buildings and surrender"
@@ -1164,7 +1167,7 @@ msgstr "Diář"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:77
 msgid "Difficulty"
-msgstr ""
+msgstr "Obtížnost"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:261
 #: libs/s25main/ingameWindows/iwAction.cpp:270
@@ -1190,7 +1193,7 @@ msgstr "Zakázat demolici vojenských budov"
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:17
 msgid "Disable coins by default"
-msgstr "Zakázat placení ve vojenských budovách"
+msgstr "Zakázat příjem mincí ve vojenských budovách"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:19
 msgid "Disable the demolition of military buildings under attack or near frontiers."
@@ -1328,7 +1331,7 @@ msgstr "Povolit uhlíře"
 
 #: libs/s25main/addons/AddonWine.h:17
 msgid "Enable wine economy"
-msgstr ""
+msgstr "Povolit vinařskou ekonomiku"
 
 #: libs/s25main/addons/AddonAsyncDebug.h:17
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
@@ -1368,7 +1371,7 @@ msgstr "Vztyčit vlajku"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Erik"
-msgstr ""
+msgstr "Erik"
 
 #: libs/s25client/s25client.cpp:123 libs/s25client/s25client.cpp:146
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
@@ -1423,7 +1426,7 @@ msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1723
 msgid "Error during saving: "
-msgstr ""
+msgstr "Error v průběhu ukládání: "
 
 #: libs/s25main/network/GameClient.cpp:1568
 #, c-format
@@ -1469,7 +1472,7 @@ msgstr "Všichni"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:23
 msgid "Exhaustible"
-msgstr "Vyčerpatelné"
+msgstr "Vyčerpatelná"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:17
 msgid "Exhaustible Water"
@@ -1506,7 +1509,7 @@ msgstr "Nepodařilo se nahrát %s\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:218
 msgid "Failed to load campaign %1%.\n"
-msgstr ""
+msgstr "Nepovedlo se načíst kampaň %1%.\n"
 
 #: libs/s25main/desktops/dskCredits.cpp:276
 msgid "Failed to load game data"
@@ -1600,9 +1603,8 @@ msgid "File could not be opened."
 msgstr "Soubor nemůže být otevřen."
 
 #: libs/s25main/SavedFile.cpp:87
-#, fuzzy
 msgid "File has an old version and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "Soubor má starou verzi a nelze jej použít (verze: %1%, očekávaná: %2%)!"
+msgstr "Soubor je staré verze a nelze použít (verze: %1%.%2%, očekáváno: %3%.%4%)!"
 
 #: libs/s25main/SavedFile.cpp:76
 msgid "File is not in a valid format!"
@@ -1614,9 +1616,8 @@ msgid "File or directory does not exist: %s\n"
 msgstr "Soubor nebo adresář neexistuje: %s\n"
 
 #: libs/s25main/SavedFile.cpp:88
-#, fuzzy
 msgid "File was created with more recent program and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "Soubor byl vytvořen pomocí novějšího programu a nelze jej použít (verze: %1%, očekávaná: %2%)!"
+msgstr "Soubor byl vytvořen v novější verzi na nelze použít (verze: %1%.%2%, očekáváno: %3%.%4%)!"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:51
 msgid "Filename"
@@ -1648,7 +1649,7 @@ msgstr "Prozkoumané je vidět"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:238
 msgid "Fog of War"
-msgstr "Fog of War"
+msgstr "Mlha války"
 
 #: libs/s25main/ingameWindows/iwObservate.cpp:50
 msgid "Follow object"
@@ -1705,7 +1706,7 @@ msgstr "Hraniční vzdálenost kontroluje dosažitelnost"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
-msgstr "Vojenská kontrola"
+msgstr "Plná kontrola"
 
 #: libs/s25main/desktops/dskOptions.cpp:335
 #: libs/s25main/ingameWindows/iwSettings.cpp:66
@@ -1719,7 +1720,7 @@ msgstr "Rozlišení v režimu celé obrazovky:"
 
 #: libs/s25main/desktops/dskOptions.cpp:375
 msgid "GUI Scale:"
-msgstr ""
+msgstr "Velikost rozhraní"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:198
 msgid "Game Chat"
@@ -1868,7 +1869,7 @@ msgstr "Kámen:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:44
 msgid "Grapes"
-msgstr ""
+msgstr "Hrozny"
 
 #: libs/s25main/desktops/dskOptions.cpp:158
 msgid "Graphics"
@@ -1888,7 +1889,7 @@ msgstr "Vzdálenost HQ k hoře"
 
 #: libs/s25main/gameData/PortraitConsts.h:27
 msgid "Hakirawashi"
-msgstr ""
+msgstr "Hakirawashi"
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:16
 msgid "Half cost recruits"
@@ -1945,7 +1946,7 @@ msgstr "Hostitel:"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
 msgid "Hosting of game not possible"
-msgstr ""
+msgstr "Hostování hry není možné"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:300
 msgid "House names"
@@ -2003,7 +2004,7 @@ msgstr "Prodlouží dobu značek surovin nalezených geology na horách."
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
 msgid "Inexhaustible"
-msgstr "Nevyčerpatelný"
+msgstr "Nevyčerpatelná"
 
 #: libs/s25main/addons/AddonInexhaustibleFish.h:17
 msgid "Inexhaustible Fish"
@@ -2019,7 +2020,7 @@ msgstr "Nevyčerpatelné doly"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:22
 msgid "Inexhaustible and water everywhere"
-msgstr "Nevyčerpatelné a voda je všude"
+msgstr "Nevyčerpatelná a voda je všude"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:137
 #: libs/s25main/ingameWindows/iwStatistics.cpp:224
@@ -2065,7 +2066,7 @@ msgstr "Neplatná uložená hra  %1%! Důvod: %2%\n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:31
 msgid "Invalid difficulty: %1%"
-msgstr ""
+msgstr "Neplatná obtížnost:"
 
 #: libs/s25main/world/MapSerializer.cpp:176
 msgid "Invalid end-id for lua data"
@@ -2081,7 +2082,7 @@ msgstr "Neplatné ID scriptu LUA"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:26
 msgid "Invalid maximum human player count: %1%"
-msgstr ""
+msgstr "Neplatný maximální počet hráčů: %1%"
 
 #: libs/s25main/desktops/dskOptions.cpp:640
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
@@ -2091,11 +2092,11 @@ msgstr "Špatný port. Přípustné jsou hodnoty mezi 1 a 65535!"
 
 #: libs/s25main/ingameWindows/iwSettings.cpp:73
 msgid "Invert Mouse Pan"
-msgstr ""
+msgstr "Invertovat Posouvání Myši"
 
 #: libs/s25main/desktops/dskOptions.cpp:279
 msgid "Invert Mouse Pan:"
-msgstr ""
+msgstr "Invertovat pohyb myši:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:26
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:66
@@ -2145,7 +2146,7 @@ msgstr "Připojit se ke hře"
 
 #: libs/s25main/gameData/PortraitConsts.h:21
 msgid "Julius"
-msgstr ""
+msgstr "Julius"
 
 #: libs/s25main/network/GameClient.cpp:1676
 #, c-format
@@ -2154,11 +2155,11 @@ msgstr "Skok skončil (%1$.3g seconds)."
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:168
 msgid "Jump to X:Y"
-msgstr ""
+msgstr "Skočit na X:Y"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:20
 msgid "Keep setting"
-msgstr "zachovat volbu"
+msgstr "Zachovat volbu"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:791
 #: libs/s25main/desktops/dskOptions.cpp:221
@@ -2170,7 +2171,7 @@ msgstr "Rozložení klávesnice"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Knut"
-msgstr ""
+msgstr "Knut"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
 msgid "Land"
@@ -2306,7 +2307,7 @@ msgstr "Načítání hry...\n"
 #: libs/s25main/controls/ctrlMapSelection.cpp:27
 #, c-format
 msgid "Loading of images %s for map selection failed."
-msgstr ""
+msgstr "Nahrávání obrázků %s pro vybranou mapu selhalo."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:200
 msgid "Lobby Chat"
@@ -2429,7 +2430,7 @@ msgstr "Jméno mapy:"
 
 #: libs/s25main/controls/ctrlMapSelection.cpp:44
 msgid "Map and mission mask have different sizes."
-msgstr ""
+msgstr "Mapa a maska mise mají rozdílné velikosti."
 
 #: libs/s25main/desktops/dskSelectMap.cpp:195
 msgid "Map has more than %1% players"
@@ -2445,11 +2446,11 @@ msgstr "Mapa je neplatná nebo se nepodařila správně načíst!"
 
 #: libs/s25main/desktops/dskOptions.cpp:282
 msgid "Map moves in the opposite direction the mouse is moved when scrolling/panning."
-msgstr ""
+msgstr "Mapa se při posouvání pohybuje opačným směrem než myš."
 
 #: libs/s25main/desktops/dskOptions.cpp:284
 msgid "Map moves in the same direction the mouse is moved when scrolling/panning."
-msgstr ""
+msgstr "Mapa se při posouvání pohybuje stejným směrem jako myš."
 
 #: libs/s25main/network/ClientError.cpp:17
 msgid "Map transmission was corrupt!"
@@ -2476,7 +2477,7 @@ msgstr "Mapování"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:76
 msgid "Maps"
-msgstr ""
+msgstr "Mapy"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:27
 msgid "Maximal"
@@ -2589,7 +2590,7 @@ msgstr "Minimální"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
-msgstr "Vojenská kontrola"
+msgstr "Minimální kontrola"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:34
 msgid "Minimum strength"
@@ -2605,7 +2606,7 @@ msgstr "Mincovník"
 
 #: libs/s25main/desktops/dskSplash.cpp:87
 msgid "Missing game files"
-msgstr ""
+msgstr "Chybějící herní soubory"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:124
 msgid "Missing required API function"
@@ -2617,7 +2618,7 @@ msgstr "Smíšený"
 
 #: libs/s25main/gameData/PortraitConsts.h:29
 msgid "Mnga Tscha"
-msgstr ""
+msgstr "Mnga Tscha"
 
 #: libs/s25main/desktops/dskOptions.cpp:333
 #: libs/s25main/ingameWindows/iwSettings.cpp:63
@@ -2676,7 +2677,7 @@ msgstr "Přehravač hudby"
 
 #: libs/s25main/gameData/PortraitConsts.h:30
 msgid "Nabonidus"
-msgstr ""
+msgstr "Nabonidus"
 
 #: libs/s25main/desktops/dskLobby.cpp:59
 #: libs/s25main/desktops/dskSelectMap.cpp:75
@@ -2757,7 +2758,7 @@ msgstr "V dosahu není již žádný kámen"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:280
 msgid "No preview"
-msgstr ""
+msgstr "Náhled není k dispozici"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:20
 msgid "No refund"
@@ -2854,7 +2855,7 @@ msgstr "Pozorovací okno"
 
 #: libs/s25main/gameData/PortraitConsts.h:20
 msgid "Octavianus"
-msgstr ""
+msgstr "Octavianus"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
@@ -2893,7 +2894,7 @@ msgstr "Staré mapy"
 
 #: libs/s25main/gameData/PortraitConsts.h:24
 msgid "Olof"
-msgstr ""
+msgstr "Olaf"
 
 #: libs/s25main/desktops/dskOptions.cpp:256
 #: libs/s25main/desktops/dskOptions.cpp:281
@@ -2950,7 +2951,7 @@ msgstr "Přehledová mapka"
 
 #: libs/s25main/ingameWindows/iwTempleBuilding.cpp:20
 msgid "Output mineral"
-msgstr ""
+msgstr "Výstupní minerál"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:106
 msgid "Own maps"
@@ -3082,7 +3083,7 @@ msgstr "Čekejte prosím..."
 
 #: libs/s25main/desktops/dskOptions.cpp:189
 msgid "Portrait:"
-msgstr ""
+msgstr "Portrét:"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:146
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
@@ -3239,7 +3240,7 @@ msgstr "Ve výchozím nastavení je ve vojenských budovách zakázán příjem 
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:26
 msgid "Reduce reoccupying troops accordingly"
-msgstr "Snížit obsazenost vojáky podle"
+msgstr "Snížit obsazenost vojáky odpovídajícím způsobem"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:21
 msgid "Refund 25%"
@@ -3286,6 +3287,8 @@ msgid ""
 "Replace minimize button on windows by pin button avoiding closing the window with ESC.\n"
 "Minimize by double-clicking the title bar."
 msgstr ""
+"Nahradí tlačítko minimalizovat tlačítkem připnutí, které zabrání zavření okna klávesou ESC.\n"
+"Minimalizaci lze provést dvojklikem na titulní lištu."
 
 #: libs/s25main/network/GameClient.cpp:1478
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
@@ -3399,7 +3402,7 @@ msgstr "Chyba uložené hry: "
 
 #: libs/s25main/network/GameClient.cpp:1695
 msgid "Saving game..."
-msgstr ""
+msgstr "Ukládání hry..."
 
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
@@ -3542,7 +3545,7 @@ msgstr "Settleři"
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Shaka"
-msgstr ""
+msgstr "Shaka"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:220
 msgid "Shared team view"
@@ -3562,9 +3565,8 @@ msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also b
 msgstr "Lodě mohou být nakládány a vykládány pouze v docích. Zde mohou být přichystány rovněž výpravy. Když potřebujete můžete rovněž vydat určité zboží ze skladu. Případně můžete zrušit funkci skladu. K dosažení tohoto zvolte správnou ikonu a následně požadované zboží nebo symbol činnosti."
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:78
-#, fuzzy
 msgid "Ships/Boats"
-msgstr "Čluny"
+msgstr "Lodě/Loďky"
 
 #: libs/s25main/gameData/JobConsts.cpp:48
 msgid "Shipwright"
@@ -3658,6 +3660,9 @@ msgid ""
 "Please ensure that the Settlers 2 Gold-Edition is installed in\n"
 "%1%"
 msgstr ""
+"Některé důležité soubory hry nebyly nahrány.\n"
+"Prosím ujisti se, že the Settlers 2 Gold-Edition je nainstalován zde\n"
+"%1%"
 
 #: libs/s25main/desktops/dskDirectIP.cpp:45 libs/s25main/desktops/dskLAN.cpp:83
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
@@ -3829,11 +3834,11 @@ msgstr "Týmy jsou uzamčené"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:17
 msgid "Temple"
-msgstr ""
+msgstr "Chrám"
 
 #: libs/s25main/gameData/JobConsts.cpp:55
 msgid "Temple Servant"
-msgstr ""
+msgstr "Chrámový Služebník"
 
 #: libs/s25main/desktops/dskCredits.cpp:243
 msgid "Thank you for your donations!"
@@ -3986,7 +3991,7 @@ msgstr "Vybraná hra již nebyla nalezena."
 
 #: libs/s25main/desktops/dskOptions.cpp:672
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
-msgstr ""
+msgstr "Vybraný ovladač grafiky nepodporuje změny velikosti rozhraní! Nastavení nebude použito."
 
 #: libs/s25main/ingameWindows/iwShip.cpp:131
 msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
@@ -4017,7 +4022,7 @@ msgstr "Sklad je dočasným úložštěm pro všechny typy surovin a podílí se
 
 #: libs/s25main/gameData/BuildingConsts.cpp:122
 msgid "The temple servant sacrifices wine and food granting a blessing of gold, iron ore, coal or granite. This allows your iron founder and minter to continue working when mines become exhausted. The desired mineral can be selected by toggling the output button."
-msgstr ""
+msgstr "Chrámový služebník obětuje víno a jídlo čímž získává požehnání zlata, železné rudy, uhlí nebo kamene. To umožní slévačům pokračovat v práci, když jsou doly prázdné. Požadovaný minerál může být zvolen přepnutím tlačítka výstupu."
 
 #: libs/s25main/ingameWindows/iwTransport.cpp:108
 msgid "The transport priority of a type of merchandise can be determined here.The higher the priority of an item in the list, the quicker it is transported by helpers."
@@ -4029,7 +4034,7 @@ msgstr "Strážní věž poskytuje dostatek místa pro pobyt velkého množství
 
 #: libs/s25main/gameData/BuildingConsts.cpp:109
 msgid "The winegrower plants and harvests grapes in the surrounding fields. A vineyard requires a steady supply of sturdy logs for trellises and fresh water to irrigate the fields. Ripe grapes are sent to the winery to be pressed into wine."
-msgstr ""
+msgstr "Vinohradník sází a sbírá hroznové víno na okolních polích. Vinice potřebuje stabilní přísun pevných klád pro treláže a čistou vodu pro zavlažení. Zralé hrozny jsou pak poslány do vinárny, kde jsou zpracovány na víno."
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:27
 msgid "The winner:"
@@ -4090,7 +4095,7 @@ msgstr "Zbývající čas:"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:73
 msgid "Title"
-msgstr ""
+msgstr "Název"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:224
 msgid "To player:"
@@ -4102,7 +4107,7 @@ msgstr "V tuto chvíli si pro zaregistrování musíte vytvořit účet na http:
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Todo"
-msgstr ""
+msgstr "Todo"
 
 #: libs/s25main/gameData/GoodConsts.cpp:10
 msgid "Tongs"
@@ -4110,7 +4115,7 @@ msgstr "Kleště"
 
 #: libs/s25main/addons/AddonToolOrdering.h:13
 msgid "Tool ordering"
-msgstr "objednávky nástrojů"
+msgstr "Objednávky nástrojů"
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:45
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:70
@@ -4184,7 +4189,7 @@ msgstr "Vůdcové kmenů se sešli u jednacího stolu..."
 
 #: libs/s25main/gameData/PortraitConsts.h:26
 msgid "Tsunami"
-msgstr ""
+msgstr "Tsunami"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:78
 msgid "Type"
@@ -4351,11 +4356,11 @@ msgstr "Vikingové"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:15
 msgid "Vineyard"
-msgstr ""
+msgstr "Vinice"
 
 #: libs/s25main/gameData/JobConsts.cpp:54
 msgid "Vintner"
-msgstr ""
+msgstr "Vinař"
 
 #: libs/s25main/Loader.cpp:301
 msgid ""
@@ -4449,7 +4454,7 @@ msgstr "Co je toto?"
 
 #: libs/s25main/desktops/dskOptions.cpp:298
 msgid "Window pinning"
-msgstr ""
+msgstr "Připnutí okna"
 
 #: libs/s25main/desktops/dskOptions.cpp:336
 #: libs/s25main/ingameWindows/iwSettings.cpp:68
@@ -4458,15 +4463,15 @@ msgstr "V okně"
 
 #: libs/s25main/gameData/GoodConsts.cpp:45
 msgid "Wine"
-msgstr ""
+msgstr "Víno"
 
 #: libs/s25main/gameData/JobConsts.cpp:53
 msgid "Winegrower"
-msgstr ""
+msgstr "Vinohradník"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:16
 msgid "Winery"
-msgstr ""
+msgstr "Vinařství"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:194
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
@@ -4503,7 +4508,7 @@ msgstr "Špatné verze klienta"
 
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:42
 msgid "Wrong lua script version: %1%. Current version: %2%.\n"
-msgstr ""
+msgstr "Špatná verze skriptu lua: %1%. Aktuální verze: %2%.\n"
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:48
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
@@ -4515,7 +4520,7 @@ msgstr "Špatná verze skriptu LUA."
 
 #: libs/s25main/gameData/PortraitConsts.h:25
 msgid "Yamauchi"
-msgstr ""
+msgstr "Yamauchi"
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:23
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:76
@@ -4620,7 +4625,7 @@ msgstr "hotovo za %ums\n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "easy"
-msgstr ""
+msgstr "lehká"
 
 #: libs/s25main/Loader.cpp:273 libs/s25main/resources/ArchiveLoader.cpp:122
 msgid "failed: %1%\n"
@@ -4632,7 +4637,7 @@ msgstr "Zelený ostrov"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "hard"
-msgstr ""
+msgstr "těžká"
 
 #: libs/s25main/GameManager.cpp:142
 msgid "jump to gf %1% complete\n"
@@ -4655,7 +4660,7 @@ msgstr "skok na gf %i, nyní na gf %i, čas na posledních 5k gf: %.3f s, prům�
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "medium"
-msgstr ""
+msgstr "střední"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:19
 msgid "to GameFrame:"
