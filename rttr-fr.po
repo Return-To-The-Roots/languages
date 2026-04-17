@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 13:54+0100\n"
-"PO-Revision-Date: 2026-04-17 10:22+0200\n"
+"PO-Revision-Date: 2026-04-17 17:48+0200\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: fr_FR\n"
@@ -32,6 +32,8 @@ msgid ""
 "\n"
 "Starting the game\n"
 msgstr ""
+"\n"
+"Lancement du jeu\n"
 
 #: libs/s25main/resources/ArchiveLoader.cpp:86
 msgid "  Loading %1% entries: "
@@ -453,7 +455,7 @@ msgstr "Autoriser la construction de la charbonnière."
 
 #: libs/s25main/addons/AddonWine.h:18
 msgid "Allows to build the wine economy buildings."
-msgstr ""
+msgstr "Autoriser de construire les bâtiments viticoles."
 
 #: libs/s25main/addons/AddonToolOrdering.h:14
 msgid "Allows to order a specific amount of tools for priority production."
@@ -580,7 +582,7 @@ msgstr "Sauvegarde automatique"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:137
 msgid "Auto-Save every:"
-msgstr "Sauvegarder automatiquement toutes les :"
+msgstr "Sauvegarde auto toutes les :"
 
 #: libs/s25main/addons/AddonAutoFlags.h:18
 msgid "Automatic flag placement"
@@ -649,7 +651,7 @@ msgstr "Bière"
 #: libs/s25main/desktops/dskOptions.cpp:396
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
 msgid "Bird sounds"
-msgstr "Bruits d’oiseaux"
+msgstr "Bruits d'oiseaux"
 
 #: libs/s25main/gameData/GoodConsts.cpp:32
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:48
@@ -1481,7 +1483,7 @@ msgstr "Expédition d'exploration"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:233
 msgid "Exploration:"
-msgstr "Exploration :"
+msgstr "Exploration :"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:407
 msgid ""
@@ -1713,7 +1715,7 @@ msgstr "Résolution plein-écran :"
 
 #: libs/s25main/desktops/dskOptions.cpp:375
 msgid "GUI Scale:"
-msgstr "Échelle de l’interface :"
+msgstr "Échelle de l'interface :"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:198
 msgid "Game Chat"
@@ -1769,7 +1771,7 @@ msgstr "Géologue"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:19
 msgid "Geologist sign durability"
-msgstr "Durabilité de l’enseigne du géologue"
+msgstr "Durabilité de l'enseigne du géologue"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:24
 msgid "Get all back"
@@ -2673,7 +2675,7 @@ msgstr "Nom"
 
 #: libs/s25main/desktops/dskOptions.cpp:177
 msgid "Name in Game:"
-msgstr "Nom du joueur :"
+msgstr "Nom du joueur :"
 
 #: libs/s25main/addons/AddonCatapultGraphics.h:19
 msgid "Nation-specific catapult graphics"
@@ -3067,7 +3069,7 @@ msgstr "Veuillez patienter..."
 
 #: libs/s25main/desktops/dskOptions.cpp:188
 msgid "Portrait:"
-msgstr ""
+msgstr "Portrait :"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:146
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
@@ -3363,7 +3365,7 @@ msgstr ""
 #: libs/s25main/desktops/dskGameInterface.cpp:1231
 #: libs/s25main/desktops/dskGameInterface.cpp:1236
 msgid "SYSTEM"
-msgstr "SYSTÈME"
+msgstr "SYSTEME"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:72
 msgid "Save Password?"
@@ -3376,7 +3378,7 @@ msgstr "Sauvegarder la partie !"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:118
 msgid "Save playlist"
-msgstr ""
+msgstr "Sauvegarder playlist"
 
 #: libs/s25main/Replay.cpp:230 libs/s25main/Replay.cpp:288
 msgid "Savegame error: "
@@ -3456,7 +3458,7 @@ msgstr "Envoyer observateur"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
 msgid "Send soldiers home"
-msgstr ""
+msgstr "Envoyer soldats à la maison"
 
 #: libs/s25main/network/GameServer.cpp:1581
 msgid "Sending async logs %1%.\n"
@@ -3574,7 +3576,7 @@ msgstr "Pelle"
 
 #: libs/s25main/desktops/dskOptions.cpp:319
 msgid "Show GameFrame Info:"
-msgstr ""
+msgstr "Montrer les stats :"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:163
 msgid "Show coordinates"
@@ -3815,11 +3817,11 @@ msgstr "Équipes verrouillées"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:17
 msgid "Temple"
-msgstr ""
+msgstr "Temple"
 
 #: libs/s25main/gameData/JobConsts.cpp:55
 msgid "Temple Servant"
-msgstr ""
+msgstr "Serviteur du temple"
 
 #: libs/s25main/desktops/dskCredits.cpp:243
 msgid "Thank you for your donations!"
@@ -3906,7 +3908,7 @@ msgstr "Le Paysan plante et récolte les céréales dans les champs alentours. L
 
 #: libs/s25main/ingameWindows/iwTextfile.cpp:47
 msgid "The file was not found!"
-msgstr ""
+msgstr "Le fichier non trouvé !"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:184
 msgid "The fish man is responsible for finding water rich in fish. His fish feed a great many miners."
@@ -3983,7 +3985,7 @@ msgstr ""
 
 #: libs/s25main/desktops/dskOptions.cpp:672
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
-msgstr ""
+msgstr "Ce pilote vidéo ne supporte pas l'option d'échelle d'interface."
 
 #: libs/s25main/ingameWindows/iwShip.cpp:131
 msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
@@ -4218,11 +4220,11 @@ msgstr ""
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:44
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:51
 msgid "Unknown error"
-msgstr ""
+msgstr "Erreur inconnur"
 
 #: libs/s25main/network/ClientError.cpp:20
 msgid "Unknown error!"
-msgstr ""
+msgstr "Erreur inconnue!"
 
 #: libs/s25main/world/MapLoader.cpp:333 libs/s25main/world/MapLoader.cpp:343
 msgid "Unknown granite type2 at %1%: (0x%2$x)\n"
@@ -4358,11 +4360,11 @@ msgstr "Vikings"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:15
 msgid "Vineyard"
-msgstr ""
+msgstr "Vignoble"
 
 #: libs/s25main/gameData/JobConsts.cpp:54
 msgid "Vintner"
-msgstr ""
+msgstr "Vigneron"
 
 #: libs/s25main/Loader.cpp:301
 msgid ""
