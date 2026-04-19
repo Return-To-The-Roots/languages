@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 13:54+0100\n"
-"PO-Revision-Date: 2026-04-17 17:48+0200\n"
+"PO-Revision-Date: 2026-04-19 08:55+0200\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: fr_FR\n"
@@ -73,7 +73,7 @@ msgstr " pierres"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1410
 msgid "%1% are the winners!"
-msgstr "%1% sont les vainqueurs"
+msgstr "%1% sont les vainqueurs !"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:258
 msgid "%1% campaign(s) could not be loaded. Check the log for details"
@@ -260,7 +260,7 @@ msgstr "Sauvegarde automatique..."
 
 #: libs/s25main/buildings/nobMilitary.cpp:1256
 msgid "A catapult is firing upon us!"
-msgstr "Nous recevons des tirs de catapulte !"
+msgstr "Nous recevons des tirs de catapulte !"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:161
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
@@ -280,7 +280,7 @@ msgstr "Un vaisseau a découvert un territoire ennemi"
 
 #: libs/s25main/nodeObjs/noShip.cpp:678
 msgid "A ship has reached the destination of its expedition."
-msgstr "Un vaisseau a atteint la destination de son expédition"
+msgstr "Un vaisseau a atteint la destination de son expédition."
 
 #: libs/s25main/nodeObjs/noShip.cpp:238
 msgid "A ship is ready for an expedition."
@@ -349,11 +349,11 @@ msgstr "Ajouter une piste"
 
 #: libs/s25main/desktops/dskCredits.cpp:125
 msgid "Additional Graphics:"
-msgstr "Graphismes additionnels :"
+msgstr "Graphismes additionnels :"
 
 #: libs/s25main/desktops/dskCredits.cpp:111
 msgid "Additional Programming:"
-msgstr "Programmation additionnelle :"
+msgstr "Programmation additionnelle :"
 
 #: libs/s25main/desktops/dskCredits.cpp:130
 msgid "Additional Support:"
@@ -361,7 +361,7 @@ msgstr "Support additionnel :"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:39
 msgid "Additional features:"
-msgstr "Fonctionnalités additionnelles :"
+msgstr "Fonctionnalités additionnelles :"
 
 #: libs/s25main/desktops/dskCredits.cpp:71
 msgid "Additional graphics"
@@ -382,7 +382,7 @@ msgstr "Extensions"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:225
 msgid "Addons:"
-msgstr "Extensions :"
+msgstr "Extensions :"
 
 #: libs/s25main/addons/AddonMilitaryAid.h:20
 msgid "Adds indicators for constructing or attacking military buildings."
@@ -413,7 +413,7 @@ msgstr "Ajuster le temps après lequel la condition de victoire du mode économi
 
 #: libs/s25main/addons/AddonBurnDuration.h:17
 msgid "Adjusts how long a building will burn for when it is destroyed"
-msgstr "Ajuster le temps de combustion des bâtiments lorsqu'ils sont détruits."
+msgstr "Ajuster le temps de combustion des bâtiments lorsqu'ils sont détruits"
 
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:137
 msgid "Advanced"
@@ -546,11 +546,11 @@ msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:117
 msgid "At the winery, grapes are stomped in a vat to produce wine. The vintner's wine is of high quality, worthy of sacrifice at the temple."
-msgstr ""
+msgstr "Au domaine viticole, les raisins sont foulés en cuve pour produire du vin. Celui du vigneron est de grande qualité, digne d'un sacrifice au temple."
 
 #: libs/s25main/ingameWindows/iwAction.cpp:365
 msgid "Attack not possible."
-msgstr "Assaut impossible !"
+msgstr "Assaut impossible."
 
 #: libs/s25main/ingameWindows/iwAction.cpp:279
 #: libs/s25main/ingameWindows/iwAction.cpp:287
@@ -559,7 +559,7 @@ msgstr "Option de l'assaut"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:395
 msgid "Attack!"
-msgstr "À l'assaut !"
+msgstr "À l'assaut !"
 
 #: libs/s25main/GameManager.cpp:62
 msgid "Audio driver couldn't be loaded!"
@@ -1020,7 +1020,7 @@ msgstr "Continuer le jeu"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:222
 msgid "Contract type:"
-msgstr "Type de contrat"
+msgstr "Type de contrat :"
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:27
 msgid "Convert to coal"
@@ -1150,7 +1150,7 @@ msgstr "Démolition impossible"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:74
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: libs/s25main/ingameWindows/iwSurrender.cpp:19
 msgid "Destroy all buildings and surrender"
@@ -1158,7 +1158,7 @@ msgstr "Détruire tous les bâtiments et se rendre"
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:130
 msgid "Diary"
-msgstr ""
+msgstr "Journal"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:77
 msgid "Difficulty"
@@ -1518,7 +1518,7 @@ msgstr "Impossible de charger les données de la partie !"
 #: libs/s25main/desktops/dskCredits.cpp:287
 #: libs/s25main/desktops/dskGameLoader.cpp:97
 msgid "Failed to load game resources"
-msgstr ""
+msgstr "Impossible de charger les ressources du jeu"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:94
 msgid "Failed to load library. Check dependencies!"
@@ -1536,7 +1536,7 @@ msgstr ""
 #: libs/s25main/desktops/dskCampaignSelection.cpp:237
 #: libs/s25main/desktops/dskSelectMap.cpp:430
 msgid "Failed to load map %1%: %2%\n"
-msgstr ""
+msgstr "Impossible de charger la carte %1% : %2%\n"
 
 #: libs/s25main/resources/ArchiveLoader.cpp:147
 msgid "Failed to merge entry %1%. Archive expected!\n"
@@ -1845,7 +1845,7 @@ msgstr "Stock initial :"
 #: libs/s25main/desktops/dskOptions.cpp:284
 #: libs/s25main/ingameWindows/iwSettings.cpp:83
 msgid "Grab and drag (Map moves with your cursor when scrolling/panning.)"
-msgstr ""
+msgstr "Glisser pour déplacer"
 
 #: libs/s25main/gameData/GoodConsts.cpp:36
 msgid "Grain"
@@ -1984,7 +1984,7 @@ msgstr "IPv6"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:18
 msgid "If Water is exhaustible wells will now dry out. If water everywhere is enabled, a geologist will not notify for water"
-msgstr ""
+msgstr "Si l'eau est limitée, les puits peuvent s'assécher. Si l'eau est présente partout, le géologue ne signalera pas les sources d'eau."
 
 #: libs/s25main/resources/ArchiveLocator.cpp:60
 msgid "Ignoring resource %1% in %2% because it is already found in %3%\n"
@@ -2000,7 +2000,7 @@ msgstr "Alliance améliorée"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:20
 msgid "Increase the durability of geologist signs by a factor."
-msgstr ""
+msgstr "Augmente la durabilité des panneaux du géologue."
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
 msgid "Inexhaustible"
@@ -2033,7 +2033,7 @@ msgstr "Intérieur du territoire"
 
 #: libs/s25main/desktops/dskTest.cpp:45
 msgid "Internal test screen for developers"
-msgstr ""
+msgstr "Écran de test interne pour les développeurs"
 
 #: libs/s25main/desktops/dskMultiPlayer.cpp:25
 msgid "Internet Lobby"
@@ -2082,7 +2082,7 @@ msgstr ""
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:26
 msgid "Invalid maximum human player count: %1%"
-msgstr ""
+msgstr "Nombre maximal de joueurs humains invalide : %1%"
 
 #: libs/s25main/desktops/dskOptions.cpp:640
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
@@ -2439,7 +2439,7 @@ msgstr ""
 #: libs/s25main/desktops/dskOptions.cpp:278
 #: libs/s25main/ingameWindows/iwSettings.cpp:75
 msgid "Map scroll mode:"
-msgstr ""
+msgstr "Mode de défilement :"
 
 #: libs/s25main/network/ClientError.cpp:17
 msgid "Map transmission was corrupt!"
@@ -3332,11 +3332,11 @@ msgstr "Romains"
 
 #: libs/s25client/s25client.cpp:148
 msgid "RttR crashed. Please restart the application!"
-msgstr "RttR a planté. Veuillez redémarrer l'application !"
+msgstr "RttR a planté. Veuillez redémarrer l'application !"
 
 #: libs/s25client/s25client.cpp:124
 msgid "RttR crashed. Would you like to send debug information to RttR to help us avoiding this crash in the future? Thank you very much!"
-msgstr "RttR a planté. Êtes-vous d'accord d'envoyer les informations de débogage aux développeurs pour nous aider à réparer cette erreur ? Merci beaucoup !"
+msgstr "RttR a planté. Êtes-vous d'accord d'envoyer les informations de débogage aux développeurs pour nous aider à réparer cette erreur ? Merci beaucoup !"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:67
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
@@ -3369,12 +3369,12 @@ msgstr "SYSTEME"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:72
 msgid "Save Password?"
-msgstr "Retenir le mot de passe ?"
+msgstr "Retenir le mot de passe ?"
 
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:106
 #: libs/s25main/ingameWindows/iwSave.cpp:129
 msgid "Save game!"
-msgstr "Sauvegarder la partie !"
+msgstr "Sauvegarder la partie !"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:118
 msgid "Save playlist"
@@ -3382,7 +3382,7 @@ msgstr "Sauvegarder playlist"
 
 #: libs/s25main/Replay.cpp:230 libs/s25main/Replay.cpp:288
 msgid "Savegame error: "
-msgstr ""
+msgstr "Erreur de sauvegarde :"
 
 #: libs/s25main/network/GameClient.cpp:1683
 msgid "Saving game..."
@@ -3402,17 +3402,17 @@ msgstr "Éclaireur"
 
 #: libs/s25main/WindowManager.cpp:554
 msgid "Screenshot saved to %1%\n"
-msgstr ""
+msgstr "Capture d'écran enregistrée dans %1%\n"
 
 #: libs/s25main/desktops/dskOptions.cpp:283
 #: libs/s25main/ingameWindows/iwSettings.cpp:82
 msgid "Scroll opposite (Map moves in the opposite direction the mouse is moved when scrolling/panning.)"
-msgstr ""
+msgstr "Défilement inversé"
 
 #: libs/s25main/desktops/dskOptions.cpp:281
 #: libs/s25main/ingameWindows/iwSettings.cpp:80
 msgid "Scroll same (Map moves in the same direction the mouse is moved when scrolling/panning.)"
-msgstr ""
+msgstr "Défilement normal"
 
 #: libs/s25main/gameData/GoodConsts.cpp:18
 msgid "Scythe"
@@ -3462,7 +3462,7 @@ msgstr "Envoyer soldats à la maison"
 
 #: libs/s25main/network/GameServer.cpp:1581
 msgid "Sending async logs %1%.\n"
-msgstr ""
+msgstr "Envoi des logs asynchrones %1%.\n"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:62
 msgid "Sequence of given order"
@@ -3486,7 +3486,7 @@ msgstr "Informations sur le serveur"
 
 #: libs/s25main/ingameWindows/iwLobbyServerInfo.cpp:35
 msgid "Server Name:"
-msgstr "Nom du serveur :"
+msgstr "Nom du serveur :"
 
 #: libs/s25main/desktops/dskCredits.cpp:102
 msgid "Server management"
@@ -3494,12 +3494,12 @@ msgstr "Gestion du serveur"
 
 #: libs/s25main/network/ClientError.cpp:12
 msgid "Server sent an invalid message!"
-msgstr ""
+msgstr "Message invalide reçu du serveur !"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:49
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:30
 msgid "Server-Port:"
-msgstr "Port du serveur :"
+msgstr "Port du serveur :"
 
 #: libs/s25main/addons/AddonBurnDuration.h:16
 msgid "Set duration fires burn"
@@ -3710,7 +3710,7 @@ msgstr "Démarrage de la partie, veuillez patienter"
 
 #: libs/s25main/Loader.cpp:267
 msgid "Starting sound conversion: "
-msgstr ""
+msgstr "Démarrage de la conversion audio :"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:78
 msgid "Statistics"
@@ -3760,7 +3760,7 @@ msgstr "Défense forte"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:47
 msgid "Style"
-msgstr ""
+msgstr "Style"
 
 #: libs/s25main/desktops/dskOptions.cpp:308
 msgid "Submit debug data:"
@@ -4019,7 +4019,7 @@ msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:122
 msgid "The temple servant sacrifices wine and food granting a blessing of gold, iron ore, coal or granite. This allows your iron founder and minter to continue working when mines become exhausted. The desired mineral can be selected by toggling the output button."
-msgstr ""
+msgstr "Le serviteur du temple sacrifie du vin et de la nourriture, accordant une bénédiction en or, minerai de fer, charbon ou granit. Cela permet à votre fonderie de fer et à votre atelier monétaire de continuer à fonctionner lorsque les mines sont épuisées. Le minerai désiré peut être choisi via le bouton de production."
 
 #: libs/s25main/ingameWindows/iwTransport.cpp:108
 msgid "The transport priority of a type of merchandise can be determined here.The higher the priority of an item in the list, the quicker it is transported by helpers."
@@ -4033,7 +4033,7 @@ msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:109
 msgid "The winegrower plants and harvests grapes in the surrounding fields. A vineyard requires a steady supply of sturdy logs for trellises and fresh water to irrigate the fields. Ripe grapes are sent to the winery to be pressed into wine."
-msgstr ""
+msgstr "Le vigneron plante et récolte des raisins dans les champs alentours. Le vignoble a besoin d'un apport régulier en rondins pour les treilles et en eau fraîche pour l'irrigation. Les raisins mûrs sont envoyés au domaine viticole pour être transformés en vin."
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:27
 msgid "The winner:"
@@ -4086,7 +4086,7 @@ msgstr "Vous avez la possibilité, grâce à cette fenêtre, de connaître vos p
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:137
 msgid "This window shows the wares that should be collected for the economy mode. Displayed is the current inventory of the player, his team and after game end of the opponent teams."
-msgstr ""
+msgstr "Cette fenêtre affiche les marchandises à collecter en mode économie. Elle indique les stocks actuels du joueur, de son équipe et, après la partie, ceux des équipes adverses."
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:290
 #: libs/s25main/ingameWindows/iwSave.cpp:53
@@ -4103,7 +4103,7 @@ msgstr "Titre"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:224
 msgid "To player:"
-msgstr "Au joueur :"
+msgstr "Au joueur :"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:176
 msgid "To register, you have to create a valid board account at http://forum.siedler25.org at the moment.\n"
@@ -4158,7 +4158,7 @@ msgstr "Échange"
 #: libs/s25main/figures/nofTradeLeader.cpp:62
 #, c-format
 msgid "Trade caravan with %s %s arrives from player '%s'."
-msgstr ""
+msgstr "Une caravane commerciale transportant %s %s arrive du joueur '%s'."
 
 #: libs/s25main/ingameWindows/iwTrade.cpp:32
 #, c-format
@@ -4193,7 +4193,7 @@ msgstr "Les chefs de tribu se sont rassemblés autour de la table..."
 
 #: libs/s25main/gameData/PortraitConsts.h:26
 msgid "Tsunami"
-msgstr ""
+msgstr "Tsunami"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:78
 msgid "Type"
@@ -4220,7 +4220,7 @@ msgstr ""
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:44
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:51
 msgid "Unknown error"
-msgstr "Erreur inconnur"
+msgstr "Erreur inconnue"
 
 #: libs/s25main/network/ClientError.cpp:20
 msgid "Unknown error!"
@@ -4498,11 +4498,11 @@ msgstr "Le monde a été assemblé et collé..."
 
 #: libs/s25main/network/ClientError.cpp:14
 msgid "Wrong Password!"
-msgstr "Mot de passe erroné !"
+msgstr "Mot de passe erroné !"
 
 #: libs/s25main/network/ClientError.cpp:16
 msgid "Wrong Server Type!"
-msgstr "Mauvais type de serveur !"
+msgstr "Mauvais type de serveur !"
 
 #: libs/s25main/network/ClientError.cpp:18
 msgid "Wrong client version"
@@ -4561,7 +4561,7 @@ msgstr "Vous ne pouvez pas rejoindre la partie avec votre version !"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1166
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
-msgstr ""
+msgstr "Vous avez choisi une condition de victoire basée sur la guerre, mais le mode paisible est encore actif. Voulez-vous le désactiver avant de commencer ? Choisir 'Non' lancera la partie, 'Oui' vous permettra de modifier les paramètres."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1151
 msgid ""
@@ -4571,6 +4571,11 @@ msgid ""
 "Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
 "Choosing No will start the game without any changes."
 msgstr ""
+"Vous avez choisi le mode économie. Dans ce mode, le joueur ou l'équipe qui collecte le plus de certaines marchandises remporte la partie (consultez la fenêtre de progression économique en jeu).\n"
+"\n"
+"Certains joueurs préfèrent jouer cet objectif en mode paisible. Souhaitez-vous ajuster les paramètres pour une partie paisible ?\n"
+"Choisir « Oui » activera le mode paisible, interdira les catapultes et désactivera par défaut les bâtiments recevant des pièces. Après avoir cliqué sur « Oui », vous pourrez vérifier les modifications puis lancer la partie en cliquant à nouveau sur « Démarrer la partie ».\n"
+"Choisir « Non » lancera la partie sans modification."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:792
 #, c-format
@@ -4627,7 +4632,7 @@ msgstr "fini dans %ums\n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "easy"
-msgstr ""
+msgstr "facile"
 
 #: libs/s25main/Loader.cpp:273 libs/s25main/resources/ArchiveLoader.cpp:122
 msgid "failed: %1%\n"
@@ -4639,7 +4644,7 @@ msgstr "Prairies"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "hard"
-msgstr ""
+msgstr "dur"
 
 #: libs/s25main/GameManager.cpp:142
 msgid "jump to gf %1% complete\n"
