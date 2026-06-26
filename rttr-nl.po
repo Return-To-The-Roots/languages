@@ -77,7 +77,7 @@ msgstr "%1% zijn de winnaars!"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:258
 msgid "%1% campaign(s) could not be loaded. Check the log for details"
-msgstr ""
+msgstr "%1% campagne(s) konden niet worden geladen. Bekijk het logboek voor meer details"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:170
 msgid "%1% map(s) could not be loaded. Check the log for details"
@@ -85,7 +85,7 @@ msgstr "%1% wereld(en) konden niet worden geladen. Bekijk het logboek voor meer 
 
 #: libs/s25main/ingameWindows/iwSave.cpp:142
 msgid "%1% min"
-msgstr ""
+msgstr "%1% min"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:44
 msgid "%1% players"
@@ -296,11 +296,11 @@ msgstr "Een houthakker levert boomstammen aan de houtzagerij. Een houtvester is 
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:93
 msgid "AI"
-msgstr "Algoritme"
+msgstr "AI"
 
 #: libs/s25main/ingameWindows/iwAIDebug.cpp:75
 msgid "AI Debug"
-msgstr "AI-fouten verwijderen"
+msgstr "AI Foutopsporing"
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:93
 msgid "AI Debug Window"
@@ -398,6 +398,9 @@ msgid ""
 "Minimal: Adds the 'send home' button which will send all soldiers of the highest available rank to a warehouse.\n"
 "Full: Allows players to control in each military building how many soldiers of each rank should be stationed there."
 msgstr ""
+"Voegt troepenbediening toe aan militaire gebouwen.\n"
+"Minimaal: voegt de knop 'naar huis sturen' toe, waarmee alle soldaten van de hoogste beschikbare rang naar een pakhuis worden gestuurd.\n"
+"Volledig: hiermee kunnen spelers per militair gebouw bepalen hoeveel soldaten van elke rang daar gestationeerd moeten zijn."
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
@@ -409,7 +412,7 @@ msgstr "Verander de fractie van bomen die nodig zijn om dieren te spawnen."
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:45
 msgid "Adjust the time after which the economy mode victory condition is checked."
-msgstr ""
+msgstr "Pas de tijd aan waarna de overwinningsvoorwaarde van de economiemodus wordt gecontroleerd."
 
 #: libs/s25main/addons/AddonBurnDuration.h:17
 msgid "Adjusts how long a building will burn for when it is destroyed"
@@ -455,7 +458,7 @@ msgstr "Staat het bouwen van een kolenbrander toe."
 
 #: libs/s25main/addons/AddonWine.h:18
 msgid "Allows to build the wine economy buildings."
-msgstr ""
+msgstr "Maakt het mogelijk om de gebouwen voor de wijneconomie te bouwen."
 
 #: libs/s25main/addons/AddonToolOrdering.h:14
 msgid "Allows to order a specific amount of tools for priority production."
@@ -504,7 +507,7 @@ msgstr "Wapensmid"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:34
 msgid "Armory"
-msgstr "Wapensmid"
+msgstr "Wapensmederij"
 
 #: libs/s25main/desktops/dskCredits.cpp:67
 msgid "Artificial Intelligence (AI)"
@@ -516,7 +519,7 @@ msgstr "Omdat de teams vergrendeld zijn, kunt u geen verdragen sluiten."
 
 #: libs/s25main/desktops/dskOptions.cpp:312
 msgid "Ask always"
-msgstr ""
+msgstr "Altijd vragen"
 
 #: libs/s25main/network/GameServer.cpp:773
 msgid ""
@@ -552,7 +555,7 @@ msgstr "Async logs volledig ontvangen.\n"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:117
 msgid "At the winery, grapes are stomped in a vat to produce wine. The vintner's wine is of high quality, worthy of sacrifice at the temple."
-msgstr ""
+msgstr "In de wijnmakerij worden druiven in een vat gestampt om wijn te maken. De wijn van de wijnmaker is van hoge kwaliteit en geschikt als offer in de tempel."
 
 #: libs/s25main/ingameWindows/iwAction.cpp:365
 msgid "Attack not possible."
@@ -579,7 +582,7 @@ msgstr "Auteur"
 #: libs/s25main/desktops/dskOptions.cpp:791
 #, c-format
 msgid "Auto (%u%%)"
-msgstr ""
+msgstr "Automatisch (%u%%)"
 
 #: libs/s25main/network/GameClient.cpp:1403
 #: libs/s25main/network/GameClient.cpp:1405
@@ -592,7 +595,7 @@ msgstr "Sla automatisch op elke:"
 
 #: libs/s25main/addons/AddonAutoFlags.h:18
 msgid "Automatic flag placement"
-msgstr ""
+msgstr "Automatische vlagplaatsing"
 
 #: libs/s25main/addons/AddonDemolishBldWORes.h:15
 msgid "Automatically demolish a resource gathering building, like a mine, if it runs permanently out of resources."
@@ -600,7 +603,7 @@ msgstr "Sloop automatisch verzamelgebouwen, zoals een mijn, als het is uitgeput.
 
 #: libs/s25main/addons/AddonAutoFlags.h:19
 msgid "Automatically places flags on newly build roads"
-msgstr ""
+msgstr "Plaatst automatisch vlaggen op nieuw aangelegde wegen"
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
 msgid "Axe"
@@ -612,7 +615,7 @@ msgstr "BQ check uitgeschakeld"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:180
 msgid "BQ check every %1%ms"
-msgstr "BA check elke %1%ms"
+msgstr "BQ controle elke %1%ms"
 
 #: libs/s25main/gameData/NationConsts.h:14
 msgid "Babylonians"
@@ -643,7 +646,7 @@ msgstr "Bakker"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:42
 msgid "Bakery"
-msgstr "Bakker"
+msgstr "Bakkerij"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:11
 msgid "Barracks"
@@ -657,7 +660,7 @@ msgstr "Bier"
 #: libs/s25main/desktops/dskOptions.cpp:396
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
 msgid "Bird sounds"
-msgstr ""
+msgstr "Vogelgeluiden"
 
 #: libs/s25main/gameData/GoodConsts.cpp:32
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:48
@@ -688,7 +691,7 @@ msgstr "Grensgebieden"
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:56
 #: libs/s25main/ingameWindows/iwTransport.cpp:36
 msgid "Bottom"
-msgstr "Bodem"
+msgstr "Onderaan"
 
 #: libs/s25main/gameData/GoodConsts.cpp:23
 msgid "Bow"
@@ -708,13 +711,12 @@ msgstr "Bierbrouwerij"
 
 #: libs/s25main/gameData/PortraitConsts.h:22
 msgid "Brutus"
-msgstr ""
+msgstr "Brutus"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:302
 #: libs/s25main/ingameWindows/iwAction.cpp:304
-#, fuzzy
 msgid "Build headquarters"
-msgstr "Hoofdkwartier"
+msgstr "Hoofdkwartier bouwen"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:204
 #: libs/s25main/ingameWindows/iwAction.cpp:216
@@ -749,7 +751,7 @@ msgstr "Slager"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:47
 msgid "COMP"
-msgstr ""
+msgstr "COMP"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:208
 #: libs/s25main/ingameWindows/iwAction.cpp:222
@@ -764,19 +766,25 @@ msgstr "Campagne"
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:66
 msgid "Campaign %1% has no maps.\n"
 msgstr ""
+"Campagne %1% heeft geen werelden.\n"
+""
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:230
 msgid "Campaign map %1% does not exist.\n"
 msgstr ""
+"Campagnewereld %1% bestaat niet.\n"
+""
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:243
 msgid "Campaign map lua file %1% does not exist.\n"
 msgstr ""
+"Lua-bestand van campagnewereld %1% bestaat niet.\n"
+""
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:67
 #: libs/s25main/desktops/dskSinglePlayer.cpp:43
 msgid "Campaigns"
-msgstr ""
+msgstr "Campagnes"
 
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:72
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:85
@@ -798,11 +806,11 @@ msgstr "Kan de eventmanager niet uitschakelen wanneer er nog evenementen actief 
 
 #: libs/s25main/Replay.cpp:219
 msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
-msgstr ""
+msgstr "Kan herhaling die met een nieuwere GC-versie is gemaakt niet afspelen (Huidig: %1%, Herhaling: %2%)"
 
 #: libs/s25main/Replay.cpp:207
 msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
-msgstr ""
+msgstr "Kan herhaling die met een nieuwere versie is gemaakt niet afspelen (Huidig: %1%, Herhaling: %2%)"
 
 #: libs/s25main/gameData/JobConsts.cpp:23
 msgid "Carpenter"
@@ -892,7 +900,7 @@ msgstr "Wachtwoord controleren..."
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:82
 msgid "Choose mission"
-msgstr ""
+msgstr "Missie kiezen"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:237
 msgid "Classic (Settlers 2)"
@@ -1005,11 +1013,11 @@ msgstr "Constructie-helpmodus"
 
 #: libs/s25main/addons/AddonMilitaryAid.h:21
 msgid "Construction aid only"
-msgstr ""
+msgstr "Alleen bouwhulp"
 
 #: libs/s25main/addons/AddonMilitaryAid.h:21
 msgid "Construction and attack aid"
-msgstr ""
+msgstr "Bouw- en aanvalshulp"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:109
 msgid "Continents"
@@ -1044,7 +1052,9 @@ msgstr "Zet om in ijzererts"
 #: libs/s25main/resources/ArchiveLoader.cpp:103
 #, c-format
 msgid "Could not determine type of path %s\n"
-msgstr "Kon het pad niet bepalen %s\n"
+msgstr ""
+"Kon het type pad niet bepalen: %s\n"
+""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:292
 msgid "Could not load map:\n"
@@ -1116,7 +1126,7 @@ msgstr "Standaard"
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:133
 #, c-format
 msgid "Delete Invalid (%u)"
-msgstr "Verwijder Invalide (%u)"
+msgstr "Ongeldige verwijderen (%u)"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:81
 msgid "Delete all"
@@ -1157,7 +1167,7 @@ msgstr "Slopen niet mogelijk"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:74
 msgid "Description"
-msgstr ""
+msgstr "Beschrijving"
 
 #: libs/s25main/ingameWindows/iwSurrender.cpp:19
 msgid "Destroy all buildings and surrender"
@@ -1169,7 +1179,7 @@ msgstr "Dagboek"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:77
 msgid "Difficulty"
-msgstr ""
+msgstr "Moeilijkheidsgraad"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:265
 #: libs/s25main/ingameWindows/iwAction.cpp:274
@@ -1249,7 +1259,7 @@ msgstr "Ezelfokker"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:48
 msgid "Donkey breeding"
-msgstr "Ezelsfokker"
+msgstr "Ezelsfokkerij"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:53
 #: libs/s25main/ingameWindows/iwTransport.cpp:33
@@ -1284,11 +1294,11 @@ msgstr "Dynamisch (Limiteert de framerate van de monitor, werkt met de meeste vi
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:81
 msgid "Economic Progress"
-msgstr ""
+msgstr "Economische voortgang"
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:34
 msgid "Economic progress"
-msgstr ""
+msgstr "Economische voortgang"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:64
 msgid "Economy"
@@ -1296,11 +1306,11 @@ msgstr "Economie"
 
 #: libs/s25main/EconomyModeHandler.cpp:66
 msgid "Economy Mode: Collect as much as you can of the following good types: "
-msgstr ""
+msgstr "Economiemodus: verzamel zoveel mogelijk van de volgende goederensoorten: "
 
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:44
 msgid "Economy Mode: Game Length"
-msgstr ""
+msgstr "Economiemodus: Spelduur"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:255
 #: libs/s25main/desktops/dskGameLobby.cpp:1150
@@ -1333,7 +1343,7 @@ msgstr "Kolenbrander inschakelen"
 
 #: libs/s25main/addons/AddonWine.h:17
 msgid "Enable wine economy"
-msgstr ""
+msgstr "Wijneconomie inschakelen"
 
 #: libs/s25main/addons/AddonAsyncDebug.h:17
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
@@ -1373,7 +1383,7 @@ msgstr "Zet vlag op"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Erik"
-msgstr ""
+msgstr "Erik"
 
 #: libs/s25client/s25client.cpp:126 libs/s25client/s25client.cpp:149
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
@@ -1426,7 +1436,7 @@ msgstr "Fout tijdens het uitvoeren van het lua-script: %1 Spel gestopt!"
 
 #: libs/s25main/network/GameClient.cpp:1711
 msgid "Error during saving: "
-msgstr ""
+msgstr "Fout tijdens opslaan: "
 
 #: libs/s25main/network/GameClient.cpp:1556
 #, c-format
@@ -1510,6 +1520,8 @@ msgstr "Kon het volgende niet laden %s\n"
 #: libs/s25main/desktops/dskCampaignSelection.cpp:218
 msgid "Failed to load campaign %1%.\n"
 msgstr ""
+"Laden van campagne %1% mislukt.\n"
+""
 
 #: libs/s25main/desktops/dskCredits.cpp:276
 msgid "Failed to load game data"
@@ -1603,9 +1615,8 @@ msgid "File could not be opened."
 msgstr "Het opgegeven bestand kon niet worden geopend."
 
 #: libs/s25main/SavedFile.cpp:87
-#, fuzzy
 msgid "File has an old version and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "Bestand heeft een oude versie en kan niet worden gebruikt (versie: %1%, verwachtte: %2%)!"
+msgstr "Bestand heeft een oude versie en kan niet worden gebruikt (versie: %1%.%2%, verwacht: %3%.%4%)!"
 
 #: libs/s25main/SavedFile.cpp:76
 msgid "File is not in a valid format!"
@@ -1617,9 +1628,8 @@ msgid "File or directory does not exist: %s\n"
 msgstr "Bestand of map bestaat niet: %s\n"
 
 #: libs/s25main/SavedFile.cpp:88
-#, fuzzy
 msgid "File was created with more recent program and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
-msgstr "Bestand is gemaakt met een recenter programma en kan niet worden gebruikt (versie: %1%, verwachtte: %2%)!"
+msgstr "Bestand is gemaakt met een recenter programma en kan niet worden gebruikt (versie: %1%.%2%, verwacht: %3%.%4%)!"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:51
 msgid "Filename"
@@ -1708,7 +1718,7 @@ msgstr "Afstand tot de grens controleert de bereikbaarheid"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:22
 msgid "Full Control"
-msgstr ""
+msgstr "Volledige controle"
 
 #: libs/s25main/desktops/dskOptions.cpp:335
 #: libs/s25main/ingameWindows/iwSettings.cpp:67
@@ -1722,7 +1732,7 @@ msgstr "Resolutie bij volledig scherm:"
 
 #: libs/s25main/desktops/dskOptions.cpp:375
 msgid "GUI Scale:"
-msgstr ""
+msgstr "GUI Schaal:"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:198
 msgid "Game Chat"
@@ -1852,7 +1862,7 @@ msgstr "Goederen voor aanvang:"
 #: libs/s25main/desktops/dskOptions.cpp:284
 #: libs/s25main/ingameWindows/iwSettings.cpp:83
 msgid "Grab and drag (Map moves with your cursor when scrolling/panning.)"
-msgstr ""
+msgstr "Vastpakken en slepen (De wereld beweegt mee met je cursor tijdens scrollen/pannen.)"
 
 #: libs/s25main/gameData/GoodConsts.cpp:36
 msgid "Grain"
@@ -1876,7 +1886,7 @@ msgstr "Graniet:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:44
 msgid "Grapes"
-msgstr ""
+msgstr "Druiven"
 
 #: libs/s25main/desktops/dskOptions.cpp:157
 msgid "Graphics"
@@ -1892,11 +1902,11 @@ msgstr "Wachthuis"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:76
 msgid "HQ distance to mountain"
-msgstr ""
+msgstr "Afstand hoofdkwartier tot berg"
 
 #: libs/s25main/gameData/PortraitConsts.h:27
 msgid "Hakirawashi"
-msgstr ""
+msgstr "Hakirawashi"
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:16
 msgid "Half cost recruits"
@@ -1953,7 +1963,7 @@ msgstr "Host:"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
 msgid "Hosting of game not possible"
-msgstr ""
+msgstr "Spel hosten niet mogelijk"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:313
 msgid "House names"
@@ -1996,10 +2006,14 @@ msgstr "Als water uitputtelijk is, zullen waterputten gaan uitdrogen. Als water 
 #: libs/s25main/resources/ArchiveLocator.cpp:60
 msgid "Ignoring resource %1% in %2% because it is already found in %3%\n"
 msgstr ""
+"Bron %1% in %2% wordt genegeerd omdat deze al in %3% is gevonden\n"
+""
 
 #: libs/s25main/resources/ArchiveLocator.cpp:46
 msgid "Ignoring resource %1% in %2% because the name contains unsupported characters\n"
 msgstr ""
+"Bron %1% in %2% wordt genegeerd omdat de naam niet-ondersteunde tekens bevat\n"
+""
 
 #: libs/s25main/addons/AddonNoAlliedPush.h:16
 msgid "Improved Alliance"
@@ -2073,7 +2087,7 @@ msgstr "Ongeldige opgeslagen spel %1%! Reden: %2%\n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:31
 msgid "Invalid difficulty: %1%"
-msgstr ""
+msgstr "Ongeldige moeilijkheidsgraad: %1%"
 
 #: libs/s25main/world/MapSerializer.cpp:176
 msgid "Invalid end-id for lua data"
@@ -2089,7 +2103,7 @@ msgstr "Ongeldige id voor lua-data"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:26
 msgid "Invalid maximum human player count: %1%"
-msgstr ""
+msgstr "Ongeldig maximaal aantal menselijke spelers: %1%"
 
 #: libs/s25main/desktops/dskOptions.cpp:640
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
@@ -2145,7 +2159,7 @@ msgstr "Deelnemen aan spel"
 
 #: libs/s25main/gameData/PortraitConsts.h:21
 msgid "Julius"
-msgstr ""
+msgstr "Julius"
 
 #: libs/s25main/network/GameClient.cpp:1664
 #, c-format
@@ -2154,7 +2168,7 @@ msgstr "Sprong voltooid (%1$.3g seconden)"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:168
 msgid "Jump to X:Y"
-msgstr ""
+msgstr "Spring naar X:Y"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:20
 msgid "Keep setting"
@@ -2170,7 +2184,7 @@ msgstr "Toetsenbordindeling"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Knut"
-msgstr ""
+msgstr "Knut"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
 msgid "Land"
@@ -2306,7 +2320,7 @@ msgstr "Spel laden...\n"
 #: libs/s25main/controls/ctrlMapSelection.cpp:27
 #, c-format
 msgid "Loading of images %s for map selection failed."
-msgstr ""
+msgstr "Laden van afbeeldingen %s voor wereldselectie mislukt."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:200
 msgid "Lobby Chat"
@@ -2322,7 +2336,7 @@ msgstr "Sluit teams:"
 
 #: libs/s25main/addons/AddonBool.cpp:29 libs/s25main/addons/AddonList.cpp:37
 msgid "Locked"
-msgstr ""
+msgstr "Vergrendeld"
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:33
 msgid "Long"
@@ -2368,7 +2382,7 @@ msgstr "Lua fout: %s\n"
 
 #: libs/s25main/world/MapSerializer.cpp:187
 msgid "Lua load callback returned failure!"
-msgstr ""
+msgstr "Lua-laadcallback is mislukt!"
 
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:47
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:54
@@ -2407,7 +2421,7 @@ msgstr "Upgrade uw wegen handmatig en bouw direct ezelwegen."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:90
 msgid "Many"
-msgstr ""
+msgstr "Veel"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:136
 #: libs/s25main/desktops/dskLAN.cpp:47 libs/s25main/desktops/dskLobby.cpp:54
@@ -2429,7 +2443,7 @@ msgstr "Naam wereld:"
 
 #: libs/s25main/controls/ctrlMapSelection.cpp:44
 msgid "Map and mission mask have different sizes."
-msgstr ""
+msgstr "Wereld en missiemasker hebben verschillende afmetingen."
 
 #: libs/s25main/desktops/dskSelectMap.cpp:195
 msgid "Map has more than %1% players"
@@ -2446,7 +2460,7 @@ msgstr "Wereld is ongeldig of lukte niet om correct te laden!"
 #: libs/s25main/desktops/dskOptions.cpp:278
 #: libs/s25main/ingameWindows/iwSettings.cpp:75
 msgid "Map scroll mode:"
-msgstr ""
+msgstr "Scrollmodus wereld:"
 
 #: libs/s25main/network/ClientError.cpp:17
 msgid "Map transmission was corrupt!"
@@ -2473,7 +2487,7 @@ msgstr "In kaart brengen"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:76
 msgid "Maps"
-msgstr ""
+msgstr "Werelden"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:27
 msgid "Maximal"
@@ -2586,7 +2600,7 @@ msgstr "Minimaal"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
-msgstr ""
+msgstr "Minimale controle"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:34
 msgid "Minimum strength"
@@ -2602,7 +2616,7 @@ msgstr "Muntensmelter"
 
 #: libs/s25main/desktops/dskSplash.cpp:87
 msgid "Missing game files"
-msgstr ""
+msgstr "Ontbrekende spelbestanden"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:124
 msgid "Missing required API function"
@@ -2610,11 +2624,11 @@ msgstr "Ontbreekt benodigde API functie"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:52
 msgid "Mixed"
-msgstr ""
+msgstr "Gemengd"
 
 #: libs/s25main/gameData/PortraitConsts.h:29
 msgid "Mnga Tscha"
-msgstr ""
+msgstr "Mnga Tscha"
 
 #: libs/s25main/desktops/dskOptions.cpp:333
 #: libs/s25main/ingameWindows/iwSettings.cpp:64
@@ -2673,7 +2687,7 @@ msgstr "Muziekspeler"
 
 #: libs/s25main/gameData/PortraitConsts.h:30
 msgid "Nabonidus"
-msgstr ""
+msgstr "Nabonidus"
 
 #: libs/s25main/desktops/dskLobby.cpp:59
 #: libs/s25main/desktops/dskSelectMap.cpp:75
@@ -2754,7 +2768,7 @@ msgstr "Geen stenen meer binnen bereik"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:280
 msgid "No preview"
-msgstr ""
+msgstr "Geen voorbeeld"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:20
 msgid "No refund"
@@ -2850,7 +2864,7 @@ msgstr "Observatievenster"
 
 #: libs/s25main/gameData/PortraitConsts.h:20
 msgid "Octavianus"
-msgstr ""
+msgstr "Octavianus"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
@@ -2888,7 +2902,7 @@ msgstr "Oude werelden"
 
 #: libs/s25main/gameData/PortraitConsts.h:24
 msgid "Olof"
-msgstr ""
+msgstr "Olof"
 
 #: libs/s25main/desktops/dskOptions.cpp:255
 #: libs/s25main/desktops/dskOptions.cpp:290
@@ -2944,7 +2958,7 @@ msgstr "Wereldkaart"
 
 #: libs/s25main/ingameWindows/iwTempleBuilding.cpp:20
 msgid "Output mineral"
-msgstr ""
+msgstr "Uitvoermineraal"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:106
 msgid "Own maps"
@@ -3076,7 +3090,7 @@ msgstr "Even geduld aub..."
 
 #: libs/s25main/desktops/dskOptions.cpp:188
 msgid "Portrait:"
-msgstr ""
+msgstr "Portret:"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:146
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
@@ -3280,6 +3294,8 @@ msgid ""
 "Replace minimize button on windows by pin button avoiding closing the window with ESC.\n"
 "Minimize by double-clicking the title bar."
 msgstr ""
+"Vervang de minimaliseerknop op vensters door een vastzetknop, zodat het venster niet met ESC wordt gesloten.\n"
+"Minimaliseer door op de titelbalk te dubbelklikken."
 
 #: libs/s25main/network/GameClient.cpp:1466
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
@@ -3393,7 +3409,7 @@ msgstr "Opgeslagen spel foutmelding: "
 
 #: libs/s25main/network/GameClient.cpp:1683
 msgid "Saving game..."
-msgstr ""
+msgstr "Spel opslaan..."
 
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
@@ -3414,12 +3430,12 @@ msgstr "Screenshot opgeslagen naar %1%\n"
 #: libs/s25main/desktops/dskOptions.cpp:283
 #: libs/s25main/ingameWindows/iwSettings.cpp:82
 msgid "Scroll opposite (Map moves in the opposite direction the mouse is moved when scrolling/panning.)"
-msgstr ""
+msgstr "Omgekeerd scrollen (De wereld beweegt in de tegenovergestelde richting van de muisbeweging tijdens scrollen/pannen.)"
 
 #: libs/s25main/desktops/dskOptions.cpp:281
 #: libs/s25main/ingameWindows/iwSettings.cpp:80
 msgid "Scroll same (Map moves in the same direction the mouse is moved when scrolling/panning.)"
-msgstr ""
+msgstr "Gelijk scrollen (De wereld beweegt in dezelfde richting als de muisbeweging tijdens scrollen/pannen.)"
 
 #: libs/s25main/gameData/GoodConsts.cpp:18
 msgid "Scythe"
@@ -3465,7 +3481,7 @@ msgstr "Zend verkenner uit"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
 msgid "Send soldiers home"
-msgstr ""
+msgstr "Soldaten naar huis sturen"
 
 #: libs/s25main/network/GameServer.cpp:1581
 msgid "Sending async logs %1%.\n"
@@ -3501,7 +3517,7 @@ msgstr "Server management"
 
 #: libs/s25main/network/ClientError.cpp:12
 msgid "Server sent an invalid message!"
-msgstr ""
+msgstr "Server heeft een ongeldig bericht verzonden!"
 
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:49
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:30
@@ -3538,7 +3554,7 @@ msgstr "Kolonisten"
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Shaka"
-msgstr ""
+msgstr "Shaka"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:220
 msgid "Shared team view"
@@ -3558,9 +3574,8 @@ msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also b
 msgstr "Schepen kunnen enkel geladen en gelost worden in een haven. Expedities kunnen hier ook voorbereid worden. U kan bepaalde handelswaren in een warenhuis achterlaten, mocht u dit nodig achten. De opslag functie kan ook uitgeschakeld worden. Om dit te doen, kiest u eerst het relevante icoon, gevolgd door de gewenste handelswaren of baansymbool."
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:78
-#, fuzzy
 msgid "Ships/Boats"
-msgstr "Boten"
+msgstr "Schepen/Boten"
 
 #: libs/s25main/gameData/JobConsts.cpp:48
 msgid "Shipwright"
@@ -3584,7 +3599,7 @@ msgstr "Schep"
 
 #: libs/s25main/desktops/dskOptions.cpp:319
 msgid "Show GameFrame Info:"
-msgstr ""
+msgstr "GameFrame-info tonen:"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:163
 msgid "Show coordinates"
@@ -3654,6 +3669,9 @@ msgid ""
 "Please ensure that the Settlers 2 Gold-Edition is installed in\n"
 "%1%"
 msgstr ""
+"Enkele essentiële spelbestanden konden niet worden geladen.\n"
+"Controleer of The Settlers 2 Gold Edition is geïnstalleerd in\n"
+"%1%"
 
 #: libs/s25main/desktops/dskDirectIP.cpp:45 libs/s25main/desktops/dskLAN.cpp:83
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
@@ -3768,7 +3786,7 @@ msgstr "Sterke verdediging"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:47
 msgid "Style"
-msgstr ""
+msgstr "Stijl"
 
 #: libs/s25main/desktops/dskOptions.cpp:308
 msgid "Submit debug data:"
@@ -3825,11 +3843,11 @@ msgstr "Teams vergrendeld"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:17
 msgid "Temple"
-msgstr ""
+msgstr "Tempel"
 
 #: libs/s25main/gameData/JobConsts.cpp:55
 msgid "Temple Servant"
-msgstr ""
+msgstr "Tempeldienaar"
 
 #: libs/s25main/desktops/dskCredits.cpp:243
 msgid "Thank you for your donations!"
@@ -3884,7 +3902,7 @@ msgstr "De schrijnwerker maakt van de houthakkers hout planken op maat. Deze vor
 
 #: libs/s25main/ingameWindows/TransmitSettingsIgwAdapter.cpp:31
 msgid "The changes could not be applied and will be discarded. A potential reason for this is that the game is paused."
-msgstr ""
+msgstr "De wijzigingen konden niet worden toegepast en worden weggegooid. Een mogelijke reden is dat het spel gepauzeerd is."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:228
 msgid "The charburner stacks up piles of wood and straw which is then burned to create charcoal. This can be used just like the coal from the mine without any loss in quality."
@@ -3982,7 +4000,7 @@ msgstr "Het geselecteerde spel is niet meer gevonden."
 
 #: libs/s25main/desktops/dskOptions.cpp:672
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
-msgstr ""
+msgstr "Het geselecteerde videostuurprogramma ondersteunt geen GUI-schaling! De instelling wordt niet gebruikt."
 
 #: libs/s25main/ingameWindows/iwShip.cpp:131
 msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
@@ -4013,7 +4031,7 @@ msgstr "De pakhuis is handig voor het verkorten van de duur van het vervoer en v
 
 #: libs/s25main/gameData/BuildingConsts.cpp:122
 msgid "The temple servant sacrifices wine and food granting a blessing of gold, iron ore, coal or granite. This allows your iron founder and minter to continue working when mines become exhausted. The desired mineral can be selected by toggling the output button."
-msgstr ""
+msgstr "De tempeldienaar offert wijn en voedsel en schenkt zo een zegening van goud, ijzererts, kolen of graniet. Hierdoor kunnen je ijzersmelter en munter blijven werken wanneer mijnen uitgeput raken. Het gewenste mineraal kan worden geselecteerd met de uitvoerknop."
 
 #: libs/s25main/ingameWindows/iwTransport.cpp:108
 msgid "The transport priority of a type of merchandise can be determined here.The higher the priority of an item in the list, the quicker it is transported by helpers."
@@ -4025,7 +4043,7 @@ msgstr "De wachttoren kan een groot aantal soldaten herbergen. Door de gouden mu
 
 #: libs/s25main/gameData/BuildingConsts.cpp:109
 msgid "The winegrower plants and harvests grapes in the surrounding fields. A vineyard requires a steady supply of sturdy logs for trellises and fresh water to irrigate the fields. Ripe grapes are sent to the winery to be pressed into wine."
-msgstr ""
+msgstr "De wijnboer plant en oogst druiven op de omliggende velden. Een wijngaard heeft een constante aanvoer van stevige boomstammen voor de steunrekken en vers water voor irrigatie nodig. Rijpe druiven worden naar de wijnmakerij gebracht om tot wijn te worden geperst."
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:27
 msgid "The winner:"
@@ -4069,7 +4087,7 @@ msgstr "Dit venster maakt een directe vergelijking met de vijanden mogelijk. Fac
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:137
 msgid "This window shows the wares that should be collected for the economy mode. Displayed is the current inventory of the player, his team and after game end of the opponent teams."
-msgstr ""
+msgstr "Dit venster toont de goederen die voor de economiemodus moeten worden verzameld. Weergegeven worden de huidige voorraad van de speler, die van zijn team en na afloop van het spel die van de teams van de tegenstanders."
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:290
 #: libs/s25main/ingameWindows/iwSave.cpp:53
@@ -4078,11 +4096,11 @@ msgstr "Tijd"
 
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:93
 msgid "Time remaining:"
-msgstr ""
+msgstr "Resterende tijd:"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:73
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:224
 msgid "To player:"
@@ -4094,7 +4112,7 @@ msgstr "Om te registreren, moet u op het moment een geldige board account hebben
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Todo"
-msgstr ""
+msgstr "Todo"
 
 #: libs/s25main/gameData/GoodConsts.cpp:10
 msgid "Tongs"
@@ -4113,12 +4131,12 @@ msgstr "Gereedschappen"
 
 #: libs/s25main/EconomyModeHandler.cpp:74
 msgid "Tools in the hands of workers are also counted. So are weapons, and beer, that soldiers have in use. For an updating tally of the collected goods see the economic progress window."
-msgstr ""
+msgstr "Gereedschappen in handen van arbeiders tellen ook mee. Dat geldt ook voor wapens en bier die soldaten in gebruik hebben. Zie het venster Economische voortgang voor een bijgewerkte telling van de verzamelde goederen."
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
 #: libs/s25main/ingameWindows/iwTransport.cpp:29
 msgid "Top"
-msgstr "Top"
+msgstr "Bovenaan"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:254
 msgid "Total domination"
@@ -4168,7 +4186,7 @@ msgstr "Boswachter"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:109
 msgid "Trees:"
-msgstr ""
+msgstr "Bomen:"
 
 #: libs/s25main/desktops/dskGameLoader.cpp:89
 msgid "Tribal chiefs assembled around the table..."
@@ -4176,7 +4194,7 @@ msgstr "Opperhoofden zijn rond de tafel verzameld..."
 
 #: libs/s25main/gameData/PortraitConsts.h:26
 msgid "Tsunami"
-msgstr ""
+msgstr "Tsunami"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:78
 msgid "Type"
@@ -4288,7 +4306,7 @@ msgstr "Verslagen vijanden"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
 msgid "Verifying server info..."
-msgstr "Wachten op Spelersinfo..."
+msgstr "Serverinfo controleren..."
 
 #: libs/s25main/desktops/dskLAN.cpp:49 libs/s25main/desktops/dskLobby.cpp:56
 #: libs/s25main/desktops/dskLobby.cpp:59
@@ -4297,7 +4315,7 @@ msgstr "Versie"
 
 #: libs/s25main/network/GameClient.cpp:713
 msgid "Version mismatch. Server version: %1%, your version %2%"
-msgstr ""
+msgstr "Versies komen niet overeen. Serverversie: %1%, jouw versie: %2%"
 
 #: libs/s25main/ingameWindows/iwLobbyServerInfo.cpp:39
 msgid "Version:"
@@ -4343,11 +4361,11 @@ msgstr "Vikingen"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:15
 msgid "Vineyard"
-msgstr ""
+msgstr "Wijngaard"
 
 #: libs/s25main/gameData/JobConsts.cpp:54
 msgid "Vintner"
-msgstr ""
+msgstr "Wijnmaker"
 
 #: libs/s25main/Loader.cpp:301
 msgid ""
@@ -4373,7 +4391,7 @@ msgstr "Wachten op antwoord..."
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
 msgid "Waiting for server info..."
-msgstr "Wachten op Spelersinfo..."
+msgstr "Wachten op serverinfo..."
 
 #: libs/s25main/ingameWindows/iwTrade.cpp:66
 msgid "Ware you like to trade"
@@ -4386,7 +4404,7 @@ msgstr "Goederen"
 #: libs/s25main/network/GameClientGF_Replay.cpp:48
 #, c-format
 msgid "Warning: The played replay is not in sync with the original match. (GF: %u)"
-msgstr "Waarschuwing: De afgespeelde herhaling loopt niet synchroon met de oorspronkelijke potje. (GF: %u)"
+msgstr "Waarschuwing: de afgespeelde herhaling loopt niet synchroon met het oorspronkelijke spel. (GF: %u)"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:14
 msgid "Watchtower"
@@ -4441,7 +4459,7 @@ msgstr "Wat is dit?"
 
 #: libs/s25main/desktops/dskOptions.cpp:298
 msgid "Window pinning"
-msgstr ""
+msgstr "Vensters vastzetten"
 
 #: libs/s25main/desktops/dskOptions.cpp:336
 #: libs/s25main/ingameWindows/iwSettings.cpp:69
@@ -4450,15 +4468,15 @@ msgstr "Venstermodus"
 
 #: libs/s25main/gameData/GoodConsts.cpp:45
 msgid "Wine"
-msgstr ""
+msgstr "Wijn"
 
 #: libs/s25main/gameData/JobConsts.cpp:53
 msgid "Winegrower"
-msgstr ""
+msgstr "Wijnboer"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:16
 msgid "Winery"
-msgstr ""
+msgstr "Wijnmakerij"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:194
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
@@ -4496,10 +4514,14 @@ msgstr "Verkeerde clientversie"
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:42
 msgid "Wrong lua script version: %1%. Current version: %2%.\n"
 msgstr ""
+"Verkeerde Lua-scriptversie: %1%. Huidige versie: %2%.\n"
+""
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:48
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
-msgstr "Verkeerde lua-script versie: %1%. Huidige versie: %2%.%3%.\n"
+msgstr ""
+"Verkeerde Lua-scriptversie: %1%. Huidige versie: %2%.%3%.\n"
+""
 
 #: libs/s25main/world/MapSerializer.cpp:183
 msgid "Wrong version for lua script."
@@ -4507,7 +4529,7 @@ msgstr "Verkeerde versie voor lua-script."
 
 #: libs/s25main/gameData/PortraitConsts.h:25
 msgid "Yamauchi"
-msgstr ""
+msgstr "Yamauchi"
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:23
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:76
@@ -4547,7 +4569,7 @@ msgstr "U kunt niet deelnemen aan dat spel met uw huidige versie!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1166
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
-msgstr ""
+msgstr "Je hebt een op oorlog gebaseerde overwinningsvoorwaarde gekozen, maar de vreedzame modus is nog actief. Wil je de vreedzame modus uitschakelen voordat je begint? Als je Nee kiest, start het spel. Met Ja kun je de wijzigingen bekijken."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:1151
 msgid ""
@@ -4557,11 +4579,16 @@ msgid ""
 "Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
 "Choosing No will start the game without any changes."
 msgstr ""
+"Je hebt de economiemodus gekozen. In de economiemodus wint de speler of het team dat de meeste van bepaalde goederen verzamelt (bekijk in het spel het venster Economische voortgang).\n"
+"\n"
+"Sommige spelers spelen dit doel graag in de vreedzame modus. Wil je de instellingen aanpassen voor een vreedzaam spel?\n"
+"Als je Ja kiest, wordt de vreedzame modus ingeschakeld, worden katapulten verboden en ontvangen gebouwen standaard geen munten. Nadat je op Ja hebt geklikt kun je de wijzigingen bekijken en daarna het spel starten door opnieuw op de knop Spel starten te klikken.\n"
+"Als je Nee kiest, start het spel zonder wijzigingen."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:792
 #, c-format
 msgid "You have %u seconds until game starts"
-msgstr "Uw heeft %u seconden totdat het spel start"
+msgstr "Je hebt %u seconden totdat het spel start"
 
 #: libs/s25main/desktops/dskOptions.cpp:684
 #: libs/s25main/ingameWindows/iwSettings.cpp:113
@@ -4593,9 +4620,8 @@ msgid "all developers who contributed via Github"
 msgstr "Alle ontwikkelaars die hebben bijgedragen via Github"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:57
-#, fuzzy
 msgid "by GameFrames:"
-msgstr "naar GameFrame:"
+msgstr "per GameFrames:"
 
 #: libs/s25main/network/GameClient.cpp:1652
 #, c-format
@@ -4613,7 +4639,7 @@ msgstr "klaar in %ums\n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "easy"
-msgstr ""
+msgstr "makkelijk"
 
 #: libs/s25main/Loader.cpp:273 libs/s25main/resources/ArchiveLoader.cpp:122
 msgid "failed: %1%\n"
@@ -4625,7 +4651,7 @@ msgstr "groenland"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "hard"
-msgstr ""
+msgstr "moeilijk"
 
 #: libs/s25main/GameManager.cpp:142
 msgid "jump to gf %1% complete\n"
@@ -4648,7 +4674,7 @@ msgstr "springen naar gf %i, nu bij gf %i, tijd voor de laatste 5k gf: %.3f s, g
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "medium"
-msgstr ""
+msgstr "gemiddeld"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:48
 msgid "to GameFrame:"
