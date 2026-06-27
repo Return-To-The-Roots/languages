@@ -12,6 +12,7 @@ on:
 jobs:
   upload:
     runs-on: ubuntu-latest
+    name: Synchronize with Launchpad
     steps:
       - uses: actions/setup-python@v5
         with:
