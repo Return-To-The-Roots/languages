@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 13:54+0100\n"
-"PO-Revision-Date: 2025-11-23 20:14+0000\n"
+"PO-Revision-Date: 2026-06-27 17:19+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-12 09:20+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-09-30 14:16+0000\n"
+"X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -765,21 +765,15 @@ msgstr "Campagne"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:66
 msgid "Campaign %1% has no maps.\n"
-msgstr ""
-"Campagne %1% heeft geen werelden.\n"
-""
+msgstr "Campagne %1% heeft geen werelden.\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:230
 msgid "Campaign map %1% does not exist.\n"
-msgstr ""
-"Campagnewereld %1% bestaat niet.\n"
-""
+msgstr "Campagnewereld %1% bestaat niet.\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:243
 msgid "Campaign map lua file %1% does not exist.\n"
-msgstr ""
-"Lua-bestand van campagnewereld %1% bestaat niet.\n"
-""
+msgstr "Lua-bestand van campagnewereld %1% bestaat niet.\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:67
 #: libs/s25main/desktops/dskSinglePlayer.cpp:43
@@ -1052,9 +1046,7 @@ msgstr "Zet om in ijzererts"
 #: libs/s25main/resources/ArchiveLoader.cpp:103
 #, c-format
 msgid "Could not determine type of path %s\n"
-msgstr ""
-"Kon het type pad niet bepalen: %s\n"
-""
+msgstr "Kon het type pad niet bepalen: %s\n"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:292
 msgid "Could not load map:\n"
@@ -1519,9 +1511,7 @@ msgstr "Kon het volgende niet laden %s\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:218
 msgid "Failed to load campaign %1%.\n"
-msgstr ""
-"Laden van campagne %1% mislukt.\n"
-""
+msgstr "Laden van campagne %1% mislukt.\n"
 
 #: libs/s25main/desktops/dskCredits.cpp:276
 msgid "Failed to load game data"
@@ -2005,15 +1995,11 @@ msgstr "Als water uitputtelijk is, zullen waterputten gaan uitdrogen. Als water 
 
 #: libs/s25main/resources/ArchiveLocator.cpp:60
 msgid "Ignoring resource %1% in %2% because it is already found in %3%\n"
-msgstr ""
-"Bron %1% in %2% wordt genegeerd omdat deze al in %3% is gevonden\n"
-""
+msgstr "Bron %1% in %2% wordt genegeerd omdat deze al in %3% is gevonden\n"
 
 #: libs/s25main/resources/ArchiveLocator.cpp:46
 msgid "Ignoring resource %1% in %2% because the name contains unsupported characters\n"
-msgstr ""
-"Bron %1% in %2% wordt genegeerd omdat de naam niet-ondersteunde tekens bevat\n"
-""
+msgstr "Bron %1% in %2% wordt genegeerd omdat de naam niet-ondersteunde tekens bevat\n"
 
 #: libs/s25main/addons/AddonNoAlliedPush.h:16
 msgid "Improved Alliance"
@@ -4513,15 +4499,11 @@ msgstr "Verkeerde clientversie"
 
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:42
 msgid "Wrong lua script version: %1%. Current version: %2%.\n"
-msgstr ""
-"Verkeerde Lua-scriptversie: %1%. Huidige versie: %2%.\n"
-""
+msgstr "Verkeerde Lua-scriptversie: %1%. Huidige versie: %2%.\n"
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:48
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
-msgstr ""
-"Verkeerde Lua-scriptversie: %1%. Huidige versie: %2%.%3%.\n"
-""
+msgstr "Verkeerde Lua-scriptversie: %1%. Huidige versie: %2%.%3%.\n"
 
 #: libs/s25main/world/MapSerializer.cpp:183
 msgid "Wrong version for lua script."
@@ -4691,78 +4673,3 @@ msgstr "wildernis"
 #: data/RTTR/gamedata/world/winterworld.lua:8
 msgid "winterworld"
 msgstr "winterwereld"
-
-#~ msgid "Coming soon"
-#~ msgstr "Komt binnenkort beschikbaar"
-
-#~ msgid "Continent"
-#~ msgstr "Continent"
-
-#~ msgid "Directory does not exist: %s"
-#~ msgstr "Bibliotheek bestaat niet: %s"
-
-#~ msgid "Directory does not exist: %s\n"
-#~ msgstr "Map bestaat niet: %s\n"
-
-#~ msgid "Furthest apart"
-#~ msgstr "Zo ver mogelijk"
-
-#~ msgid "Greenland"
-#~ msgstr "Groenland"
-
-#~ msgid "Internet Ranking"
-#~ msgstr "Internet Rangschikking"
-
-#~ msgid "Keyboard layout:"
-#~ msgstr "Toetsenbord-indeling:"
-
-#~ msgid "Loading LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI files from %1%\n"
-#~ msgstr "LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI bestanden laden van %1%\n"
-
-#~ msgid "Lost"
-#~ msgstr "Verloren"
-
-#~ msgid "Migration"
-#~ msgstr "Overzetten"
-
-#~ msgid "Not available"
-#~ msgstr "Niet beschikbaar"
-
-#~ msgid "Player Distribution"
-#~ msgstr "Spelersverdeling"
-
-#~ msgid "Please use 'Unlimited Play' to create a Singleplayer game."
-#~ msgstr "Gebruik ‘Ongelimiteerd spelen’ om een single-player spel te starten."
-
-#~ msgid "Points"
-#~ msgstr "Punten"
-
-#~ msgid "Random"
-#~ msgstr "Willekeurig"
-
-#~ msgid "Registration successful!"
-#~ msgstr "Registratie geslaagd!"
-
-#~ msgid "Ringland"
-#~ msgstr "Ringland"
-
-#~ msgid "Start GF"
-#~ msgstr "Start-GF"
-
-#~ msgid "Too short Message received!"
-#~ msgstr "Te kort bericht ontvangen!"
-
-#~ msgid "Very Close"
-#~ msgstr "Zeer dichtbij"
-
-#~ msgid "Won"
-#~ msgstr "Gewonnen"
-
-#~ msgid "finished in %ums\n"
-#~ msgstr "voltooid in %ums\n"
-
-#~ msgid "of"
-#~ msgstr "van"
-
-#~ msgid "unlimited"
-#~ msgstr "Onbeperkt"

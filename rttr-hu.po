@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 13:54+0100\n"
-"PO-Revision-Date: 2026-02-07 23:48+0100\n"
+"PO-Revision-Date: 2026-06-27 17:19+0000\n"
 "Last-Translator: Gabe Stylez <zorg@atw.hu>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
-"X-Generator: Poedit 3.8\n"
+"X-Launchpad-Export-Date: 2026-09-30 14:16+0000\n"
+"X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -114,7 +114,7 @@ msgstr "%u/%u"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:54
 msgid "'s Game"
-msgstr " játéka"
+msgstr "játéka"
 
 #: libs/s25main/world/GameWorldView.cpp:455
 #, c-format
@@ -572,7 +572,7 @@ msgstr "Támadás!"
 
 #: libs/s25main/GameManager.cpp:62
 msgid "Audio driver couldn't be loaded!"
-msgstr "Nem sikerült betölteni a hangkártya-illesztőprogramot!"
+msgstr "A kiválasztott fájlt nem lehet betölteni!"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:75
 #: libs/s25main/desktops/dskSelectMap.cpp:76
@@ -912,7 +912,7 @@ msgstr "Bárd"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:79
 msgid "Close"
-msgstr "Közeli"
+msgstr "Lezárt"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:47
 msgid "Close Without Saving"
@@ -977,7 +977,7 @@ msgstr "Kapcsolódás"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:27
 msgid "Connecting"
-msgstr "Kapcsolódás folyamatban"
+msgstr "Kapcsolódás"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:49
 msgid "Connecting to Lobby"
@@ -1307,7 +1307,7 @@ msgstr "Gazdasági mód: Játék hossza"
 #: libs/s25main/desktops/dskGameLobby.cpp:255
 #: libs/s25main/desktops/dskGameLobby.cpp:1150
 msgid "Economy mode"
-msgstr "Gazdasági mód"
+msgstr "Gazdaság"
 
 #: libs/s25main/desktops/dskOptions.cpp:385
 msgid "Effects"
@@ -1468,7 +1468,7 @@ msgstr "Eseményszám eltérés. Beolvasott események: %1%. Várt: %2%.\n"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:145
 msgid "Every GF"
-msgstr "Összes GF"
+msgstr "Mindenki"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:22
 msgid "Everyone"
@@ -1570,7 +1570,7 @@ msgstr "Lua állapot mentése sikertelen!"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:81
 msgid "Far"
-msgstr "Távoli"
+msgstr "Tanya"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:47
 msgid "Farm"
@@ -1732,7 +1732,7 @@ msgstr "Játékchat"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:54
 msgid "Game Time"
-msgstr "Játékidő"
+msgstr "Játék menü"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:820
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
@@ -2130,7 +2130,7 @@ msgstr "Vasérc"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
 msgid "Islands"
-msgstr "Szigetek"
+msgstr "Sivatag"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:281
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
@@ -2495,7 +2495,7 @@ msgstr "A vadász által szerzett hús a bányászok etetésére szolgál."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:89
 msgid "Medium"
-msgstr "Átlagos"
+msgstr "Középtávú"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:33
 msgid "Medium strength"
@@ -2688,7 +2688,7 @@ msgstr "Játékbeli név:"
 
 #: libs/s25main/addons/AddonCatapultGraphics.h:19
 msgid "Nation-specific catapult graphics"
-msgstr "Nemzet-specifikus katapultgrafikák"
+msgstr "Rassz specifikus katapult grafikák"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:61
 msgid "Near harbor points"
@@ -2748,7 +2748,7 @@ msgstr "Nincsenek levelek!"
 
 #: libs/s25main/buildings/nobUsual.cpp:539
 msgid "No more fish in range"
-msgstr "Nincs több hal az épület hatókörében"
+msgstr "Nincs több hal"
 
 #: libs/s25main/buildings/nobUsual.cpp:537
 msgid "No more stones in range"
@@ -3227,7 +3227,7 @@ msgstr "Aszinkron naplók érkeztek innen: %1% (%2% bejegyzés).\n"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
 msgid "Receiving Map..."
-msgstr "Térkép fogadása..."
+msgstr "Térképellenörzés..."
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:18
 msgid "Receiving coins is disabled for military buildings by default."
@@ -3690,7 +3690,7 @@ msgstr "Sebesség:"
 
 #: libs/s25main/GameManager.cpp:168
 msgid "Splash screen couldn't be loaded!"
-msgstr "Az indítóképernyő nem tölthető be!"
+msgstr "A kiválasztott fájlt nem lehet betölteni!"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:71
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
@@ -3745,7 +3745,7 @@ msgstr "Rögzítés dátuma"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:112
 msgid "Stone piles:"
-msgstr "Kőhalmok:"
+msgstr "Kö"
 
 #: libs/s25main/gameData/JobConsts.cpp:24
 msgid "Stonemason"
@@ -4294,7 +4294,7 @@ msgstr "Legyőzött ellenségek"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
 msgid "Verifying server info..."
-msgstr "Szerveradatok ellenőrzése..."
+msgstr "Játékosra várakozás..."
 
 #: libs/s25main/desktops/dskLAN.cpp:49 libs/s25main/desktops/dskLobby.cpp:56
 #: libs/s25main/desktops/dskLobby.cpp:59
@@ -4319,7 +4319,7 @@ msgstr "Nagyon kevés"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
 msgid "Very far"
-msgstr "Nagyon távoli"
+msgstr "Nagyon Gyors"
 
 #: libs/s25main/addons/AddonShipSpeed.h:23
 #: libs/s25main/desktops/dskGameLobby.cpp:272
@@ -4337,7 +4337,7 @@ msgstr "Nagyon lassú"
 
 #: libs/s25main/GameManager.cpp:46
 msgid "Video driver couldn't be loaded!"
-msgstr "A videokártya-illesztőprogram nem tölthető be!"
+msgstr "A kiválasztott fájlt nem lehet betölteni!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:227
 msgid "View Settings..."
@@ -4379,7 +4379,7 @@ msgstr "Várakozás válaszra..."
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
 msgid "Waiting for server info..."
-msgstr "Várakozás szerveradatokra..."
+msgstr "Játékosra várakozás..."
 
 #: libs/s25main/ingameWindows/iwTrade.cpp:66
 msgid "Ware you like to trade"
@@ -4675,51 +4675,3 @@ msgstr "Pusztaság"
 #: data/RTTR/gamedata/world/winterworld.lua:8
 msgid "winterworld"
 msgstr "Téli világ"
-
-#~ msgid "Greenland"
-#~ msgstr "Zöld vidék"
-
-#~ msgid "Internet Ranking"
-#~ msgstr "Internet Helyezés"
-
-#~ msgid "Invert Mouse Pan"
-#~ msgstr "Fordított térképmozgatás"
-
-#~ msgid "Invert Mouse Pan:"
-#~ msgstr "Fordított térképmozgatás:"
-
-#~ msgid "Keyboard layout:"
-#~ msgstr "Billentyűzetkiosztás:"
-
-#~ msgid "Lost"
-#~ msgstr "Vereség"
-
-#~ msgid "Not available"
-#~ msgstr "Nem elérhetö"
-
-#~ msgid "Please use 'Unlimited Play' to create a Singleplayer game."
-#~ msgstr "Használd a 'Végtelen játék' opciót ha egyjátékos játékot akarsz kezdeni."
-
-#~ msgid "Points"
-#~ msgstr "Pontok"
-
-#~ msgid "Ranger"
-#~ msgstr "Erdész"
-
-#~ msgid "Registration successful!"
-#~ msgstr "A regisztráció sikeres!"
-
-#~ msgid "Start GF"
-#~ msgstr "GF indítása"
-
-#~ msgid "Too short Message received!"
-#~ msgstr "Túl rövid üzenet érkezett!"
-
-#~ msgid "Won"
-#~ msgstr "Győzelem"
-
-#~ msgid "of"
-#~ msgstr "ebből"
-
-#~ msgid "unlimited"
-#~ msgstr "Korlátlan"

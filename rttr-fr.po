@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 13:54+0100\n"
-"PO-Revision-Date: 2026-04-19 08:55+0200\n"
+"PO-Revision-Date: 2026-06-27 17:18+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-02-06 09:56+0000\n"
-"X-Generator: Launchpad (build 4847db153920c8fbc330ac275b92a72279fa07a2)\n"
+"X-Launchpad-Export-Date: 2026-09-30 14:16+0000\n"
+"X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -398,6 +398,9 @@ msgid ""
 "Minimal: Adds the 'send home' button which will send all soldiers of the highest available rank to a warehouse.\n"
 "Full: Allows players to control in each military building how many soldiers of each rank should be stationed there."
 msgstr ""
+"Ajoute des contrôles de troupes aux bâtiments militaires.\n"
+"Minimal : ajoute le bouton « Renvoyer à la maison », qui renvoie vers un entrepôt tous les soldats du plus haut rang disponible.\n"
+"Complet : permet aux joueurs de définir, dans chaque bâtiment militaire, combien de soldats de chaque rang doivent y être stationnés."
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
@@ -594,7 +597,7 @@ msgstr "Démoli automatiquement un bâtiment de récolte de ressource, comme une
 
 #: libs/s25main/addons/AddonAutoFlags.h:19
 msgid "Automatically places flags on newly build roads"
-msgstr ""
+msgstr "Place automatiquement les drapeaux sur les routes nouvellement construites"
 
 #: libs/s25main/gameData/GoodConsts.cpp:12
 msgid "Axe"
@@ -651,7 +654,7 @@ msgstr "Bière"
 #: libs/s25main/desktops/dskOptions.cpp:396
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
 msgid "Bird sounds"
-msgstr "Bruits d'oiseaux"
+msgstr "Bruits d’oiseaux"
 
 #: libs/s25main/gameData/GoodConsts.cpp:32
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:48
@@ -787,7 +790,7 @@ msgstr "Annuler le lancement"
 
 #: libs/s25main/EventManager.cpp:172
 msgid "Cannot deserialize event manager when there are still events active!"
-msgstr ""
+msgstr "Impossible de désérialiser le gestionnaire d'événements alors que des événements sont encore actifs !"
 
 #: libs/s25main/Replay.cpp:219
 msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
@@ -998,11 +1001,11 @@ msgstr "Aide à la construction"
 
 #: libs/s25main/addons/AddonMilitaryAid.h:21
 msgid "Construction aid only"
-msgstr ""
+msgstr "Aide à la construction uniquement"
 
 #: libs/s25main/addons/AddonMilitaryAid.h:21
 msgid "Construction and attack aid"
-msgstr ""
+msgstr "Aide à la construction et à l’attaque"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:109
 msgid "Continents"
@@ -1434,7 +1437,7 @@ msgstr "Erreur de lecture de la rediffusion !"
 
 #: libs/s25main/WindowManager.cpp:557
 msgid "Error writing screenshot: %1%\n"
-msgstr ""
+msgstr "Erreur lors de l'enregistrement de la capture d'écran : %1%\n"
 
 #: libs/s25main/world/MapSerializer.cpp:71
 #: libs/s25main/world/MapSerializer.cpp:190
@@ -1451,11 +1454,11 @@ msgstr "Permanent"
 
 #: libs/s25main/EventManager.cpp:159
 msgid "Event count mismatch. Found events: %1%. Expected: %2%.\n"
-msgstr ""
+msgstr "Nombre d’événements incohérent. Événements trouvés : %1%. Événements attendus : %2%.\n"
 
 #: libs/s25main/EventManager.cpp:183
 msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
-msgstr ""
+msgstr "Nombre d'événements incohérent. Événements lus : %1%. Événements attendus : %2%.\n"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:145
 msgid "Every GF"
@@ -1526,11 +1529,11 @@ msgstr "Impossible de charger la bibliothèque. Vérifiez les dépendances !"
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:69
 msgid "Failed to load lua file '%1%'\n"
-msgstr ""
+msgstr "Impossible de charger le fichier Lua « %1% ».\n"
 
 #: libs/s25main/world/MapSerializer.cpp:190
 msgid "Failed to load lua state!"
-msgstr ""
+msgstr "Échec du chargement de l’état Lua !"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:144
 #: libs/s25main/desktops/dskCampaignSelection.cpp:237
@@ -1544,7 +1547,7 @@ msgstr ""
 
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:61
 msgid "Failed to read lua file '%1%'\n"
-msgstr ""
+msgstr "Impossible de lire le fichier Lua « %1% ».\n"
 
 #: libs/s25main/Loader.cpp:1076 libs/s25main/Loader.cpp:1095
 msgid "Failed to resolve resource %1%\n"
@@ -1595,7 +1598,7 @@ msgstr "Recruter moins"
 
 #: libs/s25main/Replay.cpp:189
 msgid "File could not be opened."
-msgstr ""
+msgstr "Impossible d'ouvrir le fichier."
 
 #: libs/s25main/SavedFile.cpp:87
 msgid "File has an old version and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
@@ -1715,7 +1718,7 @@ msgstr "Résolution plein-écran :"
 
 #: libs/s25main/desktops/dskOptions.cpp:375
 msgid "GUI Scale:"
-msgstr "Échelle de l'interface :"
+msgstr "Échelle de l’interface :"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:198
 msgid "Game Chat"
@@ -1771,7 +1774,7 @@ msgstr "Géologue"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:19
 msgid "Geologist sign durability"
-msgstr "Durabilité de l'enseigne du géologue"
+msgstr "Durabilité de l’enseigne du géologue"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:24
 msgid "Get all back"
@@ -1787,7 +1790,7 @@ msgstr "Récupérer les matériaux lors de la destruction d'un immeuble"
 
 #: libs/s25main/QuickStartGame.cpp:58
 msgid "Given map or replay (%1%) does not exist!"
-msgstr ""
+msgstr "La carte ou le replay indiqué (%1%) n'existe pas !"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:316
 msgid "Go to headquarters"
@@ -1885,7 +1888,7 @@ msgstr "Salle des gardes"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:76
 msgid "HQ distance to mountain"
-msgstr ""
+msgstr "Distance du QG des montagnes"
 
 #: libs/s25main/gameData/PortraitConsts.h:27
 msgid "Hakirawashi"
@@ -2066,7 +2069,7 @@ msgstr ""
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:31
 msgid "Invalid difficulty: %1%"
-msgstr ""
+msgstr "Difficulté invalide : %1%"
 
 #: libs/s25main/world/MapSerializer.cpp:176
 msgid "Invalid end-id for lua data"
@@ -2074,7 +2077,7 @@ msgstr ""
 
 #: libs/s25main/EventManager.cpp:192
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
-msgstr ""
+msgstr "Identifiant d'instance d'événement invalide. Trouvé : %1%. Valeur attendue inférieure à %2%.\n"
 
 #: libs/s25main/world/MapSerializer.cpp:171
 msgid "Invalid id for lua data"
@@ -2269,11 +2272,11 @@ msgstr "Charger une partie..."
 
 #: libs/s25main/drivers/AudioDriverWrapper.cpp:82
 msgid "Loaded audio driver \"%1%\"\n"
-msgstr ""
+msgstr "Pilote audio « %1% » chargé\n"
 
 #: libs/s25main/drivers/VideoDriverWrapper.cpp:50
 msgid "Loaded video driver \"%1%\"\n"
-msgstr ""
+msgstr "Pilote vidéo « %1% » chargé\n"
 
 #: libs/s25main/MusicPlayer.cpp:63
 msgid "Loading \"%1%\": "
@@ -2299,7 +2302,7 @@ msgstr "Chargement de la partie...\n"
 #: libs/s25main/controls/ctrlMapSelection.cpp:27
 #, c-format
 msgid "Loading of images %s for map selection failed."
-msgstr ""
+msgstr "Le chargement des images %s pour la sélection de carte a échoué."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:200
 msgid "Lobby Chat"
@@ -2357,7 +2360,7 @@ msgstr "Faible"
 #: libs/libGamedata/lua/LuaInterfaceBase.cpp:44
 #, c-format
 msgid "Lua error: %s\n"
-msgstr ""
+msgstr "Erreur Lua : %s\n"
 
 #: libs/s25main/world/MapSerializer.cpp:187
 msgid "Lua load callback returned failure!"
@@ -2366,7 +2369,7 @@ msgstr ""
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:47
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:54
 msgid "Lua script did not provide the function getRequiredLuaVersion()! It is probably outdated.\n"
-msgstr ""
+msgstr "Le script Lua ne fournit pas la fonction getRequiredLuaVersion() ! Il est probablement obsolète.\n"
 
 #: libs/s25main/world/MapSerializer.cpp:181
 msgid "Lua script failed to load."
@@ -2383,7 +2386,7 @@ msgstr "Le script Lua a été trouvé mais n'a pu être chargé. La carte pourra
 
 #: libs/s25main/desktops/dskGameLobby.cpp:163
 msgid "Lua was disabled by the script itself\n"
-msgstr ""
+msgstr "Lua a été désactivé par le script lui-même.\n"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:139
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:34
@@ -2422,7 +2425,7 @@ msgstr "Nom de la carte :"
 
 #: libs/s25main/controls/ctrlMapSelection.cpp:44
 msgid "Map and mission mask have different sizes."
-msgstr ""
+msgstr "La carte et le masque de mission ont des tailles différentes."
 
 #: libs/s25main/desktops/dskSelectMap.cpp:195
 msgid "Map has more than %1% players"
@@ -2542,7 +2545,7 @@ msgstr "Prise d'un bâtiment ennemi"
 
 #: libs/s25main/addons/AddonFrontierDistanceReachable.h:15
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
-msgstr ""
+msgstr "Un bâtiment militaire est considéré comme intérieur lorsqu'une attaque est définitivement impossible. (Chemin bloqué par le terrain, comme la mer, la lave, etc.)"
 
 #: libs/s25main/buildings/nobMilitary.cpp:1009
 msgid "Military building lost"
@@ -2579,7 +2582,7 @@ msgstr "Minimum"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:21
 msgid "Minimal Control"
-msgstr ""
+msgstr "Contrôle minimal"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:34
 msgid "Minimum strength"
@@ -2595,7 +2598,7 @@ msgstr "Batteur de monnaie"
 
 #: libs/s25main/desktops/dskSplash.cpp:87
 msgid "Missing game files"
-msgstr ""
+msgstr "Fichiers du jeu manquants"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:124
 msgid "Missing required API function"
@@ -2763,7 +2766,7 @@ msgstr "Aucun Navire disponible"
 
 #: libs/s25main/addons/AddonPeacefulMode.h:17
 msgid "Nobody can attack anyone."
-msgstr ""
+msgstr "Personne ne peut attaquer qui que ce soit."
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:24
 msgid "Nobody else but you"
@@ -2834,7 +2837,7 @@ msgstr "OK"
 
 #: libs/s25main/MusicPlayer.cpp:72
 msgid "OK\n"
-msgstr ""
+msgstr "OK\n"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:311
 #: libs/s25main/ingameWindows/iwObservate.cpp:33
@@ -2873,7 +2876,7 @@ msgstr "Officier (3)"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:341
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:100
 msgid "Old maps"
@@ -3288,7 +3291,7 @@ msgstr "Réservé"
 
 #: libs/s25main/ingameWindows/iwObservate.cpp:56
 msgid "Resize window"
-msgstr ""
+msgstr "Redimensionner la fenêtre"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:193
 msgid "Resources"
@@ -3296,7 +3299,7 @@ msgstr "Ressources"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:196
 msgid "Restricted area"
-msgstr ""
+msgstr "Zone restreinte"
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:40
 msgid "Resume last game"
@@ -3382,7 +3385,7 @@ msgstr "Sauvegarder playlist"
 
 #: libs/s25main/Replay.cpp:230 libs/s25main/Replay.cpp:288
 msgid "Savegame error: "
-msgstr "Erreur de sauvegarde :"
+msgstr "Erreur de sauvegarde : "
 
 #: libs/s25main/network/GameClient.cpp:1683
 msgid "Saving game..."
@@ -3710,7 +3713,7 @@ msgstr "Démarrage de la partie, veuillez patienter"
 
 #: libs/s25main/Loader.cpp:267
 msgid "Starting sound conversion: "
-msgstr "Démarrage de la conversion audio :"
+msgstr "Démarrage de la conversion audio : "
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:78
 msgid "Statistics"
@@ -3878,7 +3881,7 @@ msgstr "Le Menuisier transforme le bois coupé par les Bûcherons en planches. C
 
 #: libs/s25main/ingameWindows/TransmitSettingsIgwAdapter.cpp:31
 msgid "The changes could not be applied and will be discarded. A potential reason for this is that the game is paused."
-msgstr ""
+msgstr "Les modifications n'ont pas pu être appliquées et seront ignorées. Une raison possible est que le jeu est en pause."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:228
 msgid "The charburner stacks up piles of wood and straw which is then burned to create charcoal. This can be used just like the coal from the mine without any loss in quality."
@@ -3969,7 +3972,7 @@ msgstr "Le joueur « %s » veut annuler le « %s » entre vous. Êtes-vous d'
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:341
 msgid "The playlist was saved!"
-msgstr ""
+msgstr "La liste de lecture a été enregistrée !"
 
 #: libs/s25main/ingameWindows/iwDistribution.cpp:139
 msgid "The priority of goods for the individual buildings can be set here. The higher the value, the quicker the required goods are delivered to the building concerned."
@@ -3981,7 +3984,7 @@ msgstr "Les pierres arrachées à la Carrière servent ensuite de matériaux de 
 
 #: libs/s25main/desktops/dskLobby.cpp:226
 msgid "The selected game was not found anymore."
-msgstr ""
+msgstr "La partie sélectionnée n'a plus été trouvée."
 
 #: libs/s25main/desktops/dskOptions.cpp:672
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
@@ -4130,7 +4133,7 @@ msgstr "Outils"
 
 #: libs/s25main/EconomyModeHandler.cpp:74
 msgid "Tools in the hands of workers are also counted. So are weapons, and beer, that soldiers have in use. For an updating tally of the collected goods see the economic progress window."
-msgstr ""
+msgstr "Les outils détenus par les ouvriers sont également comptabilisés. Il en va de même pour les armes et la bière utilisés par les soldats. Pour un décompte actualisé des marchandises collectées, consultez la fenêtre de progression économique."
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
 #: libs/s25main/ingameWindows/iwTransport.cpp:29
@@ -4201,11 +4204,11 @@ msgstr "Type"
 
 #: libs/s25main/Loader.cpp:320
 msgid "Unable to load font at index %1%\n"
-msgstr ""
+msgstr "Impossible de charger la police à l’index %1%\n"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:191
 msgid "Unexpected dynamic type of map"
-msgstr ""
+msgstr "Type dynamique de carte inattendu."
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:102
@@ -4371,10 +4374,12 @@ msgid ""
 "WARNING: Did not find the music files.\n"
 "\tYou have to run the updater once or copy the .ogg files manually to %1% or you won't be able to hear the music.\n"
 msgstr ""
+"AVERTISSEMENT : Fichiers musicaux introuvables.\n"
+"\tVous devez exécuter le programme de mise à jour une fois ou copier manuellement les fichiers .ogg dans %1%, sinon vous ne pourrez pas entendre la musique.\n"
 
 #: libs/s25main/Loader.cpp:292
 msgid "WARNING: Found invalid music item for %1%\n"
-msgstr ""
+msgstr "AVERTISSEMENT : Élément musical invalide trouvé pour %1%\n"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:83
 msgid "Waiting for Playerinfo..."
@@ -4456,7 +4461,7 @@ msgstr "Qu'est-ce que c'est ?"
 
 #: libs/s25main/desktops/dskOptions.cpp:298
 msgid "Window pinning"
-msgstr ""
+msgstr "Épinglage de fenêtre"
 
 #: libs/s25main/desktops/dskOptions.cpp:336
 #: libs/s25main/ingameWindows/iwSettings.cpp:69
@@ -4510,7 +4515,7 @@ msgstr "Mauvaise version du client"
 
 #: libs/libGamedata/lua/CampaignDataLoader.cpp:42
 msgid "Wrong lua script version: %1%. Current version: %2%.\n"
-msgstr ""
+msgstr "Version du script Lua incorrecte : %1%. Version actuelle : %2%.\n"
 
 #: libs/s25main/lua/LuaInterfaceGameBase.cpp:48
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
@@ -4612,9 +4617,8 @@ msgid "all developers who contributed via Github"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:57
-#, fuzzy
 msgid "by GameFrames:"
-msgstr "vers la GF :"
+msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1652
 #, c-format
@@ -4636,7 +4640,7 @@ msgstr "facile"
 
 #: libs/s25main/Loader.cpp:273 libs/s25main/resources/ArchiveLoader.cpp:122
 msgid "failed: %1%\n"
-msgstr ""
+msgstr "échec : %1%\n"
 
 #: data/RTTR/gamedata/world/greenland.lua:9
 msgid "greenland"
@@ -4684,48 +4688,3 @@ msgstr "Terres désolées"
 #: data/RTTR/gamedata/world/winterworld.lua:8
 msgid "winterworld"
 msgstr "Monde de l'hiver"
-
-#~ msgid "Coming soon"
-#~ msgstr "A venir"
-
-#~ msgid "Greenland"
-#~ msgstr "Prairies"
-
-#~ msgid "Internet Ranking"
-#~ msgstr "Classement Internet"
-
-#~ msgid "Keyboard layout:"
-#~ msgstr "Disposition du clavier :"
-
-#~ msgid "Lost"
-#~ msgstr "Perdu"
-
-#~ msgid "Not available"
-#~ msgstr "Non disponible"
-
-#~ msgid "Please use 'Unlimited Play' to create a Singleplayer game."
-#~ msgstr "Veuillez utiliser le mode « Jeu libre » pour créer une partie à un joueur"
-
-#~ msgid "Points"
-#~ msgstr "Points"
-
-#~ msgid "Registration successful!"
-#~ msgstr "Inscription réussie !"
-
-#~ msgid "Start GF"
-#~ msgstr "GF de départ"
-
-#~ msgid "Too short Message received!"
-#~ msgstr "Message trop court reçu !"
-
-#~ msgid "Won"
-#~ msgstr "Gagné"
-
-#~ msgid "finished in %ums\n"
-#~ msgstr "terminé dans %ums\n"
-
-#~ msgid "of"
-#~ msgstr "de"
-
-#~ msgid "unlimited"
-#~ msgstr "Illimité"

@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 13:54+0100\n"
-"PO-Revision-Date: 2026-01-13 19:16+0000\n"
-"Last-Translator: Łukasz Abramczuk <Unknown>\n"
+"PO-Revision-Date: 2026-06-27 17:18+0000\n"
+"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-02-06 09:56+0000\n"
-"X-Generator: Launchpad (build 4847db153920c8fbc330ac275b92a72279fa07a2)\n"
+"X-Launchpad-Export-Date: 2026-09-30 14:16+0000\n"
+"X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -718,9 +718,8 @@ msgstr "Brutus"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:302
 #: libs/s25main/ingameWindows/iwAction.cpp:304
-#, fuzzy
 msgid "Build headquarters"
-msgstr "Kwatera główna"
+msgstr "Wybuduj kwaterę główną"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:204
 #: libs/s25main/ingameWindows/iwAction.cpp:216
@@ -1857,9 +1856,8 @@ msgstr "Surowce na start:"
 
 #: libs/s25main/desktops/dskOptions.cpp:284
 #: libs/s25main/ingameWindows/iwSettings.cpp:83
-#, fuzzy
 msgid "Grab and drag (Map moves with your cursor when scrolling/panning.)"
-msgstr "Mapa przesuwa się w tym samym kierunku, w którym poruszana jest mysz podczas przewijania/przesuwania."
+msgstr "Chwyć i przeciągnij (Mapa porusza się razem z kursorem myszy.)"
 
 #: libs/s25main/gameData/GoodConsts.cpp:36
 msgid "Grain"
@@ -2453,7 +2451,7 @@ msgstr "Mapa jest nieprawidłowa lub nie można jej poprawnie załadować!"
 #: libs/s25main/desktops/dskOptions.cpp:278
 #: libs/s25main/ingameWindows/iwSettings.cpp:75
 msgid "Map scroll mode:"
-msgstr ""
+msgstr "Tryb przewijania mapy:"
 
 #: libs/s25main/network/ClientError.cpp:17
 msgid "Map transmission was corrupt!"
@@ -3422,15 +3420,13 @@ msgstr "Zrzut ekranu zapisany w %1%\n"
 
 #: libs/s25main/desktops/dskOptions.cpp:283
 #: libs/s25main/ingameWindows/iwSettings.cpp:82
-#, fuzzy
 msgid "Scroll opposite (Map moves in the opposite direction the mouse is moved when scrolling/panning.)"
-msgstr "Mapa porusza się w kierunku przeciwnym do ruchu myszy podczas przewijania/przesuwania."
+msgstr "Odwrócony kierunek (Mapa przesuwa się przeciwnie do ruchu myszy.)"
 
 #: libs/s25main/desktops/dskOptions.cpp:281
 #: libs/s25main/ingameWindows/iwSettings.cpp:80
-#, fuzzy
 msgid "Scroll same (Map moves in the same direction the mouse is moved when scrolling/panning.)"
-msgstr "Mapa przesuwa się w tym samym kierunku, w którym poruszana jest mysz podczas przewijania/przesuwania."
+msgstr "Zgodny kierunek (Mapa przesuwa się zgodnie z ruchem myszy.)"
 
 #: libs/s25main/gameData/GoodConsts.cpp:18
 msgid "Scythe"
@@ -3681,7 +3677,7 @@ msgstr "Przepraszamy!"
 
 #: libs/s25main/desktops/dskOptions.cpp:159
 msgid "Sound/Music"
-msgstr "Dźwięk/Muzyka"
+msgstr "Dźwięk i muzyka"
 
 #: libs/s25main/desktops/dskOptions.cpp:419
 msgid "Sounddriver"
@@ -4280,7 +4276,7 @@ msgstr "Użyj"
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:38
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:81
 msgid "Use IPv6:"
-msgstr "Użyj IPv6:"
+msgstr "Funkcja IPv6:"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:51
 msgid "Use S2 Defaults"
@@ -4288,7 +4284,7 @@ msgstr "Użyj ustawień S2"
 
 #: libs/s25main/desktops/dskOptions.cpp:253
 msgid "Use UPnP"
-msgstr "Używaj UPnP:"
+msgstr "Funkcja UPnP:"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:58
 msgid "Username:"
@@ -4611,9 +4607,8 @@ msgid "all developers who contributed via Github"
 msgstr "wszyscy programiści, którzy wnieśli swój wkład przez Github"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:57
-#, fuzzy
 msgid "by GameFrames:"
-msgstr "do klatki:"
+msgstr "autorstwa GameFrames:"
 
 #: libs/s25main/network/GameClient.cpp:1652
 #, c-format
@@ -4683,9 +4678,3 @@ msgstr "pustkowia"
 #: data/RTTR/gamedata/world/winterworld.lua:8
 msgid "winterworld"
 msgstr "zimowe tereny"
-
-#~ msgid "Invert Mouse Pan"
-#~ msgstr "Odwróć osie myszy"
-
-#~ msgid "Invert Mouse Pan:"
-#~ msgstr "Odwróć osie myszy:"
