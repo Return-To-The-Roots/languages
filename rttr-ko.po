@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-06 13:54+0100\n"
+"POT-Creation-Date: 2026-10-01 13:28+0200\n"
 "PO-Revision-Date: 2026-05-05 10:45+0000\n"
 "Last-Translator: T. H. Kim <Unknown>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Launchpad-Export-Date: 2026-09-30 14:16+0000\n"
 "X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:171
+#: libs/s25main/ingameWindows/iwAction.cpp:178
 msgid ""
 "\n"
 "Costs: "
@@ -27,13 +27,13 @@ msgstr ""
 "\n"
 "필요: "
 
-#: libs/s25main/GameManager.cpp:73
+#: libs/s25main/GameManager.cpp:74
 msgid ""
 "\n"
 "Starting the game\n"
 msgstr ""
 
-#: libs/s25main/resources/ArchiveLoader.cpp:86
+#: libs/s25main/resources/ArchiveLoader.cpp:87
 msgid "  Loading %1% entries: "
 msgstr ""
 
@@ -57,19 +57,19 @@ msgstr " (중간)"
 msgid " (playing)"
 msgstr " (플레이 중)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1410
+#: libs/s25main/desktops/dskGameInterface.cpp:1423
 msgid " and "
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:173
+#: libs/s25main/ingameWindows/iwAction.cpp:180
 msgid " boards"
 msgstr " 널빤지"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:178
+#: libs/s25main/ingameWindows/iwAction.cpp:185
 msgid " stones"
 msgstr " 석재"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1410
+#: libs/s25main/desktops/dskGameInterface.cpp:1423
 msgid "%1% are the winners!"
 msgstr ""
 
@@ -81,7 +81,7 @@ msgstr ""
 msgid "%1% map(s) could not be loaded. Check the log for details"
 msgstr "%1% 지도를 불러올 수 없습니다. 자세한 내용은 로그를 확인하세요."
 
-#: libs/s25main/ingameWindows/iwSave.cpp:142
+#: libs/s25main/ingameWindows/iwSave.cpp:157
 msgid "%1% min"
 msgstr "%1% 분"
 
@@ -114,32 +114,35 @@ msgstr ""
 msgid "'s Game"
 msgstr ""
 
-#: libs/s25main/world/GameWorldView.cpp:455
+#: libs/s25main/world/GameWorldView.cpp:454
 #, c-format
 msgid "(%d soldiers)"
 msgstr "(군인 %d명)"
 
-#: libs/s25main/world/GameWorldView.cpp:453
+#: libs/s25main/world/GameWorldView.cpp:452
 msgid "(1 soldier)"
 msgstr "(군인 1명)"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:92
 #: libs/s25main/ingameWindows/iwBuilding.cpp:188
-#: libs/s25main/world/GameWorldView.cpp:428
+#: libs/s25main/world/GameWorldView.cpp:427
 msgid "(House unoccupied)"
 msgstr "(미점유 건물)"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:388
+#: libs/s25main/desktops/dskGameInterface.cpp:400
 #, c-format
 msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
 msgstr "(리플레이-모드) 현재 GF: %u (맨 끝: %u) / GF 길이: %u 밀리초 / NWF 길이: %u gf (%u 밀리초)"
 
-#: libs/s25main/world/GameWorldView.cpp:430
+#: libs/s25main/world/GameWorldView.cpp:429
 msgid "(stopped)"
 msgstr "(멈춤)"
 
 #: libs/s25main/addons/AddonBurnDuration.h:25
+#: libs/s25main/addons/AddonForesterReachRadius.h:25
 #: libs/s25main/addons/AddonMoreAnimals.h:22
+#: libs/s25main/addons/AddonStonemasonReachRadius.h:31
+#: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
 msgid "+100%"
 msgstr ""
 
@@ -147,17 +150,45 @@ msgstr ""
 msgid "+1000%"
 msgstr ""
 
+#: libs/s25main/addons/AddonForesterReachRadius.h:25
+#: libs/s25main/addons/AddonStonemasonReachRadius.h:32
+#: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
+msgid "+150%"
+msgstr ""
+
+#: libs/s25main/addons/AddonForesterReachRadius.h:25
 #: libs/s25main/addons/AddonMoreAnimals.h:23
+#: libs/s25main/addons/AddonStonemasonReachRadius.h:33
+#: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
 msgid "+200%"
+msgstr ""
+
+#: libs/s25main/addons/AddonStonemasonReachRadius.h:28
+msgid "+25%"
+msgstr ""
+
+#: libs/s25main/addons/AddonForesterReachRadius.h:25
+#: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
+msgid "+33%"
 msgstr ""
 
 #: libs/s25main/addons/AddonBurnDuration.h:24
 #: libs/s25main/addons/AddonMoreAnimals.h:21
+#: libs/s25main/addons/AddonStonemasonReachRadius.h:29
 msgid "+50%"
 msgstr ""
 
 #: libs/s25main/addons/AddonMoreAnimals.h:24
 msgid "+500%"
+msgstr ""
+
+#: libs/s25main/addons/AddonForesterReachRadius.h:25
+#: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
+msgid "+66%"
+msgstr ""
+
+#: libs/s25main/addons/AddonStonemasonReachRadius.h:30
+msgid "+75%"
 msgstr ""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:345
@@ -203,7 +234,7 @@ msgstr "-> 광산 건설"
 msgid "..."
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:239
+#: libs/s25main/desktops/dskCredits.cpp:240
 msgid "... and many more"
 msgstr "... 그외 많은 분들"
 
@@ -252,15 +283,15 @@ msgstr "투석기 5대"
 msgid "<%s> "
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1216
+#: libs/s25main/desktops/dskGameInterface.cpp:1229
 msgid "A auto-savegame is created..."
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1256
+#: libs/s25main/buildings/nobMilitary.cpp:1527
 msgid "A catapult is firing upon us!"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:161
+#: libs/s25main/gameData/BuildingConsts.cpp:167
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
 msgstr "금 광산은 귀중한 금 매장지를 채굴할 수 있게 해줍니다. 이를 위해서는 광부들에게 충분한 식량을 공급하는 것이 필수적입니다."
 
@@ -272,23 +303,27 @@ msgstr "많음"
 msgid "A new ship is ready"
 msgstr "새 배 완성"
 
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:232
+msgid "A preset named '%1%' already exists. Do you want to overwrite it?"
+msgstr ""
+
 #: libs/s25main/nodeObjs/noShip.cpp:374
 msgid "A ship disovered an enemy territory"
 msgstr "배가 적 영토 발견"
 
-#: libs/s25main/nodeObjs/noShip.cpp:678
+#: libs/s25main/nodeObjs/noShip.cpp:676
 msgid "A ship has reached the destination of its expedition."
 msgstr "배가 목적지에 도착"
 
-#: libs/s25main/nodeObjs/noShip.cpp:238
+#: libs/s25main/nodeObjs/noShip.cpp:239
 msgid "A ship is ready for an expedition."
 msgstr "배가 원정 준비완료"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:277
+#: libs/s25main/gameData/BuildingConsts.cpp:289
 msgid "A well supplies water to the bakery, brewery, donkey breeder and pig farm."
 msgstr "우물은 빵집, 맥주 양조장, 당나귀 축사와 돼지 농장에 물을 공급합니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:179
+#: libs/s25main/gameData/BuildingConsts.cpp:191
 msgid "A woodcutter provides the sawmill with logs. A forester is able to replant the depleted forest."
 msgstr "나무꾼은 제재소에 통나무를 공급합니다. 조경사는 베어낸 숲에 나무를 다시 심을 수 있습니다."
 
@@ -308,9 +343,10 @@ msgstr "AI 디버그 창"
 msgid "AI Debugging Window"
 msgstr "AI 디버깅 창"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:46
+#: libs/s25main/ingameWindows/iwAddons.cpp:59
 #: libs/s25main/ingameWindows/iwConnecting.cpp:37
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:65
+#: libs/s25main/ingameWindows/iwSettings.cpp:117
 msgid "Abort"
 msgstr "중단"
 
@@ -345,36 +381,41 @@ msgstr "트랙 폴더 추가"
 msgid "Add track"
 msgstr "트랙 추가"
 
-#: libs/s25main/desktops/dskCredits.cpp:125
+#: libs/s25main/desktops/dskCredits.cpp:126
 msgid "Additional Graphics:"
 msgstr "추가 그래픽:"
 
-#: libs/s25main/desktops/dskCredits.cpp:111
+#: libs/s25main/desktops/dskCredits.cpp:112
 msgid "Additional Programming:"
 msgstr "추가 프로그래밍:"
 
-#: libs/s25main/desktops/dskCredits.cpp:130
+#: libs/s25main/desktops/dskCredits.cpp:131
 msgid "Additional Support:"
 msgstr "추가 지원:"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:39
+#: libs/s25main/ingameWindows/iwAddons.cpp:44
 msgid "Additional features:"
 msgstr "추가 기능:"
 
-#: libs/s25main/desktops/dskCredits.cpp:71
+#: libs/s25main/desktops/dskCredits.cpp:72
 msgid "Additional graphics"
 msgstr "추가 그래픽"
 
-#: libs/s25main/GlobalGameSettings.cpp:251
+#: libs/s25main/GlobalGameSettings.cpp:258
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr "%1$#x 추가기능을 찾을 수 없습니다!\n"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:35
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:80
+#, fuzzy
+msgid "Addon Presets Unavailable"
+msgstr "이용할 수 있는 배가 없습니다"
+
+#: libs/s25main/ingameWindows/iwAddons.cpp:40
 msgid "Addon Settings"
 msgstr "추가사항 설정"
 
-#: libs/s25main/desktops/dskOptions.cpp:164
+#: libs/s25main/desktops/dskOptions.cpp:187
 msgid "Addons"
 msgstr "추가사항"
 
@@ -400,9 +441,18 @@ msgstr ""
 "최소: 최고 계급의 군인 모두를 창고로 보내는 '귀환' 버튼을 추가합니다.\n"
 "완전: 플레이어가 각 군사 건물에 주둔할 각 계급별 군인 수를 직접 조절할 수 있도록 합니다."
 
+#: libs/s25main/addons/AddonForesterReachRadius.h:23
+#, fuzzy
+msgid "Adjust forester's range"
+msgstr "석재 고갈"
+
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
 msgstr "전투력 조정"
+
+#: libs/s25main/addons/AddonStonemasonReachRadius.h:24
+msgid "Adjust stonemason's range"
+msgstr ""
 
 #: libs/s25main/addons/AddonMoreAnimals.h:18
 msgid "Adjust the fraction of trees that spawn animals."
@@ -412,6 +462,10 @@ msgstr "나무숲에서 짐승이 나오는 정도를 조정합니다."
 msgid "Adjust the time after which the economy mode victory condition is checked."
 msgstr "경제 모드 승리 조건 확인 시점을 조절합니다."
 
+#: libs/s25main/addons/AddonWoodcutterReachRadius.h:23
+msgid "Adjust woodcutter's range"
+msgstr ""
+
 #: libs/s25main/addons/AddonBurnDuration.h:17
 msgid "Adjusts how long a building will burn for when it is destroyed"
 msgstr "건물이 파괴될 때 불타는 시간을 조절합니다."
@@ -420,15 +474,15 @@ msgstr "건물이 파괴될 때 불타는 시간을 조절합니다."
 msgid "Advanced"
 msgstr "고급"
 
-#: libs/s25main/gameData/NationConsts.h:13
+#: libs/s25main/gameData/NationConsts.h:11
 msgid "Africans"
 msgstr "아프리카인"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:63
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:56
 msgid "After the following order"
 msgstr "다음 순서에 따름"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:58
+#: libs/s25main/ingameWindows/iwAddons.cpp:67
 #: libs/s25main/ingameWindows/iwChat.cpp:27
 msgid "All"
 msgstr "모두"
@@ -454,6 +508,11 @@ msgstr "모든 플레이어가 건설 부지에 정해진 순서대로 공급할
 msgid "Allows to build the charburner."
 msgstr "숯가마를 지을 수 있게 합니다."
 
+#: libs/s25main/addons/AddonLeather.h:18
+#, fuzzy
+msgid "Allows to build the leather economy buildings."
+msgstr "포도주 경제 관련 건물을 건설할 수 있게 합니다."
+
 #: libs/s25main/addons/AddonWine.h:18
 msgid "Allows to build the wine economy buildings."
 msgstr "포도주 경제 관련 건물을 건설할 수 있게 합니다."
@@ -470,7 +529,7 @@ msgstr "동맹 창고에 물품/사람을 보낼 수 있게 됩니다"
 msgid "Altitude"
 msgstr ""
 
-#: libs/s25main/SerializedGameData.cpp:345
+#: libs/s25main/SerializedGameData.cpp:356
 msgid "An error occured while saving which was suppressed!"
 msgstr ""
 
@@ -478,12 +537,14 @@ msgstr ""
 msgid "And let's go!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:43
+#: libs/s25main/ingameWindows/iwAddons.cpp:55
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:117
+#: libs/s25main/ingameWindows/iwSettings.cpp:115
 msgid "Apply"
 msgstr "적용"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:44
+#: libs/s25main/ingameWindows/iwAddons.cpp:56
+#: libs/s25main/ingameWindows/iwSettings.cpp:115
 msgid "Apply Changes"
 msgstr "변경사항 적용"
 
@@ -495,9 +556,29 @@ msgstr "모든 문제있는 리플레이를 삭제하시겠습니까?"
 msgid "Are you sure to remove all replays?"
 msgstr "모든 리플레이를 삭제하시겠습니까?"
 
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:179
+#, fuzzy
+msgid "Are you sure you want to delete preset '%1%'?"
+msgstr "선택한 리플레이를 삭제하시겠습니까?"
+
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:153
 msgid "Are you sure you want to remove the selected replay?"
 msgstr "선택한 리플레이를 삭제하시겠습니까?"
+
+#: libs/s25main/gameData/GoodConsts.cpp:48
+#, fuzzy
+msgid "Armor"
+msgstr "무기 제작소"
+
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:88
+#, fuzzy
+msgid "Armor delivery"
+msgstr "금화 전달"
+
+#: libs/s25main/addons/AddonArmorCapturedBld.h:17
+#, fuzzy
+msgid "Armor on captured buildings"
+msgstr "점령한 건물의 금화"
 
 #: libs/s25main/gameData/JobConsts.cpp:37
 msgid "Armorer"
@@ -507,7 +588,7 @@ msgstr ""
 msgid "Armory"
 msgstr "무기 제작소"
 
-#: libs/s25main/desktops/dskCredits.cpp:67
+#: libs/s25main/desktops/dskCredits.cpp:68
 msgid "Artificial Intelligence (AI)"
 msgstr "인공지능 (AI)"
 
@@ -515,11 +596,11 @@ msgstr "인공지능 (AI)"
 msgid "As the teams are locked, you cannot make treaties of any kind."
 msgstr "팀이 고정되어 있어, 어떠한 종류의 조약도 체결할 수 없습니다."
 
-#: libs/s25main/desktops/dskOptions.cpp:312
+#: libs/s25main/desktops/dskOptions.cpp:324
 msgid "Ask always"
 msgstr "항상 물어보기"
 
-#: libs/s25main/network/GameServer.cpp:773
+#: libs/s25main/network/GameServer.cpp:786
 msgid ""
 "Async at GF %1% of player %2% vs %3%. Checksums:\n"
 "%4%\n"
@@ -531,38 +612,38 @@ msgstr ""
 msgid "Async debugging (REALLY SLOW!)"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1556
+#: libs/s25main/network/GameServer.cpp:1574
 msgid "Async log saved at %1%\n"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:878
+#: libs/s25main/network/GameClient.cpp:883
 msgid ""
 "Async log saved at %1%,\n"
 "game saved at %2%\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1310
+#: libs/s25main/network/GameServer.cpp:1327
 msgid "Async logs received completely.\n"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:117
+#: libs/s25main/gameData/BuildingConsts.cpp:120
 msgid "At the winery, grapes are stomped in a vat to produce wine. The vintner's wine is of high quality, worthy of sacrifice at the temple."
 msgstr "포도주 양조장에서는 포도를 큰 통에 넣고 밟아 포도주를 만듭니다. 포도주 양조업자가 만든 포도주는 품질이 뛰어나 신전에 제물로 바칠 만한 가치가 있습니다."
 
-#: libs/s25main/ingameWindows/iwAction.cpp:365
+#: libs/s25main/ingameWindows/iwAction.cpp:372
 msgid "Attack not possible."
 msgstr "공격 불가."
 
-#: libs/s25main/ingameWindows/iwAction.cpp:279
-#: libs/s25main/ingameWindows/iwAction.cpp:287
+#: libs/s25main/ingameWindows/iwAction.cpp:286
+#: libs/s25main/ingameWindows/iwAction.cpp:294
 msgid "Attack options"
 msgstr "공격 옵션"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:395
+#: libs/s25main/ingameWindows/iwAction.cpp:402
 msgid "Attack!"
 msgstr "공격!"
 
-#: libs/s25main/GameManager.cpp:62
+#: libs/s25main/GameManager.cpp:63
 msgid "Audio driver couldn't be loaded!"
 msgstr ""
 
@@ -571,17 +652,17 @@ msgstr ""
 msgid "Author"
 msgstr "제작자"
 
-#: libs/s25main/desktops/dskOptions.cpp:791
+#: libs/s25main/desktops/dskOptions.cpp:811
 #, c-format
 msgid "Auto (%u%%)"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1403
-#: libs/s25main/network/GameClient.cpp:1405
+#: libs/s25main/network/GameClient.cpp:1412
+#: libs/s25main/network/GameClient.cpp:1414
 msgid "Auto-Save"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwSave.cpp:137
+#: libs/s25main/ingameWindows/iwSave.cpp:152
 msgid "Auto-Save every:"
 msgstr "자동-저장 주기:"
 
@@ -609,19 +690,19 @@ msgstr ""
 msgid "BQ check every %1%ms"
 msgstr ""
 
-#: libs/s25main/gameData/NationConsts.h:14
+#: libs/s25main/gameData/NationConsts.h:13
 msgid "Babylonians"
 msgstr "바빌로니아인"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:73
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:106
 #: libs/s25main/desktops/dskCampaignSelection.cpp:88
-#: libs/s25main/desktops/dskCredits.cpp:45
+#: libs/s25main/desktops/dskCredits.cpp:46
 #: libs/s25main/desktops/dskDirectIP.cpp:31
 #: libs/s25main/desktops/dskIntro.cpp:20 libs/s25main/desktops/dskLAN.cpp:40
 #: libs/s25main/desktops/dskLobby.cpp:45
 #: libs/s25main/desktops/dskMultiPlayer.cpp:31
-#: libs/s25main/desktops/dskOptions.cpp:162
+#: libs/s25main/desktops/dskOptions.cpp:185
 #: libs/s25main/desktops/dskSelectMap.cpp:86
 #: libs/s25main/desktops/dskSinglePlayer.cpp:49
 #: libs/s25main/desktops/dskTextureTest.cpp:35
@@ -649,7 +730,7 @@ msgstr "막사"
 msgid "Beer"
 msgstr "맥주"
 
-#: libs/s25main/desktops/dskOptions.cpp:396
+#: libs/s25main/desktops/dskOptions.cpp:400
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
 msgid "Bird sounds"
 msgstr "새소리"
@@ -671,7 +752,7 @@ msgstr ""
 msgid "Boats"
 msgstr "보트"
 
-#: libs/s25main/resources/ArchiveLoader.cpp:57
+#: libs/s25main/resources/ArchiveLoader.cpp:58
 #, c-format
 msgid "Bob-like file contained multiple text entries: %s\n"
 msgstr ""
@@ -680,8 +761,14 @@ msgstr ""
 msgid "Border areas"
 msgstr "접경 지역"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:56
-#: libs/s25main/ingameWindows/iwTransport.cpp:36
+#: libs/s25main/desktops/dskOptions.cpp:340
+#: libs/s25main/ingameWindows/iwSettings.cpp:62
+#, fuzzy
+msgid "Borderless window"
+msgstr "창 크기 조절"
+
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
+#: libs/s25main/ingameWindows/iwTransport.cpp:58
 msgid "Bottom"
 msgstr "맨 아래"
 
@@ -701,23 +788,23 @@ msgstr "양조업자"
 msgid "Brewery"
 msgstr "맥주 양조장"
 
-#: libs/s25main/gameData/PortraitConsts.h:22
+#: libs/s25main/gameData/PortraitConsts.h:20
 msgid "Brutus"
 msgstr "브루투스"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:302
-#: libs/s25main/ingameWindows/iwAction.cpp:304
+#: libs/s25main/ingameWindows/iwAction.cpp:309
+#: libs/s25main/ingameWindows/iwAction.cpp:311
 msgid "Build headquarters"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:204
-#: libs/s25main/ingameWindows/iwAction.cpp:216
-#: libs/s25main/ingameWindows/iwAction.cpp:230
-#: libs/s25main/ingameWindows/iwAction.cpp:236
+#: libs/s25main/ingameWindows/iwAction.cpp:211
+#: libs/s25main/ingameWindows/iwAction.cpp:223
+#: libs/s25main/ingameWindows/iwAction.cpp:237
+#: libs/s25main/ingameWindows/iwAction.cpp:243
 msgid "Build road"
 msgstr "길 놓기"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:218
+#: libs/s25main/ingameWindows/iwAction.cpp:225
 msgid "Build waterway"
 msgstr "수로 놓기"
 
@@ -725,12 +812,12 @@ msgstr "수로 놓기"
 msgid "Builder"
 msgstr "건축업자"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:38
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:31
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:71
 msgid "Building sequence"
 msgstr "건설 순서"
 
-#: libs/s25main/ingameWindows/iwBuildings.cpp:69
+#: libs/s25main/ingameWindows/iwBuildings.cpp:73
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:53
 #: libs/s25main/ingameWindows/iwStatistics.cpp:135
 #: libs/s25main/ingameWindows/iwStatistics.cpp:220
@@ -745,8 +832,8 @@ msgstr "도축업자"
 msgid "COMP"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:208
-#: libs/s25main/ingameWindows/iwAction.cpp:222
+#: libs/s25main/ingameWindows/iwAction.cpp:215
+#: libs/s25main/ingameWindows/iwAction.cpp:229
 msgid "Call in geologist"
 msgstr "지질학자 호출"
 
@@ -782,7 +869,7 @@ msgstr ""
 msgid "Cancel expedition"
 msgstr "원정 취소"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:977
+#: libs/s25main/desktops/dskGameLobby.cpp:978
 msgid "Cancel start"
 msgstr ""
 
@@ -790,11 +877,11 @@ msgstr ""
 msgid "Cannot deserialize event manager when there are still events active!"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:219
+#: libs/s25main/Replay.cpp:231
 msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:207
+#: libs/s25main/Replay.cpp:219
 msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
 msgstr ""
 
@@ -825,6 +912,11 @@ msgstr "매장된 금 교체"
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:14
 msgid "Change metalworks behavior on zero"
 msgstr "0일 때 대장간 방식 변경"
+
+#: libs/s25main/addons/AddonArmorCapturedBld.h:18
+#, fuzzy
+msgid "Change the armor setting for captured military buildings."
+msgstr "점령한 군사 건물에 대한 금화 설정을 변경합니다."
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:18
 msgid "Change the coin setting for captured military buildings."
@@ -906,7 +998,8 @@ msgstr "정육용 칼"
 msgid "Close"
 msgstr "가까움"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:47
+#: libs/s25main/ingameWindows/iwAddons.cpp:60
+#: libs/s25main/ingameWindows/iwSettings.cpp:117
 msgid "Close Without Saving"
 msgstr "저장하지 않고 닫기"
 
@@ -944,11 +1037,11 @@ msgstr "수집"
 msgid "Color"
 msgstr "색상"
 
-#: libs/s25main/desktops/dskOptions.cpp:155
+#: libs/s25main/desktops/dskOptions.cpp:178
 msgid "Common"
 msgstr "일반"
 
-#: libs/s25main/figures/nofMetalworker.cpp:175
+#: libs/s25main/figures/nofMetalworker.cpp:177
 msgid "Completed the ordered amount of tools."
 msgstr ""
 
@@ -989,11 +1082,11 @@ msgstr "접속 실패!"
 msgid "Conquer 3/4 of map"
 msgstr "지도 3/4 정복"
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:186
+#: libs/s25main/ingameWindows/iwDistribution.cpp:199
 msgid "Construction"
 msgstr "건설"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:143
+#: libs/s25main/desktops/dskGameInterface.cpp:150
 msgid "Construction aid mode"
 msgstr "건설 보조 모드"
 
@@ -1035,7 +1128,7 @@ msgstr "화강암으로 변환"
 msgid "Convert to iron ore"
 msgstr "철광석으로 변환"
 
-#: libs/s25main/resources/ArchiveLoader.cpp:103
+#: libs/s25main/resources/ArchiveLoader.cpp:104
 #, c-format
 msgid "Could not determine type of path %s\n"
 msgstr ""
@@ -1056,7 +1149,7 @@ msgstr ""
 msgid "Create Game"
 msgstr "게임 생성"
 
-#: libs/s25main/desktops/dskCredits.cpp:47
+#: libs/s25main/desktops/dskCredits.cpp:48
 #: libs/s25main/desktops/dskMainMenu.cpp:47
 msgid "Credits"
 msgstr ""
@@ -1065,7 +1158,7 @@ msgstr ""
 msgid "Crucible"
 msgstr "도가니"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:394
+#: libs/s25main/desktops/dskGameInterface.cpp:406
 #, c-format
 msgid "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %u ms"
 msgstr "현재 GF: %u / GF 길이: %u 밀리초 / NWF 길이: %u gf (%u 밀리초) / 핑: %u 밀리초"
@@ -1087,26 +1180,44 @@ msgstr ""
 "당신에 관한 통계 정보를 누구에게 공개할지 결정합니다.\n"
 "\"동맹\"은 팀 구성원뿐만 아니라 조약 맺은 동맹에게도 적용됩니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:156
+#: libs/s25main/gameData/BuildingConsts.cpp:162
 msgid "Deep within the mountains, miners dig for iron ore. They will obviously need a lot of food for the strenuous work."
 msgstr "산 속 깊은 곳에서 광부들은 철광석을 캐냅니다. 고된 노동에는 분명히 많은 식량이 필요할 것입니다."
 
 #: libs/s25main/addons/AddonBurnDuration.h:19
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:22
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:32
-#: libs/s25main/ingameWindows/iwAddons.cpp:50
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:71
-#: libs/s25main/ingameWindows/iwDistribution.cpp:66
+#: libs/s25main/addons/AddonForesterReachRadius.h:25
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:31
+#: libs/s25main/addons/AddonStonemasonReachRadius.h:27
+#: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
+#: libs/s25main/ingameWindows/iwAddons.cpp:53
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:64
+#: libs/s25main/ingameWindows/iwDistribution.cpp:71
 #: libs/s25main/ingameWindows/iwMilitary.cpp:75
 #: libs/s25main/ingameWindows/iwTools.cpp:69
-#: libs/s25main/ingameWindows/iwTransport.cpp:27
+#: libs/s25main/ingameWindows/iwTransport.cpp:46
 msgid "Default"
 msgstr "기본값"
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:100
+#, fuzzy
+msgid "Delete"
+msgstr "모두 삭제"
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:197
+#, fuzzy
+msgid "Delete Failed"
+msgstr "모두 삭제"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:133
 #, c-format
 msgid "Delete Invalid (%u)"
 msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:179
+#, fuzzy
+msgid "Delete Preset"
+msgstr "선택 항목 삭제"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:81
 msgid "Delete all"
@@ -1121,11 +1232,11 @@ msgstr "선택 항목 삭제"
 msgid "Demolish building when out of resources"
 msgstr "자원 고갈시 건물 철거"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:238
-#: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:92
+#: libs/s25main/ingameWindows/iwAction.cpp:245
+#: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:91
 #: libs/s25main/ingameWindows/iwBuilding.cpp:64
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:55
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:66
 msgid "Demolish house"
 msgstr "건물 철거"
 
@@ -1133,15 +1244,15 @@ msgstr "건물 철거"
 msgid "Demolish?"
 msgstr "철거할까요?"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:296
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:365
 msgid "Demolition ist not allowed because the building is located in border area!"
 msgstr "접경 지역에 위치해 있기 때문에 건물을 철거할 수 없습니다."
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:295
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:364
 msgid "Demolition ist not allowed because the building is under attack!"
 msgstr "공격받고 있는 건물은 철거할 수 없습니다!"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:299
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:368
 msgid "Demolition not possible"
 msgstr ""
 
@@ -1161,8 +1272,8 @@ msgstr ""
 msgid "Difficulty"
 msgstr "난이도"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:265
-#: libs/s25main/ingameWindows/iwAction.cpp:274
+#: libs/s25main/ingameWindows/iwAction.cpp:272
+#: libs/s25main/ingameWindows/iwAction.cpp:281
 msgid "Dig up road"
 msgstr "길 끊기"
 
@@ -1175,6 +1286,7 @@ msgstr "외교"
 msgid "Direct IP"
 msgstr ""
 
+#: libs/s25main/addons/AddonArmorCapturedBld.h:22
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:22
 msgid "Disable"
 msgstr "비활성화"
@@ -1182,6 +1294,11 @@ msgstr "비활성화"
 #: libs/s25main/addons/AddonDemolitionProhibition.h:18
 msgid "Disable Demolition of military buildings"
 msgstr "군사 건물 철거 금지"
+
+#: libs/s25main/addons/AddonNoArmorDefault.h:17
+#, fuzzy
+msgid "Disable armor by default"
+msgstr "기본값으로 금화 차단"
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:17
 msgid "Disable coins by default"
@@ -1191,16 +1308,20 @@ msgstr "기본값으로 금화 차단"
 msgid "Disable the demolition of military buildings under attack or near frontiers."
 msgstr "공격받고 있거나 국경 근처에 위치한 군사 건물의 철거를 비활성화합니다."
 
-#: libs/s25main/desktops/dskOptions.cpp:471
-#: libs/s25main/ingameWindows/iwSave.cpp:140
+#: libs/s25main/desktops/dskOptions.cpp:477
+#: libs/s25main/ingameWindows/iwSave.cpp:155
 msgid "Disabled"
 msgstr "사용 안 함"
+
+#: libs/s25main/network/GameClient.cpp:1881
+msgid "Disabled AI for current player"
+msgstr ""
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:25
 msgid "Disallow change"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:307
+#: libs/s25main/ingameWindows/iwAction.cpp:314
 msgid "Display options"
 msgstr "표시 옵션"
 
@@ -1208,7 +1329,7 @@ msgstr "표시 옵션"
 msgid "Display the hitpoints of units in military buildings."
 msgstr "군사 건물 내 유닛의 체력을 표시합니다."
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:30
+#: libs/s25main/ingameWindows/iwDistribution.cpp:33
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:40
 msgid "Distribution of goods"
 msgstr "물품 배분"
@@ -1217,7 +1338,7 @@ msgstr "물품 배분"
 msgid "Don't forget to check the addon configuration!"
 msgstr "추가사항 설정을 확인하는 것을 잊지 마세요."
 
-#: libs/s25main/desktops/dskOptions.cpp:294
+#: libs/s25main/desktops/dskOptions.cpp:309
 msgid ""
 "Don't move cursor automatically\n"
 "Useful e.g. for split-screen / dual-mice multiplayer (see wiki)"
@@ -1229,7 +1350,7 @@ msgstr ""
 msgid "Don't surrender"
 msgstr "항복 안함"
 
-#: libs/s25main/desktops/dskCredits.cpp:243
+#: libs/s25main/desktops/dskCredits.cpp:244
 msgid "Donators"
 msgstr "후원자들"
 
@@ -1241,8 +1362,8 @@ msgstr "당나귀 사육사"
 msgid "Donkey breeding"
 msgstr "당나귀 축사"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:53
-#: libs/s25main/ingameWindows/iwTransport.cpp:33
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:46
+#: libs/s25main/ingameWindows/iwTransport.cpp:55
 msgid "Down"
 msgstr "아래로"
 
@@ -1268,7 +1389,7 @@ msgstr "기간: %d GF (%s)"
 msgid "Duration: Forever"
 msgstr "기간: 영구"
 
-#: libs/s25main/desktops/dskOptions.cpp:467
+#: libs/s25main/desktops/dskOptions.cpp:473
 msgid "Dynamic (Limits to display refresh rate, works with most drivers)"
 msgstr ""
 
@@ -1280,11 +1401,11 @@ msgstr ""
 msgid "Economic progress"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:64
+#: libs/s25main/ingameWindows/iwAddons.cpp:73
 msgid "Economy"
 msgstr "경제"
 
-#: libs/s25main/EconomyModeHandler.cpp:66
+#: libs/s25main/EconomyModeHandler.cpp:75
 msgid "Economy Mode: Collect as much as you can of the following good types: "
 msgstr ""
 
@@ -1293,14 +1414,15 @@ msgid "Economy Mode: Game Length"
 msgstr "경제 모드: 게임 시간"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:255
-#: libs/s25main/desktops/dskGameLobby.cpp:1150
+#: libs/s25main/desktops/dskGameLobby.cpp:1151
 msgid "Economy mode"
 msgstr "경제 모드"
 
-#: libs/s25main/desktops/dskOptions.cpp:385
+#: libs/s25main/desktops/dskOptions.cpp:392
 msgid "Effects"
 msgstr ""
 
+#: libs/s25main/addons/AddonArmorCapturedBld.h:21
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:21
 msgid "Enable"
 msgstr "활성화"
@@ -1321,9 +1443,18 @@ msgstr "전장 특진 활성화"
 msgid "Enable charburner"
 msgstr "숯가마 활성화"
 
+#: libs/s25main/addons/AddonLeather.h:17
+#, fuzzy
+msgid "Enable leather economy"
+msgstr "포도주 경제 활성화"
+
 #: libs/s25main/addons/AddonWine.h:17
 msgid "Enable wine economy"
 msgstr "포도주 경제 활성화"
+
+#: libs/s25main/network/GameClient.cpp:1885
+msgid "Enabled AI for current player"
+msgstr ""
 
 #: libs/s25main/addons/AddonAsyncDebug.h:17
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
@@ -1354,14 +1485,14 @@ msgstr ""
 msgid "Enemy harbors don't block"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:197
-#: libs/s25main/ingameWindows/iwAction.cpp:247
-#: libs/s25main/ingameWindows/iwAction.cpp:259
+#: libs/s25main/ingameWindows/iwAction.cpp:204
+#: libs/s25main/ingameWindows/iwAction.cpp:254
+#: libs/s25main/ingameWindows/iwAction.cpp:266
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:27
 msgid "Erect flag"
 msgstr "깃발 꽂기"
 
-#: libs/s25main/gameData/PortraitConsts.h:23
+#: libs/s25main/gameData/PortraitConsts.h:21
 msgid "Erik"
 msgstr "에리크"
 
@@ -1369,18 +1500,18 @@ msgstr "에리크"
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:169
 #: libs/s25main/desktops/dskCampaignSelection.cpp:260
-#: libs/s25main/desktops/dskCredits.cpp:276
-#: libs/s25main/desktops/dskCredits.cpp:287
+#: libs/s25main/desktops/dskCredits.cpp:277
+#: libs/s25main/desktops/dskCredits.cpp:288
 #: libs/s25main/desktops/dskGameLoader.cpp:135
 #: libs/s25main/desktops/dskGameLobby.cpp:150
 #: libs/s25main/desktops/dskGameLobby.cpp:156
 #: libs/s25main/desktops/dskGameLobby.cpp:292
 #: libs/s25main/desktops/dskGameLobby.cpp:398
 #: libs/s25main/desktops/dskGameLobby.cpp:819
-#: libs/s25main/desktops/dskGameLobby.cpp:1115
-#: libs/s25main/desktops/dskGameLobby.cpp:1125
+#: libs/s25main/desktops/dskGameLobby.cpp:1116
+#: libs/s25main/desktops/dskGameLobby.cpp:1126
 #: libs/s25main/desktops/dskLobby.cpp:259
-#: libs/s25main/desktops/dskOptions.cpp:639
+#: libs/s25main/desktops/dskOptions.cpp:663
 #: libs/s25main/desktops/dskSelectMap.cpp:173
 #: libs/s25main/desktops/dskSelectMap.cpp:235
 #: libs/s25main/desktops/dskSelectMap.cpp:362
@@ -1396,29 +1527,29 @@ msgstr "에리크"
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:345
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:376
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:391
-#: libs/s25main/network/GameServer.cpp:1574
+#: libs/s25main/network/GameServer.cpp:1592
 msgid "Error"
 msgstr "오류"
 
-#: libs/s25main/network/GameClient.cpp:1539
+#: libs/s25main/network/GameClient.cpp:1548
 msgid "Error decompressing lua file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1530
+#: libs/s25main/network/GameClient.cpp:1539
 msgid "Error decompressing map file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1362
+#: libs/s25main/network/GameClient.cpp:1370
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1711
+#: libs/s25main/network/GameClient.cpp:1743
 msgid "Error during saving: "
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1556
+#: libs/s25main/network/GameClient.cpp:1565
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr ""
@@ -1427,12 +1558,12 @@ msgstr ""
 msgid "Error while playing replay!"
 msgstr ""
 
-#: libs/s25main/WindowManager.cpp:557
+#: libs/s25main/WindowManager.cpp:577
 msgid "Error writing screenshot: %1%\n"
 msgstr ""
 
-#: libs/s25main/world/MapSerializer.cpp:71
-#: libs/s25main/world/MapSerializer.cpp:190
+#: libs/s25main/world/MapSerializer.cpp:73
+#: libs/s25main/world/MapSerializer.cpp:247
 msgid "Error: "
 msgstr ""
 
@@ -1452,7 +1583,7 @@ msgstr ""
 msgid "Event count mismatch. Read events: %1%. Expected: %2%.\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwSave.cpp:145
+#: libs/s25main/ingameWindows/iwSave.cpp:160
 msgid "Every GF"
 msgstr ""
 
@@ -1480,6 +1611,10 @@ msgstr "탐험 원정"
 msgid "Exploration:"
 msgstr "지도 시야:"
 
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:197
+msgid "Failed to delete the selected preset."
+msgstr ""
+
 #: libs/s25main/desktops/dskSelectMap.cpp:407
 msgid ""
 "Failed to generate random map.\n"
@@ -1490,7 +1625,7 @@ msgstr ""
 msgid "Failed to init GUI: "
 msgstr ""
 
-#: libs/s25main/Loader.cpp:544 libs/s25main/Loader.cpp:559
+#: libs/s25main/Loader.cpp:556 libs/s25main/Loader.cpp:571
 #, c-format
 msgid "Failed to load %s\n"
 msgstr ""
@@ -1499,21 +1634,21 @@ msgstr ""
 msgid "Failed to load campaign %1%.\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:276
+#: libs/s25main/desktops/dskCredits.cpp:277
 msgid "Failed to load game data"
 msgstr ""
 
 #: libs/s25main/PreviewMinimap.cpp:44 libs/s25main/desktops/dskSelectMap.cpp:65
-#: libs/s25main/world/MapSerializer.cpp:86
+#: libs/s25main/world/MapSerializer.cpp:88
 msgid "Failed to load game data!"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:287
+#: libs/s25main/desktops/dskCredits.cpp:288
 #: libs/s25main/desktops/dskGameLoader.cpp:97
 msgid "Failed to load game resources"
 msgstr ""
 
-#: libs/s25main/drivers/DriverWrapper.cpp:94
+#: libs/s25main/drivers/DriverWrapper.cpp:93
 msgid "Failed to load library. Check dependencies!"
 msgstr ""
 
@@ -1521,7 +1656,7 @@ msgstr ""
 msgid "Failed to load lua file '%1%'\n"
 msgstr ""
 
-#: libs/s25main/world/MapSerializer.cpp:190
+#: libs/s25main/world/MapSerializer.cpp:247
 msgid "Failed to load lua state!"
 msgstr ""
 
@@ -1531,7 +1666,7 @@ msgstr ""
 msgid "Failed to load map %1%: %2%\n"
 msgstr ""
 
-#: libs/s25main/resources/ArchiveLoader.cpp:147
+#: libs/s25main/resources/ArchiveLoader.cpp:148
 msgid "Failed to merge entry %1%. Archive expected!\n"
 msgstr ""
 
@@ -1539,17 +1674,21 @@ msgstr ""
 msgid "Failed to read lua file '%1%'\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:1076 libs/s25main/Loader.cpp:1095
+#: libs/s25main/Loader.cpp:1097 libs/s25main/Loader.cpp:1116
 msgid "Failed to resolve resource %1%\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1560
+#: libs/s25main/network/GameServer.cpp:1578
 msgid "Failed to save async log at %1%\n"
 msgstr ""
 
-#: libs/s25main/world/MapSerializer.cpp:68
-#: libs/s25main/world/MapSerializer.cpp:71
+#: libs/s25main/world/MapSerializer.cpp:70
+#: libs/s25main/world/MapSerializer.cpp:73
 msgid "Failed to save lua state!"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:258
+msgid "Failed to save the preset. Please check the filename and try again."
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:81
@@ -1574,7 +1713,7 @@ msgid "Few"
 msgstr "적음"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:24
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:85
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:107
 msgid "Fewer"
 msgstr "적음"
 
@@ -1586,32 +1725,32 @@ msgstr "수비병 더 적게"
 msgid "Fewer recruits"
 msgstr "더 적은 모병"
 
-#: libs/s25main/Replay.cpp:189
+#: libs/s25main/Replay.cpp:201
 msgid "File could not be opened."
 msgstr ""
 
-#: libs/s25main/SavedFile.cpp:87
+#: libs/s25main/SavedFile.cpp:89
 msgid "File has an old version and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
 msgstr ""
 
-#: libs/s25main/SavedFile.cpp:76
+#: libs/s25main/SavedFile.cpp:78
 msgid "File is not in a valid format!"
 msgstr ""
 
-#: libs/s25main/resources/ArchiveLoader.cpp:101
+#: libs/s25main/resources/ArchiveLoader.cpp:102
 #, c-format
 msgid "File or directory does not exist: %s\n"
 msgstr ""
 
-#: libs/s25main/SavedFile.cpp:88
+#: libs/s25main/SavedFile.cpp:90
 msgid "File was created with more recent program and cannot be used (version: %1%.%2%, expected: %3%.%4%)!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwSave.cpp:51
+#: libs/s25main/ingameWindows/iwSave.cpp:52
 msgid "Filename"
 msgstr "파일 이름"
 
-#: libs/s25main/desktops/dskCredits.cpp:107
+#: libs/s25main/desktops/dskCredits.cpp:108
 msgid "Finances"
 msgstr "재무"
 
@@ -1644,17 +1783,21 @@ msgid "Follow object"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:52
-#: libs/s25main/ingameWindows/iwTransport.cpp:53
+#: libs/s25main/ingameWindows/iwTransport.cpp:76
 msgid "Food"
 msgstr "식량"
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:168
+#: libs/s25main/ingameWindows/iwDistribution.cpp:176
 msgid "Foodstuff"
 msgstr "식량"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:30
 msgid "Forester"
 msgstr "조경사"
+
+#: libs/s25main/addons/AddonForesterFarmFieldAvoidance.h:15
+msgid "Foresters avoid farm field spots"
+msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:19
 msgid "Fortress"
@@ -1664,7 +1807,7 @@ msgstr "요새"
 msgid "Found coal"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwShip.cpp:53
+#: libs/s25main/ingameWindows/iwShip.cpp:56
 msgid "Found colony"
 msgstr "식민지 건설"
 
@@ -1684,7 +1827,7 @@ msgstr ""
 msgid "Found water"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:168
+#: libs/s25main/gameData/BuildingConsts.cpp:174
 msgid "From the lookout tower you can see far into previously unexplored lands."
 msgstr "감시탑에서는 이전에 탐험되지 않았던 땅까지 멀리 내다볼 수 있습니다."
 
@@ -1696,17 +1839,17 @@ msgstr "국경까지 거리 측정에 도달 가능성 고려"
 msgid "Full Control"
 msgstr "완전 제어"
 
-#: libs/s25main/desktops/dskOptions.cpp:335
-#: libs/s25main/ingameWindows/iwSettings.cpp:67
+#: libs/s25main/desktops/dskOptions.cpp:339
+#: libs/s25main/ingameWindows/iwSettings.cpp:61
 msgid "Fullscreen"
 msgstr "전체 화면"
 
-#: libs/s25main/desktops/dskOptions.cpp:327
-#: libs/s25main/ingameWindows/iwSettings.cpp:44
+#: libs/s25main/desktops/dskOptions.cpp:345
+#: libs/s25main/ingameWindows/iwSettings.cpp:67
 msgid "Fullscreen resolution:"
 msgstr "전체 화면 해상도:"
 
-#: libs/s25main/desktops/dskOptions.cpp:375
+#: libs/s25main/desktops/dskOptions.cpp:386
 msgid "GUI Scale:"
 msgstr ""
 
@@ -1714,7 +1857,7 @@ msgstr ""
 msgid "Game Chat"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwSave.cpp:54
+#: libs/s25main/ingameWindows/iwSave.cpp:55
 msgid "Game Time"
 msgstr "게임 시간"
 
@@ -1730,11 +1873,11 @@ msgstr "게임 상자를 골라 펼쳤습니다..."
 msgid "Game menu"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1231
+#: libs/s25main/desktops/dskGameInterface.cpp:1244
 msgid "Game was paused."
 msgstr "게임이 일시 중지되었습니다."
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1236
+#: libs/s25main/desktops/dskGameInterface.cpp:1249
 msgid "Game was resumed."
 msgstr "게임이 재개되었습니다."
 
@@ -1742,7 +1885,7 @@ msgstr "게임이 재개되었습니다."
 msgid "Game's Name:"
 msgstr "게임 이름"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:67
+#: libs/s25main/ingameWindows/iwAddons.cpp:76
 msgid "Gameplay"
 msgstr ""
 
@@ -1782,7 +1925,7 @@ msgstr "건물이 파괴되면 건축 자재를 돌려받습니다."
 msgid "Given map or replay (%1%) does not exist!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:316
+#: libs/s25main/ingameWindows/iwAction.cpp:323
 msgid "Go to headquarters"
 msgstr "본부 가기"
 
@@ -1790,7 +1933,7 @@ msgstr "본부 가기"
 msgid "Go to next building of same type"
 msgstr "같은 종류의 다음 건물 가기"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:67
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
 msgid "Go to next military building"
 msgstr "다음 군사건물 가기"
 
@@ -1802,9 +1945,9 @@ msgstr "다음 창고 가기"
 #: libs/s25main/ingameWindows/iwBuilding.cpp:83
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:37
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:28
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:61
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:72
 #: libs/s25main/ingameWindows/iwObservate.cpp:53
-#: libs/s25main/ingameWindows/iwShip.cpp:49
+#: libs/s25main/ingameWindows/iwShip.cpp:52
 msgid "Go to place"
 msgstr "장소로 가기"
 
@@ -1819,7 +1962,7 @@ msgstr "목표:"
 msgid "Gold"
 msgstr "금"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:58
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:69
 msgid "Gold delivery"
 msgstr "금화 전달"
 
@@ -1835,8 +1978,8 @@ msgstr "금:"
 msgid "Goods at start:"
 msgstr "시작 시 물품:"
 
-#: libs/s25main/desktops/dskOptions.cpp:284
-#: libs/s25main/ingameWindows/iwSettings.cpp:83
+#: libs/s25main/desktops/dskOptions.cpp:300
+#: libs/s25main/ingameWindows/iwSettings.cpp:103
 msgid "Grab and drag (Map moves with your cursor when scrolling/panning.)"
 msgstr "마우스 커서를 잡고 드래그 (지도 스크롤/패닝 시 지도가 커서와 함께 이동합니다)."
 
@@ -1844,7 +1987,7 @@ msgstr "마우스 커서를 잡고 드래그 (지도 스크롤/패닝 시 지도
 msgid "Grain"
 msgstr "곡식"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:234
+#: libs/s25main/gameData/BuildingConsts.cpp:246
 msgid "Grain and water are needed for rearing pigs. The meat thus obtained can then be processed by a butcher."
 msgstr "돼지를 키우려면 곡식과 물이 필요합니다. 이렇게 얻은 고기는 도축업자가 가공할 수 있습니다."
 
@@ -1864,11 +2007,11 @@ msgstr "화강암:"
 msgid "Grapes"
 msgstr "포도"
 
-#: libs/s25main/desktops/dskOptions.cpp:157
+#: libs/s25main/desktops/dskOptions.cpp:180
 msgid "Graphics"
 msgstr "그래픽"
 
-#: libs/s25main/desktops/dskOptions.cpp:352
+#: libs/s25main/desktops/dskOptions.cpp:367
 msgid "Graphics Driver"
 msgstr "그래픽 드라이버"
 
@@ -1880,7 +2023,7 @@ msgstr "경비초소"
 msgid "HQ distance to mountain"
 msgstr "본부에서 산까지의 거리"
 
-#: libs/s25main/gameData/PortraitConsts.h:27
+#: libs/s25main/gameData/PortraitConsts.h:26
 msgid "Hakirawashi"
 msgstr "하기라와시"
 
@@ -1908,16 +2051,16 @@ msgstr "본부"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:30
-#: libs/s25main/ingameWindows/iwBuildings.cpp:95
-#: libs/s25main/ingameWindows/iwDistribution.cpp:63
+#: libs/s25main/ingameWindows/iwBuildings.cpp:99
+#: libs/s25main/ingameWindows/iwDistribution.cpp:68
 #: libs/s25main/ingameWindows/iwEconomicProgress.cpp:101
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:77
 #: libs/s25main/ingameWindows/iwMilitary.cpp:73
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:52
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:63
 #: libs/s25main/ingameWindows/iwStatistics.cpp:158
 #: libs/s25main/ingameWindows/iwTools.cpp:63
-#: libs/s25main/ingameWindows/iwTransport.cpp:23
-#: libs/s25main/ingameWindows/iwWares.cpp:192
+#: libs/s25main/ingameWindows/iwTransport.cpp:42
+#: libs/s25main/ingameWindows/iwWares.cpp:169
 msgid "Help"
 msgstr "도움말"
 
@@ -1925,11 +2068,11 @@ msgstr "도움말"
 msgid "Helper"
 msgstr "짐꾼"
 
-#: libs/s25main/ingameWindows/iwWares.cpp:207
+#: libs/s25main/ingameWindows/iwWares.cpp:184
 msgid "Here you will find a list of your entire stores of merchandise and all the inhabitants of your realm."
 msgstr "여기서 당신이 축적한 모든 물품과 왕국의 모든 주민의 목록을 볼 수 있습니다."
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:238
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:239
 msgid "Hi, I'm an artifical player and I'm not very good yet!"
 msgstr "안녕하세요, 저는 인공지능 플레이어인데 아직 실력이 그렇게 좋지는 않아요!"
 
@@ -1941,7 +2084,7 @@ msgstr "호스트:"
 msgid "Hosting of game not possible"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:313
+#: libs/s25main/ingameWindows/iwAction.cpp:320
 msgid "House names"
 msgstr "건물 이름"
 
@@ -1961,14 +2104,14 @@ msgstr "ID"
 msgid "IP Address of Host:"
 msgstr "호스트의 IP 주소:"
 
-#: libs/s25main/desktops/dskOptions.cpp:236
+#: libs/s25main/desktops/dskOptions.cpp:257
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:59
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:41
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:83
 msgid "IPv4"
 msgstr "IPv4"
 
-#: libs/s25main/desktops/dskOptions.cpp:235
+#: libs/s25main/desktops/dskOptions.cpp:256
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:60
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:42
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:84
@@ -1994,6 +2137,18 @@ msgstr "개선된 동맹"
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:20
 msgid "Increase the durability of geologist signs by a factor."
 msgstr "지질학자의 팻말이 유지되는 시간을 계수에 따라 늘립니다."
+
+#: libs/s25main/addons/AddonForesterReachRadius.h:24
+msgid "Increase the radius in which the forester plants trees."
+msgstr ""
+
+#: libs/s25main/addons/AddonStonemasonReachRadius.h:25
+msgid "Increase the radius in which the stonemason searches for stone."
+msgstr ""
+
+#: libs/s25main/addons/AddonWoodcutterReachRadius.h:24
+msgid "Increase the radius in which the woodcutter searches for trees."
+msgstr ""
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
 msgid "Inexhaustible"
@@ -2040,12 +2195,23 @@ msgstr "길 놓기 중단"
 msgid "Intro"
 msgstr "인트로"
 
-#: libs/s25main/drivers/DriverWrapper.cpp:106
+#: libs/s25main/drivers/DriverWrapper.cpp:105
 msgid "Invalid API version!"
 msgstr ""
 
+#: libs/s25main/ingameWindows/iwSave.cpp:128
+#: libs/s25main/ingameWindows/iwSave.cpp:132
+#, fuzzy
+msgid "Invalid Filename"
+msgstr "파일 이름"
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:217
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:221
+msgid "Invalid Name"
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1479
+#: libs/s25main/network/GameClient.cpp:1488
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr ""
 
@@ -2053,15 +2219,15 @@ msgstr ""
 msgid "Invalid Replay!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwSave.cpp:101
+#: libs/s25main/ingameWindows/iwSave.cpp:104
 msgid "Invalid Savegame %1%! Reason: %2%\n"
 msgstr ""
 
-#: libs/libGamedata/gameData/CampaignDescription.cpp:31
+#: libs/libGamedata/gameData/CampaignDescription.cpp:62
 msgid "Invalid difficulty: %1%"
 msgstr ""
 
-#: libs/s25main/world/MapSerializer.cpp:176
+#: libs/s25main/world/MapSerializer.cpp:233
 msgid "Invalid end-id for lua data"
 msgstr ""
 
@@ -2069,15 +2235,19 @@ msgstr ""
 msgid "Invalid event instance id. Found: %1%. Expected less than %2%.\n"
 msgstr ""
 
-#: libs/s25main/world/MapSerializer.cpp:171
+#: libs/s25main/world/MapSerializer.cpp:228
 msgid "Invalid id for lua data"
 msgstr ""
 
-#: libs/libGamedata/gameData/CampaignDescription.cpp:26
+#: libs/libGamedata/gameData/CampaignDescription.cpp:57
 msgid "Invalid maximum human player count: %1%"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:640
+#: libs/libGamedata/gameData/CampaignDescription.cpp:34
+msgid "Invalid path '%1%': Must be alpha-numeric"
+msgstr ""
+
+#: libs/s25main/desktops/dskOptions.cpp:664
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:138
 msgid "Invalid port. The valid port-range is 1 to 65535!"
@@ -2116,11 +2286,11 @@ msgstr "철광석"
 msgid "Islands"
 msgstr "섬"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:281
+#: libs/s25main/gameData/BuildingConsts.cpp:293
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
 msgstr "조선소에서는 작은 노젓는 보트와 거대한 화물선을 건조할 수 있습니다. 이를 위해 필요한 널빤지는 조선공들이 솜씨있게 가공합니다."
 
-#: libs/s25main/gameData/NationConsts.h:13
+#: libs/s25main/gameData/NationConsts.h:11
 msgid "Japanese"
 msgstr "일본인"
 
@@ -2129,11 +2299,11 @@ msgstr "일본인"
 msgid "Join Game"
 msgstr "게임 참가"
 
-#: libs/s25main/gameData/PortraitConsts.h:21
+#: libs/s25main/gameData/PortraitConsts.h:19
 msgid "Julius"
 msgstr "율리우스"
 
-#: libs/s25main/network/GameClient.cpp:1664
+#: libs/s25main/network/GameClient.cpp:1696
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr "건너뛰기 완료 (%1$.3g 초)."
@@ -2142,19 +2312,20 @@ msgstr "건너뛰기 완료 (%1$.3g 초)."
 msgid "Jump to X:Y"
 msgstr ""
 
+#: libs/s25main/addons/AddonArmorCapturedBld.h:20
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:20
 msgid "Keep setting"
 msgstr "설정 유지"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:824
-#: libs/s25main/desktops/dskOptions.cpp:220
-#: libs/s25main/desktops/dskOptions.cpp:715
+#: libs/s25main/desktops/dskGameInterface.cpp:836
+#: libs/s25main/desktops/dskOptions.cpp:243
+#: libs/s25main/desktops/dskOptions.cpp:742
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:91
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:153
 msgid "Keyboard layout"
 msgstr ""
 
-#: libs/s25main/gameData/PortraitConsts.h:23
+#: libs/s25main/gameData/PortraitConsts.h:22
 msgid "Knut"
 msgstr "크누트"
 
@@ -2166,9 +2337,28 @@ msgstr "육지"
 msgid "Landscape"
 msgstr "풍경"
 
-#: libs/s25main/desktops/dskOptions.cpp:200
+#: libs/s25main/desktops/dskOptions.cpp:223
 msgid "Language:"
 msgstr "언어:"
+
+#: libs/s25main/gameData/GoodConsts.cpp:47
+#, fuzzy
+msgid "Leather"
+msgstr "기타"
+
+#: libs/s25main/gameData/JobConsts.cpp:58
+#, fuzzy
+msgid "Leatherworker"
+msgstr "대장장이"
+
+#: libs/s25main/ingameWindows/iwTransport.cpp:71
+msgid "Leatherworking"
+msgstr ""
+
+#: libs/s25main/gameData/BuildingConsts.cpp:25
+#, fuzzy
+msgid "Leatherworks"
+msgstr "대장간"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:54
 msgid "Length"
@@ -2179,7 +2369,7 @@ msgstr "재생시간"
 msgid "Less"
 msgstr "적게"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:372
+#: libs/s25main/ingameWindows/iwAction.cpp:379
 #: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "Less attackers"
 msgstr "공격병 더 적게"
@@ -2192,7 +2382,7 @@ msgstr "덜 자주"
 msgid "Less repeats"
 msgstr "반복 횟수 감소"
 
-#: libs/s25main/desktops/dskOptions.cpp:340
+#: libs/s25main/desktops/dskOptions.cpp:358
 msgid "Limit Framerate:"
 msgstr ""
 
@@ -2204,7 +2394,7 @@ msgstr "투석기 수 제한"
 msgid "Limit the rank for soldiers"
 msgstr "군인의 계급을 제한합니다"
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:22
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:21
 msgid ""
 "Limits the distance settlers may travel per boat.\n"
 "\n"
@@ -2244,15 +2434,31 @@ msgstr ""
 "망루: 2\n"
 "요새: 1"
 
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:279
+#: libs/s25main/ingameWindows/iwAddons.cpp:51
+#, fuzzy
+msgid "Load"
+msgstr "게임 불러오기"
+
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
 msgid "Load 'ReadMe' file"
 msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:279
+#: libs/s25main/ingameWindows/iwAddons.cpp:52
+msgid "Load Addon Preset"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:292
+#, fuzzy
+msgid "Load Failed"
+msgstr "게임 불러오기"
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:41
 msgid "Load game"
 msgstr "게임 불러오기"
 
-#: libs/s25main/ingameWindows/iwSave.cpp:179
+#: libs/s25main/ingameWindows/iwSave.cpp:194
 msgid "Load game!"
 msgstr ""
 
@@ -2264,7 +2470,7 @@ msgstr "게임 불러오기..."
 msgid "Loaded audio driver \"%1%\"\n"
 msgstr ""
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:50
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:51
 msgid "Loaded video driver \"%1%\"\n"
 msgstr ""
 
@@ -2276,11 +2482,11 @@ msgstr ""
 msgid "Loading %1%\n"
 msgstr ""
 
-#: libs/s25main/resources/ArchiveLoader.cpp:72
+#: libs/s25main/resources/ArchiveLoader.cpp:73
 msgid "Loading %1%: "
 msgstr ""
 
-#: libs/s25main/resources/ArchiveLoader.cpp:84
+#: libs/s25main/resources/ArchiveLoader.cpp:85
 #, c-format
 msgid "Loading directory %s\n"
 msgstr ""
@@ -2298,7 +2504,7 @@ msgstr ""
 msgid "Lobby Chat"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:224
+#: libs/s25main/desktops/dskOptions.cpp:247
 msgid "Local Port:"
 msgstr ""
 
@@ -2306,11 +2512,16 @@ msgstr ""
 msgid "Lock teams:"
 msgstr "팀 고정:"
 
-#: libs/s25main/addons/AddonBool.cpp:29 libs/s25main/addons/AddonList.cpp:37
+#: libs/s25main/desktops/dskOptions.cpp:353
+#: libs/s25main/ingameWindows/iwSettings.cpp:77
+msgid "Lock window size:"
+msgstr ""
+
+#: libs/s25main/addons/AddonBool.cpp:31 libs/s25main/addons/AddonList.cpp:43
 msgid "Locked"
 msgstr ""
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:33
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:32
 msgid "Long"
 msgstr "김"
 
@@ -2318,7 +2529,7 @@ msgstr "김"
 msgid "Long-run"
 msgstr "장기"
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:34
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:33
 msgid "Longer"
 msgstr "더 김"
 
@@ -2326,11 +2537,11 @@ msgstr "더 김"
 msgid "Lookout tower"
 msgstr "감시탑"
 
-#: libs/s25main/figures/nofScout_LookoutTower.cpp:45
+#: libs/s25main/figures/nofScout_LookoutTower.cpp:41
 msgid "Lookout-tower occupied"
 msgstr "감시탑 점유"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1250
+#: libs/s25main/desktops/dskGameInterface.cpp:1263
 #: libs/s25main/desktops/dskLobby.cpp:259
 msgid "Lost connection to lobby!"
 msgstr "로비와의 연결이 끊어졌습니다!"
@@ -2339,7 +2550,7 @@ msgstr "로비와의 연결이 끊어졌습니다!"
 msgid "Lost connection to server!"
 msgstr "서버 연결이 끊어졌습니다!"
 
-#: libs/s25main/world/GameWorld.cpp:481
+#: libs/s25main/world/GameWorld.cpp:479
 msgid "Lost land by this building"
 msgstr ""
 
@@ -2352,7 +2563,7 @@ msgstr "적음"
 msgid "Lua error: %s\n"
 msgstr ""
 
-#: libs/s25main/world/MapSerializer.cpp:187
+#: libs/s25main/world/MapSerializer.cpp:244
 msgid "Lua load callback returned failure!"
 msgstr ""
 
@@ -2361,7 +2572,7 @@ msgstr ""
 msgid "Lua script did not provide the function getRequiredLuaVersion()! It is probably outdated.\n"
 msgstr ""
 
-#: libs/s25main/world/MapSerializer.cpp:181
+#: libs/s25main/world/MapSerializer.cpp:238
 msgid "Lua script failed to load."
 msgstr ""
 
@@ -2378,7 +2589,7 @@ msgstr ""
 msgid "Lua was disabled by the script itself\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:139
+#: libs/s25main/desktops/dskGameInterface.cpp:146
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:34
 msgid "Main selection"
 msgstr "주요 선택"
@@ -2395,9 +2606,9 @@ msgstr "길을 수동으로 업그레이드하고 당나귀 길을 직접 놓습
 msgid "Many"
 msgstr "많음"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:136
+#: libs/s25main/desktops/dskGameInterface.cpp:143
 #: libs/s25main/desktops/dskLAN.cpp:47 libs/s25main/desktops/dskLobby.cpp:54
-#: libs/s25main/ingameWindows/iwSave.cpp:52
+#: libs/s25main/ingameWindows/iwSave.cpp:53
 msgid "Map"
 msgstr "지도"
 
@@ -2429,8 +2640,8 @@ msgstr ""
 msgid "Map is invalid or failed to load properly!"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:278
-#: libs/s25main/ingameWindows/iwSettings.cpp:75
+#: libs/s25main/desktops/dskOptions.cpp:294
+#: libs/s25main/ingameWindows/iwSettings.cpp:96
 msgid "Map scroll mode:"
 msgstr "지도 스크롤 방식:"
 
@@ -2452,8 +2663,8 @@ msgstr "지도: "
 msgid "Mapfile: "
 msgstr "지도 파일: "
 
-#: libs/s25main/desktops/dskCredits.cpp:73
-#: libs/s25main/desktops/dskCredits.cpp:88
+#: libs/s25main/desktops/dskCredits.cpp:74
+#: libs/s25main/desktops/dskCredits.cpp:89
 msgid "Mapping"
 msgstr ""
 
@@ -2473,7 +2684,7 @@ msgstr "최대 차이"
 msgid "Meat"
 msgstr "고기"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:204
+#: libs/s25main/gameData/BuildingConsts.cpp:216
 msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "사냥꾼이 얻은 고기는 광부들의 식량으로 사용됩니다."
 
@@ -2511,7 +2722,7 @@ msgstr "대장장이"
 msgid "Metalworks"
 msgstr "대장간"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:61
+#: libs/s25main/ingameWindows/iwAddons.cpp:70
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:63
 #: libs/s25main/ingameWindows/iwMilitary.cpp:29
 msgid "Military"
@@ -2529,7 +2740,7 @@ msgstr "병사 제어"
 msgid "Military Hitpoints"
 msgstr "군인 체력"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1012
+#: libs/s25main/buildings/nobMilitary.cpp:1161
 msgid "Military building captured"
 msgstr "군사 건물 점령"
 
@@ -2537,11 +2748,11 @@ msgstr "군사 건물 점령"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr "공격이 영구적으로 불가능한 군사 건물은 후방 영역으로 간주됩니다. (바다, 용암 등 지형으로 인해 경로가 차단된 경우)"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1009
+#: libs/s25main/buildings/nobMilitary.cpp:1158
 msgid "Military building lost"
 msgstr "군사 건물 상실"
 
-#: libs/s25main/buildings/nobMilitary.cpp:703
+#: libs/s25main/buildings/nobMilitary.cpp:854
 msgid "Military building occupied"
 msgstr "군사 건물 점유"
 
@@ -2590,7 +2801,7 @@ msgstr "금화 주조공"
 msgid "Missing game files"
 msgstr ""
 
-#: libs/s25main/drivers/DriverWrapper.cpp:124
+#: libs/s25main/drivers/DriverWrapper.cpp:123
 msgid "Missing required API function"
 msgstr ""
 
@@ -2602,8 +2813,8 @@ msgstr "혼합"
 msgid "Mnga Tscha"
 msgstr "음가 차"
 
-#: libs/s25main/desktops/dskOptions.cpp:333
-#: libs/s25main/ingameWindows/iwSettings.cpp:64
+#: libs/s25main/desktops/dskOptions.cpp:335
+#: libs/s25main/ingameWindows/iwSettings.cpp:57
 msgid "Mode:"
 msgstr "모드:"
 
@@ -2614,11 +2825,11 @@ msgstr "군 계급 간 전투력 차이 조정"
 #: libs/s25main/addons/AddonNumScoutsExploration.h:26
 #: libs/s25main/controls/ctrlProgress.cpp:37
 #: libs/s25main/ingameWindows/iwHQ.cpp:38
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:92
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:116
 msgid "More"
 msgstr "많게"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:374
+#: libs/s25main/ingameWindows/iwAction.cpp:381
 #: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "More attackers"
 msgstr "공격병 더 많게"
@@ -2647,11 +2858,11 @@ msgstr "더많은 짐승이 나오는 나무숲"
 msgid "Multiplayer"
 msgstr "멀티플레이"
 
-#: libs/s25main/desktops/dskOptions.cpp:403
+#: libs/s25main/desktops/dskOptions.cpp:405
 msgid "Music"
 msgstr "음악"
 
-#: libs/s25main/desktops/dskOptions.cpp:414
+#: libs/s25main/desktops/dskOptions.cpp:413
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:82
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:131
 msgid "Music player"
@@ -2666,7 +2877,7 @@ msgstr "나보니두스"
 msgid "Name"
 msgstr "이름"
 
-#: libs/s25main/desktops/dskOptions.cpp:177
+#: libs/s25main/desktops/dskOptions.cpp:200
 msgid "Name in Game:"
 msgstr "게임 내 이름:"
 
@@ -2686,7 +2897,7 @@ msgstr "네트워크/랜"
 msgid "New building type:"
 msgstr ""
 
-#: libs/s25main/buildings/nobHarborBuilding.cpp:80
+#: libs/s25main/buildings/nobHarborBuilding.cpp:74
 msgid "New harbor building finished"
 msgstr "새 항구 건물 완성"
 
@@ -2694,11 +2905,11 @@ msgstr "새 항구 건물 완성"
 msgid "New maps"
 msgstr "새 지도"
 
-#: libs/s25main/buildings/nobStorehouse.cpp:20
+#: libs/s25main/buildings/nobStorehouse.cpp:14
 msgid "New storehouse finished"
 msgstr "새 창고 완성"
 
-#: libs/s25main/ingameWindows/iwWares.cpp:189
+#: libs/s25main/ingameWindows/iwWares.cpp:166
 msgid "Next page"
 msgstr "다음 쪽"
 
@@ -2709,7 +2920,7 @@ msgstr "다음 쪽"
 msgid "No"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:264
+#: libs/s25main/desktops/dskOptions.cpp:280
 msgid "No Proxy"
 msgstr ""
 
@@ -2750,7 +2961,7 @@ msgstr "돌려받지 않음"
 msgid "No sea attacks"
 msgstr "해상 공격 없음"
 
-#: libs/s25main/ingameWindows/iwShip.cpp:90
+#: libs/s25main/ingameWindows/iwShip.cpp:93
 msgid "No ships available"
 msgstr "이용할 수 있는 배가 없습니다"
 
@@ -2780,15 +2991,15 @@ msgstr "없음"
 msgid "Normal"
 msgstr "보통"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:979
+#: libs/s25main/desktops/dskGameLobby.cpp:980
 msgid "Not Ready"
 msgstr "준비 안됨"
 
-#: libs/s25main/drivers/DriverWrapper.cpp:101
+#: libs/s25main/drivers/DriverWrapper.cpp:100
 msgid "Not a RTTR driver library!"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1201
+#: libs/s25main/desktops/dskGameInterface.cpp:1214
 #, c-format
 msgid "Note: Game settings changed by the server%s"
 msgstr ""
@@ -2807,13 +3018,17 @@ msgstr ""
 msgid "Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, AVG_FPS: %u)"
 msgstr "알림: 리플레이 재생이 종료되었습니다. (GF: %u, %d시간 %d분 %d초, TF: %u, AVG_FPS: %u)"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:319
+#: libs/s25main/ingameWindows/iwAction.cpp:326
 msgid "Notify allies of this location"
 msgstr "이 곳을 동맹에게 알림"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:391
+#: libs/s25main/ingameWindows/iwAction.cpp:398
 msgid "Number of attackers"
 msgstr "공격병 수"
+
+#: libs/s25main/SavedFile.cpp:153
+msgid "Number of players (%1%) exceeds maximum allowed of %2%!"
+msgstr ""
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:18
 msgid "Number of scouts required for exploration expedition"
@@ -2829,26 +3044,18 @@ msgstr ""
 msgid "OK\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:311
+#: libs/s25main/ingameWindows/iwAction.cpp:318
 #: libs/s25main/ingameWindows/iwObservate.cpp:33
 msgid "Observation window"
 msgstr "관찰 창"
 
-#: libs/s25main/gameData/PortraitConsts.h:20
+#: libs/s25main/gameData/PortraitConsts.h:18
 msgid "Octavianus"
 msgstr "옥타비아누스"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
-#: libs/s25main/desktops/dskOptions.cpp:256
-#: libs/s25main/desktops/dskOptions.cpp:293
-#: libs/s25main/desktops/dskOptions.cpp:303
-#: libs/s25main/desktops/dskOptions.cpp:322
-#: libs/s25main/desktops/dskOptions.cpp:348
-#: libs/s25main/desktops/dskOptions.cpp:371
-#: libs/s25main/desktops/dskOptions.cpp:388
-#: libs/s25main/desktops/dskOptions.cpp:399
-#: libs/s25main/desktops/dskOptions.cpp:406
+#: libs/s25main/desktops/dskOptions.cpp:163
 msgid "Off"
 msgstr ""
 
@@ -2872,20 +3079,12 @@ msgstr ""
 msgid "Old maps"
 msgstr "옛 지도"
 
-#: libs/s25main/gameData/PortraitConsts.h:24
+#: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Olof"
 msgstr "올로프"
 
-#: libs/s25main/desktops/dskOptions.cpp:255
-#: libs/s25main/desktops/dskOptions.cpp:290
-#: libs/s25main/desktops/dskOptions.cpp:300
-#: libs/s25main/desktops/dskOptions.cpp:310
-#: libs/s25main/desktops/dskOptions.cpp:321
-#: libs/s25main/desktops/dskOptions.cpp:347
-#: libs/s25main/desktops/dskOptions.cpp:370
-#: libs/s25main/desktops/dskOptions.cpp:387
-#: libs/s25main/desktops/dskOptions.cpp:398
-#: libs/s25main/desktops/dskOptions.cpp:405
+#: libs/s25main/desktops/dskOptions.cpp:161
+#: libs/s25main/desktops/dskOptions.cpp:322
 msgid "On"
 msgstr ""
 
@@ -2893,20 +3092,20 @@ msgstr ""
 msgid "Open"
 msgstr "참가 가능"
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:373
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:345
 msgid "OpenGL %1% %2%.%3% is not supported. Try updating your GPU drivers or hardware!"
 msgstr ""
 
-#: libs/s25main/drivers/VideoDriverWrapper.cpp:370
+#: libs/s25main/drivers/VideoDriverWrapper.cpp:342
 msgid "OpenGL %1%.%2% supported\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:367
+#: libs/s25main/desktops/dskOptions.cpp:382
 msgid "Optimized Textures:"
 msgstr ""
 
 #: libs/s25main/desktops/dskMainMenu.cpp:43
-#: libs/s25main/desktops/dskOptions.cpp:149
+#: libs/s25main/desktops/dskOptions.cpp:172
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:99
 msgid "Options"
 msgstr "옵션"
@@ -2916,7 +3115,7 @@ msgid "Order of building site"
 msgstr "건설 부지"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:118
-#: libs/s25main/ingameWindows/iwAddons.cpp:70
+#: libs/s25main/ingameWindows/iwAddons.cpp:79
 msgid "Other"
 msgstr "기타"
 
@@ -2930,6 +3129,14 @@ msgstr "개요 지도"
 
 #: libs/s25main/ingameWindows/iwTempleBuilding.cpp:20
 msgid "Output mineral"
+msgstr ""
+
+#: libs/s25main/resources/ArchiveLoader.cpp:183
+msgid "Overlay override idx %1% is invalid: Overlay %2% does not exist!\n"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:231
+msgid "Overwrite Preset"
 msgstr ""
 
 #: libs/s25main/desktops/dskSelectMap.cpp:106
@@ -2961,7 +3168,7 @@ msgstr ""
 msgid "Peaceful"
 msgstr "평화로움"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1165
+#: libs/s25main/desktops/dskGameLobby.cpp:1166
 msgid "Peaceful mode"
 msgstr "평화 모드"
 
@@ -2983,8 +3190,8 @@ msgstr "돼지 농장"
 msgid "Ping"
 msgstr "핑"
 
-#: libs/s25main/desktops/dskOptions.cpp:291
-#: libs/s25main/ingameWindows/iwSettings.cpp:89
+#: libs/s25main/desktops/dskOptions.cpp:307
+#: libs/s25main/ingameWindows/iwSettings.cpp:109
 msgid "Place cursor on default button for new dialogs / action windows (default)"
 msgstr "새 대화 상자/작업 창의 기본 버튼에 커서를 이동합니다 (기본값)"
 
@@ -3017,27 +3224,27 @@ msgstr "플레이어"
 msgid "Player %1%"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:412
+#: libs/s25main/world/MapLoader.cpp:512
 #, c-format
 msgid "Player %u does not have a valid start position!"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1392
+#: libs/s25main/desktops/dskGameInterface.cpp:1405
 #, c-format
 msgid "Player '%s' is the winner!"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1194
+#: libs/s25main/desktops/dskGameInterface.cpp:1207
 #, c-format
 msgid "Player '%s' joined the game!"
 msgstr "플레이어 '%s' 님이 게임에 참가했습니다!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1191
+#: libs/s25main/desktops/dskGameInterface.cpp:1204
 #, c-format
 msgid "Player '%s' left the game!"
 msgstr "플레이어 '%s' 님이 게임에서 나갔습니다!"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1286
+#: libs/s25main/desktops/dskGameInterface.cpp:1299
 #, c-format
 msgid "Player '%s' was defeated!"
 msgstr "플레이어 '%s' 님이 패배했습니!"
@@ -3050,8 +3257,28 @@ msgstr "플레이어 이름"
 msgid "Playlist:"
 msgstr ""
 
+#: libs/s25main/ingameWindows/iwSave.cpp:128
+#, fuzzy
+msgid "Please enter a filename."
+msgstr "게임 이름을 입력해주세요"
+
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:129
 msgid "Please enter a name for the game"
+msgstr "게임 이름을 입력해주세요"
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:217
+#, fuzzy
+msgid "Please enter a preset name."
+msgstr "게임 이름을 입력해주세요"
+
+#: libs/s25main/ingameWindows/iwSave.cpp:132
+#, fuzzy
+msgid "Please enter a valid filename."
+msgstr "게임 이름을 입력해주세요"
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:221
+#, fuzzy
+msgid "Please enter a valid preset name."
 msgstr "게임 이름을 입력해주세요"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:33
@@ -3060,14 +3287,31 @@ msgstr "게임 이름을 입력해주세요"
 msgid "Please wait..."
 msgstr "기다려주세요..."
 
-#: libs/s25main/desktops/dskOptions.cpp:188
+#: libs/s25main/desktops/dskOptions.cpp:211
 msgid "Portrait:"
 msgstr "초상화:"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:146
+#: libs/s25main/desktops/dskGameInterface.cpp:153
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
 msgid "Post office"
 msgstr "우체국"
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:142
+msgid "Preset '%1%' was not found."
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:89
+#, fuzzy
+msgid "Preset Name"
+msgstr "플레이어 이름"
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:141
+msgid "Preset Not Found"
+msgstr ""
+
+#: libs/s25main/addons/AddonForesterFarmFieldAvoidance.h:16
+msgid "Prevents foresters from planting trees on spots that own farms could use for new fields."
+msgstr ""
 
 #: libs/s25main/gameData/JobConsts.cpp:40
 msgid "Private"
@@ -3097,28 +3341,28 @@ msgstr "랜덤 도구 생산"
 msgid "Production on/off"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwBuildingProductivities.cpp:67
+#: libs/s25main/ingameWindows/iwBuildingProductivities.cpp:62
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:60
 #: libs/s25main/ingameWindows/iwStatistics.cpp:145
 #: libs/s25main/ingameWindows/iwStatistics.cpp:240
 msgid "Productivity"
 msgstr "생산성"
 
-#: libs/s25main/desktops/dskCredits.cpp:56
-#: libs/s25main/desktops/dskCredits.cpp:66
-#: libs/s25main/desktops/dskCredits.cpp:82
-#: libs/s25main/desktops/dskCredits.cpp:95
-#: libs/s25main/desktops/dskCredits.cpp:103
+#: libs/s25main/desktops/dskCredits.cpp:57
+#: libs/s25main/desktops/dskCredits.cpp:67
+#: libs/s25main/desktops/dskCredits.cpp:83
+#: libs/s25main/desktops/dskCredits.cpp:96
+#: libs/s25main/desktops/dskCredits.cpp:104
 msgid "Programming"
 msgstr "프로그래밍"
 
-#: libs/s25main/desktops/dskCredits.cpp:93
-#: libs/s25main/desktops/dskCredits.cpp:100
+#: libs/s25main/desktops/dskCredits.cpp:94
+#: libs/s25main/desktops/dskCredits.cpp:101
 msgid "Project founder"
 msgstr "프로젝트 개설자"
 
-#: libs/s25main/desktops/dskCredits.cpp:94
-#: libs/s25main/desktops/dskCredits.cpp:101
+#: libs/s25main/desktops/dskCredits.cpp:95
+#: libs/s25main/desktops/dskCredits.cpp:102
 msgid "Project management"
 msgstr "프로젝트 관리"
 
@@ -3126,26 +3370,26 @@ msgstr "프로젝트 관리"
 msgid "Proportional"
 msgstr "비례"
 
-#: libs/s25main/desktops/dskOptions.cpp:244
+#: libs/s25main/desktops/dskOptions.cpp:264
 msgid "Proxyserver:"
 msgstr "프록시서버:"
 
-#: libs/s25main/desktops/dskOptions.cpp:261
+#: libs/s25main/desktops/dskOptions.cpp:277
 msgid "Proxytyp:"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:206
-#: libs/s25main/ingameWindows/iwAction.cpp:220
+#: libs/s25main/ingameWindows/iwAction.cpp:213
+#: libs/s25main/ingameWindows/iwAction.cpp:227
 msgid "Pull down flag"
 msgstr "깃발 뽑기"
 
-#: libs/s25main/desktops/dskCredits.cpp:57
-#: libs/s25main/desktops/dskCredits.cpp:62
-#: libs/s25main/desktops/dskCredits.cpp:72
-#: libs/s25main/desktops/dskCredits.cpp:83
-#: libs/s25main/desktops/dskCredits.cpp:87
-#: libs/s25main/desktops/dskCredits.cpp:96
-#: libs/s25main/desktops/dskCredits.cpp:106
+#: libs/s25main/desktops/dskCredits.cpp:58
+#: libs/s25main/desktops/dskCredits.cpp:63
+#: libs/s25main/desktops/dskCredits.cpp:73
+#: libs/s25main/desktops/dskCredits.cpp:84
+#: libs/s25main/desktops/dskCredits.cpp:88
+#: libs/s25main/desktops/dskCredits.cpp:97
+#: libs/s25main/desktops/dskCredits.cpp:107
 msgid "Quality Assurance"
 msgstr "품질 보증"
 
@@ -3177,7 +3421,7 @@ msgstr "랜덤 재생"
 msgid "Random start locations"
 msgstr "시작 위치 랜덤"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:221
+#: libs/s25main/gameData/BuildingConsts.cpp:233
 msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
 msgstr "철광석은 철 제련소에서 석탄을 이용해 제련됩니다. 가공된 철은 무기(무기 제작소에서)와 도구(대장간에서)를 만드는 데 사용됩니다."
 
@@ -3185,7 +3429,7 @@ msgstr "철광석은 철 제련소에서 석탄을 이용해 제련됩니다. �
 msgid "Readme"
 msgstr "게임 설명"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:827
+#: libs/s25main/desktops/dskGameInterface.cpp:839
 #: libs/s25main/desktops/dskMainMenu.cpp:118
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:155
 msgid "Readme!"
@@ -3193,7 +3437,7 @@ msgstr ""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:214
 #: libs/s25main/desktops/dskGameLobby.cpp:741
-#: libs/s25main/desktops/dskGameLobby.cpp:979
+#: libs/s25main/desktops/dskGameLobby.cpp:980
 msgid "Ready"
 msgstr "준비완료"
 
@@ -3201,17 +3445,22 @@ msgstr "준비완료"
 msgid "Ready?"
 msgstr "준비완료?"
 
-#: libs/s25main/network/GameServer.cpp:1299
+#: libs/s25main/network/GameServer.cpp:1316
 msgid "Received async log from %1%, but did not expect it!\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1292
+#: libs/s25main/network/GameServer.cpp:1309
 msgid "Received async logs from %1% (%2% entries).\n"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
 msgid "Receiving Map..."
 msgstr "지도 수신 중..."
+
+#: libs/s25main/addons/AddonNoArmorDefault.h:18
+#, fuzzy
+msgid "Receiving armor is disabled for military buildings by default."
+msgstr "군사 건물에 금화 반입 차단을 기본값으로 합니다."
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:18
 msgid "Receiving coins is disabled for military buildings by default."
@@ -3261,13 +3510,13 @@ msgstr "트랙 제거"
 msgid "Removes all replays that cannot be loaded with the current game version"
 msgstr "현재 게임 버전에서 불러올 수 없는 모든 리플레이를 삭제합니다."
 
-#: libs/s25main/desktops/dskOptions.cpp:301
+#: libs/s25main/desktops/dskOptions.cpp:315
 msgid ""
 "Replace minimize button on windows by pin button avoiding closing the window with ESC.\n"
 "Minimize by double-clicking the title bar."
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1466
+#: libs/s25main/network/GameClient.cpp:1475
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr ""
 
@@ -3299,11 +3548,11 @@ msgstr "마지막 게임 재개"
 msgid "Return"
 msgstr "돌아가기"
 
-#: libs/s25main/desktops/dskCredits.cpp:46
+#: libs/s25main/desktops/dskCredits.cpp:47
 msgid "Return To The Roots"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwShip.cpp:62
+#: libs/s25main/ingameWindows/iwShip.cpp:65
 msgid "Return to harbor"
 msgstr "항구로 귀환"
 
@@ -3319,7 +3568,7 @@ msgstr "낚시도구"
 msgid "Rolling pin"
 msgstr "밀방망이"
 
-#: libs/s25main/gameData/NationConsts.h:13
+#: libs/s25main/gameData/NationConsts.h:12
 msgid "Romans"
 msgstr "로마인"
 
@@ -3335,37 +3584,52 @@ msgstr "RttR이 중단되었습니다. 향후 같은 중단 상황 발생을 방
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
 msgstr "RttR이 이제 디버그 데이터 전송을 지원합니다. 디버그 데이터를 전송해주셔서 게임 개선에 도움을 주시겠습니까?"
 
-#: libs/s25main/network/GameServer.cpp:743
+#: libs/s25main/network/GameServer.cpp:757
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:652
+#: libs/s25main/network/GameServer.cpp:656
 msgid "SERVER: Error on socket of player %1%, bye bye!\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:791
+#: libs/s25main/network/GameServer.cpp:804
 msgid "SERVER: Kicking player %1% in %2% seconds\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:868
+#: libs/s25main/network/GameServer.cpp:881
 msgid "SERVER: Receiving Message for player %1% failed, kicking...\n"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:662
+#: libs/s25main/network/GameServer.cpp:666
 msgid "SERVER: Reserved slot %1% freed due to timeout\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1231
-#: libs/s25main/desktops/dskGameInterface.cpp:1236
+#: libs/s25main/desktops/dskGameInterface.cpp:1244
+#: libs/s25main/desktops/dskGameInterface.cpp:1249
 msgid "SYSTEM"
 msgstr "시스템"
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:208
+#: libs/s25main/ingameWindows/iwAddons.cpp:49
+msgid "Save"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:208
+#: libs/s25main/ingameWindows/iwAddons.cpp:50
+msgid "Save Addon Preset"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:258
+#, fuzzy
+msgid "Save Failed"
+msgstr "게임 저장!"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:72
 msgid "Save Password?"
 msgstr "비밀번호를 저장할까요?"
 
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:106
-#: libs/s25main/ingameWindows/iwSave.cpp:129
+#: libs/s25main/ingameWindows/iwSave.cpp:143
 msgid "Save game!"
 msgstr "게임 저장!"
 
@@ -3373,11 +3637,11 @@ msgstr "게임 저장!"
 msgid "Save playlist"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:230 libs/s25main/Replay.cpp:288
+#: libs/s25main/Replay.cpp:242 libs/s25main/Replay.cpp:300
 msgid "Savegame error: "
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1683
+#: libs/s25main/network/GameClient.cpp:1715
 msgid "Saving game..."
 msgstr ""
 
@@ -3393,17 +3657,17 @@ msgstr "제재소"
 msgid "Scout"
 msgstr "정찰병"
 
-#: libs/s25main/WindowManager.cpp:554
+#: libs/s25main/WindowManager.cpp:574
 msgid "Screenshot saved to %1%\n"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:283
-#: libs/s25main/ingameWindows/iwSettings.cpp:82
+#: libs/s25main/desktops/dskOptions.cpp:299
+#: libs/s25main/ingameWindows/iwSettings.cpp:102
 msgid "Scroll opposite (Map moves in the opposite direction the mouse is moved when scrolling/panning.)"
 msgstr "반대 방향 스크롤 (지도 스크롤/패닝 시 마우스 이동과 반대 방향으로 지도가 이동합니다.)"
 
-#: libs/s25main/desktops/dskOptions.cpp:281
-#: libs/s25main/ingameWindows/iwSettings.cpp:80
+#: libs/s25main/desktops/dskOptions.cpp:297
+#: libs/s25main/ingameWindows/iwSettings.cpp:100
 msgid "Scroll same (Map moves in the same direction the mouse is moved when scrolling/panning.)"
 msgstr "같은 방향 스크롤 (지도 스크롤/패닝 시 마우스 이동과 동일한 방향으로 지도가 이동합니다.)"
 
@@ -3423,7 +3687,7 @@ msgstr ""
 msgid "Sea attack settings"
 msgstr "해상 공격 설정"
 
-#: libs/s25main/drivers/DriverWrapper.cpp:148
+#: libs/s25main/drivers/DriverWrapper.cpp:147
 #, c-format
 msgid "Searching for drivers in %s\n"
 msgstr ""
@@ -3436,28 +3700,28 @@ msgstr "모두 선택"
 msgid "Selection of maps"
 msgstr "지도 선택"
 
-#: libs/s25main/ingameWindows/iwTrade.cpp:70
+#: libs/s25main/ingameWindows/iwTrade.cpp:71
 msgid "Send"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:73
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:95
 msgid "Send max rank soldiers to a warehouse"
 msgstr "가장 높은 계급의 군인들을 창고로 이동"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:210
-#: libs/s25main/ingameWindows/iwAction.cpp:224
+#: libs/s25main/ingameWindows/iwAction.cpp:217
+#: libs/s25main/ingameWindows/iwAction.cpp:231
 msgid "Send out scout"
 msgstr "정찰병 파견"
 
-#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:78
+#: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:100
 msgid "Send soldiers home"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1581
+#: libs/s25main/network/GameServer.cpp:1599
 msgid "Sending async logs %1%.\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:62
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:55
 msgid "Sequence of given order"
 msgstr "정해진 순서에 따름"
 
@@ -3481,7 +3745,7 @@ msgstr "서버 정보"
 msgid "Server Name:"
 msgstr "서버 이름:"
 
-#: libs/s25main/desktops/dskCredits.cpp:102
+#: libs/s25main/desktops/dskCredits.cpp:103
 msgid "Server management"
 msgstr "서버 관리"
 
@@ -3502,7 +3766,7 @@ msgstr "불타는 시간 설정"
 msgid "Set max rank"
 msgstr "최고 계급 설정"
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:21
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:20
 msgid "Set maximum waterway length"
 msgstr "수로 최대 길이 설정"
 
@@ -3514,7 +3778,7 @@ msgstr "해상 공격에 대한 제한 수준을 설정합니다."
 msgid "Set ship speed"
 msgstr "배 속력 설정"
 
-#: libs/s25main/ingameWindows/iwSettings.cpp:35
+#: libs/s25main/ingameWindows/iwSettings.cpp:43
 msgid "Settings"
 msgstr "설정"
 
@@ -3522,7 +3786,7 @@ msgstr "설정"
 msgid "Settlers"
 msgstr ""
 
-#: libs/s25main/gameData/PortraitConsts.h:28
+#: libs/s25main/gameData/PortraitConsts.h:27
 msgid "Shaka"
 msgstr "샤카"
 
@@ -3535,11 +3799,11 @@ msgid "Shield"
 msgstr "방패"
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:66
-#: libs/s25main/ingameWindows/iwShip.cpp:33
+#: libs/s25main/ingameWindows/iwShip.cpp:36
 msgid "Ship register"
 msgstr "배 목록"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:300
+#: libs/s25main/gameData/BuildingConsts.cpp:312
 msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also be prepared here. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "배는 항구에서만 짐을 싣거나 내릴 수 있습니다. 원정 또한 이곳에서 준비할 수 있습니다. 필요에 따라 창고에서 특정 물품을 방출할 수 있습니다. 또는 저장 기능을 비활성화할 수도 있습니다. 저장 기능을 비활성화하려면 먼저 해당 아이콘을 선택한 다음 원하는 물품이나 직업을 선택하세요."
 
@@ -3555,7 +3819,7 @@ msgstr "조선공"
 msgid "Shipyard"
 msgstr "조선소"
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:31
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:30
 msgid "Short"
 msgstr "짧음"
 
@@ -3567,7 +3831,7 @@ msgstr "단기"
 msgid "Shovel"
 msgstr "삽"
 
-#: libs/s25main/desktops/dskOptions.cpp:319
+#: libs/s25main/desktops/dskOptions.cpp:331
 msgid "Show GameFrame Info:"
 msgstr "게임프레임 정보 표시:"
 
@@ -3590,11 +3854,24 @@ msgstr "크기"
 msgid "Size of country"
 msgstr "영토의 넓이"
 
+#: libs/s25main/gameData/BuildingConsts.cpp:13
+#: libs/s25main/gameData/JobConsts.cpp:56
+msgid "Skinner"
+msgstr ""
+
+#: libs/s25main/gameData/GoodConsts.cpp:46
+msgid "Skins"
+msgstr ""
+
+#: libs/s25main/gameData/BuildingConsts.cpp:96
+msgid "Skins are gathered from animal carcasses by the skinner. They are sent to the tannery for leather production. The skinner can also be supplied with pigs for extra skins."
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:34
 msgid "Skip GameFrames"
 msgstr "게임프레임 건너뛰기"
 
-#: libs/s25main/drivers/DriverWrapper.cpp:170
+#: libs/s25main/drivers/DriverWrapper.cpp:169
 #, c-format
 msgid "Skipping %s: %s\n"
 msgstr ""
@@ -3616,8 +3893,8 @@ msgstr "도축장"
 msgid "Slow"
 msgstr "느림"
 
-#: libs/s25main/desktops/dskOptions.cpp:288
-#: libs/s25main/ingameWindows/iwSettings.cpp:87
+#: libs/s25main/desktops/dskOptions.cpp:305
+#: libs/s25main/ingameWindows/iwSettings.cpp:107
 msgid "Smart Cursor"
 msgstr "스마트 커서"
 
@@ -3625,7 +3902,7 @@ msgstr "스마트 커서"
 msgid "Smith can create 1 shield & 1 sword for 1 iron + 1 coal instead of 2 iron + 2 coal"
 msgstr "대장장이가 철 2개 + 석탄 2개가 아니라 철 1개와 석탄 1개로 방패 1개와 검 1개를 만들 수 있습니다."
 
-#: libs/s25main/desktops/dskOptions.cpp:265
+#: libs/s25main/desktops/dskOptions.cpp:281
 msgid "Socks v4"
 msgstr ""
 
@@ -3647,18 +3924,18 @@ msgstr ""
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
 #: libs/s25main/desktops/dskLobby.cpp:226
 #: libs/s25main/desktops/dskLobby.cpp:239
-#: libs/s25main/desktops/dskOptions.cpp:672
-#: libs/s25main/desktops/dskOptions.cpp:684
-#: libs/s25main/desktops/dskOptions.cpp:692
-#: libs/s25main/ingameWindows/iwSettings.cpp:113
+#: libs/s25main/desktops/dskOptions.cpp:699
+#: libs/s25main/desktops/dskOptions.cpp:711
+#: libs/s25main/desktops/dskOptions.cpp:719
+#: libs/s25main/ingameWindows/iwSettings.cpp:157
 msgid "Sorry!"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:159
+#: libs/s25main/desktops/dskOptions.cpp:182
 msgid "Sound/Music"
 msgstr "효과음/음악"
 
-#: libs/s25main/desktops/dskOptions.cpp:419
+#: libs/s25main/desktops/dskOptions.cpp:418
 msgid "Sounddriver"
 msgstr ""
 
@@ -3670,7 +3947,7 @@ msgstr ""
 msgid "Speed:"
 msgstr "속도:"
 
-#: libs/s25main/GameManager.cpp:168
+#: libs/s25main/GameManager.cpp:169
 msgid "Splash screen couldn't be loaded!"
 msgstr ""
 
@@ -3696,7 +3973,7 @@ msgstr "탐험 원정 시작"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:214
 #: libs/s25main/desktops/dskGameLobby.cpp:735
-#: libs/s25main/desktops/dskGameLobby.cpp:977
+#: libs/s25main/desktops/dskGameLobby.cpp:978
 msgid "Start game"
 msgstr "게임 시작"
 
@@ -3704,7 +3981,7 @@ msgstr "게임 시작"
 msgid "Starting game, please wait"
 msgstr "게임을 시작합니다, 잠시 기다려주세요"
 
-#: libs/s25main/Loader.cpp:267
+#: libs/s25main/Loader.cpp:276
 msgid "Starting sound conversion: "
 msgstr ""
 
@@ -3712,7 +3989,7 @@ msgstr ""
 msgid "Statistics"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwSettings.cpp:91
+#: libs/s25main/ingameWindows/iwSettings.cpp:111
 msgid "Statistics Scale"
 msgstr ""
 
@@ -3746,7 +4023,7 @@ msgstr "저장 중지"
 msgid "Storehouse"
 msgstr "창고"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:381
+#: libs/s25main/ingameWindows/iwAction.cpp:388
 msgid "Strong attackers"
 msgstr "강한 병사부터 공격"
 
@@ -3758,7 +4035,7 @@ msgstr "강한 병사부터 수비"
 msgid "Style"
 msgstr "스타일"
 
-#: libs/s25main/desktops/dskOptions.cpp:308
+#: libs/s25main/desktops/dskOptions.cpp:320
 msgid "Submit debug data:"
 msgstr "디버그 데이터 제출:"
 
@@ -3791,17 +4068,26 @@ msgstr "교체"
 msgid "Sword"
 msgstr "검"
 
-#: libs/s25main/languages.cpp:50
+#: libs/s25main/languages.cpp:51
 msgid "System language"
 msgstr "시스템 언어"
 
-#: libs/s25main/desktops/dskCredits.cpp:268
+#: libs/s25main/desktops/dskCredits.cpp:269
 msgid "THE END"
 msgstr "끝"
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:64
 msgid "Take out of store"
 msgstr "반출"
+
+#: libs/s25main/gameData/JobConsts.cpp:57
+msgid "Tanner"
+msgstr ""
+
+#: libs/s25main/gameData/BuildingConsts.cpp:18
+#, fuzzy
+msgid "Tannery"
+msgstr "포도주 양조장"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:179
 msgid "Team"
@@ -3819,15 +4105,15 @@ msgstr "신전"
 msgid "Temple Servant"
 msgstr "신전 사제"
 
-#: libs/s25main/desktops/dskCredits.cpp:243
+#: libs/s25main/desktops/dskCredits.cpp:244
 msgid "Thank you for your donations!"
 msgstr "후원에 감사드립니다"
 
-#: libs/s25main/desktops/dskCredits.cpp:269
+#: libs/s25main/desktops/dskCredits.cpp:270
 msgid "Thank you!"
 msgstr "감사합니다!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:174
+#: libs/s25main/gameData/BuildingConsts.cpp:186
 msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
 msgstr "엄청난 위력 덕분에 투석기는 적의 군사 건물을 상대로 효과적인 무기가 될 수 있습니다."
 
@@ -3841,12 +4127,16 @@ msgstr "%s 해지 - 플레이어 '%s' 님"
 msgid "The %s between player '%s' and you has been concluded."
 msgstr "%s 체결 - 플레이어 '%s' 님"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:1214
-#: libs/s25main/network/GameClient.cpp:862
+#: libs/s25main/desktops/dskGameInterface.cpp:1227
+#: libs/s25main/network/GameClient.cpp:867
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:212
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:81
+msgid "The addon presets folder could not be created. Saving and loading addon presets is unavailable."
+msgstr ""
+
+#: libs/s25main/gameData/BuildingConsts.cpp:224
 msgid "The armory produces swords and strong shields. This equipment is vital for your soldiers."
 msgstr "무기 제작소에서는 검과 튼튼한 방패를 생산합니다. 이 무기는 군인들에게 필수적입니다."
 
@@ -3854,19 +4144,19 @@ msgstr "무기 제작소에서는 검과 튼튼한 방패를 생산합니다. �
 msgid "The barracks is a very small hut which can be used by your soldiers as quarters. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "막사는 군인들이 숙소로 쓸 수 있는 아주 작은 오두막입니다. 금화 버튼을 누르면 이 곳에 배치된 군인들에게 금화를 전달하지 않습니다. 그러나, 금화가 없으면 이 곳의 군인들은 훈련을 통해 기량을 향상시킬 수 없습니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:207
+#: libs/s25main/gameData/BuildingConsts.cpp:219
 msgid "The brewer produces fine beer from grain and water. This drink is needed to fill the soldiers with courage."
 msgstr "양조업자는 곡식과 물을 가지고 좋은 맥주를 만듭니다. 이 술은 군인들에게 용기를 북돋워 주는데 필요합니다."
 
-#: libs/s25main/ingameWindows/iwBuildings.cpp:129
+#: libs/s25main/ingameWindows/iwBuildings.cpp:133
 msgid "The building statistics window gives you an insight into the number of buildings you have, by type. The number on the left is the total number of this type of building completed, the number on the right shows how many are currently under construction."
 msgstr "건물 통계 창에서는 유형별 건물 수를 가늠해 볼 수 있습니다. 왼쪽 숫자는 해당 유형 건물의 완공된 총 개수이고, 오른쪽 숫자는 현재 건설 중인 건물의 개수입니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:199
+#: libs/s25main/gameData/BuildingConsts.cpp:211
 msgid "The butcher processes the livestock delivered into nutritious ham on which you miners are fed."
 msgstr "도축업자는 가축을 전달받아 광부들에게 먹일 영양가 높은 햄으로 가공합니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:266
+#: libs/s25main/gameData/BuildingConsts.cpp:278
 msgid "The carpenter turns the woodcutter's logs into made-to-measure planks. These form the basic for building houses and ships."
 msgstr "목수는 나무꾼의 통나무로 알맞은 크기의 널빤지를 만듭니다. 이것은 건물과 배를 짓는 데 필요한 기본 재료가 됩니다."
 
@@ -3874,27 +4164,27 @@ msgstr "목수는 나무꾼의 통나무로 알맞은 크기의 널빤지를 만
 msgid "The changes could not be applied and will be discarded. A potential reason for this is that the game is paused."
 msgstr "변경 사항을 적용할 수 없어 폐기됩니다. 게임이 일시 중지된 것이 원인일 수 있습니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:228
+#: libs/s25main/gameData/BuildingConsts.cpp:240
 msgid "The charburner stacks up piles of wood and straw which is then burned to create charcoal. This can be used just like the coal from the mine without any loss in quality."
 msgstr "숯가마는 나무와 밀짚을 쌓아 올린 다음 태워서 숯을 만듭니다. 이 숯은 광산에서 나오는 석탄 못지않게 그대로 사용할 수 있습니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:216
+#: libs/s25main/gameData/BuildingConsts.cpp:228
 msgid "The countless tools which your workers need are made in the metalworks. This requires boards and iron."
 msgstr "일꾼들이 필요로 하는 수많은 도구들은 대장간에서 만들어집니다. 이를 위해서는 널빤지와 철이 필요합니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:132
+#: libs/s25main/gameData/BuildingConsts.cpp:138
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "요새의 방어 능력과 크기는 가장 뛰어납니다. 이 성채로 다른 소중한 건물과 물품을 보호할 수 있습니다. 금화 버튼을 누르면 이 곳에 배치된 군인들에게 금화를 전달하지 않습니다. 그러나, 금화가 없으면 이 곳의 군인들은 훈련을 통해 기량을 향상시킬 수 없습니다."
 
-#: libs/s25main/GamePlayer.cpp:2090
+#: libs/s25main/GamePlayer.cpp:2141
 msgid "The emergency program has been activated."
 msgstr ""
 
-#: libs/s25main/GamePlayer.cpp:2099
+#: libs/s25main/GamePlayer.cpp:2153
 msgid "The emergency program has been deactivated."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:288
+#: libs/s25main/gameData/BuildingConsts.cpp:300
 msgid "The farmer plants and harvests grain in the surrounding fields. A windmill then processes the harvested grain into flour or can be used to feed the pigs."
 msgstr "농부는 주위 들판에 곡식을 심고 거둬들입니다. 거둬들인 곡식은 풍차 방앗간에서 밀가루로 빻거나 돼지들에게 먹일 수 있습니다."
 
@@ -3902,19 +4192,19 @@ msgstr "농부는 주위 들판에 곡식을 심고 거둬들입니다. 거둬�
 msgid "The file was not found!"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:184
+#: libs/s25main/gameData/BuildingConsts.cpp:196
 msgid "The fish man is responsible for finding water rich in fish. His fish feed a great many miners."
 msgstr "어부는 물고기가 풍부한 물가를 찾아야 합니다. 잡아올린 생선은 아주 많은 광부들을 먹여살립니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:260
+#: libs/s25main/gameData/BuildingConsts.cpp:272
 msgid "The flour produced at the windmill can be combined with water in the bakery to make oven-fresh bread. It's your miners' favorite!"
 msgstr "풍차 방앗간에서 생산한 밀가루로 빵집에서 물과 반죽하여 광부들이 아주 좋아하는 따끈한 빵을 만듭니다."
 
-#: libs/s25main/network/GameServer.cpp:1570
+#: libs/s25main/network/GameServer.cpp:1588
 msgid "The game clients are out of sync. Would you like to send debug information to RttR to help us avoiding this in the future? Thank you very much!"
 msgstr "게임 클라이언트 간 동기화가 되지 않고 있습니다. 향후 이러한 문제를 방지하기 위해 RttR에 디버그 정보를 보내주시겠습니까? 대단히 감사합니다!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:255
+#: libs/s25main/gameData/BuildingConsts.cpp:267
 msgid "The grain is ground in the windmill. The flour from the windmill is later used at the bakery to bake bread."
 msgstr "풍차 방앗간에서 곡식을 빻습니다. 풍차 방앗간에서 나온 밀가루는 나중에 빵집에서 빵을 굽는 데 쓰입니다."
 
@@ -3926,19 +4216,23 @@ msgstr "경비초소는 군사들에게 적합한 곳으로서 견고한 돌담�
 msgid "The headquarters represents the center of your realm. The large amount of storage space available means a great many things can be safely stored here. You can release certain merchandise from the headquarters, as and when required or stop its storage. To do this, first choose the corresponding icon followed by the desired merchandise or job symbol. On the third page, you can adjust the number of reserve soldiers who are responsible for guarding the headquarters. There are two values given: the first value indicates the current number of men, the second value indicates the desired number. "
 msgstr "본부는 당신의 영토의 중심입니다. 넓은 저장 공간 덕분에 아주 많은 물품을 안전하게 저장할 수 있습니다. 필요에 따라 본부에서 특정 물품을 방출하거나 저장을 중지할 수 있습니다. 이를 위해서는 먼저 해당 아이콘을 선택한 다음 원하는 물품이나 직업 표시를 선택하세요. 세 번째 쪽에서는 본부를 경비하는 예비 병력의 수를 조정할 수 있습니다. 두 가지 값이 주어지는데, 첫 번째 값은 현재 병력 수를 나타내고, 두 번째 값은 원하는 병력 수를 나타냅니다. "
 
+#: libs/s25main/gameData/BuildingConsts.cpp:178
+msgid "The leatherworker crafts armor from finely tanned leather. The armor is then transported to military buildings to bolster your soldiers defense. An armored soldier can withstand an additional hit in battle and sometimes survives a catapult strike, but the armor is lost once struck."
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:113
 msgid "The merchandise statistics window allows you to check the quantities of your merchandise. By clicking the left mouse button you can switch the display of individual goods on and off. These can displayed over four different time periods. To delete all displays, click on the wastebasket button."
 msgstr "물품 통계 창에서는 물품 수량을 확인할 수 있습니다. 마우스 왼쪽 버튼을 클릭하여 개별 상품의 표시 여부를 켜거나 끌 수 있습니다. 네 가지 기간동안으로 보여줄 수 있습니다. 모든 물품 표시 여부를 끄려면 휴지통 버튼을 클릭하세요."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:151
+#: libs/s25main/gameData/BuildingConsts.cpp:157
 msgid "The mining of coal supports the metalworks and smithy. This hard work requires an adequate supply of food."
 msgstr "석탄 채굴은 철 제련소와 대장간을 지탱해 줍니다. 이 고된 노동에는 충분한 식량 공급이 필요합니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:272
+#: libs/s25main/gameData/BuildingConsts.cpp:284
 msgid "The mint is responsible for producing valuable gold coins. These precious objects are produced using coal and gold."
 msgstr "금화 주조소는 귀중한 금화를 생산하는 책임을 맡고 있습니다. 이 귀중품은 석탄과 금을 사용하여 만들어집니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:294
+#: libs/s25main/gameData/BuildingConsts.cpp:306
 msgid "The pack donkeys bred here are used to transport your merchandise more efficiently. They are reared on water and grain."
 msgstr "이곳에서 기른 짐 당나귀는 물품을 더 효율적으로 운반하는데 쓰입니다. 이 당나귀들은 물과 곡식을 먹고 자랍니다."
 
@@ -3956,11 +4250,11 @@ msgstr "플레이어 '%s' 님이 '%s'을 조기 해지하고 싶어합니다. �
 msgid "The playlist was saved!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwDistribution.cpp:139
+#: libs/s25main/ingameWindows/iwDistribution.cpp:147
 msgid "The priority of goods for the individual buildings can be set here. The higher the value, the quicker the required goods are delivered to the building concerned."
 msgstr "각 건물에 보낼 물품의 우선 순위를 여기서 설정할 수 있습니다. 수치가 높을수록 필요한 물품이 해당 건물에 더 빨리 배송됩니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:145
+#: libs/s25main/gameData/BuildingConsts.cpp:151
 msgid "The quarrying of stone in a granite mine guarantees the supply of stone for buildings. However, even a granite mine has to feed its workers."
 msgstr "화강암 광산에서 석재를 캐는 것은 건축에 쓰일 석재 공급을 보장합니다. 하지만 화강암 광산이라 할지라도 노동자들을 먹여 살려야 합니다."
 
@@ -3968,11 +4262,15 @@ msgstr "화강암 광산에서 석재를 캐는 것은 건축에 쓰일 석재 �
 msgid "The selected game was not found anymore."
 msgstr "선택한 게임을 더 이상 찾을 수 없습니다."
 
-#: libs/s25main/desktops/dskOptions.cpp:672
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:293
+msgid "The selected preset could not be loaded. The file may be corrupted or have an invalid format."
+msgstr ""
+
+#: libs/s25main/desktops/dskOptions.cpp:699
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
 msgstr "선택한 비디오 드라이버가 GUI 크기 조정(scaling)을 지원하지 않습니다! 이 설정은 사용되지 않습니다."
 
-#: libs/s25main/ingameWindows/iwShip.cpp:131
+#: libs/s25main/ingameWindows/iwShip.cpp:136
 msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
 msgstr "배 목록에는 함대의 모든 배가 등록되어 있습니다. 여기에서 각 배의 적재 및 목적지를 살펴볼 수 있습니다. 원정 보낸 배 또한 이곳에서 관리할 수 있습니다."
 
@@ -3991,27 +4289,31 @@ msgstr "지정된 파일을 열 수 없습니다!"
 msgid "The specified file couldn't be saved!"
 msgstr "지정된 파일을 저장할 수 없습니다!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:188
+#: libs/s25main/gameData/BuildingConsts.cpp:200
 msgid "The stonemason works the stone near his quarry into bricks. These are needed mainly for building houses and as ammunition for catapults."
 msgstr "석공은 자신의 채석장 주변의 바위에서 석재를 생산합니다. 석재는 주로 건물을 짓거나 투석기의 포탄으로 사용됩니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:239
+#: libs/s25main/gameData/BuildingConsts.cpp:251
 msgid "The storehouse can help reduce long transportation journeys and is suited to the temporary storage of merchandise and inhabitants. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "창고는 장거리 운송을 줄이는 데 도움이 되며 물품과 주민을 임시로 저장하기에 적합합니다. 필요에 따라 창고에서 특정 물품을 방출할 수 있습니다. 또는 저장 기능을 비활성화할 수도 있습니다. 그러려면 먼저 해당 아이콘을 선택한 다음 원하는 물품 또는 직업을 선택하십시오."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:122
+#: libs/s25main/gameData/BuildingConsts.cpp:133
+msgid "The tanner works animal skins to form leather. Before tanning; the skins are cured, scraped and stretched on wooden frames made from boards. Leather is used to produce armor at the leatherworks."
+msgstr ""
+
+#: libs/s25main/gameData/BuildingConsts.cpp:125
 msgid "The temple servant sacrifices wine and food granting a blessing of gold, iron ore, coal or granite. This allows your iron founder and minter to continue working when mines become exhausted. The desired mineral can be selected by toggling the output button."
 msgstr "신전 사제는 포도주와 음식을 제물로 바쳐 금, 철광석, 석탄 또는 화강암의 축복을 내려줍니다. 이를 통해 광산이 고갈되었을 때에도 철 제련공과 금화 주조공이 작업을 계속할 수 있습니다. 원하는 광물은 출력 버튼을 전환하여 선택할 수 있습니다."
 
-#: libs/s25main/ingameWindows/iwTransport.cpp:108
+#: libs/s25main/ingameWindows/iwTransport.cpp:146
 msgid "The transport priority of a type of merchandise can be determined here.The higher the priority of an item in the list, the quicker it is transported by helpers."
 msgstr "특정 물품의 운반 우선순위를 여기서 지정할 수 있습니다. 목록에서 물품의 우선순위가 높을 수록 짐꾼들이 더 빨리 운반합니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:98
+#: libs/s25main/gameData/BuildingConsts.cpp:101
 msgid "The watchtower with its large amount of space is best suited for stationing a large number of your troops. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "넓은 공간을 가진 망루는 많은 병력을 주둔시키기에 아주 적합합니다. 금화 버튼을 사용하여 이곳에 주둔한 군인들에게 금화 전달을 중단할 수 있습니다. 하지만, 금화가 없으면 군인들은 훈련을 통해 기량을 향상시킬 수 없습니다."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:109
+#: libs/s25main/gameData/BuildingConsts.cpp:112
 msgid "The winegrower plants and harvests grapes in the surrounding fields. A vineyard requires a steady supply of sturdy logs for trellises and fresh water to irrigate the fields. Ripe grapes are sent to the winery to be pressed into wine."
 msgstr "포도 농부는 주변 들판에 포도나무를 심고 수확합니다. 포도밭에는 지지대를 만들 튼튼한 통나무와 밭에 물을 대기 위한 깨끗한 물이 꾸준히 필요합니다. 다 익은 포도는 포도주 양조장으로 보내져 압착을 거쳐 포도주가 됩니다."
 
@@ -4023,7 +4325,7 @@ msgstr ""
 msgid "The winners:"
 msgstr ""
 
-#: libs/s25main/network/GameServer.cpp:1519
+#: libs/s25main/network/GameServer.cpp:1537
 msgid "There are %1% identical async log entries.\n"
 msgstr ""
 
@@ -4060,7 +4362,7 @@ msgid "This window shows the wares that should be collected for the economy mode
 msgstr "이 창에서는 경제 모드에서 축적해야 할 물건들을 보여줍니다. 플레이어 본인, 팀원, 그리고 게임 종료 후 상대 팀의 현재 보유 재고가 표시됩니다."
 
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:290
-#: libs/s25main/ingameWindows/iwSave.cpp:53
+#: libs/s25main/ingameWindows/iwSave.cpp:54
 msgid "Time"
 msgstr ""
 
@@ -4095,16 +4397,16 @@ msgstr "도구 주문"
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:45
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:70
 #: libs/s25main/ingameWindows/iwTools.cpp:31
-#: libs/s25main/ingameWindows/iwTransport.cpp:54
+#: libs/s25main/ingameWindows/iwTransport.cpp:77
 msgid "Tools"
 msgstr "도구"
 
-#: libs/s25main/EconomyModeHandler.cpp:74
+#: libs/s25main/EconomyModeHandler.cpp:83
 msgid "Tools in the hands of workers are also counted. So are weapons, and beer, that soldiers have in use. For an updating tally of the collected goods see the economic progress window."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
-#: libs/s25main/ingameWindows/iwTransport.cpp:29
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:42
+#: libs/s25main/ingameWindows/iwTransport.cpp:49
 msgid "Top"
 msgstr "맨 위"
 
@@ -4112,7 +4414,7 @@ msgstr "맨 위"
 msgid "Total domination"
 msgstr "완전 정복"
 
-#: libs/s25main/desktops/dskGameInterface.cpp:409
+#: libs/s25main/desktops/dskGameInterface.cpp:420
 msgid "Tournament finished"
 msgstr ""
 
@@ -4137,7 +4439,7 @@ msgid "Trade with %s"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:43
-#: libs/s25main/ingameWindows/iwTransport.cpp:19
+#: libs/s25main/ingameWindows/iwTransport.cpp:30
 msgid "Transport"
 msgstr "운반"
 
@@ -4162,7 +4464,7 @@ msgstr "나무:"
 msgid "Tribal chiefs assembled around the table..."
 msgstr "족장들이 탁자에 둘러앉았습니다..."
 
-#: libs/s25main/gameData/PortraitConsts.h:26
+#: libs/s25main/gameData/PortraitConsts.h:25
 msgid "Tsunami"
 msgstr "츠나미"
 
@@ -4170,7 +4472,7 @@ msgstr "츠나미"
 msgid "Type"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:320
+#: libs/s25main/Loader.cpp:329
 msgid "Unable to load font at index %1%\n"
 msgstr ""
 
@@ -4179,12 +4481,12 @@ msgid "Unexpected dynamic type of map"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
-#: libs/s25main/ingameWindows/iwSave.cpp:102
-#: libs/s25main/network/GameClient.cpp:1480
+#: libs/s25main/ingameWindows/iwSave.cpp:105
+#: libs/s25main/network/GameClient.cpp:1489
 msgid "Unknown"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:386
+#: libs/s25main/world/MapLoader.cpp:492
 msgid "Unknown animal species at %1%: (0x%2$x)\n"
 msgstr ""
 
@@ -4197,32 +4499,32 @@ msgstr ""
 msgid "Unknown error!"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:333 libs/s25main/world/MapLoader.cpp:343
+#: libs/s25main/world/MapLoader.cpp:439 libs/s25main/world/MapLoader.cpp:449
 msgid "Unknown granite type2 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:323
+#: libs/s25main/world/MapLoader.cpp:429
 msgid "Unknown nature object at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:353
+#: libs/s25main/world/MapLoader.cpp:459
 msgid "Unknown object at %1%: (0x%2$x: 0x%3$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:236
+#: libs/s25main/world/MapLoader.cpp:342
 msgid "Unknown tree1-4 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:252
+#: libs/s25main/world/MapLoader.cpp:358
 msgid "Unknown tree5-8 at %1%: (0x%2$x)\n"
 msgstr ""
 
-#: libs/s25main/world/MapLoader.cpp:262
+#: libs/s25main/world/MapLoader.cpp:368
 msgid "Unknown tree9 at %1%: (0x%2$x)\n"
 msgstr ""
 
 #: libs/s25main/addons/AddonLimitCatapults.h:25
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:36
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:35
 msgid "Unlimited"
 msgstr "무제한"
 
@@ -4233,12 +4535,12 @@ msgstr "무제한"
 msgid "Unlimited Play"
 msgstr "무제한 플레이"
 
-#: libs/s25main/ingameWindows/iwBuildOrder.cpp:51
-#: libs/s25main/ingameWindows/iwTransport.cpp:31
+#: libs/s25main/ingameWindows/iwBuildOrder.cpp:44
+#: libs/s25main/ingameWindows/iwTransport.cpp:52
 msgid "Up"
 msgstr "위로"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:344
+#: libs/s25main/ingameWindows/iwAction.cpp:351
 msgid "Upgrade to donkey road"
 msgstr "당나귀 길로 업그레이드"
 
@@ -4246,22 +4548,22 @@ msgstr "당나귀 길로 업그레이드"
 msgid "Upwards"
 msgstr "위로"
 
-#: libs/s25main/addons/AddonBool.cpp:27
+#: libs/s25main/addons/AddonBool.cpp:28
 msgid "Use"
 msgstr "사용"
 
-#: libs/s25main/desktops/dskOptions.cpp:232
+#: libs/s25main/desktops/dskOptions.cpp:255
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:56
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:38
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:81
 msgid "Use IPv6:"
 msgstr "IPv6 사용:"
 
-#: libs/s25main/ingameWindows/iwAddons.cpp:51
+#: libs/s25main/ingameWindows/iwAddons.cpp:54
 msgid "Use S2 Defaults"
 msgstr "S2 기본설정 사용"
 
-#: libs/s25main/desktops/dskOptions.cpp:253
+#: libs/s25main/desktops/dskOptions.cpp:273
 msgid "Use UPnP"
 msgstr "UPnP 사용"
 
@@ -4283,7 +4585,7 @@ msgstr "서버 정보 검증 중..."
 msgid "Version"
 msgstr "버전"
 
-#: libs/s25main/network/GameClient.cpp:713
+#: libs/s25main/network/GameClient.cpp:718
 msgid "Version mismatch. Server version: %1%, your version %2%"
 msgstr ""
 
@@ -4291,7 +4593,7 @@ msgstr ""
 msgid "Version:"
 msgstr "버전:"
 
-#: libs/s25main/desktops/dskOptions.cpp:345
+#: libs/s25main/desktops/dskOptions.cpp:363
 msgid "Vertex Buffer Objects:"
 msgstr ""
 
@@ -4308,7 +4610,7 @@ msgstr "매우 멈"
 msgid "Very fast"
 msgstr "매우 빠름"
 
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:35
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:34
 msgid "Very long"
 msgstr "매우 김"
 
@@ -4317,7 +4619,7 @@ msgstr "매우 김"
 msgid "Very slow"
 msgstr "매우 느림"
 
-#: libs/s25main/GameManager.cpp:46
+#: libs/s25main/GameManager.cpp:47
 msgid "Video driver couldn't be loaded!"
 msgstr ""
 
@@ -4325,7 +4627,7 @@ msgstr ""
 msgid "View Settings..."
 msgstr "설정 보기..."
 
-#: libs/s25main/gameData/NationConsts.h:13
+#: libs/s25main/gameData/NationConsts.h:12
 msgid "Vikings"
 msgstr "바이킹"
 
@@ -4337,13 +4639,13 @@ msgstr "포도밭"
 msgid "Vintner"
 msgstr "포도주 양조업자"
 
-#: libs/s25main/Loader.cpp:301
+#: libs/s25main/Loader.cpp:310
 msgid ""
 "WARNING: Did not find the music files.\n"
 "\tYou have to run the updater once or copy the .ogg files manually to %1% or you won't be able to hear the music.\n"
 msgstr ""
 
-#: libs/s25main/Loader.cpp:292
+#: libs/s25main/Loader.cpp:301
 msgid "WARNING: Found invalid music item for %1%\n"
 msgstr ""
 
@@ -4389,11 +4691,11 @@ msgstr "물"
 msgid "We are under attack!"
 msgstr "공격당함!"
 
-#: libs/s25main/desktops/dskCredits.cpp:268
+#: libs/s25main/desktops/dskCredits.cpp:269
 msgid "We hope you enjoy playing Return To The Roots!"
 msgstr "Return To The Roots를 즐겁게 플레이해주세요!"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:379
+#: libs/s25main/ingameWindows/iwAction.cpp:386
 msgid "Weak attackers"
 msgstr "약한 병사부터 공격"
 
@@ -4402,18 +4704,18 @@ msgid "Weak defense"
 msgstr "역한 병사부터 수비"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:72
-#: libs/s25main/ingameWindows/iwTransport.cpp:43
+#: libs/s25main/ingameWindows/iwTransport.cpp:65
 msgid "Weapons"
 msgstr "무기"
 
-#: libs/s25main/desktops/dskCredits.cpp:61
-#: libs/s25main/desktops/dskCredits.cpp:77
-#: libs/s25main/desktops/dskCredits.cpp:104
+#: libs/s25main/desktops/dskCredits.cpp:62
+#: libs/s25main/desktops/dskCredits.cpp:78
+#: libs/s25main/desktops/dskCredits.cpp:105
 msgid "Website Administration"
 msgstr "웹사이트 관리"
 
-#: libs/s25main/desktops/dskCredits.cpp:78
-#: libs/s25main/desktops/dskCredits.cpp:105
+#: libs/s25main/desktops/dskCredits.cpp:79
+#: libs/s25main/desktops/dskCredits.cpp:106
 msgid "Website Programming"
 msgstr "웹사이트 프로그래밍"
 
@@ -4425,12 +4727,17 @@ msgstr "우물"
 msgid "What is this?"
 msgstr "무엇일까요?"
 
-#: libs/s25main/desktops/dskOptions.cpp:298
+#: libs/s25main/desktops/dskOptions.cpp:312
 msgid "Window pinning"
 msgstr ""
 
-#: libs/s25main/desktops/dskOptions.cpp:336
-#: libs/s25main/ingameWindows/iwSettings.cpp:69
+#: libs/s25main/desktops/dskOptions.cpp:349
+#: libs/s25main/ingameWindows/iwSettings.cpp:72
+msgid "Window size:"
+msgstr ""
+
+#: libs/s25main/desktops/dskOptions.cpp:338
+#: libs/s25main/ingameWindows/iwSettings.cpp:60
 msgid "Windowed"
 msgstr ""
 
@@ -4446,7 +4753,7 @@ msgstr "포도 농부"
 msgid "Winery"
 msgstr "포도주 양조장"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:194
+#: libs/s25main/gameData/BuildingConsts.cpp:206
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
 msgstr "조경사는 자신의 구역 내에서 숲의 생존을 보장합니다. 그는 온갖 종류의 나무를 심습니다."
 
@@ -4487,11 +4794,11 @@ msgstr ""
 msgid "Wrong lua script version: %1%. Current version: %2%.%3%.\n"
 msgstr ""
 
-#: libs/s25main/world/MapSerializer.cpp:183
+#: libs/s25main/world/MapSerializer.cpp:240
 msgid "Wrong version for lua script."
 msgstr ""
 
-#: libs/s25main/gameData/PortraitConsts.h:25
+#: libs/s25main/gameData/PortraitConsts.h:24
 msgid "Yamauchi"
 msgstr "야마우치"
 
@@ -4528,11 +4835,11 @@ msgstr ""
 msgid "You can't join that game with your version!"
 msgstr "현재 버전으로는 해당 게임에 참여할 수 없습니다!"
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1166
+#: libs/s25main/desktops/dskGameLobby.cpp:1167
 msgid "You chose a war based victory condition but peaceful mode is still active. Would you like to deactivate peaceful mode before you start? Choosing No will start the game, Yes will let you review the changes."
 msgstr "전쟁 기반의 승리 조건을 선택하셨지만 평화 모드가 여전히 활성화되어 있습니다. 게임 시작 전에 평화 모드를 비활성화하시겠습니까? '아니오'를 선택하면 게임이 시작되고, '예'를 선택하면 변경할 사항을 점검할 수 있습니다."
 
-#: libs/s25main/desktops/dskGameLobby.cpp:1151
+#: libs/s25main/desktops/dskGameLobby.cpp:1152
 msgid ""
 "You chose the economy mode. In economy mode the player or team that collects the most of certain goods wins (check the Economic progress window in game).\n"
 "\n"
@@ -4551,20 +4858,20 @@ msgstr ""
 msgid "You have %u seconds until game starts"
 msgstr "게임 시작까지 %u초 남았습니다."
 
-#: libs/s25main/desktops/dskOptions.cpp:684
-#: libs/s25main/ingameWindows/iwSettings.cpp:113
+#: libs/s25main/desktops/dskOptions.cpp:711
+#: libs/s25main/ingameWindows/iwSettings.cpp:157
 msgid "You need to restart your game to change the screen resolution!"
 msgstr "화면 해상도를 변경하려면 게임을 다시 시작해야 합니다!"
 
-#: libs/s25main/desktops/dskOptions.cpp:692
+#: libs/s25main/desktops/dskOptions.cpp:719
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "비디오 또는 오디오 드라이버를 변경하려면 게임을 다시 시작해야 합니다!"
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:395
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:392
 msgid "You win"
 msgstr "당신이 이겼어요"
 
-#: libs/s25main/GamePlayer.cpp:1666
+#: libs/s25main/GamePlayer.cpp:1743
 msgid "Your ally wishes to notify you of this location"
 msgstr ""
 
@@ -4576,7 +4883,7 @@ msgstr "모든 생산을 0으로"
 msgid "Zoom"
 msgstr ""
 
-#: libs/s25main/desktops/dskCredits.cpp:121
+#: libs/s25main/desktops/dskCredits.cpp:122
 msgid "all developers who contributed via Github"
 msgstr "Github을 통해 기여한 모든 개발자들"
 
@@ -4584,7 +4891,7 @@ msgstr "Github을 통해 기여한 모든 개발자들"
 msgid "by GameFrames:"
 msgstr "건너뛸 게임프레임 단위:"
 
-#: libs/s25main/network/GameClient.cpp:1652
+#: libs/s25main/network/GameClient.cpp:1682
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "현재 GF: %u - 빨리감기 진행중: %d GF 남음 (%d %%)"
@@ -4593,16 +4900,16 @@ msgstr "현재 GF: %u - 빨리감기 진행중: %d GF 남음 (%d %%)"
 msgid "default"
 msgstr "기본값"
 
-#: libs/s25main/Loader.cpp:277 libs/s25main/resources/ArchiveLoader.cpp:117
+#: libs/s25main/Loader.cpp:286 libs/s25main/resources/ArchiveLoader.cpp:118
 #, c-format
 msgid "done in %ums\n"
 msgstr ""
 
-#: libs/libGamedata/gameData/CampaignDescription.cpp:30
+#: libs/libGamedata/gameData/CampaignDescription.cpp:61
 msgid "easy"
 msgstr "쉬움"
 
-#: libs/s25main/Loader.cpp:273 libs/s25main/resources/ArchiveLoader.cpp:122
+#: libs/s25main/Loader.cpp:282 libs/s25main/resources/ArchiveLoader.cpp:123
 msgid "failed: %1%\n"
 msgstr ""
 
@@ -4610,30 +4917,30 @@ msgstr ""
 msgid "greenland"
 msgstr "녹지"
 
-#: libs/libGamedata/gameData/CampaignDescription.cpp:30
+#: libs/libGamedata/gameData/CampaignDescription.cpp:61
 msgid "hard"
 msgstr "어려움"
 
-#: libs/s25main/GameManager.cpp:142
+#: libs/s25main/GameManager.cpp:143
 msgid "jump to gf %1% complete\n"
 msgstr ""
 
-#: libs/s25main/GameManager.cpp:137
+#: libs/s25main/GameManager.cpp:138
 #, c-format
 msgid "jump to gf %i complete, time for last %i gf: %.3f s, avg gf time %.3f ms \n"
 msgstr ""
 
-#: libs/s25main/GameManager.cpp:125
+#: libs/s25main/GameManager.cpp:126
 #, c-format
 msgid "jumping to gf %i, now at gf %i \n"
 msgstr ""
 
-#: libs/s25main/GameManager.cpp:122
+#: libs/s25main/GameManager.cpp:123
 #, c-format
 msgid "jumping to gf %i, now at gf %i, time for last 5k gf: %.3f s, avg gf time %.3f ms \n"
 msgstr ""
 
-#: libs/libGamedata/gameData/CampaignDescription.cpp:30
+#: libs/libGamedata/gameData/CampaignDescription.cpp:61
 msgid "medium"
 msgstr "중간"
 
@@ -4641,7 +4948,7 @@ msgstr "중간"
 msgid "to GameFrame:"
 msgstr "이동할 게임프레임:"
 
-#: libs/s25main/desktops/dskCredits.cpp:140
+#: libs/s25main/desktops/dskCredits.cpp:141
 msgid "various anonymous donators"
 msgstr "다양한 익명의 후원자"
 
@@ -4652,3 +4959,7 @@ msgstr "황야"
 #: data/RTTR/gamedata/world/winterworld.lua:8
 msgid "winterworld"
 msgstr "설원"
+
+#: libs/s25main/ingameWindows/iwWares.cpp:225
+msgid "with armor)"
+msgstr ""
