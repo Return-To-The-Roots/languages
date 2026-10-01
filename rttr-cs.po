@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 13:54+0100\n"
-"PO-Revision-Date: 2026-01-30 15:37+0000\n"
-"Last-Translator: silverhole <Unknown>\n"
+"PO-Revision-Date: 2026-06-27 17:19+0000\n"
+"Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-02-06 09:56+0000\n"
-"X-Generator: Launchpad (build 4847db153920c8fbc330ac275b92a72279fa07a2)\n"
+"X-Launchpad-Export-Date: 2026-09-30 14:16+0000\n"
+"X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
 "X-Poedit-Country: CZECH REPUBLIC\n"
 "X-Poedit-Language: Czech\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -719,9 +719,8 @@ msgstr "Brutus"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:302
 #: libs/s25main/ingameWindows/iwAction.cpp:304
-#, fuzzy
 msgid "Build headquarters"
-msgstr "Hlavní budova"
+msgstr "Postav Hlavní budovu"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:204
 #: libs/s25main/ingameWindows/iwAction.cpp:216
@@ -1855,9 +1854,8 @@ msgstr "Počáteční suroviny:"
 
 #: libs/s25main/desktops/dskOptions.cpp:284
 #: libs/s25main/ingameWindows/iwSettings.cpp:83
-#, fuzzy
 msgid "Grab and drag (Map moves with your cursor when scrolling/panning.)"
-msgstr "Mapa se při posouvání pohybuje stejným směrem jako myš."
+msgstr "Chycení a tažení (Mapa se při posouvání/rolování pohybuje s kurzorem.)"
 
 #: libs/s25main/gameData/GoodConsts.cpp:36
 msgid "Grain"
@@ -2451,7 +2449,7 @@ msgstr "Mapa je neplatná nebo se nepodařila správně načíst!"
 #: libs/s25main/desktops/dskOptions.cpp:278
 #: libs/s25main/ingameWindows/iwSettings.cpp:75
 msgid "Map scroll mode:"
-msgstr ""
+msgstr "Režim posouvání mapy:"
 
 #: libs/s25main/network/ClientError.cpp:17
 msgid "Map transmission was corrupt!"
@@ -3420,15 +3418,13 @@ msgstr "Snímek obrazovky byl uložen na %1%\n"
 
 #: libs/s25main/desktops/dskOptions.cpp:283
 #: libs/s25main/ingameWindows/iwSettings.cpp:82
-#, fuzzy
 msgid "Scroll opposite (Map moves in the opposite direction the mouse is moved when scrolling/panning.)"
-msgstr "Mapa se při posouvání pohybuje opačným směrem než myš."
+msgstr "Posouvat v opačném směru (Mapa se při posouvání/rolování pohybuje v opačném směru, než ve kterém se pohybuje myš.)"
 
 #: libs/s25main/desktops/dskOptions.cpp:281
 #: libs/s25main/ingameWindows/iwSettings.cpp:80
-#, fuzzy
 msgid "Scroll same (Map moves in the same direction the mouse is moved when scrolling/panning.)"
-msgstr "Mapa se při posouvání pohybuje stejným směrem jako myš."
+msgstr "Posouvat stejně (Mapa se při posouvání/rolování pohybuje stejným směrem, jakým se pohybuje myš.)"
 
 #: libs/s25main/gameData/GoodConsts.cpp:18
 msgid "Scythe"
@@ -4620,9 +4616,8 @@ msgid "all developers who contributed via Github"
 msgstr "všichni vývojáři, kteří přispěli prostřednictvím Github"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:57
-#, fuzzy
 msgid "by GameFrames:"
-msgstr "do GameFrame:"
+msgstr "od GameFrames:"
 
 #: libs/s25main/network/GameClient.cpp:1652
 #, c-format
@@ -4692,78 +4687,3 @@ msgstr "Pustina"
 #: data/RTTR/gamedata/world/winterworld.lua:8
 msgid "winterworld"
 msgstr "Zimní svět"
-
-#~ msgid "Coming soon"
-#~ msgstr "Již brzy"
-
-#~ msgid "Continent"
-#~ msgstr "Kontinent"
-
-#~ msgid "Directory does not exist: %s\n"
-#~ msgstr "Adresář nenalezen: %s\n"
-
-#~ msgid "Furthest apart"
-#~ msgstr "Nejdále od sebe"
-
-#~ msgid "Greenland"
-#~ msgstr "Zelený ostrov"
-
-#~ msgid "Internet Ranking"
-#~ msgstr "Internetové hodnocení"
-
-#~ msgid "Invert Mouse Pan"
-#~ msgstr "Invertovat Posouvání Myši"
-
-#~ msgid "Invert Mouse Pan:"
-#~ msgstr "Invertovat pohyb myši:"
-
-#~ msgid "Keyboard layout:"
-#~ msgstr "Rozložení klávesnice:"
-
-#~ msgid "Loading LST,LBM,BOB,IDX,BMP,TXT,GER,ENG,INI files from %1%\n"
-#~ msgstr "Načítání LST, LBM, BOB, IDX, BMP, TXT, GER, ENG, INI souborů z %1%\n"
-
-#~ msgid "Lost"
-#~ msgstr "Prohra"
-
-#~ msgid "Migration"
-#~ msgstr "Migrace"
-
-#~ msgid "Not available"
-#~ msgstr "Nedostupné"
-
-#~ msgid "Player Distribution"
-#~ msgstr "Distribuce hráčů"
-
-#~ msgid "Please use 'Unlimited Play' to create a Singleplayer game."
-#~ msgstr "Prosím, použijte \"Neomezenou hru\" pro vytvoření hry Jednoho hráče"
-
-#~ msgid "Points"
-#~ msgstr "Bodů"
-
-#~ msgid "Random"
-#~ msgstr "Náhodný"
-
-#~ msgid "Registration successful!"
-#~ msgstr "Registrace proběhla úspěšně!"
-
-#~ msgid "Start GF"
-#~ msgstr "Start GF"
-
-#~ msgid "Too short Message received!"
-#~ msgstr "Byla obdržena neúplná odpověď."
-
-#~ msgid "Very Close"
-#~ msgstr "Velmi blízko"
-
-#~ msgid "Won"
-#~ msgstr "Výhra"
-
-#~ msgid "finished in %ums\n"
-#~ msgstr "dokončeno za %ums\n"
-
-#~ msgid "of"
-#~ msgstr "z"
-
-#~ msgid "unlimited"
-#~ msgstr "Neomezeně"

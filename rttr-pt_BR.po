@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 13:54+0100\n"
-"PO-Revision-Date: 2026-01-23 12:56+0000\n"
+"PO-Revision-Date: 2026-06-27 17:18+0000\n"
 "Last-Translator: Ronaldo padilha <ronaldoflake@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-02-06 09:56+0000\n"
-"X-Generator: Launchpad (build 4847db153920c8fbc330ac275b92a72279fa07a2)\n"
+"X-Launchpad-Export-Date: 2026-09-30 14:16+0000\n"
+"X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -131,7 +131,7 @@ msgstr "(1 soldado)"
 #: libs/s25main/ingameWindows/iwBuilding.cpp:188
 #: libs/s25main/world/GameWorldView.cpp:428
 msgid "(House unoccupied)"
-msgstr "(Casa ocupada)"
+msgstr "(Casa desocupada)"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:388
 #, c-format
@@ -218,7 +218,7 @@ msgstr "1 h"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:30
 msgid "10 catapults"
-msgstr "10 Catapultas"
+msgstr "10 catapultas"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:85
 #: libs/s25main/ingameWindows/iwStatistics.cpp:152
@@ -232,15 +232,15 @@ msgstr "16 h"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:31
 msgid "20 catapults"
-msgstr "20 Catapultas"
+msgstr "20 catapultas"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:28
 msgid "3 catapults"
-msgstr "3 Catapultas"
+msgstr "3 catapultas"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:32
 msgid "30 catapults"
-msgstr "30 Catapultas"
+msgstr "30 catapultas"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:87
 #: libs/s25main/ingameWindows/iwStatistics.cpp:154
@@ -249,7 +249,7 @@ msgstr "4 h"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:29
 msgid "5 catapults"
-msgstr "5 Catapultas"
+msgstr "5 catapultas"
 
 #: libs/s25main/Messenger.cpp:81
 #, c-format
@@ -294,7 +294,7 @@ msgstr "Um poço fornece água para a padaria, cervejaria, criação de burro e 
 
 #: libs/s25main/gameData/BuildingConsts.cpp:179
 msgid "A woodcutter provides the sawmill with logs. A forester is able to replant the depleted forest."
-msgstr "O lenhador fornece madeira para a serralheria.E o florestador planta árvores."
+msgstr "O lenhador fornece toras de madeira para a serraria, já o reflorestador planta árvores."
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:93
 msgid "AI"
@@ -320,11 +320,11 @@ msgstr "Abortar"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:22
 msgid "Active if attacked"
-msgstr "Ativar se atacado"
+msgstr "Ativo se atacado"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:23
 msgid "Active near frontiers"
-msgstr "Ativar fronteiras próximas"
+msgstr "Habilitado próximo a fronteiras"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:48
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:14
@@ -453,11 +453,11 @@ msgstr "Permite que cada jogador controle se os locais de construção devem ser
 
 #: libs/s25main/addons/AddonCharburner.h:18
 msgid "Allows to build the charburner."
-msgstr "Permite construir charburner."
+msgstr "Permite construir a carvoaria."
 
 #: libs/s25main/addons/AddonWine.h:18
 msgid "Allows to build the wine economy buildings."
-msgstr ""
+msgstr "Permite construir estruturas para produção de vinho."
 
 #: libs/s25main/addons/AddonToolOrdering.h:14
 msgid "Allows to order a specific amount of tools for priority production."
@@ -514,7 +514,7 @@ msgstr "Inteligência Artificial (AI)"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:155
 msgid "As the teams are locked, you cannot make treaties of any kind."
-msgstr "Como as equipes estao bloqueadas, você nao pode fazer tratados de nenhum tipo."
+msgstr "Como as equipes estão bloqueadas, você não pode fazer tratados de nenhum tipo."
 
 #: libs/s25main/desktops/dskOptions.cpp:312
 msgid "Ask always"
@@ -554,16 +554,16 @@ msgstr "Logs assíncronos recebidos completamente.\n"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:117
 msgid "At the winery, grapes are stomped in a vat to produce wine. The vintner's wine is of high quality, worthy of sacrifice at the temple."
-msgstr ""
+msgstr "Na vinícola, as uvas são pisadas num barril para produção de vinho. O vinho produzido é de alta qualidade e vale o sacrifício no templo."
 
 #: libs/s25main/ingameWindows/iwAction.cpp:365
 msgid "Attack not possible."
-msgstr "Atacar nao é possível"
+msgstr "Não é possível atacar."
 
 #: libs/s25main/ingameWindows/iwAction.cpp:279
 #: libs/s25main/ingameWindows/iwAction.cpp:287
 msgid "Attack options"
-msgstr "Opçoes de ataque"
+msgstr "Opções de ataque"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:395
 msgid "Attack!"
@@ -581,7 +581,7 @@ msgstr "Autor"
 #: libs/s25main/desktops/dskOptions.cpp:791
 #, c-format
 msgid "Auto (%u%%)"
-msgstr ""
+msgstr "Auto (%u%%)"
 
 #: libs/s25main/network/GameClient.cpp:1403
 #: libs/s25main/network/GameClient.cpp:1405
@@ -659,12 +659,12 @@ msgstr "Cerveja"
 #: libs/s25main/desktops/dskOptions.cpp:396
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:118
 msgid "Bird sounds"
-msgstr ""
+msgstr "Sons de pássaros"
 
 #: libs/s25main/gameData/GoodConsts.cpp:32
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:48
 msgid "Boards"
-msgstr "Borda"
+msgstr "Tábuas"
 
 #: libs/s25main/gameData/GoodConsts.cpp:24
 msgid "Boat"
@@ -710,13 +710,12 @@ msgstr "Cervejaria"
 
 #: libs/s25main/gameData/PortraitConsts.h:22
 msgid "Brutus"
-msgstr ""
+msgstr "Brutus"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:302
 #: libs/s25main/ingameWindows/iwAction.cpp:304
-#, fuzzy
 msgid "Build headquarters"
-msgstr "Quartel General"
+msgstr "Construir quartel-general"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:204
 #: libs/s25main/ingameWindows/iwAction.cpp:216
@@ -747,7 +746,7 @@ msgstr "Edifícios"
 
 #: libs/s25main/gameData/JobConsts.cpp:29
 msgid "Butcher"
-msgstr "Açogueiro"
+msgstr "Açougueiro"
 
 #: libs/s25main/ingameWindows/iwStatistics.cpp:47
 msgid "COMP"
@@ -769,7 +768,7 @@ msgstr ""
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:230
 msgid "Campaign map %1% does not exist.\n"
-msgstr ""
+msgstr "O mapa %1% da campanha não existe.\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:243
 msgid "Campaign map lua file %1% does not exist.\n"
@@ -778,7 +777,7 @@ msgstr ""
 #: libs/s25main/desktops/dskCampaignSelection.cpp:67
 #: libs/s25main/desktops/dskSinglePlayer.cpp:43
 msgid "Campaigns"
-msgstr ""
+msgstr "Campanhas"
 
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:72
 #: libs/s25main/ingameWindows/iwMsgbox.cpp:85
@@ -804,7 +803,7 @@ msgstr ""
 
 #: libs/s25main/Replay.cpp:207
 msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
-msgstr ""
+msgstr "Não é possível jogar um replay criado por uma versão mais recente (Atual: %1%, Replay: %2%)"
 
 #: libs/s25main/gameData/JobConsts.cpp:23
 msgid "Carpenter"
@@ -820,7 +819,7 @@ msgstr "Centro do país"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:227
 msgid "Change Settings..."
-msgstr "Alterar as configurações..."
+msgstr "Alterar configurações..."
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:18
 msgid "Change defender behavior"
@@ -858,7 +857,7 @@ msgstr ""
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:18
 msgid "Change the visibility of your ingame statistics"
-msgstr "Alterar a visibilidade das estatísticas in-game."
+msgstr "Alterar a visibilidade das estatísticas durante o jogo"
 
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:15
 msgid ""
@@ -869,12 +868,12 @@ msgstr ""
 
 #: libs/s25main/addons/AddonShipSpeed.h:17
 msgid "Changes the ship movement speed"
-msgstr "Alterar a velocidade de movimento do navio."
+msgstr "Altera a velocidade de movimento do navio"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:37
 #: libs/s25main/gameData/JobConsts.cpp:52
 msgid "Charburner"
-msgstr "Charburner"
+msgstr "Carvoaria"
 
 #: libs/s25main/ingameWindows/iwChat.cpp:18
 msgid "Chat Window"
@@ -891,7 +890,7 @@ msgstr "Checando senha..."
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:82
 msgid "Choose mission"
-msgstr ""
+msgstr "Escolha missão"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:237
 msgid "Classic (Settlers 2)"
@@ -926,7 +925,7 @@ msgstr "Carvão"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:21
 msgid "Coal mine"
-msgstr "Mina de carvao"
+msgstr "Mina de carvão"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:100
 msgid "Coal:"
@@ -1080,7 +1079,7 @@ msgstr "Current GF: %u / GF length: %u ms / NWF length: %u gf (%u ms) /  Ping: %
 
 #: libs/s25main/addons/AddonCustomBuildSequence.h:18
 msgid "Custom build sequence"
-msgstr "Sequencia de construição"
+msgstr "Sequência de construção customizável"
 
 #: libs/s25main/addons/AddonInexhaustibleFish.h:18
 msgid "Deactivates reduction of fish population."
@@ -1098,7 +1097,7 @@ msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:156
 msgid "Deep within the mountains, miners dig for iron ore. They will obviously need a lot of food for the strenuous work."
-msgstr "Nas profundezas das montanhas os mineiros cavam para achar ferro.Eles obviamente precisam de muito comida para tanto trabalho."
+msgstr "Nas profundezas das montanhas os mineradores escavam para encontrar minério de ferro. Eles obviamente precisam de muita comida para tanto trabalho."
 
 #: libs/s25main/addons/AddonBurnDuration.h:19
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:22
@@ -1110,7 +1109,7 @@ msgstr "Nas profundezas das montanhas os mineiros cavam para achar ferro.Eles ob
 #: libs/s25main/ingameWindows/iwTools.cpp:69
 #: libs/s25main/ingameWindows/iwTransport.cpp:27
 msgid "Default"
-msgstr "Predefinição"
+msgstr "Padrão"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:133
 #, c-format
@@ -1156,7 +1155,7 @@ msgstr "Impossível de demolir"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:74
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #: libs/s25main/ingameWindows/iwSurrender.cpp:19
 msgid "Destroy all buildings and surrender"
@@ -1168,12 +1167,12 @@ msgstr "Diário"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:77
 msgid "Difficulty"
-msgstr ""
+msgstr "Dificuldade"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:265
 #: libs/s25main/ingameWindows/iwAction.cpp:274
 msgid "Dig up road"
-msgstr "Desenterrar estrada"
+msgstr "Remover estrada"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:46
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:75
@@ -1182,15 +1181,15 @@ msgstr "Diplomacia"
 
 #: libs/s25main/desktops/dskMultiPlayer.cpp:29
 msgid "Direct IP"
-msgstr "Ip direto"
+msgstr "IP direto"
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:22
 msgid "Disable"
-msgstr "Desativar"
+msgstr "Desabilitar"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:18
 msgid "Disable Demolition of military buildings"
-msgstr "Desabilitar destruição de edificios militares"
+msgstr "Desabilitar demolição de edificios militares"
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:17
 msgid "Disable coins by default"
@@ -1203,11 +1202,11 @@ msgstr "Desative a demolição de edifícios militares sob ataque ou perto de fr
 #: libs/s25main/desktops/dskOptions.cpp:471
 #: libs/s25main/ingameWindows/iwSave.cpp:140
 msgid "Disabled"
-msgstr "Disabilitado"
+msgstr "Desabilitado"
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:25
 msgid "Disallow change"
-msgstr "Disallow change"
+msgstr "Desabilitar mudança"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:307
 msgid "Display options"
@@ -1244,7 +1243,7 @@ msgstr "Doadores"
 
 #: libs/s25main/gameData/JobConsts.cpp:33
 msgid "Donkey breeder"
-msgstr "Criador de burro"
+msgstr "Criador de burros"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:48
 msgid "Donkey breeding"
@@ -1328,11 +1327,11 @@ msgstr "Ativar promoções de campo de batalha"
 
 #: libs/s25main/addons/AddonCharburner.h:17
 msgid "Enable charburner"
-msgstr "Permitir charburner"
+msgstr "Permitir carvoaria"
 
 #: libs/s25main/addons/AddonWine.h:17
 msgid "Enable wine economy"
-msgstr ""
+msgstr "Permitir produção de vinho"
 
 #: libs/s25main/addons/AddonAsyncDebug.h:17
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
@@ -1368,11 +1367,11 @@ msgstr "Portos inimigos não bloqueiam"
 #: libs/s25main/ingameWindows/iwAction.cpp:259
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:27
 msgid "Erect flag"
-msgstr "Bandeira Ereta"
+msgstr "Fincar bandeira"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Erik"
-msgstr ""
+msgstr "Erik"
 
 #: libs/s25client/s25client.cpp:126 libs/s25client/s25client.cpp:149
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
@@ -1427,7 +1426,7 @@ msgstr ""
 
 #: libs/s25main/network/GameClient.cpp:1711
 msgid "Error during saving: "
-msgstr ""
+msgstr "Erro durante o salvamento: "
 
 #: libs/s25main/network/GameClient.cpp:1556
 #, c-format
@@ -1477,7 +1476,7 @@ msgstr "Esgotável"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:17
 msgid "Exhaustible Water"
-msgstr "Água Esgotável"
+msgstr "Água esgotável"
 
 #: libs/s25main/ingameWindows/iwHarborBuilding.cpp:23
 msgid "Expedition"
@@ -1489,7 +1488,7 @@ msgstr "Expedição exploratória"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:233
 msgid "Exploration:"
-msgstr "Exploraçao:"
+msgstr "Exploração:"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:407
 msgid ""
@@ -1510,7 +1509,7 @@ msgstr "Falha ao carregar %s\n"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:218
 msgid "Failed to load campaign %1%.\n"
-msgstr ""
+msgstr "Falhou ao carregar campanha %1%.\n"
 
 #: libs/s25main/desktops/dskCredits.cpp:276
 msgid "Failed to load game data"
@@ -1650,7 +1649,7 @@ msgstr "NdG - tudo explorado"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:238
 msgid "Fog of War"
-msgstr "Nevoa de Guerra"
+msgstr "Névoa de Guerra"
 
 #: libs/s25main/ingameWindows/iwObservate.cpp:50
 msgid "Follow object"
@@ -1667,7 +1666,7 @@ msgstr "Alimentos"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:30
 msgid "Forester"
-msgstr "Florestador"
+msgstr "Reflorestador"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:19
 msgid "Fortress"
@@ -1675,7 +1674,7 @@ msgstr "Fortaleza"
 
 #: libs/s25main/figures/nofGeologist.cpp:437
 msgid "Found coal"
-msgstr "Achou carvão"
+msgstr "Encontrou carvão"
 
 #: libs/s25main/ingameWindows/iwShip.cpp:53
 msgid "Found colony"
@@ -1683,19 +1682,19 @@ msgstr "Colônia encontrada"
 
 #: libs/s25main/figures/nofGeologist.cpp:436
 msgid "Found gold"
-msgstr "Achou ouro"
+msgstr "Encontrou ouro"
 
 #: libs/s25main/figures/nofGeologist.cpp:438
 msgid "Found granite"
-msgstr "Achou granito"
+msgstr "Encontrou granito"
 
 #: libs/s25main/figures/nofGeologist.cpp:435
 msgid "Found iron ore"
-msgstr "Achou ferro"
+msgstr "Encontrou minério de ferro"
 
 #: libs/s25main/figures/nofGeologist.cpp:439
 msgid "Found water"
-msgstr "Achou água"
+msgstr "Encontrou águag"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:168
 msgid "From the lookout tower you can see far into previously unexplored lands."
@@ -1712,16 +1711,16 @@ msgstr "Controle total"
 #: libs/s25main/desktops/dskOptions.cpp:335
 #: libs/s25main/ingameWindows/iwSettings.cpp:67
 msgid "Fullscreen"
-msgstr "Tela Cheia"
+msgstr "Tela cheia"
 
 #: libs/s25main/desktops/dskOptions.cpp:327
 #: libs/s25main/ingameWindows/iwSettings.cpp:44
 msgid "Fullscreen resolution:"
-msgstr "Resoluçao em tela cheia:"
+msgstr "Resolução em tela cheia:"
 
 #: libs/s25main/desktops/dskOptions.cpp:375
 msgid "GUI Scale:"
-msgstr ""
+msgstr "Escala da interface gráfica de usuário:"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:198
 msgid "Game Chat"
@@ -1749,7 +1748,7 @@ msgstr "O jogo foi pausado."
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1236
 msgid "Game was resumed."
-msgstr "O jogo foi despausado."
+msgstr "O jogo foi retomado."
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:26
 msgid "Game's Name:"
@@ -1777,11 +1776,11 @@ msgstr "Geólogo"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:19
 msgid "Geologist sign durability"
-msgstr "Durabilidade do sinal do geólogo"
+msgstr "Durabilidade da placa do geólogo"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:24
 msgid "Get all back"
-msgstr "Obter todos de voltar"
+msgstr "Reembolsar tudo"
 
 #: libs/s25main/addons/AddonRefundOnEmergency.h:19
 msgid "Get building materials back when a building is destroyed and your emergency program is active."
@@ -1789,7 +1788,7 @@ msgstr "Obter materiais de construção de volta quando uma construção é dest
 
 #: libs/s25main/addons/AddonRefundMaterials.h:18
 msgid "Get building materials back when a building is destroyed."
-msgstr "Obter materiais de construção de volta quando uma construção é destruída."
+msgstr "Obter materiais de construção de volta quando uma construção é demolida."
 
 #: libs/s25main/QuickStartGame.cpp:58
 msgid "Given map or replay (%1%) does not exist!"
@@ -1797,7 +1796,7 @@ msgstr "O mapa ou o replay (%1%) não existe!"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:316
 msgid "Go to headquarters"
-msgstr "Ir para o Quartel General"
+msgstr "Ir para o quartel-general"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:96
 msgid "Go to next building of same type"
@@ -1859,7 +1858,7 @@ msgstr "Grão"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:234
 msgid "Grain and water are needed for rearing pigs. The meat thus obtained can then be processed by a butcher."
-msgstr "Grãos e água são necessários para a criação de porcos. A carne assim obtida pode então ser processada por um açougue."
+msgstr "Grãos e água são necessários para a criação de porcos. Os suínos assim obtidos podem então ser processados por um abatedouro."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:20
 msgid "Granite mine"
@@ -1875,7 +1874,7 @@ msgstr "Granito:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:44
 msgid "Grapes"
-msgstr ""
+msgstr "Uvas"
 
 #: libs/s25main/desktops/dskOptions.cpp:157
 msgid "Graphics"
@@ -1883,7 +1882,7 @@ msgstr "Gráficos"
 
 #: libs/s25main/desktops/dskOptions.cpp:352
 msgid "Graphics Driver"
-msgstr "Driver Gráfico"
+msgstr "Driver gráfico"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:12
 msgid "Guardhouse"
@@ -1895,7 +1894,7 @@ msgstr "Distância do QG até montanha"
 
 #: libs/s25main/gameData/PortraitConsts.h:27
 msgid "Hakirawashi"
-msgstr ""
+msgstr "Hakirawashi"
 
 #: libs/s25main/addons/AddonHalfCostMilEquip.h:16
 msgid "Half cost recruits"
@@ -1917,7 +1916,7 @@ msgstr "Porto"
 #: libs/s25main/gameData/BuildingConsts.cpp:10
 #: libs/s25main/ingameWindows/iwHQ.cpp:15
 msgid "Headquarters"
-msgstr "Quartel General"
+msgstr "Quartel-general"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:61
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:30
@@ -1952,7 +1951,7 @@ msgstr "Host:"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:163
 msgid "Hosting of game not possible"
-msgstr ""
+msgstr "Hospedagem do jogo não foi possível"
 
 #: libs/s25main/ingameWindows/iwAction.cpp:313
 msgid "House names"
@@ -1990,7 +1989,7 @@ msgstr "IPv6"
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:18
 msgid "If Water is exhaustible wells will now dry out. If water everywhere is enabled, a geologist will not notify for water"
-msgstr "Se a água for esgotável, os poços irão secar. Se a opção água em todos os lugares for ativada, um geólogo não notificará para água"
+msgstr "Se a água for esgotável, os poços irão secar. Se a opção água em todos os lugares for ativada, um geólogo não analisará o solo para presença de água"
 
 #: libs/s25main/resources/ArchiveLocator.cpp:60
 msgid "Ignoring resource %1% in %2% because it is already found in %3%\n"
@@ -2006,7 +2005,7 @@ msgstr "Aliança aprimorada"
 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:20
 msgid "Increase the durability of geologist signs by a factor."
-msgstr "Aumenta a durabilidade dos sinais do geólogo por um fator."
+msgstr "Aumenta a durabilidade das placas do geólogo por um fator."
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
 msgid "Inexhaustible"
@@ -2072,7 +2071,7 @@ msgstr "Jogo salvo inválido %1%! Motivo: %2%\n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:31
 msgid "Invalid difficulty: %1%"
-msgstr ""
+msgstr "Dificuldade inválida: %1%"
 
 #: libs/s25main/world/MapSerializer.cpp:176
 msgid "Invalid end-id for lua data"
@@ -2094,7 +2093,7 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:138
 msgid "Invalid port. The valid port-range is 1 to 65535!"
-msgstr "Porta inválida.A porta tem que estar no range de 1 a 65535!"
+msgstr "Porta inválida.A porta tem que estar no intervalo entre 1 a 65535."
 
 #: libs/s25main/gameData/GoodConsts.cpp:26
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:66
@@ -2144,7 +2143,7 @@ msgstr "Entrar no Jogo"
 
 #: libs/s25main/gameData/PortraitConsts.h:21
 msgid "Julius"
-msgstr ""
+msgstr "Julius"
 
 #: libs/s25main/network/GameClient.cpp:1664
 #, c-format
@@ -2169,7 +2168,7 @@ msgstr "Layout do teclado"
 
 #: libs/s25main/gameData/PortraitConsts.h:23
 msgid "Knut"
-msgstr ""
+msgstr "Knut"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:51
 msgid "Land"
@@ -2181,7 +2180,7 @@ msgstr "Relevo"
 
 #: libs/s25main/desktops/dskOptions.cpp:200
 msgid "Language:"
-msgstr "Linguagem:"
+msgstr "Idioma:"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:54
 msgid "Length"
@@ -2207,7 +2206,7 @@ msgstr "Repetir menos"
 
 #: libs/s25main/desktops/dskOptions.cpp:340
 msgid "Limit Framerate:"
-msgstr "Limite de Framerate:"
+msgstr "Limitar taxa de quadros"
 
 #: libs/s25main/addons/AddonLimitCatapults.h:17
 msgid "Limit number of catapults"
@@ -2229,15 +2228,15 @@ msgid ""
 "Very long: 21 tiles\n"
 "and Unlimited."
 msgstr ""
-"Limita os colonos distância podem viajar por barco.\n"
+"Limita a distância que os colonos podem viajar por barco.\n"
 "\n"
 "Os valores possíveis são:\n"
-"Resumindo: 3 tiles\n"
-"Default: 5 Tiles\n"
-"Long: 9 Tiles\n"
-"Mais: 13 Tiles\n"
-"Muito tempo: 21 Tiles\n"
-"e ilimitado."
+"Curto: 3 tiles\n"
+"Padrão: 5 Tiles\n"
+"Longo: 9 Tiles\n"
+"Mais longo: 13 Tiles\n"
+"Muito longo: 21 Tiles\n"
+"e Ilimitado."
 
 #: libs/s25main/addons/AddonLimitCatapults.h:18
 msgid ""
@@ -2333,7 +2332,7 @@ msgstr "Longo prazo"
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:34
 msgid "Longer"
-msgstr "Mais"
+msgstr "Mais longo"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:24
 msgid "Lookout tower"
@@ -2346,7 +2345,7 @@ msgstr "Torre de observação ocupada"
 #: libs/s25main/desktops/dskGameInterface.cpp:1250
 #: libs/s25main/desktops/dskLobby.cpp:259
 msgid "Lost connection to lobby!"
-msgstr "Conexao com o lobby perdida!"
+msgstr "Conexão com o lobby perdida!"
 
 #: libs/s25main/network/ClientError.cpp:15
 msgid "Lost connection to server!"
@@ -2394,11 +2393,11 @@ msgstr "O script lua foi desabilitado pelo próprio script\n"
 #: libs/s25main/desktops/dskGameInterface.cpp:139
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:34
 msgid "Main selection"
-msgstr "Seleçao principal"
+msgstr "Seleção principal"
 
 #: libs/s25main/addons/AddonManualRoadEnlargement.h:17
 msgid "Manual road enlargement"
-msgstr "Alargamento da estrada manual"
+msgstr "Aprimoramento manual de estradas"
 
 #: libs/s25main/addons/AddonManualRoadEnlargement.h:18
 msgid "Manually upgrade your roads and directly build donkey roads."
@@ -2445,7 +2444,7 @@ msgstr "Mapa é inválido ou não carregou adequadamente!"
 #: libs/s25main/desktops/dskOptions.cpp:278
 #: libs/s25main/ingameWindows/iwSettings.cpp:75
 msgid "Map scroll mode:"
-msgstr ""
+msgstr "Modo de rolagem pelo mapa:"
 
 #: libs/s25main/network/ClientError.cpp:17
 msgid "Map transmission was corrupt!"
@@ -2453,7 +2452,7 @@ msgstr "A transmissão do mapa foi corrompida!"
 
 #: libs/s25main/desktops/dskGameLoader.cpp:83
 msgid "Map was loaded and pinned at the wall..."
-msgstr "Mapa carregador e pendurado na parede..."
+msgstr "Mapa foi carregado e pendurado na parede..."
 
 #: libs/s25main/desktops/dskGameLobby.cpp:282
 #: libs/s25main/desktops/dskGameLobby.cpp:301
@@ -2472,7 +2471,7 @@ msgstr "Mapeamento"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:76
 msgid "Maps"
-msgstr ""
+msgstr "Mapas"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:27
 msgid "Maximal"
@@ -2488,7 +2487,7 @@ msgstr "Carne"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:204
 msgid "Meat the hunter acquires is used to feed the miners."
-msgstr "A carne que o caçador fornece é usada para alimentar os mineiros."
+msgstr "O caçador fornece carne, que é usada para alimentar os mineradores."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:89
 msgid "Medium"
@@ -2500,7 +2499,7 @@ msgstr "Força média"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:202
 msgid "Medium-term"
-msgstr "Termo-Médio"
+msgstr "Médio prazo"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:35
 #: libs/s25main/ingameWindows/iwStatistics.cpp:139
@@ -2518,7 +2517,7 @@ msgstr "Mensagem"
 
 #: libs/s25main/gameData/JobConsts.cpp:36
 msgid "Metalworker"
-msgstr "Metalúrgica"
+msgstr "Metalúrgico"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:35
 msgid "Metalworks"
@@ -2573,7 +2572,7 @@ msgstr "Moleiro"
 
 #: libs/s25main/gameData/JobConsts.cpp:30
 msgid "Miner"
-msgstr "Mineiro"
+msgstr "Minerador"
 
 #: libs/s25main/addons/AddonInexhaustibleMines.h:18
 msgid "Mines will never be depleted."
@@ -2597,11 +2596,11 @@ msgstr "Casa da moeda"
 
 #: libs/s25main/gameData/JobConsts.cpp:35
 msgid "Minter"
-msgstr "Minter"
+msgstr "Cunhador"
 
 #: libs/s25main/desktops/dskSplash.cpp:87
 msgid "Missing game files"
-msgstr ""
+msgstr "Arquivos do jogo em falta"
 
 #: libs/s25main/drivers/DriverWrapper.cpp:124
 msgid "Missing required API function"
@@ -2613,7 +2612,7 @@ msgstr "Mista"
 
 #: libs/s25main/gameData/PortraitConsts.h:29
 msgid "Mnga Tscha"
-msgstr ""
+msgstr "Mnga Tscha"
 
 #: libs/s25main/desktops/dskOptions.cpp:333
 #: libs/s25main/ingameWindows/iwSettings.cpp:64
@@ -2658,7 +2657,7 @@ msgstr "Mais árvores geram mais animais"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:41
 msgid "Multiplayer"
-msgstr "Multiplayer"
+msgstr "Multijogador"
 
 #: libs/s25main/desktops/dskOptions.cpp:403
 msgid "Music"
@@ -2672,7 +2671,7 @@ msgstr "Tocador de música"
 
 #: libs/s25main/gameData/PortraitConsts.h:30
 msgid "Nabonidus"
-msgstr ""
+msgstr "Nabonidus"
 
 #: libs/s25main/desktops/dskLobby.cpp:59
 #: libs/s25main/desktops/dskSelectMap.cpp:75
@@ -2701,7 +2700,7 @@ msgstr "Novo tipo de construção:"
 
 #: libs/s25main/buildings/nobHarborBuilding.cpp:80
 msgid "New harbor building finished"
-msgstr "Novo Porto construído"
+msgstr "Novo porto construído"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:103
 msgid "New maps"
@@ -2709,7 +2708,7 @@ msgstr "Novos mapas"
 
 #: libs/s25main/buildings/nobStorehouse.cpp:20
 msgid "New storehouse finished"
-msgstr "Novo Armazém construído"
+msgstr "Novo armazém construído"
 
 #: libs/s25main/ingameWindows/iwWares.cpp:189
 msgid "Next page"
@@ -2753,7 +2752,7 @@ msgstr "As pedras acabaram"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:280
 msgid "No preview"
-msgstr ""
+msgstr "Sem pré-visualização"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:20
 msgid "No refund"
@@ -2761,7 +2760,7 @@ msgstr "Sem reembolso"
 
 #: libs/s25main/addons/AddonSeaAttack.h:28
 msgid "No sea attacks"
-msgstr "Sem ataques pelo mar"
+msgstr "Sem ataques marítimos"
 
 #: libs/s25main/ingameWindows/iwShip.cpp:90
 msgid "No ships available"
@@ -2773,12 +2772,12 @@ msgstr "Ninguém pode atacar outro jogador."
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:24
 msgid "Nobody else but you"
-msgstr "Ninguém mais, além de você"
+msgstr "Somente você"
 
 #: libs/s25main/gameTypes/PactTypes.cpp:9
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:89
 msgid "Non-aggression pact"
-msgstr "Pacto de não-agressão"
+msgstr "Pacto de não agressão"
 
 #: libs/s25main/addons/AddonMilitaryControl.h:20
 #: libs/s25main/desktops/dskGameLobby.cpp:252
@@ -2804,7 +2803,7 @@ msgstr "Não é um driver da biblioteca do RTTR!"
 #: libs/s25main/desktops/dskGameInterface.cpp:1201
 #, c-format
 msgid "Note: Game settings changed by the server%s"
-msgstr "Nota:As opçoes trocadas pelo servidor%s"
+msgstr "Nota:Configurações de jogo alteradas pelo servidor%s"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:190
 msgid "Nothing"
@@ -2845,11 +2844,11 @@ msgstr "OK\n"
 #: libs/s25main/ingameWindows/iwAction.cpp:311
 #: libs/s25main/ingameWindows/iwObservate.cpp:33
 msgid "Observation window"
-msgstr "Janela de observaçao"
+msgstr "Janela de observação"
 
 #: libs/s25main/gameData/PortraitConsts.h:20
 msgid "Octavianus"
-msgstr ""
+msgstr "Octavianus"
 
 #: libs/s25main/addons/AddonDemolitionProhibition.h:21
 #: libs/s25main/addons/AddonMilitaryAid.h:21
@@ -2887,7 +2886,7 @@ msgstr "Mapas antigos"
 
 #: libs/s25main/gameData/PortraitConsts.h:24
 msgid "Olof"
-msgstr ""
+msgstr "Olof"
 
 #: libs/s25main/desktops/dskOptions.cpp:255
 #: libs/s25main/desktops/dskOptions.cpp:290
@@ -2922,11 +2921,11 @@ msgstr "Otimizar texturas"
 #: libs/s25main/desktops/dskOptions.cpp:149
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:99
 msgid "Options"
-msgstr "Ajustes"
+msgstr "Opções"
 
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:27
 msgid "Order of building site"
-msgstr "Ordem de construçao"
+msgstr "Local de construção"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:118
 #: libs/s25main/ingameWindows/iwAddons.cpp:70
@@ -2935,7 +2934,7 @@ msgstr "Outros"
 
 #: libs/s25main/figures/nofAttacker.cpp:222
 msgid "Our headquarters was destroyed!"
-msgstr "Nosso quartel general foi destruído"
+msgstr "Nosso quartel-general foi destruído!"
 
 #: libs/s25main/ingameWindows/iwMinimap.cpp:29
 msgid "Outline map"
@@ -2943,7 +2942,7 @@ msgstr "Esboço do mapa"
 
 #: libs/s25main/ingameWindows/iwTempleBuilding.cpp:20
 msgid "Output mineral"
-msgstr ""
+msgstr "Mineral de saída"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:106
 msgid "Own maps"
@@ -2984,11 +2983,11 @@ msgstr "Picareta"
 
 #: libs/s25main/gameData/JobConsts.cpp:32
 msgid "Pig breeder"
-msgstr "Criador de porco"
+msgstr "Criador de porcos"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:38
 msgid "Pig farm"
-msgstr "Fazenda de porco"
+msgstr "Granja de porcos"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:184
 #: libs/s25main/desktops/dskLobby.cpp:57
@@ -3003,12 +3002,12 @@ msgstr "Colocar o cursor no botão padrão para novos diálogos/ janelas (padrã
 
 #: libs/s25main/gameData/JobConsts.cpp:39
 msgid "Planer"
-msgstr "Planador"
+msgstr "Aplainador"
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:47
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:46
 msgid "Play Replay"
-msgstr "Jogar Replay"
+msgstr "Jogar replay"
 
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:116
 #: libs/s25main/ingameWindows/iwMusicPlayer.cpp:429
@@ -3075,7 +3074,7 @@ msgstr "Aguarde..."
 
 #: libs/s25main/desktops/dskOptions.cpp:188
 msgid "Portrait:"
-msgstr ""
+msgstr "Retrato:"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:146
 #: libs/s25main/ingameWindows/iwPostWindow.cpp:53
@@ -3104,7 +3103,7 @@ msgstr "Não produzir nada"
 
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:19
 msgid "Produce random ware"
-msgstr "Produzir produto aleatório"
+msgstr "Produzir ferramenta aleatória"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:68
 msgid "Production on/off"
@@ -3192,7 +3191,7 @@ msgstr "Começar em locais aleatórios"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:221
 msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
-msgstr "Minério de ferro em bruto é fundido na fundição do ferro, com a ajuda de carvão. O ferro processados ​​é então utilizado para a fabricação de armas (no Arsenal) e ferramentas (na metalurgia)."
+msgstr "Minério de ferro é fundido na fundição do ferro, com a ajuda de carvão. O ferro processado ​​é então utilizado para a fabricação de armas, na fábrica de armas, e ferramentas, na metalúrgica."
 
 #: libs/s25main/desktops/dskMainMenu.cpp:46
 msgid "Readme"
@@ -3232,7 +3231,7 @@ msgstr "Recebimento de moedas está desativado por padrão em construções mili
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:26
 msgid "Reduce reoccupying troops accordingly"
-msgstr "Reduzir reocupaçao das tropas"
+msgstr "Reduzir reocupação das tropas"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:21
 msgid "Refund 25%"
@@ -3248,7 +3247,7 @@ msgstr "Reembolso de 75%"
 
 #: libs/s25main/addons/AddonRefundMaterials.h:17
 msgid "Refund materials for destroyed buildings"
-msgstr "Obter materiais construção de volta das  construções destruídas"
+msgstr "Reembolsar materiais de construção das construções demolidas"
 
 #: libs/s25main/addons/AddonRefundOnEmergency.h:18
 msgid "Refund materials in emergency program"
@@ -3330,7 +3329,7 @@ msgstr "Vara de pescar"
 
 #: libs/s25main/gameData/GoodConsts.cpp:22
 msgid "Rolling pin"
-msgstr "Rolo"
+msgstr "Rolo de massa"
 
 #: libs/s25main/gameData/NationConsts.h:13
 msgid "Romans"
@@ -3392,7 +3391,7 @@ msgstr "Erro ao salvar jogo: "
 
 #: libs/s25main/network/GameClient.cpp:1683
 msgid "Saving game..."
-msgstr ""
+msgstr "Salvando o jogo"
 
 #: libs/s25main/gameData/GoodConsts.cpp:13
 msgid "Saw"
@@ -3447,7 +3446,7 @@ msgstr "Selecionar tudo"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:83
 msgid "Selection of maps"
-msgstr "Seleçao de mapas"
+msgstr "Seleção de mapas"
 
 #: libs/s25main/ingameWindows/iwTrade.cpp:70
 msgid "Send"
@@ -3472,7 +3471,7 @@ msgstr "Enviando logs assíncronos %1%.\n"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:62
 msgid "Sequence of given order"
-msgstr "Seqüência de ordem dada"
+msgstr "Sequência de ordem dada"
 
 #: libs/s25main/gameData/JobConsts.cpp:42
 msgid "Sergeant"
@@ -3517,11 +3516,11 @@ msgstr "Definir patente militar máxima"
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:21
 msgid "Set maximum waterway length"
-msgstr "Ajudar tamanho máximo da hidrovia"
+msgstr "Definir tamanho máximo da hidrovia"
 
 #: libs/s25main/addons/AddonSeaAttack.h:24
 msgid "Set restriction level for sea attacks"
-msgstr "Definir o nível de restrição para ataques no mar"
+msgstr "Definir o nível de restrição para ataques marítimos"
 
 #: libs/s25main/addons/AddonShipSpeed.h:17
 msgid "Set ship speed"
@@ -3537,11 +3536,11 @@ msgstr "Colonos"
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Shaka"
-msgstr ""
+msgstr "Shaka"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:220
 msgid "Shared team view"
-msgstr "Dividir visao da equipe"
+msgstr "Visão da equipe compartilhada"
 
 #: libs/s25main/gameData/GoodConsts.cpp:30
 msgid "Shield"
@@ -3557,9 +3556,8 @@ msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also b
 msgstr "Navios só podem ser carregados e descarregados em um porto. Expedições podem também ser preparados no porto. Você pode liberar determinada mercadoria do armazém, como e quando necessário. Alternativamente, a função de armazenamento pode ser desativada. Para fazer isso, primeiro escolha o ícone correspondente seguido pela mercadoria desejada ou símbolo da função."
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:78
-#, fuzzy
 msgid "Ships/Boats"
-msgstr "Barcos"
+msgstr "Navios/barcos"
 
 #: libs/s25main/gameData/JobConsts.cpp:48
 msgid "Shipwright"
@@ -3575,7 +3573,7 @@ msgstr "Curto"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:202
 msgid "Short-run"
-msgstr "Curto Prazo"
+msgstr "Curto prazo"
 
 #: libs/s25main/gameData/GoodConsts.cpp:15
 msgid "Shovel"
@@ -3583,7 +3581,7 @@ msgstr "Pá"
 
 #: libs/s25main/desktops/dskOptions.cpp:319
 msgid "Show GameFrame Info:"
-msgstr "para GameFrame:"
+msgstr "Mostrar GameFrame"
 
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:163
 msgid "Show coordinates"
@@ -3591,7 +3589,7 @@ msgstr "Exibir coordenadas"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:39
 msgid "Singleplayer"
-msgstr "Singleplayer"
+msgstr "Um Jogador"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:79
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:55
@@ -3623,7 +3621,7 @@ msgstr "Ignorando arquivo removido %1% ao checar arquivos para carregamento para
 
 #: libs/s25main/gameData/BuildingConsts.cpp:31
 msgid "Slaughterhouse"
-msgstr "Açougue"
+msgstr "Matadouro"
 
 #: libs/s25main/addons/AddonShipSpeed.h:20
 #: libs/s25main/desktops/dskGameLobby.cpp:269
@@ -3645,7 +3643,7 @@ msgstr "Socks v4"
 
 #: libs/s25main/addons/AddonBattlefieldPromotion.h:17
 msgid "Soldiers winning a fight increase in rank."
-msgstr "Soldados ganhando uma luta aumentam na classificação."
+msgstr "Soldados que vencem uma luta aumentam de posto."
 
 #: libs/s25main/desktops/dskSplash.cpp:81
 msgid ""
@@ -3653,6 +3651,9 @@ msgid ""
 "Please ensure that the Settlers 2 Gold-Edition is installed in\n"
 "%1%"
 msgstr ""
+"Alguns arquivos essenciais do jogo falharam ao carregar.\n"
+"Certifique-se de que Settlers 2 Gold Edition está instalado em\n"
+"%1%"
 
 #: libs/s25main/desktops/dskDirectIP.cpp:45 libs/s25main/desktops/dskLAN.cpp:83
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:122
@@ -3683,7 +3684,7 @@ msgstr "Velocidade:"
 
 #: libs/s25main/GameManager.cpp:168
 msgid "Splash screen couldn't be loaded!"
-msgstr "O arquivo especificado nao pôde ser carregado!"
+msgstr "Tela de abertura não pôde ser carregada!"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:71
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
@@ -3771,11 +3772,11 @@ msgstr "Estilo"
 
 #: libs/s25main/desktops/dskOptions.cpp:308
 msgid "Submit debug data:"
-msgstr "Enviar dados de depuraçao:"
+msgstr "Enviar dados de depuração:"
 
 #: libs/s25main/desktops/dskMainMenu.cpp:66
 msgid "Submit debug data?"
-msgstr "Enviar dados de depuraçao?"
+msgstr "Enviar dados de depuração?"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:193
 msgid "Suggest non-aggression pact"
@@ -3824,11 +3825,11 @@ msgstr "Equipes bloqueadas"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:17
 msgid "Temple"
-msgstr ""
+msgstr "Templo"
 
 #: libs/s25main/gameData/JobConsts.cpp:55
 msgid "Temple Servant"
-msgstr ""
+msgstr "Alquimista"
 
 #: libs/s25main/desktops/dskCredits.cpp:243
 msgid "Thank you for your donations!"
@@ -3840,7 +3841,7 @@ msgstr "Obrigado!"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:174
 msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
-msgstr "Graças à sua força imensa, as catapultas representa uma arma eficaz contra prédios militares inimigos."
+msgstr "Graças à sua força imensa, a catapulta é uma arma eficaz contra prédios militares inimigos."
 
 #: libs/s25main/postSystem/PostMsg.cpp:29
 #, c-format
@@ -3855,7 +3856,7 @@ msgstr "O %s entre o jogador '%s' e você foi concluído."
 #: libs/s25main/desktops/dskGameInterface.cpp:1214
 #: libs/s25main/network/GameClient.cpp:862
 msgid "The Game is not in sync. Checksums of some players don't match."
-msgstr "O jogo nao está sincronizado. Checksums de algum dos jogadores está incorreto."
+msgstr "O jogo não está sincronizado. Checksum de algum(ns) do(s) jogador(es) está incorreto."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:212
 msgid "The armory produces swords and strong shields. This equipment is vital for your soldiers."
@@ -3863,11 +3864,11 @@ msgstr "A fábrica de armas produz espadas e escudos fortes. Esse equipamento é
 
 #: libs/s25main/gameData/BuildingConsts.cpp:75
 msgid "The barracks is a very small hut which can be used by your soldiers as quarters. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
-msgstr "O quartel é uma cabana muito pequena que pode ser usado por seus soldados como base. Usando o botão moeda de ouro que você pode interromper a entrega de moedas de ouro para os soldados parados aqui. No entanto, sem moedas de ouro os soldados aqui não pode treinar e melhorar suas habilidades."
+msgstr "O quartel é uma cabana muito pequena que pode ser usado por seus soldados como base. Usando o botão \"moeda de ouro\"  você pode interromper a entrega de moedas de ouro para os soldados aquartelados aqui. No entanto, sem moedas de ouro os soldados aqui não pode treinar e melhorar suas habilidades."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:207
 msgid "The brewer produces fine beer from grain and water. This drink is needed to fill the soldiers with courage."
-msgstr "A cervejaria produz cerveja com grãos e água. Essa bebiba é necessária para dar coragem aos soldados."
+msgstr "A cervejaria produz cerveja com grãos e água. Essa bebida é necessária para dar coragem aos soldados."
 
 #: libs/s25main/ingameWindows/iwBuildings.cpp:129
 msgid "The building statistics window gives you an insight into the number of buildings you have, by type. The number on the left is the total number of this type of building completed, the number on the right shows how many are currently under construction."
@@ -3875,7 +3876,7 @@ msgstr "A janela de estatísticas de construção dá um perfil no número de co
 
 #: libs/s25main/gameData/BuildingConsts.cpp:199
 msgid "The butcher processes the livestock delivered into nutritious ham on which you miners are fed."
-msgstr "O açougueiro processa o gado entregue em presunto nutritivo com que os mineiros são alimentados."
+msgstr "O abatedouro processa o suíno entregue em carne nutritiva com que os mineiros são alimentados."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:266
 msgid "The carpenter turns the woodcutter's logs into made-to-measure planks. These form the basic for building houses and ships."
@@ -3891,11 +3892,11 @@ msgstr "A carvoaria empilha toras de madeira e palha, que são queimadas para pr
 
 #: libs/s25main/gameData/BuildingConsts.cpp:216
 msgid "The countless tools which your workers need are made in the metalworks. This requires boards and iron."
-msgstr "As inúmeras ferramentas que os seus trabalhadores precisam são feitas na metalúrgica. Isto requer bigornas e ferro."
+msgstr "As inúmeras ferramentas que os seus trabalhadores precisam são feitas na metalúrgica. Isto requer madeira e bigornas."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:132
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
-msgstr "As capacidades defensivas e tamanho da fortaleza sao insuperáveis​​. Esta fortaleza garante que outros edifícios valiosos e commodities estão protegidos. Usando o botao moeda de ouro que você pode interromper a entrega de moedas de ouro para os soldados parados aqui. No entanto, sem moedas de ouro os soldados aqui nao pode treinar e melhorar suas habilidades."
+msgstr "As capacidades defensivas e tamanho da fortaleza são insuperáveis​​. Esta fortaleza garante que outros edifícios valiosos e commodities estão protegidos. Usando o botão \"moeda de ouro\" você pode interromper a entrega de moedas de ouro para os soldados aquartelados . No entanto, sem moedas de ouro os soldados não podem treinar e melhorar suas habilidades."
 
 #: libs/s25main/GamePlayer.cpp:2090
 msgid "The emergency program has been activated."
@@ -3931,11 +3932,11 @@ msgstr "O trigo é moído em moinho de vento. A farinha do moinho de vento é us
 
 #: libs/s25main/gameData/BuildingConsts.cpp:85
 msgid "The guardhouse is a comfortable place for the military which is also protected by solid stone walls. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
-msgstr "A guarita é um lugar confortável para o militar, que também é protegido por paredes de pedra sólida. Usando o botao moeda de ouro que você pode interromper a entrega de moedas de ouro para os soldados parados aqui. No entanto, sem moedas de ouro os soldados aqui nao pode treinar e melhorar suas habilidades."
+msgstr "A casa de guarda é um lugar confortável para o militar, que também é protegido por paredes de pedra sólida. Usando o botão \"moeda de ouro\" você pode interromper a entrega de moedas de ouro para os soldados aquartelados aqui. No entanto, sem moedas de ouro os soldados não podem treinar e melhorar suas habilidades."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:54
 msgid "The headquarters represents the center of your realm. The large amount of storage space available means a great many things can be safely stored here. You can release certain merchandise from the headquarters, as and when required or stop its storage. To do this, first choose the corresponding icon followed by the desired merchandise or job symbol. On the third page, you can adjust the number of reserve soldiers who are responsible for guarding the headquarters. There are two values given: the first value indicates the current number of men, the second value indicates the desired number. "
-msgstr "O Quartel General representa o centro do seu reino. A grande quantidade de espaço de armazenamento disponível significa muitas coisas podem ser armazenados com segurança aqui. Você pode liberar determinada mercadoria a partir do quartel general, como e quando necessário ou parar o seu armazenamento. Para fazer isso, primeiro escolha o ícone correspondente seguido da mercadoria desejada ou símbolo da funçao. Na terceira página, você pode ajustar o número de soldados da reserva, que são responsáveis ​​pela guarda do quartel. Há dois valores: o primeiro valor indica o número atual de homens, o segundo valor indica o número desejado. "
+msgstr "O Quartel-general representa o centro do seu reino. A grande quantidade de espaço de armazenamento disponível significa muitas coisas podem ser armazenados com segurança aqui. Você pode liberar determinada mercadoria a partir do quartel general, como e quando necessário ou parar o seu armazenamento. Para fazer isso, primeiro escolha o ícone correspondente seguido da mercadoria desejada ou símbolo da função. Na terceira página, você pode ajustar o número de soldados da reserva, que são responsáveis ​​pela guarda do quartel. Há dois valores: o primeiro valor indica o número atual de homens, o segundo valor indica o número desejado. "
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:113
 msgid "The merchandise statistics window allows you to check the quantities of your merchandise. By clicking the left mouse button you can switch the display of individual goods on and off. These can displayed over four different time periods. To delete all displays, click on the wastebasket button."
@@ -3943,7 +3944,7 @@ msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:151
 msgid "The mining of coal supports the metalworks and smithy. This hard work requires an adequate supply of food."
-msgstr "A mineração de carvão suporta a metalúrgica e ferraria. Este trabalho requer um fornecimento adequado de alimentos."
+msgstr "A mineração de carvão permite a atividade da metalúrgica e ferraria. Este trabalho requer um fornecimento adequado de alimentos."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:272
 msgid "The mint is responsible for producing valuable gold coins. These precious objects are produced using coal and gold."
@@ -3981,7 +3982,7 @@ msgstr "O jogo selecionado não foi mais encontrado."
 
 #: libs/s25main/desktops/dskOptions.cpp:672
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
-msgstr ""
+msgstr "O driver de vídeo selecionado não suporta dimensionamento da interface gráfica de usuário! A configuração não será utilizada."
 
 #: libs/s25main/ingameWindows/iwShip.cpp:131
 msgid "The ship register contains all the ships in your fleet. Here you can monitor the loading and destinations of individual ships. Ships on an expedition are controlled from here as well."
@@ -4020,11 +4021,11 @@ msgstr "A prioridade de transporte de um tipo de mercadoria pode ser determinada
 
 #: libs/s25main/gameData/BuildingConsts.cpp:98
 msgid "The watchtower with its large amount of space is best suited for stationing a large number of your troops. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
-msgstr "A torre de vigia com sua grande quantidade de espaço é mais adequado para guardar um grande número de suas tropas. Usando o botao moeda de ouro que você pode interromper a entrega de moedas de ouro para os soldados parados aqui. No entanto, sem moedas de ouro os soldados aqui não pode treinar e melhorar suas habilidades."
+msgstr "A torre de vigia com sua grande quantidade de espaço é mais adequado para guardar um grande número de suas tropas. Usando o botão \"moeda de ouro\" que você pode interromper a entrega de moedas de ouro para os soldados aquartelados aqui. No entanto, sem moedas de ouro os soldados não podem treinar e melhorar suas habilidades."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:109
 msgid "The winegrower plants and harvests grapes in the surrounding fields. A vineyard requires a steady supply of sturdy logs for trellises and fresh water to irrigate the fields. Ripe grapes are sent to the winery to be pressed into wine."
-msgstr ""
+msgstr "O viticultor planta e colhe uvas nos campos circundantes. Um vinhedo requer um suprimento de toras para treliças e água fresca para irrigação. Uvas maduras são enviadas para a vinícola para produção de vinho."
 
 #: libs/s25main/ingameWindows/iwVictory.cpp:27
 msgid "The winner:"
@@ -4048,7 +4049,7 @@ msgstr "Esse Servidor está cheio!"
 
 #: libs/s25main/figures/nofAttacker.cpp:223
 msgid "This harbor building was destroyed"
-msgstr "O porto foi destruído"
+msgstr "Este porto foi destruído"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:126
 msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
@@ -4081,7 +4082,7 @@ msgstr "Tempo restante:"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:73
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:224
 msgid "To player:"
@@ -4093,15 +4094,15 @@ msgstr "Para registrar, você precisar criar uma conta em http://forum.siedler25
 
 #: libs/s25main/gameData/PortraitConsts.h:28
 msgid "Todo"
-msgstr ""
+msgstr "Todo"
 
 #: libs/s25main/gameData/GoodConsts.cpp:10
 msgid "Tongs"
-msgstr "Pinça"
+msgstr "Tenaz"
 
 #: libs/s25main/addons/AddonToolOrdering.h:13
 msgid "Tool ordering"
-msgstr "Ordenamento de ferramentas"
+msgstr "Encomendamento de ferramentas"
 
 #: libs/s25main/ingameWindows/iwMainMenu.cpp:45
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:70
@@ -4121,7 +4122,7 @@ msgstr "Parte superior"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:254
 msgid "Total domination"
-msgstr "Dominaçao Total"
+msgstr "Dominação total"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:409
 msgid "Tournament finished"
@@ -4140,7 +4141,7 @@ msgstr "Trocar"
 #: libs/s25main/figures/nofTradeLeader.cpp:62
 #, c-format
 msgid "Trade caravan with %s %s arrives from player '%s'."
-msgstr "A caravana de trada com %s %s chegou do jogador '%s'."
+msgstr "A caravana de troca com %s %s chegou do jogador '%s'."
 
 #: libs/s25main/ingameWindows/iwTrade.cpp:32
 #, c-format
@@ -4163,7 +4164,7 @@ msgstr "Tratado de aliança"
 
 #: libs/s25main/gameData/JobConsts.cpp:22
 msgid "Tree planter"
-msgstr "Guarda-Florestal"
+msgstr "Reflorestador"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:109
 msgid "Trees:"
@@ -4171,11 +4172,11 @@ msgstr "Árvores"
 
 #: libs/s25main/desktops/dskGameLoader.cpp:89
 msgid "Tribal chiefs assembled around the table..."
-msgstr "Os chefes tribais se reúnem envolta da mesa..."
+msgstr "Os chefes tribais se reúnem em volta da mesa..."
 
 #: libs/s25main/gameData/PortraitConsts.h:26
 msgid "Tsunami"
-msgstr ""
+msgstr "Tsunami"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:78
 msgid "Type"
@@ -4270,7 +4271,7 @@ msgstr "usar IPv6:"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:51
 msgid "Use S2 Defaults"
-msgstr "Usar padrões S2"
+msgstr "Usar padrões do Settlers 2"
 
 #: libs/s25main/desktops/dskOptions.cpp:253
 msgid "Use UPnP"
@@ -4292,7 +4293,7 @@ msgstr "Verificando informações do servidor..."
 #: libs/s25main/desktops/dskLAN.cpp:49 libs/s25main/desktops/dskLobby.cpp:56
 #: libs/s25main/desktops/dskLobby.cpp:59
 msgid "Version"
-msgstr "Versao"
+msgstr "Versão"
 
 #: libs/s25main/network/GameClient.cpp:713
 msgid "Version mismatch. Server version: %1%, your version %2%"
@@ -4321,7 +4322,7 @@ msgstr "Muito rápido"
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:35
 msgid "Very long"
-msgstr "Muito long"
+msgstr "Muito longo"
 
 #: libs/s25main/addons/AddonShipSpeed.h:19
 #: libs/s25main/desktops/dskGameLobby.cpp:268
@@ -4334,7 +4335,7 @@ msgstr "O arquivo especificado nao pôde ser carregado!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:227
 msgid "View Settings..."
-msgstr "Ver opçoes..."
+msgstr "Ver opções..."
 
 #: libs/s25main/gameData/NationConsts.h:13
 msgid "Vikings"
@@ -4342,11 +4343,11 @@ msgstr "Vikings"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:15
 msgid "Vineyard"
-msgstr ""
+msgstr "Vinhedo"
 
 #: libs/s25main/gameData/JobConsts.cpp:54
 msgid "Vintner"
-msgstr ""
+msgstr "Vinicultor"
 
 #: libs/s25main/Loader.cpp:301
 msgid ""
@@ -4367,7 +4368,7 @@ msgstr "Esperando por Informação do jogador..."
 #: libs/s25main/ingameWindows/iwConnecting.cpp:73
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:232
 msgid "Waiting for Reply..."
-msgstr "Esperando por Resposta..."
+msgstr "Esperando por resposta..."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
@@ -4400,7 +4401,7 @@ msgstr "Água"
 
 #: libs/s25main/figures/nofAttacker.cpp:465
 msgid "We are under attack!"
-msgstr "Nós estamos sobre ataque!"
+msgstr "Nós estamos sob ataque!"
 
 #: libs/s25main/desktops/dskCredits.cpp:268
 msgid "We hope you enjoy playing Return To The Roots!"
@@ -4449,19 +4450,19 @@ msgstr "Janela"
 
 #: libs/s25main/gameData/GoodConsts.cpp:45
 msgid "Wine"
-msgstr ""
+msgstr "Vinho"
 
 #: libs/s25main/gameData/JobConsts.cpp:53
 msgid "Winegrower"
-msgstr ""
+msgstr "Viticultor"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:16
 msgid "Winery"
-msgstr ""
+msgstr "Vinícola"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:194
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
-msgstr "Dentro de sua área, o engenheiro florestal garante a sobrevivência da floresta. Ele planta de todos os tipos de árvores."
+msgstr "Dentro de sua área, o reflorestador garante a sobrevivência da floresta. Ele planta de todos os tipos de árvores."
 
 #: libs/s25main/gameData/GoodConsts.cpp:31
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:46
@@ -4506,7 +4507,7 @@ msgstr "Versão incorreta do script Lua."
 
 #: libs/s25main/gameData/PortraitConsts.h:25
 msgid "Yamauchi"
-msgstr ""
+msgstr "Yamauchi"
 
 #: libs/s25main/ingameWindows/iwDemolishBuilding.cpp:23
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:76
@@ -4536,7 +4537,9 @@ msgstr ""
 msgid ""
 "You can't create a game while a proxy server is active\n"
 "Disable the use of a proxy server first!"
-msgstr "Você nao pode criar um jogo com o Proxy servidor ativado"
+msgstr ""
+"Você nao pode criar um jogo com o Proxy servidor ativado\n"
+"Primeiro desative o proxy"
 
 #: libs/s25main/desktops/dskLAN.cpp:164 libs/s25main/desktops/dskLobby.cpp:239
 msgid "You can't join that game with your version!"
@@ -4554,7 +4557,7 @@ msgid ""
 "Choosing Yes will activate peaceful mode, ban catapults and disable buildings receiving coins by default. After clicking Yes you will be able to review the changes and then start the game by clicking the Start game button again.\n"
 "Choosing No will start the game without any changes."
 msgstr ""
-"Você escolhei o modo de economia. Nesse modo o jogador ou time que coletar a maior quantidade de certos produtos (olhe a tela de progresso da economia durante o jogo)\n"
+"Você escolheu o modo de economia. Nesse modo vence o jogador ou time que coletar a maior quantidade de certos produtos (olhe a tela de progresso da economia durante o jogo)\n"
 "\n"
 "Alguns jogadores preferem jogar essa forma de jogo no modo pacífico. Você gostaria de ajustar configurações para um jogo no modo pacífico?\n"
 "Escolher \"Sim\" vai ativar o modo pacífico, remover catapultas e desabilitar o recebimento de moedas em construções militares por padrão. Depois de clicar \"Sim\", você poderá revisar as mudanças e começar o jogo clicando novamente no botão \"Iniciar jogo\".\n"
@@ -4568,15 +4571,15 @@ msgstr "Você tem %u segundos até que o jogo inicie"
 #: libs/s25main/desktops/dskOptions.cpp:684
 #: libs/s25main/ingameWindows/iwSettings.cpp:113
 msgid "You need to restart your game to change the screen resolution!"
-msgstr "Você precisa reiniciar seu jogo para mudar a resoluçao da tela!"
+msgstr "Você precisa reiniciar seu jogo para mudar a resolução da tela!"
 
 #: libs/s25main/desktops/dskOptions.cpp:692
 msgid "You need to restart your game to change the video or audio driver!"
-msgstr "Você precisa reiniciar seu jogo para mudar o driver de audio ou video!"
+msgstr "Você precisa reiniciar seu jogo para mudar o driver de áudio ou vídeo!"
 
 #: libs/s25main/ai/aijh/AIPlayerJH.cpp:395
 msgid "You win"
-msgstr "Você Venceu"
+msgstr "Você venceu"
 
 #: libs/s25main/GamePlayer.cpp:1666
 msgid "Your ally wishes to notify you of this location"
@@ -4595,7 +4598,6 @@ msgid "all developers who contributed via Github"
 msgstr "Todos os desenvolvedores que contribuíram pelo GitHub"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:57
-#, fuzzy
 msgid "by GameFrames:"
 msgstr "para GameFrame:"
 
@@ -4615,7 +4617,7 @@ msgstr "Feito em %ums\n"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "easy"
-msgstr ""
+msgstr "fácil"
 
 #: libs/s25main/Loader.cpp:273 libs/s25main/resources/ArchiveLoader.cpp:122
 msgid "failed: %1%\n"
@@ -4627,7 +4629,7 @@ msgstr "Groenlândia"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "hard"
-msgstr ""
+msgstr "difícil"
 
 #: libs/s25main/GameManager.cpp:142
 msgid "jump to gf %1% complete\n"
@@ -4650,7 +4652,7 @@ msgstr "Indo ao GF %i, agora no GF %i, tempo para últimos 5.000 GF: %.3f s, tem
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:30
 msgid "medium"
-msgstr ""
+msgstr "médio"
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:48
 msgid "to GameFrame:"
@@ -4667,42 +4669,3 @@ msgstr "Deserto"
 #: data/RTTR/gamedata/world/winterworld.lua:8
 msgid "winterworld"
 msgstr "Mundo do inverno"
-
-#~ msgid "Greenland"
-#~ msgstr "Groenlândia"
-
-#~ msgid "Internet Ranking"
-#~ msgstr "Internet Ranking"
-
-#~ msgid "Keyboard layout:"
-#~ msgstr "Layout do teclado:"
-
-#~ msgid "Lost"
-#~ msgstr "Perdido"
-
-#~ msgid "Not available"
-#~ msgstr "Nao disponivel"
-
-#~ msgid "Please use 'Unlimited Play' to create a Singleplayer game."
-#~ msgstr "Por favor use 'Jogo Ilimitado' para criar um jogo Singleplayer."
-
-#~ msgid "Points"
-#~ msgstr "Pontos"
-
-#~ msgid "Registration successful!"
-#~ msgstr "Registrado com sucesso!"
-
-#~ msgid "Start GF"
-#~ msgstr "Iniciar GF"
-
-#~ msgid "Too short Message received!"
-#~ msgstr "Mensagem muito curta recebida!"
-
-#~ msgid "Won"
-#~ msgstr "Venceu"
-
-#~ msgid "of"
-#~ msgstr "de"
-
-#~ msgid "unlimited"
-#~ msgstr "Ilimitado"
