@@ -81,4 +81,4 @@ jobs:
         if: ${{ github.ref_name == 'master' }}
         run: |
           echo "Verifying branch head on Launchpad..."
-          brz log -1 lp:~s25rttrteam/s25rttr/s25rttr-languages
+          brz log -r-1 lp:~s25rttrteam/s25rttr/s25rttr-languages
