@@ -64,6 +64,7 @@ jobs:
       - name: Synchronize bazaar and git
         if: ${{ github.ref_name == 'master' }}
         run: |
+          set -o pipefail
           brz init-repo bzr-repo
           (cd "$GITHUB_WORKSPACE" && git fast-export -M --all) | (cd bzr-repo && brz fast-import -)
 
@@ -75,3 +76,9 @@ jobs:
         if: ${{ github.ref_name == 'master' }}
         working-directory: bzr-repo/trunk
         run: brz push --overwrite lp:~s25rttrteam/s25rttr/s25rttr-languages
+
+      - name: Verify push to launchpad
+        if: ${{ github.ref_name == 'master' }}
+        run: |
+          echo "Verifying branch head on Launchpad..."
+          brz log -r-1 lp:~s25rttrteam/s25rttr/s25rttr-languages
