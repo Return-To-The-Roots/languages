@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-08 14:58+0200\n"
-"PO-Revision-Date: 2026-06-27 17:19+0000\n"
+"PO-Revision-Date: 2026-10-10 12:33+0200\n"
 "Last-Translator: Gabe Stylez <zorg@atw.hu>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-09-30 14:16+0000\n"
-"X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
+"X-Launchpad-Export-Date: 2020-12-21 13:16+0000\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ../../src\n"
 
@@ -114,7 +114,7 @@ msgstr "%u/%u"
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:54
 msgid "'s Game"
-msgstr "játéka"
+msgstr " játéka"
 
 #: libs/s25main/world/GameWorldView.cpp:454
 #, c-format
@@ -156,7 +156,7 @@ msgstr "+1000%"
 #: libs/s25main/addons/AddonStonemasonReachRadius.h:32
 #: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
 msgid "+150%"
-msgstr ""
+msgstr "+150%"
 
 #: libs/s25main/addons/AddonForesterReachRadius.h:25
 #: libs/s25main/addons/AddonMoreAnimals.h:23
@@ -167,12 +167,12 @@ msgstr "+200%"
 
 #: libs/s25main/addons/AddonStonemasonReachRadius.h:28
 msgid "+25%"
-msgstr ""
+msgstr "+25%"
 
 #: libs/s25main/addons/AddonForesterReachRadius.h:25
 #: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
 msgid "+33%"
-msgstr ""
+msgstr "+33%"
 
 #: libs/s25main/addons/AddonBurnDuration.h:24
 #: libs/s25main/addons/AddonMoreAnimals.h:21
@@ -187,11 +187,11 @@ msgstr "+500%"
 #: libs/s25main/addons/AddonForesterReachRadius.h:25
 #: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
 msgid "+66%"
-msgstr ""
+msgstr "+66%"
 
 #: libs/s25main/addons/AddonStonemasonReachRadius.h:30
 msgid "+75%"
-msgstr ""
+msgstr "+75%"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:345
 #: libs/s25main/desktops/dskGameLobby.cpp:497
@@ -307,7 +307,7 @@ msgstr "Egy új hajó készen áll"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:264
 msgid "A preset named '%1%' already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "A(z) '%1%' nevű beállítás már létezik. Felülírod?"
 
 #: libs/s25main/nodeObjs/noShip.cpp:374
 msgid "A ship disovered an enemy territory"
@@ -439,9 +439,8 @@ msgstr ""
 "Teljes: Lehetővé teszi a játékosok számára, hogy minden katonai épületben szabályozzák, hogy az egyes rangokból hány katona állomásozzon ott."
 
 #: libs/s25main/addons/AddonForesterReachRadius.h:23
-#, fuzzy
 msgid "Adjust forester's range"
-msgstr "Nincs több kő az épület hatókörében"
+msgstr "Erdész hatókörének beállítása"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
@@ -449,7 +448,7 @@ msgstr "Hadsereg erejének beállítása"
 
 #: libs/s25main/addons/AddonStonemasonReachRadius.h:24
 msgid "Adjust stonemason's range"
-msgstr ""
+msgstr "Kőfaragó hatókörének beállítása"
 
 #: libs/s25main/addons/AddonMoreAnimals.h:18
 msgid "Adjust the fraction of trees that spawn animals."
@@ -461,7 +460,7 @@ msgstr "Annak beállítása, hogy mennyi idő elteltével ellenőrizze a játék
 
 #: libs/s25main/addons/AddonWoodcutterReachRadius.h:23
 msgid "Adjust woodcutter's range"
-msgstr ""
+msgstr "Favágó munkaterületének beállítása"
 
 #: libs/s25main/addons/AddonBurnDuration.h:17
 msgid "Adjusts how long a building will burn for when it is destroyed"
@@ -506,9 +505,8 @@ msgid "Allows to build the charburner."
 msgstr "Engedélyezi a szénégető építését."
 
 #: libs/s25main/addons/AddonLeather.h:18
-#, fuzzy
 msgid "Allows to build the leather economy buildings."
-msgstr "Engedélyezi a borágazati épületek építését."
+msgstr "Engedélyezi a bőripari épületek építését."
 
 #: libs/s25main/addons/AddonWine.h:18
 msgid "Allows to build the wine economy buildings."
@@ -554,28 +552,24 @@ msgid "Are you sure to remove all replays?"
 msgstr "Biztosan törölni szeretnéd az összes visszajátszást?"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
-#, fuzzy
 msgid "Are you sure you want to delete preset '%1%'?"
-msgstr "Biztosan törölni szeretnéd a kiválasztott visszajátszást?"
+msgstr "Biztosan törölni szeretnéd a(z) '%1%' beállítást?"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:153
 msgid "Are you sure you want to remove the selected replay?"
 msgstr "Biztosan törölni szeretnéd a kiválasztott visszajátszást?"
 
 #: libs/s25main/gameData/GoodConsts.cpp:48
-#, fuzzy
 msgid "Armor"
-msgstr "Fegyverkovács műhely"
+msgstr "Páncél"
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:88
-#, fuzzy
 msgid "Armor delivery"
-msgstr "Aranyszállítás"
+msgstr "Páncélszállítás"
 
 #: libs/s25main/addons/AddonArmorCapturedBld.h:17
-#, fuzzy
 msgid "Armor on captured buildings"
-msgstr "Érmeszállítás elfoglalt épületekbe"
+msgstr "Páncélszállítás elfoglalt épületekbe"
 
 #: libs/s25main/gameData/JobConsts.cpp:37
 msgid "Armorer"
@@ -648,7 +642,7 @@ msgstr "Támadás!"
 
 #: libs/s25main/GameManager.cpp:63
 msgid "Audio driver couldn't be loaded!"
-msgstr "A kiválasztott fájlt nem lehet betölteni!"
+msgstr "Nem sikerült betölteni a hangkártya-illesztőprogramot!"
 
 #: libs/s25main/desktops/dskCampaignSelection.cpp:75
 #: libs/s25main/desktops/dskSelectMap.cpp:76
@@ -766,9 +760,8 @@ msgstr "Határterületek"
 
 #: libs/s25main/desktops/dskOptions.cpp:340
 #: libs/s25main/ingameWindows/iwSettings.cpp:62
-#, fuzzy
 msgid "Borderless window"
-msgstr "Ablak átméretezése"
+msgstr "Keret nélküli ablak"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
 #: libs/s25main/ingameWindows/iwTransport.cpp:58
@@ -917,9 +910,8 @@ msgid "Change metalworks behavior on zero"
 msgstr "Fémműves műhely viselkedése nullára állítva"
 
 #: libs/s25main/addons/AddonArmorCapturedBld.h:18
-#, fuzzy
 msgid "Change the armor setting for captured military buildings."
-msgstr "Az elfoglalt katonai épületek érmeszállítási beállításainak módosítása."
+msgstr "Az elfoglalt katonai épületek páncélszállítási beállításainak módosítása."
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:18
 msgid "Change the coin setting for captured military buildings."
@@ -999,7 +991,7 @@ msgstr "Bárd"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:79
 msgid "Close"
-msgstr "Lezárt"
+msgstr "Közeli"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:60
 #: libs/s25main/ingameWindows/iwSettings.cpp:117
@@ -1008,7 +1000,7 @@ msgstr "Bezárás mentés nélkül"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:424
 msgid "Closed"
-msgstr "Zárt"
+msgstr "Zárolt"
 
 #: libs/s25main/gameData/GoodConsts.cpp:40
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:58
@@ -1093,7 +1085,7 @@ msgstr "Kapcsolódás"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:27
 msgid "Connecting"
-msgstr "Kapcsolódás"
+msgstr "Kapcsolódás folyamatban"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:49
 msgid "Connecting to Lobby"
@@ -1244,14 +1236,12 @@ msgid "Default search range (1x)"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:106
-#, fuzzy
 msgid "Delete"
-msgstr "Összes törlése"
+msgstr "Törlés"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
-#, fuzzy
 msgid "Delete Failed"
-msgstr "Összes törlése"
+msgstr "Sikertelen törlés"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:133
 #, c-format
@@ -1259,9 +1249,8 @@ msgid "Delete Invalid (%u)"
 msgstr "Érvénytelen törlése (%u)"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
-#, fuzzy
 msgid "Delete Preset"
-msgstr "Kiválasztott törlése"
+msgstr "Mentett beállítás törlése"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:81
 msgid "Delete all"
@@ -1340,9 +1329,8 @@ msgid "Disable Demolition of military buildings"
 msgstr "Katonai épületek lerombolásának tiltása"
 
 #: libs/s25main/addons/AddonNoArmorDefault.h:17
-#, fuzzy
 msgid "Disable armor by default"
-msgstr "Érmeszállítás alapértelmezett letiltása"
+msgstr "Páncélszállítás alapértelmezett letiltása"
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:17
 msgid "Disable coins by default"
@@ -1359,7 +1347,7 @@ msgstr "Letiltva"
 
 #: libs/s25main/network/GameClient.cpp:1883
 msgid "Disabled AI for current player"
-msgstr ""
+msgstr "AI letiltva a jelenlegi játékos számára"
 
 #: libs/s25main/addons/AddonDefenderBehavior.h:25
 msgid "Disallow change"
@@ -1460,7 +1448,7 @@ msgstr "Gazdasági mód: Játék hossza"
 #: libs/s25main/desktops/dskGameLobby.cpp:255
 #: libs/s25main/desktops/dskGameLobby.cpp:1151
 msgid "Economy mode"
-msgstr "Gazdaság"
+msgstr "Gazdasági mód"
 
 #: libs/s25main/desktops/dskOptions.cpp:392
 msgid "Effects"
@@ -1488,9 +1476,8 @@ msgid "Enable charburner"
 msgstr "Szénégető engedélyezése"
 
 #: libs/s25main/addons/AddonLeather.h:17
-#, fuzzy
 msgid "Enable leather economy"
-msgstr "Borágazat engedélyezése"
+msgstr "Bőripar engedélyezése"
 
 #: libs/s25main/addons/AddonWine.h:17
 msgid "Enable wine economy"
@@ -1498,7 +1485,7 @@ msgstr "Borágazat engedélyezése"
 
 #: libs/s25main/network/GameClient.cpp:1887
 msgid "Enabled AI for current player"
-msgstr ""
+msgstr "AI engedélyezve a jelenlegi játékos számára"
 
 #: libs/s25main/addons/AddonAsyncDebug.h:17
 msgid "Enables extra stuff to debug asyncs. Do not enable unless you know what you are doing!"
@@ -1631,7 +1618,7 @@ msgstr "Eseményszám eltérés. Beolvasott események: %1%. Várt: %2%.\n"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:160
 msgid "Every GF"
-msgstr "Mindenki"
+msgstr "Összes GF"
 
 #: libs/s25main/addons/AddonStatisticsVisibility.h:22
 msgid "Everyone"
@@ -1663,7 +1650,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
 msgid "Failed to delete the selected preset."
-msgstr ""
+msgstr "Nem sikerült törölni a kiválasztott beállítást."
 
 #: libs/s25main/desktops/dskSelectMap.cpp:407
 msgid ""
@@ -1741,11 +1728,11 @@ msgstr "Lua állapot mentése sikertelen!"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:291
 msgid "Failed to save the preset. Check application logs for details."
-msgstr ""
+msgstr "Nem sikerült menteni a beállítást. Ellenőrizd a fájlnevet, majd próbáld újra."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:81
 msgid "Far"
-msgstr "Tanya"
+msgstr "Távoli"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:47
 msgid "Farm"
@@ -1849,7 +1836,7 @@ msgstr "Erdészlak"
 
 #: libs/s25main/addons/AddonForesterFarmFieldAvoidance.h:15
 msgid "Foresters avoid farm field spots"
-msgstr ""
+msgstr "Az erdészek kerüljék a farmok termőföldjeit"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:19
 msgid "Fortress"
@@ -1911,7 +1898,7 @@ msgstr "Játékchat"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:55
 msgid "Game Time"
-msgstr "Játék menü"
+msgstr "Játékidő"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:820
 msgid "Game can only be started as soon as everybody has a unique color,everyone is ready and all free slots are closed."
@@ -2041,7 +2028,7 @@ msgstr "Kezdőkészletek:"
 #: libs/s25main/desktops/dskOptions.cpp:300
 #: libs/s25main/ingameWindows/iwSettings.cpp:103
 msgid "Grab and drag (Map moves with your cursor when scrolling/panning.)"
-msgstr "Fogd meg és húzd (a térkép követi a kurzort görgetéskor/mozgatáskor)"
+msgstr "Fogd meg és húzd (A térkép a kurzorral együtt mozog görgetés/mozgatás során.)"
 
 #: libs/s25main/gameData/GoodConsts.cpp:36
 msgid "Grain"
@@ -2200,15 +2187,15 @@ msgstr "Geológus táblák tartósságának növelése egy adott szorzóval."
 
 #: libs/s25main/addons/AddonForesterReachRadius.h:24
 msgid "Increase the radius in which the forester plants trees."
-msgstr ""
+msgstr "Az erdész faültetési hatókörének növelése."
 
 #: libs/s25main/addons/AddonStonemasonReachRadius.h:25
 msgid "Increase the radius in which the stonemason searches for stone."
-msgstr ""
+msgstr "A kőfaragó kőkeresési hatókörének növelése."
 
 #: libs/s25main/addons/AddonWoodcutterReachRadius.h:24
 msgid "Increase the radius in which the woodcutter searches for trees."
-msgstr ""
+msgstr "A favágó fakeresési hatókörének növelése."
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
 #: libs/s25main/addons/AddonMineResourceBehavior.h:18
@@ -2258,15 +2245,13 @@ msgstr "Érvénytelen API verzió!"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:128
 #: libs/s25main/ingameWindows/iwSave.cpp:132
-#, fuzzy
 msgid "Invalid Filename"
-msgstr "Fájlnév"
+msgstr "Érvénytelen fájlnév"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:249
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:253
-#, fuzzy
 msgid "Invalid Name"
-msgstr "Érvénytelen visszajátszás!"
+msgstr "Érvénytelen név"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
 #: libs/s25main/network/GameClient.cpp:1490
@@ -2303,7 +2288,7 @@ msgstr "Érvénytelen maximális emberi játékosszám: %1%"
 
 #: libs/libGamedata/gameData/CampaignDescription.cpp:34
 msgid "Invalid path '%1%': Must be alpha-numeric"
-msgstr ""
+msgstr "Érvénytelen útvonal - '%1%': csak betűket és számokat tartalmazhat"
 
 #: libs/s25main/desktops/dskOptions.cpp:664
 #: libs/s25main/ingameWindows/iwDirectIPConnect.cpp:100
@@ -2346,7 +2331,7 @@ msgstr "Vasérc"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:85
 msgid "Islands"
-msgstr "Sivatag"
+msgstr "Szigetek"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:293
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
@@ -2404,23 +2389,20 @@ msgid "Language:"
 msgstr "Nyelv:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:47
-#, fuzzy
 msgid "Leather"
-msgstr "Egyéb"
+msgstr "Bőr"
 
 #: libs/s25main/gameData/JobConsts.cpp:58
-#, fuzzy
 msgid "Leatherworker"
-msgstr "Fémműves"
+msgstr "Bőrműves"
 
 #: libs/s25main/ingameWindows/iwTransport.cpp:71
 msgid "Leatherworking"
-msgstr ""
+msgstr "Bőr"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:25
-#, fuzzy
 msgid "Leatherworks"
-msgstr "Fémműves műhely"
+msgstr "Bőrműves műhely"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:54
 msgid "Length"
@@ -2498,9 +2480,8 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:312
 #: libs/s25main/ingameWindows/iwAddons.cpp:51
-#, fuzzy
 msgid "Load"
-msgstr "Játék betöltése"
+msgstr "Betöltés"
 
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
 msgid "Load 'ReadMe' file"
@@ -2509,12 +2490,11 @@ msgstr "'OlvassEl' fájl betöltése"
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:312
 #: libs/s25main/ingameWindows/iwAddons.cpp:52
 msgid "Load Addon Preset"
-msgstr ""
+msgstr "Kiegészítő-beállítás betöltése"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:325
-#, fuzzy
 msgid "Load Failed"
-msgstr "Játék betöltése"
+msgstr "Sikertelen betöltés"
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:41
 msgid "Load game"
@@ -2577,7 +2557,7 @@ msgstr "Csapatok zárolása:"
 #: libs/s25main/desktops/dskOptions.cpp:353
 #: libs/s25main/ingameWindows/iwSettings.cpp:77
 msgid "Lock window size:"
-msgstr ""
+msgstr "Ablakméret zárolása:"
 
 #: libs/s25main/addons/AddonBool.cpp:31 libs/s25main/addons/AddonList.cpp:43
 msgid "Locked"
@@ -2705,7 +2685,7 @@ msgstr "A térkép érvénytelen, vagy nem sikerült megfelelően betölteni!"
 #: libs/s25main/desktops/dskOptions.cpp:294
 #: libs/s25main/ingameWindows/iwSettings.cpp:96
 msgid "Map scroll mode:"
-msgstr ""
+msgstr "Térkép görgetési mód:"
 
 #: libs/s25main/network/ClientError.cpp:17
 msgid "Map transmission was corrupt!"
@@ -2752,7 +2732,7 @@ msgstr "A vadász által szerzett hús a bányászok etetésére szolgál."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:89
 msgid "Medium"
-msgstr "Középtávú"
+msgstr "Átlagos"
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:33
 msgid "Medium strength"
@@ -2949,7 +2929,7 @@ msgstr "Játékbeli név:"
 
 #: libs/s25main/addons/AddonCatapultGraphics.h:19
 msgid "Nation-specific catapult graphics"
-msgstr "Rassz specifikus katapult grafikák"
+msgstr "Nemzet-specifikus katapultgrafikák"
 
 #: libs/s25main/ingameWindows/iwMilitary.cpp:61
 msgid "Near harbor points"
@@ -3009,7 +2989,7 @@ msgstr "Nincsenek levelek!"
 
 #: libs/s25main/buildings/nobUsual.cpp:553
 msgid "No more fish in range"
-msgstr "Nincs több hal"
+msgstr "Nincs több hal az épület hatókörében"
 
 #: libs/s25main/buildings/nobUsual.cpp:551
 msgid "No more stones in range"
@@ -3094,7 +3074,7 @@ msgstr "Támadók száma"
 
 #: libs/s25main/SavedFile.cpp:153
 msgid "Number of players (%1%) exceeds maximum allowed of %2%!"
-msgstr ""
+msgstr "A játékosok száma (%1%) meghaladja a megengedett maximumot (%2%)!"
 
 #: libs/s25main/addons/AddonNumScoutsExploration.h:18
 msgid "Number of scouts required for exploration expedition"
@@ -3199,11 +3179,11 @@ msgstr "Kimenő ásvány"
 
 #: libs/s25main/resources/ArchiveLoader.cpp:183
 msgid "Overlay override idx %1% is invalid: Overlay %2% does not exist!\n"
-msgstr ""
+msgstr "Az overlay %1% felülírási indexe érvénytelen: a(z) %2% overlay nem létezik!\n"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:263
 msgid "Overwrite Preset"
-msgstr ""
+msgstr "Beállítás felülírása"
 
 #: libs/s25main/desktops/dskSelectMap.cpp:106
 msgid "Own maps"
@@ -3325,7 +3305,7 @@ msgstr "Lejátszási lista:"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:128
 msgid "Please enter a filename."
-msgstr ""
+msgstr "Add meg a fájl nevét."
 
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:129
 msgid "Please enter a name for the game"
@@ -3333,15 +3313,15 @@ msgstr "Add meg a játék nevét"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:249
 msgid "Please enter a preset name."
-msgstr ""
+msgstr "Add meg a beállítás nevét."
 
 #: libs/s25main/ingameWindows/iwSave.cpp:132
 msgid "Please enter a valid filename."
-msgstr ""
+msgstr "Adj meg érvényes fájlnevet."
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:253
 msgid "Please enter a valid preset name."
-msgstr ""
+msgstr "Adj meg érvényes beállításnevet."
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:33
 #: libs/s25main/ingameWindows/iwPleaseWait.cpp:18
@@ -3359,13 +3339,12 @@ msgid "Post office"
 msgstr "Posta"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:95
-#, fuzzy
 msgid "Preset Name"
-msgstr "Játékosnév"
+msgstr "Mentett beállítás neve"
 
 #: libs/s25main/addons/AddonForesterFarmFieldAvoidance.h:16
 msgid "Prevents foresters from planting trees on spots that own farms could use for new fields."
-msgstr ""
+msgstr "Megakadályozza, hogy az erdészek olyan helyekre ültessenek fákat, amelyeket a saját farmjaid új termőföldek kialakítására használhatnának."
 
 #: libs/s25main/gameData/JobConsts.cpp:40
 msgid "Private"
@@ -3529,12 +3508,11 @@ msgstr "Aszinkron naplók érkeztek innen: %1% (%2% bejegyzés).\n"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:78
 msgid "Receiving Map..."
-msgstr "Térképellenörzés..."
+msgstr "Térkép fogadása..."
 
 #: libs/s25main/addons/AddonNoArmorDefault.h:18
-#, fuzzy
 msgid "Receiving armor is disabled for military buildings by default."
-msgstr "Az érmék fogadásának alapértelmezés szerinti letiltása a katonai épületekben."
+msgstr "Az páncélok fogadásának alapértelmezés szerinti letiltása a katonai épületekben."
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:18
 msgid "Receiving coins is disabled for military buildings by default."
@@ -3695,19 +3673,17 @@ msgstr "RENDSZER"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:49
-#, fuzzy
 msgid "Save"
-msgstr "Automatikus mentés"
+msgstr "Mentés"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:50
 msgid "Save Addon Preset"
-msgstr ""
+msgstr "Kiegészítő-beállítás mentése"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:290
-#, fuzzy
 msgid "Save Failed"
-msgstr "Játék mentése!"
+msgstr "Sikertelen mentés"
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:72
 msgid "Save Password?"
@@ -3749,12 +3725,12 @@ msgstr "A képernyőkép elmentve ide: %1%\n"
 #: libs/s25main/desktops/dskOptions.cpp:299
 #: libs/s25main/ingameWindows/iwSettings.cpp:102
 msgid "Scroll opposite (Map moves in the opposite direction the mouse is moved when scrolling/panning.)"
-msgstr "Fordított irányú görgetés (A térkép az egérmozgással ellentétes irányba mozdul el görgetés/mozgatás közben.)"
+msgstr "Ellentétes irányú (A térkép az egérrel ellentétes irányba mozog görgetés/mozgatás során.)"
 
 #: libs/s25main/desktops/dskOptions.cpp:297
 #: libs/s25main/ingameWindows/iwSettings.cpp:100
 msgid "Scroll same (Map moves in the same direction the mouse is moved when scrolling/panning.)"
-msgstr "Azonos irányú görgetés (a térkép az egérrel azonos irányba mozog görgetéskor/mozgatáskor)."
+msgstr "Azonos irányú (A térkép az egérrel azonos irányba mozog görgetés/mozgatás során.)"
 
 #: libs/s25main/gameData/GoodConsts.cpp:18
 msgid "Scythe"
@@ -3942,15 +3918,15 @@ msgstr "Ország mérete"
 #: libs/s25main/gameData/BuildingConsts.cpp:13
 #: libs/s25main/gameData/JobConsts.cpp:56
 msgid "Skinner"
-msgstr ""
+msgstr "Nyúzó"
 
 #: libs/s25main/gameData/GoodConsts.cpp:46
 msgid "Skins"
-msgstr ""
+msgstr "Nyersbőr"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:96
 msgid "Skins are gathered from animal carcasses by the skinner. They are sent to the tannery for leather production. The skinner can also be supplied with pigs for extra skins."
-msgstr ""
+msgstr "A nyúzó az állati tetemekből gyűjti a nyersbőrt. Ezeket a tímárműhelybe szállítják, ahol bőrt készítenek belőle. A nyúzó sertésekkel is ellátható, hogy több nyersbőrt gyűjtsön."
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:34
 msgid "Skip GameFrames"
@@ -4034,7 +4010,7 @@ msgstr "Sebesség:"
 
 #: libs/s25main/GameManager.cpp:169
 msgid "Splash screen couldn't be loaded!"
-msgstr "A kiválasztott fájlt nem lehet betölteni!"
+msgstr "Az indítóképernyő nem tölthető be!"
 
 #: libs/s25main/desktops/dskCampaignMissionSelection.cpp:71
 #: libs/s25main/ingameWindows/iwDirectIPCreate.cpp:49
@@ -4089,7 +4065,7 @@ msgstr "Rögzítés dátuma"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:112
 msgid "Stone piles:"
-msgstr "Kö"
+msgstr "Kőhalmok:"
 
 #: libs/s25main/gameData/JobConsts.cpp:24
 msgid "Stonemason"
@@ -4171,12 +4147,11 @@ msgstr "Kihordás a raktárból"
 
 #: libs/s25main/gameData/JobConsts.cpp:57
 msgid "Tanner"
-msgstr ""
+msgstr "Tímár"
 
 #: libs/s25main/gameData/BuildingConsts.cpp:18
-#, fuzzy
 msgid "Tannery"
-msgstr "Borászat"
+msgstr "Tímárműhely"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:179
 msgid "Team"
@@ -4303,7 +4278,7 @@ msgstr "A főhadiszállás szolgál birodalmad központjaként. Nagy raktárkapa
 
 #: libs/s25main/gameData/BuildingConsts.cpp:178
 msgid "The leatherworker crafts armor from finely tanned leather. The armor is then transported to military buildings to bolster your soldiers defense. An armored soldier can withstand an additional hit in battle and sometimes survives a catapult strike, but the armor is lost once struck."
-msgstr ""
+msgstr "A bőrműves finoman cserzett bőrből páncélt készít. A páncélt ezután a katonai épületekbe szállítják, hogy növelje katonáid védelmét. A páncélozott katona a csatában egy további találatot is kibír, és néha a katapult találatát is túléli, de a páncél az első találat után elhasználódik."
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:113
 msgid "The merchandise statistics window allows you to check the quantities of your merchandise. By clicking the left mouse button you can switch the display of individual goods on and off. These can displayed over four different time periods. To delete all displays, click on the wastebasket button."
@@ -4349,7 +4324,7 @@ msgstr "A kiválasztott játék már nem található."
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:326
 msgid "The selected preset could not be loaded. The file may be corrupted or have an invalid format."
-msgstr ""
+msgstr "A kiválasztott beállítás nem tölthető be. A fájl sérült lehet, vagy érvénytelen formátumú."
 
 #: libs/s25main/desktops/dskOptions.cpp:699
 msgid "The selected video driver does not support GUI scaling! Setting won't be used."
@@ -4384,7 +4359,7 @@ msgstr "A raktár segíthet lerövidíteni a hosszú szállítási utakat, és a
 
 #: libs/s25main/gameData/BuildingConsts.cpp:133
 msgid "The tanner works animal skins to form leather. Before tanning; the skins are cured, scraped and stretched on wooden frames made from boards. Leather is used to produce armor at the leatherworks."
-msgstr ""
+msgstr "A tímár a nyersbőrből bőrt készít. A cserzés előtt a nyersbőrt tartósítják, lekaparják, majd deszkából készült fakeretekre feszítik. A bőrműves műhelyben a bőrből páncélt készítenek."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:125
 msgid "The temple servant sacrifices wine and food granting a blessing of gold, iron ore, coal or granite. This allows your iron founder and minter to continue working when mines become exhausted. The desired mineral can be selected by toggling the output button."
@@ -4663,7 +4638,7 @@ msgstr "Legyőzött ellenségek"
 
 #: libs/s25main/ingameWindows/iwConnecting.cpp:74
 msgid "Verifying server info..."
-msgstr "Játékosra várakozás..."
+msgstr "Szerveradatok ellenőrzése..."
 
 #: libs/s25main/desktops/dskLAN.cpp:49 libs/s25main/desktops/dskLobby.cpp:56
 #: libs/s25main/desktops/dskLobby.cpp:59
@@ -4688,7 +4663,7 @@ msgstr "Nagyon kevés"
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:82
 msgid "Very far"
-msgstr "Nagyon Gyors"
+msgstr "Nagyon távoli"
 
 #: libs/s25main/addons/AddonShipSpeed.h:23
 #: libs/s25main/desktops/dskGameLobby.cpp:272
@@ -4710,7 +4685,7 @@ msgstr "Nagyon lassú"
 
 #: libs/s25main/GameManager.cpp:47
 msgid "Video driver couldn't be loaded!"
-msgstr "A kiválasztott fájlt nem lehet betölteni!"
+msgstr "A videokártya-illesztőprogram nem tölthető be!"
 
 #: libs/s25main/desktops/dskGameLobby.cpp:227
 msgid "View Settings..."
@@ -4752,7 +4727,7 @@ msgstr "Várakozás válaszra..."
 #: libs/s25main/ingameWindows/iwConnecting.cpp:82
 #: libs/s25main/ingameWindows/iwConnecting.cpp:84
 msgid "Waiting for server info..."
-msgstr "Játékosra várakozás..."
+msgstr "Várakozás szerveradatokra..."
 
 #: libs/s25main/ingameWindows/iwTrade.cpp:66
 msgid "Ware you like to trade"
@@ -4824,9 +4799,8 @@ msgstr "Ablak rögzítése"
 
 #: libs/s25main/desktops/dskOptions.cpp:349
 #: libs/s25main/ingameWindows/iwSettings.cpp:72
-#, fuzzy
 msgid "Window size:"
-msgstr "Ablakos"
+msgstr "Az ablak mérete:"
 
 #: libs/s25main/desktops/dskOptions.cpp:338
 #: libs/s25main/ingameWindows/iwSettings.cpp:60
@@ -5061,18 +5035,4 @@ msgstr "Téli világ"
 
 #: libs/s25main/ingameWindows/iwWares.cpp:225
 msgid "with armor)"
-msgstr ""
-
-#, fuzzy
-#~ msgid "Addon Presets Unavailable"
-#~ msgstr "Nincsenek elérhető hajók"
-
-#~ msgid "Granite mines will never be depleted."
-#~ msgstr "A gránitbányák soha nem merülnek ki."
-
-#~ msgid "Inexhaustible Granite Mines"
-#~ msgstr "Kimeríthetetlen gránitbányák"
-
-#, fuzzy
-#~ msgid "Preset '%1%' was not found."
-#~ msgstr "A fájl nem található!"
+msgstr "páncéllal)"
