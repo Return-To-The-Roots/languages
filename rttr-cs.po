@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 13:28+0200\n"
+"POT-Creation-Date: 2026-10-08 14:58+0200\n"
 "PO-Revision-Date: 2026-06-27 17:19+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -130,7 +130,7 @@ msgid "(1 soldier)"
 msgstr "(1 voják)"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:92
-#: libs/s25main/ingameWindows/iwBuilding.cpp:188
+#: libs/s25main/ingameWindows/iwBuilding.cpp:189
 #: libs/s25main/world/GameWorldView.cpp:427
 msgid "(House unoccupied)"
 msgstr "(Budova neobsazena)"
@@ -293,7 +293,7 @@ msgstr "<%s> "
 msgid "A auto-savegame is created..."
 msgstr "Probíhá automatické ukládání hry..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1527
+#: libs/s25main/buildings/nobMilitary.cpp:1540
 msgid "A catapult is firing upon us!"
 msgstr "Jsme pod palbou katapultu!"
 
@@ -309,7 +309,7 @@ msgstr "Hodně"
 msgid "A new ship is ready"
 msgstr "Nová loď je připravena"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:232
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:264
 msgid "A preset named '%1%' already exists. Do you want to overwrite it?"
 msgstr ""
 
@@ -407,15 +407,10 @@ msgstr "Další nastavení:"
 msgid "Additional graphics"
 msgstr "Doplňková grafika"
 
-#: libs/s25main/GlobalGameSettings.cpp:258
+#: libs/s25main/GlobalGameSettings.cpp:322
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr "Doplněk %1$#x nebyl nalezen!\n"
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:80
-#, fuzzy
-msgid "Addon Presets Unavailable"
-msgstr "Žádná loď není k dispozici"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:40
 msgid "Addon Settings"
@@ -562,7 +557,7 @@ msgstr "Jsi si jistý, že chceš smazat všechny špatné replaye?"
 msgid "Are you sure to remove all replays?"
 msgstr "Chcete opravdu smazat všechny replaye?"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:179
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
 #, fuzzy
 msgid "Are you sure you want to delete preset '%1%'?"
 msgstr "Jsi si jistý, že chceš smazat vybrané replaye?"
@@ -626,7 +621,7 @@ msgstr "Asynchronní ladění (OPRAVDU POMALÉ!)"
 msgid "Async log saved at %1%\n"
 msgstr "Asynchronní protokol uložený v %1%\n"
 
-#: libs/s25main/network/GameClient.cpp:883
+#: libs/s25main/network/GameClient.cpp:885
 msgid ""
 "Async log saved at %1%,\n"
 "game saved at %2%\n"
@@ -669,8 +664,8 @@ msgstr "Autor"
 msgid "Auto (%u%%)"
 msgstr "Auto (%u%%)"
 
-#: libs/s25main/network/GameClient.cpp:1412
 #: libs/s25main/network/GameClient.cpp:1414
+#: libs/s25main/network/GameClient.cpp:1416
 msgid "Auto-Save"
 msgstr "Automatické ukládání"
 
@@ -889,11 +884,11 @@ msgstr "Zrušit start"
 msgid "Cannot deserialize event manager when there are still events active!"
 msgstr "Pokud jsou stále aktivní události, nelze deserializovat správce událostí!"
 
-#: libs/s25main/Replay.cpp:231
+#: libs/s25main/Replay.cpp:232
 msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
 msgstr "Nelze přehrát replay vytvořený v novější verzi GC (Aktuální: %1%, Replay: %2%)"
 
-#: libs/s25main/Replay.cpp:219
+#: libs/s25main/Replay.cpp:220
 msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
 msgstr "Nelze přehrát replay vytvořený v novější verzi (Aktuální: %1%, Replay: %2%)"
 
@@ -1024,6 +1019,10 @@ msgstr "Uzavřen"
 msgid "Coal"
 msgstr "Uhlí"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:42
+msgid "Coal Mine Resource Behavior"
+msgstr ""
+
 #: libs/s25main/gameData/BuildingConsts.cpp:21
 msgid "Coal mine"
 msgstr "Uhelný důl"
@@ -1040,6 +1039,10 @@ msgstr "Mince"
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:17
 msgid "Coins on captured buildings"
 msgstr "Placení v zajatých budovách"
+
+#: libs/s25main/addons/AddonSingleSoldierCoinTraining.h:14
+msgid "Coins train only one soldier"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:61
 msgid "Collect"
@@ -1061,6 +1064,26 @@ msgstr "Výroba objednaných nástrojů je dokončena."
 #, c-format
 msgid "Computer %u"
 msgstr "Počítač %u"
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:43
+msgid "Configures how coal mines consume and exhaust coal deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:61
+msgid "Configures how gold mines consume and exhaust gold deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:34
+msgid "Configures how granite mines consume and exhaust stone deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:52
+msgid "Configures how iron mines consume and exhaust iron deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:17
+msgid "Configures what mines produce when S4-like exhaustion would produce nothing."
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:240
 msgid "Confirm"
@@ -1127,6 +1150,10 @@ msgstr "Pokračovat ve hře"
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:222
 msgid "Contract type:"
 msgstr "Typ kontraktu:"
+
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:16
+msgid "Controls the search radius used by stranded soldiers when looking for a way back to a warehouse."
+msgstr ""
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:27
 msgid "Convert to coal"
@@ -1201,6 +1228,7 @@ msgstr "Hluboko v horách těží horníci železnou rudu. Ke své těžké prá
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:22
 #: libs/s25main/addons/AddonForesterReachRadius.h:25
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:31
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
 #: libs/s25main/addons/AddonStonemasonReachRadius.h:27
 #: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
 #: libs/s25main/ingameWindows/iwAddons.cpp:53
@@ -1212,12 +1240,16 @@ msgstr "Hluboko v horách těží horníci železnou rudu. Ke své těžké prá
 msgid "Default"
 msgstr "Výchozí"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:100
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:18
+msgid "Default search range (1x)"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:106
 #, fuzzy
 msgid "Delete"
 msgstr "Odstranit vše"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:197
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
 #, fuzzy
 msgid "Delete Failed"
 msgstr "Odstranit vše"
@@ -1227,7 +1259,7 @@ msgstr "Odstranit vše"
 msgid "Delete Invalid (%u)"
 msgstr "Smazat špatné (%u)"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:179
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
 #, fuzzy
 msgid "Delete Preset"
 msgstr "Odstranit vybrané"
@@ -1326,7 +1358,7 @@ msgstr "Zakažte demolici vojenských budov pod útokem nebo v blízkosti hranic
 msgid "Disabled"
 msgstr "Zakázáno"
 
-#: libs/s25main/network/GameClient.cpp:1881
+#: libs/s25main/network/GameClient.cpp:1883
 msgid "Disabled AI for current player"
 msgstr ""
 
@@ -1465,7 +1497,7 @@ msgstr "Povolit vinařskou ekonomiku"
 msgid "Enable wine economy"
 msgstr "Povolit vinařskou ekonomiku"
 
-#: libs/s25main/network/GameClient.cpp:1885
+#: libs/s25main/network/GameClient.cpp:1887
 msgid "Enabled AI for current player"
 msgstr ""
 
@@ -1544,15 +1576,15 @@ msgstr "Erik"
 msgid "Error"
 msgstr "Chyba"
 
-#: libs/s25main/network/GameClient.cpp:1548
+#: libs/s25main/network/GameClient.cpp:1550
 msgid "Error decompressing lua file"
 msgstr "Chyba při rozbalování lau souboru"
 
-#: libs/s25main/network/GameClient.cpp:1539
+#: libs/s25main/network/GameClient.cpp:1541
 msgid "Error decompressing map file"
 msgstr "Chyba při rozbalování mapového souboru"
 
-#: libs/s25main/network/GameClient.cpp:1370
+#: libs/s25main/network/GameClient.cpp:1372
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
@@ -1560,11 +1592,11 @@ msgstr ""
 "Chyba při provádění LUA skriptu: %1\n"
 "Hra se zastavila!"
 
-#: libs/s25main/network/GameClient.cpp:1743
+#: libs/s25main/network/GameClient.cpp:1745
 msgid "Error during saving: "
 msgstr "Error v průběhu ukládání: "
 
-#: libs/s25main/network/GameClient.cpp:1565
+#: libs/s25main/network/GameClient.cpp:1567
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr "Chyba při nahrávání hry z replaye: %s\n"
@@ -1626,7 +1658,11 @@ msgstr "Průzkumná výprava"
 msgid "Exploration:"
 msgstr "Prozkoumané území:"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:197
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:20
+msgid "Extended search range (2x)"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
 msgid "Failed to delete the selected preset."
 msgstr ""
 
@@ -1704,8 +1740,8 @@ msgstr "Nepodařilo se uložit asynchronní protokol na %1%\n"
 msgid "Failed to save lua state!"
 msgstr "Uložení skriptu LUA se nezdařilo!"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:258
-msgid "Failed to save the preset. Please check the filename and try again."
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:291
+msgid "Failed to save the preset. Check application logs for details."
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:81
@@ -1742,7 +1778,7 @@ msgstr "Méně obránců"
 msgid "Fewer recruits"
 msgstr "Méně rekrutů"
 
-#: libs/s25main/Replay.cpp:201
+#: libs/s25main/Replay.cpp:202
 msgid "File could not be opened."
 msgstr "Soubor nemůže být otevřen."
 
@@ -1979,6 +2015,14 @@ msgstr "Cíle:"
 msgid "Gold"
 msgstr "Zlato"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:60
+msgid "Gold Mine Resource Behavior"
+msgstr ""
+
+#: libs/s25main/addons/AddonSingleSoldierCoinTraining.h:15
+msgid "Gold coins promote only one lowest-rank soldier instead of all eligible lower-rank soldiers."
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:69
 msgid "Gold delivery"
 msgstr "Doručování zlata"
@@ -2008,13 +2052,13 @@ msgstr "Obilí"
 msgid "Grain and water are needed for rearing pigs. The meat thus obtained can then be processed by a butcher."
 msgstr "K chovu vepřů  je zapotřebí obilí a voda. Vepři jsou poráženi na jatkách kde jsou zpracováni na maso."
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:33
+msgid "Granite Mine Resource Behavior"
+msgstr ""
+
 #: libs/s25main/gameData/BuildingConsts.cpp:20
 msgid "Granite mine"
 msgstr "Kamenný důl"
-
-#: libs/s25main/addons/AddonInexhaustibleGraniteMines.h:18
-msgid "Granite mines will never be depleted."
-msgstr "V dolech na kámen nikdy nedojdou zásoby kamene."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:103
 msgid "Granite:"
@@ -2089,7 +2133,7 @@ msgstr "Pomocník"
 msgid "Here you will find a list of your entire stores of merchandise and all the inhabitants of your realm."
 msgstr "Tohle okno poskytuje informace o zboží a lidech ve všech skladištích a přístavištích v celé říši."
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:239
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:240
 msgid "Hi, I'm an artifical player and I'm not very good yet!"
 msgstr "Ahoj, jsem počítat a nejsem zatím moc dobrý!"
 
@@ -2168,6 +2212,7 @@ msgid "Increase the radius in which the woodcutter searches for trees."
 msgstr ""
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
 msgid "Inexhaustible"
 msgstr "Nevyčerpatelná"
 
@@ -2175,11 +2220,7 @@ msgstr "Nevyčerpatelná"
 msgid "Inexhaustible Fish"
 msgstr "Nevyčerpatelné ryby"
 
-#: libs/s25main/addons/AddonInexhaustibleGraniteMines.h:17
-msgid "Inexhaustible Granite Mines"
-msgstr "Nevyčerpatelné doly na kámen"
-
-#: libs/s25main/addons/AddonInexhaustibleMines.h:17
+#: libs/s25main/addons/AddonInexhaustibleMines.h:23
 msgid "Inexhaustible Mines"
 msgstr "Nevyčerpatelné doly"
 
@@ -2222,14 +2263,14 @@ msgstr "Špatná verze API!"
 msgid "Invalid Filename"
 msgstr "Název souboru"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:217
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:221
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:249
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:253
 #, fuzzy
 msgid "Invalid Name"
 msgstr "Neplatný replay!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1488
+#: libs/s25main/network/GameClient.cpp:1490
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr "Neplatný záznam %1%! Důvod: %2%\n"
 
@@ -2276,6 +2317,10 @@ msgstr "Špatný port. Přípustné jsou hodnoty mezi 1 a 65535!"
 msgid "Iron"
 msgstr "Železo"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:51
+msgid "Iron Mine Resource Behavior"
+msgstr ""
+
 #: libs/s25main/gameData/JobConsts.cpp:34
 msgid "Iron founder"
 msgstr "Slévač železa"
@@ -2321,7 +2366,7 @@ msgstr "Připojit se ke hře"
 msgid "Julius"
 msgstr "Julius"
 
-#: libs/s25main/network/GameClient.cpp:1696
+#: libs/s25main/network/GameClient.cpp:1698
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr "Skok skončil (%1$.3g seconds)."
@@ -2452,7 +2497,7 @@ msgstr ""
 "Strážní věž: 2 \n"
 "Pevnost: 1"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:279
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:312
 #: libs/s25main/ingameWindows/iwAddons.cpp:51
 #, fuzzy
 msgid "Load"
@@ -2462,12 +2507,12 @@ msgstr "Nahrát hru"
 msgid "Load 'ReadMe' file"
 msgstr "Načíst soubor 'Čti mně'"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:279
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:312
 #: libs/s25main/ingameWindows/iwAddons.cpp:52
 msgid "Load Addon Preset"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:292
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:325
 #, fuzzy
 msgid "Load Failed"
 msgstr "Nahrát hru"
@@ -2758,7 +2803,7 @@ msgstr "Vojenská kontrola"
 msgid "Military Hitpoints"
 msgstr "Životy vojáků"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1161
+#: libs/s25main/buildings/nobMilitary.cpp:1174
 msgid "Military building captured"
 msgstr "Dobili jsme vojenskou budovu"
 
@@ -2766,11 +2811,11 @@ msgstr "Dobili jsme vojenskou budovu"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr "Vojenská budova se počítá jako vnitřní, pokud je útok trvale nemožný. (Cesta blokovaná terénem, jako je moře, láva atd.)"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1158
+#: libs/s25main/buildings/nobMilitary.cpp:1171
 msgid "Military building lost"
 msgstr "Nepřátelé zajali naši vojenskou budovu."
 
-#: libs/s25main/buildings/nobMilitary.cpp:854
+#: libs/s25main/buildings/nobMilitary.cpp:867
 msgid "Military building occupied"
 msgstr "Vojenská budova obsazena"
 
@@ -2787,11 +2832,15 @@ msgstr "Mlýn"
 msgid "Miller"
 msgstr "Mlynář"
 
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:16
+msgid "Mine No-Output Fallback"
+msgstr ""
+
 #: libs/s25main/gameData/JobConsts.cpp:30
 msgid "Miner"
 msgstr "Horník"
 
-#: libs/s25main/addons/AddonInexhaustibleMines.h:18
+#: libs/s25main/addons/AddonInexhaustibleMines.h:24
 msgid "Mines will never be depleted."
 msgstr "V dolech nikdy nedojdou suroviny."
 
@@ -2959,11 +3008,11 @@ msgstr "Žádná práce"
 msgid "No letters!"
 msgstr "Žádné zprávy"
 
-#: libs/s25main/buildings/nobUsual.cpp:539
+#: libs/s25main/buildings/nobUsual.cpp:553
 msgid "No more fish in range"
 msgstr "V dosahu nejsou žádné další ryby"
 
-#: libs/s25main/buildings/nobUsual.cpp:537
+#: libs/s25main/buildings/nobUsual.cpp:551
 msgid "No more stones in range"
 msgstr "V dosahu není již žádný kámen"
 
@@ -3153,7 +3202,7 @@ msgstr "Výstupní minerál"
 msgid "Overlay override idx %1% is invalid: Overlay %2% does not exist!\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:231
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:263
 msgid "Overwrite Preset"
 msgstr ""
 
@@ -3283,7 +3332,7 @@ msgstr ""
 msgid "Please enter a name for the game"
 msgstr "Prosím, zadejte název hry"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:217
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:249
 msgid "Please enter a preset name."
 msgstr ""
 
@@ -3291,7 +3340,7 @@ msgstr ""
 msgid "Please enter a valid filename."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:221
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:253
 msgid "Please enter a valid preset name."
 msgstr ""
 
@@ -3310,19 +3359,10 @@ msgstr "Portrét:"
 msgid "Post office"
 msgstr "Pošta"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:142
-#, fuzzy
-msgid "Preset '%1%' was not found."
-msgstr "Soubor nebyl nalezen!"
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:89
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:95
 #, fuzzy
 msgid "Preset Name"
 msgstr "Jméno hráče"
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:141
-msgid "Preset Not Found"
-msgstr ""
 
 #: libs/s25main/addons/AddonForesterFarmFieldAvoidance.h:16
 msgid "Prevents foresters from planting trees on spots that own farms could use for new fields."
@@ -3344,7 +3384,27 @@ msgstr "Desátník"
 msgid "Privatefc (1)"
 msgstr "Desátník (1)"
 
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:19
+#, fuzzy
+msgid "Produce granite 100%"
+msgstr "Produkce náhodného zboží"
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:18
+#, fuzzy
+msgid "Produce granite 25%"
+msgstr "Produkce náhodného zboží"
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:18
+#, fuzzy
+msgid "Produce granite 50%"
+msgstr "Produkce náhodného zboží"
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:19
+msgid "Produce lower grade resource"
+msgstr ""
+
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:20
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:18
 msgid "Produce nothing"
 msgstr "Nic nevyrábí"
 
@@ -3485,6 +3545,10 @@ msgstr "Ve výchozím nastavení je ve vojenských budovách zakázán příjem 
 msgid "Reduce reoccupying troops accordingly"
 msgstr "Snížit obsazenost vojáky odpovídajícím způsobem"
 
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:19
+msgid "Reduced search range (0.5x)"
+msgstr ""
+
 #: libs/s25main/addons/AddonRefundMaterials.h:21
 msgid "Refund 25%"
 msgstr "Návrácení 25%"
@@ -3533,7 +3597,7 @@ msgstr ""
 "Nahradí tlačítko minimalizovat tlačítkem připnutí, které zabrání zavření okna klávesou ESC.\n"
 "Minimalizaci lze provést dvojklikem na titulní lištu."
 
-#: libs/s25main/network/GameClient.cpp:1475
+#: libs/s25main/network/GameClient.cpp:1477
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr "Soubor záznamu nelze otevřít. Žádné záznamy nebudou zaznamenány\n"
 
@@ -3601,6 +3665,10 @@ msgstr "RttR selhalo. Chcete odeslat informace o ladění do RttR, pomůžete n�
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
 msgstr "RttR nyní podporuje odesílání ladících dat. Chcete nám pomoci zlepšit hru zasíláním těchto dat?"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
+msgid "S4-like exhaustion"
+msgstr ""
+
 #: libs/s25main/network/GameServer.cpp:757
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
 msgstr "SERVER: Na GF %1%: Rychlost změněna z %2% na %3%. NWF %4%\n"
@@ -3626,18 +3694,18 @@ msgstr "SERVER: Rezervovaný slot %1% uvolněn z důvodu časového limitu\n"
 msgid "SYSTEM"
 msgstr "Systém"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:208
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:49
 #, fuzzy
 msgid "Save"
 msgstr "Automatické ukládání"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:208
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:50
 msgid "Save Addon Preset"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:258
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:290
 #, fuzzy
 msgid "Save Failed"
 msgstr "Uložit hru!"
@@ -3655,11 +3723,11 @@ msgstr "Uložit hru!"
 msgid "Save playlist"
 msgstr "Uložit seznam skladeb"
 
-#: libs/s25main/Replay.cpp:242 libs/s25main/Replay.cpp:300
+#: libs/s25main/Replay.cpp:243 libs/s25main/Replay.cpp:301
 msgid "Savegame error: "
 msgstr "Chyba uložené hry: "
 
-#: libs/s25main/network/GameClient.cpp:1715
+#: libs/s25main/network/GameClient.cpp:1717
 msgid "Saving game..."
 msgstr "Ukládání hry..."
 
@@ -4049,6 +4117,10 @@ msgstr "Zákaz skladování"
 msgid "Storehouse"
 msgstr "Skladiště"
 
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:15
+msgid "Stranded soldier return search"
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwAction.cpp:388
 msgid "Strong attackers"
 msgstr "Silní útočníci"
@@ -4154,13 +4226,9 @@ msgid "The %s between player '%s' and you has been concluded."
 msgstr "%s mezi hráčem '%s' a vámi byla uzavřena."
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1227
-#: libs/s25main/network/GameClient.cpp:867
+#: libs/s25main/network/GameClient.cpp:869
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "Hra nemohla být synchronizována. Kontrolní součty některých hráčů se neshodují."
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:81
-msgid "The addon presets folder could not be created. Saving and loading addon presets is unavailable."
-msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:224
 msgid "The armory produces swords and strong shields. This equipment is vital for your soldiers."
@@ -4288,7 +4356,7 @@ msgstr "Těžba kamene v žulovém dole zaručuje dodávky kamene na stavby. Nic
 msgid "The selected game was not found anymore."
 msgstr "Vybraná hra již nebyla nalezena."
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:293
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:326
 msgid "The selected preset could not be loaded. The file may be corrupted or have an invalid format."
 msgstr ""
 
@@ -4375,11 +4443,11 @@ msgstr ""
 "Pod tímto nastavením je ochrana vašich vojenských budov. Pokud je tato hodnota nastavena na maximum, vaše vojenské budovy jsou bráněny vojáky s nejvyšší hodností. Chcete-li zvýšit počet útočníků opouštějících vaše vojenské budovy na útok, zvolte další nastavení. Počet obránců, kteří v případě útoku čelí nepříteli, ukazuje čtvrtý displej. \n"
 "Poslední čtyři hodnoty odpovídají obsazení vašich vojenských budov ve vnitrozemí, ve středu země, v přímořském a suchozemském pohraničí."
 
-#: libs/s25main/buildings/nobUsual.cpp:535
+#: libs/s25main/buildings/nobUsual.cpp:549
 msgid "This mine is exhausted"
 msgstr "Důl je vytěžen"
 
-#: libs/s25main/buildings/nobUsual.cpp:533
+#: libs/s25main/buildings/nobUsual.cpp:547
 msgid "This well has dried out"
 msgstr "Tato studna již vyschla"
 
@@ -4512,7 +4580,7 @@ msgstr "Neočekávaný dynamický typ mapy"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:105
-#: libs/s25main/network/GameClient.cpp:1489
+#: libs/s25main/network/GameClient.cpp:1491
 msgid "Unknown"
 msgstr "Neznámý"
 
@@ -4615,7 +4683,7 @@ msgstr "Čekám na Informace o hráči..."
 msgid "Version"
 msgstr "Verze"
 
-#: libs/s25main/network/GameClient.cpp:718
+#: libs/s25main/network/GameClient.cpp:720
 msgid "Version mismatch. Server version: %1%, your version %2%"
 msgstr "Neshoda verzí. Verze serveru: %1%, Vaše verze %2%"
 
@@ -4639,6 +4707,10 @@ msgstr "Velmi daleko"
 #: libs/s25main/desktops/dskGameLobby.cpp:272
 msgid "Very fast"
 msgstr "Velmi rychle"
+
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:21
+msgid "Very large search range (4x)"
+msgstr ""
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:34
 msgid "Very long"
@@ -4803,6 +4875,10 @@ msgstr "Dřevorubec"
 msgid "Woodcutter"
 msgstr "Dřevorubec"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
+msgid "Work everywhere"
+msgstr ""
+
 #: libs/s25main/desktops/dskGameLoader.cpp:120
 msgid "World was put together and glued..."
 msgstr "Svět byl poskládán a slepen dohromady..."
@@ -4902,7 +4978,7 @@ msgstr "Pro změnu rozlišení je potřeba hru restartovat!"
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "Aby se uplatnila změna audio nebo video ovladače, je nutné hru restartovat!"
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:392
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:393
 msgid "You win"
 msgstr "Vyhrál jsi"
 
@@ -4926,7 +5002,7 @@ msgstr "všichni vývojáři, kteří přispěli prostřednictvím Github"
 msgid "by GameFrames:"
 msgstr "od GameFrames:"
 
-#: libs/s25main/network/GameClient.cpp:1682
+#: libs/s25main/network/GameClient.cpp:1684
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "aktuální GF: %u - stále rychle převíjím: %d GFs zbývá (%d %%)"
@@ -4998,3 +5074,17 @@ msgstr "Zimní svět"
 #: libs/s25main/ingameWindows/iwWares.cpp:225
 msgid "with armor)"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Addon Presets Unavailable"
+#~ msgstr "Žádná loď není k dispozici"
+
+#~ msgid "Granite mines will never be depleted."
+#~ msgstr "V dolech na kámen nikdy nedojdou zásoby kamene."
+
+#~ msgid "Inexhaustible Granite Mines"
+#~ msgstr "Nevyčerpatelné doly na kámen"
+
+#, fuzzy
+#~ msgid "Preset '%1%' was not found."
+#~ msgstr "Soubor nebyl nalezen!"
