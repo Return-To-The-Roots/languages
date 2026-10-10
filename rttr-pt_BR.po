@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 13:28+0200\n"
+"POT-Creation-Date: 2026-10-08 14:58+0200\n"
 "PO-Revision-Date: 2026-06-27 17:18+0000\n"
 "Last-Translator: Ronaldo padilha <ronaldoflake@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
@@ -128,7 +128,7 @@ msgid "(1 soldier)"
 msgstr "(1 soldado)"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:92
-#: libs/s25main/ingameWindows/iwBuilding.cpp:188
+#: libs/s25main/ingameWindows/iwBuilding.cpp:189
 #: libs/s25main/world/GameWorldView.cpp:427
 msgid "(House unoccupied)"
 msgstr "(Casa desocupada)"
@@ -291,7 +291,7 @@ msgstr "<%s> "
 msgid "A auto-savegame is created..."
 msgstr "Um auto-save foi criado..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1527
+#: libs/s25main/buildings/nobMilitary.cpp:1540
 msgid "A catapult is firing upon us!"
 msgstr "Uma catapulta está atirando em nós!"
 
@@ -307,7 +307,7 @@ msgstr "Muito"
 msgid "A new ship is ready"
 msgstr "Um novo navio está pronto"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:232
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:264
 msgid "A preset named '%1%' already exists. Do you want to overwrite it?"
 msgstr ""
 
@@ -405,15 +405,10 @@ msgstr "Recursos adicionais"
 msgid "Additional graphics"
 msgstr "Gráficos Adicionais"
 
-#: libs/s25main/GlobalGameSettings.cpp:258
+#: libs/s25main/GlobalGameSettings.cpp:322
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr "Complemento %1$#x não foi encontrado!\n"
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:80
-#, fuzzy
-msgid "Addon Presets Unavailable"
-msgstr "Nenhum barco disponível"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:40
 msgid "Addon Settings"
@@ -557,7 +552,7 @@ msgstr "Você tem certeza de que deseja remover todos os replays inválidos?"
 msgid "Are you sure to remove all replays?"
 msgstr "Você tem certeza que quer remover todos os replays?"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:179
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
 #, fuzzy
 msgid "Are you sure you want to delete preset '%1%'?"
 msgstr "Você tem certeza de que deseja remover o replay selecionado?"
@@ -621,7 +616,7 @@ msgstr "Depuração assíncrona (MUITO LENTA)!"
 msgid "Async log saved at %1%\n"
 msgstr "Log assíncrono salvo em %1%\n"
 
-#: libs/s25main/network/GameClient.cpp:883
+#: libs/s25main/network/GameClient.cpp:885
 msgid ""
 "Async log saved at %1%,\n"
 "game saved at %2%\n"
@@ -664,8 +659,8 @@ msgstr "Autor"
 msgid "Auto (%u%%)"
 msgstr "Auto (%u%%)"
 
-#: libs/s25main/network/GameClient.cpp:1412
 #: libs/s25main/network/GameClient.cpp:1414
+#: libs/s25main/network/GameClient.cpp:1416
 msgid "Auto-Save"
 msgstr "Salvamento Automático"
 
@@ -884,11 +879,11 @@ msgstr "Cancelar começo"
 msgid "Cannot deserialize event manager when there are still events active!"
 msgstr "Não é possível desserializar o gerenciador de eventos quando ainda há eventos ativos!"
 
-#: libs/s25main/Replay.cpp:231
+#: libs/s25main/Replay.cpp:232
 msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:219
+#: libs/s25main/Replay.cpp:220
 msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
 msgstr "Não é possível jogar um replay criado por uma versão mais recente (Atual: %1%, Replay: %2%)"
 
@@ -1016,6 +1011,10 @@ msgstr "Fechado"
 msgid "Coal"
 msgstr "Carvão"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:42
+msgid "Coal Mine Resource Behavior"
+msgstr ""
+
 #: libs/s25main/gameData/BuildingConsts.cpp:21
 msgid "Coal mine"
 msgstr "Mina de carvão"
@@ -1032,6 +1031,10 @@ msgstr "Moedas"
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:17
 msgid "Coins on captured buildings"
 msgstr "Moedas em edifícios capturados"
+
+#: libs/s25main/addons/AddonSingleSoldierCoinTraining.h:14
+msgid "Coins train only one soldier"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:61
 msgid "Collect"
@@ -1053,6 +1056,26 @@ msgstr "A quantidade encomendada de ferramentas foi produzida."
 #, c-format
 msgid "Computer %u"
 msgstr "Computador %u"
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:43
+msgid "Configures how coal mines consume and exhaust coal deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:61
+msgid "Configures how gold mines consume and exhaust gold deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:34
+msgid "Configures how granite mines consume and exhaust stone deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:52
+msgid "Configures how iron mines consume and exhaust iron deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:17
+msgid "Configures what mines produce when S4-like exhaustion would produce nothing."
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:240
 msgid "Confirm"
@@ -1119,6 +1142,10 @@ msgstr "Continuar jogo"
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:222
 msgid "Contract type:"
 msgstr "Tipo de contrato:"
+
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:16
+msgid "Controls the search radius used by stranded soldiers when looking for a way back to a warehouse."
+msgstr ""
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:27
 msgid "Convert to coal"
@@ -1196,6 +1223,7 @@ msgstr "Nas profundezas das montanhas os mineradores escavam para encontrar min�
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:22
 #: libs/s25main/addons/AddonForesterReachRadius.h:25
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:31
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
 #: libs/s25main/addons/AddonStonemasonReachRadius.h:27
 #: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
 #: libs/s25main/ingameWindows/iwAddons.cpp:53
@@ -1207,12 +1235,16 @@ msgstr "Nas profundezas das montanhas os mineradores escavam para encontrar min�
 msgid "Default"
 msgstr "Padrão"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:100
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:18
+msgid "Default search range (1x)"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:106
 #, fuzzy
 msgid "Delete"
 msgstr "Deletar tudo"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:197
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
 #, fuzzy
 msgid "Delete Failed"
 msgstr "Deletar tudo"
@@ -1222,7 +1254,7 @@ msgstr "Deletar tudo"
 msgid "Delete Invalid (%u)"
 msgstr "Apagar inválido (%u)"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:179
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
 #, fuzzy
 msgid "Delete Preset"
 msgstr "Excluir seleção"
@@ -1321,7 +1353,7 @@ msgstr "Desative a demolição de edifícios militares sob ataque ou perto de fr
 msgid "Disabled"
 msgstr "Desabilitado"
 
-#: libs/s25main/network/GameClient.cpp:1881
+#: libs/s25main/network/GameClient.cpp:1883
 msgid "Disabled AI for current player"
 msgstr ""
 
@@ -1460,7 +1492,7 @@ msgstr "Permitir produção de vinho"
 msgid "Enable wine economy"
 msgstr "Permitir produção de vinho"
 
-#: libs/s25main/network/GameClient.cpp:1885
+#: libs/s25main/network/GameClient.cpp:1887
 msgid "Enabled AI for current player"
 msgstr ""
 
@@ -1539,15 +1571,15 @@ msgstr "Erik"
 msgid "Error"
 msgstr "Erro"
 
-#: libs/s25main/network/GameClient.cpp:1548
+#: libs/s25main/network/GameClient.cpp:1550
 msgid "Error decompressing lua file"
 msgstr "Erro descompactando arquivo lua"
 
-#: libs/s25main/network/GameClient.cpp:1539
+#: libs/s25main/network/GameClient.cpp:1541
 msgid "Error decompressing map file"
 msgstr "Erro descompactanto o arquivo de mapa"
 
-#: libs/s25main/network/GameClient.cpp:1370
+#: libs/s25main/network/GameClient.cpp:1372
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
@@ -1555,11 +1587,11 @@ msgstr ""
 "Erro durante a execução do script lua: %1\n"
 "O jogo parou!"
 
-#: libs/s25main/network/GameClient.cpp:1743
+#: libs/s25main/network/GameClient.cpp:1745
 msgid "Error during saving: "
 msgstr "Erro durante o salvamento: "
 
-#: libs/s25main/network/GameClient.cpp:1565
+#: libs/s25main/network/GameClient.cpp:1567
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr "Erro ao carregar jogo do replay: %s\n"
@@ -1621,7 +1653,11 @@ msgstr "Expedição exploratória"
 msgid "Exploration:"
 msgstr "Exploração:"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:197
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:20
+msgid "Extended search range (2x)"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
 msgid "Failed to delete the selected preset."
 msgstr ""
 
@@ -1699,8 +1735,8 @@ msgstr "Falha ao salvar log assíncrono em %1%\n"
 msgid "Failed to save lua state!"
 msgstr "Falha ao salvar estado (lua)!"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:258
-msgid "Failed to save the preset. Please check the filename and try again."
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:291
+msgid "Failed to save the preset. Check application logs for details."
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:81
@@ -1737,7 +1773,7 @@ msgstr "Menos defensores"
 msgid "Fewer recruits"
 msgstr "Menos recrutas"
 
-#: libs/s25main/Replay.cpp:201
+#: libs/s25main/Replay.cpp:202
 msgid "File could not be opened."
 msgstr "Não foi possível abrir o arquivo."
 
@@ -1974,6 +2010,14 @@ msgstr "Objetivos:"
 msgid "Gold"
 msgstr "Ouro"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:60
+msgid "Gold Mine Resource Behavior"
+msgstr ""
+
+#: libs/s25main/addons/AddonSingleSoldierCoinTraining.h:15
+msgid "Gold coins promote only one lowest-rank soldier instead of all eligible lower-rank soldiers."
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:69
 msgid "Gold delivery"
 msgstr "Entrega de ouro"
@@ -2003,13 +2047,13 @@ msgstr "Grão"
 msgid "Grain and water are needed for rearing pigs. The meat thus obtained can then be processed by a butcher."
 msgstr "Grãos e água são necessários para a criação de porcos. Os suínos assim obtidos podem então ser processados por um abatedouro."
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:33
+msgid "Granite Mine Resource Behavior"
+msgstr ""
+
 #: libs/s25main/gameData/BuildingConsts.cpp:20
 msgid "Granite mine"
 msgstr "MIna de granito"
-
-#: libs/s25main/addons/AddonInexhaustibleGraniteMines.h:18
-msgid "Granite mines will never be depleted."
-msgstr "As minas de granito nunca serão esgotadas."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:103
 msgid "Granite:"
@@ -2084,7 +2128,7 @@ msgstr "Ajudante"
 msgid "Here you will find a list of your entire stores of merchandise and all the inhabitants of your realm."
 msgstr "Aqui você encontrará uma lista de todas as construções e habitantes do seu reino."
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:239
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:240
 msgid "Hi, I'm an artifical player and I'm not very good yet!"
 msgstr "Olá, eu sou um jogador artificial e nao sou muito bom ainda!"
 
@@ -2163,6 +2207,7 @@ msgid "Increase the radius in which the woodcutter searches for trees."
 msgstr ""
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
 msgid "Inexhaustible"
 msgstr "Inesgotável"
 
@@ -2170,11 +2215,7 @@ msgstr "Inesgotável"
 msgid "Inexhaustible Fish"
 msgstr "Peixe Inesgotável"
 
-#: libs/s25main/addons/AddonInexhaustibleGraniteMines.h:17
-msgid "Inexhaustible Granite Mines"
-msgstr "Minas de granito inesgotáveis"
-
-#: libs/s25main/addons/AddonInexhaustibleMines.h:17
+#: libs/s25main/addons/AddonInexhaustibleMines.h:23
 msgid "Inexhaustible Mines"
 msgstr "Minas infinitas"
 
@@ -2217,14 +2258,14 @@ msgstr "Versão de API inválida!"
 msgid "Invalid Filename"
 msgstr "Nome do arquivo"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:217
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:221
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:249
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:253
 #, fuzzy
 msgid "Invalid Name"
 msgstr "Replay Inválido!"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1488
+#: libs/s25main/network/GameClient.cpp:1490
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr "Replay inválido %1%! Motivo: %2%\n"
 
@@ -2271,6 +2312,10 @@ msgstr "Porta inválida.A porta tem que estar no intervalo entre 1 a 65535."
 msgid "Iron"
 msgstr "Ferro"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:51
+msgid "Iron Mine Resource Behavior"
+msgstr ""
+
 #: libs/s25main/gameData/JobConsts.cpp:34
 msgid "Iron founder"
 msgstr "Fundidor de ferro"
@@ -2316,7 +2361,7 @@ msgstr "Entrar no Jogo"
 msgid "Julius"
 msgstr "Julius"
 
-#: libs/s25main/network/GameClient.cpp:1696
+#: libs/s25main/network/GameClient.cpp:1698
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr "Salto encerrado (%1$.3g segundos)."
@@ -2447,7 +2492,7 @@ msgstr ""
 "Torre de vigia: 2\n"
 "Fortaleza: 1"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:279
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:312
 #: libs/s25main/ingameWindows/iwAddons.cpp:51
 #, fuzzy
 msgid "Load"
@@ -2457,12 +2502,12 @@ msgstr "Carregar jogo"
 msgid "Load 'ReadMe' file"
 msgstr "Carregado arquivo 'Leia-me'"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:279
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:312
 #: libs/s25main/ingameWindows/iwAddons.cpp:52
 msgid "Load Addon Preset"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:292
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:325
 #, fuzzy
 msgid "Load Failed"
 msgstr "Carregar jogo"
@@ -2753,7 +2798,7 @@ msgstr "Controle militar"
 msgid "Military Hitpoints"
 msgstr "Pontos de vida de construções militares"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1161
+#: libs/s25main/buildings/nobMilitary.cpp:1174
 msgid "Military building captured"
 msgstr "Edifício militar capturado"
 
@@ -2761,11 +2806,11 @@ msgstr "Edifício militar capturado"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr "Uma construção militar conta como interior se um ataque é permanentemente impossível (caminho bloqueado por terreno como mar, lava etc)"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1158
+#: libs/s25main/buildings/nobMilitary.cpp:1171
 msgid "Military building lost"
 msgstr "Edifício militar perdido"
 
-#: libs/s25main/buildings/nobMilitary.cpp:854
+#: libs/s25main/buildings/nobMilitary.cpp:867
 msgid "Military building occupied"
 msgstr "Edifício militar ocupado"
 
@@ -2782,11 +2827,15 @@ msgstr "Moinho"
 msgid "Miller"
 msgstr "Moleiro"
 
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:16
+msgid "Mine No-Output Fallback"
+msgstr ""
+
 #: libs/s25main/gameData/JobConsts.cpp:30
 msgid "Miner"
 msgstr "Minerador"
 
-#: libs/s25main/addons/AddonInexhaustibleMines.h:18
+#: libs/s25main/addons/AddonInexhaustibleMines.h:24
 msgid "Mines will never be depleted."
 msgstr "As minas nunca serão esgotadas."
 
@@ -2954,11 +3003,11 @@ msgstr "Sem trabalho atual"
 msgid "No letters!"
 msgstr "Sem cartas!"
 
-#: libs/s25main/buildings/nobUsual.cpp:539
+#: libs/s25main/buildings/nobUsual.cpp:553
 msgid "No more fish in range"
 msgstr "Os peixes acabaram"
 
-#: libs/s25main/buildings/nobUsual.cpp:537
+#: libs/s25main/buildings/nobUsual.cpp:551
 msgid "No more stones in range"
 msgstr "As pedras acabaram"
 
@@ -3148,7 +3197,7 @@ msgstr "Mineral de saída"
 msgid "Overlay override idx %1% is invalid: Overlay %2% does not exist!\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:231
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:263
 msgid "Overwrite Preset"
 msgstr ""
 
@@ -3278,7 +3327,7 @@ msgstr ""
 msgid "Please enter a name for the game"
 msgstr "Por favor coloque um nome para o jogo"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:217
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:249
 msgid "Please enter a preset name."
 msgstr ""
 
@@ -3286,7 +3335,7 @@ msgstr ""
 msgid "Please enter a valid filename."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:221
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:253
 msgid "Please enter a valid preset name."
 msgstr ""
 
@@ -3305,19 +3354,10 @@ msgstr "Retrato:"
 msgid "Post office"
 msgstr "Correio"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:142
-#, fuzzy
-msgid "Preset '%1%' was not found."
-msgstr "O arquivo não foi encontrado!"
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:89
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:95
 #, fuzzy
 msgid "Preset Name"
 msgstr "Nome do Jogador"
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:141
-msgid "Preset Not Found"
-msgstr ""
 
 #: libs/s25main/addons/AddonForesterFarmFieldAvoidance.h:16
 msgid "Prevents foresters from planting trees on spots that own farms could use for new fields."
@@ -3339,7 +3379,27 @@ msgstr "Private first class"
 msgid "Privatefc (1)"
 msgstr "Soldado (1)"
 
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:19
+#, fuzzy
+msgid "Produce granite 100%"
+msgstr "Produzir ferramenta aleatória"
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:18
+#, fuzzy
+msgid "Produce granite 25%"
+msgstr "Produzir ferramenta aleatória"
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:18
+#, fuzzy
+msgid "Produce granite 50%"
+msgstr "Produzir ferramenta aleatória"
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:19
+msgid "Produce lower grade resource"
+msgstr ""
+
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:20
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:18
 msgid "Produce nothing"
 msgstr "Não produzir nada"
 
@@ -3480,6 +3540,10 @@ msgstr "Recebimento de moedas está desativado por padrão em construções mili
 msgid "Reduce reoccupying troops accordingly"
 msgstr "Reduzir reocupação das tropas"
 
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:19
+msgid "Reduced search range (0.5x)"
+msgstr ""
+
 #: libs/s25main/addons/AddonRefundMaterials.h:21
 msgid "Refund 25%"
 msgstr "Reembolso de 25%"
@@ -3526,7 +3590,7 @@ msgid ""
 "Minimize by double-clicking the title bar."
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1475
+#: libs/s25main/network/GameClient.cpp:1477
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr "O arquivo de replay não pôde ser aberto. O replay não será gravado.\n"
 
@@ -3594,6 +3658,10 @@ msgstr "RttR Crashou. Você gostaria de enviar os dados para ajudar o RttR a evi
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
 msgstr "RttR agora suporta o envio de dados sobre bugs.Você gostaria de ajudar  a melhorar o jogo enviando dados sobre bugs?"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
+msgid "S4-like exhaustion"
+msgstr ""
+
 #: libs/s25main/network/GameServer.cpp:757
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
 msgstr "SERVIDOR: no GF %1%: velocidade alterada de %2% para %3%. NWF %4%\n"
@@ -3619,18 +3687,18 @@ msgstr "SERVIDOR: slot reservado %1% liberado devido a tempo esgotado\n"
 msgid "SYSTEM"
 msgstr "SISTEMA"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:208
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:49
 #, fuzzy
 msgid "Save"
 msgstr "Salvamento Automático"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:208
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:50
 msgid "Save Addon Preset"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:258
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:290
 #, fuzzy
 msgid "Save Failed"
 msgstr "Salvar Jogo!"
@@ -3648,11 +3716,11 @@ msgstr "Salvar Jogo!"
 msgid "Save playlist"
 msgstr "Salvar lista de reprodução"
 
-#: libs/s25main/Replay.cpp:242 libs/s25main/Replay.cpp:300
+#: libs/s25main/Replay.cpp:243 libs/s25main/Replay.cpp:301
 msgid "Savegame error: "
 msgstr "Erro ao salvar jogo: "
 
-#: libs/s25main/network/GameClient.cpp:1715
+#: libs/s25main/network/GameClient.cpp:1717
 msgid "Saving game..."
 msgstr "Salvando o jogo"
 
@@ -4034,6 +4102,10 @@ msgstr "Parar de armazenar"
 msgid "Storehouse"
 msgstr "Armazém"
 
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:15
+msgid "Stranded soldier return search"
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwAction.cpp:388
 msgid "Strong attackers"
 msgstr "Atacantes fortes"
@@ -4139,13 +4211,9 @@ msgid "The %s between player '%s' and you has been concluded."
 msgstr "O %s entre o jogador '%s' e você foi concluído."
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1227
-#: libs/s25main/network/GameClient.cpp:867
+#: libs/s25main/network/GameClient.cpp:869
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "O jogo não está sincronizado. Checksum de algum(ns) do(s) jogador(es) está incorreto."
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:81
-msgid "The addon presets folder could not be created. Saving and loading addon presets is unavailable."
-msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:224
 msgid "The armory produces swords and strong shields. This equipment is vital for your soldiers."
@@ -4273,7 +4341,7 @@ msgstr "A extração de pedra em uma mina de granito garante o fornecimento de p
 msgid "The selected game was not found anymore."
 msgstr "O jogo selecionado não foi mais encontrado."
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:293
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:326
 msgid "The selected preset could not be loaded. The file may be corrupted or have an invalid format."
 msgstr ""
 
@@ -4356,11 +4424,11 @@ msgstr "Este porto foi destruído"
 msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
 msgstr "Aqui você pode realizar ajustes de todos os aspectos militares. A primeira escala indica a taxa de recrutamento do seu exército. Quanto mais alto, mais habitantes são recrutados como soldados. Abaixo dessa, está a proteção das suas construções. Se esse valor é definido ao máximo, suas construções serão defendidas pela unidade mais forte. Para aumentar o número de atacantes deixando suas cabanas por ataque, ajuste a próxima configuração. O número de defensores que contra-atacam o inimigo em caso de ataque é mostrado na quarta escala. As últimas três configurações determinam a ocupação das construções militares no interior, no meio e nas fronteiras do império."
 
-#: libs/s25main/buildings/nobUsual.cpp:535
+#: libs/s25main/buildings/nobUsual.cpp:549
 msgid "This mine is exhausted"
 msgstr "Uma mina ficou esgotada"
 
-#: libs/s25main/buildings/nobUsual.cpp:533
+#: libs/s25main/buildings/nobUsual.cpp:547
 msgid "This well has dried out"
 msgstr "Este poço secou"
 
@@ -4493,7 +4561,7 @@ msgstr "Tipo de mapa dinâmico inesperado"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:105
-#: libs/s25main/network/GameClient.cpp:1489
+#: libs/s25main/network/GameClient.cpp:1491
 msgid "Unknown"
 msgstr "Desconhecido"
 
@@ -4596,7 +4664,7 @@ msgstr "Verificando informações do servidor..."
 msgid "Version"
 msgstr "Versão"
 
-#: libs/s25main/network/GameClient.cpp:718
+#: libs/s25main/network/GameClient.cpp:720
 msgid "Version mismatch. Server version: %1%, your version %2%"
 msgstr "Incompatibilidade entre versões. Versão do servidor: %1%, sua versão %2%"
 
@@ -4620,6 +4688,10 @@ msgstr "Muito distante"
 #: libs/s25main/desktops/dskGameLobby.cpp:272
 msgid "Very fast"
 msgstr "Muito rápido"
+
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:21
+msgid "Very large search range (4x)"
+msgstr ""
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:34
 msgid "Very long"
@@ -4784,6 +4856,10 @@ msgstr "Lenhador"
 msgid "Woodcutter"
 msgstr "Lenhador"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
+msgid "Work everywhere"
+msgstr ""
+
 #: libs/s25main/desktops/dskGameLoader.cpp:120
 msgid "World was put together and glued..."
 msgstr "O mundo foi juntado e colado..."
@@ -4884,7 +4960,7 @@ msgstr "Você precisa reiniciar seu jogo para mudar a resolução da tela!"
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "Você precisa reiniciar seu jogo para mudar o driver de áudio ou vídeo!"
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:392
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:393
 msgid "You win"
 msgstr "Você venceu"
 
@@ -4908,7 +4984,7 @@ msgstr "Todos os desenvolvedores que contribuíram pelo GitHub"
 msgid "by GameFrames:"
 msgstr "para GameFrame:"
 
-#: libs/s25main/network/GameClient.cpp:1682
+#: libs/s25main/network/GameClient.cpp:1684
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
@@ -4980,3 +5056,17 @@ msgstr "Mundo do inverno"
 #: libs/s25main/ingameWindows/iwWares.cpp:225
 msgid "with armor)"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Addon Presets Unavailable"
+#~ msgstr "Nenhum barco disponível"
+
+#~ msgid "Granite mines will never be depleted."
+#~ msgstr "As minas de granito nunca serão esgotadas."
+
+#~ msgid "Inexhaustible Granite Mines"
+#~ msgstr "Minas de granito inesgotáveis"
+
+#, fuzzy
+#~ msgid "Preset '%1%' was not found."
+#~ msgstr "O arquivo não foi encontrado!"

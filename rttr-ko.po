@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 13:28+0200\n"
+"POT-Creation-Date: 2026-10-08 14:58+0200\n"
 "PO-Revision-Date: 2026-05-05 10:45+0000\n"
 "Last-Translator: T. H. Kim <Unknown>\n"
 "Language-Team: Korean <ko@li.org>\n"
@@ -124,7 +124,7 @@ msgid "(1 soldier)"
 msgstr "(군인 1명)"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:92
-#: libs/s25main/ingameWindows/iwBuilding.cpp:188
+#: libs/s25main/ingameWindows/iwBuilding.cpp:189
 #: libs/s25main/world/GameWorldView.cpp:427
 msgid "(House unoccupied)"
 msgstr "(미점유 건물)"
@@ -287,7 +287,7 @@ msgstr ""
 msgid "A auto-savegame is created..."
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1527
+#: libs/s25main/buildings/nobMilitary.cpp:1540
 msgid "A catapult is firing upon us!"
 msgstr ""
 
@@ -303,7 +303,7 @@ msgstr "많음"
 msgid "A new ship is ready"
 msgstr "새 배 완성"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:232
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:264
 msgid "A preset named '%1%' already exists. Do you want to overwrite it?"
 msgstr ""
 
@@ -401,15 +401,10 @@ msgstr "추가 기능:"
 msgid "Additional graphics"
 msgstr "추가 그래픽"
 
-#: libs/s25main/GlobalGameSettings.cpp:258
+#: libs/s25main/GlobalGameSettings.cpp:322
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr "%1$#x 추가기능을 찾을 수 없습니다!\n"
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:80
-#, fuzzy
-msgid "Addon Presets Unavailable"
-msgstr "이용할 수 있는 배가 없습니다"
 
 #: libs/s25main/ingameWindows/iwAddons.cpp:40
 msgid "Addon Settings"
@@ -556,7 +551,7 @@ msgstr "모든 문제있는 리플레이를 삭제하시겠습니까?"
 msgid "Are you sure to remove all replays?"
 msgstr "모든 리플레이를 삭제하시겠습니까?"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:179
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
 #, fuzzy
 msgid "Are you sure you want to delete preset '%1%'?"
 msgstr "선택한 리플레이를 삭제하시겠습니까?"
@@ -616,7 +611,7 @@ msgstr ""
 msgid "Async log saved at %1%\n"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:883
+#: libs/s25main/network/GameClient.cpp:885
 msgid ""
 "Async log saved at %1%,\n"
 "game saved at %2%\n"
@@ -657,8 +652,8 @@ msgstr "제작자"
 msgid "Auto (%u%%)"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1412
 #: libs/s25main/network/GameClient.cpp:1414
+#: libs/s25main/network/GameClient.cpp:1416
 msgid "Auto-Save"
 msgstr ""
 
@@ -877,11 +872,11 @@ msgstr ""
 msgid "Cannot deserialize event manager when there are still events active!"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:231
+#: libs/s25main/Replay.cpp:232
 msgid "Cannot play replay created with a more recent GC version (Current: %1%, Replay: %2%)"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:219
+#: libs/s25main/Replay.cpp:220
 msgid "Cannot play replay created with a more recent version (Current: %1%, Replay: %2%)"
 msgstr ""
 
@@ -1012,6 +1007,10 @@ msgstr "닫힘"
 msgid "Coal"
 msgstr "석탄"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:42
+msgid "Coal Mine Resource Behavior"
+msgstr ""
+
 #: libs/s25main/gameData/BuildingConsts.cpp:21
 msgid "Coal mine"
 msgstr "석탄 광산"
@@ -1028,6 +1027,10 @@ msgstr "금화"
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:17
 msgid "Coins on captured buildings"
 msgstr "점령한 건물의 금화"
+
+#: libs/s25main/addons/AddonSingleSoldierCoinTraining.h:14
+msgid "Coins train only one soldier"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:61
 msgid "Collect"
@@ -1049,6 +1052,26 @@ msgstr ""
 #, c-format
 msgid "Computer %u"
 msgstr "컴퓨터 %u"
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:43
+msgid "Configures how coal mines consume and exhaust coal deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:61
+msgid "Configures how gold mines consume and exhaust gold deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:34
+msgid "Configures how granite mines consume and exhaust stone deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineResourceBehavior.h:52
+msgid "Configures how iron mines consume and exhaust iron deposits."
+msgstr ""
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:17
+msgid "Configures what mines produce when S4-like exhaustion would produce nothing."
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:240
 msgid "Confirm"
@@ -1115,6 +1138,10 @@ msgstr ""
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:222
 msgid "Contract type:"
 msgstr "협약 유형:"
+
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:16
+msgid "Controls the search radius used by stranded soldiers when looking for a way back to a warehouse."
+msgstr ""
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:27
 msgid "Convert to coal"
@@ -1188,6 +1215,7 @@ msgstr "산 속 깊은 곳에서 광부들은 철광석을 캐냅니다. 고된 
 #: libs/s25main/addons/AddonDurableGeologistSigns.h:22
 #: libs/s25main/addons/AddonForesterReachRadius.h:25
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:31
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
 #: libs/s25main/addons/AddonStonemasonReachRadius.h:27
 #: libs/s25main/addons/AddonWoodcutterReachRadius.h:25
 #: libs/s25main/ingameWindows/iwAddons.cpp:53
@@ -1199,12 +1227,16 @@ msgstr "산 속 깊은 곳에서 광부들은 철광석을 캐냅니다. 고된 
 msgid "Default"
 msgstr "기본값"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:100
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:18
+msgid "Default search range (1x)"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:106
 #, fuzzy
 msgid "Delete"
 msgstr "모두 삭제"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:197
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
 #, fuzzy
 msgid "Delete Failed"
 msgstr "모두 삭제"
@@ -1214,7 +1246,7 @@ msgstr "모두 삭제"
 msgid "Delete Invalid (%u)"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:179
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
 #, fuzzy
 msgid "Delete Preset"
 msgstr "선택 항목 삭제"
@@ -1313,7 +1345,7 @@ msgstr "공격받고 있거나 국경 근처에 위치한 군사 건물의 철�
 msgid "Disabled"
 msgstr "사용 안 함"
 
-#: libs/s25main/network/GameClient.cpp:1881
+#: libs/s25main/network/GameClient.cpp:1883
 msgid "Disabled AI for current player"
 msgstr ""
 
@@ -1452,7 +1484,7 @@ msgstr "포도주 경제 활성화"
 msgid "Enable wine economy"
 msgstr "포도주 경제 활성화"
 
-#: libs/s25main/network/GameClient.cpp:1885
+#: libs/s25main/network/GameClient.cpp:1887
 msgid "Enabled AI for current player"
 msgstr ""
 
@@ -1531,25 +1563,25 @@ msgstr "에리크"
 msgid "Error"
 msgstr "오류"
 
-#: libs/s25main/network/GameClient.cpp:1548
+#: libs/s25main/network/GameClient.cpp:1550
 msgid "Error decompressing lua file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1539
+#: libs/s25main/network/GameClient.cpp:1541
 msgid "Error decompressing map file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1370
+#: libs/s25main/network/GameClient.cpp:1372
 msgid ""
 "Error during execution of lua script: %1\n"
 "Game stopped!"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1743
+#: libs/s25main/network/GameClient.cpp:1745
 msgid "Error during saving: "
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1565
+#: libs/s25main/network/GameClient.cpp:1567
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr ""
@@ -1611,7 +1643,11 @@ msgstr "탐험 원정"
 msgid "Exploration:"
 msgstr "지도 시야:"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:197
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:20
+msgid "Extended search range (2x)"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
 msgid "Failed to delete the selected preset."
 msgstr ""
 
@@ -1687,8 +1723,8 @@ msgstr ""
 msgid "Failed to save lua state!"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:258
-msgid "Failed to save the preset. Please check the filename and try again."
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:291
+msgid "Failed to save the preset. Check application logs for details."
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:81
@@ -1725,7 +1761,7 @@ msgstr "수비병 더 적게"
 msgid "Fewer recruits"
 msgstr "더 적은 모병"
 
-#: libs/s25main/Replay.cpp:201
+#: libs/s25main/Replay.cpp:202
 msgid "File could not be opened."
 msgstr ""
 
@@ -1962,6 +1998,14 @@ msgstr "목표:"
 msgid "Gold"
 msgstr "금"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:60
+msgid "Gold Mine Resource Behavior"
+msgstr ""
+
+#: libs/s25main/addons/AddonSingleSoldierCoinTraining.h:15
+msgid "Gold coins promote only one lowest-rank soldier instead of all eligible lower-rank soldiers."
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:69
 msgid "Gold delivery"
 msgstr "금화 전달"
@@ -1991,13 +2035,13 @@ msgstr "곡식"
 msgid "Grain and water are needed for rearing pigs. The meat thus obtained can then be processed by a butcher."
 msgstr "돼지를 키우려면 곡식과 물이 필요합니다. 이렇게 얻은 고기는 도축업자가 가공할 수 있습니다."
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:33
+msgid "Granite Mine Resource Behavior"
+msgstr ""
+
 #: libs/s25main/gameData/BuildingConsts.cpp:20
 msgid "Granite mine"
 msgstr "화강암 광산"
-
-#: libs/s25main/addons/AddonInexhaustibleGraniteMines.h:18
-msgid "Granite mines will never be depleted."
-msgstr "화강암 광산이 고갈되지 않을 것입니다."
 
 #: libs/s25main/ingameWindows/iwMapGenerator.cpp:103
 msgid "Granite:"
@@ -2072,7 +2116,7 @@ msgstr "짐꾼"
 msgid "Here you will find a list of your entire stores of merchandise and all the inhabitants of your realm."
 msgstr "여기서 당신이 축적한 모든 물품과 왕국의 모든 주민의 목록을 볼 수 있습니다."
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:239
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:240
 msgid "Hi, I'm an artifical player and I'm not very good yet!"
 msgstr "안녕하세요, 저는 인공지능 플레이어인데 아직 실력이 그렇게 좋지는 않아요!"
 
@@ -2151,6 +2195,7 @@ msgid "Increase the radius in which the woodcutter searches for trees."
 msgstr ""
 
 #: libs/s25main/addons/AddonExhaustibleWater.h:21
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
 msgid "Inexhaustible"
 msgstr "고갈되지 않음"
 
@@ -2158,11 +2203,7 @@ msgstr "고갈되지 않음"
 msgid "Inexhaustible Fish"
 msgstr "물고기가 고갈되지 않음"
 
-#: libs/s25main/addons/AddonInexhaustibleGraniteMines.h:17
-msgid "Inexhaustible Granite Mines"
-msgstr "화강암 광산이 고갈되지 않음"
-
-#: libs/s25main/addons/AddonInexhaustibleMines.h:17
+#: libs/s25main/addons/AddonInexhaustibleMines.h:23
 msgid "Inexhaustible Mines"
 msgstr "광산이 고갈되지 않음"
 
@@ -2205,13 +2246,13 @@ msgstr ""
 msgid "Invalid Filename"
 msgstr "파일 이름"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:217
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:221
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:249
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:253
 msgid "Invalid Name"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1488
+#: libs/s25main/network/GameClient.cpp:1490
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr ""
 
@@ -2258,6 +2299,10 @@ msgstr "잘못된 포트. 가능한 포트-범위는 1~65535이내!"
 msgid "Iron"
 msgstr "철"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:51
+msgid "Iron Mine Resource Behavior"
+msgstr ""
+
 #: libs/s25main/gameData/JobConsts.cpp:34
 msgid "Iron founder"
 msgstr "철 제련공"
@@ -2303,7 +2348,7 @@ msgstr "게임 참가"
 msgid "Julius"
 msgstr "율리우스"
 
-#: libs/s25main/network/GameClient.cpp:1696
+#: libs/s25main/network/GameClient.cpp:1698
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr "건너뛰기 완료 (%1$.3g 초)."
@@ -2434,7 +2479,7 @@ msgstr ""
 "망루: 2\n"
 "요새: 1"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:279
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:312
 #: libs/s25main/ingameWindows/iwAddons.cpp:51
 #, fuzzy
 msgid "Load"
@@ -2444,12 +2489,12 @@ msgstr "게임 불러오기"
 msgid "Load 'ReadMe' file"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:279
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:312
 #: libs/s25main/ingameWindows/iwAddons.cpp:52
 msgid "Load Addon Preset"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:292
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:325
 #, fuzzy
 msgid "Load Failed"
 msgstr "게임 불러오기"
@@ -2740,7 +2785,7 @@ msgstr "병사 제어"
 msgid "Military Hitpoints"
 msgstr "군인 체력"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1161
+#: libs/s25main/buildings/nobMilitary.cpp:1174
 msgid "Military building captured"
 msgstr "군사 건물 점령"
 
@@ -2748,11 +2793,11 @@ msgstr "군사 건물 점령"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr "공격이 영구적으로 불가능한 군사 건물은 후방 영역으로 간주됩니다. (바다, 용암 등 지형으로 인해 경로가 차단된 경우)"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1158
+#: libs/s25main/buildings/nobMilitary.cpp:1171
 msgid "Military building lost"
 msgstr "군사 건물 상실"
 
-#: libs/s25main/buildings/nobMilitary.cpp:854
+#: libs/s25main/buildings/nobMilitary.cpp:867
 msgid "Military building occupied"
 msgstr "군사 건물 점유"
 
@@ -2769,11 +2814,15 @@ msgstr "방앗간"
 msgid "Miller"
 msgstr "방앗간 주인"
 
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:16
+msgid "Mine No-Output Fallback"
+msgstr ""
+
 #: libs/s25main/gameData/JobConsts.cpp:30
 msgid "Miner"
 msgstr "광부"
 
-#: libs/s25main/addons/AddonInexhaustibleMines.h:18
+#: libs/s25main/addons/AddonInexhaustibleMines.h:24
 msgid "Mines will never be depleted."
 msgstr "광산이 고갈되지 않을 것입니다."
 
@@ -2941,11 +2990,11 @@ msgstr ""
 msgid "No letters!"
 msgstr "편지 없음!"
 
-#: libs/s25main/buildings/nobUsual.cpp:539
+#: libs/s25main/buildings/nobUsual.cpp:553
 msgid "No more fish in range"
 msgstr "물고기 고갈"
 
-#: libs/s25main/buildings/nobUsual.cpp:537
+#: libs/s25main/buildings/nobUsual.cpp:551
 msgid "No more stones in range"
 msgstr "석재 고갈"
 
@@ -3135,7 +3184,7 @@ msgstr ""
 msgid "Overlay override idx %1% is invalid: Overlay %2% does not exist!\n"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:231
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:263
 msgid "Overwrite Preset"
 msgstr ""
 
@@ -3265,7 +3314,7 @@ msgstr ""
 msgid "Please enter a name for the game"
 msgstr "게임 이름을 입력해주세요"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:217
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:249
 msgid "Please enter a preset name."
 msgstr ""
 
@@ -3273,7 +3322,7 @@ msgstr ""
 msgid "Please enter a valid filename."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:221
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:253
 msgid "Please enter a valid preset name."
 msgstr ""
 
@@ -3292,18 +3341,10 @@ msgstr "초상화:"
 msgid "Post office"
 msgstr "우체국"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:142
-msgid "Preset '%1%' was not found."
-msgstr ""
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:89
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:95
 #, fuzzy
 msgid "Preset Name"
 msgstr "플레이어 이름"
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:141
-msgid "Preset Not Found"
-msgstr ""
 
 #: libs/s25main/addons/AddonForesterFarmFieldAvoidance.h:16
 msgid "Prevents foresters from planting trees on spots that own farms could use for new fields."
@@ -3325,7 +3366,27 @@ msgstr "일등병"
 msgid "Privatefc (1)"
 msgstr "일등병 (1)"
 
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:19
+#, fuzzy
+msgid "Produce granite 100%"
+msgstr "랜덤 도구 생산"
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:18
+#, fuzzy
+msgid "Produce granite 25%"
+msgstr "랜덤 도구 생산"
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:18
+#, fuzzy
+msgid "Produce granite 50%"
+msgstr "랜덤 도구 생산"
+
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:19
+msgid "Produce lower grade resource"
+msgstr ""
+
 #: libs/s25main/addons/AddonMetalworksBehaviorOnZero.h:20
+#: libs/s25main/addons/AddonMineNoOutputFallback.h:18
 msgid "Produce nothing"
 msgstr "아무 것도 생산하지 않음"
 
@@ -3466,6 +3527,10 @@ msgstr "군사 건물에 금화 반입 차단을 기본값으로 합니다."
 msgid "Reduce reoccupying troops accordingly"
 msgstr ""
 
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:19
+msgid "Reduced search range (0.5x)"
+msgstr ""
+
 #: libs/s25main/addons/AddonRefundMaterials.h:21
 msgid "Refund 25%"
 msgstr "25% 돌려받음"
@@ -3512,7 +3577,7 @@ msgid ""
 "Minimize by double-clicking the title bar."
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1475
+#: libs/s25main/network/GameClient.cpp:1477
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr ""
 
@@ -3580,6 +3645,10 @@ msgstr "RttR이 중단되었습니다. 향후 같은 중단 상황 발생을 방
 msgid "RttR now supports sending debug data. Would you like to help us improving this game by sending debug data?"
 msgstr "RttR이 이제 디버그 데이터 전송을 지원합니다. 디버그 데이터를 전송해주셔서 게임 개선에 도움을 주시겠습니까?"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
+msgid "S4-like exhaustion"
+msgstr ""
+
 #: libs/s25main/network/GameServer.cpp:757
 msgid "SERVER: At GF %1%: Speed changed from %2% to %3%. NWF %4%\n"
 msgstr ""
@@ -3605,17 +3674,17 @@ msgstr ""
 msgid "SYSTEM"
 msgstr "시스템"
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:208
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:49
 msgid "Save"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:208
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:50
 msgid "Save Addon Preset"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:258
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:290
 #, fuzzy
 msgid "Save Failed"
 msgstr "게임 저장!"
@@ -3633,11 +3702,11 @@ msgstr "게임 저장!"
 msgid "Save playlist"
 msgstr ""
 
-#: libs/s25main/Replay.cpp:242 libs/s25main/Replay.cpp:300
+#: libs/s25main/Replay.cpp:243 libs/s25main/Replay.cpp:301
 msgid "Savegame error: "
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1715
+#: libs/s25main/network/GameClient.cpp:1717
 msgid "Saving game..."
 msgstr ""
 
@@ -4019,6 +4088,10 @@ msgstr "저장 중지"
 msgid "Storehouse"
 msgstr "창고"
 
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:15
+msgid "Stranded soldier return search"
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwAction.cpp:388
 msgid "Strong attackers"
 msgstr "강한 병사부터 공격"
@@ -4124,12 +4197,8 @@ msgid "The %s between player '%s' and you has been concluded."
 msgstr "%s 체결 - 플레이어 '%s' 님"
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1227
-#: libs/s25main/network/GameClient.cpp:867
+#: libs/s25main/network/GameClient.cpp:869
 msgid "The Game is not in sync. Checksums of some players don't match."
-msgstr ""
-
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:81
-msgid "The addon presets folder could not be created. Saving and loading addon presets is unavailable."
 msgstr ""
 
 #: libs/s25main/gameData/BuildingConsts.cpp:224
@@ -4258,7 +4327,7 @@ msgstr "화강암 광산에서 석재를 캐는 것은 건축에 쓰일 석재 �
 msgid "The selected game was not found anymore."
 msgstr "선택한 게임을 더 이상 찾을 수 없습니다."
 
-#: libs/s25main/ingameWindows/iwAddonPresets.cpp:293
+#: libs/s25main/ingameWindows/iwAddonPresets.cpp:326
 msgid "The selected preset could not be loaded. The file may be corrupted or have an invalid format."
 msgstr ""
 
@@ -4341,11 +4410,11 @@ msgstr "항구 건물 파괴됨"
 msgid "This is where you can make adjustments to all military matters. The upper value corresponds to the recruiting rate of your army. The higher it is, the more inhabitants are recruited as soldiers. Below this is the setting to protect your huts. If this value is set at maximum, your huts are defended by the strongest unit. To raise the number of attackers leaving your huts per attack, choose the next setting. The number of defenders who counter the enemy in the event of an attack is shown by the fourth display. The final three values correspond to the occupation of your huts in the interior, in the center of the country and on its borders."
 msgstr "여기서 모든 군사 관련 사항을 조정할 수 있습니다. 상단 값은 군대 모병률을 나타냅니다. 수치가 높을수록 더 많은 주민이 병사로 차출됩니다. 그 아래는 진지 방어 설정입니다. 이 값을 최대로 설정하면 가장 강력한 유닛이 진지를 방어합니다. 공격 시 진지에서 출동하는 공격병력 수를 늘리려면 다음 설정을 선택하십시오. 네 번째로는 공격 시 적에 맞서 싸우러 나갈 수비병 수가 표시됩니다. 마지막 세 값은 각각 후방, 영토 중간, 접경 지역 진지의 주둔 비율을 나타냅니다."
 
-#: libs/s25main/buildings/nobUsual.cpp:535
+#: libs/s25main/buildings/nobUsual.cpp:549
 msgid "This mine is exhausted"
 msgstr ""
 
-#: libs/s25main/buildings/nobUsual.cpp:533
+#: libs/s25main/buildings/nobUsual.cpp:547
 msgid "This well has dried out"
 msgstr ""
 
@@ -4478,7 +4547,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:105
-#: libs/s25main/network/GameClient.cpp:1489
+#: libs/s25main/network/GameClient.cpp:1491
 msgid "Unknown"
 msgstr ""
 
@@ -4581,7 +4650,7 @@ msgstr "서버 정보 검증 중..."
 msgid "Version"
 msgstr "버전"
 
-#: libs/s25main/network/GameClient.cpp:718
+#: libs/s25main/network/GameClient.cpp:720
 msgid "Version mismatch. Server version: %1%, your version %2%"
 msgstr ""
 
@@ -4605,6 +4674,10 @@ msgstr "매우 멈"
 #: libs/s25main/desktops/dskGameLobby.cpp:272
 msgid "Very fast"
 msgstr "매우 빠름"
+
+#: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:21
+msgid "Very large search range (4x)"
+msgstr ""
 
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:34
 msgid "Very long"
@@ -4766,6 +4839,10 @@ msgstr "나무꾼"
 msgid "Woodcutter"
 msgstr "나무꾼 오두막"
 
+#: libs/s25main/addons/AddonMineResourceBehavior.h:18
+msgid "Work everywhere"
+msgstr ""
+
 #: libs/s25main/desktops/dskGameLoader.cpp:120
 msgid "World was put together and glued..."
 msgstr "세계를 끼워맞추고 붙였습니다..."
@@ -4863,7 +4940,7 @@ msgstr "화면 해상도를 변경하려면 게임을 다시 시작해야 합니
 msgid "You need to restart your game to change the video or audio driver!"
 msgstr "비디오 또는 오디오 드라이버를 변경하려면 게임을 다시 시작해야 합니다!"
 
-#: libs/s25main/ai/aijh/AIPlayerJH.cpp:392
+#: libs/s25main/ai/aijh/AIPlayerJH.cpp:393
 msgid "You win"
 msgstr "당신이 이겼어요"
 
@@ -4887,7 +4964,7 @@ msgstr "Github을 통해 기여한 모든 개발자들"
 msgid "by GameFrames:"
 msgstr "건너뛸 게임프레임 단위:"
 
-#: libs/s25main/network/GameClient.cpp:1682
+#: libs/s25main/network/GameClient.cpp:1684
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "현재 GF: %u - 빨리감기 진행중: %d GF 남음 (%d %%)"
@@ -4959,3 +5036,13 @@ msgstr "설원"
 #: libs/s25main/ingameWindows/iwWares.cpp:225
 msgid "with armor)"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Addon Presets Unavailable"
+#~ msgstr "이용할 수 있는 배가 없습니다"
+
+#~ msgid "Granite mines will never be depleted."
+#~ msgstr "화강암 광산이 고갈되지 않을 것입니다."
+
+#~ msgid "Inexhaustible Granite Mines"
+#~ msgstr "화강암 광산이 고갈되지 않음"
