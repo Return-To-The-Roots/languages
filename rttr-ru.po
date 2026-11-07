@@ -761,9 +761,8 @@ msgstr "Пограничные районы"
 
 #: libs/s25main/desktops/dskOptions.cpp:340
 #: libs/s25main/ingameWindows/iwSettings.cpp:62
-#, fuzzy
 msgid "Borderless window"
-msgstr "Изменение размеров окна"
+msgstr "Окно без границ"
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
 #: libs/s25main/ingameWindows/iwTransport.cpp:58
@@ -1076,7 +1075,7 @@ msgstr "Определяет, как железные шахты расходу�
 #: libs/s25main/addons/AddonMineNoOutputFallback.h:17
 msgid "Configures what mines produce when S4-like exhaustion would produce nothing."
 msgstr ""
-"Определяет, что производят шахты, когда при истощении по образцу S4 не"
+"Определяет, что производят шахты, когда при истощении по образцу S4 не "
 "производится ничего."
 
 #: libs/s25main/ingameWindows/iwDiplomacy.cpp:240
@@ -1147,7 +1146,7 @@ msgstr "Тип контракта:"
 
 #: libs/s25main/addons/AddonStrandedSoldierReturnSearch.h:16
 msgid "Controls the search radius used by stranded soldiers when looking for a way back to a warehouse."
-msgstr ""
+msgstr "Определяет радиус поиска, используемый заблудившимися солдатами при поиске пути назад на склад."
 
 #: libs/s25main/addons/AddonChangeGoldDeposits.h:27
 msgid "Convert to coal"
@@ -1242,14 +1241,12 @@ msgid "Default search range (1x)"
 msgstr "Стандартный радиус поиска (1x)"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:106
-#, fuzzy
 msgid "Delete"
-msgstr "Удалить всё"
+msgstr "Удалить"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
-#, fuzzy
 msgid "Delete Failed"
-msgstr "Удалить всё"
+msgstr "Удаление не удалось"
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:133
 #, c-format
@@ -1257,9 +1254,8 @@ msgid "Delete Invalid (%u)"
 msgstr "Не возможно удалить (%u)"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
-#, fuzzy
 msgid "Delete Preset"
-msgstr "Удалить выбранные"
+msgstr "Удалить профиль"
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:81
 msgid "Delete all"
@@ -2017,7 +2013,7 @@ msgstr "Поведение ресурсов золотой шахты"
 #: libs/s25main/addons/AddonSingleSoldierCoinTraining.h:15
 msgid "Gold coins promote only one lowest-rank soldier instead of all eligible lower-rank soldiers."
 msgstr ""
-"Золотые монеты повышают только одного солдата низшего звания вместо всех"
+"Золотые монеты повышают только одного солдата низшего звания вместо всех "
 "подходящих солдат низшего звания."
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:69
@@ -3358,7 +3354,7 @@ msgstr "Имя профиля"
 #: libs/s25main/addons/AddonForesterFarmFieldAvoidance.h:16
 msgid "Prevents foresters from planting trees on spots that own farms could use for new fields."
 msgstr ""
-"Не позволяет лесникам сажать деревья в местах, которые фермы могли бы"
+"Не позволяет лесникам сажать деревья в местах, которые фермы могли бы "
 "использовать под новые поля."
 
 #: libs/s25main/gameData/JobConsts.cpp:40
@@ -3879,8 +3875,8 @@ msgstr "Реестр кораблей"
 #: libs/s25main/gameData/BuildingConsts.cpp:312
 msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also be prepared here. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr ""
-"Корабли загружаются и разгружаются только в порту. Здесь же готовятся"
-"экспедиции. Вы можете ограничить складирование в порту, если это необходимо"
+"Корабли загружаются и разгружаются только в порту. Здесь же готовятся "
+"экспедиции. Вы можете ограничить складирование в порту, если это необходимо "
 "— для этого выберите соответствующую иконку и нужный товар или профессию."
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:78
@@ -3942,8 +3938,8 @@ msgstr "Шкуры"
 #: libs/s25main/gameData/BuildingConsts.cpp:96
 msgid "Skins are gathered from animal carcasses by the skinner. They are sent to the tannery for leather production. The skinner can also be supplied with pigs for extra skins."
 msgstr ""
-"Скорняк снимает шкуры с туш животных. Они отправляются на кожевню для"
-"производства кожи. Скорняку также можно доставлять свиней для получения"
+"Скорняк снимает шкуры с туш животных. Они отправляются на кожевню для "
+"производства кожи. Скорняку также можно доставлять свиней для получения "
 "дополнительных шкур."
 
 #: libs/s25main/ingameWindows/iwSkipGFs.cpp:34
@@ -4297,9 +4293,9 @@ msgstr "Штаб-квартира представляет собой центр
 #: libs/s25main/gameData/BuildingConsts.cpp:178
 msgid "The leatherworker crafts armor from finely tanned leather. The armor is then transported to military buildings to bolster your soldiers defense. An armored soldier can withstand an additional hit in battle and sometimes survives a catapult strike, but the armor is lost once struck."
 msgstr ""
-"Кожевник изготавливает броню из хорошо выделанной кожи. Затем броня"
-"доставляется в военные здания для усиления защиты ваших солдат."
-"Бронированный солдат выдерживает дополнительный удар в бою и иногда"
+"Кожевник изготавливает броню из хорошо выделанной кожи. Затем броня "
+"доставляется в военные здания для усиления защиты ваших солдат. "
+"Бронированный солдат выдерживает дополнительный удар в бою и иногда "
 "выживает при попадании катапульты, но броня теряется после первого удара."
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:113
@@ -4347,7 +4343,7 @@ msgstr "Выбранная игра больше не была найдена."
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:326
 msgid "The selected preset could not be loaded. The file may be corrupted or have an invalid format."
 msgstr ""
-"Не удалось загрузить выбранный профиль. Возможно, файл повреждён или имеет"
+"Не удалось загрузить выбранный профиль. Возможно, файл повреждён или имеет "
 "неверный формат."
 
 #: libs/s25main/desktops/dskOptions.cpp:699
@@ -4384,8 +4380,8 @@ msgstr "Склад может помочь укоротить длинные т�
 #: libs/s25main/gameData/BuildingConsts.cpp:133
 msgid "The tanner works animal skins to form leather. Before tanning; the skins are cured, scraped and stretched on wooden frames made from boards. Leather is used to produce armor at the leatherworks."
 msgstr ""
-"Кожевник обрабатывает шкуры животных, превращая их в кожу. Перед дублением"
-"шкуры вымачивают, соскабливают и натягивают на деревянные рамы из досок."
+"Кожевник обрабатывает шкуры животных, превращая их в кожу. Перед дублением "
+"шкуры вымачивают, соскабливают и натягивают на деревянные рамы из досок. "
 "Кожа используется для производства брони в кожевенной мастерской."
 
 #: libs/s25main/gameData/BuildingConsts.cpp:125
