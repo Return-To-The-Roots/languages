@@ -7,24 +7,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: s25rttr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-08 14:58+0200\n"
+"POT-Creation-Date: 2026-11-25 09:00+0100\n"
 "PO-Revision-Date: 2026-06-27 17:19+0000\n"
 "Last-Translator: Return To The Roots Team <sf-team@siedler25.de>\n"
 "Language-Team: Lao <lo@li.org>\n"
-"Language: \n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2026-09-30 14:16+0000\n"
 "X-Generator: Launchpad (build ad10a72802faca6d6a2802f2e3a89ba90e7214dd)\n"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:178
+#: libs/s25main/ingameWindows/iwAction.cpp:185
 msgid ""
 "\n"
 "Costs: "
 msgstr ""
 "\n"
 "ລາຄາ: "
+
+#: libs/s25main/ingameWindows/iwAction.cpp:183
+msgid ""
+"\n"
+"Range: %1% tiles"
+msgstr ""
 
 #: libs/s25main/GameManager.cpp:74
 msgid ""
@@ -62,11 +68,11 @@ msgstr " (ກຳລັງຫຼິ້ນ)"
 msgid " and "
 msgstr " ແລະ "
 
-#: libs/s25main/ingameWindows/iwAction.cpp:180
+#: libs/s25main/ingameWindows/iwAction.cpp:187
 msgid " boards"
 msgstr " ແຜ່ນໄມ້"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:185
+#: libs/s25main/ingameWindows/iwAction.cpp:192
 msgid " stones"
 msgstr " ຫີນ"
 
@@ -115,18 +121,18 @@ msgstr "%u/%u"
 msgid "'s Game"
 msgstr "ຂອງເກມ"
 
-#: libs/s25main/world/GameWorldView.cpp:454
+#: libs/s25main/world/GameWorldView.cpp:469
 #, c-format
 msgid "(%d soldiers)"
 msgstr "(ທະຫານ %d ຄົນ)"
 
-#: libs/s25main/world/GameWorldView.cpp:452
+#: libs/s25main/world/GameWorldView.cpp:467
 msgid "(1 soldier)"
 msgstr "(ທະຫານ 1 ຄົນ)"
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:92
 #: libs/s25main/ingameWindows/iwBuilding.cpp:189
-#: libs/s25main/world/GameWorldView.cpp:427
+#: libs/s25main/world/GameWorldView.cpp:442
 msgid "(House unoccupied)"
 msgstr "(ເຮືອນວ່າງ)"
 
@@ -135,7 +141,7 @@ msgstr "(ເຮືອນວ່າງ)"
 msgid "(Replay-Mode) Current GF: %u (End at: %u) / GF length: %u ms / NWF length: %u gf (%u ms)"
 msgstr "(ໂໝດຣີເພລ) GF ປັດຈຸບັນ: %u (ສິ້ນສຸດທີ່: %u) / ຄວາມຍາວ GF: %u ms / ຄວາມຍາວ NWF: %u gf (%u ms)"
 
-#: libs/s25main/world/GameWorldView.cpp:429
+#: libs/s25main/world/GameWorldView.cpp:444
 msgid "(stopped)"
 msgstr "(ຢຸດແລ້ວ)"
 
@@ -214,20 +220,20 @@ msgstr "-75%"
 msgid "-90%"
 msgstr "-90%"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:99
+#: libs/s25main/ingameWindows/iwAction.cpp:100
 msgid "-> Build castle"
 msgstr "-> ສ້າງປາສາດ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:86
-#: libs/s25main/ingameWindows/iwAction.cpp:97
+#: libs/s25main/ingameWindows/iwAction.cpp:87
+#: libs/s25main/ingameWindows/iwAction.cpp:98
 msgid "-> Build house"
 msgstr "-> ສ້າງເຮືອນ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:95
+#: libs/s25main/ingameWindows/iwAction.cpp:96
 msgid "-> Build hut"
 msgstr "-> ສ້າງຕູບ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:92
+#: libs/s25main/ingameWindows/iwAction.cpp:93
 msgid "-> Dig mines"
 msgstr "-> ຂຸດບໍ່ແຮ່"
 
@@ -288,11 +294,11 @@ msgstr "<%s> "
 msgid "A auto-savegame is created..."
 msgstr "ກຳລັງສ້າງໄຟລ໌ບັນທຶກເກມອັດຕະໂນມັດ..."
 
-#: libs/s25main/buildings/nobMilitary.cpp:1540
+#: libs/s25main/buildings/nobMilitary.cpp:1539
 msgid "A catapult is firing upon us!"
 msgstr "ເຄື່ອງຍິງຫີນກຳລັງຍິງໃສ່ພວກເຮົາ!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:167
+#: libs/s25main/gameData/BuildingConsts.cpp:169
 msgid "A gold mine allows you to prospect for valuable gold deposits. For this, it is necessary to ensure that the miners are provided with plenty of food."
 msgstr "ບໍ່ແຮ່ຄຳຊ່ວຍໃຫ້ທ່ານສາມາດຊອກຫາແຫຼ່ງຄຳທີ່ມີຄ່າ. ສຳລັບສິ່ງນີ້, ມັນຈຳເປັນຕ້ອງຮັບປະກັນວ່າຄົນງານບໍ່ແຮ່ຈະໄດ້ຮັບອາຫານຢ່າງຫຼວງຫຼາຍ."
 
@@ -300,7 +306,7 @@ msgstr "ບໍ່ແຮ່ຄຳຊ່ວຍໃຫ້ທ່ານສາມາດ
 msgid "A lot"
 msgstr "ຫຼາຍ"
 
-#: libs/s25main/nodeObjs/noShipBuildingSite.cpp:96
+#: libs/s25main/nodeObjs/noShipBuildingSite.cpp:95
 msgid "A new ship is ready"
 msgstr "ເຮືອລຳໃໝ່ພ້ອມແລ້ວ"
 
@@ -320,11 +326,11 @@ msgstr "ເຮືອໄດ້ໄປເຖິງຈຸດໝາຍປາຍທາ
 msgid "A ship is ready for an expedition."
 msgstr "ເຮືອພ້ອມສຳລັບການສຳຫຼວດແລ້ວ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:289
+#: libs/s25main/gameData/BuildingConsts.cpp:291
 msgid "A well supplies water to the bakery, brewery, donkey breeder and pig farm."
 msgstr "ນ້ຳສ້າງສະໜອງນ້ຳໃຫ້ໂຮງງານເຂົ້າໜົມປັງ, ໂຮງງານຜະລິດເບຍ, ຄົນລ້ຽງລາ ແລະ ຟາມໝູ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:191
+#: libs/s25main/gameData/BuildingConsts.cpp:193
 msgid "A woodcutter provides the sawmill with logs. A forester is able to replant the depleted forest."
 msgstr "ຄົນຕັດໄມ້ສະໜອງໄມ້ທ່ອນໃຫ້ໂຮງເລື່ອຍ. ຄົນປູກປ່າສາມາດປູກປ່າທີ່ເສື່ອມໂຊມຄືນໃໝ່ໄດ້."
 
@@ -359,7 +365,7 @@ msgstr "ເປີດໃຊ້ເມື່ອຖືກໂຈມຕີ"
 msgid "Active near frontiers"
 msgstr "ເປີດໃຊ້ໃກ້ເຂດຊາຍແດນ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:48
+#: libs/s25main/ingameWindows/iwAction.cpp:49
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:14
 msgid "Activity window"
 msgstr "ໜ້າຕ່າງກິດຈະກຳ"
@@ -402,7 +408,7 @@ msgstr "ຄຸນສົມບັດເພີ່ມເຕີມ:"
 msgid "Additional graphics"
 msgstr "ກາຟິກເພີ່ມເຕີມ"
 
-#: libs/s25main/GlobalGameSettings.cpp:322
+#: libs/s25main/GlobalGameSettings.cpp:324
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr "ບໍ່ພົບສ່ວນເສີມ %1$#x!\n"
@@ -438,9 +444,8 @@ msgstr ""
 "ເຕັມຮູບແບບ: ອະນຸຍາດໃຫ້ຜູ້ຫຼິ້ນຄວບຄຸມໃນແຕ່ລະອາຄານທະຫານວ່າຄວນມີທະຫານແຕ່ລະຍົດປະຈຳການຢູ່ຈຳນວນເທົ່າໃດ."
 
 #: libs/s25main/addons/AddonForesterReachRadius.h:23
-#, fuzzy
 msgid "Adjust forester's range"
-msgstr "ບໍ່ມີຫີນໃນໄລຍະ"
+msgstr ""
 
 #: libs/s25main/addons/AddonAdjustMilitaryStrength.h:29
 msgid "Adjust military strength"
@@ -505,9 +510,8 @@ msgid "Allows to build the charburner."
 msgstr "ອະນຸຍາດໃຫ້ສ້າງເຕົາເຜົາຖ່ານ."
 
 #: libs/s25main/addons/AddonLeather.h:18
-#, fuzzy
 msgid "Allows to build the leather economy buildings."
-msgstr "ອະນຸຍາດໃຫ້ສ້າງອາຄານເສດຖະກິດເຫຼົ້າແວງ."
+msgstr ""
 
 #: libs/s25main/addons/AddonWine.h:18
 msgid "Allows to build the wine economy buildings."
@@ -553,34 +557,30 @@ msgid "Are you sure to remove all replays?"
 msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຈະລົບຣີເພລທັງໝົດ?"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
-#, fuzzy
 msgid "Are you sure you want to delete preset '%1%'?"
-msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຈະລົບຣີເພລທີ່ເລືອກ?"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:153
 msgid "Are you sure you want to remove the selected replay?"
 msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຈະລົບຣີເພລທີ່ເລືອກ?"
 
 #: libs/s25main/gameData/GoodConsts.cpp:48
-#, fuzzy
 msgid "Armor"
-msgstr "ໂຮງເຮັດອາວຸດ"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwMilitaryBuilding.cpp:88
-#, fuzzy
 msgid "Armor delivery"
-msgstr "ການຈັດສົ່ງຄຳ"
+msgstr ""
 
 #: libs/s25main/addons/AddonArmorCapturedBld.h:17
-#, fuzzy
 msgid "Armor on captured buildings"
-msgstr "ຫຼຽນໃນອາຄານທີ່ຖືກຍຶດ"
+msgstr ""
 
 #: libs/s25main/gameData/JobConsts.cpp:37
 msgid "Armorer"
 msgstr "ຊ່າງເຮັດອາວຸດ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:34
+#: libs/s25main/gameData/BuildingConsts.cpp:36
 msgid "Armory"
 msgstr "ໂຮງເຮັດອາວຸດ"
 
@@ -616,7 +616,7 @@ msgstr "ການດີບັກແບບ Async (ຊ້າຫຼາຍ!)"
 msgid "Async log saved at %1%\n"
 msgstr "ບັນທຶກ Async ຖືກບັນທຶກທີ່ %1%\n"
 
-#: libs/s25main/network/GameClient.cpp:885
+#: libs/s25main/network/GameClient.cpp:869
 msgid ""
 "Async log saved at %1%,\n"
 "game saved at %2%\n"
@@ -628,20 +628,20 @@ msgstr ""
 msgid "Async logs received completely.\n"
 msgstr "ໄດ້ຮັບບັນທຶກ async ສົມບູນແລ້ວ.\n"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:120
+#: libs/s25main/gameData/BuildingConsts.cpp:122
 msgid "At the winery, grapes are stomped in a vat to produce wine. The vintner's wine is of high quality, worthy of sacrifice at the temple."
 msgstr "ຢູ່ໂຮງງານຜະລິດເຫຼົ້າແວງ, ໝາກອະງຸ່ນຈະຖືກຢຽບໃນຖັງເພື່ອຜະລິດເຫຼົ້າແວງ. ເຫຼົ້າແວງຂອງຜູ້ຜະລິດມີຄຸນນະພາບສູງ, ສົມຄວນແກ່ການເສຍສະຫຼະທີ່ວິຫານ."
 
-#: libs/s25main/ingameWindows/iwAction.cpp:372
+#: libs/s25main/ingameWindows/iwAction.cpp:395
 msgid "Attack not possible."
 msgstr "ບໍ່ສາມາດໂຈມຕີໄດ້."
 
-#: libs/s25main/ingameWindows/iwAction.cpp:286
-#: libs/s25main/ingameWindows/iwAction.cpp:294
+#: libs/s25main/ingameWindows/iwAction.cpp:309
+#: libs/s25main/ingameWindows/iwAction.cpp:317
 msgid "Attack options"
 msgstr "ຕົວເລືອກການໂຈມຕີ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:402
+#: libs/s25main/ingameWindows/iwAction.cpp:425
 msgid "Attack!"
 msgstr "ໂຈມຕີ!"
 
@@ -659,8 +659,8 @@ msgstr "ຜູ້ສ້າງ"
 msgid "Auto (%u%%)"
 msgstr "ອັດຕະໂນມັດ (%u%%)"
 
-#: libs/s25main/network/GameClient.cpp:1414
-#: libs/s25main/network/GameClient.cpp:1416
+#: libs/s25main/network/GameClient.cpp:1398
+#: libs/s25main/network/GameClient.cpp:1400
 msgid "Auto-Save"
 msgstr "ບັນທຶກອັດຕະໂນມັດ"
 
@@ -719,11 +719,11 @@ msgstr "ກັບຄືນ"
 msgid "Baker"
 msgstr "ຄົນອົບເຂົ້າໜົມ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:42
+#: libs/s25main/gameData/BuildingConsts.cpp:44
 msgid "Bakery"
 msgstr "ໂຮງງານເຂົ້າໜົມປັງ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:11
+#: libs/s25main/gameData/BuildingConsts.cpp:13
 msgid "Barracks"
 msgstr "ຄ້າຍທະຫານ"
 
@@ -765,9 +765,8 @@ msgstr "ເຂດຊາຍແດນ"
 
 #: libs/s25main/desktops/dskOptions.cpp:340
 #: libs/s25main/ingameWindows/iwSettings.cpp:62
-#, fuzzy
 msgid "Borderless window"
-msgstr "ປັບຂະໜາດໜ້າຕ່າງ"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwBuildOrder.cpp:49
 #: libs/s25main/ingameWindows/iwTransport.cpp:58
@@ -786,7 +785,7 @@ msgstr "ເຂົ້າຈີ່"
 msgid "Brewer"
 msgstr "ຜູ້ຜະລິດເບຍ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:33
+#: libs/s25main/gameData/BuildingConsts.cpp:35
 msgid "Brewery"
 msgstr "ໂຮງງານຜະລິດເບຍ"
 
@@ -794,19 +793,19 @@ msgstr "ໂຮງງານຜະລິດເບຍ"
 msgid "Brutus"
 msgstr "Brutus"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:309
-#: libs/s25main/ingameWindows/iwAction.cpp:311
+#: libs/s25main/ingameWindows/iwAction.cpp:332
+#: libs/s25main/ingameWindows/iwAction.cpp:334
 msgid "Build headquarters"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:211
-#: libs/s25main/ingameWindows/iwAction.cpp:223
-#: libs/s25main/ingameWindows/iwAction.cpp:237
-#: libs/s25main/ingameWindows/iwAction.cpp:243
+#: libs/s25main/ingameWindows/iwAction.cpp:234
+#: libs/s25main/ingameWindows/iwAction.cpp:246
+#: libs/s25main/ingameWindows/iwAction.cpp:260
+#: libs/s25main/ingameWindows/iwAction.cpp:266
 msgid "Build road"
 msgstr "ສ້າງຖະໜົນ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:225
+#: libs/s25main/ingameWindows/iwAction.cpp:248
 msgid "Build waterway"
 msgstr "ສ້າງທາງນ້ຳ"
 
@@ -834,8 +833,8 @@ msgstr "ຄົນຂ້າສັດ"
 msgid "COMP"
 msgstr "ຄອມ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:215
-#: libs/s25main/ingameWindows/iwAction.cpp:229
+#: libs/s25main/ingameWindows/iwAction.cpp:238
+#: libs/s25main/ingameWindows/iwAction.cpp:252
 msgid "Call in geologist"
 msgstr "ເອີ້ນນັກທໍລະນີສາດ"
 
@@ -891,7 +890,7 @@ msgstr "ບໍ່ສາມາດຫຼິ້ນຣີເພລທີ່ສ້າ
 msgid "Carpenter"
 msgstr "ຊ່າງໄມ້"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:26
+#: libs/s25main/gameData/BuildingConsts.cpp:28
 msgid "Catapult"
 msgstr "ເຄື່ອງຍິງກ້ອນຫີນ"
 
@@ -916,9 +915,8 @@ msgid "Change metalworks behavior on zero"
 msgstr "ປ່ຽນພຶດຕິກຳຂອງໂຮງງານໂລຫະເມື່ອເປັນສູນ"
 
 #: libs/s25main/addons/AddonArmorCapturedBld.h:18
-#, fuzzy
 msgid "Change the armor setting for captured military buildings."
-msgstr "ປ່ຽນການຕັ້ງຄ່າຫຼຽນສຳລັບອາຄານທະຫານທີ່ຖືກຍຶດ."
+msgstr ""
 
 #: libs/s25main/addons/AddonCoinsCapturedBld.h:18
 msgid "Change the coin setting for captured military buildings."
@@ -960,7 +958,7 @@ msgstr ""
 msgid "Changes the ship movement speed"
 msgstr "ປ່ຽນແປງຄວາມໄວໃນການເຄື່ອນທີ່ຂອງເຮືອ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:37
+#: libs/s25main/gameData/BuildingConsts.cpp:39
 #: libs/s25main/gameData/JobConsts.cpp:52
 msgid "Charburner"
 msgstr "ເຕົາເຜົາຖ່ານ"
@@ -1018,7 +1016,7 @@ msgstr "ຖ່ານຫີນ"
 msgid "Coal Mine Resource Behavior"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:21
+#: libs/s25main/gameData/BuildingConsts.cpp:23
 msgid "Coal mine"
 msgstr "ບໍ່ແຮ່ຖ່ານຫີນ"
 
@@ -1218,7 +1216,7 @@ msgstr ""
 "\n"
 "\"ພັນທະມິດ\" ໝາຍເຖິງສະມາຊິກໃນທີມ ແລະ ພັນທະມິດຕາມສົນທິສັນຍາ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:162
+#: libs/s25main/gameData/BuildingConsts.cpp:164
 msgid "Deep within the mountains, miners dig for iron ore. They will obviously need a lot of food for the strenuous work."
 msgstr "ເລິກເຂົ້າໄປໃນພູ, ຄົນງານບໍ່ແຮ່ຂຸດຄົ້ນແຮ່ເຫຼັກ. ແນ່ນອນວ່າພວກເຂົາຈະຕ້ອງການອາຫານຫຼາຍສຳລັບວຽກທີ່ໜັກໜ່ວງ."
 
@@ -1243,14 +1241,12 @@ msgid "Default search range (1x)"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:106
-#, fuzzy
 msgid "Delete"
-msgstr "ລົບທັງໝົດ"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:193
-#, fuzzy
 msgid "Delete Failed"
-msgstr "ລົບທັງໝົດ"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:133
 #, c-format
@@ -1258,9 +1254,8 @@ msgid "Delete Invalid (%u)"
 msgstr "ລົບສິ່ງທີ່ບໍ່ຖືກຕ້ອງ (%u)"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:175
-#, fuzzy
 msgid "Delete Preset"
-msgstr "ລົບສິ່ງທີ່ເລືອກ"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwMerchandiseStatistics.cpp:81
 msgid "Delete all"
@@ -1275,7 +1270,7 @@ msgstr "ລົບສິ່ງທີ່ເລືອກ"
 msgid "Demolish building when out of resources"
 msgstr "ທຳລາຍອາຄານເມື່ອຊັບພະຍາກອນໝົດ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:245
+#: libs/s25main/ingameWindows/iwAction.cpp:268
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:91
 #: libs/s25main/ingameWindows/iwBuilding.cpp:64
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
@@ -1315,8 +1310,8 @@ msgstr "ບັນທຶກປະຈຳວັນ"
 msgid "Difficulty"
 msgstr "ລະດັບຄວາມຍາກ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:272
-#: libs/s25main/ingameWindows/iwAction.cpp:281
+#: libs/s25main/ingameWindows/iwAction.cpp:295
+#: libs/s25main/ingameWindows/iwAction.cpp:304
 msgid "Dig up road"
 msgstr "ຂຸດຖະໜົນ"
 
@@ -1339,9 +1334,8 @@ msgid "Disable Demolition of military buildings"
 msgstr "ປິດການທຳລາຍອາຄານທະຫານ"
 
 #: libs/s25main/addons/AddonNoArmorDefault.h:17
-#, fuzzy
 msgid "Disable armor by default"
-msgstr "ປິດການໃຊ້ຫຼຽນເປັນຄ່າເລີ່ມຕົ້ນ"
+msgstr ""
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:17
 msgid "Disable coins by default"
@@ -1356,7 +1350,7 @@ msgstr "ປິດການທຳລາຍອາຄານທະຫານທີ່
 msgid "Disabled"
 msgstr "ປິດໃຊ້ງານ"
 
-#: libs/s25main/network/GameClient.cpp:1883
+#: libs/s25main/network/GameClient.cpp:1843
 msgid "Disabled AI for current player"
 msgstr ""
 
@@ -1364,7 +1358,7 @@ msgstr ""
 msgid "Disallow change"
 msgstr "ບໍ່ອະນຸຍາດໃຫ້ປ່ຽນ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:314
+#: libs/s25main/ingameWindows/iwAction.cpp:337
 msgid "Display options"
 msgstr "ຕົວເລືອກການສະແດງຜົນ"
 
@@ -1401,7 +1395,7 @@ msgstr "ຜູ້ບໍລິຈາກ"
 msgid "Donkey breeder"
 msgstr "ຄົນລ້ຽງລາ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:48
+#: libs/s25main/gameData/BuildingConsts.cpp:50
 msgid "Donkey breeding"
 msgstr "ຄອກປະສົມພັນລາ"
 
@@ -1487,15 +1481,14 @@ msgid "Enable charburner"
 msgstr "ເປີດໃຊ້ເຕົາເຜົາຖ່ານ"
 
 #: libs/s25main/addons/AddonLeather.h:17
-#, fuzzy
 msgid "Enable leather economy"
-msgstr "ເປີດໃຊ້ເສດຖະກິດເຫຼົ້າແວງ"
+msgstr ""
 
 #: libs/s25main/addons/AddonWine.h:17
 msgid "Enable wine economy"
 msgstr "ເປີດໃຊ້ເສດຖະກິດເຫຼົ້າແວງ"
 
-#: libs/s25main/network/GameClient.cpp:1887
+#: libs/s25main/network/GameClient.cpp:1847
 msgid "Enabled AI for current player"
 msgstr ""
 
@@ -1528,9 +1521,9 @@ msgstr "ທ່າເຮືອຂອງສັດຕູກີດຂວາງ"
 msgid "Enemy harbors don't block"
 msgstr "ທ່າເຮືອຂອງສັດຕູບໍ່ກີດຂວາງ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:204
-#: libs/s25main/ingameWindows/iwAction.cpp:254
-#: libs/s25main/ingameWindows/iwAction.cpp:266
+#: libs/s25main/ingameWindows/iwAction.cpp:227
+#: libs/s25main/ingameWindows/iwAction.cpp:277
+#: libs/s25main/ingameWindows/iwAction.cpp:289
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:27
 msgid "Erect flag"
 msgstr "ປັກທຸງ"
@@ -1574,15 +1567,15 @@ msgstr "Erik"
 msgid "Error"
 msgstr "ຂໍ້ຜິດພາດ"
 
-#: libs/s25main/network/GameClient.cpp:1550
+#: libs/s25main/network/GameClient.cpp:1534
 msgid "Error decompressing lua file"
 msgstr "ຂໍ້ຜິດພາດໃນການບີບອັດໄຟລ໌ lua"
 
-#: libs/s25main/network/GameClient.cpp:1541
+#: libs/s25main/network/GameClient.cpp:1525
 msgid "Error decompressing map file"
 msgstr "ຂໍ້ຜິດພາດໃນການບີບອັດໄຟລ໌ແຜນທີ່"
 
-#: libs/s25main/network/GameClient.cpp:1372
+#: libs/s25main/network/GameClient.cpp:1356
 msgid ""
 "Error during execution of lua script: %1%\n"
 "Game stopped!"
@@ -1590,11 +1583,11 @@ msgstr ""
 "ເກີດຂໍ້ຜິດພາດຂະນະປະມວນຜົນສະຄຣິບ lua: %1%\n"
 "ເກມຢຸດແລ້ວ!"
 
-#: libs/s25main/network/GameClient.cpp:1745
+#: libs/s25main/network/GameClient.cpp:1705
 msgid "Error during saving: "
 msgstr "ຂໍ້ຜິດພາດຂະນະບັນທຶກ: "
 
-#: libs/s25main/network/GameClient.cpp:1567
+#: libs/s25main/network/GameClient.cpp:1551
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr "ຂໍ້ຜິດພາດເມື່ອໂຫຼດເກມຈາກຣີເພລ: %s\n"
@@ -1746,7 +1739,7 @@ msgstr ""
 msgid "Far"
 msgstr "ໄກ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:47
+#: libs/s25main/gameData/BuildingConsts.cpp:49
 msgid "Farm"
 msgstr "ໄຮ່ນາ"
 
@@ -1813,7 +1806,7 @@ msgstr "ປາ"
 msgid "Fisher"
 msgstr "ຊາວປະມົງ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:28
+#: libs/s25main/gameData/BuildingConsts.cpp:30
 msgid "Fishery"
 msgstr "ເຮືອນຊາວປະມົງ"
 
@@ -1842,7 +1835,7 @@ msgstr "ອາຫານ"
 msgid "Foodstuff"
 msgstr "ອາຫານ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:30
+#: libs/s25main/gameData/BuildingConsts.cpp:32
 msgid "Forester"
 msgstr "ເຮືອນຄົນປູກປ່າ"
 
@@ -1850,11 +1843,15 @@ msgstr "ເຮືອນຄົນປູກປ່າ"
 msgid "Foresters avoid farm field spots"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:19
+#: libs/s25main/addons/AddonForesterHarborAvoidance.h:15
+msgid "Foresters avoid harbor spots"
+msgstr ""
+
+#: libs/s25main/gameData/BuildingConsts.cpp:21
 msgid "Fortress"
 msgstr "ປ້ອມປາການ"
 
-#: libs/s25main/figures/nofGeologist.cpp:437
+#: libs/s25main/figures/nofGeologist.cpp:436
 msgid "Found coal"
 msgstr "ພົບຖ່ານຫີນ"
 
@@ -1862,23 +1859,23 @@ msgstr "ພົບຖ່ານຫີນ"
 msgid "Found colony"
 msgstr "ພົບອານານິຄົມ"
 
-#: libs/s25main/figures/nofGeologist.cpp:436
+#: libs/s25main/figures/nofGeologist.cpp:435
 msgid "Found gold"
 msgstr "ພົບຄຳ"
 
-#: libs/s25main/figures/nofGeologist.cpp:438
+#: libs/s25main/figures/nofGeologist.cpp:437
 msgid "Found granite"
 msgstr "ພົບຫີນຊາຍ"
 
-#: libs/s25main/figures/nofGeologist.cpp:435
+#: libs/s25main/figures/nofGeologist.cpp:434
 msgid "Found iron ore"
 msgstr "ພົບແຮ່ເຫຼັກ"
 
-#: libs/s25main/figures/nofGeologist.cpp:439
+#: libs/s25main/figures/nofGeologist.cpp:438
 msgid "Found water"
 msgstr "ພົບນ້ຳ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:174
+#: libs/s25main/gameData/BuildingConsts.cpp:176
 msgid "From the lookout tower you can see far into previously unexplored lands."
 msgstr "ຈາກຫໍຄອຍ ທ່ານສາມາດເບິ່ງເຫັນໄກເຂົ້າໄປໃນດິນແດນທີ່ບໍ່ເຄີຍສຳຫຼວດມາກ່ອນ."
 
@@ -1976,7 +1973,7 @@ msgstr "ໄດ້ຮັບວັດສະດຸກໍ່ສ້າງຄືນເ
 msgid "Given map or replay (%1%) does not exist!"
 msgstr "ແຜນທີ່ ຫຼື ຣີເພລທີ່ໃຫ້ມາ (%1%) ບໍ່ມີຢູ່!"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:323
+#: libs/s25main/ingameWindows/iwAction.cpp:346
 msgid "Go to headquarters"
 msgstr "ໄປທີ່ສຳນັກງານໃຫຍ່"
 
@@ -2025,7 +2022,7 @@ msgstr ""
 msgid "Gold delivery"
 msgstr "ການຈັດສົ່ງຄຳ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:23
+#: libs/s25main/gameData/BuildingConsts.cpp:25
 msgid "Gold mine"
 msgstr "ບໍ່ແຮ່ຄຳ"
 
@@ -2046,7 +2043,7 @@ msgstr "ແຜນທີ່ຈະເຄື່ອນທີ່ໄປໃນທິດ
 msgid "Grain"
 msgstr "ເມັດພືດ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:246
+#: libs/s25main/gameData/BuildingConsts.cpp:248
 msgid "Grain and water are needed for rearing pigs. The meat thus obtained can then be processed by a butcher."
 msgstr "ເມັດພືດ ແລະ ນ້ຳແມ່ນຈຳເປັນສຳລັບການລ້ຽງໝູ. ຊີ້ນທີ່ໄດ້ຮັບຈາກນັ້ນສາມາດນຳໄປປຸງແຕ່ງໂດຍຄົນຂ້າສັດ."
 
@@ -2054,7 +2051,7 @@ msgstr "ເມັດພືດ ແລະ ນ້ຳແມ່ນຈຳເປັນ�
 msgid "Granite Mine Resource Behavior"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:20
+#: libs/s25main/gameData/BuildingConsts.cpp:22
 msgid "Granite mine"
 msgstr "ບໍ່ແຮ່ຫີນອ່ອນ"
 
@@ -2074,7 +2071,7 @@ msgstr "ກາຟິກ"
 msgid "Graphics Driver"
 msgstr "ໄດເວີກາຟິກ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:12
+#: libs/s25main/gameData/BuildingConsts.cpp:14
 msgid "Guardhouse"
 msgstr "ປ້ອມຍາມ"
 
@@ -2098,12 +2095,12 @@ msgstr "ແຮມ"
 msgid "Hammer"
 msgstr "ຄ້ອນ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:49
+#: libs/s25main/gameData/BuildingConsts.cpp:51
 #: libs/s25main/ingameWindows/iwHarborBuilding.cpp:16
 msgid "Harbor building"
 msgstr "ອາຄານທ່າເຮືອ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:10
+#: libs/s25main/gameData/BuildingConsts.cpp:12
 #: libs/s25main/ingameWindows/iwHQ.cpp:15
 msgid "Headquarters"
 msgstr "ສູນບັນຊາການ"
@@ -2143,11 +2140,11 @@ msgstr "ໂຮສ:"
 msgid "Hosting of game not possible"
 msgstr "ບໍ່ສາມາດສ້າງຫ້ອງເກມໄດ້"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:320
+#: libs/s25main/ingameWindows/iwAction.cpp:343
 msgid "House names"
 msgstr "ຊື່ເຮືອນ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:32
+#: libs/s25main/gameData/BuildingConsts.cpp:34
 msgid "Hunter"
 msgstr "ເຮືອນນາຍພານ"
 
@@ -2257,18 +2254,16 @@ msgstr "ເວີຊັນ API ບໍ່ຖືກຕ້ອງ!"
 
 #: libs/s25main/ingameWindows/iwSave.cpp:128
 #: libs/s25main/ingameWindows/iwSave.cpp:132
-#, fuzzy
 msgid "Invalid Filename"
-msgstr "ຊື່ໄຟລ໌"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:249
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:253
-#, fuzzy
 msgid "Invalid Name"
-msgstr "ຣີເພລບໍ່ຖືກຕ້ອງ!"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1490
+#: libs/s25main/network/GameClient.cpp:1474
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr "ຣີເພລບໍ່ຖືກຕ້ອງ %1%! ເຫດຜົນ: %2%\n"
 
@@ -2323,7 +2318,7 @@ msgstr ""
 msgid "Iron founder"
 msgstr "ຊ່າງຫຼໍ່ເຫຼັກ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:22
+#: libs/s25main/gameData/BuildingConsts.cpp:24
 msgid "Iron mine"
 msgstr "ບໍ່ແຮ່ເຫຼັກ"
 
@@ -2331,7 +2326,7 @@ msgstr "ບໍ່ແຮ່ເຫຼັກ"
 msgid "Iron ore"
 msgstr "ແຮ່ເຫຼັກ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:36
+#: libs/s25main/gameData/BuildingConsts.cpp:38
 msgid "Iron smelter"
 msgstr "ໂຮງຫຼອມເຫຼັກ"
 
@@ -2347,7 +2342,7 @@ msgstr "ແຮ່ເຫຼັກ"
 msgid "Islands"
 msgstr "ເກາະ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:293
+#: libs/s25main/gameData/BuildingConsts.cpp:295
 msgid "It is possible to build small rowing boats as well as huge cargo ships in a shipyard. The boards required for this are skillfully worked by shipwrights."
 msgstr "ມັນເປັນໄປໄດ້ທີ່ຈະສ້າງເຮືອພາຍຂະໜາດນ້ອຍເຊັ່ນດຽວກັນກັບເຮືອຂົນສົ່ງສິນຄ້າຂະໜາດໃຫຍ່ໃນອູ່ຕໍ່ເຮືອ. ແຜ່ນໄມ້ທີ່ຕ້ອງການສຳລັບສິ່ງນີ້ຖືກເຮັດວຽກຢ່າງຊຳນິຊຳນານໂດຍຊ່າງຕໍ່ເຮືອ."
 
@@ -2364,7 +2359,7 @@ msgstr "ເຂົ້າຮ່ວມເກມ"
 msgid "Julius"
 msgstr "Julius"
 
-#: libs/s25main/network/GameClient.cpp:1698
+#: libs/s25main/network/GameClient.cpp:1658
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr "ການກະໂດດສຳເລັດ (%1$.3g ວິນາທີ)."
@@ -2403,23 +2398,20 @@ msgid "Language:"
 msgstr "ພາສາ:"
 
 #: libs/s25main/gameData/GoodConsts.cpp:47
-#, fuzzy
 msgid "Leather"
-msgstr "ອື່ນໆ"
+msgstr ""
 
 #: libs/s25main/gameData/JobConsts.cpp:58
-#, fuzzy
 msgid "Leatherworker"
-msgstr "ຊ່າງໂລຫະ"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwTransport.cpp:71
 msgid "Leatherworking"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:25
-#, fuzzy
+#: libs/s25main/gameData/BuildingConsts.cpp:27
 msgid "Leatherworks"
-msgstr "ໂຮງງານໂລຫະ"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:54
 msgid "Length"
@@ -2430,7 +2422,7 @@ msgstr "ຄວາມຍາວ"
 msgid "Less"
 msgstr "ໜ້ອຍລົງ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:379
+#: libs/s25main/ingameWindows/iwAction.cpp:402
 #: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "Less attackers"
 msgstr "ຜູ້ໂຈມຕີນ້ອຍລົງ"
@@ -2497,9 +2489,8 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:312
 #: libs/s25main/ingameWindows/iwAddons.cpp:51
-#, fuzzy
 msgid "Load"
-msgstr "ໂຫຼດເກມ"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwOptionsWindow.cpp:96
 msgid "Load 'ReadMe' file"
@@ -2511,9 +2502,8 @@ msgid "Load Addon Preset"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:325
-#, fuzzy
 msgid "Load Failed"
-msgstr "ໂຫຼດເກມ"
+msgstr ""
 
 #: libs/s25main/desktops/dskSinglePlayer.cpp:41
 msgid "Load game"
@@ -2594,7 +2584,7 @@ msgstr "ໄລຍະຍາວ"
 msgid "Longer"
 msgstr "ຍາວກວ່າ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:24
+#: libs/s25main/gameData/BuildingConsts.cpp:26
 msgid "Lookout tower"
 msgstr "ຫໍຄອຍ"
 
@@ -2745,7 +2735,7 @@ msgstr "ຄວາມແຂງແກ່ງສູງສຸດ"
 msgid "Meat"
 msgstr "ຊີ້ນ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:216
+#: libs/s25main/gameData/BuildingConsts.cpp:218
 msgid "Meat the hunter acquires is used to feed the miners."
 msgstr "ຊີ້ນທີ່ນາຍພານຫາໄດ້ຈະຖືກນຳໃຊ້ເພື່ອລ້ຽງຄົນງານບໍ່ແຮ່."
 
@@ -2779,7 +2769,7 @@ msgstr "ຂໍ້ຄວາມ"
 msgid "Metalworker"
 msgstr "ຊ່າງໂລຫະ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:35
+#: libs/s25main/gameData/BuildingConsts.cpp:37
 msgid "Metalworks"
 msgstr "ໂຮງງານໂລຫະ"
 
@@ -2801,7 +2791,7 @@ msgstr "ການຄວບຄຸມກອງທັບ"
 msgid "Military Hitpoints"
 msgstr "ພະລັງຊີວິດຂອງກອງທັບ"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1174
+#: libs/s25main/buildings/nobMilitary.cpp:1173
 msgid "Military building captured"
 msgstr "ຍຶດອາຄານທະຫານໄດ້"
 
@@ -2809,11 +2799,11 @@ msgstr "ຍຶດອາຄານທະຫານໄດ້"
 msgid "Military building counts as interior if an attack is permanently impossible. (Path blocked by terrain like sea, lava, etc.)"
 msgstr "ອາຄານທະຫານຈະຖືກນັບເປັນເຂດພາຍໃນຫາກບໍ່ສາມາດໂຈມຕີໄດ້ຢ່າງຖາວອນ. (ເສັ້ນທາງຖືກກີດຂວາງໂດຍພູມິປະເທດເຊັ່ນ ທະເລ, ລາວາ, ແລະອື່ນໆ.)"
 
-#: libs/s25main/buildings/nobMilitary.cpp:1171
+#: libs/s25main/buildings/nobMilitary.cpp:1170
 msgid "Military building lost"
 msgstr "ສູນເສຍອາຄານທະຫານ"
 
-#: libs/s25main/buildings/nobMilitary.cpp:867
+#: libs/s25main/buildings/nobMilitary.cpp:866
 msgid "Military building occupied"
 msgstr "ອາຄານທະຫານຖືກຍຶດຄອງ"
 
@@ -2822,7 +2812,7 @@ msgstr "ອາຄານທະຫານຖືກຍຶດຄອງ"
 msgid "Military strength"
 msgstr "ຄວາມແຂງແກ່ນທາງທະຫານ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:41
+#: libs/s25main/gameData/BuildingConsts.cpp:43
 msgid "Mill"
 msgstr "ໂຮງສີເຂົ້າ"
 
@@ -2854,7 +2844,7 @@ msgstr "ການຄວບຄຸມໜ້ອຍສຸດ"
 msgid "Minimum strength"
 msgstr "ຄວາມແຂງແກ່ງຕໍ່າສຸດ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:44
+#: libs/s25main/gameData/BuildingConsts.cpp:46
 msgid "Mint"
 msgstr "ໂຮງຜະລິດຫຼຽນ"
 
@@ -2894,7 +2884,7 @@ msgstr "ແກ້ໄຂການເພີ່ມຄວາມແຂງແກ່ງ
 msgid "More"
 msgstr "ຫຼາຍຂຶ້ນ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:381
+#: libs/s25main/ingameWindows/iwAction.cpp:404
 #: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "More attackers"
 msgstr "ຜູ້ໂຈມຕີຫຼາຍຂຶ້ນ"
@@ -2962,7 +2952,7 @@ msgstr "ເຄືອຂ່າຍ/LAN"
 msgid "New building type:"
 msgstr "ປະເພດອາຄານໃໝ່:"
 
-#: libs/s25main/buildings/nobHarborBuilding.cpp:74
+#: libs/s25main/buildings/nobHarborBuilding.cpp:75
 msgid "New harbor building finished"
 msgstr "ສ້າງອາຄານທ່າເຮືອໃໝ່ສຳເລັດ"
 
@@ -3073,21 +3063,21 @@ msgstr "ໝາຍເຫດ: ການຕັ້ງຄ່າເກມຖືກປ�
 msgid "Nothing"
 msgstr "ບໍ່ມີຫຍັງ"
 
-#: libs/s25main/network/GameClientGF_Replay.cpp:97
-#, c-format
-msgid "Notice: Overall asynchronous frame count: %u"
-msgstr "ແຈ້ງການ: ຈຳນວນເຟຣມທີ່ບໍ່ກົງກັນທັງໝົດ: %u"
-
-#: libs/s25main/network/GameClientGF_Replay.cpp:83
+#: libs/s25main/network/GameClientGF_Replay.cpp:60
 #, c-format
 msgid "Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, AVG_FPS: %u)"
 msgstr "ແຈ້ງການ: ຣີເພລທີ່ຫຼິ້ນໄດ້ສິ້ນສຸດລົງແລ້ວ. (GF: %u, %d ຊມ %d ນທ %d ວ, TF: %u, AVG_FPS: %u)"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:326
+#: libs/s25main/network/GameClientGF_Replay.cpp:72
+#, c-format
+msgid "Notice: The replay was out of sync from GF %u on."
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAction.cpp:349
 msgid "Notify allies of this location"
 msgstr "ແຈ້ງພັນທະມິດກ່ຽວກັບສະຖານທີ່ນີ້"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:398
+#: libs/s25main/ingameWindows/iwAction.cpp:421
 msgid "Number of attackers"
 msgstr "ຈຳນວນຜູ້ໂຈມຕີ"
 
@@ -3109,7 +3099,7 @@ msgstr "ຕົກລົງ"
 msgid "OK\n"
 msgstr "ຕົກລົງ\n"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:318
+#: libs/s25main/ingameWindows/iwAction.cpp:341
 #: libs/s25main/ingameWindows/iwObservate.cpp:33
 msgid "Observation window"
 msgstr "ໜ້າຕ່າງສັງເກດການ"
@@ -3245,7 +3235,7 @@ msgstr "ຈົກ"
 msgid "Pig breeder"
 msgstr "ຄົນລ້ຽງໝູ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:38
+#: libs/s25main/gameData/BuildingConsts.cpp:40
 msgid "Pig farm"
 msgstr "ຟາມໝູ"
 
@@ -3358,9 +3348,12 @@ msgid "Post office"
 msgstr "ທີ່ທຳການໄປສະນີ"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:95
-#, fuzzy
 msgid "Preset Name"
-msgstr "ຊື່ຜູ້ຫຼິ້ນ"
+msgstr ""
+
+#: libs/s25main/addons/AddonForesterHarborAvoidance.h:16
+msgid "Prevents foresters from planting trees on spots that a harbor could be built on."
+msgstr ""
 
 #: libs/s25main/addons/AddonForesterFarmFieldAvoidance.h:16
 msgid "Prevents foresters from planting trees on spots that own farms could use for new fields."
@@ -3383,19 +3376,16 @@ msgid "Privatefc (1)"
 msgstr "ພົນທະຫານຊັ້ນໜຶ່ງ (1)"
 
 #: libs/s25main/addons/AddonMineNoOutputFallback.h:19
-#, fuzzy
 msgid "Produce granite 100%"
-msgstr "ຜະລິດສິນຄ້າແບບສຸ່ມ"
+msgstr ""
 
 #: libs/s25main/addons/AddonMineNoOutputFallback.h:18
-#, fuzzy
 msgid "Produce granite 25%"
-msgstr "ຜະລິດສິນຄ້າແບບສຸ່ມ"
+msgstr ""
 
 #: libs/s25main/addons/AddonMineNoOutputFallback.h:18
-#, fuzzy
 msgid "Produce granite 50%"
-msgstr "ຜະລິດສິນຄ້າແບບສຸ່ມ"
+msgstr ""
 
 #: libs/s25main/addons/AddonMineNoOutputFallback.h:19
 msgid "Produce lower grade resource"
@@ -3451,8 +3441,8 @@ msgstr "ເຊີບເວີພຣັອກຊີ:"
 msgid "Proxytyp:"
 msgstr "ປະເພດພຣັອກຊີ:"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:213
-#: libs/s25main/ingameWindows/iwAction.cpp:227
+#: libs/s25main/ingameWindows/iwAction.cpp:236
+#: libs/s25main/ingameWindows/iwAction.cpp:250
 msgid "Pull down flag"
 msgstr "ດຶງທຸງລົງ"
 
@@ -3466,7 +3456,7 @@ msgstr "ດຶງທຸງລົງ"
 msgid "Quality Assurance"
 msgstr "ການຮັບປະກັນຄຸນນະພາບ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:29
+#: libs/s25main/gameData/BuildingConsts.cpp:31
 msgid "Quarry"
 msgstr "ບໍ່ຫີນ"
 
@@ -3494,7 +3484,7 @@ msgstr "ຫຼິ້ນແບບສຸ່ມ"
 msgid "Random start locations"
 msgstr "ຕຳແໜ່ງເລີ່ມແບບສຸ່ມ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:233
+#: libs/s25main/gameData/BuildingConsts.cpp:235
 msgid "Raw iron ore is smelted in the iron smelters with the help of coal. The processed iron is then used to making weapons (in the Armory) and tools (in the metalworks)."
 msgstr "ແຮ່ເຫຼັກດິບຈະຖືກຫຼອມໃນໂຮງຫຼອມເຫຼັກດ້ວຍຄວາມຊ່ວຍເຫຼືອຂອງຖ່ານຫີນ. ເຫຼັກທີ່ປຸງແຕ່ງແລ້ວຈະຖືກນຳໃຊ້ເພື່ອເຮັດອາວຸດ (ໃນໂຮງເຮັດອາວຸດ) ແລະ ເຄື່ອງມື (ໃນໂຮງງານໂລຫະ)."
 
@@ -3531,9 +3521,8 @@ msgid "Receiving Map..."
 msgstr "ກຳລັງຮັບແຜນທີ່..."
 
 #: libs/s25main/addons/AddonNoArmorDefault.h:18
-#, fuzzy
 msgid "Receiving armor is disabled for military buildings by default."
-msgstr "ການຮັບຫຼຽນຖືກປິດໄວ້ສຳລັບອາຄານທະຫານເປັນຄ່າເລີ່ມຕົ້ນ."
+msgstr ""
 
 #: libs/s25main/addons/AddonNoCoinsDefault.h:18
 msgid "Receiving coins is disabled for military buildings by default."
@@ -3593,7 +3582,7 @@ msgid ""
 "Minimize by double-clicking the title bar."
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1477
+#: libs/s25main/network/GameClient.cpp:1461
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ຣີເພລໄດ້. ຈະບໍ່ມີການບັນທຶກຣີເພລ\n"
 
@@ -3692,9 +3681,8 @@ msgstr "ລະບົບ"
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:49
-#, fuzzy
 msgid "Save"
-msgstr "ບັນທຶກອັດຕະໂນມັດ"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:202
 #: libs/s25main/ingameWindows/iwAddons.cpp:50
@@ -3702,9 +3690,8 @@ msgid "Save Addon Preset"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwAddonPresets.cpp:290
-#, fuzzy
 msgid "Save Failed"
-msgstr "ບັນທຶກເກມ!"
+msgstr ""
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:72
 msgid "Save Password?"
@@ -3723,7 +3710,7 @@ msgstr "ບັນທຶກລາຍການເພງ"
 msgid "Savegame error: "
 msgstr "ຂໍ້ຜິດພາດໃນການບັນທຶກເກມ: "
 
-#: libs/s25main/network/GameClient.cpp:1717
+#: libs/s25main/network/GameClient.cpp:1677
 msgid "Saving game..."
 msgstr "ກຳລັງບັນທຶກເກມ..."
 
@@ -3731,7 +3718,7 @@ msgstr "ກຳລັງບັນທຶກເກມ..."
 msgid "Saw"
 msgstr "ເລື່ອຍ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:43
+#: libs/s25main/gameData/BuildingConsts.cpp:45
 msgid "Sawmill"
 msgstr "ໂຮງເລື່ອຍ"
 
@@ -3790,8 +3777,8 @@ msgstr "ສົ່ງ"
 msgid "Send max rank soldiers to a warehouse"
 msgstr "ສົ່ງທະຫານຍົດສູງສຸດໄປທີ່ສາງ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:217
-#: libs/s25main/ingameWindows/iwAction.cpp:231
+#: libs/s25main/ingameWindows/iwAction.cpp:240
+#: libs/s25main/ingameWindows/iwAction.cpp:254
 msgid "Send out scout"
 msgstr "ສົ່ງໜ່ວຍສອດແນມອອກໄປ"
 
@@ -3885,7 +3872,7 @@ msgstr "ໂລ້"
 msgid "Ship register"
 msgstr "ທະບຽນເຮືອ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:312
+#: libs/s25main/gameData/BuildingConsts.cpp:314
 msgid "Ships can only be loaded and unloaded in a harbor. Expeditions can also be prepared here. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "ເຮືອສາມາດໂຫຼດ ແລະ ຖ່າຍສິນຄ້າໄດ້ພຽງແຕ່ໃນທ່າເຮືອ. ການສຳຫຼວດກໍສາມາດກະກຽມໄດ້ທີ່ນີ້ເຊັ່ນກັນ. ທ່ານສາມາດປ່ອຍສິນຄ້າບາງຢ່າງອອກຈາກສາງເກັບເຄື່ອງໄດ້ຕາມທີ່ຕ້ອງການ. ອີກທາງເລືອກໜຶ່ງ, ໜ້າທີ່ການເກັບຮັກສາສາມາດຖືກປິດໃຊ້ງານໄດ້. ເພື່ອເຮັດສິ່ງນີ້, ກ່ອນອື່ນໃຫ້ເລືອກໄອຄອນທີ່ກ່ຽວຂ້ອງ ຕາມດ້ວຍສິນຄ້າທີ່ຕ້ອງການ ຫຼື ສັນຍາລັກວຽກ."
 
@@ -3897,7 +3884,7 @@ msgstr ""
 msgid "Shipwright"
 msgstr "ຊ່າງຕໍ່ເຮືອ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:46
+#: libs/s25main/gameData/BuildingConsts.cpp:48
 msgid "Shipyard"
 msgstr "ອູ່ຕໍ່ເຮືອ"
 
@@ -3917,9 +3904,17 @@ msgstr "ຊ້ວນ"
 msgid "Show GameFrame Info:"
 msgstr "ສະແດງຂໍ້ມູນ GameFrame:"
 
+#: libs/s25main/addons/AddonBuildingRadius.h:17
+msgid "Show building radius"
+msgstr ""
+
 #: libs/s25main/ingameWindows/iwMapDebug.cpp:163
 msgid "Show coordinates"
 msgstr "ສະແດງຈຸດປະສານງານ"
+
+#: libs/s25main/addons/AddonBuildingRadius.h:18
+msgid "Shows the working radius of buildings in the build menu tooltip and as an overlay on the map when hovering over a building icon or selecting a building."
+msgstr ""
 
 #: libs/s25main/desktops/dskMainMenu.cpp:39
 msgid "Singleplayer"
@@ -3936,7 +3931,7 @@ msgstr "ຂະໜາດ"
 msgid "Size of country"
 msgstr "ຂະໜາດຂອງປະເທດ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:13
+#: libs/s25main/gameData/BuildingConsts.cpp:15
 #: libs/s25main/gameData/JobConsts.cpp:56
 msgid "Skinner"
 msgstr ""
@@ -3945,7 +3940,7 @@ msgstr ""
 msgid "Skins"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:96
+#: libs/s25main/gameData/BuildingConsts.cpp:98
 msgid "Skins are gathered from animal carcasses by the skinner. They are sent to the tannery for leather production. The skinner can also be supplied with pigs for extra skins."
 msgstr ""
 
@@ -3966,7 +3961,7 @@ msgstr "ຂ້າມໄຟລ໌ທີ່ຂຽນທັບຊ້ຳກັນ %1
 msgid "Skipping removed file %1% when checking for files to load for %2%\n"
 msgstr "ຂ້າມໄຟລ໌ທີ່ຖືກລົບ %1% ເມື່ອກວດສອບໄຟລ໌ທີ່ຈະໂຫຼດສຳລັບ %2%\n"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:31
+#: libs/s25main/gameData/BuildingConsts.cpp:33
 msgid "Slaughterhouse"
 msgstr "ໂຮງຂ້າສັດ"
 
@@ -4101,7 +4096,7 @@ msgstr "ຫີນ"
 msgid "Stop storage"
 msgstr "ຢຸດການເກັບຮັກສາ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:39
+#: libs/s25main/gameData/BuildingConsts.cpp:41
 msgid "Storehouse"
 msgstr "ສາງເກັບເຄື່ອງ"
 
@@ -4109,7 +4104,7 @@ msgstr "ສາງເກັບເຄື່ອງ"
 msgid "Stranded soldier return search"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:388
+#: libs/s25main/ingameWindows/iwAction.cpp:411
 msgid "Strong attackers"
 msgstr "ຜູ້ໂຈມຕີແຂງແກ່ນ"
 
@@ -4170,10 +4165,9 @@ msgstr "ເອົາອອກຈາກສາງ"
 msgid "Tanner"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:18
-#, fuzzy
+#: libs/s25main/gameData/BuildingConsts.cpp:20
 msgid "Tannery"
-msgstr "ໂຮງງານຜະລິດເຫຼົ້າແວງ"
+msgstr ""
 
 #: libs/s25main/desktops/dskGameLobby.cpp:179
 msgid "Team"
@@ -4183,7 +4177,7 @@ msgstr "ທີມ"
 msgid "Teams locked"
 msgstr "ທີມຖືກລັອກ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:17
+#: libs/s25main/gameData/BuildingConsts.cpp:19
 msgid "Temple"
 msgstr "ວິຫານ"
 
@@ -4199,7 +4193,7 @@ msgstr "ຂອບໃຈສຳລັບການບໍລິຈາກຂອງທ
 msgid "Thank you!"
 msgstr "ຂອບໃຈ!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:186
+#: libs/s25main/gameData/BuildingConsts.cpp:188
 msgid "Thanks to its immense strength, the catapults represents an effective weapon against enemy military buildings."
 msgstr "ດ້ວຍຄວາມແຂງແຮງອັນມະຫາສານ, ເຄື່ອງຍິງກ້ອນຫີນເປັນອາວຸດທີ່ມີປະສິດທິພາບໃນການຕໍ່ສູ້ກັບອາຄານທະຫານຂອງສັດຕູ."
 
@@ -4214,19 +4208,19 @@ msgid "The %s between player '%s' and you has been concluded."
 msgstr "%s ລະຫວ່າງຜູ້ຫຼິ້ນ '%s' ແລະ ທ່ານໄດ້ຖືກສະຫຼຸບແລ້ວ."
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1227
-#: libs/s25main/network/GameClient.cpp:869
+#: libs/s25main/network/GameClient.cpp:853
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr "ເກມບໍ່ຊິງຄ໌ກັນ. Checksum ຂອງຜູ້ຫຼິ້ນບາງຄົນບໍ່ກົງກັນ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:224
+#: libs/s25main/gameData/BuildingConsts.cpp:226
 msgid "The armory produces swords and strong shields. This equipment is vital for your soldiers."
 msgstr "ໂຮງເຮັດອາວຸດຜະລິດດາບ ແລະ ໂລ້ທີ່ແຂງແກ່ນ. ອຸປະກອນນີ້ສຳຄັນຫຼາຍສຳລັບທະຫານຂອງທ່ານ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:75
+#: libs/s25main/gameData/BuildingConsts.cpp:77
 msgid "The barracks is a very small hut which can be used by your soldiers as quarters. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "ຄ້າຍທະຫານແມ່ນເຮືອນນ້ອຍໆທີ່ທະຫານຂອງທ່ານສາມາດໃຊ້ເປັນທີ່ພັກໄດ້. ໂດຍການໃຊ້ປຸ່ມຫຼຽນຄຳ ທ່ານສາມາດຢຸດການຈັດສົ່ງຫຼຽນຄຳໃຫ້ແກ່ທະຫານທີ່ປະຈຳການຢູ່ທີ່ນີ້. ແນວໃດກໍ່ຕາມ, ຖ້າບໍ່ມີຫຼຽນຄຳ ທະຫານຢູ່ທີ່ນີ້ກໍບໍ່ສາມາດຝຶກຊ້ອມ ແລະ ປັບປຸງທັກສະຂອງພວກເຂົາໄດ້."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:219
+#: libs/s25main/gameData/BuildingConsts.cpp:221
 msgid "The brewer produces fine beer from grain and water. This drink is needed to fill the soldiers with courage."
 msgstr "ຜູ້ຜະລິດເບຍຜະລິດເບຍຊັ້ນດີຈາກເມັດພືດ ແລະ ນ້ຳ. ເຄື່ອງດື່ມນີ້ຈຳເປັນເພື່ອເຕີມເຕັມຄວາມກ້າຫານໃຫ້ແກ່ທະຫານ."
 
@@ -4234,11 +4228,11 @@ msgstr "ຜູ້ຜະລິດເບຍຜະລິດເບຍຊັ້ນດ
 msgid "The building statistics window gives you an insight into the number of buildings you have, by type. The number on the left is the total number of this type of building completed, the number on the right shows how many are currently under construction."
 msgstr "ໜ້າຕ່າງສະຖິຕິອາຄານໃຫ້ທ່ານເຫັນພາບລວມຂອງຈຳນວນອາຄານທີ່ທ່ານມີ, ຕາມປະເພດ. ຕົວເລກທາງຊ້າຍແມ່ນຈຳນວນທັງໝົດຂອງອາຄານປະເພດນີ້ທີ່ສ້າງສຳເລັດ, ຕົວເລກທາງຂວາສະແດງຈຳນວນທີ່ກຳລັງກໍ່ສ້າງຢູ່."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:211
+#: libs/s25main/gameData/BuildingConsts.cpp:213
 msgid "The butcher processes the livestock delivered into nutritious ham on which you miners are fed."
 msgstr "ຄົນຂ້າສັດປຸງແຕ່ງສັດທີ່ຖືກສົ່ງມາເປັນແຮມທີ່ມີທາດບຳລຸງ ເຊິ່ງຄົນງານບໍ່ແຮ່ຂອງທ່ານຈະກິນ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:278
+#: libs/s25main/gameData/BuildingConsts.cpp:280
 msgid "The carpenter turns the woodcutter's logs into made-to-measure planks. These form the basic for building houses and ships."
 msgstr "ຊ່າງໄມ້ປ່ຽນໄມ້ທ່ອນຂອງຄົນຕັດໄມ້ໃຫ້ເປັນແຜ່ນໄມ້ທີ່ວັດແທກໄດ້. ສິ່ງເຫຼົ່ານີ້ເປັນພື້ນຖານສຳລັບການກໍ່ສ້າງເຮືອນ ແລະ ເຮືອ."
 
@@ -4246,15 +4240,15 @@ msgstr "ຊ່າງໄມ້ປ່ຽນໄມ້ທ່ອນຂອງຄົນ
 msgid "The changes could not be applied and will be discarded. A potential reason for this is that the game is paused."
 msgstr "ການປ່ຽນແປງບໍ່ສາມາດນຳໃຊ້ໄດ້ ແລະ ຈະຖືກຍົກເລີກ. ເຫດຜົນທີ່ເປັນໄປໄດ້ແມ່ນເກມຖືກຢຸດຊົ່ວຄາວ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:240
+#: libs/s25main/gameData/BuildingConsts.cpp:242
 msgid "The charburner stacks up piles of wood and straw which is then burned to create charcoal. This can be used just like the coal from the mine without any loss in quality."
 msgstr "ຄົນເຜົາຖ່ານຈະກອງໄມ້ ແລະ ເຟືອງ ແລ້ວຈູດເພື່ອສ້າງຖ່ານ. ສິ່ງນີ້ສາມາດນຳໃຊ້ໄດ້ຄືກັບຖ່ານຫີນຈາກບໍ່ແຮ່ໂດຍບໍ່ມີການສູນເສຍຄຸນນະພາບ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:228
+#: libs/s25main/gameData/BuildingConsts.cpp:230
 msgid "The countless tools which your workers need are made in the metalworks. This requires boards and iron."
 msgstr "ເຄື່ອງມືນັບບໍ່ຖ້ວນທີ່ຄົນງານຂອງທ່ານຕ້ອງການແມ່ນຜະລິດຢູ່ໃນໂຮງງານໂລຫະ. ສິ່ງນີ້ຕ້ອງການແຜ່ນໄມ້ ແລະ ເຫຼັກ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:138
+#: libs/s25main/gameData/BuildingConsts.cpp:140
 msgid "The defensive capabilities and size of the fortress are unsurpassed. This stronghold ensures that other valuable buildings and commodities are protected. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "ຄວາມສາມາດໃນການປ້ອງກັນ ແລະ ຂະໜາດຂອງປ້ອມປາການແມ່ນບໍ່ມີໃຜທຽບໄດ້. ຖານທີ່ໝັ້ນທີ່ແຂງແກ່ນນີ້ຮັບປະກັນວ່າອາຄານ ແລະ ສິນຄ້າທີ່ມີຄ່າອື່ນໆຈະຖືກປົກປ້ອງ. ໂດຍການໃຊ້ປຸ່ມຫຼຽນຄຳ ທ່ານສາມາດຢຸດການຈັດສົ່ງຫຼຽນຄຳໃຫ້ແກ່ທະຫານທີ່ປະຈຳການຢູ່ທີ່ນີ້. ແນວໃດກໍ່ຕາມ, ຖ້າບໍ່ມີຫຼຽນຄຳ ທະຫານຢູ່ທີ່ນີ້ກໍບໍ່ສາມາດຝຶກຊ້ອມ ແລະ ປັບປຸງທັກສະຂອງພວກເຂົາໄດ້."
 
@@ -4266,7 +4260,7 @@ msgstr "ໂປຣແກຣມສຸກເສີນໄດ້ຖືກເປີດ
 msgid "The emergency program has been deactivated."
 msgstr "ໂປຣແກຣມສຸກເສີນໄດ້ຖືກປິດໃຊ້ງານແລ້ວ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:300
+#: libs/s25main/gameData/BuildingConsts.cpp:302
 msgid "The farmer plants and harvests grain in the surrounding fields. A windmill then processes the harvested grain into flour or can be used to feed the pigs."
 msgstr "ຊາວກະສິກອນປູກ ແລະ ເກັບກ່ຽວເມັດພືດໃນທົ່ງນາອ້ອມຂ້າງ. ໂຮງສີເຂົ້າຈະປຸງແຕ່ງເມັດພືດທີ່ເກັບກ່ຽວໄດ້ໃຫ້ເປັນແປ້ງ ຫຼື ສາມາດນຳໃຊ້ເພື່ອລ້ຽງໝູ."
 
@@ -4274,11 +4268,11 @@ msgstr "ຊາວກະສິກອນປູກ ແລະ ເກັບກ່ຽ�
 msgid "The file was not found!"
 msgstr "ບໍ່ພົບໄຟລ໌!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:196
+#: libs/s25main/gameData/BuildingConsts.cpp:198
 msgid "The fish man is responsible for finding water rich in fish. His fish feed a great many miners."
 msgstr "ຊາວປະມົງຮັບຜິດຊອບໃນການຊອກຫານ້ຳທີ່ອຸດົມສົມບູນໄປດ້ວຍປາ. ປາຂອງລາວລ້ຽງຄົນງານບໍ່ແຮ່ຈຳນວນຫຼາຍ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:272
+#: libs/s25main/gameData/BuildingConsts.cpp:274
 msgid "The flour produced at the windmill can be combined with water in the bakery to make oven-fresh bread. It's your miners' favorite!"
 msgstr "ແປ້ງທີ່ຜະລິດຢູ່ໂຮງສີເຂົ້າສາມາດປະສົມກັບນ້ຳໃນໂຮງງານເຂົ້າໜົມປັງເພື່ອເຮັດເຂົ້າຈີ່ທີ່ອົບໃໝ່ໆ. ມັນເປັນຂອງໂປດຂອງຄົນງານບໍ່ແຮ່ຂອງທ່ານ!"
 
@@ -4286,19 +4280,19 @@ msgstr "ແປ້ງທີ່ຜະລິດຢູ່ໂຮງສີເຂົ້
 msgid "The game clients are out of sync. Would you like to send debug information to RttR to help us avoiding this in the future? Thank you very much!"
 msgstr "ໄຄລເອັນຂອງເກມບໍ່ກົງກັນ. ທ່ານຕ້ອງການສົ່ງຂໍ້ມູນດີບັກໄປທີ່ RttR ເພື່ອຊ່ວຍພວກເຮົາຫຼີກລ້ຽງບັນຫານີ້ໃນອະນາຄົດບໍ? ຂອບໃຈຫຼາຍໆ!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:267
+#: libs/s25main/gameData/BuildingConsts.cpp:269
 msgid "The grain is ground in the windmill. The flour from the windmill is later used at the bakery to bake bread."
 msgstr "ເມັດພືດຈະຖືກສີໃນໂຮງສີເຂົ້າ. ແປ້ງຈາກໂຮງສີເຂົ້າຈະຖືກນຳໃຊ້ໃນພາຍຫຼັງທີ່ໂຮງງານເຂົ້າໜົມປັງເພື່ອອົບເຂົ້າຈີ່."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:85
+#: libs/s25main/gameData/BuildingConsts.cpp:87
 msgid "The guardhouse is a comfortable place for the military which is also protected by solid stone walls. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "ປ້ອມຍາມແມ່ນສະຖານທີ່ທີ່ສະດວກສະບາຍສຳລັບທະຫານ ເຊິ່ງຍັງຖືກປົກປ້ອງດ້ວຍກຳແພງຫີນທີ່ແຂງແກ່ນ. ໂດຍການໃຊ້ປຸ່ມຫຼຽນຄຳ ທ່ານສາມາດຢຸດການຈັດສົ່ງຫຼຽນຄຳໃຫ້ແກ່ທະຫານທີ່ປະຈຳການຢູ່ທີ່ນີ້. ແນວໃດກໍ່ຕາມ, ຖ້າບໍ່ມີຫຼຽນຄຳ ທະຫານຢູ່ທີ່ນີ້ກໍບໍ່ສາມາດຝຶກຊ້ອມ ແລະ ປັບປຸງທັກສະຂອງພວກເຂົາໄດ້."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:54
+#: libs/s25main/gameData/BuildingConsts.cpp:56
 msgid "The headquarters represents the center of your realm. The large amount of storage space available means a great many things can be safely stored here. You can release certain merchandise from the headquarters, as and when required or stop its storage. To do this, first choose the corresponding icon followed by the desired merchandise or job symbol. On the third page, you can adjust the number of reserve soldiers who are responsible for guarding the headquarters. There are two values given: the first value indicates the current number of men, the second value indicates the desired number. "
 msgstr "ສຳນັກງານໃຫຍ່ເປັນສູນກາງຂອງອານາຈັກຂອງທ່ານ. ພື້ນທີ່ເກັບຮັກສາຂະໜາດໃຫຍ່ທີ່ມີຢູ່ໝາຍຄວາມວ່າສິ່ງຂອງຫຼາຍຢ່າງສາມາດເກັບຮັກສາໄວ້ທີ່ນີ້ໄດ້ຢ່າງປອດໄພ. ທ່ານສາມາດປ່ອຍສິນຄ້າບາງຢ່າງອອກຈາກສຳນັກງານໃຫຍ່ໄດ້ຕາມທີ່ຕ້ອງການ ຫຼື ຢຸດການເກັບຮັກສາ. ເພື່ອເຮັດສິ່ງນີ້, ກ່ອນອື່ນໃຫ້ເລືອກໄອຄອນທີ່ສອດຄ້ອງກັນ ຕາມດ້ວຍສິນຄ້າທີ່ຕ້ອງການ ຫຼື ສັນຍາລັກວຽກ. ໃນໜ້າທີສາມ, ທ່ານສາມາດປັບຈຳນວນທະຫານສຳຮອງທີ່ຮັບຜິດຊອບໃນການເຝົ້າຍາມສຳນັກງານໃຫຍ່. ມີສອງຄ່າທີ່ໃຫ້ໄວ້: ຄ່າທຳອິດສະແດງເຖິງຈຳນວນຄົນໃນປັດຈຸບັນ, ຄ່າທີສອງສະແດງເຖິງຈຳນວນທີ່ຕ້ອງການ. "
 
-#: libs/s25main/gameData/BuildingConsts.cpp:178
+#: libs/s25main/gameData/BuildingConsts.cpp:180
 msgid "The leatherworker crafts armor from finely tanned leather. The armor is then transported to military buildings to bolster your soldiers defense. An armored soldier can withstand an additional hit in battle and sometimes survives a catapult strike, but the armor is lost once struck."
 msgstr ""
 
@@ -4306,15 +4300,15 @@ msgstr ""
 msgid "The merchandise statistics window allows you to check the quantities of your merchandise. By clicking the left mouse button you can switch the display of individual goods on and off. These can displayed over four different time periods. To delete all displays, click on the wastebasket button."
 msgstr "ໜ້າຕ່າງສະຖິຕິສິນຄ້າຊ່ວຍໃຫ້ທ່ານສາມາດກວດສອບປະລິມານສິນຄ້າຂອງທ່ານ. ໂດຍການຄລິກປຸ່ມເມົາສ໌ຊ້າຍ ທ່ານສາມາດເປີດ ແລະ ປິດການສະແດງຜົນຂອງສິນຄ້າແຕ່ລະຊະນິດ. ສິ່ງເຫຼົ່ານີ້ສາມາດສະແດງຜົນໄດ້ໃນໄລຍະເວລາສີ່ຊ່ວງ. ເພື່ອລົບການສະແດງຜົນທັງໝົດ, ຄລິກທີ່ປຸ່ມຖັງຂີ້ເຫຍື້ອ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:157
+#: libs/s25main/gameData/BuildingConsts.cpp:159
 msgid "The mining of coal supports the metalworks and smithy. This hard work requires an adequate supply of food."
 msgstr "ການຂຸດຄົ້ນຖ່ານຫີນສະໜັບສະໜູນໂຮງງານໂລຫະ ແລະ ໂຮງຕີເຫຼັກ. ວຽກໜັກນີ້ຕ້ອງການການສະໜອງອາຫານທີ່ພຽງພໍ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:284
+#: libs/s25main/gameData/BuildingConsts.cpp:286
 msgid "The mint is responsible for producing valuable gold coins. These precious objects are produced using coal and gold."
 msgstr "ໂຮງຜະລິດຫຼຽນຮັບຜິດຊອບໃນການຜະລິດຫຼຽນຄຳທີ່ມີຄ່າ. ວັດຖຸມີຄ່າເຫຼົ່ານີ້ຜະລິດໂດຍໃຊ້ຖ່ານຫີນ ແລະ ຄຳ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:306
+#: libs/s25main/gameData/BuildingConsts.cpp:308
 msgid "The pack donkeys bred here are used to transport your merchandise more efficiently. They are reared on water and grain."
 msgstr "ລາຂົນຂອງທີ່ລ້ຽງຢູ່ທີ່ນີ້ຖືກນຳໃຊ້ເພື່ອຂົນສົ່ງສິນຄ້າຂອງທ່ານຢ່າງມີປະສິດທິພາບຫຼາຍຂຶ້ນ. ພວກມັນຖືກລ້ຽງດ້ວຍນ້ຳ ແລະ ເມັດພືດ."
 
@@ -4336,7 +4330,7 @@ msgstr "ລາຍການເພງຖືກບັນທຶກແລ້ວ!"
 msgid "The priority of goods for the individual buildings can be set here. The higher the value, the quicker the required goods are delivered to the building concerned."
 msgstr "ຄວາມສຳຄັນຂອງສິນຄ້າສຳລັບແຕ່ລະອາຄານສາມາດຕັ້ງໄດ້ທີ່ນີ້. ຄ່າຍິ່ງສູງ, ສິນຄ້າທີ່ຕ້ອງການກໍຈະຖືກສົ່ງໄປຫາອາຄານທີ່ກ່ຽວຂ້ອງໄວຂຶ້ນ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:151
+#: libs/s25main/gameData/BuildingConsts.cpp:153
 msgid "The quarrying of stone in a granite mine guarantees the supply of stone for buildings. However, even a granite mine has to feed its workers."
 msgstr "ການຂຸດຄົ້ນຫີນໃນບໍ່ແຮ່ຫີນອ່ອນຮັບປະກັນການສະໜອງຫີນສຳລັບອາຄານ. ແນວໃດກໍ່ຕາມ, ແມ່ນແຕ່ບໍ່ແຮ່ຫີນອ່ອນກໍຕ້ອງລ້ຽງຄົນງານຂອງຕົນ."
 
@@ -4371,19 +4365,19 @@ msgstr "ບໍ່ສາມາດເປີດໄຟລ໌ທີ່ລະບຸໄ
 msgid "The specified file couldn't be saved!"
 msgstr "ບໍ່ສາມາດບັນທຶກໄຟລ໌ທີ່ລະບຸໄດ້!"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:200
+#: libs/s25main/gameData/BuildingConsts.cpp:202
 msgid "The stonemason works the stone near his quarry into bricks. These are needed mainly for building houses and as ammunition for catapults."
 msgstr "ຊ່າງຫີນເຮັດວຽກຫີນໃກ້ກັບບໍ່ຫີນຂອງລາວໃຫ້ເປັນດິນຈີ່. ສິ່ງເຫຼົ່ານີ້ສ່ວນໃຫຍ່ແມ່ນຈຳເປັນສຳລັບການກໍ່ສ້າງເຮືອນ ແລະ ເປັນລູກປືນສຳລັບເຄື່ອງຍິງກ້ອນຫີນ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:251
+#: libs/s25main/gameData/BuildingConsts.cpp:253
 msgid "The storehouse can help reduce long transportation journeys and is suited to the temporary storage of merchandise and inhabitants. You can release certain merchandise from the storehouse, as and when required. Alternatively, the storage function can be disabled. To do this, first choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr "ສາງເກັບເຄື່ອງສາມາດຊ່ວຍຫຼຸດຜ່ອນການເດີນທາງຂົນສົ່ງທີ່ຍາວໄກ ແລະ ເໝາະສົມກັບການເກັບຮັກສາສິນຄ້າ ແລະ ປະຊາກອນຊົ່ວຄາວ. ທ່ານສາມາດປ່ອຍສິນຄ້າບາງຢ່າງອອກຈາກສາງເກັບເຄື່ອງໄດ້ຕາມທີ່ຕ້ອງການ. ອີກທາງເລືອກໜຶ່ງ, ໜ້າທີ່ການເກັບຮັກສາສາມາດຖືກປິດໃຊ້ງານໄດ້. ເພື່ອເຮັດສິ່ງນີ້, ກ່ອນອື່ນໃຫ້ເລືອກໄອຄອນທີ່ກ່ຽວຂ້ອງ ຕາມດ້ວຍສິນຄ້າທີ່ຕ້ອງການ ຫຼື ສັນຍາລັກວຽກ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:133
+#: libs/s25main/gameData/BuildingConsts.cpp:135
 msgid "The tanner works animal skins to form leather. Before tanning; the skins are cured, scraped and stretched on wooden frames made from boards. Leather is used to produce armor at the leatherworks."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:125
+#: libs/s25main/gameData/BuildingConsts.cpp:127
 msgid "The temple servant sacrifices wine and food granting a blessing of gold, iron ore, coal or granite. This allows your iron founder and minter to continue working when mines become exhausted. The desired mineral can be selected by toggling the output button."
 msgstr "ຜູ້ຮັບໃຊ້ໃນວິຫານຈະເສຍສະຫຼະເຫຼົ້າແວງ ແລະ ອາຫານ ເພື່ອໃຫ້ພອນເປັນຄຳ, ແຮ່ເຫຼັກ, ຖ່ານຫີນ ຫຼື ຫີນອ່ອນ. ສິ່ງນີ້ຊ່ວຍໃຫ້ຜູ້ກໍ່ຕັ້ງທາດເຫຼັກ ແລະ ຜູ້ຜະລິດຫຼຽນຂອງທ່ານສາມາດເຮັດວຽກຕໍ່ໄປໄດ້ເມື່ອບໍ່ແຮ່ໝົດ. ແຮ່ທາດທີ່ຕ້ອງການສາມາດເລືອກໄດ້ໂດຍການສະຫຼັບປຸ່ມຜົນຜະລິດ."
 
@@ -4391,11 +4385,11 @@ msgstr "ຜູ້ຮັບໃຊ້ໃນວິຫານຈະເສຍສະຫ
 msgid "The transport priority of a type of merchandise can be determined here.The higher the priority of an item in the list, the quicker it is transported by helpers."
 msgstr "ຄວາມສຳຄັນໃນການຂົນສົ່ງຂອງສິນຄ້າແຕ່ລະປະເພດສາມາດກຳນົດໄດ້ທີ່ນີ້. ຍິ່ງສິນຄ້າມີຄວາມສຳຄັນສູງໃນລາຍການ, ຍິ່ງຈະຖືກຂົນສົ່ງໂດຍຜູ້ຊ່ວຍໄວຂຶ້ນ."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:101
+#: libs/s25main/gameData/BuildingConsts.cpp:103
 msgid "The watchtower with its large amount of space is best suited for stationing a large number of your troops. Using the gold coin button you can stop the delivery of gold coins to the soldiers stationed here. However, without gold coins the soldiers here can not train and improve their skills."
 msgstr "ຫໍສັງເກດການທີ່ມີພື້ນທີ່ກວ້າງຂວາງເໝາະສົມທີ່ສຸດສຳລັບການປະຈຳການຂອງກອງທັບຈຳນວນຫຼວງຫຼາຍ. ໂດຍການໃຊ້ປຸ່ມຫຼຽນຄຳ ທ່ານສາມາດຢຸດການຈັດສົ່ງຫຼຽນຄຳໃຫ້ແກ່ທະຫານທີ່ປະຈຳການຢູ່ທີ່ນີ້. ແນວໃດກໍ່ຕາມ, ຖ້າບໍ່ມີຫຼຽນຄຳ ທະຫານຢູ່ທີ່ນີ້ກໍບໍ່ສາມາດຝຶກຊ້ອມ ແລະ ປັບປຸງທັກສະຂອງພວກເຂົາໄດ້."
 
-#: libs/s25main/gameData/BuildingConsts.cpp:112
+#: libs/s25main/gameData/BuildingConsts.cpp:114
 msgid "The winegrower plants and harvests grapes in the surrounding fields. A vineyard requires a steady supply of sturdy logs for trellises and fresh water to irrigate the fields. Ripe grapes are sent to the winery to be pressed into wine."
 msgstr "ຊາວສວນອະງຸ່ນປູກ ແລະ ເກັບກ່ຽວໝາກອະງຸ່ນໃນທົ່ງນາອ້ອມຂ້າງ. ສວນອະງຸ່ນຕ້ອງການການສະໜອງໄມ້ທ່ອນທີ່ແຂງແຮງຢ່າງສະໝ່ຳສະເໝີສຳລັບຄ້າງ ແລະ ນ້ຳຈືດເພື່ອຊົນລະປະທານໃນໄຮ່ນາ. ໝາກອະງຸ່ນທີ່ສຸກແລ້ວຈະຖືກສົ່ງໄປໂຮງງານຜະລິດເຫຼົ້າແວງເພື່ອຄັ້ນເປັນເຫຼົ້າແວງ."
 
@@ -4510,7 +4504,7 @@ msgstr "ການແຂ່ງຂັນ: %u ນາທີ"
 msgid "Trade"
 msgstr "ການຄ້າ"
 
-#: libs/s25main/figures/nofTradeLeader.cpp:62
+#: libs/s25main/figures/nofTradeLeader.cpp:61
 #, c-format
 msgid "Trade caravan with %s %s arrives from player '%s'."
 msgstr "ຂະບວນຄາຣາວານການຄ້າທີ່ມີ %s %s ມາຈາກຜູ້ຫຼິ້ນ '%s'."
@@ -4564,7 +4558,7 @@ msgstr "ປະເພດແຜນທີ່ໄດນາມິກທີ່ບໍ່
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:105
-#: libs/s25main/network/GameClient.cpp:1491
+#: libs/s25main/network/GameClient.cpp:1475
 msgid "Unknown"
 msgstr "ບໍ່ຮູ້ຈັກ"
 
@@ -4605,6 +4599,7 @@ msgstr "ບໍ່ຮູ້ຈັກ tree5-8 ທີ່ %1%: (0x%2$x)\n"
 msgid "Unknown tree9 at %1%: (0x%2$x)\n"
 msgstr "ບໍ່ຮູ້ຈັກ tree9 ທີ່ %1%: (0x%2$x)\n"
 
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:31
 #: libs/s25main/addons/AddonLimitCatapults.h:25
 #: libs/s25main/addons/AddonMaxWaterwayLength.h:35
 msgid "Unlimited"
@@ -4622,7 +4617,7 @@ msgstr "ຫຼິ້ນແບບບໍ່ຈຳກັດ"
 msgid "Up"
 msgstr "ຂຶ້ນ"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:351
+#: libs/s25main/ingameWindows/iwAction.cpp:374
 msgid "Upgrade to donkey road"
 msgstr "ອັບເກດເປັນຖະໜົນສຳລັບລາ"
 
@@ -4667,7 +4662,7 @@ msgstr "ກຳລັງກວດສອບຂໍ້ມູນເຊີບເວີ
 msgid "Version"
 msgstr "ເວີຊັນ"
 
-#: libs/s25main/network/GameClient.cpp:720
+#: libs/s25main/network/GameClient.cpp:704
 msgid "Version mismatch. Server version: %1%, your version %2%"
 msgstr "ເວີຊັນບໍ່ກົງກັນ. ເວີຊັນເຊີບເວີ: %1%, ເວີຊັນຂອງທ່ານ %2%"
 
@@ -4717,7 +4712,7 @@ msgstr "ເບິ່ງການຕັ້ງຄ່າ..."
 msgid "Vikings"
 msgstr "ຊາວໄວກິ້ງ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:15
+#: libs/s25main/gameData/BuildingConsts.cpp:17
 msgid "Vineyard"
 msgstr "ສວນອະງຸ່ນ"
 
@@ -4759,12 +4754,12 @@ msgstr "ສິນຄ້າທີ່ທ່ານຕ້ອງການຄ້າຂ
 msgid "Wares"
 msgstr "ສິນຄ້າ"
 
-#: libs/s25main/network/GameClientGF_Replay.cpp:48
+#: libs/s25main/network/GameClientGF_Replay.cpp:33
 #, c-format
 msgid "Warning: The played replay is not in sync with the original match. (GF: %u)"
 msgstr "ຄຳເຕືອນ: ຣີເພລທີ່ຫຼິ້ນບໍ່ກົງກັບການແຂ່ງຂັນຕົ້ນສະບັບ. (GF: %u)"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:14
+#: libs/s25main/gameData/BuildingConsts.cpp:16
 msgid "Watchtower"
 msgstr "ຫໍສັງເກດການ"
 
@@ -4783,7 +4778,7 @@ msgstr "ພວກເຮົາກຳລັງຖືກໂຈມຕີ!"
 msgid "We hope you enjoy playing Return To The Roots!"
 msgstr "ພວກເຮົາຫວັງວ່າທ່ານຈະມ່ວນກັບການຫຼິ້ນ Return To The Roots!"
 
-#: libs/s25main/ingameWindows/iwAction.cpp:386
+#: libs/s25main/ingameWindows/iwAction.cpp:409
 msgid "Weak attackers"
 msgstr "ຜູ້ໂຈມຕີອ່ອນ"
 
@@ -4807,7 +4802,7 @@ msgstr "ການບໍລິຫານເວັບໄຊ"
 msgid "Website Programming"
 msgstr "ການຂຽນໂປຣແກຣມເວັບໄຊ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:45
+#: libs/s25main/gameData/BuildingConsts.cpp:47
 msgid "Well"
 msgstr "ນ້ຳສ້າງ"
 
@@ -4821,9 +4816,8 @@ msgstr ""
 
 #: libs/s25main/desktops/dskOptions.cpp:349
 #: libs/s25main/ingameWindows/iwSettings.cpp:72
-#, fuzzy
 msgid "Window size:"
-msgstr "ແບບໜ້າຕ່າງ"
+msgstr ""
 
 #: libs/s25main/desktops/dskOptions.cpp:338
 #: libs/s25main/ingameWindows/iwSettings.cpp:60
@@ -4838,11 +4832,11 @@ msgstr "ເຫຼົ້າແວງ"
 msgid "Winegrower"
 msgstr "ຊາວສວນອະງຸ່ນ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:16
+#: libs/s25main/gameData/BuildingConsts.cpp:18
 msgid "Winery"
 msgstr "ໂຮງງານຜະລິດເຫຼົ້າແວງ"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:206
+#: libs/s25main/gameData/BuildingConsts.cpp:208
 msgid "Within his area, the forester ensures the survival of the forest. He plants all types of trees."
 msgstr "ພາຍໃນພື້ນທີ່ຂອງລາວ, ຄົນປູກປ່າຮັບປະກັນການຢູ່ລອດຂອງປ່າໄມ້. ລາວປູກຕົ້ນໄມ້ທຸກຊະນິດ."
 
@@ -4855,7 +4849,7 @@ msgstr "ໄມ້"
 msgid "Woodchopper"
 msgstr "ຄົນຕັດໄມ້"
 
-#: libs/s25main/gameData/BuildingConsts.cpp:27
+#: libs/s25main/gameData/BuildingConsts.cpp:29
 msgid "Woodcutter"
 msgstr "ເຮືອນຄົນຕັດໄມ້"
 
@@ -4987,7 +4981,7 @@ msgstr "ນັກພັດທະນາທຸກຄົນທີ່ປະກອບ
 msgid "by GameFrames:"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1684
+#: libs/s25main/network/GameClient.cpp:1644
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr "gF ປັດຈຸບັນ: %u - ຍັງກຳລັງເລັ່ງໄປຂ້າງໜ້າ: %d GFs ເຫຼືອ (%d %%)"
@@ -5060,16 +5054,12 @@ msgstr "ໂລກລະດູໜາວ"
 msgid "with armor)"
 msgstr ""
 
-#, fuzzy
-#~ msgid "Addon Presets Unavailable"
-#~ msgstr "ບໍ່ມີເຮືອ"
-
 #~ msgid "Granite mines will never be depleted."
 #~ msgstr "ບໍ່ແຮ່ຫີນຊາຍຈະບໍ່ມີວັນໝົດ."
 
 #~ msgid "Inexhaustible Granite Mines"
 #~ msgstr "ບໍ່ແຮ່ຫີນຊາຍບໍ່ມີວັນໝົດ"
 
-#, fuzzy
-#~ msgid "Preset '%1%' was not found."
-#~ msgstr "ບໍ່ພົບໄຟລ໌!"
+#, c-format
+#~ msgid "Notice: Overall asynchronous frame count: %u"
+#~ msgstr "ແຈ້ງການ: ຈຳນວນເຟຣມທີ່ບໍ່ກົງກັນທັງໝົດ: %u"
