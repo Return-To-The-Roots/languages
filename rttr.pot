@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Return To The Roots\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 10:09+0100\n"
+"POT-Creation-Date: 2026-11-25 09:00+0100\n"
 "PO-Revision-Date: 2012-09-30 18:07+0100\n"
 "Last-Translator: Florian Doersch <sf-team@siedler25.org>\n"
 "Language-Team: Return To The Roots <sf-team@siedler25.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2026-02-06 09:56+0000\n"
-"X-Generator: Poedit 3.10\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-KeywordsList: _;gettext_noop;__\n"
@@ -212,7 +212,7 @@ msgstr ""
 msgid "The emergency program has been deactivated."
 msgstr ""
 
-#: libs/s25main/GlobalGameSettings.cpp:322
+#: libs/s25main/GlobalGameSettings.cpp:324
 #, c-format
 msgid "Addon %1$#x not found!\n"
 msgstr ""
@@ -460,6 +460,17 @@ msgstr ""
 msgid "Locked"
 msgstr ""
 
+#: libs/s25main/addons/AddonBuildingRadius.h:17
+msgid "Show building radius"
+msgstr ""
+
+#: libs/s25main/addons/AddonBuildingRadius.h:18
+msgid ""
+"Shows the working radius of buildings in the build menu tooltip and as an "
+"overlay on the map when hovering over a building icon or selecting a "
+"building."
+msgstr ""
+
 #: libs/s25main/addons/AddonBurnDuration.h:16
 msgid "Set duration fires burn"
 msgstr ""
@@ -651,6 +662,12 @@ msgstr ""
 msgid "%1%x"
 msgstr ""
 
+#: libs/s25main/addons/AddonEconomyModeGameLength.h:31
+#: libs/s25main/addons/AddonLimitCatapults.h:25
+#: libs/s25main/addons/AddonMaxWaterwayLength.h:35
+msgid "Unlimited"
+msgstr ""
+
 #: libs/s25main/addons/AddonEconomyModeGameLength.h:44
 msgid "Economy Mode: Game Length"
 msgstr ""
@@ -691,6 +708,16 @@ msgstr ""
 msgid ""
 "Prevents foresters from planting trees on spots that own farms could use for "
 "new fields."
+msgstr ""
+
+#: libs/s25main/addons/AddonForesterHarborAvoidance.h:15
+msgid "Foresters avoid harbor spots"
+msgstr ""
+
+#: libs/s25main/addons/AddonForesterHarborAvoidance.h:16
+msgid ""
+"Prevents foresters from planting trees on spots that a harbor could be built "
+"on."
 msgstr ""
 
 #: libs/s25main/addons/AddonForesterReachRadius.h:23
@@ -781,11 +808,6 @@ msgid ""
 "Guardhouse: 4\n"
 "Watchtower: 2\n"
 "Fortress: 1"
-msgstr ""
-
-#: libs/s25main/addons/AddonLimitCatapults.h:25
-#: libs/s25main/addons/AddonMaxWaterwayLength.h:35
-msgid "Unlimited"
 msgstr ""
 
 #: libs/s25main/addons/AddonLimitCatapults.h:26
@@ -1314,23 +1336,23 @@ msgstr ""
 msgid "You win"
 msgstr ""
 
-#: libs/s25main/buildings/nobHarborBuilding.cpp:74
+#: libs/s25main/buildings/nobHarborBuilding.cpp:75
 msgid "New harbor building finished"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:867
+#: libs/s25main/buildings/nobMilitary.cpp:866
 msgid "Military building occupied"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1171
+#: libs/s25main/buildings/nobMilitary.cpp:1170
 msgid "Military building lost"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1174
+#: libs/s25main/buildings/nobMilitary.cpp:1173
 msgid "Military building captured"
 msgstr ""
 
-#: libs/s25main/buildings/nobMilitary.cpp:1540
+#: libs/s25main/buildings/nobMilitary.cpp:1539
 msgid "A catapult is firing upon us!"
 msgstr ""
 
@@ -1676,7 +1698,7 @@ msgid "Note: Game settings changed by the server%s"
 msgstr ""
 
 #: libs/s25main/desktops/dskGameInterface.cpp:1227
-#: libs/s25main/network/GameClient.cpp:869
+#: libs/s25main/network/GameClient.cpp:853
 msgid "The Game is not in sync. Checksums of some players don't match."
 msgstr ""
 
@@ -2535,23 +2557,23 @@ msgstr ""
 msgid "We are under attack!"
 msgstr ""
 
-#: libs/s25main/figures/nofGeologist.cpp:435
+#: libs/s25main/figures/nofGeologist.cpp:434
 msgid "Found iron ore"
 msgstr ""
 
-#: libs/s25main/figures/nofGeologist.cpp:436
+#: libs/s25main/figures/nofGeologist.cpp:435
 msgid "Found gold"
 msgstr ""
 
-#: libs/s25main/figures/nofGeologist.cpp:437
+#: libs/s25main/figures/nofGeologist.cpp:436
 msgid "Found coal"
 msgstr ""
 
-#: libs/s25main/figures/nofGeologist.cpp:438
+#: libs/s25main/figures/nofGeologist.cpp:437
 msgid "Found granite"
 msgstr ""
 
-#: libs/s25main/figures/nofGeologist.cpp:439
+#: libs/s25main/figures/nofGeologist.cpp:438
 msgid "Found water"
 msgstr ""
 
@@ -2563,172 +2585,172 @@ msgstr ""
 msgid "Lookout-tower occupied"
 msgstr ""
 
-#: libs/s25main/figures/nofTradeLeader.cpp:62
+#: libs/s25main/figures/nofTradeLeader.cpp:61
 #, c-format
 msgid "Trade caravan with %s %s arrives from player '%s'."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:10
+#: libs/s25main/gameData/BuildingConsts.cpp:12
 #: libs/s25main/ingameWindows/iwHQ.cpp:15
 msgid "Headquarters"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:11
+#: libs/s25main/gameData/BuildingConsts.cpp:13
 msgid "Barracks"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:12
+#: libs/s25main/gameData/BuildingConsts.cpp:14
 msgid "Guardhouse"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:13
+#: libs/s25main/gameData/BuildingConsts.cpp:15
 #: libs/s25main/gameData/JobConsts.cpp:56
 msgid "Skinner"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:14
+#: libs/s25main/gameData/BuildingConsts.cpp:16
 msgid "Watchtower"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:15
+#: libs/s25main/gameData/BuildingConsts.cpp:17
 msgid "Vineyard"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:16
+#: libs/s25main/gameData/BuildingConsts.cpp:18
 msgid "Winery"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:17
+#: libs/s25main/gameData/BuildingConsts.cpp:19
 msgid "Temple"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:18
+#: libs/s25main/gameData/BuildingConsts.cpp:20
 msgid "Tannery"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:19
+#: libs/s25main/gameData/BuildingConsts.cpp:21
 msgid "Fortress"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:20
+#: libs/s25main/gameData/BuildingConsts.cpp:22
 msgid "Granite mine"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:21
+#: libs/s25main/gameData/BuildingConsts.cpp:23
 msgid "Coal mine"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:22
+#: libs/s25main/gameData/BuildingConsts.cpp:24
 msgid "Iron mine"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:23
+#: libs/s25main/gameData/BuildingConsts.cpp:25
 msgid "Gold mine"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:24
+#: libs/s25main/gameData/BuildingConsts.cpp:26
 msgid "Lookout tower"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:25
+#: libs/s25main/gameData/BuildingConsts.cpp:27
 msgid "Leatherworks"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:26
+#: libs/s25main/gameData/BuildingConsts.cpp:28
 msgid "Catapult"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:27
+#: libs/s25main/gameData/BuildingConsts.cpp:29
 msgid "Woodcutter"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:28
+#: libs/s25main/gameData/BuildingConsts.cpp:30
 msgid "Fishery"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:29
+#: libs/s25main/gameData/BuildingConsts.cpp:31
 msgid "Quarry"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:30
+#: libs/s25main/gameData/BuildingConsts.cpp:32
 msgid "Forester"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:31
+#: libs/s25main/gameData/BuildingConsts.cpp:33
 msgid "Slaughterhouse"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:32
+#: libs/s25main/gameData/BuildingConsts.cpp:34
 msgid "Hunter"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:33
+#: libs/s25main/gameData/BuildingConsts.cpp:35
 msgid "Brewery"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:34
+#: libs/s25main/gameData/BuildingConsts.cpp:36
 msgid "Armory"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:35
+#: libs/s25main/gameData/BuildingConsts.cpp:37
 msgid "Metalworks"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:36
+#: libs/s25main/gameData/BuildingConsts.cpp:38
 msgid "Iron smelter"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:37
+#: libs/s25main/gameData/BuildingConsts.cpp:39
 #: libs/s25main/gameData/JobConsts.cpp:52
 msgid "Charburner"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:38
+#: libs/s25main/gameData/BuildingConsts.cpp:40
 msgid "Pig farm"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:39
+#: libs/s25main/gameData/BuildingConsts.cpp:41
 msgid "Storehouse"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:41
+#: libs/s25main/gameData/BuildingConsts.cpp:43
 msgid "Mill"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:42
+#: libs/s25main/gameData/BuildingConsts.cpp:44
 msgid "Bakery"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:43
+#: libs/s25main/gameData/BuildingConsts.cpp:45
 msgid "Sawmill"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:44
+#: libs/s25main/gameData/BuildingConsts.cpp:46
 msgid "Mint"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:45
+#: libs/s25main/gameData/BuildingConsts.cpp:47
 msgid "Well"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:46
+#: libs/s25main/gameData/BuildingConsts.cpp:48
 msgid "Shipyard"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:47
+#: libs/s25main/gameData/BuildingConsts.cpp:49
 msgid "Farm"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:48
+#: libs/s25main/gameData/BuildingConsts.cpp:50
 msgid "Donkey breeding"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:49
+#: libs/s25main/gameData/BuildingConsts.cpp:51
 #: libs/s25main/ingameWindows/iwHarborBuilding.cpp:16
 msgid "Harbor building"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:54
+#: libs/s25main/gameData/BuildingConsts.cpp:56
 msgid ""
 "The headquarters represents the center of your realm. The large amount of "
 "storage space available means a great many things can be safely stored here. "
@@ -2741,7 +2763,7 @@ msgid ""
 "number. "
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:75
+#: libs/s25main/gameData/BuildingConsts.cpp:77
 msgid ""
 "The barracks is a very small hut which can be used by your soldiers as "
 "quarters. Using the gold coin button you can stop the delivery of gold coins "
@@ -2749,7 +2771,7 @@ msgid ""
 "here can not train and improve their skills."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:85
+#: libs/s25main/gameData/BuildingConsts.cpp:87
 msgid ""
 "The guardhouse is a comfortable place for the military which is also "
 "protected by solid stone walls. Using the gold coin button you can stop the "
@@ -2757,14 +2779,14 @@ msgid ""
 "coins the soldiers here can not train and improve their skills."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:96
+#: libs/s25main/gameData/BuildingConsts.cpp:98
 msgid ""
 "Skins are gathered from animal carcasses by the skinner. They are sent to "
 "the tannery for leather production. The skinner can also be supplied with "
 "pigs for extra skins."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:101
+#: libs/s25main/gameData/BuildingConsts.cpp:103
 msgid ""
 "The watchtower with its large amount of space is best suited for stationing "
 "a large number of your troops. Using the gold coin button you can stop the "
@@ -2772,7 +2794,7 @@ msgid ""
 "coins the soldiers here can not train and improve their skills."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:112
+#: libs/s25main/gameData/BuildingConsts.cpp:114
 msgid ""
 "The winegrower plants and harvests grapes in the surrounding fields. A "
 "vineyard requires a steady supply of sturdy logs for trellises and fresh "
@@ -2780,13 +2802,13 @@ msgid ""
 "pressed into wine."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:120
+#: libs/s25main/gameData/BuildingConsts.cpp:122
 msgid ""
 "At the winery, grapes are stomped in a vat to produce wine. The vintner's "
 "wine is of high quality, worthy of sacrifice at the temple."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:125
+#: libs/s25main/gameData/BuildingConsts.cpp:127
 msgid ""
 "The temple servant sacrifices wine and food granting a blessing of gold, "
 "iron ore, coal or granite. This allows your iron founder and minter to "
@@ -2794,14 +2816,14 @@ msgid ""
 "selected by toggling the output button."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:133
+#: libs/s25main/gameData/BuildingConsts.cpp:135
 msgid ""
 "The tanner works animal skins to form leather. Before tanning; the skins are "
 "cured, scraped and stretched on wooden frames made from boards. Leather is "
 "used to produce armor at the leatherworks."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:138
+#: libs/s25main/gameData/BuildingConsts.cpp:140
 msgid ""
 "The defensive capabilities and size of the fortress are unsurpassed. This "
 "stronghold ensures that other valuable buildings and commodities are "
@@ -2810,36 +2832,36 @@ msgid ""
 "soldiers here can not train and improve their skills."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:151
+#: libs/s25main/gameData/BuildingConsts.cpp:153
 msgid ""
 "The quarrying of stone in a granite mine guarantees the supply of stone for "
 "buildings. However, even a granite mine has to feed its workers."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:157
+#: libs/s25main/gameData/BuildingConsts.cpp:159
 msgid ""
 "The mining of coal supports the metalworks and smithy. This hard work "
 "requires an adequate supply of food."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:162
+#: libs/s25main/gameData/BuildingConsts.cpp:164
 msgid ""
 "Deep within the mountains, miners dig for iron ore. They will obviously need "
 "a lot of food for the strenuous work."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:167
+#: libs/s25main/gameData/BuildingConsts.cpp:169
 msgid ""
 "A gold mine allows you to prospect for valuable gold deposits. For this, it "
 "is necessary to ensure that the miners are provided with plenty of food."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:174
+#: libs/s25main/gameData/BuildingConsts.cpp:176
 msgid ""
 "From the lookout tower you can see far into previously unexplored lands."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:178
+#: libs/s25main/gameData/BuildingConsts.cpp:180
 msgid ""
 "The leatherworker crafts armor from finely tanned leather. The armor is then "
 "transported to military buildings to bolster your soldiers defense. An "
@@ -2847,85 +2869,85 @@ msgid ""
 "survives a catapult strike, but the armor is lost once struck."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:186
+#: libs/s25main/gameData/BuildingConsts.cpp:188
 msgid ""
 "Thanks to its immense strength, the catapults represents an effective weapon "
 "against enemy military buildings."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:191
+#: libs/s25main/gameData/BuildingConsts.cpp:193
 msgid ""
 "A woodcutter provides the sawmill with logs. A forester is able to replant "
 "the depleted forest."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:196
+#: libs/s25main/gameData/BuildingConsts.cpp:198
 msgid ""
 "The fish man is responsible for finding water rich in fish. His fish feed a "
 "great many miners."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:200
+#: libs/s25main/gameData/BuildingConsts.cpp:202
 msgid ""
 "The stonemason works the stone near his quarry into bricks. These are needed "
 "mainly for building houses and as ammunition for catapults."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:206
+#: libs/s25main/gameData/BuildingConsts.cpp:208
 msgid ""
 "Within his area, the forester ensures the survival of the forest. He plants "
 "all types of trees."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:211
+#: libs/s25main/gameData/BuildingConsts.cpp:213
 msgid ""
 "The butcher processes the livestock delivered into nutritious ham on which "
 "you miners are fed."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:216
+#: libs/s25main/gameData/BuildingConsts.cpp:218
 msgid "Meat the hunter acquires is used to feed the miners."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:219
+#: libs/s25main/gameData/BuildingConsts.cpp:221
 msgid ""
 "The brewer produces fine beer from grain and water. This drink is needed to "
 "fill the soldiers with courage."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:224
+#: libs/s25main/gameData/BuildingConsts.cpp:226
 msgid ""
 "The armory produces swords and strong shields. This equipment is vital for "
 "your soldiers."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:228
+#: libs/s25main/gameData/BuildingConsts.cpp:230
 msgid ""
 "The countless tools which your workers need are made in the metalworks. This "
 "requires boards and iron."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:233
+#: libs/s25main/gameData/BuildingConsts.cpp:235
 msgid ""
 "Raw iron ore is smelted in the iron smelters with the help of coal. The "
 "processed iron is then used to making weapons (in the Armory) and tools (in "
 "the metalworks)."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:240
+#: libs/s25main/gameData/BuildingConsts.cpp:242
 msgid ""
 "The charburner stacks up piles of wood and straw which is then burned to "
 "create charcoal. This can be used just like the coal from the mine without "
 "any loss in quality."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:246
+#: libs/s25main/gameData/BuildingConsts.cpp:248
 msgid ""
 "Grain and water are needed for rearing pigs. The meat thus obtained can then "
 "be processed by a butcher."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:251
+#: libs/s25main/gameData/BuildingConsts.cpp:253
 msgid ""
 "The storehouse can help reduce long transportation journeys and is suited to "
 "the temporary storage of merchandise and inhabitants. You can release "
@@ -2934,55 +2956,55 @@ msgid ""
 "choose the relevant icon followed by the desired merchandise or job symbol."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:267
+#: libs/s25main/gameData/BuildingConsts.cpp:269
 msgid ""
 "The grain is ground in the windmill. The flour from the windmill is later "
 "used at the bakery to bake bread."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:272
+#: libs/s25main/gameData/BuildingConsts.cpp:274
 msgid ""
 "The flour produced at the windmill can be combined with water in the bakery "
 "to make oven-fresh bread. It's your miners' favorite!"
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:278
+#: libs/s25main/gameData/BuildingConsts.cpp:280
 msgid ""
 "The carpenter turns the woodcutter's logs into made-to-measure planks. These "
 "form the basic for building houses and ships."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:284
+#: libs/s25main/gameData/BuildingConsts.cpp:286
 msgid ""
 "The mint is responsible for producing valuable gold coins. These precious "
 "objects are produced using coal and gold."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:289
+#: libs/s25main/gameData/BuildingConsts.cpp:291
 msgid ""
 "A well supplies water to the bakery, brewery, donkey breeder and pig farm."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:293
+#: libs/s25main/gameData/BuildingConsts.cpp:295
 msgid ""
 "It is possible to build small rowing boats as well as huge cargo ships in a "
 "shipyard. The boards required for this are skillfully worked by shipwrights."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:300
+#: libs/s25main/gameData/BuildingConsts.cpp:302
 msgid ""
 "The farmer plants and harvests grain in the surrounding fields. A windmill "
 "then processes the harvested grain into flour or can be used to feed the "
 "pigs."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:306
+#: libs/s25main/gameData/BuildingConsts.cpp:308
 msgid ""
 "The pack donkeys bred here are used to transport your merchandise more "
 "efficiently. They are reared on water and grain."
 msgstr ""
 
-#: libs/s25main/gameData/BuildingConsts.cpp:312
+#: libs/s25main/gameData/BuildingConsts.cpp:314
 msgid ""
 "Ships can only be loaded and unloaded in a harbor. Expeditions can also be "
 "prepared here. You can release certain merchandise from the storehouse, as "
@@ -3388,76 +3410,82 @@ msgstr ""
 msgid "No current job"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:48
+#: libs/s25main/ingameWindows/iwAction.cpp:49
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:14
 msgid "Activity window"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:86
-#: libs/s25main/ingameWindows/iwAction.cpp:97
+#: libs/s25main/ingameWindows/iwAction.cpp:87
+#: libs/s25main/ingameWindows/iwAction.cpp:98
 msgid "-> Build house"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:92
+#: libs/s25main/ingameWindows/iwAction.cpp:93
 msgid "-> Dig mines"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:95
+#: libs/s25main/ingameWindows/iwAction.cpp:96
 msgid "-> Build hut"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:99
+#: libs/s25main/ingameWindows/iwAction.cpp:100
 msgid "-> Build castle"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:178
+#: libs/s25main/ingameWindows/iwAction.cpp:183
+msgid ""
+"\n"
+"Range: %1% tiles"
+msgstr ""
+
+#: libs/s25main/ingameWindows/iwAction.cpp:185
 msgid ""
 "\n"
 "Costs: "
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:180
+#: libs/s25main/ingameWindows/iwAction.cpp:187
 msgid " boards"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:185
+#: libs/s25main/ingameWindows/iwAction.cpp:192
 msgid " stones"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:204
-#: libs/s25main/ingameWindows/iwAction.cpp:254
-#: libs/s25main/ingameWindows/iwAction.cpp:266
+#: libs/s25main/ingameWindows/iwAction.cpp:227
+#: libs/s25main/ingameWindows/iwAction.cpp:277
+#: libs/s25main/ingameWindows/iwAction.cpp:289
 #: libs/s25main/ingameWindows/iwRoadWindow.cpp:27
 msgid "Erect flag"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:211
-#: libs/s25main/ingameWindows/iwAction.cpp:223
-#: libs/s25main/ingameWindows/iwAction.cpp:237
-#: libs/s25main/ingameWindows/iwAction.cpp:243
+#: libs/s25main/ingameWindows/iwAction.cpp:234
+#: libs/s25main/ingameWindows/iwAction.cpp:246
+#: libs/s25main/ingameWindows/iwAction.cpp:260
+#: libs/s25main/ingameWindows/iwAction.cpp:266
 msgid "Build road"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:213
-#: libs/s25main/ingameWindows/iwAction.cpp:227
+#: libs/s25main/ingameWindows/iwAction.cpp:236
+#: libs/s25main/ingameWindows/iwAction.cpp:250
 msgid "Pull down flag"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:215
-#: libs/s25main/ingameWindows/iwAction.cpp:229
+#: libs/s25main/ingameWindows/iwAction.cpp:238
+#: libs/s25main/ingameWindows/iwAction.cpp:252
 msgid "Call in geologist"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:217
-#: libs/s25main/ingameWindows/iwAction.cpp:231
+#: libs/s25main/ingameWindows/iwAction.cpp:240
+#: libs/s25main/ingameWindows/iwAction.cpp:254
 msgid "Send out scout"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:225
+#: libs/s25main/ingameWindows/iwAction.cpp:248
 msgid "Build waterway"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:245
+#: libs/s25main/ingameWindows/iwAction.cpp:268
 #: libs/s25main/ingameWindows/iwBaseWarehouse.cpp:91
 #: libs/s25main/ingameWindows/iwBuilding.cpp:64
 #: libs/s25main/ingameWindows/iwBuildingSite.cpp:33
@@ -3465,73 +3493,73 @@ msgstr ""
 msgid "Demolish house"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:272
-#: libs/s25main/ingameWindows/iwAction.cpp:281
+#: libs/s25main/ingameWindows/iwAction.cpp:295
+#: libs/s25main/ingameWindows/iwAction.cpp:304
 msgid "Dig up road"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:286
-#: libs/s25main/ingameWindows/iwAction.cpp:294
+#: libs/s25main/ingameWindows/iwAction.cpp:309
+#: libs/s25main/ingameWindows/iwAction.cpp:317
 msgid "Attack options"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:309
-#: libs/s25main/ingameWindows/iwAction.cpp:311
+#: libs/s25main/ingameWindows/iwAction.cpp:332
+#: libs/s25main/ingameWindows/iwAction.cpp:334
 msgid "Build headquarters"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:314
+#: libs/s25main/ingameWindows/iwAction.cpp:337
 msgid "Display options"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:318
+#: libs/s25main/ingameWindows/iwAction.cpp:341
 #: libs/s25main/ingameWindows/iwObservate.cpp:33
 msgid "Observation window"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:320
+#: libs/s25main/ingameWindows/iwAction.cpp:343
 msgid "House names"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:323
+#: libs/s25main/ingameWindows/iwAction.cpp:346
 msgid "Go to headquarters"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:326
+#: libs/s25main/ingameWindows/iwAction.cpp:349
 msgid "Notify allies of this location"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:351
+#: libs/s25main/ingameWindows/iwAction.cpp:374
 msgid "Upgrade to donkey road"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:372
+#: libs/s25main/ingameWindows/iwAction.cpp:395
 msgid "Attack not possible."
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:379
+#: libs/s25main/ingameWindows/iwAction.cpp:402
 #: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "Less attackers"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:381
+#: libs/s25main/ingameWindows/iwAction.cpp:404
 #: libs/s25main/ingameWindows/iwMilitary.cpp:52
 msgid "More attackers"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:386
+#: libs/s25main/ingameWindows/iwAction.cpp:409
 msgid "Weak attackers"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:388
+#: libs/s25main/ingameWindows/iwAction.cpp:411
 msgid "Strong attackers"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:398
+#: libs/s25main/ingameWindows/iwAction.cpp:421
 msgid "Number of attackers"
 msgstr ""
 
-#: libs/s25main/ingameWindows/iwAction.cpp:402
+#: libs/s25main/ingameWindows/iwAction.cpp:425
 msgid "Attack!"
 msgstr ""
 
@@ -3760,7 +3788,7 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwBuilding.cpp:92
 #: libs/s25main/ingameWindows/iwBuilding.cpp:189
-#: libs/s25main/world/GameWorldView.cpp:427
+#: libs/s25main/world/GameWorldView.cpp:442
 msgid "(House unoccupied)"
 msgstr ""
 
@@ -4056,8 +4084,8 @@ msgstr ""
 
 #: libs/s25main/ingameWindows/iwLobbyConnect.cpp:176
 msgid ""
-"To register, you have to create a valid board account at http://"
-"forum.siedler25.org at the moment.\n"
+"To register, you have to create a valid board account at http://forum."
+"siedler25.org at the moment.\n"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwLobbyServerInfo.cpp:29
@@ -4553,13 +4581,13 @@ msgid "Delete selected"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:94
-#: libs/s25main/network/GameClient.cpp:1490
+#: libs/s25main/network/GameClient.cpp:1474
 msgid "Invalid Replay %1%! Reason: %2%\n"
 msgstr ""
 
 #: libs/s25main/ingameWindows/iwPlayReplay.cpp:95
 #: libs/s25main/ingameWindows/iwSave.cpp:105
-#: libs/s25main/network/GameClient.cpp:1491
+#: libs/s25main/network/GameClient.cpp:1475
 msgid "Unknown"
 msgstr ""
 
@@ -4880,86 +4908,86 @@ msgstr ""
 msgid "Unknown error!"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:720
+#: libs/s25main/network/GameClient.cpp:704
 msgid "Version mismatch. Server version: %1%, your version %2%"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:885
+#: libs/s25main/network/GameClient.cpp:869
 msgid ""
 "Async log saved at %1%,\n"
 "game saved at %2%\n"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1372
+#: libs/s25main/network/GameClient.cpp:1356
 msgid ""
 "Error during execution of lua script: %1%\n"
 "Game stopped!"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1414
-#: libs/s25main/network/GameClient.cpp:1416
+#: libs/s25main/network/GameClient.cpp:1398
+#: libs/s25main/network/GameClient.cpp:1400
 msgid "Auto-Save"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1477
+#: libs/s25main/network/GameClient.cpp:1461
 msgid "Replayfile couldn't be opened. No replay will be recorded\n"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1541
+#: libs/s25main/network/GameClient.cpp:1525
 msgid "Error decompressing map file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1550
+#: libs/s25main/network/GameClient.cpp:1534
 msgid "Error decompressing lua file"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1567
+#: libs/s25main/network/GameClient.cpp:1551
 #, c-format
 msgid "Error when loading game from replay: %s\n"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1684
+#: libs/s25main/network/GameClient.cpp:1644
 #, c-format
 msgid "current GF: %u - still fast forwarding: %d GFs left (%d %%)"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1698
+#: libs/s25main/network/GameClient.cpp:1658
 #, c-format
 msgid "Jump finished (%1$.3g seconds)."
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1717
+#: libs/s25main/network/GameClient.cpp:1677
 msgid "Saving game..."
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1745
+#: libs/s25main/network/GameClient.cpp:1705
 msgid "Error during saving: "
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1883
+#: libs/s25main/network/GameClient.cpp:1843
 msgid "Disabled AI for current player"
 msgstr ""
 
-#: libs/s25main/network/GameClient.cpp:1887
+#: libs/s25main/network/GameClient.cpp:1847
 msgid "Enabled AI for current player"
 msgstr ""
 
-#: libs/s25main/network/GameClientGF_Replay.cpp:48
+#: libs/s25main/network/GameClientGF_Replay.cpp:33
 #, c-format
 msgid ""
 "Warning: The played replay is not in sync with the original match. (GF: %u)"
 msgstr ""
 
-#: libs/s25main/network/GameClientGF_Replay.cpp:83
+#: libs/s25main/network/GameClientGF_Replay.cpp:60
 #, c-format
 msgid ""
 "Notice: The played replay has ended. (GF: %u, %dh %dmin %ds, TF: %u, "
 "AVG_FPS: %u)"
 msgstr ""
 
-#: libs/s25main/network/GameClientGF_Replay.cpp:97
+#: libs/s25main/network/GameClientGF_Replay.cpp:72
 #, c-format
-msgid "Notice: Overall asynchronous frame count: %u"
+msgid "Notice: The replay was out of sync from GF %u on."
 msgstr ""
 
 #: libs/s25main/network/GameServer.cpp:656
@@ -5036,7 +5064,7 @@ msgstr ""
 msgid "A ship has reached the destination of its expedition."
 msgstr ""
 
-#: libs/s25main/nodeObjs/noShipBuildingSite.cpp:96
+#: libs/s25main/nodeObjs/noShipBuildingSite.cpp:95
 msgid "A new ship is ready"
 msgstr ""
 
@@ -5129,15 +5157,15 @@ msgstr ""
 msgid "Lost land by this building"
 msgstr ""
 
-#: libs/s25main/world/GameWorldView.cpp:429
+#: libs/s25main/world/GameWorldView.cpp:444
 msgid "(stopped)"
 msgstr ""
 
-#: libs/s25main/world/GameWorldView.cpp:452
+#: libs/s25main/world/GameWorldView.cpp:467
 msgid "(1 soldier)"
 msgstr ""
 
-#: libs/s25main/world/GameWorldView.cpp:454
+#: libs/s25main/world/GameWorldView.cpp:469
 #, c-format
 msgid "(%d soldiers)"
 msgstr ""
